@@ -1,0 +1,55 @@
+{
+  "id": "budget",
+  "title": "How the Union Budget actually gets made",
+  "pillar": "Civic Literacy",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Every February, one document decides how ₹48 lakh crore gets spent.",
+      "sub": "Most people never learn how it's actually built.",
+      "narration": "Every February, one document decides how forty eight lakh crore rupees gets spent. Most people never learn how it's actually built."
+    },
+    {
+      "kind": "point",
+      "text": "The process starts almost 6 months earlier. Ministries submit spending demands.",
+      "narration": "The process starts almost six months earlier. Ministries submit spending demands."
+    },
+    {
+      "kind": "point",
+      "text": "The Finance Ministry negotiates them down, line by line."
+    },
+    {
+      "kind": "point",
+      "text": "The Chief Economic Advisor drafts the Economic Survey — it sets the tone.",
+      "narration": "The Chief Economic Advisor drafts the Economic Survey. It sets the tone."
+    },
+    {
+      "kind": "stat",
+      "text": "The Finance Minister presents it in Parliament.",
+      "stat": "Feb 1",
+      "statLabel": "Union Budget presentation date",
+      "narration": "The Finance Minister presents it in Parliament, on February first."
+    },
+    {
+      "kind": "stat",
+      "text": "It must pass both houses before the new financial year begins.",
+      "stat": "Apr 1",
+      "statLabel": "new financial year starts",
+      "narration": "It must pass both houses before the new financial year begins, on April first."
+    },
+    {
+      "kind": "point",
+      "text": "Three numbers to actually watch: fiscal deficit, capital expenditure, and your sector's allocation."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't civic trivia.",
+      "sub": "It tells you where the money — and the jobs — are heading next.",
+      "narration": "This isn't civic trivia. It tells you where the money, and the jobs, are heading next."
+    }
+  ],
+  "outroCta": "Save this for budget season",
+  "outroNarration": "Save this for budget season. Follow Bharat, at, one hundred."
+}

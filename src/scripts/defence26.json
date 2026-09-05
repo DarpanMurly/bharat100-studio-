@@ -1,0 +1,60 @@
+{
+  "id": "defence26",
+  "title": "India's defence exports just hit a record",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-03",
+  "sources": [
+    "ThePrint, 1 Sep 2026 — India's defence exports rocket to Rs 38,424 cr in FY26, up 63%",
+    "PIB, 1 Sep 2026 — The Defence Decade",
+    "Indian Defence News, 1 Sep 2026 — Rajnath Singh reviews DPSU performance"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just posted its biggest defence export year ever.",
+      "sub": "And it's not who you'd expect selling the most."
+    },
+    {
+      "kind": "stat",
+      "text": "Defence exports hit a record in FY26.",
+      "stat": "₹38,424 Cr",
+      "statLabel": "defence exports, FY 2025-26",
+      "narration": "In the financial year just ended, India's defence exports hit thirty eight thousand, four hundred twenty four crore rupees."
+    },
+    {
+      "kind": "stat",
+      "text": "That's a huge jump from the year before.",
+      "stat": "63%",
+      "statLabel": "growth over FY25",
+      "narration": "That's sixty three percent higher than the year before, and fifty six times what India exported back in twenty thirteen."
+    },
+    {
+      "kind": "point",
+      "text": "Nearly half of it came from private companies and startups — not just government-run defence firms.",
+      "narration": "Nearly half of it came from private companies and startups, not just government run defence firms."
+    },
+    {
+      "kind": "point",
+      "text": "On August 28th, the government eased export rules further — licenses now valid for 3 years, covering almost every country.",
+      "narration": "On August twenty eighth, the government eased export rules further. Licenses are now valid for three years, covering almost every country."
+    },
+    {
+      "kind": "point",
+      "text": "India now exports defence equipment to over 80 countries, through 145 different firms.",
+      "narration": "India now exports defence equipment to over eighty countries, through one hundred forty five different firms."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't just a policy win —",
+      "sub": "it's real manufacturing and engineering demand, and it's growing fast.",
+      "narration": "This isn't just a policy win. It's real manufacturing and engineering demand, and it's growing fast."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just posted its biggest defence export year ever.\n\n₹38,424 crore in FY26 — up 63% from the year before, and 56 times what India exported back in 2013-14. Nearly half of it came from private companies and startups, not just government-run defence firms.\n\nOn August 28, the government eased export rules further: licenses now valid for 3 years, covering almost every country. India now exports to over 80 countries, through 145 different firms.\n\nThis is real manufacturing and engineering demand — and it's growing fast.\n\nSources: ThePrint, PIB, Indian Defence News (1 Sep 2026)\n\nIndependent citizen project. Not affiliated with the Government of India.",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#DefenceExports", "#MakeInIndia", "#AtmanirbharBharat", "#IndianEconomy", "#Manufacturing", "#India2047", "#DefenceIndustry", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

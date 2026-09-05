@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "1825",
+      "headline": "Born on September 4th: the man who first made Britain listen to India."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who",
+      "headline": "Dadabhai Naoroji",
+      "body": "Born in Navsari, Gujarat, in 1825. A scholar, merchant, and the man later called the 'Grand Old Man of India' — decades before independence was even a mainstream demand."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he did",
+      "headline": "He took India's case straight into the British Parliament.",
+      "body": "In 1892, Naoroji became the first Indian ever elected to the British House of Commons — winning by just 5 votes. He used the seat to argue, in Britain's own parliament, that colonial rule was draining India's wealth."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He didn't wait for permission to demand a seat at the table.",
+      "body": "Every generation since has had to do the same — in institutions, in industry, in the sectors now shaping India's next 20 years. That instinct is the throughline to Viksit Bharat 2047."
+    }
+  ]
+}

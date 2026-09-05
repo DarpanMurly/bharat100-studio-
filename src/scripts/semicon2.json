@@ -1,0 +1,58 @@
+{
+  "id": "semicon2",
+  "title": "India just doubled its chip bet",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-02",
+  "sources": [
+    "Business Today, 31 Aug 2026 — Semicon 2.0 notified, ₹1.27 lakh crore scheme",
+    "Business Standard, 31 Aug 2026 — Govt notifies ₹1.27 trillion Semicon 2.0, 40% fab capex support",
+    "India Briefing — Semicon 2.0 opens new frontiers for global semiconductor firms"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Two days ago, India more than doubled its bet on making chips.",
+      "sub": "Here's what just changed."
+    },
+    {
+      "kind": "stat",
+      "text": "The government notified Semicon 2.0 on August 31st.",
+      "stat": "₹1.27 lakh Cr",
+      "statLabel": "newly notified chip scheme",
+      "narration": "On August thirty first, the government notified Semicon two point zero, a one lakh twenty seven thousand crore rupee scheme."
+    },
+    {
+      "kind": "point",
+      "text": "That's more than double the ₹76,000 crore committed under the first scheme, back in 2022.",
+      "narration": "That's more than double the seventy six thousand crore rupees committed under the first scheme, back in twenty twenty two."
+    },
+    {
+      "kind": "stat",
+      "text": "For new fabrication plants, government support just got a lot more generous.",
+      "stat": "40%",
+      "statLabel": "of fab capex now covered by government support",
+      "narration": "For new fabrication plants, the government will now cover forty percent of capital costs."
+    },
+    {
+      "kind": "point",
+      "text": "This round also funds chip design, advanced packaging, and specialty materials — not just building the factories.",
+      "narration": "This round also funds chip design, advanced packaging, and specialty materials, not just building the factories."
+    },
+    {
+      "kind": "point",
+      "text": "Translation: more roles opening up beyond fab technicians — design engineers, materials scientists, packaging specialists."
+    },
+    {
+      "kind": "closer",
+      "text": "If you follow this space —",
+      "sub": "this is the clearest signal yet that India is playing the long game on chips.",
+      "narration": "If you follow this space, this is the clearest signal yet that India is playing the long game on chips."
+    }
+  ],
+  "outroCta": "Follow for what this means for jobs",
+  "outroNarration": "Follow Bharat, at, one hundred, for what this means for jobs.",
+  "caption": "India just more than doubled its bet on semiconductors.\n\nOn August 31, the government notified Semicon 2.0 — a ₹1.27 lakh crore scheme, versus ₹76,000 crore under the first phase in 2022. New fabs now get 40% of capital costs covered, and this round also funds chip design, packaging, and specialty materials — not just factories.\n\nIf you're in engineering, or thinking about where to build a career next — this sector just got a lot more serious.\n\nSources: Business Today, Business Standard, India Briefing (31 Aug 2026)\n\nIndependent citizen project. Not affiliated with the Government of India.",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#Semiconductors", "#SemiconIndia", "#MakeInIndia", "#IndianEconomy", "#CareerAdvice", "#TechJobs", "#India2047", "#EconomicPolicy"]
+}

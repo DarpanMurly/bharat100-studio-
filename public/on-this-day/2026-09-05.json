@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "1888",
+      "headline": "Born on September 5th: the philosopher who became a president, then gave his birthday away."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who",
+      "headline": "Dr. Sarvepalli Radhakrishnan",
+      "body": "Born in Tiruttani, Tamil Nadu, in 1888. A philosopher and scholar who became India's Vice President in 1952, then its second President from 1962 to 1967. Awarded the Bharat Ratna in 1954."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he did",
+      "headline": "In 1962, his students wanted to celebrate his birthday. He redirected it.",
+      "body": "When friends and students asked to mark his birthday as President, Radhakrishnan asked instead that the day be dedicated to every teacher in the country. That request became Teachers' Day — observed every September 5th since."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He turned personal recognition into a system that outlasted him.",
+      "body": "Every teacher shaping the workforce behind India's next 20 years traces back to that one instinct — build something bigger than yourself. That's the same bet Viksit Bharat 2047 is making, at national scale."
+    }
+  ]
+}

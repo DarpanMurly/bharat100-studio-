@@ -1,0 +1,50 @@
+{
+  "id": "semiconductors",
+  "title": "Why India is betting big on semiconductors",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India wants to make the chip inside your next phone.",
+      "sub": "Here's why that's a bigger deal than it sounds."
+    },
+    {
+      "kind": "stat",
+      "text": "Over 90% of advanced chips come from just two countries.",
+      "stat": "90%",
+      "statLabel": "from Taiwan + South Korea",
+      "narration": "Over ninety percent of advanced chips come from just two countries — Taiwan and South Korea."
+    },
+    {
+      "kind": "stat",
+      "text": "India has committed to building its own chip industry from scratch.",
+      "stat": "₹76,000 Cr",
+      "statLabel": "committed to India's semiconductor mission",
+      "narration": "India has committed seventy six thousand crore rupees to building its own chip industry, from scratch."
+    },
+    {
+      "kind": "point",
+      "text": "First fab plants are coming up in Gujarat and Assam.",
+      "narration": "First fab plants are coming up in Gujarat and Assam."
+    },
+    {
+      "kind": "point",
+      "text": "Chips don't just run phones — they run cars, hospitals, and defence systems.",
+      "narration": "Chips don't just run phones. They run cars, hospitals, and defence systems."
+    },
+    {
+      "kind": "point",
+      "text": "This creates hundreds of thousands of high-skill jobs: design engineers, fab technicians, process specialists."
+    },
+    {
+      "kind": "closer",
+      "text": "If you're in engineering, or considering it —",
+      "sub": "semiconductors might be the most under-the-radar career bet of this decade.",
+      "narration": "If you're in engineering, or considering it, semiconductors might be the most under the radar career bet of this decade."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bharat, at, one hundred, for the next sector breakdown."
+}

@@ -2,6 +2,22 @@ node_modules
 dist
 .DS_Store
 .env
+youtube-client-secret.json
+youtube-token.json
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Generated build artifacts from the content pipeline (TTS audio, ffmpeg
+# concat lists, timing manifests) — all reproducible by re-running the
+# render scripts against the source content JSON, which IS tracked.
+public/*/*.mp3
+public/*/*.txt
+public/*/timings.json
+public/*/props.json
+public/*/*.props.json
+
+# Approved/published content (rendered video/image files + local review
+# queue state) — regenerable from the source scripts, grows daily,
+# not meant to live in git history long-term.
+content-queue/

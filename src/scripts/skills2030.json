@@ -1,0 +1,43 @@
+{
+  "id": "skills2030",
+  "title": "3 skills worth learning before 2030",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "If I were starting my career today, knowing where India is headed by 2030 —",
+      "sub": "here's what I'd actually learn.",
+      "narration": "If I were starting my career today, knowing where India is headed by twenty thirty, here's what I'd actually learn."
+    },
+    {
+      "kind": "point",
+      "text": "One. Applied AI — not just prompting, but plugging AI tools into a real workflow in your industry.",
+      "narration": "One. Applied AI. Not just prompting, but plugging AI tools into a real workflow in your industry."
+    },
+    {
+      "kind": "point",
+      "text": "Two. Basic data literacy — reading a dashboard, spotting a trend, regardless of your field."
+    },
+    {
+      "kind": "point",
+      "text": "Three. Bilingual content fluency — English plus one Indian language, as India's internet audience crosses a billion."
+    },
+    {
+      "kind": "stat",
+      "text": "None of these need a four-year degree.",
+      "stat": "6 months",
+      "statLabel": "to build real proficiency, with consistent practice",
+      "narration": "None of these need a four year degree. Six months is enough to build real proficiency, with consistent practice."
+    },
+    {
+      "kind": "closer",
+      "text": "Which of these are you weakest at?",
+      "sub": "Comment below — next week's video goes to the top vote.",
+      "narration": "Which of these are you weakest at? Comment below. Next week's video goes to the top vote."
+    }
+  ],
+  "outroCta": "Comment your answer below",
+  "outroNarration": "Comment your answer below, and follow Bharat, at, one hundred, for the next breakdown."
+}
