@@ -24,7 +24,7 @@
   "videoFile": "video.mp4",
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-10_diaspora-philanthropy26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
-  "status": "approved",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -33,5 +33,16 @@
     "Facebook",
     "Bluesky"
   ],
-  "approvedAt": "2026-09-08T15:36:25.854Z"
+  "approvedAt": "2026-09-08T15:36:25.854Z",
+  "scheduledAt": "2026-09-10T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa0632073326d4d862df0b7",
+    "X": "6aa0632173326d4d862df0e2",
+    "Threads": "6aa063223f77e5af54cc9fe6"
+  },
+  "youtubeVideoId": "mQ_0MXNFyUk",
+  "youtubeUrl": "https://youtube.com/watch?v=mQ_0MXNFyUk",
+  "youtubeScheduledAt": "2026-09-10T17:00:00.000Z",
+  "facebookPostId": "1240355019172466",
+  "facebookScheduledAt": "2026-09-10T17:00:00.000Z"
 }
