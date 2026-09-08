@@ -18,7 +18,16 @@ public/*/timings.json
 public/*/props.json
 public/*/*.props.json
 
-# Approved/published content (rendered video/image files + local review
-# queue state) — regenerable from the source scripts, grows daily,
-# not meant to live in git history long-term.
-content-queue/
+# Rendered media inside the review queue — large, regenerable from the
+# source scripts, not meant to live in git history. card.json IS tracked
+# (see below) since it's the small text/metadata record a cloud-hosted
+# scheduled workflow (Bluesky, .github/workflows/bluesky-schedule.yml)
+# needs to read to know what's queued for today — this is the ONLY
+# reason content-queue stopped being fully gitignored (2026-09-08).
+content-queue/**/*.mp4
+content-queue/**/*.jpg
+content-queue/**/*.jpeg
+content-queue/**/*.png
+content-queue/archive-data.json
+content-queue/analytics-snapshot.json
+content-queue/search-console-snapshot.json

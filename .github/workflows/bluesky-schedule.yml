@@ -1,0 +1,64 @@
+name: Bluesky scheduled posting
+
+# Bluesky's API has no native "schedule for later" — every post goes live
+# the instant the API call is made. Every other platform in this pipeline
+# (Buffer, YouTube, Facebook) supports queuing a post for a future slot
+# time; this workflow is the workaround for Bluesky specifically — it
+# fires a real job at each pillar's exact IST slot time (converted to
+# UTC below), independent of any local machine being on, so Bluesky
+# posts land at the same instant as everything else instead of bursting
+# all 5 out together at approval time.
+#
+# IST -> UTC conversions (IST is UTC+5:30), matching pipeline/slots.mjs:
+#   Global Bharat        6:00 IST  -> 00:30 UTC
+#   Personal Growth       8:00 IST  -> 02:30 UTC
+#   Builder Story        13:00 IST  -> 07:30 UTC
+#   Sector Futures        19:00 IST  -> 13:30 UTC
+#   Diaspora Dividend    22:30 IST  -> 17:00 UTC
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # Global Bharat
+    - cron: "30 2 * * *"   # Personal Growth (motivational-short)
+    - cron: "30 7 * * *"   # Builder Story (on-this-day-short)
+    - cron: "30 13 * * *"  # Sector Futures
+    - cron: "0 17 * * *"   # Diaspora Dividend
+  workflow_dispatch: {}    # allows a manual "Run workflow" trigger for testing
+
+jobs:
+  post-to-bluesky:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Determine pillar for this run and post
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: |
+          HOUR_MIN=$(date -u +%H:%M)
+          case "$HOUR_MIN" in
+            00:3*) PILLAR="global-bharat" ;;
+            02:3*) PILLAR="motivational-short" ;;
+            07:3*) PILLAR="on-this-day-short" ;;
+            13:3*) PILLAR="video" ;;
+            17:0*) PILLAR="diaspora-dividend" ;;
+            *) echo "No pillar mapped for time $HOUR_MIN (manual run?) — defaulting to video for a dry check."; PILLAR="video" ;;
+          esac
+          echo "Running for pillar: $PILLAR (UTC time: $HOUR_MIN)"
+          node pipeline/bluesky-slot-runner.mjs "$PILLAR"
+
+      - name: Commit updated card.json if changed
+        run: |
+          git config user.name "bharat100-bot"
+          git config user.email "actions@github.com"
+          git add content-queue/
+          git diff --cached --quiet || git commit -m "Bluesky: record post URI/timestamp [skip ci]"
+          git push

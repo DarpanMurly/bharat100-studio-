@@ -56,6 +56,28 @@ async function approveAndPublishOne(postId, extraArgs) {
   await run("publish-all.mjs", [postId, ...extraArgs]);
 }
 
+// Bluesky has no native "schedule for later" — the GitHub Actions
+// workflow at .github/workflows/bluesky-schedule.yml fires a real job at
+// each pillar's slot time to work around that, but it only sees whatever
+// is already pushed to GitHub. Push card.json updates (approvedAt,
+// status, platform post IDs) right after publishing so that workflow's
+// checkout always has current data, without a separate manual step.
+async function pushCardUpdates() {
+  try {
+    await execFileAsync("git", ["add", "content-queue/"], { cwd: ROOT });
+    const { stdout: diffStat } = await execFileAsync("git", ["diff", "--cached", "--stat"], { cwd: ROOT });
+    if (!diffStat.trim()) {
+      console.log("\nNo content-queue changes to push.");
+      return;
+    }
+    await execFileAsync("git", ["commit", "-m", "Approve and publish: sync card.json updates [skip ci]"], { cwd: ROOT });
+    await execFileAsync("git", ["push"], { cwd: ROOT });
+    console.log("\nPushed card.json updates to GitHub (for the Bluesky scheduled workflow).");
+  } catch (err) {
+    console.error(`\nWarning: could not push card.json updates to GitHub — the Bluesky scheduled workflow may see stale data until this is pushed manually. (${err.message})`);
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const extraArgs = args.filter((a) => a.startsWith("--"));
@@ -69,6 +91,8 @@ async function main() {
   for (const postId of postIds) {
     await approveAndPublishOne(postId, extraArgs);
   }
+
+  await pushCardUpdates();
 }
 
 main().catch((err) => {
