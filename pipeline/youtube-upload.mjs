@@ -2,17 +2,20 @@
 // Uploads the approved video at content-queue/(approved|pending)/<id>/video.mp4
 // to YouTube. Requires youtube-auth.mjs to have been run once already.
 //
-// First real upload (2026-09-05) landed as Public immediately, despite the
-// unaudited-client private-lock policy we expected — the compliance audit
-// may not be strictly required at this account's current scale, or Google
-// hasn't flagged this project. The fallback check below still logs a note
-// if a future upload ever does land private, so nothing silently changes.
+// Always uploads as private with publishAt set to the same slot instant
+// publish-to-buffer.mjs uses for Instagram/X/Threads (via slots.mjs), so
+// YouTube flips public automatically in sync with the other three
+// platforms instead of going live the moment this script runs. Do not
+// hardcode privacyStatus: "public" here again — see the incident on
+// 2026-09-05/06 where all three platforms were meant to go live together
+// at the scheduled slot, but YouTube uploads went public immediately.
 
 import { google } from "googleapis";
 import fs from "node:fs";
 import fsp from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -43,6 +46,53 @@ async function findQueueDir(postId) {
   throw new Error(`No queue folder found for "${postId}" in approved/ or pending/`);
 }
 
+// Broad, always-relevant discovery keywords added to every upload's tags
+// on top of the post's own hashtags — these are the terms someone
+// searching for this channel's subject matter would actually type,
+// distinct from the narrower per-post hashtags.
+const BASE_TAGS = [
+  "India",
+  "Viksit Bharat 2047",
+  "India 2047",
+  "Indian economy",
+  "India growth story",
+  "Make in India",
+];
+
+const PILLAR_TAGS = {
+  "Sector Futures": ["India manufacturing", "India economy news", "India business"],
+  "Builder Story": ["Indian history", "on this day India", "Indian history facts"],
+  "Personal Growth": ["motivation India", "success mindset", "daily motivation"],
+};
+
+function buildTags(card) {
+  const own = (card.hashtags ?? []).map((h) => h.replace(/^#/, ""));
+  const pillar = PILLAR_TAGS[card.pillar] ?? [];
+  // De-dupe case-insensitively while preserving first-seen casing —
+  // YouTube's 500-char total tag budget makes redundant tags wasteful.
+  const seen = new Set();
+  const out = [];
+  for (const tag of [...own, ...pillar, ...BASE_TAGS]) {
+    const key = tag.toLowerCase();
+    if (!seen.has(key)) {
+      seen.add(key);
+      out.push(tag);
+    }
+  }
+  return out;
+}
+
+// YouTube Shorts discovery favors #Shorts appearing in the TITLE itself,
+// not just the description — front-load it isn't right (hurts
+// readability), so append when there's room within the 100-char cap.
+function buildYoutubeTitle(card) {
+  const base = (card.youtubeTitle ?? card.title).slice(0, 100);
+  if (!card.videoFile) return base; // non-Shorts content, no tag needed
+  if (base.toLowerCase().includes("#shorts")) return base;
+  const withTag = `${base} #Shorts`;
+  return withTag.length <= 100 ? withTag : base;
+}
+
 async function main() {
   const postId = process.argv[2];
   if (!postId) {
@@ -67,7 +117,14 @@ async function main() {
   const auth = await getAuthedClient();
   const youtube = google.youtube({ version: "v3", auth });
 
-  console.log(`\n=== Uploading "${card.title}" to YouTube ===`);
+  // Match the same slot instant Buffer schedules Instagram/X/Threads to,
+  // so all four platforms go live simultaneously rather than YouTube
+  // jumping the queue at upload time.
+  const contentType = card.type ?? "video";
+  const slotHour = SLOT_HOURS_IST[contentType];
+  const publishAt = nextSlotUtc(slotHour, card.date);
+
+  console.log(`\n=== Uploading "${card.title}" to YouTube (scheduled for ${publishAt}) ===`);
 
   const res = await youtube.videos.insert({
     part: ["snippet", "status"],
@@ -76,17 +133,26 @@ async function main() {
         // youtubeTitle (when present) is the clean, untruncated-by-preview
         // title meant for actual publishing; card.title can be a shortened
         // internal preview string (e.g. already ending in "...") that must
-        // never be truncated a second time here.
-        title: (card.youtubeTitle ?? card.title).slice(0, 100),
+        // never be truncated a second time here. #Shorts is appended when
+        // it fits — Shorts discovery favors it appearing in the title
+        // itself, not just the description.
+        title: buildYoutubeTitle(card),
         // #Shorts must appear in the description/title for YouTube to
         // reliably classify the upload as a Short even though duration +
         // aspect ratio should be enough on their own.
         description: card.captionYoutube ?? card.caption ?? "",
-        tags: (card.hashtags ?? []).map((h) => h.replace(/^#/, "")),
+        // Own hashtags first (most specific), then pillar-level and
+        // channel-wide discovery keywords — see buildTags(). Broad terms
+        // like "India" or "Viksit Bharat 2047" help suggested-Shorts
+        // placement beyond whoever already searches this exact headline.
+        tags: buildTags(card),
         categoryId: "25", // News & Politics
       },
       status: {
-        privacyStatus: "public",
+        // YouTube only honors publishAt when privacyStatus is "private" at
+        // upload time — it flips to public automatically at that instant.
+        privacyStatus: "private",
+        publishAt,
         selfDeclaredMadeForKids: false,
       },
     },
@@ -96,16 +162,35 @@ async function main() {
   });
 
   const videoId = res.data.id;
-  console.log(`\nUploaded: https://youtube.com/watch?v=${videoId}`);
+  console.log(`\nUploaded (scheduled): https://youtube.com/watch?v=${videoId}`);
+  console.log(`Will go public at: ${publishAt}`);
 
-  if (res.data.status?.privacyStatus !== "public") {
-    console.log(
-      `\nNote: video landed as "${res.data.status?.privacyStatus}" — this is expected until the compliance audit is approved. Switch it to Public manually in YouTube Studio.`
-    );
+  // Custom thumbnail: a deliberately-extracted frame (see
+  // extract-thumbnail.mjs) with fully-visible headline text, set instead
+  // of leaving YouTube to auto-pick a random frame that might land on a
+  // transition/blur with nothing readable. Requires the channel's
+  // custom-thumbnail permission (phone-verified 2026-09-07) — if a
+  // future channel/account doesn't have it, this fails loudly rather
+  // than silently, which is correct: better to notice than to publish
+  // videos nobody bothered to give a thumbnail.
+  if (card.thumbnailFile) {
+    const thumbPath = path.join(queueDir, card.thumbnailFile);
+    try {
+      await youtube.thumbnails.set({
+        videoId,
+        media: { body: fs.createReadStream(thumbPath) },
+      });
+      console.log(`Custom thumbnail set.`);
+    } catch (err) {
+      console.error(`Thumbnail upload failed (video itself uploaded fine): ${err.message}`);
+    }
+  } else {
+    console.log(`No thumbnailFile on this card — run extract-thumbnail.mjs before uploading to get a custom thumbnail.`);
   }
 
   card.youtubeVideoId = videoId;
   card.youtubeUrl = `https://youtube.com/watch?v=${videoId}`;
+  card.youtubeScheduledAt = publishAt;
   await fsp.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 }
 

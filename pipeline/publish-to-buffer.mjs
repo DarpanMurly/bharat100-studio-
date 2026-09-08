@@ -9,37 +9,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { uploadToCloudinary } from "./cloudinary-upload.mjs";
 import { queuePost } from "./buffer-publish.mjs";
+import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-
-// IST slot hours -> content type. Buffer's dueAt is UTC; IST is UTC+5:30.
-// "-short" variants are the SAME slot as their static counterpart — every
-// content package now posts to all four platforms simultaneously, so the
-// video version replaces the still image/carousel in the daily flow
-// rather than running as a separate YouTube-only extra.
-const SLOT_HOURS_IST = {
-  motivational: 8,
-  "motivational-short": 8,
-  "on-this-day": 13,
-  "on-this-day-short": 13,
-  video: 19,
-};
-
-function nextSlotUtc(hourIst) {
-  const now = new Date();
-  // Build "today at hourIst IST" as a UTC instant, then push to tomorrow
-  // if that instant has already passed.
-  const istOffsetMinutes = 5.5 * 60;
-  const utcHour = hourIst - istOffsetMinutes / 60;
-  const target = new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), Math.floor(utcHour), (utcHour % 1) * 60, 0)
-  );
-  if (target <= now) {
-    target.setUTCDate(target.getUTCDate() + 1);
-  }
-  return target.toISOString();
-}
 
 async function findQueueDir(postId) {
   for (const sub of ["approved", "pending"]) {
@@ -66,13 +39,16 @@ async function main() {
 
   if (card.status !== "approved") {
     console.error(`Refusing to publish: card status is "${card.status}", not "approved".`);
-    console.error(`Approve it in the Content Desk dashboard first.`);
+    console.error(`Run pipeline/approve-and-publish.mjs instead of this script directly.`);
     process.exit(1);
   }
 
   const contentType = card.type ?? "video"; // sector video cards have no "type" field historically
   const slotHour = SLOT_HOURS_IST[contentType];
-  const dueAt = nextSlotUtc(slotHour);
+  // card.date is the day this content is FOR (today or explicitly a day
+  // ahead) — pass it through so a next-day-generated post always targets
+  // its own correct slot instant, never colliding with today's.
+  const dueAt = nextSlotUtc(slotHour, card.date);
 
   // Date-specific content (On This Day especially — its headline literally
   // names a calendar date) publishing more than a day late is either stale
@@ -112,6 +88,10 @@ async function main() {
   } else if (card.videoFile) {
     console.log(`Uploading video to Cloudinary...`);
     media.videoUrl = await uploadToCloudinary(path.join(queueDir, card.videoFile), { resourceType: "video" });
+    if (card.thumbnailFile) {
+      console.log(`Uploading thumbnail to Cloudinary...`);
+      media.thumbnailUrl = await uploadToCloudinary(path.join(queueDir, card.thumbnailFile));
+    }
   } else if (card.imageFile) {
     console.log(`Uploading image to Cloudinary...`);
     media.imageUrl = await uploadToCloudinary(path.join(queueDir, card.imageFile));

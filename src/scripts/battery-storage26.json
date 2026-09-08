@@ -1,0 +1,59 @@
+{
+  "id": "battery-storage26",
+  "title": "India's battery storage capacity grew 941% in one quarter",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-10",
+  "sources": [
+    "Mercom India, 2026 - India Adds 4.6 GWh of Battery Energy Storage Capacity in Q1 2026",
+    "IBEF, 2026 - India adds 4.6 GWh of energy storage capacity in first quarter of 2026",
+    "ESS News, 2026 - India to reach 346 GWh of installed battery energy storage capacity by 2033"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's battery storage capacity just grew 941% in three months.",
+      "sub": "Not over a decade. In a single quarter."
+    },
+    {
+      "kind": "stat",
+      "text": "This is how fast grid batteries are scaling right now.",
+      "stat": "4.6 GWh",
+      "statLabel": "battery storage capacity added, Q1 2026 (Mercom India)",
+      "narration": "India added four point six gigawatt hours of battery energy storage capacity in the first quarter of twenty twenty six, up nine hundred forty one percent from the previous quarter."
+    },
+    {
+      "kind": "stat",
+      "text": "And this is barely the start of the pipeline.",
+      "stat": "346 GWh",
+      "statLabel": "projected installed capacity by 2033 (from under 1 GWh today)",
+      "narration": "India's cumulative battery storage capacity is projected to grow to three hundred forty six gigawatt hours by twenty thirty three, up from less than one gigawatt hour today."
+    },
+    {
+      "kind": "point",
+      "text": "Battery storage is what lets solar and wind power run at night and on cloudy days - without it, renewable energy has a ceiling.",
+      "narration": "Battery storage is what lets solar and wind power actually run at night and on cloudy days. Without it, renewable energy has a hard ceiling."
+    },
+    {
+      "kind": "point",
+      "text": "Rajasthan leads with 42% of installed capacity, followed by Gujarat and Maharashtra - the same states already leading India's solar buildout.",
+      "narration": "Rajasthan leads with forty two percent of installed capacity, followed by Gujarat and Maharashtra - the same states already leading India's solar buildout."
+    },
+    {
+      "kind": "point",
+      "text": "The market is expected to grow from $2 billion this year to $8.6 billion by 2031 - a sector barely anyone was building five years ago."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't a side project to solar power -",
+      "sub": "it's the piece that decides whether renewable energy actually works at scale, or just looks good on paper.",
+      "narration": "This isn't a side project to solar power. It's the piece that decides whether renewable energy actually works at scale, or just looks good on paper."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's battery storage capacity just grew 941% in three months. Not over a decade. In a single quarter.\n\nIndia added 4.6 GWh of battery energy storage capacity in Q1 2026, up 941% from the previous quarter. Cumulative capacity is projected to grow to 346 GWh by 2033, up from under 1 GWh today.\n\nBattery storage is what lets solar and wind power actually run at night and on cloudy days - without it, renewable energy has a hard ceiling. Rajasthan leads with 42% of installed capacity, followed by Gujarat and Maharashtra, the same states already leading India's solar buildout.\n\nThe market is expected to grow from $2 billion this year to $8.6 billion by 2031 - a sector barely anyone was building five years ago.\n\nThis isn't a side project to solar power. It's the piece that decides whether renewable energy actually works at scale, or just looks good on paper.\n\nSources: Mercom India, IBEF, ESS News (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#BatteryStorage", "#RenewableEnergy", "#CleanEnergy", "#MakeInIndia", "#India2047", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

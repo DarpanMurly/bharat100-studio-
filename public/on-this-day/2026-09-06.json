@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "2018",
+      "headline": "On September 6th, India's Supreme Court decided that equal citizenship isn't conditional."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Navtej Singh Johar v. Union of India",
+      "body": "A dancer, a journalist, a chef, a business executive, and a hotelier — five petitioners took a colonial-era law to India's highest court. On September 6, 2018, the Supreme Court unanimously struck down Section 377 as it applied to consenting adults."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it took so long",
+      "headline": "The fight had already run for nearly a decade in the courts.",
+      "body": "Delhi High Court first struck the law down in 2009. The Supreme Court reversed that in 2013, sending it back to Parliament. It took five more years, and five more petitioners, to settle it for good."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A developed nation isn't just measured in GDP.",
+      "body": "Equal citizenship under the law is as much a part of India's growth story as any factory or export number. The next 20 years are being built by people who can now build them as full, equal citizens."
+    }
+  ]
+}

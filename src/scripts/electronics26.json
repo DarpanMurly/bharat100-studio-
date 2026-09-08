@@ -1,0 +1,59 @@
+{
+  "id": "electronics26",
+  "title": "India's electronics production grew 7x in a decade",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-07",
+  "sources": [
+    "PIB / MeitY, 2026 - India's Electronics Leap",
+    "Business Standard, 29 Jul 2026 - India's electronics production up around 16% in FY26",
+    "India Tribune, 2026 - India's electronics production grows seven-fold in a decade, creates 25 lakh jobs: MeitY"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In 2014, India barely made its own electronics.",
+      "sub": "Today, it's building one of the fastest-growing electronics industries on Earth."
+    },
+    {
+      "kind": "stat",
+      "text": "India's electronics production has grown nearly sevenfold in a decade.",
+      "stat": "Rs 13.11L Cr",
+      "statLabel": "electronics production, FY26 (up from Rs 1.90L Cr in 2014-15)",
+      "narration": "India's electronics production hit thirteen point one one lakh crore rupees in financial year twenty twenty six, up from just one point nine lakh crore in twenty fourteen fifteen."
+    },
+    {
+      "kind": "stat",
+      "text": "Mobile phone manufacturing alone grew even faster.",
+      "stat": "33x",
+      "statLabel": "mobile phone production growth (Rs 18,900 Cr to Rs 6.27L Cr)",
+      "narration": "Mobile phone production alone grew thirty three times, from eighteen thousand nine hundred crore rupees to six point two seven lakh crore."
+    },
+    {
+      "kind": "point",
+      "text": "Electronics exports grew even faster - up eleven times, making it India's third-largest export category.",
+      "narration": "Electronics exports grew even faster, up eleven times, making it India's third largest export category."
+    },
+    {
+      "kind": "point",
+      "text": "The country now has over 300 mobile manufacturing units, compared to just two in 2014.",
+      "narration": "The country now has over three hundred mobile manufacturing units, compared to just two in twenty fourteen."
+    },
+    {
+      "kind": "point",
+      "text": "This growth created roughly 25 lakh jobs - most of them in factories that didn't exist a decade ago."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't just about phones -",
+      "sub": "it's a supply chain India had to build from nothing, one factory at a time.",
+      "narration": "This isn't just about phones. It's a supply chain India had to build from nothing, one factory at a time."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "In 2014, India barely made its own electronics. Today, it's building one of the fastest-growing electronics industries on Earth.\n\nIndia's electronics production hit Rs 13.11 lakh crore in FY26, up nearly sevenfold from Rs 1.90 lakh crore in 2014-15. Mobile phone manufacturing alone grew 33x, from Rs 18,900 crore to Rs 6.27 lakh crore.\n\nElectronics exports grew even faster - up 11x, making it India's third-largest export category. The country now has over 300 mobile manufacturing units, compared to just two in 2014.\n\nThis growth created roughly 25 lakh jobs, most of them in factories that didn't exist a decade ago.\n\nThis isn't just about phones. It's a supply chain India had to build from nothing, one factory at a time.\n\nSources: PIB/MeitY, Business Standard, India Tribune (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#Electronics", "#MakeInIndia", "#Manufacturing", "#India2047", "#ElectronicsManufacturing", "#PLIScheme", "#DigitalIndia", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

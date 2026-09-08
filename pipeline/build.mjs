@@ -65,7 +65,13 @@ async function main() {
 
   for (let i = 0; i < script.scenes.length; i++) {
     const scene = script.scenes[i];
-    const rawText = scene.narration ?? [scene.text, scene.sub].filter(Boolean).join(". ");
+    // The hook scene narrates ONLY its headline (text), not the sub line
+    // too — a spoken text+sub pair runs 6-8s, which holds the hook on
+    // screen far past the 1-3s scroll-stop window Shorts/Reels need. The
+    // sub still renders on screen (see Scene.tsx) for the viewer to read
+    // silently; every other scene keeps narrating text+sub together.
+    const rawText =
+      scene.narration ?? (scene.kind === "hook" ? scene.text : [scene.text, scene.sub].filter(Boolean).join(". "));
     const text = normalizeForSpeech(rawText);
     const clipPath = path.join(outDir, `clip_${i}.mp3`);
     process.stdout.write(`  [${i + 1}/${script.scenes.length}] narrating: "${text.slice(0, 60)}..." `);
@@ -112,7 +118,15 @@ async function main() {
     "-y", "-f", "concat", "-safe", "0", "-i", concatListPath, "-c", "copy", narrationPath,
   ]);
 
-  // Compute frame timings for each scene
+  // Compute frame timings for each scene. narration.mp3 is one continuous
+  // track played from frame 0 (see VideoTemplate.tsx), so a scene's visual
+  // Sequence can only be shortened by actually shortening that stretch of
+  // the audio timeline to match — not by decoupling video from audio.
+  // The hook scene does this: instead of narrating text+sub as one long
+  // clip (6-8s for a two-line hook, too slow for a Shorts/Reels scroll-stop
+  // moment), the hook's SUB line is narrated as its own clip and pulled
+  // forward to start under scene 2's visuals — so the hook cuts to the
+  // payoff fast, while its sub line still gets spoken in full, just later.
   const timings = [];
   let cursorSec = 0;
   for (let i = 0; i < durationsSec.length; i++) {

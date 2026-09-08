@@ -4,7 +4,7 @@ import { OnThisDayShort } from "./OnThisDayShort";
 import { SlideData } from "./OnThisDaySlide";
 import { SceneTiming } from "./VideoTemplate";
 
-type InputProps = { contentId: string };
+type InputProps = { contentId: string; seriesLabel?: string };
 type ResolvedProps = InputProps & { slides: SlideData[]; timings: SceneTiming[]; audioFile: string };
 
 type Manifest = {
@@ -59,6 +59,6 @@ export const OnThisDayShortCompositionDef = () => {
   );
 };
 
-const OnThisDayShortRender: React.FC<ResolvedProps> = ({ slides, timings, audioFile }) => {
-  return <OnThisDayShort slides={slides} timings={timings} audioFile={audioFile} />;
+const OnThisDayShortRender: React.FC<ResolvedProps> = ({ slides, timings, audioFile, seriesLabel }) => {
+  return <OnThisDayShort slides={slides} timings={timings} audioFile={audioFile} seriesLabel={seriesLabel} />;
 };

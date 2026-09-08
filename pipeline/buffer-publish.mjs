@@ -37,12 +37,23 @@ async function graphql(query, variables) {
   return json.data;
 }
 
+// Buffer does NOT support a custom thumbnail image on video assets — a
+// direct API test (2026-09-07) confirmed `thumbnailUrl` is rejected with
+// "social networks do not accept custom video thumbnail images." The
+// only supported cover-frame control is `metadata.thumbnailOffset`, a
+// millisecond offset INTO the actual video, and only for Instagram/
+// TikTok/Pinterest (not X/Threads at all). This matches frame 25 (0.83s)
+// at 30fps — the same frame pipeline/extract-thumbnail.mjs pulls for
+// YouTube's real custom-thumbnail upload — so both mechanisms point at
+// the identical, deliberately-chosen text-bearing moment.
+const THUMBNAIL_OFFSET_MS = Math.round((25 / 30) * 1000);
+
 /**
  * Queues a post to one Buffer channel.
  * @param {"instagram"|"threads"|"twitter"} platform
  * @param {string} text - caption, hashtags already included
  * @param {{ imageUrl?: string, videoUrl?: string, imageUrls?: string[] }} media
- *   - imageUrl/videoUrl for a single-asset post, imageUrls for a carousel
+ *   - imageUrl/videoUrl for a single-asset post, imageUrls for a carousel.
  * @param {{ saveToDraft?: boolean, dueAt?: string, postType?: "post"|"reel"|"carousel" }} options
  */
 export async function queuePost(platform, text, media = {}, options = {}) {
@@ -55,7 +66,19 @@ export async function queuePost(platform, text, media = {}, options = {}) {
   } else if (media.imageUrl) {
     assets.push({ image: { url: media.imageUrl } });
   }
-  if (media.videoUrl) assets.push({ video: { url: media.videoUrl } });
+  if (media.videoUrl) {
+    assets.push({
+      video: {
+        url: media.videoUrl,
+        // Scoped to Instagram — the one platform Buffer's own error
+        // message named as supported (also TikTok/Pinterest, neither
+        // connected here). A quick test on X didn't error for including
+        // it, but that's not the same as confirmed-correct behavior
+        // there — only send it where the docs actually say it applies.
+        ...(platform === "instagram" ? { metadata: { thumbnailOffset: THUMBNAIL_OFFSET_MS } } : {}),
+      },
+    });
+  }
 
   const input = {
     text,

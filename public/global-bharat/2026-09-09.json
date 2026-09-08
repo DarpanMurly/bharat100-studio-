@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Global Bharat",
+      "year": "1997",
+      "headline": "He built the first free webmail service the world actually used, then sold it for $400 million."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he is",
+      "headline": "Sabeer Bhatia",
+      "body": "Born in Chandigarh, Bhatia moved to the US for engineering studies at Caltech and Stanford. In 1996, with co-founder Jack Smith, he launched Hotmail - one of the first free, web-based email services anyone could sign up for."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "18 months from launch to a $400 million sale.",
+      "body": "Hotmail grew fast enough that Microsoft came calling within two years of launch. On December 30, 1997, Bhatia sold the company to Microsoft for $400 million in stock - a landmark deal for an Indian-origin founder building outside India."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "India's growth story runs through its diaspora too.",
+      "body": "Millions of Indians have built careers, companies and inventions abroad since. Their success isn't separate from India's own growth - it's proof of what Indian talent can build anywhere, and increasingly, a source of capital and expertise flowing back home."
+    }
+  ]
+}

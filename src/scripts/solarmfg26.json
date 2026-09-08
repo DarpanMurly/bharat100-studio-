@@ -1,0 +1,59 @@
+{
+  "id": "solarmfg26",
+  "title": "India went from 0 to 172GW in solar manufacturing",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-06",
+  "sources": [
+    "PIB, Aug 2026 — India's Solar Growth Enters a New Era",
+    "News on Air, 25 Mar 2026 — India's solar module manufacturing capacity rises from 3 GW to 172 GW",
+    "IndianWeb2, Aug 2026 — India Emerges as Global Solar Manufacturing Hub with 172 GW Capacity"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In 2014, India couldn't manufacture a single solar cell.",
+      "sub": "Today, it makes more solar panels than almost anywhere else on Earth."
+    },
+    {
+      "kind": "stat",
+      "text": "India's solar module manufacturing capacity has exploded.",
+      "stat": "172 GW",
+      "statLabel": "solar module manufacturing capacity, March 2026",
+      "narration": "As of March twenty twenty six, India's solar module manufacturing capacity hit one hundred seventy two gigawatts."
+    },
+    {
+      "kind": "stat",
+      "text": "That's up from almost nothing just over a decade ago.",
+      "stat": "75x",
+      "statLabel": "growth since 2014 (2.3 GW to 172 GW)",
+      "narration": "That's a seventy five times increase since twenty fourteen, when capacity stood at just two point three gigawatts."
+    },
+    {
+      "kind": "point",
+      "text": "Solar cell manufacturing — the actual technology inside the panel — went from zero to 27 gigawatts.",
+      "narration": "Solar cell manufacturing, the actual technology inside the panel, went from zero to twenty seven gigawatts."
+    },
+    {
+      "kind": "point",
+      "text": "This didn't happen by accident — government incentive schemes made domestic manufacturing worth building.",
+      "narration": "This didn't happen by accident. Government incentive schemes made domestic manufacturing worth building."
+    },
+    {
+      "kind": "point",
+      "text": "Every gigawatt of new capacity means new factories, new engineering roles, new supply chains inside India."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't just a climate story —",
+      "sub": "it's one of the biggest manufacturing build-outs in India's history, and it's still accelerating.",
+      "narration": "This isn't just a climate story. It's one of the biggest manufacturing build outs in India's history, and it's still accelerating."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "In 2014, India couldn't manufacture a single solar cell. Today, it makes more solar panels than almost anywhere else on Earth.\n\nAs of March 2026, India's solar module manufacturing capacity hit 172 GW — a 75x increase from just 2.3 GW in 2014. Solar cell manufacturing, the actual technology inside the panel, went from zero to 27 GW.\n\nThis didn't happen by accident — government incentive schemes made domestic manufacturing worth building. Every gigawatt of new capacity means new factories, new engineering roles, new supply chains inside India.\n\nThis isn't just a climate story. It's one of the biggest manufacturing build-outs in India's history, and it's still accelerating.\n\nSources: PIB, News on Air, IndianWeb2 (Aug-Mar 2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#SolarEnergy", "#GreenEnergy", "#MakeInIndia", "#Manufacturing", "#India2047", "#RenewableEnergy", "#CleanEnergy", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

@@ -1,0 +1,28 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1887",
+      "headline": "Born on September 10th, the man who redrew India's map along language lines."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he is",
+      "headline": "Govind Ballabh Pant",
+      "body": "Born in a small village near Almora in the United Provinces, Pant trained as a lawyer before joining India's independence movement alongside Gandhi, Nehru and Patel. He was jailed twice by the British - once for organizing the Satyagraha movement, once for signing the Quit India resolution."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "First CM of UP, then the states-reorganization architect.",
+      "body": "After independence, Pant became Uttar Pradesh's first Chief Minister, abolishing the zamindari land system. As Union Home Minister from 1955, his defining achievement was reorganizing India's states along linguistic lines - the map India still largely uses today."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Structural decisions outlast the people who make them.",
+      "body": "Pant received the Bharat Ratna in 1957 and died in office in 1961. Nearly seven decades later, the state boundaries he helped draw still shape how India governs itself - proof that the unglamorous work of institution-building compounds longer than almost anything else."
+    }
+  ]
+}

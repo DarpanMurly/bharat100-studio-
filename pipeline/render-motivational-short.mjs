@@ -13,20 +13,31 @@ import { fileURLToPath } from "node:url";
 import { parseFile } from "music-metadata";
 import { normalizeForSpeech } from "./normalize.mjs";
 import { buildXCaption, buildThreadsCaption } from "./x-caption.mjs";
-import { DISCLAIMER } from "./disclaimer.mjs";
+import { DISCLAIMER, CROSS_PLATFORM_CTA_FROM_INSTAGRAM, CROSS_PLATFORM_CTA_FROM_YOUTUBE } from "./disclaimer.mjs";
+import { applyStyleRules } from "./style.mjs";
+import { assertSafeToOverwrite } from "./guard-overwrite.mjs";
+import { extractThumbnail } from "./extract-thumbnail.mjs";
+import { cleanupOutFile, cleanupAudioScratch } from "./cleanup-render-artifacts.mjs";
 
 const execFileAsync = promisify(execFile);
 const execAsync = promisify(exec);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const FPS = 30;
-const TAIL_SEC = 1.5;
+// Reserves time past the narration's own length for the end-card CTA
+// (see MotivationalShort.tsx, which fades it in over the final ~2s).
+const TAIL_SEC = 2.5;
 
 async function main() {
   const date = process.argv[2];
   if (!date) {
     console.error("Usage: node pipeline/render-motivational-short.mjs <YYYY-MM-DD>");
     process.exit(1);
+  }
+
+  const queueDir = path.join(ROOT, "content-queue", "pending", `${date}_motivational-short`);
+  if (!process.argv.includes("--force")) {
+    await assertSafeToOverwrite(queueDir);
   }
 
   const contentPath = path.join(ROOT, "public", "motivational", `${date}.json`);
@@ -66,24 +77,28 @@ async function main() {
   const cmd = `npx remotion render MotivationalShort "${outPath}" "--props=${propsPath}"`;
   await execAsync(cmd, { cwd: ROOT, maxBuffer: 1024 * 1024 * 20 });
 
-  const queueDir = path.join(ROOT, "content-queue", "pending", `${date}_motivational-short`);
   await fs.mkdir(queueDir, { recursive: true });
   const destVideo = path.join(queueDir, "video.mp4");
   await fs.copyFile(outPath, destVideo);
+  await extractThumbnail(queueDir);
+  await cleanupOutFile(outPath);
+  await cleanupAudioScratch(outDir, date);
 
+  const thought = applyStyleRules(content.thought);
+  const support = applyStyleRules(content.support);
   const hashtags = ["#Bharat100", "#ThoughtOfTheDay", "#India2047", "#Motivation", "#ViksitBharat"];
-  const caption = `${content.thought}\n\n${content.support}\n\n${DISCLAIMER}\n\n${hashtags.join(" ")}`;
-  const captionX = buildXCaption(content.thought, hashtags);
-  const captionThreads = buildThreadsCaption(caption, content.thought, hashtags);
-  const captionYoutube = `${content.thought}\n\n${DISCLAIMER}\n\n#Shorts ${hashtags.join(" ")}`;
+  const caption = `${thought}\n\n${support}\n\n${CROSS_PLATFORM_CTA_FROM_INSTAGRAM}\n\n${DISCLAIMER}\n\n${hashtags.join(" ")}`;
+  const captionX = applyStyleRules(buildXCaption(thought, hashtags));
+  const captionThreads = applyStyleRules(buildThreadsCaption(caption, thought, hashtags));
+  const captionYoutube = `${thought}\n\n${CROSS_PLATFORM_CTA_FROM_YOUTUBE}\n\n${DISCLAIMER}\n\n#Shorts ${hashtags.join(" ")}`;
 
   const card = {
     type: "motivational-short",
-    title: content.thought.slice(0, 60) + (content.thought.length > 60 ? "..." : ""),
-    // Separate from the internal preview `title` above — this is what
+    title: thought.slice(0, 60) + (thought.length > 60 ? "..." : ""),
+    // Separate from the internal preview `title` above - this is what
     // actually appears as the YouTube video's title, so it must never
     // carry a "..." that isn't a real truncation of THIS exact string.
-    youtubeTitle: content.thought.length > 100 ? content.thought.slice(0, 97) + "..." : content.thought,
+    youtubeTitle: thought.length > 100 ? thought.slice(0, 97) + "..." : thought,
     pillar: "Personal Growth",
     date,
     caption,
@@ -92,6 +107,7 @@ async function main() {
     captionYoutube,
     videoFile: "video.mp4",
     videoPath: path.relative(path.resolve(ROOT, ".."), destVideo).replace(/\\/g, "/"),
+    thumbnailFile: "thumbnail.jpg",
     status: "pending",
     platforms: ["Instagram", "YouTube", "X", "Threads"],
   };

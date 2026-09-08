@@ -14,12 +14,21 @@ export type MotivationalShortProps = {
   thought: string;
   support: string;
   audioFile: string;
+  durationInFrames: number;
 };
 
 // 1080x1920 (9:16) — YouTube Shorts format. Single scene: the thought
 // animates in, holds, then the support line follows — narrated by the
 // same TTS pipeline as the sector video, just much shorter (~15-20s).
-export const MotivationalShort: React.FC<MotivationalShortProps> = ({ thought, support, audioFile }) => {
+// The trailing ~1.5s (already reserved past the narration's own length,
+// see render-motivational-short.mjs's TAIL_SEC) fades in a follow
+// prompt, matching the dedicated CTA screen every other pillar ends on.
+export const MotivationalShort: React.FC<MotivationalShortProps> = ({
+  thought,
+  support,
+  audioFile,
+  durationInFrames,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -29,6 +38,12 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({ thought, s
 
   const supportFrame = Math.round(fps * 2.5);
   const supportOpacity = interpolate(frame, [supportFrame, supportFrame + 15], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+
+  const ctaFrame = durationInFrames - Math.round(fps * 2);
+  const ctaOpacity = interpolate(frame, [ctaFrame, ctaFrame + 10], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
@@ -57,10 +72,11 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({ thought, s
           style={{
             fontFamily: FONT_DISPLAY,
             fontWeight: 600,
-            fontSize: 66,
-            lineHeight: 1.22,
+            // Increased 2026-09-08 for mobile readability.
+            fontSize: 82,
+            lineHeight: 1.2,
             color: INK,
-            maxWidth: 880,
+            maxWidth: 860,
             textShadow: "0 4px 30px rgba(0,0,0,0.3)",
             opacity,
             transform: `translateY(${y}px)`,
@@ -73,10 +89,10 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({ thought, s
           style={{
             fontFamily: FONT_BODY,
             fontWeight: 500,
-            fontSize: 32,
+            fontSize: 38,
             lineHeight: 1.5,
             color: INK_SOFT,
-            maxWidth: 820,
+            maxWidth: 780,
             marginTop: 40,
             opacity: supportOpacity,
           }}
@@ -99,22 +115,49 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({ thought, s
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: 24, color: INK }}>
           Bharat<span style={{ color: SAFFRON }}>@100</span>
         </div>
-        <div style={{ fontFamily: FONT_MONO, fontSize: 16, color: INK_SOFT }}>@bharatat100</div>
+        <div style={{ fontFamily: FONT_MONO, fontSize: 16, color: INK_SOFT }}>
+          @bharatat100 · X: @Bharat_at_100
+        </div>
       </div>
 
-      <div
+      <AbsoluteFill
         style={{
-          position: "absolute",
-          bottom: 40,
-          left: 90,
-          right: 90,
-          fontFamily: FONT_BODY,
-          fontSize: 15,
-          color: INK_SOFT,
+          justifyContent: "center",
+          alignItems: "center",
+          opacity: ctaOpacity,
+          backgroundColor: "#0c1211",
         }}
       >
-        Independent citizen project — not affiliated with the Government of India
-      </div>
+        <div
+          style={{
+            fontFamily: FONT_MONO,
+            fontSize: 22,
+            color: SAFFRON,
+            textTransform: "uppercase",
+            letterSpacing: 2,
+            marginBottom: 26,
+          }}
+        >
+          Bharat@100
+        </div>
+        <div
+          style={{
+            fontFamily: FONT_DISPLAY,
+            fontWeight: 600,
+            fontSize: 46,
+            color: INK,
+            textAlign: "center",
+            maxWidth: 700,
+            padding: "0 60px",
+          }}
+        >
+          Follow for tomorrow's thought.
+        </div>
+        <div style={{ fontFamily: FONT_MONO, fontSize: 18, color: INK_SOFT, marginTop: 22 }}>
+          @bharatat100 · X: @Bharat_at_100
+        </div>
+      </AbsoluteFill>
+
     </AbsoluteFill>
   );
 };

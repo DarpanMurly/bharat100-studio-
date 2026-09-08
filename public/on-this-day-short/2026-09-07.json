@@ -1,0 +1,23 @@
+{
+  "audioFile": "on-this-day-short/2026-09-07.mp3",
+  "timings": [
+    {
+      "startFrame": 0,
+      "durationInFrames": 197
+    },
+    {
+      "startFrame": 197,
+      "durationInFrames": 147
+    },
+    {
+      "startFrame": 344,
+      "durationInFrames": 147
+    },
+    {
+      "startFrame": 491,
+      "durationInFrames": 187
+    }
+  ],
+  "totalDurationInFrames": 678,
+  "fps": 30
+}

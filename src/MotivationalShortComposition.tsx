@@ -3,7 +3,12 @@ import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { MotivationalShort } from "./MotivationalShort";
 
 type InputProps = { contentId: string };
-type ResolvedProps = InputProps & { thought: string; support: string; audioFile: string };
+type ResolvedProps = InputProps & {
+  thought: string;
+  support: string;
+  audioFile: string;
+  durationInFrames: number;
+};
 
 type Manifest = {
   audioFile: string;
@@ -37,6 +42,7 @@ const calculateMetadata: CalculateMetadataFunction<InputProps> = async ({ props 
       thought: content.thought,
       support: content.support,
       audioFile: manifest.audioFile,
+      durationInFrames: manifest.totalDurationInFrames,
     } satisfies ResolvedProps,
   };
 };
@@ -56,6 +62,8 @@ export const MotivationalShortCompositionDef = () => {
   );
 };
 
-const MotivationalShortRender: React.FC<ResolvedProps> = ({ thought, support, audioFile }) => {
-  return <MotivationalShort thought={thought} support={support} audioFile={audioFile} />;
+const MotivationalShortRender: React.FC<ResolvedProps> = ({ thought, support, audioFile, durationInFrames }) => {
+  return (
+    <MotivationalShort thought={thought} support={support} audioFile={audioFile} durationInFrames={durationInFrames} />
+  );
 };

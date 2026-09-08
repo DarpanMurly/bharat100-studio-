@@ -1,0 +1,30 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "What we covered",
+      "headline": "7 stories, one week.",
+      "listItems": [
+        "A nation isn't built by the decisions made in its capital. It's built by the ones made at your desk, today.",
+        "India just posted its biggest defence export year ever.",
+        "Someone taught you the first thing you ever got good at. Someone will teach the person who builds India's next big thing.",
+        "Born on September 5th: the philosopher who became a president, then gave his birthday away.",
+        "Every law that finally caught up with justice took someone willing to be first in line for it.",
+        "On September 6th, India's Supreme Court decided that equal citizenship isn't conditional.",
+        "In 2014, India couldn't manufacture a single solar cell. Today, it makes more solar panels than almost anywhere else on Earth."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own — the picture is what they add up to, one week at a time, for the next 20 years."
+    }
+  ]
+}

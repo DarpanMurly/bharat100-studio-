@@ -21,6 +21,12 @@ const SCOPES = [
   "https://www.googleapis.com/auth/youtube.upload",
   "https://www.googleapis.com/auth/youtube",
   "https://www.googleapis.com/auth/yt-analytics.readonly",
+  // Search Console readonly — pulls clicks/impressions/queries for
+  // bharatat100.com AND the Instagram/X/YouTube platform properties
+  // added there 2026-09-07, into pipeline/fetch-search-console.mjs.
+  // Requires the SAME Google account that owns those Search Console
+  // properties to be the one used to log in here.
+  "https://www.googleapis.com/auth/webmasters.readonly",
 ];
 
 async function main() {

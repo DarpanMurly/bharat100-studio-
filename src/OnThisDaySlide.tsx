@@ -11,7 +11,7 @@ const INK_SOFT = "#a9b3ac";
 const SAFFRON = "#e08a45";
 
 export type SlideData = {
-  kind: "cover" | "context" | "detail" | "closer";
+  kind: "cover" | "context" | "detail" | "closer" | "recap-list" | "cta";
   // Standing convention: the closer slide's eyebrow is always
   // "Why it matters for Viksit Bharat 2047" — not "...at 100" or any other
   // variant — so every carousel ties back to the same explicit mission line.
@@ -19,6 +19,9 @@ export type SlideData = {
   year?: string;
   headline: string;
   body?: string;
+  // Only used by "recap-list" — one line per item, e.g. the week's
+  // headlines. Rendered as a numbered list instead of a single story.
+  listItems?: string[];
 };
 
 // 1080x1350 (4:5), matching the motivational post so the whole daily
@@ -28,8 +31,13 @@ export const OnThisDaySlide: React.FC<{
   index: number;
   total: number;
   theme: ThemeName;
-}> = ({ slide, index, total, theme }) => {
-  const accent = slide.kind === "closer" ? SAFFRON : "#d98aab";
+  // Top-left brand/series label — defaults to "On This Day" since that's
+  // this component's original and most common use, but a reused pillar
+  // (e.g. "Global Bharat") must override it rather than silently showing
+  // the wrong series name.
+  seriesLabel?: string;
+}> = ({ slide, index, total, theme, seriesLabel = "On This Day" }) => {
+  const accent = slide.kind === "closer" || slide.kind === "cta" ? SAFFRON : "#d98aab";
 
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY }}>
@@ -55,7 +63,7 @@ export const OnThisDaySlide: React.FC<{
           }}
         >
           <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: 26, color: INK }}>
-            On This Day
+            {seriesLabel}
           </div>
           <div style={{ fontFamily: FONT_MONO, fontSize: 18, color: INK_SOFT, letterSpacing: 1 }}>
             {String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
@@ -97,10 +105,11 @@ export const OnThisDaySlide: React.FC<{
           style={{
             fontFamily: FONT_DISPLAY,
             fontWeight: 600,
-            fontSize: slide.kind === "cover" ? 60 : 48,
+            // Increased 2026-09-08 for mobile readability.
+            fontSize: slide.kind === "cover" ? 74 : 60,
             lineHeight: 1.2,
             color: INK,
-            maxWidth: 860,
+            maxWidth: 840,
             textShadow: "0 4px 30px rgba(0,0,0,0.3)",
           }}
         >
@@ -112,14 +121,59 @@ export const OnThisDaySlide: React.FC<{
             style={{
               fontFamily: FONT_BODY,
               fontWeight: 500,
-              fontSize: 28,
-              lineHeight: 1.55,
+              fontSize: 34,
+              lineHeight: 1.5,
               color: INK_SOFT,
               marginTop: 26,
-              maxWidth: 780,
+              maxWidth: 760,
             }}
           >
             {slide.body}
+          </div>
+        )}
+
+        {slide.kind === "cta" && (
+          <div
+            style={{
+              fontFamily: FONT_MONO,
+              fontSize: 24,
+              color: accent,
+              letterSpacing: 1,
+              marginTop: 30,
+            }}
+          >
+            @bharatat100 &middot; X: @Bharat_at_100
+          </div>
+        )}
+
+        {slide.kind === "recap-list" && slide.listItems && (
+          <div style={{ display: "flex", flexDirection: "column", gap: 22, marginTop: 32, maxWidth: 860 }}>
+            {slide.listItems.map((item, i) => (
+              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 18 }}>
+                <div
+                  style={{
+                    fontFamily: FONT_MONO,
+                    fontSize: 24,
+                    color: accent,
+                    flexShrink: 0,
+                    width: 36,
+                  }}
+                >
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <div
+                  style={{
+                    fontFamily: FONT_BODY,
+                    fontWeight: 500,
+                    fontSize: 30,
+                    lineHeight: 1.4,
+                    color: INK,
+                  }}
+                >
+                  {item}
+                </div>
+              </div>
+            ))}
           </div>
         )}
 
@@ -147,15 +201,15 @@ export const OnThisDaySlide: React.FC<{
           <div
             style={{
               position: "absolute",
-              bottom: 30,
+              bottom: 40,
               left: 90,
-              fontFamily: FONT_BODY,
-              fontSize: 14,
+              fontFamily: FONT_MONO,
+              fontSize: 16,
               color: INK_SOFT,
-              maxWidth: 500,
+              letterSpacing: 0.5,
             }}
           >
-            Independent citizen project — not affiliated with the Government of India
+            @bharatat100 · X: @Bharat_at_100
           </div>
         )}
       </AbsoluteFill>

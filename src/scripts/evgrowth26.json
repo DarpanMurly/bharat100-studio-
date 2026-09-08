@@ -1,0 +1,59 @@
+{
+  "id": "evgrowth26",
+  "title": "India's EV sales just crossed 12% for the first time",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-08",
+  "sources": [
+    "IBEF, 2026 - Electric Vehicle Industry in India: Growth, Trends and Policy",
+    "Prakati, 2026 - India EV Ecosystem: How Sales Grew 46x in a Decade",
+    "SMEV / NITI Aayog data via industry reports, June 2026 - EV retail sales and penetration figures"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In 2016, electric vehicles barely existed on India's roads.",
+      "sub": "In June 2026, they crossed 12% of every new vehicle sold."
+    },
+    {
+      "kind": "stat",
+      "text": "EV penetration just hit a new record.",
+      "stat": "12%+",
+      "statLabel": "of new vehicle sales, June 2026 (record high)",
+      "narration": "In June twenty twenty six, EV retail sales hit three hundred six thousand units, pushing penetration past twelve percent of new vehicles for the first time."
+    },
+    {
+      "kind": "stat",
+      "text": "That's up from almost nothing a decade ago.",
+      "stat": "41x",
+      "statLabel": "growth in EV sales, 2016 to 2024 (50,000 to 2.08 million units)",
+      "narration": "EV sales grew forty one times between twenty sixteen and twenty twenty four, from fifty thousand units to two point oh eight million."
+    },
+    {
+      "kind": "point",
+      "text": "Two-wheelers are leading the shift - over half of every EV sold is a scooter or bike, not a car.",
+      "narration": "Two wheelers are leading the shift. Over half of every EV sold is a scooter or a bike, not a car."
+    },
+    {
+      "kind": "point",
+      "text": "Nearly 400 EV startups are now building everything from charging networks to batteries.",
+      "narration": "Nearly four hundred EV startups are now building everything from charging networks to batteries."
+    },
+    {
+      "kind": "point",
+      "text": "The government's target is 30% EV penetration by 2030 - the gap is closing, but cars and trucks still lag far behind two-wheelers."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't a finished transition -",
+      "sub": "it's a curve that's bending faster every year, starting from the vehicles people actually buy first.",
+      "narration": "This isn't a finished transition. It's a curve that's bending faster every year, starting from the vehicles people actually buy first."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "In 2016, electric vehicles barely existed on India's roads. In June 2026, they crossed 12% of every new vehicle sold.\n\nEV retail sales hit 306,220 units in June 2026, pushing penetration past 12% for the first time - up 41x from just 50,000 units sold in 2016.\n\nTwo-wheelers are leading the shift - over half of every EV sold is a scooter or a bike, not a car. Nearly 400 EV startups are now building everything from charging networks to batteries.\n\nThe government's target is 30% EV penetration by 2030. The gap is closing fast, but cars and trucks still lag far behind two-wheelers.\n\nThis isn't a finished transition. It's a curve that's bending faster every year.\n\nSources: IBEF, Prakati, SMEV/NITI Aayog data (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#ElectricVehicles", "#EVIndia", "#MakeInIndia", "#India2047", "#CleanEnergy", "#Startups", "#GreenMobility", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

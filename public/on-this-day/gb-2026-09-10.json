@@ -1,0 +1,33 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Global Bharat",
+      "year": "1972",
+      "headline": "He was the first person in history to build a gene from scratch, outside a living cell."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he is",
+      "headline": "Har Gobind Khorana",
+      "body": "Born in Punjab to a family of modest means, Khorana studied at Punjab University before leaving for a PhD in England, then research posts across Europe and Canada. He eventually settled in the United States, becoming a naturalized citizen in 1966."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "A Nobel Prize, then a scientific first no one had achieved before.",
+      "body": "In 1968, Khorana shared the Nobel Prize in Physiology or Medicine for decoding how genetic information builds proteins. Four years later, at MIT, he completed the total synthesis of a fully artificial gene - the first time it had ever been done outside a living organism."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "India's growth story runs through its diaspora too.",
+      "body": "Decades before India had its own biotechnology industry, an Indian-origin scientist was laying the exact groundwork gene synthesis and modern biotech would later be built on. That same scientific lineage is part of why global biotech and pharma research increasingly runs through India today."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for more Global Bharat stories."
+    }
+  ]
+}

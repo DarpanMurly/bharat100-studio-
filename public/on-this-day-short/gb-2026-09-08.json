@@ -1,0 +1,23 @@
+{
+  "audioFile": "global-bharat-short/2026-09-08.mp3",
+  "timings": [
+    {
+      "startFrame": 0,
+      "durationInFrames": 228
+    },
+    {
+      "startFrame": 228,
+      "durationInFrames": 147
+    },
+    {
+      "startFrame": 375,
+      "durationInFrames": 147
+    },
+    {
+      "startFrame": 522,
+      "durationInFrames": 180
+    }
+  ],
+  "totalDurationInFrames": 702,
+  "fps": 30
+}

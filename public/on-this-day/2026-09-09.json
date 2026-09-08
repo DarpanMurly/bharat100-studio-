@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "1920",
+      "headline": "On September 9th, a college that started with one man's stubborn idea became a university."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Aligarh Muslim University Act",
+      "body": "In 1875, Sir Syed Ahmad Khan founded the Muhammadan Anglo-Oriental College - a bet that Muslims in India needed modern, Western-style education without giving up their own identity. On September 9, 1920, an Act of the legislature converted it into Aligarh Muslim University."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it took 45 years",
+      "headline": "One founder's idea needed a generation to become an institution.",
+      "body": "Sir Syed Ahmad Khan didn't live to see the university - he died in 1898. It took the Muslim University Association, founded around 1900, two more decades of fundraising and organizing before the Act finally passed."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Institutions outlive the people who start them.",
+      "body": "Every college, research lab or training institute being built today is making the same bet Sir Syed made - that education built now pays off for a generation that hasn't been born yet."
+    }
+  ]
+}

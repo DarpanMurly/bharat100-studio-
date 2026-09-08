@@ -1,0 +1,59 @@
+{
+  "id": "spacetech26",
+  "title": "India just got its first space-tech unicorn",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-09",
+  "sources": [
+    "TechCrunch, 7 May 2026 - India's first space tech unicorn emerges as Skyroot gears up for orbital launch",
+    "SpaceNews, 2026 - Skyroot raises $60 million ahead of first orbital launch attempt",
+    "Orbital Today, 8 May 2026 - India's Skyroot Hits $1.1B Valuation as Vikram-1 Prepares for Liftoff"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Until recently, only one organization launched rockets from India.",
+      "sub": "Now a private startup just became the country's first space-tech unicorn."
+    },
+    {
+      "kind": "stat",
+      "text": "Skyroot Aerospace just crossed a billion-dollar valuation.",
+      "stat": "$1.1B",
+      "statLabel": "Skyroot's valuation after a $60M round, May 2026",
+      "narration": "Skyroot Aerospace hit a one point one billion dollar valuation in May twenty twenty six, after raising sixty million dollars."
+    },
+    {
+      "kind": "stat",
+      "text": "That round brings its total funding well past what most Indian startups ever raise.",
+      "stat": "$160M",
+      "statLabel": "total funding raised by Skyroot to date",
+      "narration": "That brings Skyroot's total funding to one hundred sixty million dollars raised to date."
+    },
+    {
+      "kind": "point",
+      "text": "Its rocket, Vikram-1, can carry up to 350 kilograms into low Earth orbit - built entirely by a private Indian company.",
+      "narration": "Its rocket, Vikram one, can carry up to three hundred fifty kilograms into low earth orbit, built entirely by a private Indian company."
+    },
+    {
+      "kind": "point",
+      "text": "Over 100 authorizations have now been issued to private space companies in India, with more than $870 million invested in the sector.",
+      "narration": "Over one hundred authorizations have now been issued to private space companies in India, with more than eight hundred seventy million dollars invested in the sector."
+    },
+    {
+      "kind": "point",
+      "text": "A bigger rocket, Vikram-2, capable of carrying nearly 900 kilograms, is already planned for 2027."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't just one company's milestone -",
+      "sub": "it's proof that India's space industry no longer needs to be built by one organization alone.",
+      "narration": "This isn't just one company's milestone. It's proof that India's space industry no longer needs to be built by one organization alone."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Until recently, only one organization launched rockets from India. Now a private startup just became the country's first space-tech unicorn.\n\nSkyroot Aerospace hit a $1.1 billion valuation in May 2026, after raising $60 million - bringing its total funding to $160 million. Its rocket, Vikram-1, can carry up to 350 kilograms into low Earth orbit, built entirely by a private Indian company.\n\nOver 100 authorizations have now been issued to private space companies in India, with more than $870 million invested in the sector. A bigger rocket, Vikram-2, capable of carrying nearly 900 kilograms, is already planned for 2027.\n\nThis isn't just one company's milestone. It's proof that India's space industry no longer needs to be built by one organization alone.\n\nSources: TechCrunch, SpaceNews, Orbital Today (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#SpaceTech", "#Skyroot", "#MakeInIndia", "#India2047", "#Startups", "#SpaceIndustry", "#PrivateSpace", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

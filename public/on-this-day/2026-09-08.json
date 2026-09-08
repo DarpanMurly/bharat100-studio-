@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "1926",
+      "headline": "Born on September 8th, the voice that carried Assam to the rest of India."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Bhupen Hazarika",
+      "body": "Born in Sadiya, Assam in 1926, Hazarika cut his first record at age 10, then went on to earn a PhD in mass communication from Columbia University before returning home to build a career as a singer, songwriter, filmmaker and public intellectual."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "Songs that crossed languages, not just states.",
+      "body": "Hazarika wrote mostly in Assamese, but his songs on humanity and universal brotherhood were translated and sung across India for decades - carrying a regional voice into a truly national one, well before streaming or social media could do that work for him."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A developed India includes every region's voice, not just its capital's.",
+      "body": "Hazarika was awarded the Bharat Ratna posthumously in 2019 - proof that the country's growth story has always needed builders working in every language and region, not just the ones that dominate the headlines."
+    }
+  ]
+}

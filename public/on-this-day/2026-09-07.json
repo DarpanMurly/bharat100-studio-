@@ -1,0 +1,29 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "On This Day",
+      "year": "1933",
+      "headline": "Born on September 7th, the woman who built a bank for India's poorest workers."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she was",
+      "headline": "Ela Bhatt",
+      "body": "Born in Ahmedabad in 1933, Bhatt trained as a lawyer and joined India's oldest textile workers' union in 1955. In 1972, inspired by Gandhi, she founded the Self-Employed Women's Association - SEWA - to organize India's informal-sector women workers."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she built",
+      "headline": "A bank for women the banking system ignored.",
+      "body": "In 1974, SEWA set up a cooperative bank to give small loans to poor women starting their own businesses - vendors, artisans, laborers with no collateral and no credit history. By the mid-1990s, SEWA had grown into India's largest single union, with nearly 220,000 members."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Growth built India's informal economy in, not around it.",
+      "body": "Millions of India's workers still operate outside formal systems - without credit, insurance or a union behind them. Bhatt's model proved that including them isn't charity, it's how a much larger share of the economy gets counted, financed and grown."
+    }
+  ]
+}

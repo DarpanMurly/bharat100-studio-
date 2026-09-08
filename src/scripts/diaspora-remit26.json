@@ -1,0 +1,60 @@
+{
+  "id": "diaspora-remit26",
+  "type": "diaspora-dividend",
+  "title": "India's diaspora sent home a record $135 billion this year",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-09",
+  "sources": [
+    "RBI via PIB, 2026 - India remains the world's largest recipient of remittances, FY25",
+    "HDFC Sky, 2026 - India Gets Record $135.46B in FY25 Remittances, Up 14%",
+    "World Bank Migration and Development Brief, 2024 - global remittance share data"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Nearly 19 million Indians work outside India.",
+      "sub": "Last year, they sent home more money than any other diaspora on Earth."
+    },
+    {
+      "kind": "stat",
+      "text": "India's remittances just hit an all-time high.",
+      "stat": "$135.46B",
+      "statLabel": "remittances received, FY 2024-25 (RBI)",
+      "narration": "India received one hundred thirty five point four six billion dollars in remittances in financial year twenty twenty four twenty five, an all time high."
+    },
+    {
+      "kind": "stat",
+      "text": "That's nearly double the next country on the list.",
+      "stat": "14%",
+      "statLabel": "year-on-year growth, and nearly 2x Mexico's remittances",
+      "narration": "That's up fourteen percent from the year before, and nearly double what Mexico, the second highest recipient, brought in."
+    },
+    {
+      "kind": "point",
+      "text": "Nearly half of India's overseas workforce is based in Gulf countries, forming the backbone of this flow.",
+      "narration": "Nearly half of India's overseas workforce is based in Gulf countries, forming the backbone of this flow."
+    },
+    {
+      "kind": "point",
+      "text": "The number of Indians working abroad has nearly tripled since 2000 - from 6.6 million to 18.5 million.",
+      "narration": "The number of Indians working abroad has nearly tripled since the year two thousand, from six point six million to eighteen point five million."
+    },
+    {
+      "kind": "point",
+      "text": "These inflows now make up over 10% of India's total current account receipts - real money, not headlines."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't foreign aid -",
+      "sub": "it's Indians abroad still building the country they left, one transfer at a time.",
+      "narration": "This isn't foreign aid. It's Indians abroad still building the country they left, one transfer at a time."
+    }
+  ],
+  "outroCta": "Follow for more on India's global diaspora",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for more on India's global diaspora.",
+  "caption": "Nearly 19 million Indians work outside India. Last year, they sent home more money than any other diaspora on Earth.\n\nIndia received $135.46 billion in remittances in FY 2024-25, an all-time high, up 14% from the year before - nearly double what Mexico, the second-highest recipient, brought in.\n\nNearly half of India's overseas workforce is based in Gulf countries, forming the backbone of this flow. The number of Indians working abroad has nearly tripled since 2000, from 6.6 million to 18.5 million. These inflows now make up over 10% of India's total current account receipts.\n\nThis isn't foreign aid. It's Indians abroad still building the country they left, one transfer at a time.\n\nSources: RBI via PIB, HDFC Sky, World Bank Migration and Development Brief",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#NRI", "#Remittances", "#India2047", "#GlobalIndians", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

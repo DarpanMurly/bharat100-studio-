@@ -4,6 +4,7 @@ dist
 .env
 youtube-client-secret.json
 youtube-token.json
+facebook-token.json
 
 # Ignore the output video from Git but not videos you import into src/.
 out

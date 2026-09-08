@@ -1,0 +1,60 @@
+{
+  "id": "diaspora-philanthropy26",
+  "type": "diaspora-dividend",
+  "title": "The Indian diaspora raised $5.6 million for India in a single day this year",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-10",
+  "sources": [
+    "India Philanthropy Alliance, 2026 - India Giving Day 2026 Raises $5.6 Million press release",
+    "South Asian Herald, 2026 - India Giving Day 2026 Raises $5.6 Million Through the #PowerOfUs",
+    "Indiaspora, 2025 - India Giving Day mobilization and growth figures"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "One day. One campaign. $5.6 million raised for India.",
+      "sub": "Not from a government fund. From the diaspora, one donation at a time."
+    },
+    {
+      "kind": "stat",
+      "text": "This is what a single coordinated giving day can do.",
+      "stat": "$5.6M",
+      "statLabel": "raised in one day, India Giving Day 2026, for 51 Indian nonprofits",
+      "narration": "In March twenty twenty six, India Giving Day raised five point six million dollars in a single day, for fifty one nonprofits working across India."
+    },
+    {
+      "kind": "stat",
+      "text": "And that number is climbing fast, year over year.",
+      "stat": "4x",
+      "statLabel": "growth from $1.4M (2023) to $5.6M (2026), same annual campaign",
+      "narration": "That is four times what the very first India Giving Day raised back in twenty twenty three - one point four million dollars, growing to five point six million in just three years."
+    },
+    {
+      "kind": "point",
+      "text": "The money funds nonprofits working on women and girls, healthcare, rural development, clean water and digital literacy - not one cause, dozens.",
+      "narration": "The money funds nonprofits working on women and girls, healthcare, rural development, clean water and digital literacy. Not one cause, dozens."
+    },
+    {
+      "kind": "point",
+      "text": "Most donors are young, first-time givers - peer-to-peer fundraisers, not large institutional checks.",
+      "narration": "Most donors are young, first time givers, driven by peer to peer fundraisers rather than large institutional checks."
+    },
+    {
+      "kind": "point",
+      "text": "India's diaspora nearly doubled from 18 to 35 million people between 2019 and 2024 - this kind of giving is only getting started."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't charity from a distance.",
+      "sub": "It's people who left choosing, every year, to build back into the place they came from.",
+      "narration": "This isn't charity from a distance. It's people who left choosing, every year, to build back into the place they came from."
+    }
+  ],
+  "outroCta": "Follow for more on the diaspora's role in India's growth",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for more on the diaspora's role in India's growth.",
+  "caption": "One day. One campaign. $5.6 million raised for India. Not from a government fund. From the diaspora, one donation at a time.\n\nIn March 2026, India Giving Day raised $5.6 million in a single day for 51 Indian nonprofits - four times what the very first campaign raised in 2023 ($1.4 million).\n\nThe money funds nonprofits working on women and girls, healthcare, rural development, clean water and digital literacy - not one cause, dozens. Most donors are young, first-time givers, driven by peer-to-peer fundraisers rather than large institutional checks.\n\nIndia's diaspora nearly doubled from 18 to 35 million people between 2019 and 2024 - this kind of giving is only getting started.\n\nThis isn't charity from a distance. It's people who left choosing, every year, to build back into the place they came from.\n\nSources: India Philanthropy Alliance, South Asian Herald, Indiaspora (2025-2026)",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#Philanthropy", "#India2047", "#GivingBack", "#GlobalIndians"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

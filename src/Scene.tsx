@@ -118,7 +118,7 @@ export const Scene: React.FC<{
                 style={{
                   fontFamily: FONT_DISPLAY,
                   fontWeight: 700,
-                  fontSize: 148,
+                  fontSize: 172,
                   color: accent,
                   lineHeight: 1,
                   textShadow: "0 4px 40px rgba(0,0,0,0.35)",
@@ -130,7 +130,7 @@ export const Scene: React.FC<{
                 <div
                   style={{
                     fontFamily: FONT_MONO,
-                    fontSize: 26,
+                    fontSize: 30,
                     color: COLORS.inkSoft,
                     marginTop: 10,
                     textTransform: "uppercase",
@@ -147,9 +147,12 @@ export const Scene: React.FC<{
             style={{
               fontFamily: FONT_DISPLAY,
               fontWeight: 600,
-              fontSize: scene.kind === "hook" ? 68 : 54,
+              // Increased 2026-09-08 for mobile readability — headline text
+              // is the thing a scrolling viewer needs to read in under a
+              // second, so it takes priority over fitting more per line.
+              fontSize: scene.kind === "hook" ? 84 : 68,
               lineHeight: 1.15,
-              maxWidth: 980,
+              maxWidth: 940,
               color: COLORS.ink,
               textShadow: "0 4px 30px rgba(0,0,0,0.3)",
             }}
@@ -162,10 +165,10 @@ export const Scene: React.FC<{
               style={{
                 fontFamily: FONT_BODY,
                 fontWeight: 500,
-                fontSize: 34,
+                fontSize: 40,
                 color: COLORS.inkSoft,
                 marginTop: 22,
-                maxWidth: 900,
+                maxWidth: 860,
               }}
             >
               {scene.sub}

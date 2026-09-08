@@ -56,6 +56,11 @@ async function main() {
   } else {
     console.log(`\nSkipping YouTube — no video file on this card (a still image/carousel with no video counterpart).`);
   }
+
+  if ((card.platforms ?? []).includes("Facebook")) {
+    console.log(`\n--- Also publishing to Facebook ---`);
+    await run("facebook-publish.mjs", [postId]);
+  }
 }
 
 main().catch((err) => {

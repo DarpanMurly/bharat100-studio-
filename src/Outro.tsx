@@ -116,18 +116,6 @@ export const Outro: React.FC<{ theme: ThemeName; ctaLine: string }> = ({ theme, 
           </div>
         </div>
 
-        <div
-          style={{
-            position: "absolute",
-            bottom: 40,
-            left: 90,
-            fontFamily: FONT_BODY,
-            fontSize: 18,
-            color: INK_SOFT,
-          }}
-        >
-          Independent citizen project — not affiliated with the Government of India
-        </div>
       </AbsoluteFill>
     </AbsoluteFill>
   );

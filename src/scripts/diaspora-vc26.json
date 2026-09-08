@@ -1,0 +1,53 @@
+{
+  "id": "diaspora-vc26",
+  "type": "diaspora-dividend",
+  "title": "Indian-origin investors now run some of Silicon Valley's biggest venture funds - and the money is flowing back",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-08",
+  "sources": [
+    "TiE (The Indus Entrepreneurs), 2025 - global chapter and mentor network data",
+    "Inc42 / Tracxn, 2025 - Indian-origin venture partners at major US VC firms",
+    "NASSCOM, 2025 - diaspora angel investment into Indian startups"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Some of the biggest checks written into Indian startups don't come from India.",
+      "sub": "They come from Indian-origin investors sitting inside Silicon Valley's top venture firms."
+    },
+    {
+      "kind": "stat",
+      "text": "TiE alone now spans dozens of countries.",
+      "stat": "60+",
+      "statLabel": "TiE chapters worldwide, connecting Indian-origin entrepreneurs and investors globally",
+      "narration": "TiE, The Indus Entrepreneurs, now runs more than sixty chapters across the world, built almost entirely by Indian-origin founders and investors mentoring the next generation."
+    },
+    {
+      "kind": "point",
+      "text": "Partners of Indian origin now sit inside firms like Sequoia, Khosla Ventures and General Catalyst - decision-makers, not just employees.",
+      "narration": "Partners of Indian origin now sit inside firms like Sequoia, Khosla Ventures and General Catalyst. They are decision makers, not just employees."
+    },
+    {
+      "kind": "point",
+      "text": "Many personally angel-invest in Indian startups alongside their day jobs, writing early checks before Indian VCs even see the deal.",
+      "narration": "Many of them personally angel invest in Indian startups alongside their day jobs, writing early checks before Indian venture capital firms even see the deal."
+    },
+    {
+      "kind": "point",
+      "text": "This gives Indian founders something rarer than money - a direct line into how Silicon Valley actually builds and scales companies."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't outside money helping India.",
+      "sub": "It's Indian judgment, tested in the world's toughest startup market, choosing to bet on home again.",
+      "narration": "This isn't outside money helping India. It's Indian judgment, tested in the world's toughest startup market, choosing to bet on home again."
+    }
+  ],
+  "outroCta": "Follow for more on the diaspora's role in India's growth",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for more on the diaspora's role in India's growth.",
+  "caption": "Some of the biggest checks written into Indian startups don't come from India. They come from Indian-origin investors sitting inside Silicon Valley's top venture firms.\n\nTiE, The Indus Entrepreneurs, now runs more than 60 chapters worldwide, built almost entirely by Indian-origin founders and investors. Partners of Indian origin now sit inside firms like Sequoia, Khosla Ventures and General Catalyst as decision-makers, not just employees.\n\nMany personally angel-invest in Indian startups alongside their day jobs, writing early checks before Indian VCs even see the deal - giving founders a direct line into how Silicon Valley actually builds and scales companies.\n\nThis isn't outside money helping India. It's Indian judgment, tested in the world's toughest startup market, choosing to bet on home again.\n\nSources: TiE global network data, Inc42/Tracxn venture partner tracking, NASSCOM diaspora investment reports (2025)",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#StartupIndia", "#VentureCapital", "#India2047", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

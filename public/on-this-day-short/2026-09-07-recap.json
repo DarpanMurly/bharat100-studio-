@@ -1,0 +1,19 @@
+{
+  "audioFile": "weekly-recap/2026-09-07.mp3",
+  "timings": [
+    {
+      "startFrame": 0,
+      "durationInFrames": 147
+    },
+    {
+      "startFrame": 147,
+      "durationInFrames": 438
+    },
+    {
+      "startFrame": 585,
+      "durationInFrames": 414
+    }
+  ],
+  "totalDurationInFrames": 999,
+  "fps": 30
+}
