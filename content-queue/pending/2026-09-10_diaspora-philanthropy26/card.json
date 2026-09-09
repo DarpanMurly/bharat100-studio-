@@ -47,5 +47,6 @@
   "facebookPostId": "1240355019172466",
   "facebookScheduledAt": "2026-09-10T17:00:00.000Z",
   "mastodonStatusId": "280320",
-  "mastodonScheduledAt": "2026-09-10T17:00:00.000Z"
+  "mastodonScheduledAt": "2026-09-10T17:00:00.000Z",
+  "thumbnailFrame": 262
 }

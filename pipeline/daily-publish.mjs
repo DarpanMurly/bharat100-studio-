@@ -58,7 +58,7 @@ async function main() {
 
   const destVideo = path.join(queueDir, "video.mp4");
   await fs.copyFile(outPath, destVideo);
-  await extractThumbnail(queueDir, "video.mp4", scriptId);
+  const { frame: thumbnailFrame } = await extractThumbnail(queueDir, "video.mp4", scriptId);
   await cleanupOutFile(outPath);
   // public/<scriptId>/ is unique per script (not shared across dates
   // like the other pillars' outDirs), so no filePrefix is needed — every

@@ -74,6 +74,15 @@ async function findQueueDir(postId) {
   throw new Error(`No queue folder found for "${postId}" in approved/ or pending/`);
 }
 
+// Returns { thumbPath, frame } — the frame number is the same source of
+// truth callers should save onto card.json (as card.thumbnailFrame) so
+// Instagram's cover-frame offset (buffer-publish.mjs's
+// metadata.thumbnailOffset) can point at the EXACT same frame as the
+// YouTube custom thumbnail, instead of each mechanism picking
+// independently and silently drifting apart — that drift is exactly
+// what happened before this fix (found 2026-09-10): YouTube's thumbnail
+// got the smarter big-number-frame logic, but Instagram's cover frame
+// via Buffer stayed hardcoded at the old fixed hook-frame constant.
 export async function extractThumbnail(queueDir, videoFile = "video.mp4", scriptId = null, frameOverride = null) {
   const videoPath = path.join(queueDir, videoFile);
   const thumbPath = path.join(queueDir, "thumbnail.jpg");
@@ -89,7 +98,7 @@ export async function extractThumbnail(queueDir, videoFile = "video.mp4", script
     thumbPath,
   ]);
 
-  return thumbPath;
+  return { thumbPath, frame };
 }
 
 async function main() {
@@ -108,10 +117,11 @@ async function main() {
     process.exit(1);
   }
 
-  const thumbPath = await extractThumbnail(queueDir, card.videoFile, card.scriptId);
-  console.log(`Thumbnail extracted: ${thumbPath}`);
+  const { thumbPath, frame } = await extractThumbnail(queueDir, card.videoFile, card.scriptId);
+  console.log(`Thumbnail extracted: ${thumbPath} (frame ${frame})`);
 
   card.thumbnailFile = "thumbnail.jpg";
+  card.thumbnailFrame = frame;
   await fs.writeFile(cardPath, JSON.stringify(card, null, 2), "utf-8");
 }
 

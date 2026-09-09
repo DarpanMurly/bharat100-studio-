@@ -42,18 +42,27 @@ async function graphql(query, variables) {
 // "social networks do not accept custom video thumbnail images." The
 // only supported cover-frame control is `metadata.thumbnailOffset`, a
 // millisecond offset INTO the actual video, and only for Instagram/
-// TikTok/Pinterest (not X/Threads at all). This matches frame 25 (0.83s)
-// at 30fps — the same frame pipeline/extract-thumbnail.mjs pulls for
-// YouTube's real custom-thumbnail upload — so both mechanisms point at
-// the identical, deliberately-chosen text-bearing moment.
-const THUMBNAIL_OFFSET_MS = Math.round((25 / 30) * 1000);
+// TikTok/Pinterest (not X/Threads at all).
+//
+// Fallback ONLY — frame 25 (0.83s at 30fps), the old fixed hook-frame
+// constant. Prefer media.thumbnailFrame (the card's own thumbnailFrame,
+// set by extract-thumbnail.mjs) whenever it's available: that's the
+// SAME frame chosen for YouTube's custom thumbnail (often the bigger
+// stat/year scene, not the hook), and these two silently drifted apart
+// before this fix (found 2026-09-10) — this fallback only fires for
+// older cards generated before card.thumbnailFrame existed.
+const DEFAULT_THUMBNAIL_FRAME = 25;
+const FPS = 30;
 
 /**
  * Queues a post to one Buffer channel.
  * @param {"instagram"|"threads"|"twitter"} platform
  * @param {string} text - caption, hashtags already included
- * @param {{ imageUrl?: string, videoUrl?: string, imageUrls?: string[] }} media
+ * @param {{ imageUrl?: string, videoUrl?: string, imageUrls?: string[], thumbnailFrame?: number }} media
  *   - imageUrl/videoUrl for a single-asset post, imageUrls for a carousel.
+ *   - thumbnailFrame: the exact video frame number to use as Instagram's
+ *     cover (see extract-thumbnail.mjs) — falls back to
+ *     DEFAULT_THUMBNAIL_FRAME if not provided.
  * @param {{ saveToDraft?: boolean, dueAt?: string, postType?: "post"|"reel"|"carousel" }} options
  */
 export async function queuePost(platform, text, media = {}, options = {}) {
@@ -67,6 +76,8 @@ export async function queuePost(platform, text, media = {}, options = {}) {
     assets.push({ image: { url: media.imageUrl } });
   }
   if (media.videoUrl) {
+    const frame = media.thumbnailFrame ?? DEFAULT_THUMBNAIL_FRAME;
+    const thumbnailOffsetMs = Math.round((frame / FPS) * 1000);
     assets.push({
       video: {
         url: media.videoUrl,
@@ -75,7 +86,7 @@ export async function queuePost(platform, text, media = {}, options = {}) {
         // connected here). A quick test on X didn't error for including
         // it, but that's not the same as confirmed-correct behavior
         // there — only send it where the docs actually say it applies.
-        ...(platform === "instagram" ? { metadata: { thumbnailOffset: THUMBNAIL_OFFSET_MS } } : {}),
+        ...(platform === "instagram" ? { metadata: { thumbnailOffset: thumbnailOffsetMs } } : {}),
       },
     });
   }

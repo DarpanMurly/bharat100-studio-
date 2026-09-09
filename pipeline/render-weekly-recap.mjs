@@ -258,7 +258,7 @@ async function main() {
   await fs.mkdir(queueDir, { recursive: true });
   const destVideo = path.join(queueDir, "video.mp4");
   await fs.copyFile(outPath, destVideo);
-  await extractThumbnail(queueDir);
+  const { frame: thumbnailFrame } = await extractThumbnail(queueDir);
   await cleanupOutFile(outPath);
   await cleanupAudioScratch(outDir, date);
 
@@ -285,6 +285,7 @@ async function main() {
     videoFile: "video.mp4",
     videoPath: path.relative(path.resolve(ROOT, ".."), destVideo).replace(/\\/g, "/"),
     thumbnailFile: "thumbnail.jpg",
+    thumbnailFrame,
     status: "pending",
     platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
     sourcePostIds: weekCards.map((c) => c.dir),

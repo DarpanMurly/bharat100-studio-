@@ -175,7 +175,7 @@ async function main() {
   } else if (revealYearIndex !== -1 && timings[revealYearIndex]) {
     thumbFrame = timings[revealYearIndex].startFrame + 45 + 10; // past the reveal pop-in
   }
-  await extractThumbnail(queueDir, "video.mp4", null, thumbFrame);
+  const { frame: thumbnailFrame } = await extractThumbnail(queueDir, "video.mp4", null, thumbFrame);
   await cleanupOutFile(outPath);
   await cleanupAudioScratch(outDir, date);
 
@@ -203,6 +203,7 @@ async function main() {
     videoFile: "video.mp4",
     videoPath: path.relative(path.resolve(ROOT, ".."), destVideo).replace(/\\/g, "/"),
     thumbnailFile: "thumbnail.jpg",
+    thumbnailFrame,
     status: "pending",
     platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
   };

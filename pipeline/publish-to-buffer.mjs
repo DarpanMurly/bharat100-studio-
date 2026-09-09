@@ -92,6 +92,15 @@ async function main() {
       console.log(`Uploading thumbnail to Cloudinary...`);
       media.thumbnailUrl = await uploadToCloudinary(path.join(queueDir, card.thumbnailFile));
     }
+    // Pass the exact same frame the YouTube thumbnail uses (see
+    // extract-thumbnail.mjs) so Instagram's cover frame via Buffer's
+    // thumbnailOffset points at the identical big-number/stat moment,
+    // instead of buffer-publish.mjs's own hardcoded fallback constant
+    // silently diverging from whatever frame was actually chosen for
+    // this specific video (found 2026-09-10: they'd drifted apart).
+    if (card.thumbnailFrame != null) {
+      media.thumbnailFrame = card.thumbnailFrame;
+    }
   } else if (card.imageFile) {
     console.log(`Uploading image to Cloudinary...`);
     media.imageUrl = await uploadToCloudinary(path.join(queueDir, card.imageFile));
