@@ -17,7 +17,7 @@ import { buildXCaption, buildThreadsCaption } from "./x-caption.mjs";
 import { DISCLAIMER, CROSS_PLATFORM_CTA_FROM_INSTAGRAM, CROSS_PLATFORM_CTA_FROM_YOUTUBE } from "./disclaimer.mjs";
 import { applyStyleRules } from "./style.mjs";
 import { assertSafeToOverwrite } from "./guard-overwrite.mjs";
-import { extractThumbnail } from "./extract-thumbnail.mjs";
+import { extractThumbnail, ENTRANCE_OFFSET } from "./extract-thumbnail.mjs";
 import { cleanupOutFile, cleanupAudioScratch } from "./cleanup-render-artifacts.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -151,7 +151,11 @@ async function main() {
   await fs.mkdir(queueDir, { recursive: true });
   const destVideo = path.join(queueDir, "video.mp4");
   await fs.copyFile(outPath, destVideo);
-  await extractThumbnail(queueDir);
+  const yearSlideIndex = content.slides.findIndex((s) => s.year);
+  const thumbFrame = yearSlideIndex !== -1 && timings[yearSlideIndex]
+    ? timings[yearSlideIndex].startFrame + ENTRANCE_OFFSET
+    : null;
+  await extractThumbnail(queueDir, "video.mp4", null, thumbFrame);
   await cleanupOutFile(outPath);
   await cleanupAudioScratch(outDir, date);
 

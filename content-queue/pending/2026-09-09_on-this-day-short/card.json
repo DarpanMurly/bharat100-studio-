@@ -13,7 +13,7 @@
   "captionYoutube": "On September 9th, a college that started with one man's stubborn idea became a university.\n\nAlso on Instagram and Threads: @bharatat100 · X: @Bharat_at_100\n\nIndependent citizen project. Not affiliated with the Government of India.\n\n#Shorts #Bharat100 #OnThisDay #IndianHistory #India2047 #ViksitBharat",
   "videoFile": "video.mp4",
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-09_on-this-day-short/video.mp4",
-  "status": "scheduled",
+  "status": "posted",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,6 @@
   },
   "youtubeVideoId": "JBS81uIrf6M",
   "youtubeUrl": "https://youtube.com/watch?v=JBS81uIrf6M",
-  "youtubeScheduledAt": "2026-09-09T07:30:00.000Z"
+  "youtubeScheduledAt": "2026-09-09T07:30:00.000Z",
+  "postedAt": "2026-09-09T09:35:51.631Z"
 }

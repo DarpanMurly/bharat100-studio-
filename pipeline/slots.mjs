@@ -10,10 +10,12 @@ export const SLOT_HOURS_IST = {
   "on-this-day-short": 13,
   video: 19,
   // Weekly recap is a 4th package on top of the normal 3, on the same
-  // day as that day's own On This Day post — gets its own slot an hour
-  // after the 7pm sector video, closing out the day as a distinct
-  // "week wrap" moment rather than colliding with any regular slot.
-  "weekly-recap": 20,
+  // day as that day's own On This Day post — gets its own slot 2 hours
+  // after the 7pm sector video (moved from 20:00 on 2026-09-09: that only
+  // gave a 1-hour gap from the video slot on the day it fires, too tight
+  // for reach given they're separate posts to the same audience), closing
+  // out the day as a distinct "week wrap" moment.
+  "weekly-recap": 21,
   // Diaspora-targeted pillars (added 2026-09-07): timed for US audiences,
   // not IST peak scroll time. 6am IST = ~8:30pm US Eastern / 5:30pm
   // Pacific (evening scroll); reuses the on-this-day-short pipeline/format,

@@ -20,8 +20,22 @@ function buildShortCaption(headline, hashtags, limit, maxTags) {
   return tagString ? `${text}\n\n${tagString}` : text;
 }
 
-export function buildXCaption(headline, hashtags = []) {
-  return buildShortCaption(headline, hashtags, LIMITS.x, 2);
+// "One Number, One Day": lead X/Bluesky/Mastodon posts with the day's
+// sharpest stat instead of the full headline sentence, so the post reads
+// as bait for a reply/quote rather than a dense summary — fast-scroll
+// text-first platforms reward a number up front more than a sentence.
+// Only sector-video scripts have scenes[].kind === "stat" with a clean
+// number + label; other pillars fall back to the plain headline.
+export function buildStatLeadHeadline(headline, scenes = []) {
+  const statScene = scenes.find((s) => s.kind === "stat" && s.stat);
+  if (!statScene) return headline;
+  const label = statScene.statLabel ? ` — ${statScene.statLabel}` : "";
+  return `${statScene.stat}${label}`;
+}
+
+export function buildXCaption(headline, hashtags = [], scenes = []) {
+  const leadHeadline = buildStatLeadHeadline(headline, scenes);
+  return buildShortCaption(leadHeadline, hashtags, LIMITS.x, 2);
 }
 
 export function buildThreadsCaption(fullCaption, headline, hashtags = []) {
