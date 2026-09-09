@@ -68,9 +68,16 @@ jobs:
           node pipeline/bluesky-slot-runner.mjs "$PILLAR"
 
       - name: Commit updated card.json if changed
+        # This workflow, homepage-sync.yml, and facebook-first-comment.yml
+        # all push to main within minutes of each other around the same
+        # slot times, and two of them touch content-queue/ for the same
+        # card — pull --rebase before pushing so a push landing in that
+        # window doesn't fail this one with a non-fast-forward rejection
+        # (found via a full pipeline audit, 2026-09-10).
         run: |
           git config user.name "bharat100-bot"
           git config user.email "actions@github.com"
           git add content-queue/
           git diff --cached --quiet || git commit -m "Bluesky: record post URI/timestamp [skip ci]"
+          git pull --rebase origin main
           git push

@@ -62,6 +62,13 @@ async function main() {
 
   const now = new Date().toISOString();
   await run("git", ["commit", "-m", `Sync homepage with latest published content (${now})`]);
+
+  // This workflow, bluesky-schedule.yml, and facebook-first-comment.yml
+  // all run around the same slot times and push to main independently —
+  // pull --rebase first so a push landing in that window doesn't fail
+  // this one with a non-fast-forward rejection (found via a full
+  // pipeline audit, 2026-09-10).
+  await run("git", ["pull", "--rebase", "origin", "main"]);
   await run("git", ["push", "origin", "main"]);
   console.log("Pushed — Netlify will auto-deploy from this commit.");
 }

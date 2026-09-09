@@ -19,6 +19,7 @@
 // and at least one board per pillar to exist (see pinterest-token.json's
 // boardIds map, or re-run the board-creation step if boards are missing).
 
+import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

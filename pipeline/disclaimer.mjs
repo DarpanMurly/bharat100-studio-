@@ -10,10 +10,18 @@ export const DISCLAIMER = "Independent citizen project. Not affiliated with the 
 // One-line cross-platform pointer, added to the full Instagram caption and
 // the YouTube description only (X/Threads captions are already tight
 // against their character caps and don't have room without cutting
-// something else). Points wherever the viewer ISN'T already, not back to
-// the platform they're already on.
-export const CROSS_PLATFORM_CTA_FROM_INSTAGRAM = "Also on YouTube, X and Threads: @bharatat100 (X: @Bharat_at_100)";
-export const CROSS_PLATFORM_CTA_FROM_YOUTUBE = "Also on Instagram and Threads: @bharatat100 · X: @Bharat_at_100";
+// something else — those two keep pointing to just YouTube/Threads and
+// Instagram/Threads respectively, not the full platform list). Points
+// wherever the viewer ISN'T already, not back to the platform they're
+// already on. Updated 2026-09-10 to name all 7 live platforms (was
+// stuck at the original 4 from before Facebook/Bluesky/Mastodon/
+// WordPress existed — found via a full pipeline audit; the on-screen
+// video CTA (PlatformHandles.tsx) had already been updated separately
+// and correctly, these caption strings were the ones left behind).
+export const CROSS_PLATFORM_CTA_FROM_INSTAGRAM =
+  "Also on YouTube, X, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100)";
+export const CROSS_PLATFORM_CTA_FROM_YOUTUBE =
+  "Also on Instagram, Threads, Facebook, Bluesky and Mastodon: @bharatat100 · X: @Bharat_at_100";
 
 // Appends the disclaimer to a caption if it isn't already present
 // (case-insensitive substring check) - safe to call even on captions

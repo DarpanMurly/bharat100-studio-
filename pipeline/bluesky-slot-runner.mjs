@@ -19,6 +19,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { SLOT_HOURS_IST } from "./slots.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -34,8 +35,26 @@ const SUFFIX_MATCH = {
   "on-this-day-short": "_on-this-day-short",
 };
 
-function todayIsoUtc() {
-  return new Date().toISOString().slice(0, 10);
+// The folder date for a pillar is NOT always "today in UTC" — a slot
+// whose IST hour is less than 5.5 (IST offset) normalizes to a UTC
+// instant on the PREVIOUS UTC calendar day (e.g. global-bharat's 5:00
+// IST = 23:30 UTC the day before). Bug found 2026-09-10: this function
+// used to always return the current UTC date, so global-bharat's cron
+// (firing at 23:30 UTC) looked for the wrong day's folder every single
+// day, silently found nothing, and logged a false-success "nothing to
+// post" — global-bharat never actually posted to Bluesky. Compute the
+// real content date the same way nextSlotUtc does, instead of assuming.
+function contentDateForPillar(pillarType) {
+  const now = new Date();
+  const hourIst = SLOT_HOURS_IST[pillarType] ?? SLOT_HOURS_IST.video;
+  const utcHour = hourIst - 5.5;
+  // If the slot's UTC hour is negative, this instant belongs to the
+  // NEXT UTC calendar day's folder (mirrors nextSlotUtc's normalization
+  // via Date.UTC's automatic rollover, applied here in reverse to go
+  // from "now" back to "which folder date is this").
+  const dayOffset = utcHour < 0 ? 1 : 0;
+  const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + dayOffset));
+  return d.toISOString().slice(0, 10);
 }
 
 async function findCardForPillar(pillarType, date) {
@@ -72,7 +91,7 @@ async function main() {
     process.exit(1);
   }
 
-  const date = todayIsoUtc();
+  const date = contentDateForPillar(pillarType);
   const dir = await findCardForPillar(pillarType, date);
   if (!dir) {
     console.log(`No ${date} card found for pillar "${pillarType}" — nothing to post to Bluesky this slot.`);

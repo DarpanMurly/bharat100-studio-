@@ -37,6 +37,25 @@ async function run(script, args) {
   if (stderr) console.error(stderr);
 }
 
+// Each platform's publish call is genuinely independent — a Facebook API
+// blip has no bearing on whether Mastodon or Pinterest should be
+// attempted. Originally these ran as bare `await run(...)` calls, so any
+// one throwing aborted every platform after it in the list (found via a
+// full pipeline audit, 2026-09-10) — a transient failure on an early
+// platform silently cost every later one, with no attempt even made.
+// Track failures and report them all at the end instead of stopping at
+// the first one; still exit non-zero if anything failed, so a real
+// problem is never silently swallowed either.
+async function runIndependent(label, script, args, failures) {
+  console.log(`\n--- ${label} ---`);
+  try {
+    await run(script, args);
+  } catch (err) {
+    console.error(`${label} FAILED: ${err.message ?? err}`);
+    failures.push(label);
+  }
+}
+
 async function main() {
   const postId = process.argv[2];
   if (!postId) {
@@ -48,28 +67,31 @@ async function main() {
   const queueDir = await findQueueDir(postId);
   const card = JSON.parse(await fs.readFile(path.join(queueDir, "card.json"), "utf-8"));
 
-  await run("publish-to-buffer.mjs", [postId, ...extraArgs]);
+  const failures = [];
+
+  await runIndependent("Instagram/Threads/X via Buffer", "publish-to-buffer.mjs", [postId, ...extraArgs], failures);
 
   if (card.videoFile) {
-    console.log(`\n--- Also uploading to YouTube ---`);
-    await run("youtube-upload.mjs", [postId]);
+    await runIndependent("YouTube", "youtube-upload.mjs", [postId], failures);
   } else {
     console.log(`\nSkipping YouTube — no video file on this card (a still image/carousel with no video counterpart).`);
   }
 
   if ((card.platforms ?? []).includes("Facebook")) {
-    console.log(`\n--- Also publishing to Facebook ---`);
-    await run("facebook-publish.mjs", [postId]);
+    await runIndependent("Facebook", "facebook-publish.mjs", [postId], failures);
   }
 
   if ((card.platforms ?? []).includes("Mastodon")) {
-    console.log(`\n--- Also publishing to Mastodon ---`);
-    await run("mastodon-publish.mjs", [postId]);
+    await runIndependent("Mastodon", "mastodon-publish.mjs", [postId], failures);
   }
 
   if ((card.platforms ?? []).includes("Pinterest")) {
-    console.log(`\n--- Also publishing to Pinterest ---`);
-    await run("pinterest-publish.mjs", [postId]);
+    await runIndependent("Pinterest", "pinterest-publish.mjs", [postId], failures);
+  }
+
+  if (failures.length > 0) {
+    console.error(`\n${failures.length} platform(s) failed: ${failures.join(", ")} — check the errors above.`);
+    process.exit(1);
   }
 }
 

@@ -75,9 +75,14 @@ jobs:
         run: rm -f facebook-token.json
 
       - name: Commit updated card.json if changed
+        # See the matching comment in bluesky-schedule.yml — this workflow
+        # and bluesky-schedule.yml both touch content-queue/ for the same
+        # card within minutes of each other, so pull --rebase before
+        # pushing to avoid a non-fast-forward rejection.
         run: |
           git config user.name "bharat100-bot"
           git config user.email "actions@github.com"
           git add content-queue/
           git diff --cached --quiet || git commit -m "Facebook: record first-comment id [skip ci]"
+          git pull --rebase origin main
           git push

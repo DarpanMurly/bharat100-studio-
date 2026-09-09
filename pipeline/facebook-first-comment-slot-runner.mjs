@@ -14,6 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { SLOT_HOURS_IST } from "./slots.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -25,8 +26,17 @@ const SUFFIX_MATCH = {
   "on-this-day-short": "_on-this-day-short",
 };
 
-function todayIsoUtc() {
-  return new Date().toISOString().slice(0, 10);
+// The folder date for a pillar is NOT always "today in UTC" — see the
+// identical, more detailed comment in bluesky-slot-runner.mjs, where
+// this exact bug (global-bharat's 23:30 UTC cron looking for the wrong
+// day's folder every day) was first found on 2026-09-10.
+function contentDateForPillar(pillarType) {
+  const now = new Date();
+  const hourIst = SLOT_HOURS_IST[pillarType] ?? SLOT_HOURS_IST.video;
+  const utcHour = hourIst - 5.5;
+  const dayOffset = utcHour < 0 ? 1 : 0;
+  const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + dayOffset));
+  return d.toISOString().slice(0, 10);
 }
 
 async function findCardForPillar(pillarType, date) {
@@ -59,7 +69,7 @@ async function main() {
     process.exit(1);
   }
 
-  const date = todayIsoUtc();
+  const date = contentDateForPillar(pillarType);
   const dir = await findCardForPillar(pillarType, date);
   if (!dir) {
     console.log(`No ${date} card found for pillar "${pillarType}" — nothing to comment on this slot.`);
