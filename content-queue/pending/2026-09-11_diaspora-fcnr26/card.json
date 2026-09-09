@@ -23,7 +23,7 @@
   "videoFile": "video.mp4",
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-11_diaspora-fcnr26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -34,5 +34,19 @@
     "Bluesky",
     "Pinterest"
   ],
-  "thumbnailFrame": 288
+  "thumbnailFrame": 288,
+  "approvedAt": "2026-09-09T20:52:00.000Z",
+  "scheduledAt": "2026-09-11T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa1c75d853dfdb71402a9bc",
+    "X": "6aa1c75e853dfdb71402a9e6",
+    "Threads": "6aa1c75e22ff73e63a9d2bfd"
+  },
+  "youtubeVideoId": "uq2bcKhDQ2U",
+  "youtubeUrl": "https://youtube.com/watch?v=uq2bcKhDQ2U",
+  "youtubeScheduledAt": "2026-09-11T17:00:00.000Z",
+  "facebookPostId": "2312077826291589",
+  "facebookScheduledAt": "2026-09-11T17:00:00.000Z",
+  "mastodonStatusId": "280413",
+  "mastodonScheduledAt": "2026-09-11T17:00:00.000Z"
 }

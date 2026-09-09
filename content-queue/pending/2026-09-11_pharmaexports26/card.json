@@ -23,7 +23,7 @@
   "videoFile": "video.mp4",
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-11_pharmaexports26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -34,5 +34,19 @@
     "Bluesky",
     "Pinterest"
   ],
-  "thumbnailFrame": 178
+  "thumbnailFrame": 178,
+  "approvedAt": "2026-09-09T20:52:00.000Z",
+  "scheduledAt": "2026-09-11T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa1c72122ff73e63a9d28ee",
+    "X": "6aa1c722853dfdb71402a698",
+    "Threads": "6aa1c723b0aab593aef356c4"
+  },
+  "youtubeVideoId": "-s-G7kD9CqA",
+  "youtubeUrl": "https://youtube.com/watch?v=-s-G7kD9CqA",
+  "youtubeScheduledAt": "2026-09-11T13:30:00.000Z",
+  "facebookPostId": "1656124299273851",
+  "facebookScheduledAt": "2026-09-11T13:30:00.000Z",
+  "mastodonStatusId": "280412",
+  "mastodonScheduledAt": "2026-09-11T13:30:00.000Z"
 }

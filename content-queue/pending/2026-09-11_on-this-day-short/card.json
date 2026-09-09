@@ -15,7 +15,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-11_on-this-day-short/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 20,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -25,5 +25,19 @@
     "Mastodon",
     "Bluesky",
     "Pinterest"
-  ]
+  ],
+  "approvedAt": "2026-09-09T20:52:00.000Z",
+  "scheduledAt": "2026-09-11T07:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa1c7f522ff73e63a9d35ee",
+    "X": "6aa1c7f622ff73e63a9d3618",
+    "Threads": "6aa1c7f78a767a2221fb3b3b"
+  },
+  "youtubeVideoId": "saMvk5hZ4-M",
+  "youtubeUrl": "https://youtube.com/watch?v=saMvk5hZ4-M",
+  "youtubeScheduledAt": "2026-09-11T07:30:00.000Z",
+  "facebookPostId": "1042604168597375",
+  "facebookScheduledAt": "2026-09-11T07:30:00.000Z",
+  "mastodonStatusId": "280416",
+  "mastodonScheduledAt": "2026-09-11T07:30:00.000Z"
 }
