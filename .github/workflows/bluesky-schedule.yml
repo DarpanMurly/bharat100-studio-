@@ -25,6 +25,14 @@ on:
     - cron: "0 17 * * *"   # Diaspora Dividend
   workflow_dispatch: {}    # allows a manual "Run workflow" trigger for testing
 
+# The default GITHUB_TOKEN is read-only unless explicitly granted write
+# access — the final "git push" step (recording each post's URI/timestamp
+# back to card.json) needs this, or it fails with exit code 128
+# (confirmed as the real cause of the first run's failure, 2026-09-09 —
+# not a Bluesky API problem at all, a git-push-permission problem).
+permissions:
+  contents: write
+
 jobs:
   post-to-bluesky:
     runs-on: ubuntu-latest

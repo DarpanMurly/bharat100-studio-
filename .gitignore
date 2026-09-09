@@ -5,6 +5,8 @@ dist
 youtube-client-secret.json
 youtube-token.json
 facebook-token.json
+wordpress-token.json
+pinterest-token.json
 
 # Ignore the output video from Git but not videos you import into src/.
 out

@@ -1,0 +1,113 @@
+// Usage: node pipeline/mastodon-publish.mjs <date>_<id>
+// Publishes the approved card to Mastodon, scheduled for the same slot
+// instant as every other platform. No OAuth, no App Review — a Mastodon
+// access token is self-service (account Preferences -> Development ->
+// New Application), unlike Meta/Pinterest.
+//
+// Unlike Bluesky, Mastodon's API DOES support native scheduled
+// publishing (the scheduled_at parameter on POST /api/v1/statuses,
+// minimum 5 minutes in the future) — so this fits the standard
+// publish-all.mjs flow directly, no GitHub Actions workaround needed.
+//
+// Requires MASTODON_INSTANCE (e.g. "https://mastodon.social") and
+// MASTODON_ACCESS_TOKEN in .env.
+
+import "dotenv/config";
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+
+const INSTANCE = process.env.MASTODON_INSTANCE;
+const ACCESS_TOKEN = process.env.MASTODON_ACCESS_TOKEN;
+
+// Mastodon's own hard cap on mastodon.social and most instances (some
+// instances raise this, but 500 is the safe default to assume).
+const MAX_CHARS = 500;
+
+async function findQueueDir(postId) {
+  for (const sub of ["approved", "pending"]) {
+    const dir = path.join(ROOT, "content-queue", sub, postId);
+    try {
+      await fs.access(dir);
+      return dir;
+    } catch {
+      // try next
+    }
+  }
+  throw new Error(`No queue folder found for "${postId}" in approved/ or pending/`);
+}
+
+async function createStatus({ text, scheduledAtIso }) {
+  const res = await fetch(`${INSTANCE}/api/v1/statuses`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${ACCESS_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      status: text,
+      scheduled_at: scheduledAtIso,
+    }),
+  });
+  const json = await res.json();
+  if (json.error) throw new Error(`Mastodon post failed: ${json.error}`);
+  return json; // { id, scheduled_at, ... } (a ScheduledStatus, not a Status, when scheduled_at is set)
+}
+
+async function main() {
+  const postId = process.argv[2];
+  if (!postId) {
+    console.error("Usage: node pipeline/mastodon-publish.mjs <date>_<id>");
+    process.exit(1);
+  }
+  if (!INSTANCE || !ACCESS_TOKEN) {
+    console.error("Missing MASTODON_INSTANCE or MASTODON_ACCESS_TOKEN in .env.");
+    process.exit(1);
+  }
+
+  const queueDir = await findQueueDir(postId);
+  const card = JSON.parse(await fs.readFile(path.join(queueDir, "card.json"), "utf-8"));
+
+  if (!(card.platforms ?? []).includes("Mastodon")) {
+    console.log(`Skipping Mastodon — "Mastodon" not in this card's platforms list.`);
+    return;
+  }
+
+  // X's caption is already the shortest, hashtag-light version this
+  // project produces — a comfortable fit for Mastodon's 500-char cap
+  // (roomier than Bluesky's 300, but the same short caption reads well
+  // here and keeps one consistent "short platforms" caption source).
+  let text = card.captionX ?? card.caption ?? "";
+  if (text.length > MAX_CHARS) {
+    text = text.slice(0, MAX_CHARS - 1) + "…";
+  }
+
+  const contentType = card.type ?? "video";
+  const slotHour = SLOT_HOURS_IST[contentType];
+  const dueAtIso = nextSlotUtc(slotHour, card.date);
+
+  // Mastodon requires the scheduled time to be at least 5 minutes in the
+  // future — if this card's slot has already passed (e.g. a late manual
+  // retry), post immediately instead of erroring.
+  const scheduledAtIso = new Date(dueAtIso).getTime() > Date.now() + 5 * 60 * 1000 ? dueAtIso : undefined;
+
+  console.log(`\n=== Publishing "${card.title}" to Mastodon (${INSTANCE}) ===`);
+  console.log(scheduledAtIso ? `Scheduled for: ${scheduledAtIso}` : `Slot already passed — posting immediately.`);
+
+  const result = await createStatus({ text, scheduledAtIso });
+
+  console.log(`Posted:`, result.id, result.scheduled_at ? `(scheduled for ${result.scheduled_at})` : "(live now)");
+
+  card.mastodonStatusId = result.id;
+  card.mastodonScheduledAt = scheduledAtIso ?? new Date().toISOString();
+  await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

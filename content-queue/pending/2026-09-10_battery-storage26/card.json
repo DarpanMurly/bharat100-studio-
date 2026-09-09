@@ -29,7 +29,10 @@
     "Instagram",
     "YouTube",
     "X",
-    "Threads"
+    "Threads",
+    "Facebook",
+    "Bluesky",
+    "Mastodon"
   ],
   "approvedAt": "2026-09-08T10:40:42.093Z",
   "scheduledAt": "2026-09-10T13:30:00.000Z",

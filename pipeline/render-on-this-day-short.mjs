@@ -173,7 +173,7 @@ async function main() {
     videoPath: path.relative(path.resolve(ROOT, ".."), destVideo).replace(/\\/g, "/"),
     thumbnailFile: "thumbnail.jpg",
     status: "pending",
-    platforms: ["Instagram", "YouTube", "X", "Threads"],
+    platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
   };
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 

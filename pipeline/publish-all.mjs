@@ -61,6 +61,16 @@ async function main() {
     console.log(`\n--- Also publishing to Facebook ---`);
     await run("facebook-publish.mjs", [postId]);
   }
+
+  if ((card.platforms ?? []).includes("Mastodon")) {
+    console.log(`\n--- Also publishing to Mastodon ---`);
+    await run("mastodon-publish.mjs", [postId]);
+  }
+
+  if ((card.platforms ?? []).includes("Pinterest")) {
+    console.log(`\n--- Also publishing to Pinterest ---`);
+    await run("pinterest-publish.mjs", [postId]);
+  }
 }
 
 main().catch((err) => {

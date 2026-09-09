@@ -9,6 +9,7 @@ import { OnThisDayStillComposition } from "./OnThisDayComposition";
 import { MotivationalShortCompositionDef } from "./MotivationalShortComposition";
 import { OnThisDayShortCompositionDef } from "./OnThisDayShortComposition";
 import { AppIconCompositionDef } from "./AppIcon";
+import { BlogCoverCompositionDef } from "./BlogCover";
 import { loadFont as loadFraunces } from "@remotion/google-fonts/Fraunces";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 import { loadFont as loadMono } from "@remotion/google-fonts/JetBrainsMono";
@@ -29,6 +30,7 @@ export const RemotionRoot: React.FC = () => {
       <MotivationalShortCompositionDef />
       <OnThisDayShortCompositionDef />
       <AppIconCompositionDef />
+      <BlogCoverCompositionDef />
     </>
   );
 };

@@ -17,7 +17,9 @@
     "YouTube",
     "X",
     "Threads",
-    "Facebook"
+    "Facebook",
+    "Bluesky",
+    "Mastodon"
   ],
   "approvedAt": "2026-09-08T10:41:56.735Z",
   "scheduledAt": "2026-09-10T00:30:00.000Z",

@@ -15,6 +15,7 @@
 // NOW, so it must be invoked (e.g. via a scheduled task) at the actual
 // slot time, not at approval time like the other publish scripts.
 
+import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
