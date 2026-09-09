@@ -1,0 +1,83 @@
+name: Facebook first comment
+
+# Posts an auto-generated engagement question as the first comment on
+# each day's Facebook VIDEO posts, once they've actually gone live —
+# facebook-publish.mjs schedules posts at approval time (hours/days
+# before the real slot), so commenting there would hit a still-scheduled,
+# not-yet-public post. This workflow fires shortly after each pillar's
+# real slot instant instead, same pattern as bluesky-schedule.yml and
+# homepage-sync.yml.
+#
+# facebook-token.json is gitignored (see feedback_secret_handling) and
+# has never been needed in CI before now — reconstructed here from a
+# single FACEBOOK_TOKEN_JSON repo secret holding the whole file's content.
+#
+# IST -> UTC conversions (IST is UTC+5:30), matching pipeline/slots.mjs:
+#   Global Bharat        5:00 IST  -> 23:30 UTC (prev day) -> run 23:45 UTC
+#   Personal Growth       8:00 IST  -> 02:30 UTC  -> run 02:45 UTC
+#   Builder Story        13:00 IST  -> 07:30 UTC  -> run 07:45 UTC
+#   Sector Futures        19:00 IST  -> 13:30 UTC  -> run 13:45 UTC
+#   Diaspora Dividend    22:30 IST  -> 17:00 UTC  -> run 17:15 UTC
+
+on:
+  schedule:
+    - cron: "45 23 * * *"  # after Global Bharat
+    - cron: "45 2 * * *"   # after Personal Growth
+    - cron: "45 7 * * *"   # after Builder Story
+    - cron: "45 13 * * *"  # after Sector Futures
+    - cron: "15 17 * * *"  # after Diaspora Dividend
+  workflow_dispatch:
+    inputs:
+      pillar:
+        description: "Pillar to check (for manual testing)"
+        required: true
+        default: "video"
+
+permissions:
+  contents: write
+
+jobs:
+  post-first-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Reconstruct facebook-token.json from secret
+        run: echo '${{ secrets.FACEBOOK_TOKEN_JSON }}' > facebook-token.json
+
+      - name: Determine pillar for this run and post the first comment
+        run: |
+          if [ -n "${{ github.event.inputs.pillar }}" ]; then
+            PILLAR="${{ github.event.inputs.pillar }}"
+          else
+            HOUR_MIN=$(date -u +%H:%M)
+            case "$HOUR_MIN" in
+              23:4*) PILLAR="global-bharat" ;;
+              02:4*) PILLAR="motivational-short" ;;
+              07:4*) PILLAR="on-this-day-short" ;;
+              13:4*) PILLAR="video" ;;
+              17:1*) PILLAR="diaspora-dividend" ;;
+              *) echo "No pillar mapped for time $HOUR_MIN — defaulting to video for a dry check."; PILLAR="video" ;;
+            esac
+          fi
+          echo "Running for pillar: $PILLAR"
+          node pipeline/facebook-first-comment-slot-runner.mjs "$PILLAR"
+
+      - name: Remove reconstructed token file before any commit
+        if: always()
+        run: rm -f facebook-token.json
+
+      - name: Commit updated card.json if changed
+        run: |
+          git config user.name "bharat100-bot"
+          git config user.email "actions@github.com"
+          git add content-queue/
+          git diff --cached --quiet || git commit -m "Facebook: record first-comment id [skip ci]"
+          git push

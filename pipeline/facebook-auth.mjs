@@ -44,7 +44,18 @@ const REDIRECT_URI = `http://localhost:${PORT}/callback`;
 // Page, until this scope was added). All four still work in Development
 // mode for the app's own admins/testers without needing Advanced Access
 // review — that review only gates access to OTHER people's Pages.
-const SCOPES = ["pages_show_list", "pages_manage_posts", "pages_read_engagement", "business_management"].join(",");
+// pages_manage_engagement (added 2026-09-10): required to POST a new
+// comment via /<post-id>/comments — distinct from pages_manage_posts,
+// which only covers the posts themselves, not comment creation
+// (confirmed: the first live attempt without this scope failed with
+// "(#200) Permissions error").
+const SCOPES = [
+  "pages_show_list",
+  "pages_manage_posts",
+  "pages_read_engagement",
+  "pages_manage_engagement",
+  "business_management",
+].join(",");
 
 // The Business Portfolio that owns the Bharatat100 Page (from Page
 // Settings -> "Manage and view access" -> "Business portfolio (ID: ...)").
