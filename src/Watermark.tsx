@@ -38,13 +38,13 @@ export const Watermark: React.FC = () => {
           style={{
             fontFamily: FONT_DISPLAY,
             fontWeight: 700,
-            fontSize: 66,
+            fontSize: 44,
             color: INK,
             lineHeight: 1,
             letterSpacing: -1,
           }}
         >
-          B<span style={{ color: SAFFRON }}>V</span>
+          <span style={{ color: SAFFRON }}>@</span>100
         </div>
       </div>
     </AbsoluteFill>
