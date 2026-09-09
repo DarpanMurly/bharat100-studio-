@@ -93,9 +93,15 @@ async function main() {
   // real beat to register the answer after the reveal, not just enough
   // time for the delay itself.
   const YEAR_REVEAL_EXTRA_SEC = 2;
-  const holds = durationsSec.map((d, i) =>
-    Math.max(d, MIN_SLIDE_SEC + (content.slides[i].revealYear ? YEAR_REVEAL_EXTRA_SEC : 0))
-  );
+  // The final CTA slide now shows the full 7-row PlatformHandles list
+  // (2026-09-09, was a single 2-handle line) — needs real extra time to
+  // read every row, not just MIN_SLIDE_SEC.
+  const CTA_EXTRA_SEC = 3.5;
+  const holds = durationsSec.map((d, i) => {
+    const slide = content.slides[i];
+    const extra = slide.revealYear ? YEAR_REVEAL_EXTRA_SEC : slide.kind === "cta" ? CTA_EXTRA_SEC : 0;
+    return Math.max(d, MIN_SLIDE_SEC + extra);
+  });
 
   const concatListPath = path.join(outDir, `${date}_concat.txt`);
   const concatLines = [];

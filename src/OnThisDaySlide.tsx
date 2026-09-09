@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
 import { Background, ThemeName } from "./Background";
+import { PlatformHandles } from "./PlatformHandles";
 
 // "Guess the Year" retention hook: when a slide opts in (slide.revealYear),
 // the year stays hidden for this many frames before fading/popping in —
@@ -161,16 +162,8 @@ export const OnThisDaySlide: React.FC<{
         )}
 
         {slide.kind === "cta" && (
-          <div
-            style={{
-              fontFamily: FONT_MONO,
-              fontSize: 24,
-              color: accent,
-              letterSpacing: 1,
-              marginTop: 30,
-            }}
-          >
-            @bharatat100 &middot; X: @Bharat_at_100
+          <div style={{ marginTop: 30 }}>
+            <PlatformHandles ink={INK} inkSoft={INK_SOFT} />
           </div>
         )}
 

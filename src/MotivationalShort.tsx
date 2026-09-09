@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Background } from "./Background";
+import { PlatformHandles } from "./PlatformHandles";
 
 const FONT_DISPLAY = "'Fraunces', Georgia, serif";
 const FONT_BODY = "'Inter', system-ui, sans-serif";
@@ -42,7 +43,11 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({
     extrapolateRight: "clamp",
   });
 
-  const ctaFrame = durationInFrames - Math.round(fps * 2);
+  // Bumped from fps*2 to fps*4 on 2026-09-09 to match TAIL_SEC's increase
+  // (render-motivational-short.mjs) — the CTA now holds the full 7-row
+  // PlatformHandles list, not just a 2-handle line, so it needs to fade
+  // in earlier within the reserved tail to leave real reading time.
+  const ctaFrame = durationInFrames - Math.round(fps * 4);
   const ctaOpacity = interpolate(frame, [ctaFrame, ctaFrame + 10], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -149,13 +154,12 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({
             textAlign: "center",
             maxWidth: 700,
             padding: "0 60px",
+            marginBottom: 32,
           }}
         >
           Follow for tomorrow's thought.
         </div>
-        <div style={{ fontFamily: FONT_MONO, fontSize: 18, color: INK_SOFT, marginTop: 22 }}>
-          @bharatat100 · X: @Bharat_at_100
-        </div>
+        <PlatformHandles ink={INK} inkSoft={INK_SOFT} />
       </AbsoluteFill>
 
     </AbsoluteFill>

@@ -177,11 +177,15 @@ async function main() {
   // list slide, so the closer's narration started playing while the
   // list slide was still on screen).
   const listHoldSec = Math.max(durationsSec[1], 3 + headlines.length * 1.6);
+  // Slide 3 (cta) now shows the full 7-row PlatformHandles list
+  // (2026-09-09, was a single 2-handle line) — needs real extra time to
+  // read every row, not just MIN_SLIDE_SEC.
+  const CTA_EXTRA_SEC = 3.5;
   const holds = [
     Math.max(durationsSec[0], MIN_SLIDE_SEC),
     listHoldSec,
     Math.max(durationsSec[2], MIN_SLIDE_SEC),
-    Math.max(durationsSec[3], MIN_SLIDE_SEC),
+    Math.max(durationsSec[3], MIN_SLIDE_SEC + CTA_EXTRA_SEC),
   ];
 
   // Build one silence clip per gap, sized to fill exactly what's left of

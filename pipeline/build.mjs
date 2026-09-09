@@ -19,7 +19,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const FPS = 30;
 const SCENE_PAUSE_SEC = 0.45; // breathing room after each line before the next starts
-const OUTRO_HOLD_SEC = 3.5; // extra silent hold on the outro card for reading handles
+// Extra silent hold on the outro card for reading handles — bumped from
+// 3.5s on 2026-09-09 when the handle list grew from 4 platforms to 7
+// (added Facebook, Bluesky, Mastodon), so there's still real time to
+// read every row rather than just the ones that used to fit.
+const OUTRO_HOLD_SEC = 4.5;
 const TAIL_SEC = 1.2; // hold last frame before video ends
 
 async function narrate(text, voice, outPath) {

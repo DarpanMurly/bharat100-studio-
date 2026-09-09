@@ -25,8 +25,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const FPS = 30;
 // Reserves time past the narration's own length for the end-card CTA
-// (see MotivationalShort.tsx, which fades it in over the final ~2s).
-const TAIL_SEC = 2.5;
+// (see MotivationalShort.tsx, which fades it in over the final ~4s).
+// Bumped from 2.5s on 2026-09-09 when the CTA grew from a 2-handle line
+// to the full 7-row PlatformHandles list, needing real time to read.
+const TAIL_SEC = 4.5;
 
 async function main() {
   const date = process.argv[2];

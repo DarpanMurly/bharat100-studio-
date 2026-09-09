@@ -1,21 +1,14 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { Background, ThemeName } from "./Background";
+import { PlatformHandles } from "./PlatformHandles";
 
 const FONT_DISPLAY = "'Fraunces', Georgia, serif";
 const FONT_BODY = "'Inter', system-ui, sans-serif";
-const FONT_MONO = "'JetBrains Mono', monospace";
 
 const INK = "#f2ede2";
 const INK_SOFT = "#a9b3ac";
 const LINE = "rgba(242,237,226,0.18)";
-
-const HANDLES = [
-  { label: "Instagram", value: "@bharatat100" },
-  { label: "YouTube", value: "@bharatat100" },
-  { label: "X", value: "@Bharat_at_100" },
-  { label: "Threads", value: "@bharatat100" },
-];
 
 export const Outro: React.FC<{ theme: ThemeName; ctaLine: string }> = ({ theme, ctaLine }) => {
   const frame = useCurrentFrame();
@@ -90,30 +83,7 @@ export const Outro: React.FC<{ theme: ThemeName; ctaLine: string }> = ({ theme, 
             </div>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-            {HANDLES.map((h) => (
-              <div
-                key={h.label}
-                style={{ display: "flex", alignItems: "baseline", gap: 16 }}
-              >
-                <div
-                  style={{
-                    fontFamily: FONT_MONO,
-                    fontSize: 20,
-                    color: INK_SOFT,
-                    textTransform: "uppercase",
-                    letterSpacing: 1.5,
-                    width: 150,
-                  }}
-                >
-                  {h.label}
-                </div>
-                <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: 32 }}>
-                  {h.value}
-                </div>
-              </div>
-            ))}
-          </div>
+          <PlatformHandles ink={INK} inkSoft={INK_SOFT} />
         </div>
 
       </AbsoluteFill>
