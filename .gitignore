@@ -20,6 +20,20 @@ public/*/timings.json
 public/*/props.json
 public/*/*.props.json
 
+# render-on-this-day-short.mjs, render-motivational-short.mjs, and
+# render-global-bharat.mjs (which writes an on-this-day-short-style
+# intermediate under a "gb-" prefix) all write a regenerable {audioFile,
+# timings} manifest to <date>.json in their OWN output directories —
+# unfortunately the exact same filename pattern as the real, hand-
+# written content JSON in public/on-this-day/ and public/global-bharat/
+# (found 2026-09-10: these manifests were untracked clutter showing up
+# in every git status). Scoped to just the manifest-producing dirs, NOT
+# on-this-day/ or global-bharat/ themselves, so real content is never
+# accidentally matched.
+public/on-this-day-short/*.json
+public/motivational-short/*.json
+public/on-this-day/gb-*.json
+
 # Rendered media inside the review queue — large, regenerable from the
 # source scripts, not meant to live in git history. card.json IS tracked
 # (see below) since it's the small text/metadata record a cloud-hosted

@@ -95,6 +95,7 @@ async function main() {
       .relative(path.resolve(ROOT, ".."), destVideo)
       .replace(/\\/g, "/"),
     thumbnailFile: "thumbnail.jpg",
+    thumbnailFrame,
     status: "pending",
     platforms: script.platforms ?? ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
   };
