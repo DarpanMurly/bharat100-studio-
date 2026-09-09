@@ -1,0 +1,60 @@
+{
+  "id": "diaspora-fcnr26",
+  "type": "diaspora-dividend",
+  "title": "India just raised $127 billion from its own diaspora",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-11",
+  "sources": [
+    "Bloomberg, Sept 2, 2026 - India Raises Record $127 Billion in Foreign Currency Deposits From Diaspora",
+    "Bloomberg, Sept 3, 2026 - India's Record Diaspora Inflows Swamp Banks, Test RBI Tools",
+    "The Indian Eye, Sept 3, 2026 - India Mobilises $127 Billion in Diaspora Deposits to Boost Forex Reserves"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "This week, India raised more money from its own diaspora than most countries' entire annual budgets.",
+      "sub": "Not remittances. Not investment. A direct call for deposits - and the diaspora answered."
+    },
+    {
+      "kind": "stat",
+      "text": "The special deposit scheme raised one hundred twenty seven billion dollars.",
+      "stat": "$127B",
+      "statLabel": "raised via RBI's FCNR-B diaspora deposit scheme, Sept 2026",
+      "narration": "The Reserve Bank's special foreign currency deposit scheme for the diaspora raised one hundred twenty seven billion dollars."
+    },
+    {
+      "kind": "stat",
+      "text": "Combined with other diaspora-linked inflows, the total crossed one hundred thirty six billion dollars.",
+      "stat": "$136B",
+      "statLabel": "total diaspora-linked inflows this round",
+      "narration": "Combined with other diaspora-linked foreign currency inflows, the total crossed one hundred thirty six billion dollars."
+    },
+    {
+      "kind": "point",
+      "text": "This is only the third time in India's history it has tapped diaspora deposits at this scale, after 1998's Resurgent India Bonds and 2000's India Millennium Deposits.",
+      "narration": "This is only the third time in India's history it has tapped diaspora deposits at this scale, after nineteen ninety eight's Resurgent India Bonds and two thousand's India Millennium Deposits."
+    },
+    {
+      "kind": "point",
+      "text": "Each time, it happened during a moment of external pressure on the rupee - and each time, the diaspora's own money helped stabilize it.",
+      "narration": "Each time, it happened during a moment of external pressure on the rupee, and each time, the diaspora's own money helped stabilize it."
+    },
+    {
+      "kind": "point",
+      "text": "This isn't foreign aid or foreign investment. It's Indians abroad lending their own country money, and getting paid back."
+    },
+    {
+      "kind": "closer",
+      "text": "Nineteen million Indians live and work outside India -",
+      "sub": "and when it matters most, they're still the first call India makes.",
+      "narration": "Nineteen million Indians live and work outside India, and when it matters most, they're still the first call India makes."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "This week, India raised more money from its own diaspora than most countries' entire annual budgets. Not remittances. Not investment. A direct call for deposits - and the diaspora answered.\n\nThe Reserve Bank's special foreign currency deposit scheme (FCNR-B) raised $127 billion from the diaspora in September 2026. Combined with other diaspora-linked foreign currency inflows, the total crossed $136 billion.\n\nThis is only the third time in India's history it has tapped diaspora deposits at this scale, after 1998's Resurgent India Bonds and 2000's India Millennium Deposits - each time during a moment of external pressure on the rupee, each time stabilized in part by the diaspora's own money.\n\nThis isn't foreign aid or foreign investment. It's Indians abroad lending their own country money, and getting paid back. Nineteen million Indians live and work outside India, and when it matters most, they're still the first call India makes.\n\nSources: Bloomberg (2026), The Indian Eye (2026)",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#NRI", "#India2047", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

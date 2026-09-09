@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1999",
+      "headline": "He sold a company he built from scratch for over nine billion dollars - the largest software deal of its time."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he is",
+      "headline": "Romesh Wadhwani",
+      "body": "Born in Karachi, his family moved to India after Partition. He studied at IIT Bombay before earning a PhD from Carnegie Mellon, then moved to the US to build his career in enterprise software."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "Aspect Development, sold for $9.3 billion in 1999.",
+      "body": "Wadhwani founded Aspect Development in Silicon Valley in 1991. Eight years later, i2 Technologies acquired it for $9.3 billion in stock - at the time, the Wall Street Journal called it the largest software deal ever made."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "IIT Bombay's returns compound for decades.",
+      "body": "Wadhwani went on to found Symphony Technology Group and Symphony AI, and now runs the Wadhwani Foundation, funding economic development back in India. One engineering degree, three decades, and a company sold for nine billion dollars - proof of what an IIT education abroad can turn into."
+    }
+  ],
+  "sources": [
+    "Forbes - Romesh T. Wadhwani profile",
+    "CNBC, Dec 8, 2023 - How a 75-year-old Indian-American tech entrepreneur is betting $1 billion of his own fortune on AI's future"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1893",
+      "headline": "In Chicago, an unknown Indian monk got a standing ovation before he even started speaking."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Swami Vivekananda",
+      "body": "A wandering monk from Bengal with no formal invitation, no funding, and no institutional backing, Vivekananda traveled to the United States on his own to represent Hinduism at the World's Parliament of Religions in Chicago."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What happened on September 11th",
+      "headline": "\"Sisters and Brothers of America\" - and the hall stood up.",
+      "body": "His opening line alone drew a two-minute standing ovation from an audience of 7,000, before he had made a single argument. The speech that followed introduced Vedanta philosophy and religious tolerance to a Western audience for the first time on this scale."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "India's first real moment of global soft power.",
+      "body": "Long before trade deals or diplomacy, one person's ideas earned India's first genuine hearing on the world stage. India still marks this date as Digvijay Diwas - proof that credibility abroad can be built by substance, not size."
+    }
+  ],
+  "sources": [
+    "Parliament of the World's Religions (official) - Vivekananda's Speech to the 1893 Parliament",
+    "Belur Math / Ramakrishna Mission (official) - historical account of the 1893 Chicago address"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "pharmaexports26",
+  "title": "India's pharma exports just hit a record $31 billion",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-11",
+  "sources": [
+    "Ministry of Commerce and Industry, Government of India, 2026 - pharmaceutical exports data briefing (via DrugsControl Media Services)",
+    "EY-Parthenon and OPPI industry report, Nov 2025 - India's pharma exports nearing $30 billion",
+    "IBEF (India Brand Equity Foundation), 2026 - Pharmaceutical Exports from India"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just became the world's pharmacy at a record scale.",
+      "sub": "Pharmaceutical exports hit an all-time high this year."
+    },
+    {
+      "kind": "stat",
+      "text": "India's pharma exports crossed thirty one billion dollars this year.",
+      "stat": "$31.1B",
+      "statLabel": "India's pharmaceutical exports, FY2025-26",
+      "narration": "India's pharmaceutical exports hit a record thirty one point one billion dollars this financial year."
+    },
+    {
+      "kind": "stat",
+      "text": "That's more than double what it was just over a decade ago.",
+      "stat": "2x",
+      "statLabel": "growth from roughly $14B in FY2014-15",
+      "narration": "That's more than double what India's pharma exports were just over a decade ago."
+    },
+    {
+      "kind": "point",
+      "text": "The US remains the single biggest buyer, taking over nine billion dollars of that total - nearly a third of everything India ships.",
+      "narration": "The US remains the single biggest buyer, taking over nine billion dollars of that total, nearly a third of everything India ships."
+    },
+    {
+      "kind": "point",
+      "text": "Vaccine exports alone grew over 26% this year, as India's reputation as a reliable low-cost manufacturer keeps compounding.",
+      "narration": "Vaccine exports alone grew over twenty six percent this year, as India's reputation as a reliable low cost manufacturer keeps compounding."
+    },
+    {
+      "kind": "point",
+      "text": "The government's own target: fifty billion dollars in pharma exports by 2030."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't a lucky year -",
+      "sub": "it's the compounding result of decades spent building manufacturing capacity nobody else wanted to build first.",
+      "narration": "This isn't a lucky year. It's the compounding result of decades spent building manufacturing capacity nobody else wanted to build first."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just became the world's pharmacy at a record scale. Pharmaceutical exports hit an all-time high this year.\n\nIndia's pharmaceutical exports hit a record $31.1 billion this financial year - more than double what they were just over a decade ago. The US remains the single biggest buyer, taking over $9 billion of that total, nearly a third of everything India ships.\n\nVaccine exports alone grew over 26% this year, as India's reputation as a reliable low-cost manufacturer keeps compounding. The government's own target: $50 billion in pharma exports by 2030.\n\nThis isn't a lucky year. It's the compounding result of decades spent building manufacturing capacity nobody else wanted to build first.\n\nSources: Ministry of Commerce and Industry, EY-Parthenon/OPPI, IBEF (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#PharmaExports", "#MakeInIndia", "#India2047", "#EconomicPolicy", "#Pharmaceuticals"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
