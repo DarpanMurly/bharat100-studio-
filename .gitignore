@@ -33,3 +33,14 @@ content-queue/**/*.png
 content-queue/archive-data.json
 content-queue/analytics-snapshot.json
 content-queue/search-console-snapshot.json
+
+# Root-level build outputs from pipeline/build-homepage.mjs (called by
+# deploy-homepage.mjs) — regenerated on every homepage sync run, and the
+# actual publish target is netlify-deploy/ (Netlify's Git-linked
+# directory), not these. Tracking them caused deploy-homepage.mjs's
+# `git pull --rebase` step to fail with "unstaged changes" every run
+# once they were correctly excluded from that step's `git add
+# netlify-deploy/` (found 2026-09-10) — homepage.html (the editable
+# SOURCE) remains tracked; only its generated output is ignored here.
+homepage.built.html
+sitemap.xml
