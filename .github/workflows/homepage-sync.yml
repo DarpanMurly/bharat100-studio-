@@ -13,7 +13,8 @@ name: Homepage sync
 # schedule) a few minutes to actually land before the archive is rebuilt.
 #
 # IST -> UTC conversions (IST is UTC+5:30), matching pipeline/slots.mjs:
-#   Global Bharat        6:00 IST  -> 00:30 UTC  -> run 00:40 UTC
+#   Global Bharat        5:00 IST  -> 23:30 UTC (prev day) -> run 23:40 UTC
+#                                     (moved from 6:00 IST on 2026-09-09)
 #   Personal Growth       8:00 IST  -> 02:30 UTC  -> run 02:40 UTC
 #   Builder Story        13:00 IST  -> 07:30 UTC  -> run 07:40 UTC
 #   Sector Futures        19:00 IST  -> 13:30 UTC  -> run 13:40 UTC
@@ -22,7 +23,7 @@ name: Homepage sync
 
 on:
   schedule:
-    - cron: "40 0 * * *"   # after Global Bharat
+    - cron: "40 23 * * *"  # after Global Bharat
     - cron: "40 2 * * *"   # after Personal Growth
     - cron: "40 7 * * *"   # after Builder Story
     - cron: "40 13 * * *"  # after Sector Futures

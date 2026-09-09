@@ -17,10 +17,12 @@ export const SLOT_HOURS_IST = {
   // out the day as a distinct "week wrap" moment.
   "weekly-recap": 21,
   // Diaspora-targeted pillars (added 2026-09-07): timed for US audiences,
-  // not IST peak scroll time. 6am IST = ~8:30pm US Eastern / 5:30pm
-  // Pacific (evening scroll); reuses the on-this-day-short pipeline/format,
-  // just diaspora-subject-filtered.
-  "global-bharat": 6,
+  // not IST peak scroll time. Moved 6:00 -> 5:00 IST on 2026-09-09: only
+  // gave a 2-hour gap to Personal Growth's 8:00 IST slot, tight compared
+  // to every other daily gap (5-6 hours); this still lands squarely in
+  // the US evening window (~7:30pm Eastern / 4:30pm Pacific) while
+  // opening up a 3-hour gap to Personal Growth.
+  "global-bharat": 5,
   // 10:30pm IST = ~1pm US Eastern / 10am Pacific (midday scroll), spread
   // well apart from both the 6am global-bharat slot and the existing 7pm
   // IST sector-video slot; reuses the sector-video pipeline/format.

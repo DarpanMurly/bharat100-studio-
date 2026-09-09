@@ -1,6 +1,14 @@
 import React from "react";
-import { AbsoluteFill } from "remotion";
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
 import { Background, ThemeName } from "./Background";
+
+// "Guess the Year" retention hook: when a slide opts in (slide.revealYear),
+// the year stays hidden for this many frames before fading/popping in —
+// paired with render-on-this-day-short.mjs holding the narration's actual
+// year mention until the same beat, so the visual withholding and the
+// audio question land together. 45 frames at 30fps = 1.5s, long enough to
+// read the headline/eyebrow as a question before the payoff.
+export const YEAR_REVEAL_DELAY_FRAMES = 45;
 
 const FONT_DISPLAY = "'Fraunces', Georgia, serif";
 const FONT_BODY = "'Inter', system-ui, sans-serif";
@@ -22,6 +30,14 @@ export type SlideData = {
   // Only used by "recap-list" — one line per item, e.g. the week's
   // headlines. Rendered as a numbered list instead of a single story.
   listItems?: string[];
+  // "Guess the Year" hook: when true, slide.year is hidden for the first
+  // YEAR_REVEAL_DELAY_FRAMES of this slide, then pops in — instead of
+  // being visible from frame 0 like every other slide. The day's content
+  // JSON opts a slide into this; it's never automatic, since it only
+  // makes sense when the headline is phrased as a guessable question
+  // (e.g. "What year did India launch its first UPI transaction?") rather
+  // than a headline that already states the year.
+  revealYear?: boolean;
 };
 
 // 1080x1350 (4:5), matching the motivational post so the whole daily
@@ -38,6 +54,16 @@ export const OnThisDaySlide: React.FC<{
   seriesLabel?: string;
 }> = ({ slide, index, total, theme, seriesLabel = "On This Day" }) => {
   const accent = slide.kind === "closer" || slide.kind === "cta" ? SAFFRON : "#d98aab";
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  const yearHidden = slide.revealYear && frame < YEAR_REVEAL_DELAY_FRAMES;
+  const yearPopIn = slide.revealYear
+    ? interpolate(frame, [YEAR_REVEAL_DELAY_FRAMES, YEAR_REVEAL_DELAY_FRAMES + Math.round(fps * 0.3)], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+      })
+    : 1;
 
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY }}>
@@ -70,7 +96,7 @@ export const OnThisDaySlide: React.FC<{
           </div>
         </div>
 
-        {slide.year && (
+        {slide.year && !yearHidden && (
           <div
             style={{
               fontFamily: FONT_DISPLAY,
@@ -80,6 +106,8 @@ export const OnThisDaySlide: React.FC<{
               lineHeight: 1,
               marginBottom: 24,
               textShadow: "0 4px 30px rgba(0,0,0,0.3)",
+              opacity: yearPopIn,
+              transform: `scale(${0.85 + yearPopIn * 0.15})`,
             }}
           >
             {slide.year}

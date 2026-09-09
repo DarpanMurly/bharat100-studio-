@@ -10,7 +10,11 @@ name: Bluesky scheduled posting
 # all 5 out together at approval time.
 #
 # IST -> UTC conversions (IST is UTC+5:30), matching pipeline/slots.mjs:
-#   Global Bharat        6:00 IST  -> 00:30 UTC
+#   Global Bharat        5:00 IST  -> 23:30 UTC (previous day; moved from
+#                                     6:00 IST on 2026-09-09 — only a
+#                                     2-hour gap to the 8:00 IST slot,
+#                                     tight next to the day's other 5-6
+#                                     hour gaps)
 #   Personal Growth       8:00 IST  -> 02:30 UTC
 #   Builder Story        13:00 IST  -> 07:30 UTC
 #   Sector Futures        19:00 IST  -> 13:30 UTC
@@ -18,7 +22,7 @@ name: Bluesky scheduled posting
 
 on:
   schedule:
-    - cron: "30 0 * * *"   # Global Bharat
+    - cron: "30 23 * * *"  # Global Bharat
     - cron: "30 2 * * *"   # Personal Growth (motivational-short)
     - cron: "30 7 * * *"   # Builder Story (on-this-day-short)
     - cron: "30 13 * * *"  # Sector Futures
@@ -53,7 +57,7 @@ jobs:
         run: |
           HOUR_MIN=$(date -u +%H:%M)
           case "$HOUR_MIN" in
-            00:3*) PILLAR="global-bharat" ;;
+            23:3*) PILLAR="global-bharat" ;;
             02:3*) PILLAR="motivational-short" ;;
             07:3*) PILLAR="on-this-day-short" ;;
             13:3*) PILLAR="video" ;;

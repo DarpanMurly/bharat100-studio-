@@ -87,7 +87,15 @@ async function main() {
   // real user-reported bug on the Vinod Dham video, 2026-09-08 — same
   // root cause already fixed in render-weekly-recap.mjs the same day).
   const MIN_SLIDE_SEC = 4.5;
-  const holds = durationsSec.map((d) => Math.max(d, MIN_SLIDE_SEC));
+  // "Guess the Year" slides (slide.revealYear, see OnThisDaySlide.tsx)
+  // withhold the year for YEAR_REVEAL_DELAY_FRAMES (1.5s at 30fps) before
+  // it pops in — give those slides extra hold time so there's still a
+  // real beat to register the answer after the reveal, not just enough
+  // time for the delay itself.
+  const YEAR_REVEAL_EXTRA_SEC = 2;
+  const holds = durationsSec.map((d, i) =>
+    Math.max(d, MIN_SLIDE_SEC + (content.slides[i].revealYear ? YEAR_REVEAL_EXTRA_SEC : 0))
+  );
 
   const concatListPath = path.join(outDir, `${date}_concat.txt`);
   const concatLines = [];
@@ -142,10 +150,19 @@ async function main() {
   // Prefer a slide with slide.year (renders at 120px in OnThisDaySlide.tsx)
   // over the default opening-frame fallback (60-74px headline) — a bigger,
   // more discoverable thumbnail when that day's content has one.
-  const yearSlideIndex = content.slides.findIndex((s) => s.year);
-  const thumbFrame = yearSlideIndex !== -1 && timings[yearSlideIndex]
-    ? timings[yearSlideIndex].startFrame + ENTRANCE_OFFSET
-    : null;
+  // Prefer a slide with a plain (already-visible) year over a
+  // revealYear one — a revealYear slide's year is hidden until frame 45
+  // (YEAR_REVEAL_DELAY_FRAMES in OnThisDaySlide.tsx), well past
+  // ENTRANCE_OFFSET, so grabbing it at the usual offset would capture
+  // the slide before its payoff appears.
+  const plainYearIndex = content.slides.findIndex((s) => s.year && !s.revealYear);
+  const revealYearIndex = content.slides.findIndex((s) => s.year && s.revealYear);
+  let thumbFrame = null;
+  if (plainYearIndex !== -1 && timings[plainYearIndex]) {
+    thumbFrame = timings[plainYearIndex].startFrame + ENTRANCE_OFFSET;
+  } else if (revealYearIndex !== -1 && timings[revealYearIndex]) {
+    thumbFrame = timings[revealYearIndex].startFrame + 45 + 10; // past the reveal pop-in
+  }
   await extractThumbnail(queueDir, "video.mp4", null, thumbFrame);
   await cleanupOutFile(outPath);
   await cleanupAudioScratch(outDir, date);
