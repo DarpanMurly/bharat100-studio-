@@ -44,14 +44,20 @@ async function main() {
       continue;
     }
     // Only genuinely LIVE content belongs in a public archive. "approved"
-    // and "scheduled" both mean queued-but-not-yet-live — Buffer/YouTube
-    // hold it until its slot time, and nothing in this pipeline flips
-    // status to "posted" once that slot passes. So instead of trusting
-    // status alone, require the card's own scheduled slot instant
-    // (whichever platform it targets) to already be in the past.
-    if (card.status !== "scheduled") continue;
+    // means queued-but-not-yet-live. Both "scheduled" and "posted" can
+    // mean genuinely live — this comment used to say nothing in the
+    // pipeline ever sets "posted", but that's since become false (found
+    // 2026-09-10: most real cards ARE marked "posted" once live, and this
+    // filter's status!=="scheduled" check was silently excluding almost
+    // all of them from the archive — only 2 entries were making it
+    // through instead of 25+). Accept either status, still gated on the
+    // slot instant actually being in the past (or unset, which only
+    // happens on cards old enough to predate scheduledAt/
+    // youtubeScheduledAt being recorded at all — those are unambiguously
+    // already live too).
+    if (card.status !== "scheduled" && card.status !== "posted") continue;
     const slotAt = card.scheduledAt ?? card.youtubeScheduledAt;
-    if (!slotAt || new Date(slotAt).getTime() > Date.now()) continue;
+    if (slotAt && new Date(slotAt).getTime() > Date.now()) continue;
     if (card.type === "weekly-recap") continue; // a recap of other entries, not its own story
 
     rawEntries.push({ dir, date: card.date, type: card.type, card });
