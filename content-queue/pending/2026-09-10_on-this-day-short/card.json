@@ -35,5 +35,6 @@
   "facebookScheduledAt": "2026-09-10T07:30:00.000Z",
   "mastodonStatusId": "280323",
   "mastodonScheduledAt": "2026-09-10T07:30:00.000Z",
-  "thumbnailFrame": 25
+  "thumbnailFrame": 25,
+  "facebookFirstCommentId": "1757673612606429_4398448670485519"
 }
