@@ -94,7 +94,20 @@ async function main() {
   console.log(`Cover uploaded: ${imageUrl}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Guard added 2026-09-11 — this file exports findDayPillars, which
+// wordpress-publish.mjs imports. Without this guard, main() ran on
+// every such import (module-level `main().catch(...)` with no check at
+// all), silently re-rendering the cover and overwriting the article
+// file with a stale in-memory copy — racing wordpress-publish.mjs's own
+// write of wordpressPostId/wordpressScheduledAt and wiping it out. This
+// is why every published/scheduled WordPress article's local file was
+// missing those fields even though the actual posts went out correctly
+// (confirmed: card.json prints "Scheduled: <real URL>" but the file on
+// disk never persisted wordpressPostId or wordpressScheduledAt).
+const isMain = path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1]);
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
