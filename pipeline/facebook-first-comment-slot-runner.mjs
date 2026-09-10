@@ -1,14 +1,20 @@
-// Usage: node pipeline/facebook-first-comment-slot-runner.mjs <pillarType>
-// Called by .github/workflows/facebook-first-comment.yml shortly after
-// each pillar's slot time, so the auto first-comment (facebook-first-
-// comment.mjs) only fires once the Facebook post has actually gone live
-// — commenting on a still-scheduled post is unreliable. Same "find
-// today's card for this pillar" logic as bluesky-slot-runner.mjs,
-// reused here rather than duplicated with drift.
+// Usage: node pipeline/facebook-first-comment-slot-runner.mjs
+// Called by .github/workflows/facebook-first-comment.yml, so the auto
+// first-comment (facebook-first-comment.mjs) only fires once each
+// Facebook post has actually gone live — commenting on a still-scheduled
+// post is unreliable.
 //
-// <pillarType> is one of: global-bharat, motivational-short,
-// on-this-day-short, video, diaspora-dividend — matching the slot key
-// names in pipeline/slots.mjs.
+// REWRITTEN 2026-09-10 to check ALL 5 pillars every run instead of
+// guessing a single pillar from wall-clock time, same fix and same
+// reason as bluesky-slot-runner.mjs: GitHub Actions schedule triggers
+// are documented to fire 10-60+ minutes late, and matching a narrow
+// time window per pillar meant a late firing could miss its window
+// entirely and silently skip that day's comment (confirmed: 2 of 5
+// Sept 10 pillars never got their first comment). This version checks
+// every pillar's actual card every run — self-healing against delay of
+// any length, and facebook-first-comment.mjs's own idempotency check
+// (skips if facebookFirstCommentId already set) makes it safe to call
+// repeatedly across multiple firings in a day.
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -20,18 +26,15 @@ const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+const PILLARS = ["global-bharat", "motivational-short", "on-this-day-short", "video", "diaspora-dividend"];
+
 const SUFFIX_MATCH = {
   "global-bharat": "_global-bharat",
   "motivational-short": "_motivational-short",
   "on-this-day-short": "_on-this-day-short",
 };
 
-// The folder date for a pillar is NOT always "today in UTC" — see the
-// identical, more detailed comment in bluesky-slot-runner.mjs, where
-// this exact bug (global-bharat's 23:30 UTC cron looking for the wrong
-// day's folder every day) was first found on 2026-09-10.
-function contentDateForPillar(pillarType) {
-  const now = new Date();
+function contentDateForPillar(pillarType, now) {
   const hourIst = SLOT_HOURS_IST[pillarType] ?? SLOT_HOURS_IST.video;
   const utcHour = hourIst - 5.5;
   const dayOffset = utcHour < 0 ? 1 : 0;
@@ -41,7 +44,12 @@ function contentDateForPillar(pillarType) {
 
 async function findCardForPillar(pillarType, date) {
   const pendingDir = path.join(ROOT, "content-queue", "pending");
-  const dirs = (await fs.readdir(pendingDir)).filter((d) => d.startsWith(date));
+  let dirs;
+  try {
+    dirs = (await fs.readdir(pendingDir)).filter((d) => d.startsWith(date));
+  } catch {
+    return null;
+  }
 
   if (SUFFIX_MATCH[pillarType]) {
     const match = dirs.find((d) => d.endsWith(SUFFIX_MATCH[pillarType]));
@@ -62,28 +70,34 @@ async function findCardForPillar(pillarType, date) {
   return null;
 }
 
-async function main() {
-  const pillarType = process.argv[2];
-  if (!pillarType) {
-    console.error("Usage: node pipeline/facebook-first-comment-slot-runner.mjs <pillarType>");
-    process.exit(1);
-  }
-
-  const date = contentDateForPillar(pillarType);
+async function tryCommentPillar(pillarType, now) {
+  const date = contentDateForPillar(pillarType, now);
   const dir = await findCardForPillar(pillarType, date);
   if (!dir) {
-    console.log(`No ${date} card found for pillar "${pillarType}" — nothing to comment on this slot.`);
+    console.log(`[${pillarType}] No ${date} card found — nothing to comment on.`);
     return;
   }
 
-  console.log(`Found ${dir} for pillar "${pillarType}" — checking for a Facebook first comment.`);
-  const { stdout, stderr } = await execFileAsync(
-    "node",
-    [path.join(ROOT, "pipeline", "facebook-first-comment.mjs"), dir],
-    { cwd: ROOT }
-  );
-  if (stdout) console.log(stdout);
-  if (stderr) console.error(stderr);
+  console.log(`[${pillarType}] Found ${dir} — checking for a Facebook first comment.`);
+  try {
+    const { stdout, stderr } = await execFileAsync(
+      "node",
+      [path.join(ROOT, "pipeline", "facebook-first-comment.mjs"), dir],
+      { cwd: ROOT }
+    );
+    if (stdout) console.log(stdout);
+    if (stderr) console.error(stderr);
+  } catch (err) {
+    console.error(`[${pillarType}] ${dir}: comment attempt failed — ${err.message ?? err}`);
+  }
+}
+
+async function main() {
+  const now = new Date();
+  console.log(`Checking all 5 pillars at ${now.toISOString()}...`);
+  for (const pillarType of PILLARS) {
+    await tryCommentPillar(pillarType, now);
+  }
 }
 
 main().catch((err) => {

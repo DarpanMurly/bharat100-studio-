@@ -26,12 +26,7 @@ on:
     - cron: "45 7 * * *"   # after Builder Story
     - cron: "45 13 * * *"  # after Sector Futures
     - cron: "15 17 * * *"  # after Diaspora Dividend
-  workflow_dispatch:
-    inputs:
-      pillar:
-        description: "Pillar to check (for manual testing)"
-        required: true
-        default: "video"
+  workflow_dispatch: {}    # manual "Run workflow" trigger for testing — checks all 5 pillars
 
 permissions:
   contents: write
@@ -52,23 +47,14 @@ jobs:
       - name: Reconstruct facebook-token.json from secret
         run: echo '${{ secrets.FACEBOOK_TOKEN_JSON }}' > facebook-token.json
 
-      - name: Determine pillar for this run and post the first comment
-        run: |
-          if [ -n "${{ github.event.inputs.pillar }}" ]; then
-            PILLAR="${{ github.event.inputs.pillar }}"
-          else
-            HOUR_MIN=$(date -u +%H:%M)
-            case "$HOUR_MIN" in
-              23:4*) PILLAR="global-bharat" ;;
-              02:4*) PILLAR="motivational-short" ;;
-              07:4*) PILLAR="on-this-day-short" ;;
-              13:4*) PILLAR="video" ;;
-              17:1*) PILLAR="diaspora-dividend" ;;
-              *) echo "No pillar mapped for time $HOUR_MIN — defaulting to video for a dry check."; PILLAR="video" ;;
-            esac
-          fi
-          echo "Running for pillar: $PILLAR"
-          node pipeline/facebook-first-comment-slot-runner.mjs "$PILLAR"
+      - name: Check all 5 pillars and comment on whichever are due
+        # No more wall-clock pillar-guessing (removed 2026-09-10) — see
+        # the matching comment in bluesky-schedule.yml. A late-firing
+        # trigger used to fall through to the wrong pillar or miss its
+        # window entirely (confirmed: 2 of 5 Sept 10 pillars never got
+        # their first comment). Now checks every pillar's actual card
+        # every run — self-healing against delay of any length.
+        run: node pipeline/facebook-first-comment-slot-runner.mjs
 
       - name: Remove reconstructed token file before any commit
         if: always()

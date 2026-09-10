@@ -50,22 +50,20 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev --no-audit --no-fund
 
-      - name: Determine pillar for this run and post
+      - name: Check all 5 pillars and post whichever are due
+        # No more wall-clock pillar-guessing (removed 2026-09-10) — GitHub
+        # Actions schedule triggers are documented to fire 10-60+ minutes
+        # late under normal load, and matching a narrow time window per
+        # pillar meant a late firing silently posted the WRONG pillar's
+        # content (confirmed: a 10-minute-late firing on 2026-09-10 posted
+        # Sector Futures' post at Personal Growth's slot time, and the
+        # other 4 pillars never posted that day at all). The slot runner
+        # now checks every pillar's real slot instant against actual
+        # current time itself — self-healing against delay of any length.
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: |
-          HOUR_MIN=$(date -u +%H:%M)
-          case "$HOUR_MIN" in
-            23:3*) PILLAR="global-bharat" ;;
-            02:3*) PILLAR="motivational-short" ;;
-            07:3*) PILLAR="on-this-day-short" ;;
-            13:3*) PILLAR="video" ;;
-            17:0*) PILLAR="diaspora-dividend" ;;
-            *) echo "No pillar mapped for time $HOUR_MIN (manual run?) — defaulting to video for a dry check."; PILLAR="video" ;;
-          esac
-          echo "Running for pillar: $PILLAR (UTC time: $HOUR_MIN)"
-          node pipeline/bluesky-slot-runner.mjs "$PILLAR"
+        run: node pipeline/bluesky-slot-runner.mjs
 
       - name: Commit updated card.json if changed
         # This workflow, homepage-sync.yml, and facebook-first-comment.yml

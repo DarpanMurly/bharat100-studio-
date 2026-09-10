@@ -21,15 +21,23 @@ name: Homepage sync
 #   Weekly Recap          21:00 IST  -> 15:30 UTC  -> run 15:40 UTC
 #   Diaspora Dividend     22:30 IST  -> 17:00 UTC  -> run 17:10 UTC
 
+# PAUSED 2026-09-10: user is out of Netlify build credits. Running out of
+# credits doesn't just fail future deploys — it takes the ENTIRE live site
+# offline (a "Site not available" page) until the next monthly reset. This
+# workflow deploys up to 6x/day, which risked burning through credits fast.
+# All 6 scheduled cron triggers commented out below; workflow_dispatch (the
+# manual "Run workflow" button) is left enabled so a deploy can still be
+# triggered deliberately once credits are sorted out. To re-enable the
+# automatic schedule, uncomment the "schedule:" block below.
 on:
-  schedule:
-    - cron: "40 23 * * *"  # after Global Bharat
-    - cron: "40 2 * * *"   # after Personal Growth
-    - cron: "40 7 * * *"   # after Builder Story
-    - cron: "40 13 * * *"  # after Sector Futures
-    - cron: "40 15 * * *"  # after Weekly Recap (when it runs)
-    - cron: "10 17 * * *"  # after Diaspora Dividend
-  workflow_dispatch: {}    # manual "Run workflow" trigger for testing
+  # schedule:
+  #   - cron: "40 23 * * *"  # after Global Bharat
+  #   - cron: "40 2 * * *"   # after Personal Growth
+  #   - cron: "40 7 * * *"   # after Builder Story
+  #   - cron: "40 13 * * *"  # after Sector Futures
+  #   - cron: "40 15 * * *"  # after Weekly Recap (when it runs)
+  #   - cron: "10 17 * * *"  # after Diaspora Dividend
+  workflow_dispatch: {}    # manual "Run workflow" trigger — still enabled
 
 # Needs write access for the same reason as bluesky-schedule.yml: the
 # default GITHUB_TOKEN is read-only, and this workflow's whole job is to
