@@ -1,0 +1,59 @@
+{
+  "id": "portslogistics26",
+  "title": "India's ports just moved a record 915 million tonnes of cargo",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-12",
+  "sources": [
+    "PIB (Press Information Bureau, Government of India), 2026 - Major Ports FY2025-26 cargo data",
+    "IBEF, 2026 - Major ports handle record 915 million tonnes cargo in FY26, surpass target",
+    "PSU Watch / DD News, 2026 - Ports Minister statement on FY26 cargo performance"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's ports just moved more cargo in one year than ever before.",
+      "sub": "And they beat their own target doing it."
+    },
+    {
+      "kind": "stat",
+      "text": "India's major ports handled nine hundred fifteen million tonnes of cargo this year.",
+      "stat": "915MT",
+      "statLabel": "cargo handled by India's Major Ports, FY2025-26",
+      "narration": "India's Major Ports handled nine hundred fifteen point one seven million tonnes of cargo this financial year."
+    },
+    {
+      "kind": "stat",
+      "text": "That's seven percent growth in a single year, beating the government's own target.",
+      "stat": "+7%",
+      "statLabel": "year-on-year growth, beating the 904MT target",
+      "narration": "That's seven point zero six percent growth in a single year, beating the government's own nine hundred four million tonne target."
+    },
+    {
+      "kind": "point",
+      "text": "Cargo on India's national waterways grew even faster - up nearly fifty percent year on year.",
+      "narration": "Cargo on India's national waterways grew even faster, up nearly fifty percent year on year."
+    },
+    {
+      "kind": "point",
+      "text": "Deendayal Port and Paradip Port led the pack, each moving over 150 million tonnes on their own.",
+      "narration": "Deendayal Port and Paradip Port led the pack, each moving over one hundred fifty million tonnes on their own."
+    },
+    {
+      "kind": "point",
+      "text": "India has now earmarked over eighty billion dollars for port infrastructure through 2035."
+    },
+    {
+      "kind": "closer",
+      "text": "Ports don't trend on social media -",
+      "sub": "but every export, every import, every factory that depends on either one runs through them first.",
+      "narration": "Ports don't trend on social media, but every export, every import, every factory that depends on either one runs through them first."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's ports just moved more cargo in one year than ever before. And they beat their own target doing it.\n\nIndia's Major Ports handled 915.17 million tonnes of cargo this financial year - up 7.06% year-on-year, beating the government's own 904 million tonne target. Cargo on India's national waterways grew even faster, up nearly 50% year on year.\n\nDeendayal Port and Paradip Port led the pack, each moving over 150 million tonnes on their own. India has now earmarked over $80 billion for port infrastructure through 2035, under the Maritime Amrit Kaal Vision 2047 framework.\n\nPorts don't trend on social media. But every export, every import, every factory that depends on either one runs through them first.\n\nSources: PIB, IBEF, PSU Watch/DD News (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#PortsAndLogistics", "#MaritimeIndia", "#MakeInIndia", "#India2047", "#EconomicPolicy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
