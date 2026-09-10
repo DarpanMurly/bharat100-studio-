@@ -24,7 +24,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-12_diaspora-realestate26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 211,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -34,5 +34,19 @@
     "Mastodon",
     "Bluesky",
     "Pinterest"
-  ]
+  ],
+  "approvedAt": "2026-09-10T18:46:54.000Z",
+  "scheduledAt": "2026-09-12T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa2fb79b077a13751be7f6d",
+    "X": "6aa2fb7a61b9399e0277da96",
+    "Threads": "6aa2fb7b61b9399e0277dac0"
+  },
+  "youtubeVideoId": "ssHH3YqDZyg",
+  "youtubeUrl": "https://youtube.com/watch?v=ssHH3YqDZyg",
+  "youtubeScheduledAt": "2026-09-12T17:00:00.000Z",
+  "facebookPostId": "1596634411867978",
+  "facebookScheduledAt": "2026-09-12T17:00:00.000Z",
+  "mastodonStatusId": "280518",
+  "mastodonScheduledAt": "2026-09-12T17:00:00.000Z"
 }

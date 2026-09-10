@@ -24,7 +24,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-12_portslogistics26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 209,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -34,5 +34,19 @@
     "Mastodon",
     "Bluesky",
     "Pinterest"
-  ]
+  ],
+  "approvedAt": "2026-09-10T18:46:54.000Z",
+  "scheduledAt": "2026-09-12T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa2fb422d6d0354fea37dc0",
+    "X": "6aa2fb4330b3661d55d576dc",
+    "Threads": "6aa2fb44627dee49c6a397a7"
+  },
+  "youtubeVideoId": "CRbSeJAf_Qg",
+  "youtubeUrl": "https://youtube.com/watch?v=CRbSeJAf_Qg",
+  "youtubeScheduledAt": "2026-09-12T13:30:00.000Z",
+  "facebookPostId": "27873600255674773",
+  "facebookScheduledAt": "2026-09-12T13:30:00.000Z",
+  "mastodonStatusId": "280517",
+  "mastodonScheduledAt": "2026-09-12T13:30:00.000Z"
 }
