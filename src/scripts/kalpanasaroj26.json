@@ -1,0 +1,52 @@
+{
+  "id": "kalpanasaroj26",
+  "type": "diaspora-dividend",
+  "title": "Married at 12. Now she runs a ₹900 crore company.",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-13",
+  "sources": [
+    "DNA India - Kalpana Saroj profile, child marriage, abuse, and Kamani Tubes turnaround",
+    "Dutch Uncles - Kalpana Saroj biography and business profile"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She was married off at 12 and worked as a tailor for daily wages.",
+      "sub": "Today, her company is worth over 900 crore rupees."
+    },
+    {
+      "kind": "stat",
+      "text": "Kalpana Saroj's business empire is worth roughly nine hundred crore rupees today.",
+      "stat": "₹900Cr",
+      "statLabel": "approximate net worth built from a Mumbai chawl and a daily-wage tailoring job",
+      "narration": "Kalpana Saroj's business empire is worth roughly nine hundred crore rupees today - around one hundred twelve million dollars."
+    },
+    {
+      "kind": "point",
+      "text": "She survived a child marriage, abuse, and a suicide attempt before she was even a teenager.",
+      "narration": "She survived a child marriage, abuse, and a suicide attempt before she was even a teenager."
+    },
+    {
+      "kind": "point",
+      "text": "She rebuilt her life in Mumbai working as a tailor, then a furniture seller, then took on Kamani Tubes - a company that was bankrupt and shut down.",
+      "narration": "She rebuilt her life in Mumbai working as a tailor, then a furniture seller, then took on Kamani Tubes, a company that was bankrupt and shut down."
+    },
+    {
+      "kind": "point",
+      "text": "She turned it around completely - and it became the foundation of everything she built after."
+    },
+    {
+      "kind": "closer",
+      "text": "There was no version of her story where this was expected.",
+      "sub": "That's exactly why it's worth telling.",
+      "narration": "There was no version of her story where this was expected. That's exactly why it's worth telling."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "She was married off at 12 and worked as a tailor for daily wages. Today, her company is worth over 900 crore rupees.\n\nKalpana Saroj survived a child marriage, abuse, and a suicide attempt before she was even a teenager. She rebuilt her life in Mumbai working as a tailor, then a furniture seller - before taking on Kamani Tubes, a company that was bankrupt and shut down, and turning it around completely.\n\nHer business empire today is worth roughly ₹900 crore (~$112 million).\n\nThere was no version of her story where this was expected. That's exactly why it's worth telling.\n\nSources: DNA India, Dutch Uncles",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#KalpanaSaroj", "#WomenEntrepreneurs", "#India2047", "#BuilderStory"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

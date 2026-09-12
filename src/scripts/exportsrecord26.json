@@ -1,0 +1,54 @@
+{
+  "id": "exportsrecord26",
+  "title": "India's exports just crossed $316 billion in four months",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-13",
+  "sources": [
+    "PIB (Press Information Bureau, Government of India), 2026 - cumulative exports April-July FY2026-27",
+    "Organiser, 2026 - India's highest-ever monthly merchandise exports, May 2026",
+    "News on Air, 2026 - narrowing trade deficit amid record export growth"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In four months, India exported more than most countries do in a year.",
+      "sub": "And it's still accelerating."
+    },
+    {
+      "kind": "stat",
+      "text": "India's exports hit three hundred sixteen billion dollars between April and July alone.",
+      "stat": "$316B",
+      "statLabel": "cumulative merchandise + services exports, Apr-Jul FY2026-27",
+      "narration": "India's cumulative exports hit three hundred sixteen point four two billion dollars between April and July of this financial year."
+    },
+    {
+      "kind": "stat",
+      "text": "That's thirteen percent higher than the same period last year.",
+      "stat": "+13.16%",
+      "statLabel": "year-on-year growth, Apr-Jul FY2026-27",
+      "narration": "That's thirteen point one six percent higher than the same four months last year."
+    },
+    {
+      "kind": "point",
+      "text": "May alone set the record for India's highest-ever monthly merchandise exports - forty five point two billion dollars in thirty one days.",
+      "narration": "May alone set the record for India's highest ever monthly merchandise exports, forty five point two billion dollars in thirty one days."
+    },
+    {
+      "kind": "point",
+      "text": "The trade deficit is narrowing at the same time - exports are growing faster than imports."
+    },
+    {
+      "kind": "closer",
+      "text": "A country doesn't export its way to relevance by accident -",
+      "sub": "it takes factories, ports, and supply chains all moving in the same direction, every single month.",
+      "narration": "A country doesn't export its way to relevance by accident. It takes factories, ports, and supply chains all moving in the same direction, every single month."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "In four months, India exported more than most countries do in a year. And it's still accelerating.\n\nIndia's cumulative merchandise and services exports hit $316.42 billion between April and July of FY2026-27 - up 13.16% year-on-year. May alone set the record for India's highest-ever monthly merchandise exports, at $45.2 billion.\n\nThe trade deficit is narrowing at the same time, as exports grow faster than imports.\n\nA country doesn't export its way to relevance by accident. It takes factories, ports, and supply chains all moving in the same direction, every single month.\n\nSources: PIB, Organiser, News on Air (2026)",
+  "hashtags": ["#Bharat100", "#IndiaExports", "#MakeInIndia", "#IndiaEconomy", "#India2047", "#TradeGrowth"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

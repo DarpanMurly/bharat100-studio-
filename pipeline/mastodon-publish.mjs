@@ -17,6 +17,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
+import { buildLongCaption } from "./long-caption.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -39,54 +40,6 @@ async function findQueueDir(postId) {
     }
   }
   throw new Error(`No queue folder found for "${postId}" in approved/ or pending/`);
-}
-
-// Builds a real Mastodon caption from the FULL caption's actual
-// paragraphs (headline + as much body prose as fits), not a reused
-// short-platform caption designed for a much tighter budget (see the
-// comment at this function's call site). Drops the same trailing
-// boilerplate build-archive-data.mjs's bodyParagraphs() already
-// excludes (cross-platform CTA, disclaimer, sources, hashtag block),
-// then appends the card's own hashtags at the end if room remains —
-// so a Mastodon post reads as a real, complete thought instead of a
-// bare hook line.
-function buildMastodonCaption(card, maxChars) {
-  const allParagraphs = (card.caption ?? "").split("\n\n").map((p) => p.trim()).filter(Boolean);
-
-  // Not every pillar sets card.hashtags as its own array (e.g.
-  // motivational-short embeds hashtags only as the caption's own
-  // trailing "#Tag1 #Tag2 ..." paragraph) — fall back to extracting
-  // that paragraph from the caption itself so hashtags are never
-  // silently dropped just because the array field is absent.
-  const hashtagParagraph = allParagraphs.find((p) => p.startsWith("#"));
-  const hashtagsFromArray = (card.hashtags ?? []).slice(0, 3).join(" ");
-  const hashtags = hashtagsFromArray || (hashtagParagraph ? hashtagParagraph.split(" ").slice(0, 3).join(" ") : "");
-  const hashtagBlock = hashtags ? `\n\n${hashtags}` : "";
-
-  const paragraphs = allParagraphs.filter((p) => {
-    if (p.startsWith("Also on")) return false;
-    if (p.startsWith("Independent citizen project")) return false;
-    if (p.startsWith("Sources:")) return false;
-    if (p.startsWith("#")) return false;
-    return true;
-  });
-
-  if (paragraphs.length === 0) return card.title ?? "";
-
-  let text = paragraphs[0];
-  for (let i = 1; i < paragraphs.length; i++) {
-    const candidate = `${text}\n\n${paragraphs[i]}`;
-    if (candidate.length + hashtagBlock.length > maxChars) break;
-    text = candidate;
-  }
-
-  if (text.length + hashtagBlock.length <= maxChars) {
-    text += hashtagBlock;
-  } else if (text.length > maxChars) {
-    text = text.slice(0, maxChars - 1).trimEnd() + "…";
-  }
-
-  return text;
 }
 
 async function createStatus({ text, scheduledAtIso }) {
@@ -137,7 +90,7 @@ async function main() {
   // needs its own real truncation that includes actual body content up
   // to its 500-char budget, not a reused short-platform caption that
   // was designed around a DIFFERENT, much tighter constraint (X's 280).
-  let text = buildMastodonCaption(card, MAX_CHARS);
+  let text = buildLongCaption(card, MAX_CHARS);
 
   const contentType = card.type ?? "video";
   const slotHour = SLOT_HOURS_IST[contentType];

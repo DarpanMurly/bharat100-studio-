@@ -1,0 +1,33 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1948",
+      "headline": "At 4am on this day, Indian troops crossed into Hyderabad - and ended 224 years of Nizam rule in five days."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Operation Polo",
+      "body": "Hyderabad State, ruled by the Nizam, had refused to join the Indian Union after independence - its own private army, the Razakars, was carrying out mass violence against the population. On September 13, 1948, Indian forces entered at 4am."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How fast it moved",
+      "headline": "Five days. That's all it took.",
+      "body": "By September 17-18, Hyderabad's forces surrendered and the Nizam capitulated. What decades of political stalemate couldn't resolve, five days of decisive action did - integrating the largest princely state left outside the Union."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The map of India isn't an accident.",
+      "body": "Every princely state that joined the Union, one negotiation or one operation at a time, is part of why India today is one country instead of a patchwork of five hundred. Hyderabad was the hardest holdout - and still came together."
+    }
+  ],
+  "sources": [
+    "Wikipedia - Indian annexation of Hyderabad (Operation Polo, 13-18 September 1948)",
+    "Vajiram & Ravi - Operation Polo 1948, Annexation of Hyderabad",
+    "Shankar IAS Parliament - 77th Anniversary of Operation Polo"
+  ]
+}

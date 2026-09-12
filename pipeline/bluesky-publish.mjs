@@ -19,6 +19,7 @@ import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildLongCaption } from "./long-caption.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -96,13 +97,16 @@ async function main() {
     return;
   }
 
-  // X's caption is already the shortest, hashtag-light version this
-  // project produces — the best fit for Bluesky's 300-grapheme cap and
-  // its lighter hashtag culture, rather than the full Instagram caption.
-  let text = card.captionX ?? card.caption ?? "";
-  if (text.length > MAX_GRAPHEMES) {
-    text = text.slice(0, MAX_GRAPHEMES - 1) + "…";
-  }
+  // Was card.captionX (X's caption: bare hook headline + 2 hashtags, no
+  // body context) — this is the exact same incoherence bug found and
+  // fixed on Mastodon 2026-09-10 (see long-caption.mjs's header comment),
+  // but Bluesky was never updated to match at the time since the report
+  // then was Mastodon-specific. Confirmed live 2026-09-13: a Kalpana Saroj
+  // post's captionX read "₹900Cr — approximate net worth built from a
+  // Mumbai chawl..." with no mention of her name anywhere, unrecognizable
+  // as being about a person at all. buildLongCaption pulls real body
+  // paragraphs from the full caption instead, same as Mastodon now does.
+  let text = buildLongCaption(card, MAX_GRAPHEMES);
 
   console.log(`\n=== Publishing "${card.title}" to Bluesky (@${HANDLE}) ===`);
 

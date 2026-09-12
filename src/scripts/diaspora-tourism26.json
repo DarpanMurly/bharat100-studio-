@@ -1,0 +1,54 @@
+{
+  "id": "diaspora-tourism26",
+  "type": "diaspora-dividend",
+  "title": "10.6 million NRIs came home in a single year - more than half of all foreign arrivals",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-13",
+  "sources": [
+    "Ministry of Tourism, Government of India - India Tourism Data Compendium 2025 / PIB Year-End Review 2024",
+    "ThePrint, 2026 - independent analysis of NRI arrivals outpacing foreign tourist recovery"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In the latest year on record, over ten million NRIs came back to visit India.",
+      "sub": "That's more than half of everyone who visited India from abroad."
+    },
+    {
+      "kind": "stat",
+      "text": "NRI visits to India hit ten point six million - the latest figure the government has published.",
+      "stat": "10.62M",
+      "statLabel": "NRI arrivals to India, 2024 (Ministry of Tourism's latest published figure)",
+      "narration": "NRI visits to India hit ten point six two million in twenty twenty four, the most recent year the government has published this data for."
+    },
+    {
+      "kind": "stat",
+      "text": "That's fifty two percent higher than before the pandemic.",
+      "stat": "+52%",
+      "statLabel": "growth vs. 2019's 6.98 million NRI arrivals",
+      "narration": "That's fifty two percent higher than before the pandemic, up from six point nine eight million in twenty nineteen."
+    },
+    {
+      "kind": "point",
+      "text": "NRIs now make up more than half of all international arrivals to India - and they stay longer, spend more per trip than typical foreign tourists.",
+      "narration": "NRIs now make up more than half of all international arrivals to India, and they stay longer and spend more per trip than typical foreign tourists."
+    },
+    {
+      "kind": "point",
+      "text": "India's total tourism receipts hit thirty five billion dollars that same year - government tourism data typically takes over a year to fully publish."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't tourism in the usual sense -",
+      "sub": "it's millions of people choosing to spend their vacation days going back, not just sending money back.",
+      "narration": "This isn't tourism in the usual sense. It's millions of people choosing to spend their vacation days going back, not just sending money back."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "In the latest year on record, over ten million NRIs came back to visit India. That's more than half of everyone who visited India from abroad.\n\nNRI visits to India hit 10.62 million in 2024 - the most recent figure the Ministry of Tourism has published (government tourism data typically takes over a year to fully release) - up 52% from 6.98 million in 2019, before the pandemic. NRIs now make up more than half of all international arrivals to India, and they stay longer and spend more per trip than typical foreign tourists. India's total tourism receipts hit $35 billion that same year.\n\nThis isn't tourism in the usual sense. It's millions of people choosing to spend their vacation days going back, not just sending money back.\n\nSources: Ministry of Tourism (Government of India), ThePrint",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#NRI", "#India2047", "#Tourism"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

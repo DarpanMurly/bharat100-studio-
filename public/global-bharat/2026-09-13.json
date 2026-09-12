@@ -1,0 +1,33 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2025",
+      "headline": "She became the first woman CEO in U.S. Bancorp's 160-year history."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she is",
+      "headline": "Gunjan Kedia",
+      "body": "Kedia had already spent years rising through U.S. Bancorp's leadership, most recently as President - the bank's second-highest role - before the board named her Chief Executive Officer, effective at the close of the April 2025 annual shareholder meeting."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What made it a first",
+      "headline": "No woman had led the bank before - in over 160 years.",
+      "body": "U.S. Bancorp, one of the largest regional banks in the United States, had never had a female CEO since its founding. Kedia also joined the company's Board of Directors alongside taking the role."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Indian-origin leadership at the top of American finance isn't new anymore.",
+      "body": "From tech to banking, Indian-origin executives now run some of the largest companies in the world. Each one that breaks a barrier that specific company held for over a century makes the next one less remarkable, and more expected."
+    }
+  ],
+  "sources": [
+    "U.S. Bancorp Investor Relations - Gunjan Kedia named CEO, effective April 15, 2025 annual meeting",
+    "CNBC - U.S. Bancorp names Gunjan Kedia as first female CEO",
+    "Banking Dive - U.S. Bancorp's CEO transition coverage"
+  ]
+}

@@ -30,9 +30,12 @@ import diasporaFcnr26 from "./scripts/diaspora-fcnr26.json";
 import diasporaPhilanthropy26 from "./scripts/diaspora-philanthropy26.json";
 import diasporaRealestate26 from "./scripts/diaspora-realestate26.json";
 import diasporaRemit26 from "./scripts/diaspora-remit26.json";
+import diasporaTourism26 from "./scripts/diaspora-tourism26.json";
 import diasporaVc26 from "./scripts/diaspora-vc26.json";
 import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
+import exportsrecord26 from "./scripts/exportsrecord26.json";
+import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
 import semicon2 from "./scripts/semicon2.json";
@@ -51,9 +54,12 @@ const scriptRegistry: Record<string, VideoScript> = {
   "diaspora-philanthropy26": diasporaPhilanthropy26 as VideoScript,
   "diaspora-realestate26": diasporaRealestate26 as VideoScript,
   "diaspora-remit26": diasporaRemit26 as VideoScript,
+  "diaspora-tourism26": diasporaTourism26 as VideoScript,
   "diaspora-vc26": diasporaVc26 as VideoScript,
   "electronics26": electronics26 as VideoScript,
   "evgrowth26": evgrowth26 as VideoScript,
+  "exportsrecord26": exportsrecord26 as VideoScript,
+  "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
   "semicon2": semicon2 as VideoScript,
