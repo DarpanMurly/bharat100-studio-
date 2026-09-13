@@ -62,6 +62,30 @@ async function getCurrentCapacity() {
   };
 }
 
+// Real gap found 2026-09-13 via a manual audit: this script only ever
+// checked for a MISSING bufferPostIds entry, never whether an EXISTING
+// entry was actually still healthy on Buffer's side. A post that fails
+// after being recorded (the generic "unknown error", a media-spec issue)
+// keeps its id in card.json forever, reading as "already succeeded" to
+// every check that only looks at presence, not live status — this is
+// exactly how 4 real failures (Sept 6, Sept 11, Sept 13 x2) sat unnoticed
+// until the user reported the actual failure emails directly. Fixed by
+// also pulling Buffer's own "error" bucket in bulk (one call, not one
+// call per post — avoids the rate limit hit during the manual audit that
+// prompted this fix) and treating any card whose recorded id shows up
+// there as gapped too, same as a missing id.
+async function fetchErroredBufferIds() {
+  const query = `
+    query {
+      posts(input: { organizationId: "${ORG_ID}", filter: { status: error } }, first: 100) {
+        edges { node { id channel { service } } }
+      }
+    }
+  `;
+  const data = await graphql(query);
+  return new Set(data.posts.edges.map((e) => e.node.id));
+}
+
 // A card has a genuine Buffer GAP when: it lists a Buffer platform in
 // card.platforms, that platform is one of Instagram/Threads/X, and
 // bufferPostIds has no entry for it — but ONLY when we can be confident
@@ -84,7 +108,7 @@ async function getCurrentCapacity() {
 //      belongs in front of a human, not auto-resolved.
 const MAX_AGE_DAYS = 3;
 
-async function findGappedCards() {
+async function findGappedCards(erroredBufferIds) {
   const pendingDir = path.join(ROOT, "content-queue", "pending");
   const dirs = await fs.readdir(pendingDir);
   const gapped = [];
@@ -98,12 +122,20 @@ async function findGappedCards() {
       continue;
     }
     if (!card.videoFile && !card.imageFile && !card.slideFiles?.length) continue; // no media, not a Buffer-eligible card
-    if (card.status !== "approved") continue; // only a confirmed partial-failure state, never "posted"/"scheduled"/"pending"
+
+    // "approved" is the confirmed partial-failure state; "scheduled" is
+    // ALSO checked now (but only for a live-errored id, never a missing
+    // one) since a post can fail AFTER already being recorded as
+    // successful — see fetchErroredBufferIds()'s comment. Anything else
+    // ("posted", "pending", etc.) is left alone entirely.
+    if (card.status !== "approved" && card.status !== "scheduled") continue;
 
     if (card.date) {
       const ageDays = (Date.now() - new Date(`${card.date}T00:00:00Z`).getTime()) / (1000 * 60 * 60 * 24);
       if (ageDays > MAX_AGE_DAYS) {
-        console.log(`  [${dir}] status is "approved" but ${Math.floor(ageDays)} days old — too stale to auto-retry, needs a human look.`);
+        if (card.status === "approved") {
+          console.log(`  [${dir}] status is "approved" but ${Math.floor(ageDays)} days old — too stale to auto-retry, needs a human look.`);
+        }
         continue;
       }
     }
@@ -111,7 +143,12 @@ async function findGappedCards() {
     const bufferPlatforms = (card.platforms ?? []).filter((p) => ["Instagram", "Threads", "X"].includes(p));
     if (bufferPlatforms.length === 0) continue;
 
-    const missing = bufferPlatforms.filter((p) => !card.bufferPostIds?.[p]);
+    const missing = bufferPlatforms.filter((p) => {
+      const id = card.bufferPostIds?.[p];
+      if (!id) return true; // never attempted, or cleared after a manual fix
+      if (erroredBufferIds.has(id)) return true; // recorded, but Buffer says it actually failed
+      return false;
+    });
     if (missing.length === 0) continue;
 
     // Skip anything whose slot hasn't happened yet — this is a RECOVERY
@@ -125,9 +162,26 @@ async function findGappedCards() {
   return gapped;
 }
 
-async function retryPlatform(dir, cardPath, card, platformLabel) {
+const DELETE_POST_MUTATION = `
+  mutation DeletePost($id: PostId!) {
+    deletePost(input: { id: $id }) {
+      ... on DeletePostSuccess { id }
+      ... on VoidMutationError { message }
+    }
+  }
+`;
+
+async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferIds) {
   const queueDir = path.join(ROOT, "content-queue", "pending", dir);
   const platformKey = platformLabel.toLowerCase() === "x" ? "twitter" : platformLabel.toLowerCase();
+
+  // If the existing id is a live-errored one (not just missing), delete it
+  // on Buffer's side first — otherwise the old errored post lingers
+  // forever alongside the fresh replacement.
+  const existingId = card.bufferPostIds?.[platformLabel];
+  if (existingId && erroredBufferIds.has(existingId)) {
+    await graphql(DELETE_POST_MUTATION, { id: existingId });
+  }
 
   let text = card.caption;
   if (platformKey === "twitter") text = card.captionX ?? card.caption;
@@ -163,15 +217,19 @@ async function retryPlatform(dir, cardPath, card, platformLabel) {
 
 async function main() {
   console.log(`Checking for Buffer platform gaps at ${new Date().toISOString()}...`);
-  const gapped = await findGappedCards();
+
+  const erroredBufferIds = await fetchErroredBufferIds();
+  console.log(`Buffer currently reports ${erroredBufferIds.size} post(s) in error state.`);
+
+  const gapped = await findGappedCards(erroredBufferIds);
 
   if (gapped.length === 0) {
     console.log("No gapped cards found — every Buffer-eligible card has all its expected platform posts.");
     return;
   }
 
-  console.log(`Found ${gapped.length} card(s) with a missing Buffer platform:`);
-  for (const g of gapped) console.log(`  ${g.dir}: missing ${g.missing.join(", ")}`);
+  console.log(`Found ${gapped.length} card(s) with a missing or errored Buffer platform:`);
+  for (const g of gapped) console.log(`  ${g.dir}: ${g.missing.join(", ")}`);
 
   const capacity = await getCurrentCapacity();
   console.log(`\nCurrent capacity: Instagram ${capacity.Instagram}, Threads ${capacity.Threads}, X ${capacity.X} free`);
@@ -179,15 +237,20 @@ async function main() {
   let anyRetried = false;
   for (const { dir, cardPath, card, missing } of gapped) {
     for (const platformLabel of missing) {
-      if (capacity[platformLabel] <= 0) {
+      // An existing-but-errored post occupies its OWN scheduled-queue slot
+      // until deleted, so retrying it doesn't need fresh capacity the way
+      // a genuinely-missing platform does — only skip on capacity when
+      // there was no id there at all.
+      const isReplacingErrored = card.bufferPostIds?.[platformLabel] && erroredBufferIds.has(card.bufferPostIds[platformLabel]);
+      if (!isReplacingErrored && capacity[platformLabel] <= 0) {
         console.log(`  [${dir}] ${platformLabel}: still full, skipping this run.`);
         continue;
       }
-      console.log(`  [${dir}] ${platformLabel}: capacity available, retrying...`);
+      console.log(`  [${dir}] ${platformLabel}: ${isReplacingErrored ? "replacing errored post" : "capacity available"}, retrying...`);
       try {
-        const id = await retryPlatform(dir, cardPath, card, platformLabel);
+        const id = await retryPlatform(dir, cardPath, card, platformLabel, erroredBufferIds);
         console.log(`    -> success: ${id}`);
-        capacity[platformLabel]--;
+        if (!isReplacingErrored) capacity[platformLabel]--;
         anyRetried = true;
       } catch (err) {
         console.error(`    -> FAILED again: ${err.message ?? err}`);
