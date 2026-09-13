@@ -143,6 +143,20 @@ async function retryPlatform(dir, cardPath, card, platformLabel) {
 
   const post = await queuePost(platformKey, text, media, {});
   card.bufferPostIds = { ...(card.bufferPostIds ?? {}), [platformLabel]: post.id };
+
+  // Flip status back to "scheduled" once every Buffer platform this card
+  // actually needs is now present — mirrors the exact same completeness
+  // check publish-to-buffer.mjs's 2026-09-14 resilience fix uses. Missed
+  // in the first version of this script (found 2026-09-13): a successful
+  // retry updated bufferPostIds correctly but left status stuck on
+  // "approved" forever, even after every platform succeeded, so the
+  // dashboard kept showing a fully-live post as still pending.
+  const requiredBufferPlatforms = (card.platforms ?? []).filter((p) => ["Instagram", "Threads", "X"].includes(p));
+  const allPresent = requiredBufferPlatforms.every((p) => card.bufferPostIds[p]);
+  if (allPresent) {
+    card.status = "scheduled";
+  }
+
   await fs.writeFile(cardPath, JSON.stringify(card, null, 2), "utf-8");
   return post.id;
 }
