@@ -108,6 +108,16 @@ async function main() {
 
   const platforms = (card.platforms ?? []).filter((p) => p !== "YouTube");
   const results = { ...(card.bufferPostIds ?? {}) };
+  // Per-platform try/catch, not one loop-wide try/catch — a real bug found
+  // 2026-09-14: one platform hitting Buffer's 10/10 scheduled-post cap
+  // (a per-CHANNEL limit, so Instagram can be full while Threads/X still
+  // have room) threw and aborted the whole loop, losing even platforms
+  // that had already succeeded earlier in the same run (results was only
+  // ever written to disk after the loop completed, never incrementally).
+  // Now each platform is attempted independently; a failure on one is
+  // recorded and reported, but never blocks the others from being tried
+  // or from having their success actually saved.
+  const failures = {};
   for (const platformLabel of platforms) {
     if (results[platformLabel]) {
       console.log(`  Skipping ${platformLabel} — already scheduled (id ${results[platformLabel]}).`);
@@ -125,17 +135,37 @@ async function main() {
     else if (platformKey === "threads") text = card.captionThreads ?? card.caption;
 
     console.log(`  Scheduling on ${platformLabel}...`);
-    const post = await queuePost(platformKey, text, media, { dueAt });
-    results[platformLabel] = post.id;
+    try {
+      const post = await queuePost(platformKey, text, media, { dueAt });
+      results[platformLabel] = post.id;
+    } catch (err) {
+      console.error(`  ${platformLabel} FAILED: ${err.message ?? err}`);
+      failures[platformLabel] = err.message ?? String(err);
+    }
   }
 
   console.log(`\nScheduled successfully:`, results);
+  if (Object.keys(failures).length > 0) {
+    console.error(`\nFailed platforms (not scheduled, retry individually once capacity frees up):`, failures);
+  }
 
-  // mark as posted locally
-  card.status = "scheduled";
-  card.scheduledAt = dueAt;
+  // mark as posted locally — status only flips to "scheduled" if EVERY
+  // requested Buffer platform actually succeeded; a partial success stays
+  // "approved" so it's still picked up by a future retry pass instead of
+  // silently reading as fully done.
+  const allBufferPlatformsSucceeded = platforms
+    .filter((p) => ["instagram", "threads", "x"].includes(p.toLowerCase()))
+    .every((p) => results[p]);
+  if (allBufferPlatformsSucceeded) {
+    card.status = "scheduled";
+    card.scheduledAt = dueAt;
+  }
   card.bufferPostIds = results;
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
+
+  if (Object.keys(failures).length > 0) {
+    process.exitCode = 1;
+  }
 
   console.log(`\nNote: YouTube is not scheduled by this script — see the YouTube upload track.`);
 }
