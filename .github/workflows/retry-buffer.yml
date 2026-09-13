@@ -12,6 +12,18 @@ name: Retry failed Buffer posts
 # workflow is that tracking + auto-recovery, running on a schedule instead
 # of waiting for a human to notice and ask.
 #
+# CADENCE, per explicit user correction 2026-09-13 ("why are you checking
+# every 30 minutes, after a post is due to go live, we only need to check
+# once if it is live or not on all channels and take action accordingly"):
+# a blanket every-30-minutes sweep was overkill — publish attempts happen
+# at each pillar's own slot time, so a check tied to those same 5 slots
+# (offset a few minutes later, giving Buffer's own scheduled attempt time
+# to actually fire and error out first) covers the real failure window
+# without extra polling. If a gap is still capacity-blocked at that single
+# check, it's picked up again at the NEXT day's own slot-time check for
+# that same pillar — no active retry loop in between, matching the user's
+# explicit choice of "check once per slot time only, no follow-up."
+#
 # pipeline/retry-failed-buffer.mjs does the actual work: finds any card
 # with status "approved" (the exact state a partial Buffer failure leaves
 # a card in, per publish-to-buffer.mjs's 2026-09-14 resilience fix) whose
@@ -21,11 +33,24 @@ name: Retry failed Buffer posts
 # succeeded, or succeeded through a path this workflow has no business
 # overriding) or anything older than 3 days (a gap that old belongs in
 # front of a human, not silently auto-fired).
+#
+# Same IST -> UTC slot times as bluesky-schedule.yml, offset +10 minutes
+# so Buffer's own scheduled attempt has already fired (and possibly
+# errored) by the time this runs:
+#   Global Bharat        23:40 UTC (10 min after the 23:30 slot)
+#   Personal Growth       02:40 UTC
+#   Builder Story         07:40 UTC
+#   Sector Futures        13:40 UTC
+#   Diaspora Dividend     17:10 UTC
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes — frequent enough to catch a freed slot quickly, not so frequent it burns Buffer API quota
-  workflow_dispatch: {}      # allows a manual "Run workflow" trigger for testing
+    - cron: "40 23 * * *"  # Global Bharat
+    - cron: "40 2 * * *"   # Personal Growth
+    - cron: "40 7 * * *"   # Builder Story
+    - cron: "40 13 * * *"  # Sector Futures
+    - cron: "10 17 * * *"  # Diaspora Dividend
+  workflow_dispatch: {}    # allows a manual "Run workflow" trigger for testing
 
 permissions:
   contents: write
