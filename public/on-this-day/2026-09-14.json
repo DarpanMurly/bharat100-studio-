@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1949",
+      "headline": "After three years of debate, one language was chosen to speak for an entire country."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Hindi Diwas",
+      "body": "On September 14, 1949, India's Constituent Assembly adopted Hindi, written in Devanagari script, as the official language of the Union - Article 343 of the Constitution. The decision came through the Munshi-Ayyangar formula, a compromise built after nearly three years of debate."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it took a compromise",
+      "headline": "A country with hundreds of languages, choosing one for official use.",
+      "body": "India has never had a single native tongue - it has hundreds. Settling on Hindi for official Union business, while protecting the status of every other Indian language, took genuine negotiation, not just a vote."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The Indian Union still marks this day, every year.",
+      "body": "September 14th is observed nationwide as Hindi Diwas - a reminder that even a country's most basic administrative choices, like which language runs its government, had to be built through compromise, not assumed."
+    }
+  ],
+  "sources": [
+    "Wikipedia - Hindi Day (adoption of Hindi, 14 September 1949, Article 343)",
+    "Civilsdaily / Byju's - This Day in History, September 14 - Hindi Diwas and the Munshi-Ayyangar formula"
+  ]
+}

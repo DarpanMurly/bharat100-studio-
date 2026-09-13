@@ -73,8 +73,21 @@ function isStructuralNoise(phrase) {
   return words.every((w) => PLATFORM_WORDS.has(w));
 }
 
+// A round percentage under 100% (multiples of 5: 50%, 20%, 75%...) is weak
+// duplication evidence on its own — real-world stats round to these values
+// constantly by coincidence (found 2026-09-14: a renewable-energy piece's
+// "50%+ non-fossil capacity" false-flagged as a duplicate of an unrelated
+// ports piece's "waterway cargo grew nearly 50%" — same round number,
+// completely different fact). A precise, non-round figure ($135.46B,
+// 13.16%, 915MT) essentially never coincides between two real, different
+// stories, so those stay full-strength signals; round percentages are
+// excluded from the number set entirely rather than down-weighted, since a
+// coincidental round-number match adds pure noise to the report.
+const ROUND_PERCENT = /^\d{1,2}0?%$/; // 5%, 10%, ..., 95% (any multiple of 5, one or two digits)
+
 function extractNumbers(text) {
-  return new Set((text.match(NUMBER_TOKEN) ?? []).map((s) => s.replace(/\s+/g, "").toLowerCase()));
+  const all = (text.match(NUMBER_TOKEN) ?? []).map((s) => s.replace(/\s+/g, "").toLowerCase());
+  return new Set(all.filter((n) => !ROUND_PERCENT.test(n)));
 }
 
 function extractEntities(text) {

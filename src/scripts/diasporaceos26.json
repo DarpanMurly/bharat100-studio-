@@ -1,0 +1,54 @@
+{
+  "id": "diasporaceos26",
+  "type": "diaspora-dividend",
+  "title": "16 Fortune 500 companies are run by Indian-origin CEOs",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-14",
+  "sources": [
+    "Indiaspora Impact Report (with Boston Consulting Group), 2024 - Small Community, Big Contributions, Boundless Horizons",
+    "American Kahani, 2024 - independent coverage of the Indiaspora/BCG report's Fortune 500 findings"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Sixteen Fortune 500 companies are run by Indian-origin CEOs.",
+      "sub": "Together, they generate more revenue than most countries' entire economies."
+    },
+    {
+      "kind": "stat",
+      "text": "Those sixteen companies generate nine hundred seventy eight billion dollars in combined revenue, per the most recent Fortune 500 analysis.",
+      "stat": "$978B",
+      "statLabel": "combined revenue of Fortune 500 companies led by Indian-origin CEOs (2024 Indiaspora/BCG analysis)",
+      "narration": "Those sixteen companies generate nine hundred seventy eight billion dollars in combined revenue, per the most recent Fortune 500 analysis."
+    },
+    {
+      "kind": "stat",
+      "text": "That's about five percent of all Fortune 500 revenue - from just three percent of its CEOs.",
+      "stat": "5%",
+      "statLabel": "share of total Fortune 500 revenue, from ~3% of its CEO seats",
+      "narration": "That's about five percent of all Fortune 500 revenue, from just three percent of its CEOs."
+    },
+    {
+      "kind": "point",
+      "text": "That's real overrepresentation - Indian-origin leaders control a bigger share of revenue than their share of CEO seats.",
+      "narration": "That's real overrepresentation. Indian-origin leaders control a bigger share of revenue than their share of CEO seats."
+    },
+    {
+      "kind": "point",
+      "text": "This spans industries most people wouldn't guess - tech, healthcare, consumer goods, finance, all run by leaders who trace their roots back to India."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't one company having a moment.",
+      "sub": "It's a pattern, repeated across sixteen of America's largest companies at once.",
+      "narration": "This isn't one company having a moment. It's a pattern, repeated across sixteen of America's largest companies at once."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Sixteen Fortune 500 companies are run by Indian-origin CEOs. Together, they generate more revenue than most countries' entire economies.\n\nPer the most recent Fortune 500 analysis (Indiaspora/BCG, 2024), those sixteen companies generate $978 billion in combined revenue - about 5% of all Fortune 500 revenue, from just 3% of its CEOs. That's real overrepresentation: Indian-origin leaders control a bigger share of revenue than their share of CEO seats, spanning industries most people wouldn't guess - tech, healthcare, consumer goods, finance.\n\nThis isn't one company having a moment. It's a pattern, repeated across sixteen of America's largest companies at once.\n\nSources: Indiaspora Impact Report (with BCG), American Kahani",
+  "hashtags": ["#Bharat100", "#DiasporaDividend", "#IndianDiaspora", "#Fortune500", "#India2047", "#GlobalIndians"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

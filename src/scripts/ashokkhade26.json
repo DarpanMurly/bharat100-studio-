@@ -1,0 +1,51 @@
+{
+  "id": "ashokkhade26",
+  "title": "A cobbler's son now runs a company with 4,500 employees",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-14",
+  "sources": [
+    "Wikipedia - Ashok Khade biography, career, and DAS Offshore Engineering",
+    "YourStory, 2026 - Ashok Khade Padma Shri profile and rags-to-riches story"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He grew up the son of a cobbler in rural Maharashtra.",
+      "sub": "Today, his company has over four thousand five hundred employees."
+    },
+    {
+      "kind": "stat",
+      "text": "Ashok Khade's company now employs over four thousand five hundred people.",
+      "stat": "4,500+",
+      "statLabel": "employees at DAS Offshore Engineering",
+      "narration": "Ashok Khade's company, DAS Offshore Engineering, now employs over four thousand five hundred people."
+    },
+    {
+      "kind": "point",
+      "text": "He started as an apprentice draftsman at Mazagon Dock, then worked in West Germany on a submarine engineering project.",
+      "narration": "He started as an apprentice draftsman at Mazagon Dock, then worked in West Germany on a submarine engineering project."
+    },
+    {
+      "kind": "point",
+      "text": "He came back and co-founded DAS Offshore Engineering with his brothers, in the early-to-mid 1990s - building an offshore engineering company from a Dalit family with no business background.",
+      "narration": "He came back and co-founded DAS Offshore Engineering with his brothers, in the early to mid nineteen nineties, building an offshore engineering company from a Dalit family with no business background."
+    },
+    {
+      "kind": "point",
+      "text": "In 2026, he was awarded the Padma Shri - one of India's highest civilian honors."
+    },
+    {
+      "kind": "closer",
+      "text": "The starting point doesn't set the ceiling -",
+      "sub": "it just sets how far someone has to travel to get there.",
+      "narration": "The starting point doesn't set the ceiling. It just sets how far someone has to travel to get there."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "He grew up the son of a cobbler in rural Maharashtra. Today, his company has over 4,500 employees.\n\nAshok Khade started as an apprentice draftsman at Mazagon Dock, then worked in West Germany on a submarine engineering project. He came back and co-founded DAS Offshore Engineering with his brothers in the early-to-mid 1990s - building an offshore engineering company from a Dalit family with no business background. In 2026, he was awarded the Padma Shri, one of India's highest civilian honors.\n\nThe starting point doesn't set the ceiling. It just sets how far someone has to travel to get there.\n\nSources: Wikipedia, YourStory",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#AshokKhade", "#PadmaShri", "#India2047", "#BuilderStory"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

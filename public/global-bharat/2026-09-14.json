@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2022",
+      "headline": "She became the first Indian-origin, first woman of color to lead a 131-office global ad network."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she is",
+      "headline": "Devika Bulchandani",
+      "body": "After 26 years at McCann, Bulchandani was named Global CEO of Ogilvy in September 2022 - the storied British-founded advertising network with offices in 93 countries."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What made it a first",
+      "headline": "No Indian-origin leader, and no woman of color, had run Ogilvy before.",
+      "body": "Ogilvy's global network spans 131 offices worldwide. Bulchandani's appointment made her both the first Indian-origin CEO and the first woman of color to hold the role in the agency's history."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The industries keep expanding.",
+      "body": "Indian-origin leadership at the top of global business used to cluster in tech and finance. Advertising, media, and culture-facing industries are now part of the same story - each new first widens where the next one can happen."
+    }
+  ],
+  "sources": [
+    "Forbes India - Devika Bulchandani named first Indian-origin global CEO of Ogilvy",
+    "GlobalIndian.com - Devika Bulchandani, first woman of colour to head Ogilvy, career background"
+  ]
+}

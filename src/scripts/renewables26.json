@@ -1,0 +1,53 @@
+{
+  "id": "renewables26",
+  "title": "India hit its 2030 clean energy target 5 years early",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-14",
+  "sources": [
+    "PIB (Press Information Bureau, Government of India), 2025 - India crosses 50% non-fossil electricity capacity, 5 years ahead of 2030 NDC target",
+    "Enerdata, 2026 - India's FY2025-26 non-fossil capacity additions, record 55.3 GW"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just hit a climate target five years ahead of schedule.",
+      "sub": "And it wasn't close."
+    },
+    {
+      "kind": "stat",
+      "text": "More than half of India's electricity capacity now comes from non-fossil sources.",
+      "stat": "50%+",
+      "statLabel": "share of India's installed electricity capacity from non-fossil sources, June 2025",
+      "narration": "More than fifty percent of India's electricity capacity now comes from non fossil sources, as of June twenty twenty five."
+    },
+    {
+      "kind": "stat",
+      "text": "That target wasn't due until 2030. India got there five years early.",
+      "stat": "-5yrs",
+      "statLabel": "ahead of India's 2030 Paris Agreement commitment",
+      "narration": "That target wasn't due until twenty thirty. India got there five years early."
+    },
+    {
+      "kind": "point",
+      "text": "This past financial year alone, India added fifty five point three gigawatts of non-fossil capacity - the highest ever added in a single year.",
+      "narration": "This past financial year alone, India added fifty five point three gigawatts of non fossil capacity, the highest ever added in a single year."
+    },
+    {
+      "kind": "point",
+      "text": "Total non-fossil capacity now stands at over 283 gigawatts nationwide."
+    },
+    {
+      "kind": "closer",
+      "text": "Climate targets usually get missed, or hit right at the deadline -",
+      "sub": "beating one by five years means the underlying build-out was moving faster than the target itself.",
+      "narration": "Climate targets usually get missed, or hit right at the deadline. Beating one by five years means the underlying build out was moving faster than the target itself."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just hit a climate target five years ahead of schedule. And it wasn't close.\n\nMore than 50% of India's installed electricity capacity now comes from non-fossil sources, as of June 2025 - a target that wasn't due until 2030 under India's Paris Agreement commitment. This past financial year alone, India added a record 55.3 GW of non-fossil capacity, the highest ever added in a single year, bringing total non-fossil capacity to over 283 GW nationwide.\n\nClimate targets usually get missed, or hit right at the deadline. Beating one by five years means the underlying build-out was moving faster than the target itself.\n\nSources: PIB, Enerdata",
+  "hashtags": ["#Bharat100", "#RenewableEnergy", "#CleanEnergy", "#IndiaEconomy", "#India2047", "#ClimateAction"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
