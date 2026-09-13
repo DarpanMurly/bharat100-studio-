@@ -51,7 +51,15 @@ async function main() {
   const outPath = path.join(ROOT, "out", `${scriptId}.mp4`);
   const propsPath = path.join(ROOT, "public", scriptId, "props.json");
   await fs.writeFile(propsPath, JSON.stringify({ scriptId }), "utf-8");
-  const renderCmd = `npx remotion render Bharat100 "${outPath}" "--props=${propsPath}"`;
+  // --audio-bitrate=128K: Remotion's default AAC bitrate comes out around
+  // 317kbps, well over Buffer's documented 128kbps max for Instagram
+  // (support.buffer.com/articles/using-instagram-with-buffer) - found
+  // 2026-09-13 after 3 separate Instagram/Threads posts failed with a
+  // generic "issue with the media attached" error despite every other
+  // spec (duration, size, resolution, video bitrate) being well within
+  // limits. Buffer/Meta apparently transcodes around this most of the
+  // time (explaining why most videos still posted fine), but not always.
+  const renderCmd = `npx remotion render Bharat100 "${outPath}" "--props=${propsPath}" --audio-bitrate=128K`;
   await execAsync(renderCmd, { cwd: ROOT, maxBuffer: 1024 * 1024 * 20 });
 
   await fs.mkdir(queueDir, { recursive: true });

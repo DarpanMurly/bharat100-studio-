@@ -157,7 +157,11 @@ async function main() {
   const propsPath = path.join(outDir, `${date}.props.json`);
   await fs.writeFile(propsPath, JSON.stringify({ contentId, seriesLabel: "Global Bharat" }), "utf-8");
 
-  const cmd = `npx remotion render OnThisDayShort "${outPath}" "--props=${propsPath}"`;
+  // --audio-bitrate=128K: see daily-publish.mjs's identical comment -
+  // Remotion's default AAC bitrate (~317kbps) exceeds Buffer's documented
+  // 128kbps max for Instagram, found 2026-09-13 as the root cause of
+  // intermittent Instagram/Threads publish failures across every pillar.
+  const cmd = `npx remotion render OnThisDayShort "${outPath}" "--props=${propsPath}" --audio-bitrate=128K`;
   await execAsync(cmd, { cwd: ROOT, maxBuffer: 1024 * 1024 * 20 });
 
   await fs.mkdir(queueDir, { recursive: true });
