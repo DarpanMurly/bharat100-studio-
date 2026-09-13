@@ -1,0 +1,67 @@
+name: Retry failed Buffer posts
+
+# Buffer's free-tier 10-scheduled-post-per-channel cap, combined with
+# occasional genuine publish errors (a media-spec issue, Buffer's own
+# "unknown error"), means a card can end up missing one or more of its
+# Instagram/Threads/X posts. Until this workflow existed, recovering from
+# that was entirely manual: someone had to notice an error email, report
+# it, and a person had to run a one-off delete+requeue script by hand.
+# Real incident 2026-09-13 that prompted this: the user pointed out that
+# a failed post SHOULD post automatically as soon as a slot frees up, and
+# that the lack of any such tracking is itself the underlying gap — this
+# workflow is that tracking + auto-recovery, running on a schedule instead
+# of waiting for a human to notice and ask.
+#
+# pipeline/retry-failed-buffer.mjs does the actual work: finds any card
+# with status "approved" (the exact state a partial Buffer failure leaves
+# a card in, per publish-to-buffer.mjs's 2026-09-14 resilience fix) whose
+# date is within the last 3 days, checks live Buffer capacity per channel,
+# and retries whichever gapped platforms now have room. Explicitly does
+# NOT touch anything with status "posted"/"scheduled" (already fully
+# succeeded, or succeeded through a path this workflow has no business
+# overriding) or anything older than 3 days (a gap that old belongs in
+# front of a human, not silently auto-fired).
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # every 30 minutes — frequent enough to catch a freed slot quickly, not so frequent it burns Buffer API quota
+  workflow_dispatch: {}      # allows a manual "Run workflow" trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  retry-buffer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Retry any Buffer platform gap that now has capacity
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_INSTAGRAM: ${{ secrets.BUFFER_CHANNEL_INSTAGRAM }}
+          BUFFER_CHANNEL_THREADS: ${{ secrets.BUFFER_CHANNEL_THREADS }}
+          BUFFER_CHANNEL_TWITTER: ${{ secrets.BUFFER_CHANNEL_TWITTER }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: node pipeline/retry-failed-buffer.mjs
+
+      - name: Commit updated card.json if changed
+        # Same pull --rebase pattern as bluesky-schedule.yml/facebook-first-
+        # comment.yml — multiple workflows can push to content-queue/
+        # within minutes of each other.
+        run: |
+          git config user.name "bharat100-bot"
+          git config user.email "actions@github.com"
+          git add content-queue/
+          git diff --cached --quiet || git commit -m "Retry Buffer: record recovered post id(s) [skip ci]"
+          git pull --rebase origin main
+          git push
