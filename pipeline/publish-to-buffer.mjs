@@ -130,9 +130,16 @@ async function main() {
     // X (280 chars) and Threads (500 chars) both cap well under the full
     // Instagram-length caption — each platform gets its own pre-built
     // short version when the full caption would exceed that platform's limit.
+    // Instagram normally just uses the full caption directly (its own cap,
+    // 2196 chars, is generous enough that no daily pillar ever hit it) —
+    // but a card can opt into its OWN capped captionInstagram when needed
+    // (added 2026-09-14: the weekly recap's full numbered story list can
+    // exceed 2196 chars on a week with many stories, which no daily card
+    // ever produces since each only ever lists one story).
     let text = card.caption;
     if (platformKey === "twitter") text = card.captionX ?? card.caption;
     else if (platformKey === "threads") text = card.captionThreads ?? card.caption;
+    else if (platformKey === "instagram") text = card.captionInstagram ?? card.caption;
 
     console.log(`  Scheduling on ${platformLabel}...`);
     try {

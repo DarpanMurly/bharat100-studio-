@@ -268,9 +268,35 @@ async function main() {
 
   const hashtags = ["#Bharat100", "#WeeklyRecap", "#India2047", "#ViksitBharat", "#IndiaGrowthStory"];
   const summaryLine = `This week in India's growth story: ${headlines.length} stories covering history, sectors and mindset.`;
+  const fullList = headlines.map((h, i) => `${i + 1}. ${h}`).join("\n");
   const caption = applyStyleRules(
-    `${summaryLine}\n\n${headlines.map((h, i) => `${i + 1}. ${h}`).join("\n")}\n\n${CROSS_PLATFORM_CTA_FROM_INSTAGRAM}\n\n${DISCLAIMER}\n\n${hashtags.join(" ")}`
+    `${summaryLine}\n\n${fullList}\n\n${CROSS_PLATFORM_CTA_FROM_INSTAGRAM}\n\n${DISCLAIMER}\n\n${hashtags.join(" ")}`
   );
+
+  // Instagram's cap (2196 chars) is generous but not unlimited — on a
+  // week with many stories (33 in the first real test, 2026-09-14) the
+  // full numbered list alone can exceed it, which the daily pillars never
+  // hit since they only ever list 1 story. Build a capped variant that
+  // keeps as many full headlines as fit, then names how many more exist
+  // rather than silently cutting a headline mid-sentence.
+  const INSTAGRAM_MAX_CHARS = 2196;
+  let captionInstagram = caption;
+  if (caption.length > INSTAGRAM_MAX_CHARS) {
+    const suffix = `\n\n${CROSS_PLATFORM_CTA_FROM_INSTAGRAM}\n\n${DISCLAIMER}\n\n${hashtags.join(" ")}`;
+    const budget = INSTAGRAM_MAX_CHARS - summaryLine.length - suffix.length - 40; // headroom for the "...and N more" line
+    const lines = headlines.map((h, i) => `${i + 1}. ${h}`);
+    let kept = [];
+    let used = 0;
+    for (const line of lines) {
+      if (used + line.length + 1 > budget) break;
+      kept.push(line);
+      used += line.length + 1;
+    }
+    const remaining = headlines.length - kept.length;
+    const truncatedList = remaining > 0 ? `${kept.join("\n")}\n...and ${remaining} more this week.` : kept.join("\n");
+    captionInstagram = applyStyleRules(`${summaryLine}\n\n${truncatedList}${suffix}`);
+  }
+
   const captionX = applyStyleRules(buildXCaption(summaryLine, hashtags));
   const captionThreads = applyStyleRules(buildThreadsCaption(caption, summaryLine, hashtags));
   const captionYoutube = applyStyleRules(
@@ -283,6 +309,7 @@ async function main() {
     pillar: "Weekly Recap",
     date,
     caption,
+    captionInstagram,
     captionX,
     captionThreads,
     captionYoutube,
