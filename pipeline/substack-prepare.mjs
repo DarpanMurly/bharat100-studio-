@@ -95,6 +95,10 @@ ${sourcesBlock}
 *Independent citizen project. Not affiliated with the Government of India.*
 
 Follow the daily version on Instagram, X, YouTube, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100)
+
+---
+
+*Which of today's five stories stuck with you? Reply to this email and tell me — I read every one.*
 `;
 
   const outDir = path.join(ROOT, "public", "substack");
