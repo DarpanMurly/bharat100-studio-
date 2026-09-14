@@ -32,17 +32,20 @@ function stripHtml(html) {
 
 async function main() {
   const date = process.argv[2];
+  const isWeekly = process.argv.includes("--weekly");
   if (!date) {
-    console.error("Usage: node pipeline/substack-prepare.mjs <date>");
+    console.error("Usage: node pipeline/substack-prepare.mjs <date> [--weekly]");
     process.exit(1);
   }
 
-  const articlePath = path.join(ROOT, "public", "wordpress", `${date}.json`);
+  const articlePath = path.join(ROOT, "public", "wordpress", `${date}${isWeekly ? "-weekly" : ""}.json`);
   let article;
   try {
     article = JSON.parse(await fs.readFile(articlePath, "utf-8"));
   } catch {
-    throw new Error(`No WordPress digest found at public/wordpress/${date}.json — write that first (Substack reuses it).`);
+    throw new Error(
+      `No WordPress ${isWeekly ? "weekly digest" : "digest"} found at public/wordpress/${date}${isWeekly ? "-weekly" : ""}.json — write that first (Substack reuses it).`
+    );
   }
 
   const bodyMarkdown = stripHtml(article.bodyHtml);
@@ -54,9 +57,13 @@ async function main() {
   // than a deliberate "subscribe to keep reading" moment.
   const sections = bodyMarkdown.split(/\n(?=## )/).map((s) => s.trim());
   // First "section" is the intro paragraph before any heading — always
-  // free. Substack convention: a paywall cut after ~2 full sections gives
-  // enough free value to hook a reader before asking them to subscribe.
-  const paywallMarkerIndex = Math.min(3, sections.length - 1); // intro + 2 sections free
+  // free. A weekly wrap covers ~7 sections (one per day) vs. a daily
+  // digest's ~5 (one per pillar) — give it more free sections before the
+  // cut (intro + 3, vs. intro + 2 daily), since it's a naturally stronger
+  // paid-tier anchor (a longer, reflective piece, not a quick daily read)
+  // and deserves more runway to hook a reader before asking them to pay.
+  const freeSectionCount = isWeekly ? 4 : 3;
+  const paywallMarkerIndex = Math.min(freeSectionCount, sections.length - 1);
 
   const output = `# ${article.title}
 
@@ -64,7 +71,7 @@ async function main() {
 ${article.excerpt}
 
 ## Suggested tags (Substack allows up to ~5 for topic-page discovery)
-${BASE_TAGS.join(", ")}
+${(isWeekly ? [...BASE_TAGS.slice(0, 4), "WeeklyRecap"] : BASE_TAGS).join(", ")}
 
 ## Cover image
 Use the same cover already generated for WordPress: ${article.coverImageUrl ?? "(none generated yet — run wordpress-cover.mjs first)"}
@@ -92,10 +99,10 @@ Follow the daily version on Instagram, X, YouTube, Threads, Facebook, Bluesky an
 
   const outDir = path.join(ROOT, "public", "substack");
   await fs.mkdir(outDir, { recursive: true });
-  const outPath = path.join(outDir, `${date}.md`);
+  const outPath = path.join(outDir, `${date}${isWeekly ? "-weekly" : ""}.md`);
   await fs.writeFile(outPath, output, "utf-8");
 
-  console.log(`\nSubstack post prepared: ${outPath}`);
+  console.log(`\nSubstack ${isWeekly ? "weekly wrap" : "post"} prepared: ${outPath}`);
   console.log(`Copy its contents into Substack's editor, set the cover image manually, and choose free/paid + the optional paywall cut yourself.`);
 }
 
