@@ -1,0 +1,60 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "What we covered",
+      "headline": "33 stories, one week.",
+      "listItems": [
+        "In 2014, India barely made its own electronics. Today, it's building one of the fastest-growing electronics industries on Earth.",
+        "Every factory that now runs in India once existed only as someone's stubborn bet that it could.",
+        "Born on September 7th, the woman who built a bank for India's poorest workers.",
+        "Some of the biggest checks written into Indian startups don't come from India. They come from Indian-origin investors sitting inside Silicon Valley's top venture firms.",
+        "In 2016, electric vehicles barely existed on India's roads. In June 2026, they crossed 12% of every new vehicle sold.",
+        "He designed the microprocessor architecture that still shapes chips inside billions of devices today.",
+        "The scooter that got someone to their first job interview is doing more for India's growth story than most headlines give it credit for.",
+        "Born on September 8th, the voice that carried Assam to the rest of India.",
+        "Nearly 19 million Indians work outside India. Last year, they sent home more money than any other diaspora on Earth.",
+        "He built the first free webmail service the world actually used, then sold it for $400 million.",
+        "The rocket that reaches orbit was preceded by a hundred versions that never left the ground - none of them were the failure, all of them were the job.",
+        "On September 9th, a college that started with one man's stubborn idea became a university.",
+        "Until recently, only one organization launched rockets from India. Now a private startup just became the country's first space-tech unicorn.",
+        "India's battery storage capacity just grew 941% in three months. Not over a decade. In a single quarter.",
+        "One day. One campaign. $5.6 million raised for India. Not from a government fund. From the diaspora, one donation at a time.",
+        "He was the first person in history to build a gene from scratch, outside a living cell.",
+        "The map that took decades to draw still holds because someone did the boring part right the first time.",
+        "Born on September 10th, the man who redrew India's map along language lines.",
+        "This week, India raised more money from its own diaspora than most countries' entire annual budgets. Not remittances. Not investment. A direct call for deposits - and the diaspora answered.",
+        "He sold a company he built from scratch for over nine billion dollars - the largest software deal of its time.",
+        "Nobody in that room knew his name until the moment he opened his mouth.",
+        "In Chicago, an unknown Indian monk got a standing ovation before he even started speaking.",
+        "India just became the world's pharmacy at a record scale. Pharmaceutical exports hit an all-time high this year.",
+        "A decade ago, almost no property buyer in India was from abroad. Now nearly one in five is.",
+        "He became the first Indian-American founder to take a company public on Nasdaq - after fifty investors said no.",
+        "Nobody remembers the odds you were up against - only whether you held the line.",
+        "Twenty one soldiers held a fort against thousands - and won a place in history by losing.",
+        "India's ports just moved more cargo in one year than ever before. And they beat their own target doing it.",
+        "In the latest year on record, over ten million NRIs came back to visit India. That's more than half of everyone who visited India from abroad.",
+        "In four months, India exported more than most countries do in a year. And it's still accelerating.",
+        "She became the first woman CEO in U.S. Bancorp's 160-year history.",
+        "She was married off at 12 and worked as a tailor for daily wages. Today, her company is worth over 900 crore rupees.",
+        "At 4am on this day, Indian troops crossed into Hyderabad - and ended 224 years of Nizam rule in five days."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}

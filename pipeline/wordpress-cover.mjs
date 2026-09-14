@@ -55,30 +55,56 @@ function formatCoverDate(dateStr) {
   });
 }
 
+// Weekly digest headlines come from the 7 days ending the day before
+// <date> (same window render-weekly-recap.mjs uses), one representative
+// headline per day (its Sector Futures/video pillar, falling back to
+// whichever pillar exists) rather than all 5x7=35 - a weekly cover has
+// far less room per headline than a daily one already does with just 5.
+async function findWeeklyCardTitles(date) {
+  const pendingDir = path.join(ROOT, "content-queue", "pending");
+  const endDate = new Date(`${date}T00:00:00Z`);
+  const titles = [];
+  for (let i = 7; i >= 1; i--) {
+    const d = new Date(endDate);
+    d.setUTCDate(d.getUTCDate() - i);
+    const dayStr = d.toISOString().slice(0, 10);
+    const pillars = await findDayPillars(dayStr);
+    if (pillars.length > 0) {
+      // Prefer Sector Futures as the day's representative headline (most
+      // consistently present pillar); fall back to whichever exists first.
+      const rep = pillars.find((p) => p.pillar === "Sector Futures") ?? pillars[0];
+      titles.push(rep.title);
+    }
+  }
+  return titles;
+}
+
 async function main() {
   const date = process.argv[2];
+  const isWeekly = process.argv.includes("--weekly");
   if (!date) {
-    console.error("Usage: node pipeline/wordpress-cover.mjs <date>");
+    console.error("Usage: node pipeline/wordpress-cover.mjs <date> [--weekly]");
     process.exit(1);
   }
 
-  const articlePath = path.join(ROOT, "public", "wordpress", `${date}.json`);
+  const articlePath = path.join(ROOT, "public", "wordpress", `${date}${isWeekly ? "-weekly" : ""}.json`);
   const article = JSON.parse(await fs.readFile(articlePath, "utf-8"));
 
-  const headlines = await findCardTitles(date);
+  const headlines = isWeekly ? await findWeeklyCardTitles(date) : await findCardTitles(date);
   if (headlines.length === 0) {
-    throw new Error(`No pillar cards found for ${date} — generate that day's content first.`);
+    throw new Error(`No pillar cards found for ${date} — generate that ${isWeekly ? "week's" : "day's"} content first.`);
   }
 
-  article.coverDate = formatCoverDate(date);
+  article.coverDate = isWeekly ? `Week of ${formatCoverDate(date)}` : formatCoverDate(date);
   article.coverHeadlines = headlines;
   await fs.writeFile(articlePath, JSON.stringify(article, null, 2), "utf-8");
 
-  console.log(`\n=== Rendering blog cover for ${date} (${headlines.length} headlines) ===`);
+  console.log(`\n=== Rendering blog cover for ${date}${isWeekly ? " (weekly)" : ""} (${headlines.length} headlines) ===`);
 
-  const outPath = path.join(ROOT, "out", `wordpress-cover_${date}.png`);
-  const propsPath = path.join(ROOT, "out", `wordpress-cover_${date}.props.json`);
-  await fs.writeFile(propsPath, JSON.stringify({ contentId: date }), "utf-8");
+  const contentId = isWeekly ? `${date}-weekly` : date;
+  const outPath = path.join(ROOT, "out", `wordpress-cover_${contentId}.png`);
+  const propsPath = path.join(ROOT, "out", `wordpress-cover_${contentId}.props.json`);
+  await fs.writeFile(propsPath, JSON.stringify({ contentId }), "utf-8");
   const cmd = `npx remotion still BlogCover "${outPath}" "--props=${propsPath}" --overwrite`;
   await execAsync(cmd, { cwd: ROOT, maxBuffer: 1024 * 1024 * 20 });
   await fs.rm(propsPath, { force: true });
