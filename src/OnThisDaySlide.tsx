@@ -163,6 +163,48 @@ export const OnThisDaySlide: React.FC<{
 
         {slide.kind === "cta" && (
           <div style={{ marginTop: 30 }}>
+            {/* Same Subscribe/Like pill treatment as Outro.tsx (the
+                sector/diaspora videos' CTA screen) — added 2026-09-15 after
+                a user report that this slide-based CTA (used by Global
+                Bharat, On This Day, and Personal Growth) looked weaker
+                than the other pillars', missing these buttons entirely. */}
+            <div
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 14,
+                marginBottom: 30,
+                transform: `scale(${1 + 0.03 * Math.sin(frame * 0.25)})`,
+                transformOrigin: "left center",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: FONT_BODY,
+                  fontWeight: 700,
+                  fontSize: 30,
+                  color: "#191410",
+                  background: SAFFRON,
+                  padding: "14px 30px",
+                  borderRadius: 999,
+                }}
+              >
+                Subscribe
+              </div>
+              <div
+                style={{
+                  fontFamily: FONT_BODY,
+                  fontWeight: 700,
+                  fontSize: 30,
+                  color: INK,
+                  border: "2px solid rgba(242,237,226,0.18)",
+                  padding: "12px 28px",
+                  borderRadius: 999,
+                }}
+              >
+                ♥ Like
+              </div>
+            </div>
             <PlatformHandles ink={INK} inkSoft={INK_SOFT} />
           </div>
         )}

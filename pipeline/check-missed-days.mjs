@@ -52,12 +52,22 @@ async function main() {
     }
   }
 
+  // Report against the number of days ACTUALLY checked (floored at
+  // FIVE_PILLAR_FLOOR), not the raw LOOKBACK_DAYS window size - saying
+  // "last 14 days" when the 5-pillar structure has only existed for
+  // ~7 is misleading (found 2026-09-15, user caught it directly).
+  const todayStr = today.toISOString().slice(0, 10);
+  const daysActuallyChecked = Math.max(
+    0,
+    Math.round((new Date(todayStr) - new Date(FIVE_PILLAR_FLOOR)) / 86400000)
+  );
+
   if (missed.length === 0) {
-    console.log(`No missed days in the last ${LOOKBACK_DAYS} days — every date has a full ${EXPECTED_PILLARS}-pillar batch.`);
+    console.log(`No missed days since the 5-pillar structure began (${FIVE_PILLAR_FLOOR}, ${daysActuallyChecked} day(s) checked) — every date has a full ${EXPECTED_PILLARS}-pillar batch.`);
     return;
   }
 
-  console.log(`Found ${missed.length} day(s) in the last ${LOOKBACK_DAYS} with an incomplete batch:\n`);
+  console.log(`Found ${missed.length} day(s) since ${FIVE_PILLAR_FLOOR} (${daysActuallyChecked} day(s) checked) with an incomplete batch:\n`);
   for (const m of missed) {
     console.log(`  ${m.date}: ${m.found}/${EXPECTED_PILLARS} pillars present${m.pillars.length ? ` (${m.pillars.join(", ")})` : " (none at all)"}`);
   }

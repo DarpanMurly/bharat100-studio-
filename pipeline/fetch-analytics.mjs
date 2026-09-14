@@ -79,6 +79,12 @@ async function getYoutubeClient() {
   return client;
 }
 
+// YouTube's videos.list hard-caps id[] at 50 per call ("invalid filter
+// parameter" is the actual error, not an obvious "too many ids" message) -
+// found 2026-09-15 once the archive crossed 51 total videos. Chunk into
+// batches of 50 so this keeps working as the archive keeps growing.
+const YOUTUBE_ID_BATCH_SIZE = 50;
+
 async function fetchYoutubeVideoStats(videoIds) {
   if (videoIds.length === 0) return {};
   let auth;
@@ -89,13 +95,16 @@ async function fetchYoutubeVideoStats(videoIds) {
     return {};
   }
   const youtube = google.youtube({ version: "v3", auth });
-  const res = await youtube.videos.list({
-    part: ["statistics"],
-    id: videoIds,
-  });
   const byId = {};
-  for (const item of res.data.items ?? []) {
-    byId[item.id] = item.statistics;
+  for (let i = 0; i < videoIds.length; i += YOUTUBE_ID_BATCH_SIZE) {
+    const batch = videoIds.slice(i, i + YOUTUBE_ID_BATCH_SIZE);
+    const res = await youtube.videos.list({
+      part: ["statistics"],
+      id: batch,
+    });
+    for (const item of res.data.items ?? []) {
+      byId[item.id] = item.statistics;
+    }
   }
   return byId;
 }

@@ -1,0 +1,57 @@
+name: Deploy homepage to GitHub Pages
+
+# Replaces the old Netlify auto-deploy (paused 2026-09-10 after exhausting
+# Netlify's free build credits — running out of credits took the whole
+# site offline, not just future deploys). GitHub Pages has no credit or
+# usage-based billing at all, so this workflow can run daily with zero
+# risk of the site going down from overuse.
+#
+# Runs once a day, at the end of the day (matches the user's own stated
+# daily-refresh plan) — rebuilds the archive from whatever's published so
+# far, then deploys netlify-deploy/ (kept as the publish-folder name for
+# continuity with build-homepage.mjs/deploy-homepage.mjs, even though it's
+# no longer Netlify-specific) straight to GitHub Pages.
+on:
+  schedule:
+    - cron: "30 18 * * *"  # 00:00 IST (midnight) — end of day
+  workflow_dispatch: {}    # manual "Run workflow" trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Rebuild homepage archive
+        run: |
+          git config user.name "bharat100-bot"
+          git config user.email "actions@github.com"
+          node pipeline/deploy-homepage.mjs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: netlify-deploy
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

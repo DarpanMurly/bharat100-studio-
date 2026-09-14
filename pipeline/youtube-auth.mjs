@@ -21,12 +21,24 @@ const SCOPES = [
   "https://www.googleapis.com/auth/youtube.upload",
   "https://www.googleapis.com/auth/youtube",
   "https://www.googleapis.com/auth/yt-analytics.readonly",
-  // Search Console readonly — pulls clicks/impressions/queries for
-  // bharatat100.com AND the Instagram/X/YouTube platform properties
-  // added there 2026-09-07, into pipeline/fetch-search-console.mjs.
-  // Requires the SAME Google account that owns those Search Console
-  // properties to be the one used to log in here.
-  "https://www.googleapis.com/auth/webmasters.readonly",
+  // Search Console — upgraded from webmasters.readonly to the full
+  // webmasters scope 2026-09-14, specifically so sites.add() can register
+  // a NEW property (bharatat100.wordpress.com) programmatically via API,
+  // since WordPress.com's free-tier dashboard has no discoverable "Site
+  // Verification Services" page in its current Calypso UI (checked
+  // directly — it's not under Settings, and the documented Marketing ->
+  // Traffic path either doesn't exist or isn't reachable on this account's
+  // plan tier). sites.add() uses Search Console's "delegated ownership"
+  // path: since this same Google account/API client already has verified
+  // ownership of bharatat100.com, and WordPress.com's post URLs live under
+  // that same conceptual property umbrella is NOT automatic — actually
+  // requires either domain-level verification or this account being an
+  // existing verified owner. If sites.add() still fails after this scope
+  // upgrade, the real fix is the meta-tag method through Search Console's
+  // UI directly with a manually-located WordPress.com settings page, not
+  // further API scope changes. Read/write behavior for existing properties
+  // (fetch-search-console.mjs's queries) is unaffected by this widening.
+  "https://www.googleapis.com/auth/webmasters",
 ];
 
 async function main() {

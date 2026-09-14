@@ -159,6 +159,46 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({
         >
           Follow for tomorrow's thought.
         </div>
+        {/* Same Subscribe/Like pill treatment as Outro.tsx and
+            OnThisDaySlide.tsx's cta slide — added 2026-09-15, this screen
+            was missing them entirely. */}
+        <div
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 14,
+            marginBottom: 30,
+            transform: `scale(${1 + 0.03 * Math.sin(frame * 0.25)})`,
+            transformOrigin: "center center",
+          }}
+        >
+          <div
+            style={{
+              fontFamily: FONT_BODY,
+              fontWeight: 700,
+              fontSize: 30,
+              color: "#191410",
+              background: SAFFRON,
+              padding: "14px 30px",
+              borderRadius: 999,
+            }}
+          >
+            Subscribe
+          </div>
+          <div
+            style={{
+              fontFamily: FONT_BODY,
+              fontWeight: 700,
+              fontSize: 30,
+              color: INK,
+              border: "2px solid rgba(242,237,226,0.18)",
+              padding: "12px 28px",
+              borderRadius: 999,
+            }}
+          >
+            ♥ Like
+          </div>
+        </div>
         <PlatformHandles ink={INK} inkSoft={INK_SOFT} />
       </AbsoluteFill>
 

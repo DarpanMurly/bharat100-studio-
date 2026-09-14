@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "India's electronics exports jumped 57% in a single month."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Electronic goods exports hit $5.92 billion in July 2026",
+      "body": "Up from $3.76 billion in July 2025 - a 57.4% year-on-year jump, the third-fastest-growing export category that month, per Commerce Ministry data."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The bigger picture",
+      "headline": "India's fastest July export growth in four years.",
+      "body": "Total merchandise exports rose 19.63% to $44.24 billion that month. Combined goods and services exports climbed 13.31% to $80.14 billion - the strongest July on record in four years."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Electronics used to be something India imported.",
+      "body": "A category that once ran as a trade deficit is now one of the fastest-growing export lines in the country's economy. That shift doesn't happen in one month - it happens because factory capacity was already there when demand arrived."
+    }
+  ],
+  "sources": [
+    "Forbes India - India's July export growth hits four-year high of 19.6%",
+    "DD News - India's total exports rise 13.31% to USD 80.14 bn in July 2026 (Ministry of Commerce data)"
+  ]
+}

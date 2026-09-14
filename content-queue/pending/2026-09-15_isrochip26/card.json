@@ -1,0 +1,53 @@
+{
+  "scriptId": "isrochip26",
+  "title": "ISRO built India's first fully indigenous space-grade chip",
+  "pillar": "Sector Futures",
+  "date": "2026-09-15",
+  "sources": [
+    "Business Standard, September 2025 - Vikram 32-bit processor: Semicon 2025, ISRO SCL India space chip",
+    "The Week, March 2026 - The brain behind ISRO's space dreams: ISRO's 4-year mission for home-grown semiconductor chips",
+    "Wikipedia - Vikram 32 (ISRO space-grade microprocessor)"
+  ],
+  "caption": "Every satellite India launches needs a processor that can survive space. Until last year, none of them were built entirely in India.\n\nISRO's Semiconductor Laboratory built the Vikram 3201 - India's first fully indigenous space-grade processor, unveiled in September 2025. It's built to keep working across a 180-degree temperature swing, from -55°C to +125°C.\n\nBefore this, India's space program depended on foreign-made processors for the same job. ISRO has now set a four-year target to manufacture space-grade semiconductors domestically at scale, backed by the ₹76,000 crore Semicon India Mission.\n\nA rocket is only as independent as the chip flying inside it - this is the part of the space program most people never see and the part that decides whether the rest of it can be built without asking anyone else first.\n\nSources: Business Standard, The Week (2026)\n\nIndependent citizen project. Not affiliated with the Government of India.\n\n#Bharat100 #ISRO #Semiconductors #MakeInIndia #SpaceTech #India2047 #DeepTech #SemiconIndia",
+  "captionX": "32-bit — Vikram 3201, unveiled September 2025\n\n#Bharat100 #ISRO",
+  "captionThreads": "ISRO built India's first fully indigenous space-grade chip\n\n#Bharat100 #ISRO #Semiconductors #MakeInIndia",
+  "hashtags": [
+    "#Bharat100",
+    "#ISRO",
+    "#Semiconductors",
+    "#MakeInIndia",
+    "#SpaceTech",
+    "#India2047",
+    "#DeepTech",
+    "#SemiconIndia"
+  ],
+  "videoFile": "video.mp4",
+  "videoPath": "bharat100-studio/content-queue/pending/2026-09-15_isrochip26/video.mp4",
+  "thumbnailFile": "thumbnail.jpg",
+  "thumbnailFrame": 209,
+  "status": "scheduled",
+  "platforms": [
+    "Instagram",
+    "YouTube",
+    "X",
+    "Threads",
+    "Facebook",
+    "Mastodon",
+    "Bluesky",
+    "Pinterest"
+  ],
+  "approvedAt": "2026-09-14T13:06:32.641Z",
+  "scheduledAt": "2026-09-15T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aa7f1aedb30166792237b02",
+    "X": "6aa7f1afdbc8049beefa8796",
+    "Threads": "6aa7f1b0dbc8049beefa87c2"
+  },
+  "youtubeVideoId": "wSI3C94e08Y",
+  "youtubeUrl": "https://youtube.com/watch?v=wSI3C94e08Y",
+  "youtubeScheduledAt": "2026-09-15T13:30:00.000Z",
+  "mastodonStatusId": "280979",
+  "mastodonScheduledAt": "2026-09-15T13:30:00.000Z",
+  "facebookPostId": "27867531019616083",
+  "facebookScheduledAt": "2026-09-15T13:30:00.000Z"
+}

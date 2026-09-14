@@ -37,7 +37,9 @@ import diasporaceos26 from "./scripts/diasporaceos26.json";
 import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
+import isrochip26 from "./scripts/isrochip26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
+import kewalramani26 from "./scripts/kewalramani26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
 import renewables26 from "./scripts/renewables26.json";
@@ -64,7 +66,9 @@ const scriptRegistry: Record<string, VideoScript> = {
   "electronics26": electronics26 as VideoScript,
   "evgrowth26": evgrowth26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
+  "isrochip26": isrochip26 as VideoScript,
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
+  "kewalramani26": kewalramani26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
   "renewables26": renewables26 as VideoScript,

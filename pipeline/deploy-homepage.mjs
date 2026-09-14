@@ -1,18 +1,20 @@
 // Usage: node pipeline/deploy-homepage.mjs
-// Full homepage refresh + deploy, meant to run after every slot's content
-// goes live (not just once a day) so bharatat100.com's archive and
-// platform links never drift out of sync with what's actually posted.
+// Full homepage refresh, run once daily (end of day) so bharatat100.com's
+// archive and platform links stay in sync with what's actually posted.
 //
 // Chain: build-archive-data.mjs (scans content-queue for live posts) ->
 // build-homepage.mjs (injects that into homepage.html -> homepage.built.html
-// + sitemap.xml) -> copy both into netlify-deploy/ (the actual publish
-// directory Netlify's Git-linked deploy watches) -> git commit + push.
-// Netlify auto-deploys on push (linked 2026-09-09), so a successful push
-// here is a live site update within its own build time, no manual step.
+// + sitemap.xml) -> copy both into netlify-deploy/ (the publish directory
+// name kept for continuity — as of 2026-09-15 this is deployed via GitHub
+// Pages instead of Netlify, see .github/workflows/pages-deploy.yml, after
+// Netlify's credit-based billing took the whole site offline once its free
+// credits ran out on 2026-09-10) -> git commit + push. The GitHub Actions
+// workflow that calls this script handles the actual Pages deploy AFTER
+// this script's push, via actions/deploy-pages.
 //
 // Safe to run with nothing new to publish — git commit is skipped (not
-// forced) when netlify-deploy/ has no diff, so this can run after every
-// slot unconditionally without creating empty commits.
+// forced) when netlify-deploy/ has no diff, so this can run unconditionally
+// without creating empty commits.
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import fs from "node:fs/promises";
@@ -70,7 +72,7 @@ async function main() {
   // pipeline audit, 2026-09-10).
   await run("git", ["pull", "--rebase", "origin", "main"]);
   await run("git", ["push", "origin", "main"]);
-  console.log("Pushed — Netlify will auto-deploy from this commit.");
+  console.log("Pushed — GitHub Pages deploy step (actions/deploy-pages) picks this up next in the workflow.");
 }
 
 main().catch((err) => {

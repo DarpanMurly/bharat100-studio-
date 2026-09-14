@@ -1,0 +1,54 @@
+{
+  "id": "isrochip26",
+  "title": "ISRO built India's first fully indigenous space-grade chip",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-15",
+  "sources": [
+    "Business Standard, September 2025 - Vikram 32-bit processor: Semicon 2025, ISRO SCL India space chip",
+    "The Week, March 2026 - The brain behind ISRO's space dreams: ISRO's 4-year mission for home-grown semiconductor chips",
+    "Wikipedia - Vikram 32 (ISRO space-grade microprocessor)"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Every satellite India launches needs a processor that can survive space.",
+      "sub": "Until last year, none of them were built entirely in India."
+    },
+    {
+      "kind": "stat",
+      "text": "ISRO's Semiconductor Laboratory built the Vikram 3201 - India's first fully indigenous space-grade processor.",
+      "stat": "32-bit",
+      "statLabel": "Vikram 3201, unveiled September 2025",
+      "narration": "ISRO's Semiconductor Laboratory built the Vikram three two zero one, India's first fully indigenous space grade processor, unveiled in September twenty twenty five."
+    },
+    {
+      "kind": "stat",
+      "text": "It's built to keep working across a 180-degree temperature swing.",
+      "stat": "-55 to +125°C",
+      "statLabel": "operating range the chip is built to survive",
+      "narration": "It's built to keep working from minus fifty five to plus one hundred twenty five degrees celsius."
+    },
+    {
+      "kind": "point",
+      "text": "Before this, India's space program depended on foreign-made processors for the same job - a single point of failure outside its own control.",
+      "narration": "Before this, India's space program depended on foreign made processors for the same job, a single point of failure outside its own control."
+    },
+    {
+      "kind": "point",
+      "text": "ISRO has now set a four-year target to manufacture space-grade semiconductors domestically at scale, backed by the ₹76,000 crore Semicon India Mission."
+    },
+    {
+      "kind": "closer",
+      "text": "A rocket is only as independent as the chip flying inside it -",
+      "sub": "this is the part of the space program most people never see, and the part that decides whether the rest of it can be built without asking anyone else first.",
+      "narration": "A rocket is only as independent as the chip flying inside it. This is the part of the space program most people never see, and the part that decides whether the rest of it can be built without asking anyone else first."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Every satellite India launches needs a processor that can survive space. Until last year, none of them were built entirely in India.\n\nISRO's Semiconductor Laboratory built the Vikram 3201 - India's first fully indigenous space-grade processor, unveiled in September 2025. It's built to keep working across a 180-degree temperature swing, from -55°C to +125°C.\n\nBefore this, India's space program depended on foreign-made processors for the same job. ISRO has now set a four-year target to manufacture space-grade semiconductors domestically at scale, backed by the ₹76,000 crore Semicon India Mission.\n\nA rocket is only as independent as the chip flying inside it - this is the part of the space program most people never see, and the part that decides whether the rest of it can be built without asking anyone else first.\n\nSources: Business Standard, The Week (2026)",
+  "hashtags": ["#Bharat100", "#ISRO", "#Semiconductors", "#MakeInIndia", "#SpaceTech", "#India2047", "#DeepTech", "#SemiconIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

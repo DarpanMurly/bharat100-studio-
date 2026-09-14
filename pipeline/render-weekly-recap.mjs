@@ -111,11 +111,41 @@ async function main() {
   // for display elsewhere (see youtube-upload.mjs's own note on this same
   // gotcha). The full caption's first paragraph is always the real,
   // untruncated headline regardless of card type, so prefer that.
-  const headlines = weekCards.map((c) => {
+  const headlineOf = (c) => {
     const fromCaption = (c.card.caption ?? "").split("\n\n")[0]?.trim();
     const clean = fromCaption || c.card.youtubeTitle || c.card.title || "";
     return applyStyleRules(clean);
-  });
+  };
+  const headlines = weekCards.map(headlineOf);
+
+  // FIXED 2026-09-15: this used to be ONE recap-list slide holding every
+  // headline for the whole week (33 items once daily output hit 5
+  // pillars/day) - visually a wall of text held static for 50+ seconds,
+  // reported by the user as incoherent. Now built as one slide PER DAY,
+  // each narrating and showing only that day's own headlines - the video
+  // actually progresses day by day instead of freezing on a single frame.
+  const dayOrder = [...new Set(weekCards.map((c) => c.day))].sort();
+  const dayGroups = dayOrder.map((day) => ({
+    day,
+    headlines: weekCards.filter((c) => c.day === day).map(headlineOf),
+  }));
+
+  function formatDayLabel(dateStr) {
+    const [y, m, d] = dateStr.split("-").map(Number);
+    return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", {
+      timeZone: "UTC",
+      weekday: "long",
+      month: "short",
+      day: "numeric",
+    });
+  }
+
+  const daySlides = dayGroups.map((g) => ({
+    kind: "recap-list",
+    eyebrow: formatDayLabel(g.day),
+    headline: `${g.headlines.length} ${g.headlines.length === 1 ? "story" : "stories"}.`,
+    listItems: g.headlines,
+  }));
 
   const slides = [
     {
@@ -123,12 +153,7 @@ async function main() {
       eyebrow: "Weekly Recap",
       headline: `This week in India's growth story.`,
     },
-    {
-      kind: "recap-list",
-      eyebrow: "What we covered",
-      headline: `${weekCards.length} stories, one week.`,
-      listItems: headlines,
-    },
+    ...daySlides,
     {
       kind: "closer",
       eyebrow: "Why it matters for Viksit Bharat 2047",
@@ -141,19 +166,18 @@ async function main() {
     },
   ];
 
-  console.log(`Slides: cover, recap list (${headlines.length} items), closer, cta`);
+  console.log(`Slides: cover, ${daySlides.length} day-by-day recaps (${headlines.length} stories total), closer, cta`);
 
-  // The list slide is NOT narrated in full (9 headlines read aloud runs
-  // 50s+, far past the Shorts sweet spot) — same principle as the daily
-  // On This Day short, which narrates headline-only and lets body text be
-  // visual-only. Here the whole list is visual-only; narration is just a
-  // short pointer to it, matching the on-screen hold time instead of
-  // driving it.
+  // Each day slide gets its OWN short narration naming that day and its
+  // story count - same "headline-only, list is visual" principle as
+  // before, just scoped per day instead of once for the whole week, so
+  // the spoken narration actually advances in step with the video instead
+  // of playing one generic line over 50+ seconds of static text.
   const narrationTexts = [
     normalizeForSpeech(slides[0].headline),
-    normalizeForSpeech(`This week, ${headlines.length} stories - scroll to see all of them.`),
-    normalizeForSpeech(slides[2].headline + ". " + slides[2].body),
-    normalizeForSpeech(slides[3].headline),
+    ...dayGroups.map((g) => normalizeForSpeech(`${formatDayLabel(g.day)}: ${g.headlines.length} ${g.headlines.length === 1 ? "story" : "stories"}.`)),
+    normalizeForSpeech(slides[slides.length - 2].headline + ". " + slides[slides.length - 2].body),
+    normalizeForSpeech(slides[slides.length - 1].headline),
   ];
 
   const durationsSec = [];
@@ -167,25 +191,24 @@ async function main() {
     console.log(`${dur.toFixed(2)}s`);
   }
 
-  // The recap-list slide needs longer on screen than its narration to let
-  // viewers actually read every headline — hold it based on item count,
-  // not narration length. Every other slide holds at least MIN_SLIDE_SEC.
-  // These holds drive BOTH the video timings and the audio track below —
-  // computing them once, up front, is what keeps narration in sync with
-  // the slide it belongs to (previously the audio used a flat 0.4s gap
-  // between clips regardless of how long the video actually held the
-  // list slide, so the closer's narration started playing while the
-  // list slide was still on screen).
-  const listHoldSec = Math.max(durationsSec[1], 3 + headlines.length * 1.6);
-  // Slide 3 (cta) now shows the full 7-row PlatformHandles list
+  // Each day slide needs longer on screen than its short narration to let
+  // viewers actually read that day's headlines - held based on that day's
+  // own item count, not narration length. Every other slide holds at
+  // least MIN_SLIDE_SEC. These holds drive BOTH the video timings and the
+  // audio track below - computing them once, up front, is what keeps
+  // narration in sync with the slide it belongs to.
+  const dayHolds = dayGroups.map((g, i) => Math.max(durationsSec[1 + i], 2.5 + g.headlines.length * 1.4));
+  // Last slide (cta) now shows the full 7-row PlatformHandles list
   // (2026-09-09, was a single 2-handle line) — needs real extra time to
   // read every row, not just MIN_SLIDE_SEC.
   const CTA_EXTRA_SEC = 3.5;
+  const closerIdx = 1 + dayGroups.length;
+  const ctaIdx = closerIdx + 1;
   const holds = [
     Math.max(durationsSec[0], MIN_SLIDE_SEC),
-    listHoldSec,
-    Math.max(durationsSec[2], MIN_SLIDE_SEC),
-    Math.max(durationsSec[3], MIN_SLIDE_SEC + CTA_EXTRA_SEC),
+    ...dayHolds,
+    Math.max(durationsSec[closerIdx], MIN_SLIDE_SEC),
+    Math.max(durationsSec[ctaIdx], MIN_SLIDE_SEC + CTA_EXTRA_SEC),
   ];
 
   // Build one silence clip per gap, sized to fill exactly what's left of

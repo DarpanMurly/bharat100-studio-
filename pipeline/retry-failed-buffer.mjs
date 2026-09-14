@@ -183,9 +183,15 @@ async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferId
     await graphql(DELETE_POST_MUTATION, { id: existingId });
   }
 
+  // FIXED 2026-09-15: this fell through to the full uncapped card.caption
+  // for Instagram, unlike publish-to-buffer.mjs - caused a real retry
+  // failure on the weekly recap (2650+ char caption vs. Instagram's 2196
+  // cap) even though the card already had a correctly-capped
+  // captionInstagram field sitting right there, unused.
   let text = card.caption;
   if (platformKey === "twitter") text = card.captionX ?? card.caption;
   else if (platformKey === "threads") text = card.captionThreads ?? card.caption;
+  else if (platformKey === "instagram") text = card.captionInstagram ?? card.caption;
 
   const media = {};
   if (card.videoFile) {

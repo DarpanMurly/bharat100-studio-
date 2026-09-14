@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1953",
+      "headline": "The UN General Assembly had never had a woman president. Then it did."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Vijaya Lakshmi Pandit",
+      "body": "On September 15, 1953, Vijaya Lakshmi Pandit was elected President of the UN General Assembly's 8th session - the first woman in UN history to hold that post. Her term ran to September 1954."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How she got there",
+      "headline": "Ambassador to Washington and Moscow, before the UN podium.",
+      "body": "Pandit, sister of Jawaharlal Nehru, had already served as India's ambassador to the United States and the Soviet Union. The UNGA presidency followed years of diplomatic work most of the world never saw."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "To date, still the only Indian to hold the post.",
+      "body": "More than seven decades later, no other Indian has been elected UN General Assembly President. One first, still standing alone, is a reminder that a record isn't the same as a pattern - the next one still has to be built."
+    }
+  ],
+  "sources": [
+    "United Nations - 1st Woman President of the United Nations General Assembly: Vijaya Lakshmi Pandit",
+    "Wikipedia - Vijaya Lakshmi Pandit, UNGA presidency 1953-1954"
+  ]
+}
