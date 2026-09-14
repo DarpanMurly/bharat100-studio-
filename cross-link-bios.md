@@ -11,21 +11,25 @@ Handles today: Instagram/YouTube/Threads = @bharatat100 (placeholder - switches 
 ```
 Bharat Varsh 🇮🇳
 India's growth story, day by day
-History • sectors • mindset - every day till 2047
+Independent · not affiliated with the Govt of India
 👇 Daily video on all platforms
 X: @Bharat_at_100 · YouTube: youtube.com/@bharatat100
 ```
 
 (Instagram allows one clickable link - set it to the YouTube channel, since YouTube is where the fullest version of each video plus a Subscribe button lives. Swap to a future bharatat100.com link once that's built out.)
 
+**UPDATED 2026-09-14: added the disclaimer line, replacing the original "History • sectors • mindset" line.** Found during a review that Instagram's and Threads' bios were the ONLY two of the project's always-visible surfaces with no disclaimer at all - captions bury it below Instagram/YouTube's ~125-char truncation point, which most viewers never expand past, meaning the bio is the actual primary, reliably-visible disclaimer surface, not a backup. This was a real gap between the safety design's intention and what viewers actually see.
+
 ## Threads bio
 
 ```
 Bharat Varsh 🇮🇳
-On this day • sector growth • daily motivation
+Independent, not affiliated with the Govt of India
 Building toward India's 100th year of independence
 Full videos: YouTube @bharatat100 · X @Bharat_at_100
 ```
+
+**UPDATED 2026-09-14: same reason as Instagram's bio above** - added the disclaimer, replacing "On this day • sector growth • daily motivation" (already implied by the content itself).
 
 ## X (Bharat_at_100) bio
 
@@ -65,11 +69,22 @@ Catch whichever you're missing: youtube.com/@bharatat100
 
 ## One-time setup checklist (not automatable - each platform requires logging into its own settings)
 
-- [ ] Instagram: Settings -> Edit profile -> paste bio + link
-- [ ] Threads: uses Instagram's bio if linked, or set separately in Threads settings
+- [ ] Instagram: Settings -> Edit profile -> paste bio + link (RE-CHECK 2026-09-14: bio text above was updated to add the disclaimer - re-paste even if a bio already exists)
+- [ ] Threads: uses Instagram's bio if linked, or set separately in Threads settings (RE-CHECK 2026-09-14: same update as Instagram)
 - [ ] X: Settings -> Profile -> paste bio
 - [ ] YouTube: Studio -> Customization -> Basic info -> Description
 - [ ] YouTube: pin the "New here?" comment manually on today's video (repeat per video, or just do it on your best-performing one each week - not worth automating for the effort involved)
+- [ ] Facebook Page "Bharatat100": Page Settings -> About -> Description - CHECK whether it currently has the disclaimer text; never explicitly verified in prior sessions
+- [ ] Mastodon (@bharatat100 on mastodon.social): Preferences -> Profile -> Bio - CHECK, same as above, never verified
+- [ ] Bluesky (@bharatat100): Settings -> Edit profile -> Description - CHECK, same as above
+- [ ] WordPress (bharatat100.wordpress.com): Site's About page / sidebar bio widget - CHECK, and also confirm the site-wide footer, if any, since WordPress readers land directly on individual posts more often than a profile page
+- [ ] Substack: Publication settings -> About page - CHECK, this is also where a reader lands before ever subscribing, so it's a real first-impression surface
+- [ ] Medium: Profile -> Bio field - CHECK
+
+**Suggested short disclaimer line for any of the above still missing one** (adapt to each platform's own character limit and existing bio content, don't just paste verbatim over something already good):
+```
+Independent citizen project. Not affiliated with the Government of India.
+```
 
 ## Note on the pipeline (automatable part is separate - see the outro/caption CTA work)
 

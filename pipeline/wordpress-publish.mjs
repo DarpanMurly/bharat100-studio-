@@ -108,9 +108,27 @@ async function createPost({ blogId, accessToken, title, excerpt, bodyHtml, tags,
   return json; // { ID, URL, ... }
 }
 
+// Added 2026-09-14: a source entry can now be a plain string (unchanged,
+// existing behavior — every source written before this date) OR an object
+// {text, url} for a clickable link. This is deliberately backward-
+// compatible rather than a breaking schema change — old plain-string
+// sources keep working exactly as before, new ones can opt into a real
+// link. Scoped to WordPress/Substack/Medium only (not video captions or
+// social platforms), per the user's own explicit call: a URL isn't
+// clickable in an Instagram/X caption anyway and just adds clutter to an
+// already-tight character budget, but a long-form reader can actually
+// click through on these three platforms.
+function renderSourceItem(source) {
+  if (typeof source === "string") return source;
+  if (source && typeof source === "object" && source.url) {
+    return `<a href="${source.url}" target="_blank" rel="noopener">${source.text ?? source.url}</a>`;
+  }
+  return source?.text ?? String(source);
+}
+
 function buildSourcesHtml(sources) {
   if (!sources?.length) return "";
-  const items = sources.map((s) => `<li>${s}</li>`).join("\n");
+  const items = sources.map((s) => `<li>${renderSourceItem(s)}</li>`).join("\n");
   return `\n<h3>Sources &amp; Further Reading</h3>\n<ul>\n${items}\n</ul>\n`;
 }
 

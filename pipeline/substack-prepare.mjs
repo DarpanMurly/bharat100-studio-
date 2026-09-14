@@ -49,7 +49,15 @@ async function main() {
   }
 
   const bodyMarkdown = stripHtml(article.bodyHtml);
-  const sourcesBlock = (article.sources ?? []).map((s) => `- ${s}`).join("\n");
+  // A source entry can be a plain string (unchanged, pre-2026-09-14
+  // behavior) or {text, url} for a real clickable link — same
+  // backward-compatible schema as wordpress-publish.mjs's buildSourcesHtml.
+  const renderSource = (s) => {
+    if (typeof s === "string") return s;
+    if (s && typeof s === "object" && s.url) return `[${s.text ?? s.url}](${s.url})`;
+    return s?.text ?? String(s);
+  };
+  const sourcesBlock = (article.sources ?? []).map((s) => `- ${renderSource(s)}`).join("\n");
 
   // Split into SECTIONS (a "## Heading" line plus its following paragraph
   // text), not raw paragraphs — a paywall cut needs to land between whole
