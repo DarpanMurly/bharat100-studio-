@@ -502,7 +502,12 @@ __ARCHIVE_JSONLD__
   };
   var pillars = ['All'].concat(Array.from(new Set(entries.map(function(e){ return e.pillar; }))));
   var activeFilter = 'All';
-  var RECENT_DAYS = 14;
+  // Default homepage view: only the single most recent published day's
+  // posts (normally 5, the daily batch size) - changed 2026-09-15 from a
+  // 14-day window per explicit request, so the homepage reads as "today's
+  // stories" rather than a scrolling multi-week feed. The full archive is
+  // still one click away via the date-range search below.
+  var mostRecentDate = entries.length ? entries.reduce(function(max, e){ return e.date > max ? e.date : max; }, entries[0].date) : null;
   var customRange = null; // null = default recent view; {from, to} = active date search
 
   function escapeHtml(s){
@@ -530,8 +535,8 @@ __ARCHIVE_JSONLD__
     if (customRange) {
       return entries.filter(function(e){ return e.date >= customRange.from && e.date <= customRange.to; });
     }
-    var cutoff = daysAgoIso(RECENT_DAYS);
-    return entries.filter(function(e){ return e.date >= cutoff; });
+    if (!mostRecentDate) return [];
+    return entries.filter(function(e){ return e.date === mostRecentDate; });
   }
 
   function renderToolbar(){
@@ -541,7 +546,7 @@ __ARCHIVE_JSONLD__
       note.innerHTML = 'Showing <b>' + formatDate(customRange.from) + '</b> to <b>' + formatDate(customRange.to) + '</b>';
       toggleBtn.textContent = 'Change dates';
     } else {
-      note.innerHTML = 'Showing the last <b>' + RECENT_DAYS + ' days</b>. ' + entries.length + ' stories in the full archive.';
+      note.innerHTML = mostRecentDate ? ('Showing <b>' + formatDate(mostRecentDate) + '</b>. ' + entries.length + ' stories in the full archive.') : (entries.length + ' stories in the full archive.');
       toggleBtn.textContent = 'Search full archive by date →';
     }
   }
@@ -610,7 +615,8 @@ __ARCHIVE_JSONLD__
     toggleBtn.addEventListener('click', function(){
       picker.classList.toggle('open');
       if (picker.classList.contains('open') && !fromInput.value) {
-        fromInput.value = customRange ? customRange.from : daysAgoIso(RECENT_DAYS);
+        var earliestDate = entries.length ? entries.reduce(function(min, e){ return e.date < min ? e.date : min; }, entries[0].date) : todayIso();
+        fromInput.value = customRange ? customRange.from : earliestDate;
         toInput.value = customRange ? customRange.to : todayIso();
       }
     });
