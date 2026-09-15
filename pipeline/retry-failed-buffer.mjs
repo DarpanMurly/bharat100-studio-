@@ -23,6 +23,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { uploadToCloudinary } from "./cloudinary-upload.mjs";
 import { queuePost } from "./buffer-publish.mjs";
+import { X_PUBLISHING_PAUSED } from "./publish-to-buffer.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -140,7 +141,9 @@ async function findGappedCards(erroredBufferIds) {
       }
     }
 
-    const bufferPlatforms = (card.platforms ?? []).filter((p) => ["Instagram", "Threads", "X"].includes(p));
+    const bufferPlatforms = (card.platforms ?? []).filter(
+      (p) => ["Instagram", "Threads", "X"].includes(p) && !(p === "X" && X_PUBLISHING_PAUSED)
+    );
     if (bufferPlatforms.length === 0) continue;
 
     const missing = bufferPlatforms.filter((p) => {
@@ -211,7 +214,9 @@ async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferId
   // retry updated bufferPostIds correctly but left status stuck on
   // "approved" forever, even after every platform succeeded, so the
   // dashboard kept showing a fully-live post as still pending.
-  const requiredBufferPlatforms = (card.platforms ?? []).filter((p) => ["Instagram", "Threads", "X"].includes(p));
+  const requiredBufferPlatforms = (card.platforms ?? []).filter(
+    (p) => ["Instagram", "Threads", "X"].includes(p) && !(p === "X" && X_PUBLISHING_PAUSED)
+  );
   const allPresent = requiredBufferPlatforms.every((p) => card.bufferPostIds[p]);
   if (allPresent) {
     card.status = "scheduled";

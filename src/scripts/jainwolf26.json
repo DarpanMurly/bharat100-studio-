@@ -1,0 +1,52 @@
+{
+  "id": "jainwolf26",
+  "type": "diaspora-dividend",
+  "title": "He solved a physics puzzle in 1989. In 2026, it won him a first no Indian-origin scientist had ever had.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-16",
+  "sources": [
+    "Global Indian, 2026 - Jainendra Jain, Indian-origin recipient of Wolf Prize in Physics",
+    "American Bazaar, 2026 - Jainendra K. Jain becomes first Indian-origin scientist to win Wolf Prize in Physics"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In 1989, a young physicist solved a puzzle nobody else could explain.",
+      "sub": "In 2026, that work made him the first Indian-origin scientist to win it."
+    },
+    {
+      "kind": "stat",
+      "text": "Jainendra Jain received the Wolf Prize in Physics on June 18, 2026, in Jerusalem.",
+      "stat": "1st",
+      "statLabel": "first Indian-origin recipient of the Wolf Prize in Physics",
+      "narration": "Jainendra Jain received the Wolf Prize in Physics on June eighteenth, twenty twenty six, in Jerusalem."
+    },
+    {
+      "kind": "point",
+      "text": "Born in Sambhar, Rajasthan, Jain is now a professor at Penn State - honored for a 1989 discovery made at Yale.",
+      "narration": "Born in Sambhar, Rajasthan, Jain is now a professor at Penn State, honored for a 1989 discovery made at Yale."
+    },
+    {
+      "kind": "point",
+      "text": "His theory of 'composite fermions' explained why electrons behave in precise fractional patterns under strong magnetic fields - a puzzle known as the fractional quantum Hall effect.",
+      "narration": "His theory of composite fermions explained why electrons behave in precise fractional patterns under strong magnetic fields, a puzzle known as the fractional quantum hall effect."
+    },
+    {
+      "kind": "point",
+      "text": "The patterns are now called 'Jain sequences' - and the work underlies today's research into quantum computing."
+    },
+    {
+      "kind": "closer",
+      "text": "He also directs a physics institute in Mumbai -",
+      "sub": "a theory built abroad, still finding its way back to build something at home.",
+      "narration": "He also directs a physics institute in Mumbai. A theory built abroad, still finding its way back to build something at home."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "In 1989, a young physicist solved a puzzle nobody else could explain. In 2026, that work made him the first Indian-origin scientist to win the Wolf Prize in Physics.\n\nJainendra Jain, born in Sambhar, Rajasthan, received the prize on June 18, 2026 in Jerusalem, honored for a 1989 discovery made at Yale: 'composite fermions,' a theory explaining why electrons behave in precise fractional patterns under strong magnetic fields - the fractional quantum Hall effect. The patterns are now called 'Jain sequences,' and the work underlies today's research into quantum computing.\n\nHe also directs a physics institute in Mumbai - a theory built abroad, still finding its way back to build something at home.\n\nSources: Global Indian, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#WolfPrize", "#Physics", "#India2047", "#IndianScientists"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

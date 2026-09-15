@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1916",
+      "headline": "No musician had ever received India's highest civilian honor. Then one did."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she was",
+      "headline": "M.S. Subbulakshmi",
+      "body": "Born September 16, 1916 in Madurai, Subbulakshmi built a seven-decade career in Carnatic and devotional music. In 1966, she became the first Indian to perform at the United Nations General Assembly."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The honor that followed",
+      "headline": "The first musician awarded the Bharat Ratna.",
+      "body": "In 1998, Subbulakshmi received the Bharat Ratna - India's highest civilian award - becoming the first musician in the country's history to hold it."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A single voice, recognized at the highest level.",
+      "body": "Her career ran across a period when India's own sense of what counted as a national achievement was still being defined. A classical singer reaching the country's highest civilian honor helped settle that question."
+    }
+  ],
+  "sources": [
+    { "text": "Encyclopaedia Britannica - M.S. Subbulakshmi biography", "url": "https://www.britannica.com/biography/M-S-Subbulakshmi" },
+    { "text": "Gulf News, 2016 - M.S. Subbulakshmi birth centenary events launched (confirms September 16 birth date observance)", "url": "https://gulfnews.com/entertainment/music/m-s-subalakshmi-birth-centenary-events-launched-1.1583700" }
+  ]
+}

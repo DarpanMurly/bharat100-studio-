@@ -14,6 +14,15 @@ import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+// X/Twitter account suspended 2026-09-15, appeal filed — paused here so
+// content doesn't silently pile up as "already scheduled" against a
+// suspended account. Flip back to true once the appeal resolves and
+// posting works again (test with a single manual post first). This same
+// flag is checked in retry-failed-buffer.mjs to keep both scripts in
+// sync — don't pause one without the other, or the retry script will
+// try to "fix" a gap this script is deliberately leaving.
+export const X_PUBLISHING_PAUSED = true;
+
 async function findQueueDir(postId) {
   for (const sub of ["approved", "pending"]) {
     const dir = path.join(ROOT, "content-queue", sub, postId);
@@ -106,7 +115,9 @@ async function main() {
     media.imageUrl = await uploadToCloudinary(path.join(queueDir, card.imageFile));
   }
 
-  const platforms = (card.platforms ?? []).filter((p) => p !== "YouTube");
+  const platforms = (card.platforms ?? []).filter(
+    (p) => p !== "YouTube" && !(p === "X" && X_PUBLISHING_PAUSED)
+  );
   const results = { ...(card.bufferPostIds ?? {}) };
   // Per-platform try/catch, not one loop-wide try/catch — a real bug found
   // 2026-09-14: one platform hitting Buffer's 10/10 scheduled-post cap
@@ -177,7 +188,16 @@ async function main() {
   console.log(`\nNote: YouTube is not scheduled by this script — see the YouTube upload track.`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// isMain guard — this file is now also imported by retry-failed-buffer.mjs
+// (for the X_PUBLISHING_PAUSED constant), so main() must not run just
+// because the file was imported. See feedback_wordpress_cover_data_loss
+// memory for the exact class of bug this prevents (wordpress-cover.mjs
+// hit this same thing 2026-09-11: a plain import silently also ran a
+// script's own CLI main(), corrupting whatever the importer was doing).
+const isMain = path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1]);
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

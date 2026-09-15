@@ -1,0 +1,53 @@
+{
+  "id": "galaxeye26",
+  "title": "A Bengaluru startup just launched the world's first commercial OptoSAR satellite",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-16",
+  "sources": [
+    "Business Standard, May 2026 - GalaxEye launches Mission Drishti, world's first OptoSAR satellite platform",
+    "SatNews, May 2026 - GalaxEye successfully launches Mission Drishti OptoSAR satellite"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Optical cameras can't see through clouds. Radar can't see color or texture.",
+      "sub": "One Bengaluru startup just put both on a single satellite - a world first."
+    },
+    {
+      "kind": "stat",
+      "text": "GalaxEye's Mission Drishti launched in May 2026, weighing 190 kilograms.",
+      "stat": "190kg",
+      "statLabel": "Mission Drishti, launched May 3, 2026 on a SpaceX Falcon 9",
+      "narration": "GalaxEye's Mission Drishti launched in May twenty twenty six, weighing one hundred ninety kilograms."
+    },
+    {
+      "kind": "stat",
+      "text": "It's India's largest privately built Earth observation satellite.",
+      "stat": "#1",
+      "statLabel": "largest privately built Earth observation satellite from India",
+      "narration": "It's India's largest privately built earth observation satellite."
+    },
+    {
+      "kind": "point",
+      "text": "Its sensor suite, called SyncFused, combines electro-optical imaging and synthetic aperture radar on one platform - a first for any commercial satellite.",
+      "narration": "Its sensor suite, called SyncFused, combines electro optical imaging and synthetic aperture radar on one platform, a first for any commercial satellite."
+    },
+    {
+      "kind": "point",
+      "text": "That combination means all-weather, day-and-night imaging - something neither sensor type can do alone."
+    },
+    {
+      "kind": "closer",
+      "text": "A satellite that can only see on a clear day is only half a tool -",
+      "sub": "this is the half that was missing, built by a company that isn't a government space agency.",
+      "narration": "A satellite that can only see on a clear day is only half a tool. This is the half that was missing, built by a company that isn't a government space agency."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Optical cameras can't see through clouds. Radar can't see color or texture. One Bengaluru startup just put both on a single satellite - a world first.\n\nGalaxEye's Mission Drishti launched in May 2026, weighing 190 kilograms - India's largest privately built Earth observation satellite. Its sensor suite, called SyncFused, combines electro-optical imaging and synthetic aperture radar on one platform, enabling all-weather, day-and-night imaging neither sensor type can do alone.\n\nA satellite that can only see on a clear day is only half a tool. This is the half that was missing, built by a company that isn't a government space agency.\n\nSources: Business Standard, SatNews (2026)",
+  "hashtags": ["#Bharat100", "#SpaceTech", "#MakeInIndia", "#GalaxEye", "#India2047", "#DeepTech", "#Startups"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

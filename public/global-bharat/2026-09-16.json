@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "India's exports just crossed $860 billion in a single year."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "A record year for FY 2025-26",
+      "body": "India crossed $860 billion in combined merchandise and services exports for FY 2025-26, its highest ever - up from about $825 billion the year before, a 4.2% rise despite global tariff pressure."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How it split",
+      "headline": "Almost an even split between goods and services.",
+      "body": "Merchandise exports came in near $441.8 billion - engineering goods, electronics, pharma, chemicals, gems and jewellery, agri-products. Services exports reached about $421.3 billion, led by IT and digital services."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The next target is already set.",
+      "body": "The Commerce Ministry used this record to set a new goal: $1 trillion in exports for the current year, and $2 trillion by 2030. A record isn't the finish line here - it's the baseline for the next one."
+    }
+  ],
+  "sources": [
+    { "text": "News on Air (All India Radio) - Union Minister Piyush Goyal announces record $860 billion exports in FY 2025-26", "url": "https://www.newsonair.gov.in/union-minister-piyush-goyal-says-india-achieves-record-860-billion-dollar-exports-in-fy-2025-26/" },
+    { "text": "India Brand Equity Foundation (IBEF) - India's exports cross US$860 billion in 2025-26", "url": "https://www.ibef.org/news/india-s-exports-cross-us-860-billion-in-2025-26-says-union-minister-mr-piyush-goyal" }
+  ]
+}
