@@ -49,7 +49,20 @@ const NUMBER_TOKEN = /(?:[$₹€£])?\d[\d,.]*\s?(?:%|[BMK]\b|Cr\b|crore\b|lakh
 // (e.g. "Excelan", "Nasdaq", "Bancorp"). Good enough for flagging overlap,
 // not meant to be a real NER model — false positives are fine here since
 // this is a human-reviewed flag, not an auto-reject.
-const ENTITY_TOKEN = /\b([A-Z][a-zA-Z.]+(?:\s+[A-Z][a-zA-Z.]+){1,3})\b/g;
+//
+// REAL BUG found 2026-09-17: `\s` matches newlines too, so two unrelated
+// capitalized phrases separated only by a field/slide boundary (a literal
+// "\n" in flattenText's joined output) were being glued into one bogus
+// compound entity — e.g. Sept 13's "Operation Polo" (end of one slide's
+// body) + "Hyderabad State" (start of the next slide's body) became the
+// single token "Operation Polo \n Hyderabad State", which then could
+// never exactly match Sept 17's clean standalone "Operation Polo" token.
+// This is exactly why the checker missed a genuinely direct repeat (both
+// pieces covering the Hyderabad/Nizam accession) and only surfaced a much
+// weaker indirect match via an unrelated weekly-recap file. Restricted to
+// [ \t]+ (never newlines) between the capitalized words so a slide/field
+// boundary always breaks the phrase instead of merging across it.
+const ENTITY_TOKEN = /\b([A-Z][a-zA-Z.]+(?:[ \t]+[A-Z][a-zA-Z.]+){1,3})\b/g;
 
 const STOPWORD_ENTITIES = new Set([
   "Bharat", "India", "Indian", "Follow", "Why", "What", "Who", "How",
