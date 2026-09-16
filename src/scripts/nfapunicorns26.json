@@ -1,0 +1,54 @@
+{
+  "id": "nfapunicorns26",
+  "type": "diaspora-dividend",
+  "title": "India is now the top country of origin for immigrant founders of US billion-dollar startups",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-17",
+  "sources": [
+    "Business Standard, June 2026 - India-born founders behind 96 US unicorns, highest among immigrants: NFAP study",
+    "National Foundation for American Policy (NFAP), June 2026 - Immigrants and US Billion-Dollar Companies, Policy Brief"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Immigrants founded or co-founded 59% of America's billion-dollar startups.",
+      "sub": "No country contributed more of them than India."
+    },
+    {
+      "kind": "stat",
+      "text": "India-born founders are behind 96 US unicorns - more than any other country of origin.",
+      "stat": "96",
+      "statLabel": "US billion-dollar startups with an India-born founder, per NFAP, June 2026",
+      "narration": "India born founders are behind ninety six U.S. unicorns, more than any other country of origin."
+    },
+    {
+      "kind": "stat",
+      "text": "That's ahead of Israel's 60, the UK's 47, and China's 41.",
+      "stat": "#1",
+      "statLabel": "ranking among all immigrant founder countries of origin",
+      "narration": "That's ahead of Israel's sixty, the U.K.'s forty seven, and China's forty one."
+    },
+    {
+      "kind": "point",
+      "text": "Six Indian-origin founders - including Mohit Aron, Jyoti Bansal, and Arvind Jain - have each founded multiple billion-dollar companies.",
+      "narration": "Six Indian origin founders, including Mohit Aron, Jyoti Bansal, and Arvind Jain, have each founded multiple billion dollar companies."
+    },
+    {
+      "kind": "point",
+      "text": "The collective value of all immigrant-founded billion-dollar companies hit $5.0 trillion in 2026 - up from $168 billion just ten years earlier."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't one breakout founder's story -",
+      "sub": "it's a pattern repeating often enough that it stopped being a coincidence a while ago.",
+      "narration": "This isn't one breakout founder's story. It's a pattern repeating often enough that it stopped being a coincidence a while ago."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Immigrants founded or co-founded 59% of America's billion-dollar startups. No country contributed more of them than India.\n\nIndia-born founders are behind 96 US unicorns - more than any other country of origin, per a June 2026 NFAP study - ahead of Israel (60), the UK (47), and China (41). Six Indian-origin founders, including Mohit Aron, Jyoti Bansal, and Arvind Jain, have each founded multiple billion-dollar companies. The collective value of all immigrant-founded billion-dollar companies hit $5.0 trillion in 2026, up from $168 billion just ten years earlier.\n\nThis isn't one breakout founder's story. It's a pattern repeating often enough that it stopped being a coincidence a while ago.\n\nSources: Business Standard, NFAP (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#Startups", "#Unicorns", "#India2047", "#IndianOrigin"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

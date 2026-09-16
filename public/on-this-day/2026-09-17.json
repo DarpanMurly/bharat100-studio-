@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1948",
+      "headline": "For two centuries, one princely state ruled itself. Then, at noon, it stopped."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Hyderabad's accession to India",
+      "body": "At noon on September 17, 1948, the Nizam of Hyderabad broadcast a ceasefire and accession announcement, ending 'Operation Polo' - what Sardar Patel officially termed a 'Police Action' to avoid international intervention."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How fast it moved",
+      "headline": "A 212,000 sq km state, folded in within days.",
+      "body": "The campaign, led by Major General J.N. Chaudhari, began September 13, 1948, following an economic blockade and destabilization attempts against the state. Four days later, it was over."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Still marked as a liberation day, regionally, every year.",
+      "body": "The date is commemorated as Marathwada Liberation Day in Maharashtra and Hyderabad-Karnataka Liberation Day in Karnataka - a reminder that integrating a country isn't one clean signature, it's dozens of separate, sometimes contested, endings."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Indian annexation of Hyderabad",
+      "url": "https://en.wikipedia.org/wiki/Indian_annexation_of_Hyderabad"
+    },
+    {
+      "text": "The Better India - Hyderabad's accession to India, Nizam's rule and its anniversary",
+      "url": "https://thebetterindia.com/159494/hyderabad-accession-india-nizam-anniversary/"
+    }
+  ]
+}

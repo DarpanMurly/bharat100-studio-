@@ -67,7 +67,17 @@ const ACRONYM_RESPELL = {
 const TERM_FIXES = [
   [/\bfabs\b/gi, "fab plants"],
   [/\bCr\b/g, "crore rupees"],
-  [/₹\s?([\d,]+(?:\.\d+)?)\s?(lakh\s?)?crore/gi, (_, num) => {
+  // "lakh crore" is a real, common Indian financial unit (1 lakh crore =
+  // 1,00,00,000 * 1,00,000 = 10^12) - the old version of this regex
+  // matched the "lakh" group but silently discarded it, so "₹1.64 lakh
+  // crore" (a real ~$196B figure) was narrated as if it said "₹1.64
+  // crore" (~$196K), off by a factor of 100,000. Found 2026-09-17 while
+  // reviewing the SEMICON India video's narration.
+  [/₹\s?([\d,]+(?:\.\d+)?)\s?lakh\s?crore/gi, (_, num) => {
+    const n = parseFloat(num.replace(/,/g, "")) * 100000;
+    return `${numberToIndianWords(n)} crore rupees`;
+  }],
+  [/₹\s?([\d,]+(?:\.\d+)?)\s?crore/gi, (_, num) => {
     const n = parseFloat(num.replace(/,/g, ""));
     return `${numberToIndianWords(n)} crore rupees`;
   }],

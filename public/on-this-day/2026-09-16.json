@@ -23,10 +23,20 @@
       "eyebrow": "Why it matters for Viksit Bharat 2047",
       "headline": "A single voice, recognized at the highest level.",
       "body": "Her career ran across a period when India's own sense of what counted as a national achievement was still being defined. A classical singer reaching the country's highest civilian honor helped settle that question."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
     }
   ],
   "sources": [
-    { "text": "Encyclopaedia Britannica - M.S. Subbulakshmi biography", "url": "https://www.britannica.com/biography/M-S-Subbulakshmi" },
-    { "text": "Gulf News, 2016 - M.S. Subbulakshmi birth centenary events launched (confirms September 16 birth date observance)", "url": "https://gulfnews.com/entertainment/music/m-s-subalakshmi-birth-centenary-events-launched-1.1583700" }
+    {
+      "text": "Encyclopaedia Britannica - M.S. Subbulakshmi biography",
+      "url": "https://www.britannica.com/biography/M-S-Subbulakshmi"
+    },
+    {
+      "text": "Gulf News, 2016 - M.S. Subbulakshmi birth centenary events launched (confirms September 16 birth date observance)",
+      "url": "https://gulfnews.com/entertainment/music/m-s-subalakshmi-birth-centenary-events-launched-1.1583700"
+    }
   ]
 }

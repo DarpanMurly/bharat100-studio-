@@ -1,0 +1,53 @@
+{
+  "id": "pixxel26",
+  "title": "A Bengaluru satellite startup just raised $100 million to build more of them",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-17",
+  "sources": [
+    "SpaceNews, September 2026 - Pixxel raises $100 million to expand satellite production across India and US",
+    "Pixxel, September 2026 - Pixxel raises $100 million in Series C funding to build the infrastructure for a changing planet"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Six hyperspectral satellites are already in orbit, built by one Bengaluru company.",
+      "sub": "It just raised $100 million to build a lot more."
+    },
+    {
+      "kind": "stat",
+      "text": "Pixxel's Series C round, announced this September, brings total funding to $195 million.",
+      "stat": "$100M",
+      "statLabel": "Series C round, led by Temasek and Seraphim",
+      "narration": "Pixxel's series C round, announced this September, brings total funding to one hundred ninety five million dollars."
+    },
+    {
+      "kind": "stat",
+      "text": "The company already operates six hyperspectral satellites in orbit.",
+      "stat": "6",
+      "statLabel": "hyperspectral satellites currently in orbit",
+      "narration": "The company already operates six hyperspectral satellites in orbit."
+    },
+    {
+      "kind": "point",
+      "text": "Founded in 2019, Pixxel plans to use the new funding for more sensing satellites, its Aurora software platform, and sovereign Earth-observation systems.",
+      "narration": "Founded in twenty nineteen, Pixxel plans to use the new funding for more sensing satellites, its Aurora software platform, and sovereign earth observation systems."
+    },
+    {
+      "kind": "point",
+      "text": "It's also building a new satellite manufacturing facility in the US, alongside its existing Bengaluru operations."
+    },
+    {
+      "kind": "closer",
+      "text": "A satellite company scaling up isn't just a bigger fleet -",
+      "sub": "it's more of the planet becoming visible, in more detail, to whoever needs to see it.",
+      "narration": "A satellite company scaling up isn't just a bigger fleet. It's more of the planet becoming visible, in more detail, to whoever needs to see it."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Six hyperspectral satellites are already in orbit, built by one Bengaluru company. It just raised $100 million to build a lot more.\n\nPixxel's Series C round, announced this September and led by Temasek and Seraphim, brings total funding to $195 million. Founded in 2019, the company plans to use the funds for more sensing satellites, its Aurora software platform, sovereign Earth-observation systems, and a new satellite manufacturing facility in the US alongside its Bengaluru operations.\n\nA satellite company scaling up isn't just a bigger fleet - it's more of the planet becoming visible, in more detail, to whoever needs to see it.\n\nSources: SpaceNews, Pixxel (2026)",
+  "hashtags": ["#Bharat100", "#SpaceTech", "#Pixxel", "#MakeInIndia", "#India2047", "#DeepTech", "#Startups"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

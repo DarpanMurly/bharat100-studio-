@@ -42,7 +42,9 @@ import isrochip26 from "./scripts/isrochip26.json";
 import jainwolf26 from "./scripts/jainwolf26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import kewalramani26 from "./scripts/kewalramani26.json";
+import nfapunicorns26 from "./scripts/nfapunicorns26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
+import pixxel26 from "./scripts/pixxel26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
 import renewables26 from "./scripts/renewables26.json";
 import semicon2 from "./scripts/semicon2.json";
@@ -73,7 +75,9 @@ const scriptRegistry: Record<string, VideoScript> = {
   "jainwolf26": jainwolf26 as VideoScript,
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "kewalramani26": kewalramani26 as VideoScript,
+  "nfapunicorns26": nfapunicorns26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
+  "pixxel26": pixxel26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
   "renewables26": renewables26 as VideoScript,
   "semicon2": semicon2 as VideoScript,

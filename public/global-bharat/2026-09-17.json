@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "India's chip industry just had its busiest funding year yet."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What's happening today",
+      "headline": "SEMICON India 2026 opens in New Delhi",
+      "body": "The fifth edition of SEMICON India opens September 17 at Yashobhoomi, Dwarka, running through September 19 - over 600 exhibitors, roughly 300 international, delegations from 40+ countries."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The scale behind it",
+      "headline": "12 approved projects, over ₹1.64 lakh crore invested.",
+      "body": "It follows July 2026's approval of 'Semicon 2.0' - a ₹1,27,500 crore outlay building on Semicon 1.0's projects across Gujarat, Assam, Uttar Pradesh, Punjab, Odisha, and Andhra Pradesh."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Indian chip companies have raised nearly half their all-time funding since 2025 alone.",
+      "body": "India's semiconductor demand is projected to double from roughly $100 billion to $200 billion. The funding pace suggests investors are betting that build-out happens well before that ceiling is reached."
+    }
+  ],
+  "sources": [
+    { "text": "SEMI.org - Hon'ble PM Shri Narendra Modi to inaugurate SEMICON India 2026 on 17th September", "url": "https://www.semi.org/en/semi-press-release/honble-pm-shri-narendra-modi-to-inaugurate-semicon-india-2026-on-17th-september" },
+    { "text": "DIGITIMES, 2026 - SEMICON India 2026 funding data: Indian semiconductor equity funding at multi-year high", "url": "https://www.digitimes.com/news/a20260914VL204/2026-semicon-india-2025-funding-data.html" }
+  ]
+}

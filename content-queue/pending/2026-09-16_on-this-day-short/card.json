@@ -22,6 +22,10 @@
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 20,
   "status": "approved",
+  "approvedAt": "2026-09-15T10:01:00.000Z",
+  "bufferPostIds": {
+    "Threads": "6aa95cfbdebfc905524dc970"
+  },
   "platforms": [
     "Instagram",
     "YouTube",
@@ -32,17 +36,11 @@
     "Bluesky",
     "Pinterest"
   ],
-  "approvedAt": "2026-09-15T10:01:44.859Z",
-  "bufferPostIds": {
-    "X": "6aa91a7fe67c52e837d9baff",
-    "Threads": "6aa95cfbdebfc905524dc970"
-  },
-  "youtubeVideoId": "QKlGxjFUur0",
-  "youtubeUrl": "https://youtube.com/watch?v=QKlGxjFUur0",
+  "youtubeVideoId": "aLGAdk8j_Bc",
+  "youtubeUrl": "https://youtube.com/watch?v=aLGAdk8j_Bc",
   "youtubeScheduledAt": "2026-09-16T07:30:00.000Z",
-  "facebookPostId": "1410990601172299",
-  "facebookScheduledAt": "2026-09-16T07:30:00.000Z",
+  "facebookPostId": "1788959998801039",
   "mastodonStatusId": "281065",
   "mastodonScheduledAt": "2026-09-16T07:30:00.000Z",
-  "facebookFirstCommentId": "1410990601172299_1097773762943520"
+  "mastodonNote": "This is the OLD broken (blank-CTA) video, id 281065 - delete failed due to Mastodon's ISP walled-garden DNS block (mastodon.social resolving to e.walledgarden.nic.in on this network). Retry the delete+repost once on a different network, then update this field with the new status id and remove this note."
 }

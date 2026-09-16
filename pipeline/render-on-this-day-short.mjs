@@ -133,6 +133,18 @@ async function main() {
   }
   const totalDurationInFrames = timings[timings.length - 1].startFrame + timings[timings.length - 1].durationInFrames;
 
+  // FIXED 2026-09-16: OnThisDayShortComposition's calculateMetadata fetches
+  // its slide array straight from public/on-this-day/<date>.json over HTTP
+  // at render time - the in-memory content.slides above (with the CTA
+  // slide appended) was never persisted back to that file, so the
+  // composition only ever saw the original 4 slides. The 5th Sequence
+  // (frames 655-940, the CTA) had no slide data at all, silently
+  // rendering nothing for the video's entire last ~9 seconds with no
+  // error anywhere in the pipeline. render-global-bharat.mjs and
+  // render-weekly-recap.mjs both already write this file correctly for
+  // the same shared composition - this script was the one missing it.
+  await fs.writeFile(contentPath, JSON.stringify(content, null, 2), "utf-8");
+
   const manifest = {
     audioFile: `on-this-day-short/${date}.mp3`,
     timings,
