@@ -75,9 +75,9 @@ Catch whichever you're missing: youtube.com/@bharatat100
 - [ ] YouTube: Studio -> Customization -> Basic info -> Description
 - [ ] YouTube: pin the "New here?" comment manually on today's video (repeat per video, or just do it on your best-performing one each week - not worth automating for the effort involved)
 - [ ] Facebook Page "Bharatat100": Page Settings -> About -> Description - CHECK whether it currently has the disclaimer text; never explicitly verified in prior sessions
-- [ ] Mastodon (@bharatat100 on mastodon.social): Preferences -> Profile -> Bio - CHECK, same as above, never verified
+- [x] Mastodon (@bharatat100 on mastodon.social): Preferences -> Profile -> Bio - VERIFIED 2026-09-16 via API (`accounts/:id`'s `note` field) - already has "not affiliated with the Government of India." No action needed.
 - [ ] Bluesky (@bharatat100): Settings -> Edit profile -> Description - CHECK, same as above
-- [ ] WordPress (bharatat100.wordpress.com): Site's About page / sidebar bio widget - CHECK, and also confirm the site-wide footer, if any, since WordPress readers land directly on individual posts more often than a profile page
+- [x] WordPress (bharatat100.wordpress.com): About page - WAS the default WordPress.com placeholder text ("This is an example of a page...") - never actually written. FIXED 2026-09-16: real About-page copy drafted and published, includes the disclaimer ("not affiliated with, funded by, or endorsed by the Government of India"), verified live via curl. Site-wide footer still not separately checked - WordPress.com's free themes often don't expose an editable footer at all, worth a quick look next time but not urgent since the About page and every post's own disclaimer line already cover this.
 - [ ] Substack: Publication settings -> About page - CHECK, this is also where a reader lands before ever subscribing, so it's a real first-impression surface
 - [ ] Medium: Profile -> Bio field - CHECK
 
