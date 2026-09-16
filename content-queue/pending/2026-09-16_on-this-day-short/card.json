@@ -42,5 +42,6 @@
   "facebookPostId": "1788959998801039",
   "mastodonStatusId": "281065",
   "mastodonScheduledAt": "2026-09-16T07:30:00.000Z",
-  "mastodonNote": "This is the OLD broken (blank-CTA) video, id 281065 - delete failed due to Mastodon's ISP walled-garden DNS block (mastodon.social resolving to e.walledgarden.nic.in on this network). Retry the delete+repost once on a different network, then update this field with the new status id and remove this note."
+  "mastodonNote": "This is the OLD broken (blank-CTA) video, id 281065 - delete failed due to Mastodon's ISP walled-garden DNS block (mastodon.social resolving to e.walledgarden.nic.in on this network). Retry the delete+repost once on a different network, then update this field with the new status id and remove this note.",
+  "facebookFirstCommentId": "1788959998801039_2105421793385710"
 }
