@@ -21,10 +21,11 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-16_on-this-day-short/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 20,
-  "status": "approved",
+  "status": "scheduled",
   "approvedAt": "2026-09-15T10:01:00.000Z",
   "bufferPostIds": {
-    "Threads": "6aa95cfbdebfc905524dc970"
+    "Threads": "6aa95cfbdebfc905524dc970",
+    "Instagram": "6aaaea5cfc9b030486bea262"
   },
   "platforms": [
     "Instagram",

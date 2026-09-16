@@ -578,7 +578,15 @@ __ARCHIVE_JSONLD__
       var bodyHtml = e.body.map(function(p){ return '<p>' + escapeHtml(p) + '</p>'; }).join('');
       var sourcesHtml = e.sources && e.sources.length ? (
         '<div class="archive-sources"><span class="mono-label">Sources</span><ul>' +
-        e.sources.map(function(s){ return '<li>' + escapeHtml(s) + '</li>'; }).join('') +
+        e.sources.map(function(s){
+          // A source can be a plain string (legacy) or {text, url} (added
+          // 2026-09-14 for a real clickable citation link) - render a link
+          // when a url is present, plain text otherwise.
+          if (s && typeof s === 'object' && s.url) {
+            return '<li><a href="' + escapeHtml(s.url) + '" target="_blank" rel="noopener">' + escapeHtml(s.text || s.url) + '</a></li>';
+          }
+          return '<li>' + escapeHtml(typeof s === 'object' ? (s.text || '') : s) + '</li>';
+        }).join('') +
         '</ul></div>'
       ) : '';
       var watchHtml = e.youtubeUrl ? '<a class="archive-watch" href="' + e.youtubeUrl + '" target="_blank" rel="noopener">Watch on YouTube &rarr;</a>' : '';

@@ -99,7 +99,17 @@ async function main() {
       // public surface for that old text.
       headline,
       body: bodyParagraphs(card.caption).map((p) => applyStyleRules(p)),
-      sources: (card.sources ?? []).map((s) => applyStyleRules(s)),
+      // A source entry can be a plain string (legacy) or {text, url} (added
+      // 2026-09-14 for WordPress/Substack/Medium's clickable-link schema) -
+      // applyStyleRules expects a string and crashes on an object (found
+      // 2026-09-16 as a real GitHub Actions failure: "out.replace is not a
+      // function"). Style-fix only the text portion either way; url passes
+      // through untouched since it's never freeform prose.
+      sources: (card.sources ?? []).map((s) =>
+        typeof s === "string"
+          ? applyStyleRules(s)
+          : { ...s, text: applyStyleRules(s.text ?? "") }
+      ),
       youtubeUrl: card.youtubeUrl ?? null,
     });
   }
