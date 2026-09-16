@@ -3,26 +3,26 @@
   "slides": [
     {
       "kind": "cover",
-      "year": "1948",
-      "headline": "For two centuries, one princely state ruled itself. Then, at noon, it stopped."
+      "year": "1937",
+      "headline": "He spent his career as a government bureaucrat. He also became one of India's greatest living poets."
     },
     {
       "kind": "context",
-      "eyebrow": "What happened",
-      "headline": "Hyderabad's accession to India",
-      "body": "At noon on September 17, 1948, the Nizam of Hyderabad broadcast a ceasefire and accession announcement, ending 'Operation Polo' - what Sardar Patel officially termed a 'Police Action' to avoid international intervention."
+      "eyebrow": "Who he was",
+      "headline": "Sitakant Mahapatra",
+      "body": "Born September 17, 1937 in Odisha, Mahapatra joined the Indian Administrative Service in 1961 and served until his retirement in 1995 - a full career inside the government, running alongside a second career most colleagues never attempted."
     },
     {
       "kind": "detail",
-      "eyebrow": "How fast it moved",
-      "headline": "A 212,000 sq km state, folded in within days.",
-      "body": "The campaign, led by Major General J.N. Chaudhari, began September 13, 1948, following an economic blockade and destabilization attempts against the state. Four days later, it was over."
+      "eyebrow": "What he built in the other career",
+      "headline": "15+ poetry collections, and India's highest literary honor.",
+      "body": "Mahapatra won the 1974 Sahitya Akademi Award, then the Jnanpith Award in 1993 - India's highest literary honor. He also spent years researching the tribal oral traditions of Eastern Odisha, work most of his readers never saw."
     },
     {
       "kind": "closer",
       "eyebrow": "Why it matters for Viksit Bharat 2047",
-      "headline": "Still marked as a liberation day, regionally, every year.",
-      "body": "The date is commemorated as Marathwada Liberation Day in Maharashtra and Hyderabad-Karnataka Liberation Day in Karnataka - a reminder that integrating a country isn't one clean signature, it's dozens of separate, sometimes contested, endings."
+      "headline": "Two Padma honors followed, decades apart.",
+      "body": "He received the Padma Bhushan in 2002 and the Padma Vibhushan in 2011 - both for literature, both arriving well after his government career had already ended. A bureaucrat's file doesn't usually outlive his poetry. His did the opposite."
     },
     {
       "kind": "cta",
@@ -31,12 +31,12 @@
   ],
   "sources": [
     {
-      "text": "Wikipedia - Indian annexation of Hyderabad",
-      "url": "https://en.wikipedia.org/wiki/Indian_annexation_of_Hyderabad"
+      "text": "Wikipedia - Sitakant Mahapatra",
+      "url": "https://en.wikipedia.org/wiki/Sitakant_Mahapatra"
     },
     {
-      "text": "The Better India - Hyderabad's accession to India, Nizam's rule and its anniversary",
-      "url": "https://thebetterindia.com/159494/hyderabad-accession-india-nizam-anniversary/"
+      "text": "Library of Congress, South Asian Literary Recordings Project - Sitakant Mahapatra profile",
+      "url": "https://www.loc.gov/acq/ovop/delhi/salrp/sitakantmahapatra.html"
     }
   ]
 }

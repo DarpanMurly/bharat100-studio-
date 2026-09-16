@@ -30,5 +30,8 @@
   "mastodonStatusId": "281139",
   "mastodonScheduledAt": "2026-09-17T02:30:00.000Z",
   "facebookPostId": "1397107845211886",
-  "facebookScheduledAt": "2026-09-17T02:30:00.000Z"
+  "facebookScheduledAt": "2026-09-17T02:30:00.000Z",
+  "bufferPostIds": {
+    "Threads": "6aaa715496e75561b025a353"
+  }
 }
