@@ -1,12 +1,22 @@
 // Usage: node pipeline/check-missed-days.mjs
 // Scans the last 14 days for any date that should have had a full 5-pillar
-// batch but doesn't (fewer than 5 pillar folders exist, or none at all).
-// This is a pure DETECTION tool — it never auto-generates, backfills, or
-// reposts anything. Per an explicit 2026-09-14 decision: a missed day is
-// surfaced honestly so a human decides what to do about it, never silently
-// patched over by reusing old content. A daily archive that quietly
-// disguises a gap undermines the exact "honest, dated record" premise this
-// project's whole credibility (and long-term business plan) depends on.
+// batch but doesn't (fewer than 5 pillar folders exist, or none at all),
+// AND (added 2026-09-17) whether that date's WordPress daily digest article
+// was ever written. This is a pure DETECTION tool — it never auto-generates,
+// backfills, or reposts anything. Per an explicit 2026-09-14 decision: a
+// missed day is surfaced honestly so a human decides what to do about it,
+// never silently patched over by reusing old content. A daily archive that
+// quietly disguises a gap undermines the exact "honest, dated record"
+// premise this project's whole credibility (and long-term business plan)
+// depends on.
+//
+// WordPress is generated the same way as the 5 video pillars — a real
+// synthesis pass done once a day, same session, not a separate manual
+// chore — but unlike the pillars, nothing was ever checking whether it
+// actually happened; a 4-day WordPress gap went unnoticed for exactly that
+// reason (see feedback_wordpress_digest_manual_gap memory). Folding it into
+// this same check means the same "run this every session" habit that
+// already catches a missed video pillar now also catches a missed digest.
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -47,8 +57,15 @@ async function main() {
       }
     }
 
-    if (pillarsFound.size < EXPECTED_PILLARS) {
-      missed.push({ date: dateStr, found: pillarsFound.size, pillars: [...pillarsFound] });
+    let wordpressMissing = false;
+    try {
+      await fs.access(path.join(ROOT, "public", "wordpress", `${dateStr}.json`));
+    } catch {
+      wordpressMissing = true;
+    }
+
+    if (pillarsFound.size < EXPECTED_PILLARS || wordpressMissing) {
+      missed.push({ date: dateStr, found: pillarsFound.size, pillars: [...pillarsFound], wordpressMissing });
     }
   }
 
@@ -63,13 +80,18 @@ async function main() {
   );
 
   if (missed.length === 0) {
-    console.log(`No missed days since the 5-pillar structure began (${FIVE_PILLAR_FLOOR}, ${daysActuallyChecked} day(s) checked) — every date has a full ${EXPECTED_PILLARS}-pillar batch.`);
+    console.log(`No missed days since the 5-pillar structure began (${FIVE_PILLAR_FLOOR}, ${daysActuallyChecked} day(s) checked) — every date has a full ${EXPECTED_PILLARS}-pillar batch AND a WordPress digest.`);
     return;
   }
 
   console.log(`Found ${missed.length} day(s) since ${FIVE_PILLAR_FLOOR} (${daysActuallyChecked} day(s) checked) with an incomplete batch:\n`);
   for (const m of missed) {
-    console.log(`  ${m.date}: ${m.found}/${EXPECTED_PILLARS} pillars present${m.pillars.length ? ` (${m.pillars.join(", ")})` : " (none at all)"}`);
+    const parts = [];
+    if (m.found < EXPECTED_PILLARS) {
+      parts.push(`${m.found}/${EXPECTED_PILLARS} pillars present${m.pillars.length ? ` (${m.pillars.join(", ")})` : " (none at all)"}`);
+    }
+    if (m.wordpressMissing) parts.push("WordPress digest not written");
+    console.log(`  ${m.date}: ${parts.join("; ")}`);
   }
   console.log(`\nThis is a detection-only report — nothing was auto-generated or backfilled.`);
   console.log(`Decide per day: backfill honestly-dated (clearly noting it was written later), or accept the gap.`);
