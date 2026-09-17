@@ -497,10 +497,27 @@ async function main() {
   const bskyStats = await fetchBlueskyPostStats(bskyEntries);
   console.log(`  ${bskyEntries.length} Bluesky posts found`);
 
+  // Mastodon fetch is wrapped separately, not left to bubble up like the
+  // other platforms — this ISP's network occasionally routes
+  // mastodon.social through a walled-garden DNS block (a known, real,
+  // network-level condition documented in project memory, not a code
+  // bug), which throws mid-fetch. Before this fix, that single failure
+  // aborted the WHOLE script before the snapshot write, discarding the
+  // 5 other platforms' data that had already been successfully fetched
+  // moments earlier (found 2026-09-17: a routine analytics refresh
+  // silently produced a stale, day-old snapshot with no visible error
+  // beyond a raw stack trace, because Mastodon happened to be blocked
+  // at that exact moment on this network).
   console.log("Fetching Mastodon status stats...");
-  const mastoEntries = await scanCardsForPlatform("mastodonStatusId", "mastodonScheduledAt");
-  const mastoStats = await fetchMastodonStatusStats(mastoEntries.filter((e) => !e.scheduledAt || new Date(e.scheduledAt).getTime() <= Date.now()));
-  console.log(`  ${mastoEntries.length} Mastodon statuses found`);
+  let mastoEntries = [];
+  let mastoStats = {};
+  try {
+    mastoEntries = await scanCardsForPlatform("mastodonStatusId", "mastodonScheduledAt");
+    mastoStats = await fetchMastodonStatusStats(mastoEntries.filter((e) => !e.scheduledAt || new Date(e.scheduledAt).getTime() <= Date.now()));
+    console.log(`  ${mastoEntries.length} Mastodon statuses found`);
+  } catch (err) {
+    console.log(`  Skipping Mastodon this run — fetch failed (${err.message ?? err}). Likely the known ISP walled-garden DNS block; try again on a different network. Snapshot will still be written with every other platform's fresh data.`);
+  }
 
   console.log("Fetching WordPress article stats...");
   const wpEntries = await findWordpressArticles();
