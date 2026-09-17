@@ -1,0 +1,51 @@
+{
+  "title": "One record from 1989, one from this morning. September 16, 2026.",
+  "excerpt": "From an export baseline that's already being reset, to a 37-year-old physics puzzle that just won a Wolf Prize, September 16's five stories cover the full distance between an idea and its recognition.",
+  "bodyHtml": "<p>Some achievements get recognized the same year they happen. Others take decades to catch up to the person who did the work first. September 16 has both kinds - a record barely a day old, and one that waited 37 years for the world to notice.</p>\n\n<h2>A record that's already someone's new floor</h2>\n<p>India crossed $860 billion in combined merchandise and services exports for FY 2025-26 - its highest ever, up from about $825 billion the year before, a 4.2% rise despite global tariff pressure. Merchandise exports came in near $441.8 billion across engineering goods, electronics, pharma, chemicals, gems and jewellery, and agri-products; services exports reached about $421.3 billion, led by IT and digital services. The Commerce Ministry didn't treat the number as an endpoint - it set a new target off the back of it: $1 trillion in exports for the current year, $2 trillion by 2030. A record here isn't the finish line. It's the new floor the next target gets measured against.</p>\n\n<h2>A satellite that refuses to pick one sense over the other</h2>\n<p>Optical cameras can't see through clouds. Radar can't see color or texture. Bengaluru startup GalaxEye built a satellite that does both. Mission Drishti launched in May 2026, weighing 190 kilograms - India's largest privately built Earth observation satellite - carrying a sensor suite called SyncFused that combines electro-optical imaging and synthetic aperture radar on one platform, enabling all-weather, day-and-night imaging that neither sensor type can manage alone. A satellite that only works on a clear day is only half a tool. GalaxEye built the other half, and it isn't a government space agency.</p>\n\n<h2>The theory that waited 37 years for its prize</h2>\n<p>In 1989, a young physicist at Yale solved a puzzle almost nobody else could explain: why electrons behave in precise fractional patterns under strong magnetic fields - the fractional quantum Hall effect. Jainendra Jain, born in Sambhar, Rajasthan, called the explanation 'composite fermions'; the patterns are now known as 'Jain sequences,' and the underlying work has become foundational to today's quantum computing research. On June 18, 2026, in Jerusalem, Jain became the first Indian-origin scientist to win the Wolf Prize in Physics - 37 years after the discovery that earned it. He now directs a physics institute in Mumbai: a theory built abroad, still finding its way back to build something at home.</p>\n\n<h2>The first musician to hold India's highest civilian honor</h2>\n<p>Born September 16, 1916 in Madurai, M.S. Subbulakshmi built a seven-decade career in Carnatic and devotional music. In 1966, she became the first Indian to perform at the United Nations General Assembly. In 1998, she received the Bharat Ratna - India's highest civilian award - the first musician in the country's history to hold it. Her career spanned a period when India's own sense of what counted as a national achievement was still being defined; a classical singer reaching the country's highest civilian honor helped settle what that definition included.</p>\n\n<h2>A missing forearm, a Commonwealth Games record</h2>\n<p>Dilip Gavit grew up in a farming family near Nashik. An untreated childhood injury cost him his right arm at five - it didn't cost him the sport. He set a Commonwealth Games record in the T47 100m, with a fellow Indian taking silver behind him. The record only measures the race. It doesn't measure how long the road to the start line was.</p>\n\n<p>Five stories, one thread stretched across very different timescales: an export number reset within a year of being set, a satellite solving a problem that was obvious the moment someone looked for it, a physics theory that took 37 years to collect its prize, and a national honor that took until 1998 to go to a musician for the first time. Recognition doesn't always arrive on the same schedule as the achievement. Sometimes the work is done long before the world catches up to what it means.</p>",
+  "sources": [
+    {
+      "text": "News on Air (All India Radio) - Union Minister Piyush Goyal announces record $860 billion exports in FY 2025-26",
+      "url": "https://www.newsonair.gov.in/union-minister-piyush-goyal-says-india-achieves-record-860-billion-dollar-exports-in-fy-2025-26/"
+    },
+    {
+      "text": "India Brand Equity Foundation (IBEF) - India's exports cross US$860 billion in 2025-26",
+      "url": "https://www.ibef.org/news/india-s-exports-cross-us-860-billion-in-2025-26-says-union-minister-mr-piyush-goyal"
+    },
+    {
+      "text": "Business Standard, May 2026 - GalaxEye launches Mission Drishti, world's first OptoSAR satellite platform",
+      "url": "https://www.business-standard.com/"
+    },
+    {
+      "text": "SatNews, May 2026 - GalaxEye successfully launches Mission Drishti OptoSAR satellite",
+      "url": "https://news.satnews.com/"
+    },
+    {
+      "text": "Global Indian, 2026 - Jainendra Jain, Indian-origin recipient of Wolf Prize in Physics",
+      "url": "https://www.globalindian.com/"
+    },
+    {
+      "text": "American Bazaar, 2026 - Jainendra K. Jain becomes first Indian-origin scientist to win Wolf Prize in Physics",
+      "url": "https://www.americanbazaaronline.com/"
+    },
+    {
+      "text": "Encyclopaedia Britannica - M.S. Subbulakshmi biography",
+      "url": "https://www.britannica.com/biography/M-S-Subbulakshmi"
+    },
+    {
+      "text": "Gulf News, 2016 - M.S. Subbulakshmi birth centenary events launched",
+      "url": "https://gulfnews.com/entertainment/music/m-s-subalakshmi-birth-centenary-events-launched-1.1583700"
+    }
+  ],
+  "coverDate": "September 16, 2026",
+  "coverHeadlines": [
+    "Optical cameras can't see through clouds. Radar can't see color or texture. One Bengaluru startup just put both on a single satellite - a world first.",
+    "No musician had ever received India's highest civilian honor. Then one did.",
+    "He lost his right arm at five. At the Commonwealth Games, he ran the 100m faster than anyone in the field ever had.",
+    "India's exports just crossed $860 billion in a single year.",
+    "In 1989, a young physicist solved a puzzle nobody else could explain. In 2026, that work made him the first Indian-origin scientist to win the Wolf Prize in Physics."
+  ],
+  "coverImageUrl": "https://res.cloudinary.com/snwnsjwm/image/upload/v1789662435/bharat100/enbczzddy9twfykagyus.png",
+  "wordpressPostId": 90,
+  "wordpressUrl": "https://bharatat100.wordpress.com/2026/09/17/one-record-from-1989-one-from-this-morning-september-16-2026/",
+  "publishedAt": "2026-09-17T16:28:15.008Z"
+}
