@@ -43,17 +43,37 @@ async function graphql(query, variables) {
   return json.data;
 }
 
-async function getCurrentCapacity() {
+// Buffer's `posts` query defaults to one page — a single unpaginated
+// first:100 call with no channel filter silently truncates once total
+// posts across ALL channels combined exceeds 100 (found 2026-09-17 in
+// fetch-analytics.mjs and sync-buffer-links.mjs, the same root cause:
+// real sent-post count that day was 172). Scheduled posts are capped at
+// 10/channel so 100 is safe today, but page through fully anyway rather
+// than rely on that cap never changing.
+async function fetchAllPosts(status, extraFields = "") {
   const query = `
-    query {
-      posts(input: { organizationId: "${ORG_ID}", filter: { status: scheduled } }, first: 100) {
-        edges { node { channel { service } } }
+    query Posts($organizationId: OrganizationId!, $first: Int!, $after: String) {
+      posts(input: { organizationId: $organizationId, filter: { status: [${status}] } }, first: $first, after: $after) {
+        edges { node { channel { service } ${extraFields} } }
+        pageInfo { hasNextPage endCursor }
       }
     }
   `;
-  const data = await graphql(query);
+  const all = [];
+  let after = null;
+  for (;;) {
+    const data = await graphql(query, { organizationId: ORG_ID, first: 100, after });
+    all.push(...data.posts.edges.map((e) => e.node));
+    if (!data.posts.pageInfo.hasNextPage) break;
+    after = data.posts.pageInfo.endCursor;
+  }
+  return all;
+}
+
+async function getCurrentCapacity() {
+  const nodes = await fetchAllPosts("scheduled");
   const counts = {};
-  for (const { node } of data.posts.edges) {
+  for (const node of nodes) {
     counts[node.channel.service] = (counts[node.channel.service] ?? 0) + 1;
   }
   // Map Buffer's internal service names to this project's platform labels.
@@ -77,15 +97,8 @@ async function getCurrentCapacity() {
 // prompted this fix) and treating any card whose recorded id shows up
 // there as gapped too, same as a missing id.
 async function fetchErroredBufferIds() {
-  const query = `
-    query {
-      posts(input: { organizationId: "${ORG_ID}", filter: { status: error } }, first: 100) {
-        edges { node { id channel { service } } }
-      }
-    }
-  `;
-  const data = await graphql(query);
-  return new Set(data.posts.edges.map((e) => e.node.id));
+  const nodes = await fetchAllPosts("error", "id");
+  return new Set(nodes.map((n) => n.id));
 }
 
 // A card has a genuine Buffer GAP when: it lists a Buffer platform in
