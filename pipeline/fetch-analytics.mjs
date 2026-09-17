@@ -28,46 +28,50 @@ async function bufferGraphql(query, variables) {
   return json.data;
 }
 
-async function fetchBufferPosts() {
+// Buffer's `posts` query defaults to a single page — found 2026-09-17 (same
+// bug independently found and fixed in sync-buffer-links.mjs the same day)
+// that a single first:100 call with no channel filter silently truncates
+// once total sent posts across ALL channels combined exceeds 100 (real
+// count that day: 172 across Instagram/Threads/X). This under-reported
+// Instagram specifically to the dashboard (30 shown vs. 54 actually live)
+// since whichever channel's posts happened to fall outside the first page
+// got silently dropped, not evenly sampled. Always page through fully.
+async function fetchAllBufferPosts(status, extraFields) {
   const query = `
-    query {
-      posts(input: { organizationId: "${ORG_ID}", filter: { status: sent } }, first: 100) {
+    query Posts($organizationId: OrganizationId!, $first: Int!, $after: String) {
+      posts(input: { organizationId: $organizationId, filter: { status: [${status}] } }, first: $first, after: $after) {
         edges {
           node {
             id
             channel { service }
             text
-            sentAt
-            metrics { name value unit }
+            ${extraFields}
           }
         }
+        pageInfo { hasNextPage endCursor }
       }
     }
   `;
-  const data = await bufferGraphql(query);
-  return data.posts.edges.map((e) => e.node);
+  const all = [];
+  let after = null;
+  for (;;) {
+    const data = await bufferGraphql(query, { organizationId: ORG_ID, first: 100, after });
+    all.push(...data.posts.edges.map((e) => e.node));
+    if (!data.posts.pageInfo.hasNextPage) break;
+    after = data.posts.pageInfo.endCursor;
+  }
+  return all;
+}
+
+async function fetchBufferPosts() {
+  return fetchAllBufferPosts("sent", "sentAt\n            metrics { name value unit }");
 }
 
 // Scheduled (not-yet-sent) Buffer posts, so the dashboard can show
 // "scheduled, not live yet" instead of misreading missing rows as
 // missing data.
 async function fetchScheduledBufferPosts() {
-  const query = `
-    query {
-      posts(input: { organizationId: "${ORG_ID}", filter: { status: scheduled } }, first: 100) {
-        edges {
-          node {
-            id
-            channel { service }
-            text
-            dueAt
-          }
-        }
-      }
-    }
-  `;
-  const data = await bufferGraphql(query);
-  return data.posts.edges.map((e) => e.node);
+  return fetchAllBufferPosts("scheduled", "dueAt");
 }
 
 async function getYoutubeClient() {
