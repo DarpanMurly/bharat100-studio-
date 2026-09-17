@@ -27,7 +27,12 @@ on:
     - cron: "30 7 * * *"   # Builder Story (on-this-day-short)
     - cron: "30 13 * * *"  # Sector Futures
     - cron: "0 17 * * *"   # Diaspora Dividend
-  workflow_dispatch: {}    # allows a manual "Run workflow" trigger for testing
+  workflow_dispatch:       # manual trigger, also usable for a one-off card
+    inputs:
+      card_id:
+        description: "Optional: <date>_<id> to publish directly via bluesky-publish.mjs, bypassing the slot runner's lookback window (for a gap found older than its normal catch-up range)"
+        required: false
+        type: string
 
 # The default GITHUB_TOKEN is read-only unless explicitly granted write
 # access — the final "git push" step (recording each post's URI/timestamp
@@ -63,7 +68,12 @@ jobs:
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: node pipeline/bluesky-slot-runner.mjs
+        run: |
+          if [ -n "${{ inputs.card_id }}" ]; then
+            node pipeline/bluesky-publish.mjs "${{ inputs.card_id }}"
+          else
+            node pipeline/bluesky-slot-runner.mjs
+          fi
 
       - name: Commit updated card.json if changed
         # This workflow, homepage-sync.yml, and facebook-first-comment.yml
