@@ -24,6 +24,7 @@ import { fileURLToPath } from "node:url";
 import { uploadToCloudinary } from "./cloudinary-upload.mjs";
 import { queuePost } from "./buffer-publish.mjs";
 import { X_PUBLISHING_PAUSED } from "./publish-to-buffer.mjs";
+import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -204,7 +205,32 @@ async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferId
     media.imageUrl = await uploadToCloudinary(path.join(queueDir, card.imageFile));
   }
 
-  const post = await queuePost(platformKey, text, media, {});
+  // REAL BUG found 2026-09-17: this used to call queuePost with no dueAt
+  // at all, which made buffer-publish.mjs default to mode "addToQueue" -
+  // Buffer's own auto-append behavior, which puts the post at the END of
+  // whatever's already scheduled on that channel rather than back at its
+  // originally-intended slot time. Every successful Instagram retry was
+  // silently pushing that post (and everything queued after it) further
+  // into the future - the standing "stay ~1 day ahead" policy (see
+  // project memory) drifted to a 5-day-deep queue entirely because of
+  // this, not because content was ever actually approved that far ahead.
+  // Compute the same real dueAt publish-to-buffer.mjs would have used —
+  // but nextSlotUtc(hour, targetDate) has no past-time guard, and a
+  // retry is by definition happening after the card's original slot
+  // time already passed. Buffer rejects a past dueAt outright ("Scheduled
+  // time must be in the future"), so fall back to a few minutes from now
+  // whenever the real slot has already elapsed - this is a corrective
+  // catch-up post, not a fresh day-ahead schedule, so "as soon as
+  // possible" is the correct semantics here, not "queue behind
+  // everything else" (addToQueue's old behavior) or "exact original
+  // slot" (impossible once that instant has passed).
+  const contentType = card.type ?? "video";
+  const slotHour = SLOT_HOURS_IST[contentType];
+  const intendedDueAt = nextSlotUtc(slotHour, card.date);
+  const dueAt = new Date(intendedDueAt) > new Date()
+    ? intendedDueAt
+    : new Date(Date.now() + 10 * 60 * 1000).toISOString();
+  const post = await queuePost(platformKey, text, media, { dueAt });
   card.bufferPostIds = { ...(card.bufferPostIds ?? {}), [platformLabel]: post.id };
 
   // Flip status back to "scheduled" once every Buffer platform this card

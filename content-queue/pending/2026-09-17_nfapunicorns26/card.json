@@ -23,7 +23,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-17_nfapunicorns26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 225,
-  "status": "approved",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -36,7 +36,8 @@
   ],
   "approvedAt": "2026-09-16T10:24:16.991Z",
   "bufferPostIds": {
-    "Threads": "6aaa6f0d92e13937eb3cfdd2"
+    "Threads": "6aaa6f0d92e13937eb3cfdd2",
+    "Instagram": "6aac0b2549134d395324a0b8"
   },
   "youtubeVideoId": "awCab3USRSw",
   "youtubeUrl": "https://youtube.com/watch?v=awCab3USRSw",

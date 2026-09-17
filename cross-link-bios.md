@@ -1,15 +1,15 @@
-# Bharat Varsh - cross-platform bio & pinned text drafts
+# Bharat@100 - cross-platform bio & pinned text drafts
 
 Goal: each platform's profile should send new followers to the other 3, so growth on any one channel compounds across all four. All text below respects the "not government-affiliated" legal line and the house style rules (hyphen not em dash, no serial comma before and/or).
 
-Handles today: Instagram/YouTube/Threads = @bharatat100 (placeholder - switches to this exact handle ~Sept 19 per the 14-day hold), X = @Bharat_at_100.
+Handles today: Instagram/YouTube/Threads = @bharatat100, X = @Bharat_at_100. YouTube's own handle (separate from the display name) is still under Google's 14-day change hold - confirmed in Studio it expires 2026-09-19, at which point the YouTube handle itself can be changed via Studio -> Customization -> Basic info (not via API - no such endpoint exists).
 
 ---
 
 ## Instagram bio
 
 ```
-Bharat Varsh 🇮🇳
+Bharat@100 🇮🇳
 India's growth story, day by day
 Independent · not affiliated with the Govt of India
 👇 Daily video on all platforms
@@ -23,7 +23,7 @@ X: @Bharat_at_100 · YouTube: youtube.com/@bharatat100
 ## Threads bio
 
 ```
-Bharat Varsh 🇮🇳
+Bharat@100 🇮🇳
 Independent, not affiliated with the Govt of India
 Building toward India's 100th year of independence
 Full videos: YouTube @bharatat100 · X @Bharat_at_100
@@ -42,7 +42,7 @@ Not affiliated with the Government of India.
 ## YouTube channel description
 
 ```
-Bharat Varsh - India's growth story, one day at a time.
+Bharat@100 - India's growth story, one day at a time.
 
 Every day: a piece of Indian history, a sector actually growing, and a
 thought worth carrying into the next one. Independent citizen project,
@@ -72,9 +72,21 @@ Catch whichever you're missing: youtube.com/@bharatat100
 - [ ] Instagram: Settings -> Edit profile -> paste bio + link (RE-CHECK 2026-09-14: bio text above was updated to add the disclaimer - re-paste even if a bio already exists)
 - [ ] Threads: uses Instagram's bio if linked, or set separately in Threads settings (RE-CHECK 2026-09-14: same update as Instagram)
 - [ ] X: Settings -> Profile -> paste bio
-- [ ] YouTube: Studio -> Customization -> Basic info -> Description
+- [ ] YouTube: Studio -> Customization -> Basic info -> Description - CHECKED 2026-09-17 via API (`channels.list`): description has NO disclaimer at all, same gap Instagram/Threads had until Sept 14. Confirmed the Data API cannot write channel `snippet.description` (`channels.update` returns `ERROR_PART_UNEXPECTED` even with a minimal snippet payload) - this is Studio-UI-only, like the handle change. New text to paste, disclaimer added after the "sourced every time" line:
+  ```
+  🇮🇳 Bharatat100 breaks down the sectors, skills and shifts defining India's growth story on the way to her 100th year of independence - semiconductors, defence, green energy, space, AI and the careers being built inside them.
+
+  Every day: a piece of Indian history, a sector actually growing and a
+  thought worth carrying into the next one.
+
+  New videos daily, backed by real sources every time.
+
+  Independent citizen project. Not affiliated with the Government of India.
+
+  Follow @bharatat100 on Instagram, X and Threads.
+  ```
 - [ ] YouTube: pin the "New here?" comment manually on today's video (repeat per video, or just do it on your best-performing one each week - not worth automating for the effort involved)
-- [ ] Facebook Page "Bharatat100": Page Settings -> About -> Description - CHECK whether it currently has the disclaimer text; never explicitly verified in prior sessions
+- [x] Facebook Page "Bharatat100": Page Settings -> About -> Description - VERIFIED 2026-09-17 via Graph API (`?fields=about`) - disclaimer text was already present, but the project name in the copy still read "Bharat Varsh". FIXED 2026-09-17: updated About to say "Bharat@100", disclaimer text unchanged, verified live via API.
 - [x] Mastodon (@bharatat100 on mastodon.social): Preferences -> Profile -> Bio - VERIFIED 2026-09-16 via API (`accounts/:id`'s `note` field) - already has "not affiliated with the Government of India." No action needed.
 - [x] Bluesky (@bharatat100): Settings -> Edit profile -> Description - WAS completely empty (no display name, no bio at all) despite posting daily since Sept 8 - verified via public API (`getProfile`). FIXED 2026-09-16: display name "Bharat@100" and a full bio with the disclaimer set, verified live via API.
 - [x] WordPress (bharatat100.wordpress.com): About page - WAS the default WordPress.com placeholder text ("This is an example of a page...") - never actually written. FIXED 2026-09-16: real About-page copy drafted and published, includes the disclaimer ("not affiliated with, funded by, or endorsed by the Government of India"), verified live via curl. Site-wide footer still not separately checked - WordPress.com's free themes often don't expose an editable footer at all, worth a quick look next time but not urgent since the About page and every post's own disclaimer line already cover this.
