@@ -51,5 +51,9 @@
   "thumbnailFrame": 262,
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mv75gs54bd24",
   "blueskyPostedAt": "2026-09-10T22:54:26.269Z",
-  "facebookFirstCommentId": "1240355019172466_1095332666278041"
+  "facebookFirstCommentId": "1240355019172466_1095332666278041",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DdHU-mOlwzS/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DdHU7xUjBxP"
+  }
 }

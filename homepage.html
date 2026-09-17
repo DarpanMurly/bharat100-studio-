@@ -300,6 +300,9 @@
   .archive-sources .mono-label { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--saffron-ink); display: block; margin-bottom: 6px; }
   .archive-sources ul { margin: 0; padding-left: 18px; }
   .archive-watch { display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; font-weight: 600; text-decoration: none; color: var(--saffron-ink); }
+  .archive-platforms { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 4px; }
+  .archive-platform-link { font-size: 0.82rem; font-weight: 600; text-decoration: none; color: var(--ink-soft); border-bottom: 1px solid transparent; }
+  .archive-platform-link:hover { color: var(--saffron-ink); border-bottom-color: var(--saffron-ink); }
   .archive-empty { padding: 40px 22px; text-align: center; color: var(--ink-soft); font-size: 0.92rem; }
 
   /* ---------- newsletter ---------- */
@@ -590,6 +593,19 @@ __ARCHIVE_JSONLD__
         '</ul></div>'
       ) : '';
       var watchHtml = e.youtubeUrl ? '<a class="archive-watch" href="' + e.youtubeUrl + '" target="_blank" rel="noopener">Watch on YouTube &rarr;</a>' : '';
+      // Every link here points at the actual live post Buffer/Facebook/
+      // Mastodon/Bluesky/WordPress recorded, not a slot-time guess - safe
+      // even for a post that went out later than its original schedule.
+      var PLATFORM_LABELS = { Instagram: 'Instagram', Threads: 'Threads', Facebook: 'Facebook', Mastodon: 'Mastodon', Bluesky: 'Bluesky', WordPress: 'WordPress' };
+      var platformsHtml = '';
+      if (e.platformLinks) {
+        var links = Object.keys(PLATFORM_LABELS).filter(function(p){ return e.platformLinks[p]; });
+        if (links.length) {
+          platformsHtml = '<div class="archive-platforms">' + links.map(function(p){
+            return '<a class="archive-platform-link" href="' + escapeHtml(e.platformLinks[p]) + '" target="_blank" rel="noopener">' + PLATFORM_LABELS[p] + ' &rarr;</a>';
+          }).join('') + '</div>';
+        }
+      }
       return (
         '<div class="archive-item" data-index="' + i + '">' +
           '<div class="archive-summary">' +
@@ -598,7 +614,7 @@ __ARCHIVE_JSONLD__
             '<span class="archive-headline">' + escapeHtml(e.headline) + '</span>' +
             '<span class="archive-caret">&#9656;</span>' +
           '</div>' +
-          '<div class="archive-detail">' + bodyHtml + sourcesHtml + watchHtml + '</div>' +
+          '<div class="archive-detail">' + bodyHtml + sourcesHtml + watchHtml + platformsHtml + '</div>' +
         '</div>'
       );
     }).join('');

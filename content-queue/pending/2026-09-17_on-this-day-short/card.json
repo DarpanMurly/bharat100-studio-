@@ -43,5 +43,8 @@
   "facebookScheduledAt": "2026-09-17T07:30:00.000Z",
   "mastodonStatusId": "281144",
   "mastodonScheduledAt": "2026-09-17T07:30:00.000Z",
-  "facebookFirstCommentId": "2575289426302247_1083861990813103"
+  "facebookFirstCommentId": "2575289426302247_1083861990813103",
+  "bufferPostLinks": {
+    "Threads": "https://www.threads.com/@bharatat100/post/DdYU_QfiGF1"
+  }
 }

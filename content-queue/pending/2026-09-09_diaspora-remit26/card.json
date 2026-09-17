@@ -40,5 +40,9 @@
   },
   "youtubeVideoId": "TMB5AciXVA8",
   "youtubeUrl": "https://youtube.com/watch?v=TMB5AciXVA8",
-  "youtubeScheduledAt": "2026-09-09T17:00:00.000Z"
+  "youtubeScheduledAt": "2026-09-09T17:00:00.000Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DdEwN5pjec7/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DdEwF1NCljY"
+  }
 }

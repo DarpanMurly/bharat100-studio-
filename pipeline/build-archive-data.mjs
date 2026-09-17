@@ -12,6 +12,46 @@ import { applyStyleRules } from "./style.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+// Mastodon/Bluesky store only an id/URI, not a ready-to-click URL (unlike
+// Facebook, which stores a numeric post id that IS the permalink path, and
+// Instagram/Threads, whose real link comes from Buffer's own externalLink
+// field via sync-buffer-links.mjs — see that script's header for why).
+const MASTODON_INSTANCE = "https://mastodon.social";
+const MASTODON_ACCOUNT = "bharatat100";
+function mastodonUrl(statusId) {
+  return statusId ? `${MASTODON_INSTANCE}/@${MASTODON_ACCOUNT}/${statusId}` : null;
+}
+function blueskyUrl(atUri) {
+  if (!atUri) return null;
+  const match = /^at:\/\/([^/]+)\/app\.bsky\.feed\.post\/(.+)$/.exec(atUri);
+  if (!match) return null;
+  return `https://bsky.app/profile/${match[1]}/post/${match[2]}`;
+}
+function facebookUrl(postId) {
+  return postId ? `https://www.facebook.com/${postId}` : null;
+}
+
+let wordpressUrlByDate = {};
+async function loadWordpressUrls() {
+  const wpDir = path.join(ROOT, "public", "wordpress");
+  let files;
+  try {
+    files = await fs.readdir(wpDir);
+  } catch {
+    return;
+  }
+  for (const file of files) {
+    if (!file.endsWith(".json") || file.endsWith("-weekly.json")) continue;
+    const date = file.replace(".json", "");
+    try {
+      const article = JSON.parse(await fs.readFile(path.join(wpDir, file), "utf-8"));
+      if (article.wordpressUrl) wordpressUrlByDate[date] = article.wordpressUrl;
+    } catch {
+      // unreadable/incomplete article, skip
+    }
+  }
+}
+
 function firstParagraph(text) {
   return (text ?? "").split("\n\n")[0]?.trim() ?? "";
 }
@@ -31,6 +71,8 @@ function bodyParagraphs(text) {
 }
 
 async function main() {
+  await loadWordpressUrls();
+
   const pendingDir = path.join(ROOT, "content-queue", "pending");
   const dirs = await fs.readdir(pendingDir);
 
@@ -111,6 +153,19 @@ async function main() {
           : { ...s, text: applyStyleRules(s.text ?? "") }
       ),
       youtubeUrl: card.youtubeUrl ?? null,
+      // Every link here is the ACTUAL live post, not a slot-time guess —
+      // safe even for a post that went out late or off its original
+      // schedule (found necessary 2026-09-17, after Buffer queue drift
+      // and Bluesky catch-up runs both posted well after their nominal
+      // slot time). Only included when the platform actually succeeded.
+      platformLinks: {
+        Instagram: card.bufferPostLinks?.Instagram ?? null,
+        Threads: card.bufferPostLinks?.Threads ?? null,
+        Facebook: facebookUrl(card.facebookPostId),
+        Mastodon: mastodonUrl(card.mastodonStatusId),
+        Bluesky: blueskyUrl(card.blueskyPostUri),
+        WordPress: wordpressUrlByDate[card.date] ?? null,
+      },
     });
   }
 

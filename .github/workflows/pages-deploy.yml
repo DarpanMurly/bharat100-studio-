@@ -38,10 +38,24 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev --no-audit --no-fund
 
+      - name: Sync Instagram/Threads post links from Buffer
+        # Buffer's own post id isn't a public URL — this pulls the real
+        # permalink (externalLink) for every sent post so the archive can
+        # link out to the actual live Instagram/Threads post, not just
+        # YouTube (added 2026-09-17, see build-archive-data.mjs's
+        # platformLinks and this script's own header for why).
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_INSTAGRAM: ${{ secrets.BUFFER_CHANNEL_INSTAGRAM }}
+          BUFFER_CHANNEL_THREADS: ${{ secrets.BUFFER_CHANNEL_THREADS }}
+        run: node pipeline/sync-buffer-links.mjs
+
       - name: Rebuild homepage archive
         run: |
           git config user.name "bharat100-bot"
           git config user.email "actions@github.com"
+          git add content-queue/
+          git diff --cached --quiet || git commit -m "Sync Buffer post links [skip ci]"
           node pipeline/deploy-homepage.mjs
 
       - name: Setup Pages
