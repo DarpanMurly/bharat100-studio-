@@ -26,6 +26,7 @@ type Manifest = {
 import ashokkhade26 from "./scripts/ashokkhade26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
 import budget from "./scripts/budget.json";
+import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
 import diasporaFcnr26 from "./scripts/diaspora-fcnr26.json";
 import diasporaPhilanthropy26 from "./scripts/diaspora-philanthropy26.json";
@@ -43,6 +44,7 @@ import jainwolf26 from "./scripts/jainwolf26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import kewalramani26 from "./scripts/kewalramani26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
+import panchanathan26 from "./scripts/panchanathan26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
@@ -59,6 +61,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "ashokkhade26": ashokkhade26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
   "budget": budget as VideoScript,
+  "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
   "diaspora-fcnr26": diasporaFcnr26 as VideoScript,
   "diaspora-philanthropy26": diasporaPhilanthropy26 as VideoScript,
@@ -76,6 +79,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "kewalramani26": kewalramani26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
+  "panchanathan26": panchanathan26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "pixxel26": pixxel26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,

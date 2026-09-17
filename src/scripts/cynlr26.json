@@ -1,0 +1,53 @@
+{
+  "id": "cynlr26",
+  "title": "A Bengaluru robotics startup wants to build a factory that can make anything",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-18",
+  "sources": [
+    "The Robot Report - CynLr raises Series A funding to realize robot vision for universal factory",
+    "Tech Funding News - CynLr cements $10M in Series A funding led by key venture partners to drive robotic automation in manufacturing"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Most factory robots can only do one job, on one object, forever.",
+      "sub": "One Bengaluru startup built a robot that can pick up almost anything, untrained."
+    },
+    {
+      "kind": "stat",
+      "text": "CynLr's Series A round brings its total funding to $15.2 million.",
+      "stat": "$10M",
+      "statLabel": "Series A round, led by Pavestone and Athera Venture Partners",
+      "narration": "CynLr's series A round brings its total funding to fifteen point two million dollars."
+    },
+    {
+      "kind": "stat",
+      "text": "Its CyRo robot has three arms and 'visual object sentience' - it doesn't need to be trained on a specific object first.",
+      "stat": "0",
+      "statLabel": "prior training required per object, per CynLr's own claim",
+      "narration": "Its CyRo robot has three arms and visual object sentience. It doesn't need to be trained on a specific object first."
+    },
+    {
+      "kind": "point",
+      "text": "Founded in 2019 by Gokul N.A. and Nikhil Ramaswamy, the company is expanding from 60 to 120 people across India, the US, and Switzerland.",
+      "narration": "Founded in twenty nineteen by Gokul N. A. and Nikhil Ramaswamy, the company is expanding from sixty to one hundred twenty people across India, the U.S., and Switzerland."
+    },
+    {
+      "kind": "point",
+      "text": "The goal: deploy one robot a day, and reach $22 million in revenue by 2027."
+    },
+    {
+      "kind": "closer",
+      "text": "Most manufacturing robots are built for one line, one product, one repetition -",
+      "sub": "a robot that can handle anything is a bet that factories themselves are about to change shape.",
+      "narration": "Most manufacturing robots are built for one line, one product, one repetition. A robot that can handle anything is a bet that factories themselves are about to change shape."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Most factory robots can only do one job, on one object, forever. One Bengaluru startup built a robot that can pick up almost anything, untrained.\n\nCynLr's $10 million Series A round, led by Pavestone and Athera Venture Partners, brings total funding to $15.2 million. Its CyRo robot uses 'visual object sentience' to manipulate objects without prior training. Founded in 2019, the company is expanding from 60 to 120 people across India, the US, and Switzerland, aiming to deploy one robot a day and reach $22 million in revenue by 2027.\n\nMost manufacturing robots are built for one line, one product, one repetition. A robot that can handle anything is a bet that factories themselves are about to change shape.\n\nSources: The Robot Report, Tech Funding News (2026)",
+  "hashtags": ["#Bharat100", "#Robotics", "#DeepTech", "#MakeInIndia", "#India2047", "#Startups"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

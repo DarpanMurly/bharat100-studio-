@@ -1,0 +1,51 @@
+{
+  "id": "panchanathan26",
+  "type": "diaspora-dividend",
+  "title": "He led America's National Science Foundation. Now he's the first Indian American to win this award.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-18",
+  "sources": [
+    "Arizona State University News, 2026 - National Academy of Engineering honors Panchanathan with Arthur M. Bueche Award",
+    "American Bazaar, 2026 - Panchanathan is the first Indian American to receive Bueche Award"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "The Arthur M. Bueche Award has existed for over four decades.",
+      "sub": "No Indian American had ever won it - until now."
+    },
+    {
+      "kind": "stat",
+      "text": "Sethuraman Panchanathan, born in Chennai, is the National Academy of Engineering's 2026 Bueche Award recipient.",
+      "stat": "1st",
+      "statLabel": "first Indian American to receive the award, per NAE, 2026",
+      "narration": "Sethuraman Panchanathan, born in Chennai, is the National Academy of Engineering's twenty twenty six Bueche Award recipient."
+    },
+    {
+      "kind": "point",
+      "text": "He served as the 15th Director of the US National Science Foundation - a role that included funding COVID-19 vaccine research.",
+      "narration": "He served as the fifteenth Director of the U.S. National Science Foundation, a role that included funding COVID nineteen vaccine research."
+    },
+    {
+      "kind": "point",
+      "text": "Under his leadership, NSF created its first new directorate in over 30 years."
+    },
+    {
+      "kind": "point",
+      "text": "He's now a University Professor at Arizona State University - the award will be presented October 4, 2026 in Washington, D.C."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't a research grant or a single discovery -",
+      "sub": "it's recognition for shaping how an entire country decided what science to fund.",
+      "narration": "This isn't a research grant or a single discovery. It's recognition for shaping how an entire country decided what science to fund."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "The Arthur M. Bueche Award has existed for over four decades. No Indian American had ever won it - until now.\n\nSethuraman Panchanathan, born in Chennai, is the National Academy of Engineering's 2026 Bueche Award recipient - the first Indian American to receive it. He served as the 15th Director of the US National Science Foundation, including funding COVID-19 vaccine research, and oversaw NSF's first new directorate in over 30 years. Now a University Professor at Arizona State University, he'll receive the award October 4, 2026 in Washington, D.C.\n\nThis isn't a research grant or a single discovery. It's recognition for shaping how an entire country decided what science to fund.\n\nSources: ASU News, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#Science", "#India2047", "#IndianAmerican"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

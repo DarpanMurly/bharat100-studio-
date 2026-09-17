@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2000",
+      "headline": "India's highest cinema honor went to a director who never chased a single award."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Dadasaheb Phalke Award, presented",
+      "body": "At the 47th National Film Awards ceremony at Vigyan Bhawan, New Delhi on September 18, 2000, President K.R. Narayanan presented filmmaker Hrishikesh Mukherjee with the Dadasaheb Phalke Award - India's highest honor in cinema."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What the award recognized",
+      "headline": "Decades of films that never needed spectacle.",
+      "body": "Mukherjee's films - Anand, Anupama, Chupke Chupke, Golmaal - built entire careers on quiet, character-driven stories rather than scale. The award came with a Swarna Kamal, one lakh rupees, and a shawl."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A body of work outlasted the moment it was made in.",
+      "body": "Decades after their release, Mukherjee's films are still watched, still quoted, still taught. The award wasn't for one performance - it was for a career's worth of choosing substance over noise."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - 47th National Film Awards",
+      "url": "https://en.wikipedia.org/wiki/47th_National_Film_Awards"
+    },
+    {
+      "text": "Wikipedia - Hrishikesh Mukherjee",
+      "url": "https://en.wikipedia.org/wiki/Hrishikesh_Mukherjee"
+    }
+  ]
+}

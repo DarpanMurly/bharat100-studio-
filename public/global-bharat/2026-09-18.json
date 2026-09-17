@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "India just had its best August for car sales ever recorded."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "A record month for passenger vehicles",
+      "body": "SIAM (Society of Indian Automobile Manufacturers) reported domestic passenger vehicle dispatches rose 36.5% year-on-year to 4,39,309 units in August 2026 - the highest-ever August figure on record."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What's driving it",
+      "headline": "SUVs now make up 57% of every car sold.",
+      "body": "Utility vehicles jumped 39.2% year-on-year to 2,50,084 units. Two-wheelers also posted their best-ever August, up 10.5% to 20.35 lakh units - total vehicle production across all categories crossed 31.57 lakh units for the month."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "This isn't a one-category story.",
+      "body": "Cars, two-wheelers and three-wheelers all posted record or near-record growth in the same month - a broad signal about what people are actually buying, not just one segment having a good quarter."
+    }
+  ],
+  "sources": [
+    { "text": "Business Standard, 2026 - Domestic passenger vehicle dispatches rise 36.5% to 4,39,309 units in August", "url": "https://www.business-standard.com/industry/auto/domestic-passenger-vehicle-dispatches-rise-36-5-to-439-309-units-in-august-126091500292_1.html" },
+    { "text": "The Tribune, 2026 - India produces over 31.57 lakh vehicles in August, passenger vehicle sales rise 36.5% (SIAM)", "url": "https://www.tribuneindia.com/news/business/india-produces-over-31-57-lakh-vehicles-in-august-passenger-vehicle-sales-rise-36-5-pc-siam" }
+  ]
+}
