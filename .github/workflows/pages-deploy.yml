@@ -58,6 +58,23 @@ jobs:
           git diff --cached --quiet || git commit -m "Sync Buffer post links [skip ci]"
           node pipeline/deploy-homepage.mjs
 
+      - name: Check cross-platform coverage (last 4 days)
+        # Runs every night alongside the homepage refresh so a missed post
+        # on ANY of the 8 platforms (or a missing WordPress digest) shows up
+        # as a failed run in the Actions tab within a day, instead of only
+        # being found when someone happens to ask about it directly (see
+        # feedback_daily_cycle_automation and feedback_wordpress_digest_
+        # manual_gap memories — both the Bluesky and WordPress incidents
+        # this was built for went unnoticed for days). Exits non-zero on a
+        # real gap, which fails this step and the whole run — check
+        # `gh run list --workflow=pages-deploy.yml` or the repo's Actions
+        # tab to see it. Does NOT block the deploy steps below it (the
+        # homepage should still update even if a gap is found) — see the
+        # `continue-on-error` + explicit final check below.
+        id: coverage
+        continue-on-error: true
+        run: node pipeline/check-platform-coverage.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -69,3 +86,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Fail the run if a coverage gap was found
+        # Deliberately the LAST step — the homepage has already deployed
+        # by this point regardless of coverage result. This only makes the
+        # overall workflow run show red in the Actions tab/gh run list, so
+        # a gap is visible without blocking the one thing (site freshness)
+        # that matters even on a day something else is broken.
+        if: steps.coverage.outcome == 'failure'
+        run: |
+          echo "Cross-platform coverage check found a gap — see the 'Check cross-platform coverage' step's log above for details."
+          exit 1

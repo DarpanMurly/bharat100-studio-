@@ -22,9 +22,17 @@ const PLATFORM_FIELD = {
   Facebook: "facebookPostId",
   Mastodon: "mastodonStatusId",
   Bluesky: "blueskyPostUri",
+  Pinterest: "pinterestPinId",
 };
 // Instagram/Threads/X live under bufferPostIds[platform], checked separately.
 const BUFFER_PLATFORMS = ["Instagram", "Threads", "X"];
+// Pinterest has been failing on every post since ~2026-09-08 (Trial access,
+// not yet approved for production — see project_pinterest_pending memory).
+// This is a known, external, currently-unfixable blocker, not a new bug —
+// bucket it separately so it doesn't bury genuinely actionable gaps in the
+// same list, but still surface it (rather than silently exclude it) so a
+// status approval, once it lands, is noticed promptly.
+const KNOWN_EXTERNAL_BLOCKERS = new Set(["Pinterest"]);
 
 function lastNDates(n) {
   const dates = [];
@@ -43,6 +51,7 @@ async function main() {
   const dates = lastNDates(LOOKBACK_DAYS);
 
   const gaps = [];
+  const knownBlockers = [];
 
   for (const date of dates) {
     const dayDirs = allDirs.filter((d) => d.startsWith(date) && !d.endsWith("_weekly-recap"));
@@ -57,21 +66,26 @@ async function main() {
       }
       const platforms = card.platforms ?? [];
       const missing = [];
+      const blocked = [];
 
       for (const p of platforms) {
         if (p === "X" && X_PUBLISHING_PAUSED) continue; // intentionally paused, not a gap
+        let hasId;
         if (BUFFER_PLATFORMS.includes(p)) {
-          if (!card.bufferPostIds?.[p]) missing.push(p);
+          hasId = !!card.bufferPostIds?.[p];
         } else if (PLATFORM_FIELD[p]) {
-          if (!card[PLATFORM_FIELD[p]]) missing.push(p);
+          hasId = !!card[PLATFORM_FIELD[p]];
+        } else {
+          continue; // Substack/Medium — separate manual-prep flows, not auto-publish targets
         }
-        // Pinterest/Substack/Medium intentionally not checked here — separate
-        // manual-prep flows, not per-card auto-publish targets.
+        if (!hasId) {
+          if (KNOWN_EXTERNAL_BLOCKERS.has(p)) blocked.push(p);
+          else missing.push(p);
+        }
       }
 
-      if (missing.length > 0) {
-        gaps.push({ dir, date, missing });
-      }
+      if (missing.length > 0) gaps.push({ dir, date, missing });
+      if (blocked.length > 0) knownBlockers.push({ dir, date, blocked });
     }
 
     // WordPress digest check — separate from per-card fields entirely, since
@@ -86,16 +100,23 @@ async function main() {
   }
 
   if (gaps.length === 0) {
-    console.log(`No platform-coverage gaps found in the last ${LOOKBACK_DAYS} days.`);
-    return;
+    console.log(`No actionable platform-coverage gaps in the last ${LOOKBACK_DAYS} days.`);
+  } else {
+    console.log(`Found ${gaps.length} ACTIONABLE gap(s) in the last ${LOOKBACK_DAYS} days:\n`);
+    for (const g of gaps) {
+      console.log(`  ${g.date}  ${g.dir}: missing ${g.missing.join(", ")}`);
+    }
+    console.log(`\nThis is a detection-only report — decide per gap whether to retry, backfill, or accept it.`);
   }
 
-  console.log(`Found ${gaps.length} gap(s) in the last ${LOOKBACK_DAYS} days:\n`);
-  for (const g of gaps) {
-    console.log(`  ${g.date}  ${g.dir}: missing ${g.missing.join(", ")}`);
+  if (knownBlockers.length > 0) {
+    console.log(`\n${knownBlockers.length} entr(y/ies) blocked on a KNOWN external issue (not new, no action needed unless it changes):`);
+    for (const b of knownBlockers) {
+      console.log(`  ${b.date}  ${b.dir}: ${b.blocked.join(", ")}`);
+    }
   }
-  console.log(`\nThis is a detection-only report — decide per gap whether to retry, backfill, or accept it.`);
-  process.exitCode = 1;
+
+  if (gaps.length > 0) process.exitCode = 1;
 }
 
 main().catch((err) => {
