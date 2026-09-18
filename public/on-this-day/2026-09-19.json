@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1936",
+      "headline": "A Bombay lawyer never performed music in public. He's the reason Indian classical music has a written notation at all."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Pandit Vishnu Narayan Bhatkhande died on September 19, 1936",
+      "body": "Bhatkhande, born in Bombay in 1860, trained as a lawyer - Elphinstone College, a law degree, and practice at the Bombay and Karachi High Courts - before abandoning law to spend decades documenting Hindustani classical music."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "He classified 180 ragas into 10 thaats - still the basis of music instruction today.",
+      "body": "His six-volume Kramik Pustak Malika recorded over 1,850 compositions using a notation system he invented himself, after travelling India to persuade hereditary musicians to share compositions their families had guarded orally for generations."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He promised his father he'd never perform publicly - and never did.",
+      "body": "He edited his final volumes from his sickbed after a stroke in 1933, working until his death. A student in any Indian music school today who names a raga's thaat is using a system built by a man who kept a promise to stay off the stage."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Ramesh Gangolli - Chatura Pandit: V.N. Bhatkhande",
+      "url": "https://www.parrikar.org/music/misc/bhatkhande.pdf"
+    },
+    {
+      "text": "Bhatkhande Sanskriti Vishwavidyalaya - Official history",
+      "url": "https://bhatkhandeuniversity.ac.in/en/page/history"
+    }
+  ]
+}

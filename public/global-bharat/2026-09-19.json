@@ -1,0 +1,32 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He started at P&G in 1989 as an assistant brand manager. In January 2026, he became its CEO."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Shailesh Jejurikar named CEO of Procter & Gamble",
+      "body": "On July 28, 2025, P&G announced Jejurikar - then Chief Operating Officer - would become President and CEO effective January 1, 2026, the first India-born chief executive in the company's roughly 188-year history."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The scale behind it",
+      "headline": "$84.3 billion in annual sales, around 109,000 employees.",
+      "body": "Born in Mumbai, Jejurikar studied at Elphinstone College and IIM Lucknow before joining P&G in 1989 on a personal healthcare brand in India. He rose through Fabric Care, Home Care, and regional leadership roles over 36 years before reaching the top job - and in August 2026 was also named Chairman of the Board."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A 36-year career, one company, two top jobs.",
+      "body": "The man who started on the lowest rung of P&G's brand ladder in India now runs the company behind Tide, Pampers and Gillette - and holds both the CEO and Chairman title at once."
+    }
+  ],
+  "sources": [
+    { "text": "P&G / SEC EDGAR, July 28, 2025 - CEO transition press release", "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000061/ceotransitionpressrelease.htm" },
+    { "text": "Business Standard, July 29, 2025 - Shailesh Jejurikar becomes first Indian to lead 187-year-old P&G", "url": "https://www.business-standard.com/" }
+  ]
+}

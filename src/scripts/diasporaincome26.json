@@ -1,0 +1,54 @@
+{
+  "id": "diasporaincome26",
+  "type": "diaspora-dividend",
+  "title": "The Indian diaspora earns more in a year than most countries' entire economies",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-19",
+  "sources": [
+    "Indiaspora, March 2026 - India & Its Diaspora: Partners in Progress",
+    "The Australia Today, March 27, 2026 - Indian diaspora earns over A$1 trillion annually"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "If the global Indian diaspora were counted as its own economy, it would outrank about 170 of the world's roughly 195 countries.",
+      "sub": "Not from remittances. From what it earns."
+    },
+    {
+      "kind": "stat",
+      "text": "The global Indian diaspora earns approximately $730 billion a year from formal employment alone.",
+      "stat": "$730B",
+      "statLabel": "annual diaspora earnings from formal employment, per Indiaspora, March 2026",
+      "narration": "The global Indian diaspora earns approximately seven hundred thirty billion dollars a year from formal employment alone."
+    },
+    {
+      "kind": "stat",
+      "text": "That figure excludes business income, stock options, and property - the real footprint is larger.",
+      "stat": "200+",
+      "statLabel": "countries the diaspora is spread across, per India's Ministry of External Affairs and UN data",
+      "narration": "That figure excludes business income, stock options, and property. The real footprint is larger."
+    },
+    {
+      "kind": "point",
+      "text": "Remittances - the number usually reported - are only about 19% of what the diaspora actually earns.",
+      "narration": "Remittances, the number usually reported, are only about nineteen percent of what the diaspora actually earns."
+    },
+    {
+      "kind": "point",
+      "text": "An independent economic model by The Australia Today put the real range even higher, calling Indiaspora's $730 billion figure conservative."
+    },
+    {
+      "kind": "closer",
+      "text": "Remittances measure what comes home -",
+      "sub": "this measures what the diaspora is actually worth, and most of it hasn't been counted before.",
+      "narration": "Remittances measure what comes home. This measures what the diaspora is actually worth, and most of it hasn't been counted before."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "If the global Indian diaspora were counted as its own economy, it would outrank about 170 of the world's roughly 195 countries. Not from remittances. From what it earns.\n\nThe Indian diaspora, spread across 200+ countries, earns approximately $730 billion a year from formal employment alone, per a March 2026 Indiaspora report - a figure that excludes business income, stock options, and property, meaning the real footprint is larger. Remittances, the number usually reported, are only about 19% of what the diaspora actually earns. An independent economic model by The Australia Today put the real range even higher, calling Indiaspora's $730 billion figure conservative.\n\nRemittances measure what comes home. This measures what the diaspora is actually worth, and most of it hasn't been counted before.\n\nSources: Indiaspora, The Australia Today (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#GlobalIndians", "#India2047", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
