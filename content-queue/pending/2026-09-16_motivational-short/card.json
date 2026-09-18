@@ -38,5 +38,8 @@
   "mastodonScheduledAt": "2026-09-16T02:30:00.000Z",
   "facebookFirstCommentId": "3089020754634631_1061508846760508",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mvnbavwqzs2q",
-  "blueskyPostedAt": "2026-09-16T13:40:00.249Z"
+  "blueskyPostedAt": "2026-09-16T13:40:00.249Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DdapKSpjNBz/"
+  }
 }

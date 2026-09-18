@@ -46,5 +46,9 @@
   "mastodonNote": "This is the OLD broken (blank-CTA) video, id 281065 - delete failed due to Mastodon's ISP walled-garden DNS block (mastodon.social resolving to e.walledgarden.nic.in on this network). Retry the delete+repost once on a different network, then update this field with the new status id and remove this note.",
   "facebookFirstCommentId": "1788959998801039_2105421793385710",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mvocveefpb2g",
-  "blueskyPostedAt": "2026-09-16T23:41:59.926Z"
+  "blueskyPostedAt": "2026-09-16T23:41:59.926Z",
+  "bufferPostLinks": {
+    "Threads": "https://www.threads.com/@bharatat100/post/DdaeZ7piXRI",
+    "Instagram": "https://www.instagram.com/reel/Dda0nQJCf7z/"
+  }
 }
