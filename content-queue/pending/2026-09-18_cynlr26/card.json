@@ -22,7 +22,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-18_cynlr26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 217,
-  "status": "approved",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -35,7 +35,8 @@
   ],
   "approvedAt": "2026-09-17T08:47:14.822Z",
   "bufferPostIds": {
-    "Threads": "6aaba984346b4f245a171528"
+    "Threads": "6aaba984346b4f245a171528",
+    "Instagram": "6aad3db5ea358f5e34edfed3"
   },
   "youtubeVideoId": "Gwnvqw8EFDg",
   "youtubeUrl": "https://youtube.com/watch?v=Gwnvqw8EFDg",
