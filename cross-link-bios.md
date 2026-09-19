@@ -2,7 +2,7 @@
 
 Goal: each platform's profile should send new followers to the other 3, so growth on any one channel compounds across all four. All text below respects the "not government-affiliated" legal line and the house style rules (hyphen not em dash, no serial comma before and/or).
 
-Handles today: Instagram/YouTube/Threads = @bharatat100, X = @Bharat_at_100. YouTube's own handle (separate from the display name) is still under Google's 14-day change hold - confirmed in Studio it expires 2026-09-19, at which point the YouTube handle itself can be changed via Studio -> Customization -> Basic info (not via API - no such endpoint exists).
+Handles today: Instagram/YouTube/Threads = @bharatat100, X = @Bharat_at_100. YouTube's handle was changed from the placeholder @bharatat100new to @bharatat100 on 2026-09-19, right after the 14-day change hold expired - verified live via API (`channels.list`'s `customUrl` field). All four platforms now use the same consistent handle.
 
 ---
 
