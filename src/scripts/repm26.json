@@ -1,0 +1,53 @@
+{
+  "id": "repm26",
+  "title": "India just took bids to build the magnets inside every EV motor and wind turbine",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-20",
+  "sources": [
+    "PIB / Cabinet, November 2025 - Rare Earth Permanent Magnet scheme approval, Rs 7,280 crore",
+    "Ministry of Heavy Industries, August 2026 - 20 bids received for REPM production-linked incentive"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Every EV motor and wind turbine needs a rare earth magnet.",
+      "sub": "Last year, India imported 93% of them from one country. Last month, 20 companies bid to change that."
+    },
+    {
+      "kind": "stat",
+      "text": "India's Cabinet approved a Rs 7,280 crore scheme to build a domestic rare earth permanent magnet industry.",
+      "stat": "₹7,280Cr",
+      "statLabel": "Cabinet-approved REPM incentive scheme, November 2025",
+      "narration": "India's Cabinet approved a seven thousand two hundred eighty crore rupee scheme to build a domestic rare earth permanent magnet industry."
+    },
+    {
+      "kind": "stat",
+      "text": "In FY25, India imported 53,700 tonnes of these magnets - 93% of it from China.",
+      "stat": "93%",
+      "statLabel": "share of India's REPM imports from China, FY25",
+      "narration": "In the last financial year, India imported fifty three thousand seven hundred tonnes of these magnets. Ninety three percent of it came from China."
+    },
+    {
+      "kind": "point",
+      "text": "By August 2026, 20 bids had come in from companies including L&T, Coal India and ReNew - targeting 6,000 tonnes of annual production capacity.",
+      "narration": "By August 2026, twenty bids had come in from companies including L and T, Coal India and ReNew, targeting six thousand tonnes of annual production capacity."
+    },
+    {
+      "kind": "point",
+      "text": "Winners haven't been picked yet - the bids are still being evaluated."
+    },
+    {
+      "kind": "closer",
+      "text": "The dependence is 93%. The bids are in.",
+      "sub": "What gets built next decides who makes India's motors.",
+      "narration": "The dependence is ninety three percent. The bids are in. What gets built next decides who makes India's motors."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Every EV motor and wind turbine needs a rare earth magnet. Last year, India imported 93% of them from one country. Last month, 20 companies bid to change that.\n\nIndia's Cabinet approved a Rs 7,280 crore scheme in November 2025 to build a domestic rare earth permanent magnet industry. In FY25, India imported 53,700 tonnes of these magnets - 93% of it from China. By August 2026, 20 bids had come in from companies including L&T, Coal India and ReNew, targeting 6,000 tonnes of annual production capacity. Winners haven't been picked yet - the bids are still being evaluated.\n\nThe dependence is 93%. The bids are in. What gets built next decides who makes India's motors.\n\nSources: PIB/Cabinet, Ministry of Heavy Industries (2025-2026)",
+  "hashtags": ["#Bharat100", "#RareEarth", "#MakeInIndia", "#India2047", "#EVs", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

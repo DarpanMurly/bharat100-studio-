@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She started on a factory floor. She now runs a $27.9 billion company - and is about to spin off another."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Revathi Advaithi, CEO of Flex Ltd., is spinning off a new AI-data-center power company",
+      "body": "Advaithi rose from an entry-level factory-floor supervisor role to lead Flex, a $27.9 billion global manufacturing giant, and in May 2026 announced she would lead a spin-off, Axiom Solutions International, built around Flex's booming power business for AI data centers."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The scale behind it",
+      "headline": "The new company's power segment grew 38% year-over-year to $6.6 billion.",
+      "body": "Born and educated in India, Advaithi worked her way up through operations roles across multiple manufacturing companies before reaching Flex's top job - and the segment she's spinning off now sits squarely inside the global AI infrastructure boom."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "From supervising a factory floor to launching a company built for the AI era.",
+      "body": "Advaithi's path runs through decades of operations work most executives skip - and lands her leading a business at the center of the infrastructure race behind every AI data center being built today."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fortune, May 2026 - Flex CEO Revathi Advaithi to lead Axiom Solutions International spin-off",
+      "url": "https://fortune.com/"
+    },
+    {
+      "text": "Flex Ltd. investor relations, May 2026 - Axiom Solutions International spin-off announcement",
+      "url": "https://investors.flex.com/"
+    }
+  ]
+}

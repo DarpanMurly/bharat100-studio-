@@ -1,0 +1,54 @@
+{
+  "id": "diasporagiving26",
+  "type": "diaspora-dividend",
+  "title": "Indian Americans are closing a billion-dollar philanthropy gap",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-20",
+  "sources": [
+    "Dalberg, October 30, 2025 - Indian American Philanthropy Narrows Giving Gap from $2-3 Billion to Just $1 Billion",
+    "American Bazaar, October 31, 2025 - Indian American giving nears $5 billion, narrowing philanthropic gap to historic low"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "The Indian diaspora doesn't just earn abroad.",
+      "sub": "A new report says it's closing a billion-dollar philanthropy gap to become one of America's most generous immigrant communities."
+    },
+    {
+      "kind": "stat",
+      "text": "Indian American philanthropic giving reached an estimated $4-5 billion in 2024 - nearly tripling since 2018.",
+      "stat": "$4-5B",
+      "statLabel": "estimated annual Indian American giving in 2024, per Dalberg/Indiaspora/IPA",
+      "narration": "Indian American philanthropic giving reached an estimated four to five billion dollars in 2024, nearly tripling since 2018."
+    },
+    {
+      "kind": "stat",
+      "text": "The gap between what the community could give and what it actually gives has narrowed from $2-3 billion down to just $1 billion.",
+      "stat": "$1B",
+      "statLabel": "remaining giving gap, down from $2-3B, per the same report",
+      "narration": "The gap between what the community could give and what it actually gives has narrowed from two to three billion dollars down to just one billion dollars."
+    },
+    {
+      "kind": "point",
+      "text": "The findings come from a joint report by Dalberg, Indiaspora and the India Philanthropy Alliance, published October 30, 2025.",
+      "narration": "The findings come from a joint report by Dalberg, Indiaspora and the India Philanthropy Alliance, published October 30, 2025."
+    },
+    {
+      "kind": "point",
+      "text": "The same report projects that if the next generation gives even 1% of an estimated $2 trillion in coming wealth transfer, annual giving could reach $20 billion - a projection, not a guarantee."
+    },
+    {
+      "kind": "closer",
+      "text": "Earning abroad was never the whole story.",
+      "sub": "This is what the diaspora is choosing to give back - and the gap keeps closing.",
+      "narration": "Earning abroad was never the whole story. This is what the diaspora is choosing to give back, and the gap keeps closing."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "The Indian diaspora doesn't just earn abroad. A new report says it's closing a billion-dollar philanthropy gap to become one of America's most generous immigrant communities.\n\nIndian American philanthropic giving reached an estimated $4-5 billion in 2024, nearly tripling since 2018, per a joint report from Dalberg, Indiaspora and the India Philanthropy Alliance published October 30, 2025. The gap between what the community could give and what it actually gives has narrowed from $2-3 billion down to just $1 billion. The same report projects that if the next generation gives even 1% of an estimated $2 trillion in coming wealth transfer, annual giving could reach $20 billion - a projection, not a guarantee.\n\nEarning abroad was never the whole story. This is what the diaspora is choosing to give back - and the gap keeps closing.\n\nSources: Dalberg, American Bazaar (2025)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#Philanthropy", "#India2047", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

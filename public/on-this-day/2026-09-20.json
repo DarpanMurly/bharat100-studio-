@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1914",
+      "headline": "He built India's first digital computer. Decades later, he built the machine that counts India's votes."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. A. S. Rao was born on September 20, 1914",
+      "body": "Rao founded the Electronics Corporation of India Limited (ECIL) in 1967, tasked with building India's electronics and computing capability from near zero, at a time when computers were imported, foreign-built machines."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "ECIL's TDC series became India's first indigenously designed digital computers.",
+      "body": "Under Rao, ECIL didn't just assemble foreign designs - it designed and manufactured computers domestically through the 1970s, giving India its own computing base at a time almost no developing country had one."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The same institution later built the EVM and VVPAT machines used in Indian elections today.",
+      "body": "A company founded to prove India could build its own computers went on to build the machines that record and verify how a billion-plus people vote - a direct line from one founder's mandate to the mechanics of the world's largest democracy."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Electronics Corporation of India Limited - Official history",
+      "url": "https://www.ecil.co.in/about-us/history"
+    },
+    {
+      "text": "Department of Atomic Energy, Government of India - A.S. Rao profile",
+      "url": "https://dae.gov.in/"
+    }
+  ]
+}

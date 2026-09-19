@@ -1,0 +1,54 @@
+{
+  "id": "pmrc26",
+  "type": "diaspora-dividend",
+  "title": "India is paying up to ₹14 crore each to bring its scientists home",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-20",
+  "sources": [
+    "Ministry of Science and Technology, June 2026 - PM Research Chair Scheme launch",
+    "PIB, June 2026 - Rs 200 crore scheme to bring Indian-origin researchers back to Indian institutions"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "For decades, India's best researchers left and rarely came back.",
+      "sub": "In June 2026, the government put ₹200 crore on the table to reverse that."
+    },
+    {
+      "kind": "stat",
+      "text": "The PM Research Chair Scheme aims to bring over 120 Indian-origin researchers abroad back into Indian institutions.",
+      "stat": "120+",
+      "statLabel": "Indian-origin researchers the scheme targets, per Ministry of Science and Technology",
+      "narration": "The P M Research Chair Scheme aims to bring over one hundred twenty Indian-origin researchers abroad back into Indian institutions."
+    },
+    {
+      "kind": "stat",
+      "text": "Packages go up to ₹14 crore each - covering salary, lab setup and research funding.",
+      "stat": "₹14Cr",
+      "statLabel": "maximum package per researcher, per PIB, June 2026",
+      "narration": "Packages go up to fourteen crore rupees each, covering salary, lab setup and research funding."
+    },
+    {
+      "kind": "point",
+      "text": "The total outlay: ₹200 crore, launched in June 2026.",
+      "narration": "The total outlay: two hundred crore rupees, launched in June 2026."
+    },
+    {
+      "kind": "point",
+      "text": "The goal isn't just filling posts - it's pulling top-tier research talent back into Indian labs and universities."
+    },
+    {
+      "kind": "closer",
+      "text": "Brain drain used to be one-directional.",
+      "sub": "This is India putting a price on reversing it.",
+      "narration": "Brain drain used to be one-directional. This is India putting a price on reversing it."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "For decades, India's best researchers left and rarely came back. In June 2026, the government put ₹200 crore on the table to reverse that.\n\nThe PM Research Chair Scheme aims to bring over 120 Indian-origin researchers abroad back into Indian institutions, with packages up to ₹14 crore each covering salary, lab setup and research funding. Total outlay: ₹200 crore, launched June 2026. The goal isn't just filling posts - it's pulling top-tier research talent back into Indian labs and universities.\n\nBrain drain used to be one-directional. This is India putting a price on reversing it.\n\nSources: Ministry of Science and Technology, PIB (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#Research", "#India2047", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
