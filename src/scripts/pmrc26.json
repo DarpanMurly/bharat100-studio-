@@ -1,11 +1,10 @@
 {
   "id": "pmrc26",
-  "type": "diaspora-dividend",
   "title": "India is paying up to ₹14 crore each to bring its scientists home",
-  "pillar": "Diaspora Dividend",
+  "pillar": "Sector Futures",
   "voice": "en-IN-PrabhatNeural",
   "musicVolume": 0.08,
-  "publishDate": "2026-09-20",
+  "publishDate": "2026-09-21",
   "sources": [
     "Ministry of Science and Technology, June 2026 - PM Research Chair Scheme launch",
     "PIB, June 2026 - Rs 200 crore scheme to bring Indian-origin researchers back to Indian institutions"
@@ -46,9 +45,9 @@
       "narration": "Brain drain used to be one-directional. This is India putting a price on reversing it."
     }
   ],
-  "outroCta": "Follow for the next diaspora story",
-  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
   "caption": "For decades, India's best researchers left and rarely came back. In June 2026, the government put ₹200 crore on the table to reverse that.\n\nThe PM Research Chair Scheme aims to bring over 120 Indian-origin researchers abroad back into Indian institutions, with packages up to ₹14 crore each covering salary, lab setup and research funding. Total outlay: ₹200 crore, launched June 2026. The goal isn't just filling posts - it's pulling top-tier research talent back into Indian labs and universities.\n\nBrain drain used to be one-directional. This is India putting a price on reversing it.\n\nSources: Ministry of Science and Technology, PIB (2026)",
-  "hashtags": ["#Bharat100", "#IndianDiaspora", "#Research", "#India2047", "#ViksitBharat"],
+  "hashtags": ["#Bharat100", "#ResearchAndDevelopment", "#India2047", "#ViksitBharat", "#ScienceAndTech"],
   "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
 }
