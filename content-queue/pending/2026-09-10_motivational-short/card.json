@@ -38,5 +38,7 @@
   "bufferPostLinks": {
     "Instagram": "https://www.instagram.com/reel/DdFxFVGlRx_/",
     "Threads": "https://www.threads.com/@bharatat100/post/DdFxGZpjlD2"
-  }
+  },
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mvuwvqhmmp2z",
+  "blueskyPostedAt": "2026-09-19T14:56:05.898Z"
 }
