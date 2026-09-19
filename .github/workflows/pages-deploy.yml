@@ -87,6 +87,16 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+      - name: Verify live site matches archive data
+        # Post-deploy check, not pre-deploy — confirms the site ACTUALLY
+        # serves what was just deployed, not just that the deploy step
+        # itself reported success. Catches a stale CDN edge, a broken
+        # build, or a deploy that silently didn't pick up the latest
+        # archive-data.json. See check-website-accuracy.mjs's header.
+        id: accuracy
+        continue-on-error: true
+        run: node pipeline/check-website-accuracy.mjs
+
       - name: Fail the run if a coverage gap was found
         # Deliberately the LAST step — the homepage has already deployed
         # by this point regardless of coverage result. This only makes the
@@ -96,4 +106,10 @@ jobs:
         if: steps.coverage.outcome == 'failure'
         run: |
           echo "Cross-platform coverage check found a gap — see the 'Check cross-platform coverage' step's log above for details."
+          exit 1
+
+      - name: Fail the run if a website accuracy mismatch was found
+        if: steps.accuracy.outcome == 'failure'
+        run: |
+          echo "Website accuracy check found a mismatch — see the 'Verify live site matches archive data' step's log above for details."
           exit 1
