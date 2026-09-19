@@ -297,13 +297,37 @@ async function fetchMastodonStatusStats(entries) {
     return {};
   }
 
+  // Paginate via max_id instead of a single ?limit=40 call — found
+  // 2026-09-19 that a single unpaginated page silently "lost" any entry
+  // older than the account's most recent 40 posts (57 total posts existed
+  // at the time), producing false "could not find a real status" warnings
+  // for genuinely live Sept 13-15 posts that simply weren't recent enough
+  // to be on that one page. Same class of bug as the Buffer query
+  // pagination issue fixed earlier — see heal-mastodon.mjs's
+  // fetchFullStatusHistory, which already paginated correctly; this
+  // mirrors that same pattern instead of duplicating a second, differently-
+  // buggy implementation. Pages back until it's collected enough to cover
+  // the oldest entry being looked up, or hits a hard page cap.
+  const oldestEntryMs = Math.min(
+    ...entries.map((e) => new Date(e.scheduledAt ?? 0).getTime()).filter((t) => t > 0),
+    Date.now()
+  );
   let recentStatuses = [];
   try {
-    const res = await fetch(`${instance}/api/v1/accounts/${accountId}/statuses?limit=40`, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-    recentStatuses = await res.json();
-    if (!Array.isArray(recentStatuses)) throw new Error(recentStatuses.error ?? "unexpected response");
+    let maxId = null;
+    for (let page = 0; page < 20; page++) {
+      const url = maxId
+        ? `${instance}/api/v1/accounts/${accountId}/statuses?limit=40&max_id=${maxId}`
+        : `${instance}/api/v1/accounts/${accountId}/statuses?limit=40`;
+      const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+      const batch = await res.json();
+      if (!Array.isArray(batch)) throw new Error(batch.error ?? "unexpected response");
+      if (batch.length === 0) break;
+      recentStatuses.push(...batch);
+      const last = batch[batch.length - 1];
+      if (new Date(last.created_at).getTime() < oldestEntryMs) break;
+      maxId = last.id;
+    }
   } catch (err) {
     console.log(`  Mastodon: failed to fetch recent statuses — ${err.message}`);
     return {};
@@ -548,9 +572,27 @@ async function main() {
     ])
   );
 
+  // Substack/Medium have no analytics API for an individual creator
+  // account (same constraint documented in substack-prepare.mjs /
+  // medium-prepare.mjs's own headers re: publishing) — this folds in
+  // whatever's been hand-entered into manual-analytics.json rather than
+  // silently omitting these two platforms from the dashboard entirely.
+  // Added 2026-09-19 per the user's explicit ask to have them represented
+  // in analytics, with the honest caveat that they're manual, not pulled.
+  let manualAnalytics = { substack: null, medium: null };
+  try {
+    const raw = await fs.readFile(path.join(ROOT, "content-queue", "manual-analytics.json"), "utf-8");
+    const parsed = JSON.parse(raw);
+    manualAnalytics = { substack: parsed.substack ?? null, medium: parsed.medium ?? null };
+  } catch {
+    // File missing or unreadable — dashboard just shows nothing for these
+    // two rather than failing the whole analytics fetch over it.
+  }
+
   const summary = {
     fetchedAt: new Date().toISOString(),
     bufferCapacity,
+    manualAnalytics,
     buffer: bufferPosts.map((p) => ({
       id: p.id,
       platform: p.channel.service,

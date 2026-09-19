@@ -1,0 +1,13 @@
+{
+  "_comment": "Substack and Medium have no analytics API for an individual creator account (same constraint as their publishing — see substack-prepare.mjs / medium-prepare.mjs headers). Update this file by hand whenever you check each platform's own dashboard; fetch-analytics.mjs reads it as-is and folds it into analytics-snapshot.json rather than pretending these numbers are pulled automatically.",
+  "substack": {
+    "lastCheckedAt": null,
+    "subscribers": null,
+    "posts": []
+  },
+  "medium": {
+    "lastCheckedAt": null,
+    "followers": null,
+    "posts": []
+  }
+}
