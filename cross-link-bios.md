@@ -2,7 +2,9 @@
 
 Goal: each platform's profile should send new followers to the other 3, so growth on any one channel compounds across all four. All text below respects the "not government-affiliated" legal line and the house style rules (hyphen not em dash, no serial comma before and/or).
 
-Handles today: Instagram/YouTube/Threads = @bharatat100, X = @Bharat_at_100. YouTube's handle was changed from the placeholder @bharatat100new to @bharatat100 on 2026-09-19, right after the 14-day change hold expired - verified live via API (`channels.list`'s `customUrl` field). All four platforms now use the same consistent handle.
+Handles today: Instagram/YouTube/Threads = @bharatat100, X = @Bharat_at_100_. YouTube's handle was changed from the placeholder @bharatat100new to @bharatat100 on 2026-09-19, right after the 14-day change hold expired - verified live via API (`channels.list`'s `customUrl` field). All four platforms now use the same consistent handle.
+
+**X handle changed 2026-09-19**: the original @Bharat_at_100 was suspended 2026-09-15 (appeal filed, unresolved). @Bharat_at_100_ (trailing underscore) is the new fallback account - Buffer reconnected to it same day, new channel id recorded in `.env`/GitHub secrets. See `x-migration-plan.md` for the full record. Every reference to @Bharat_at_100 below is updated to the new handle; the old handle should not be used anywhere going forward.
 
 ---
 
@@ -13,7 +15,7 @@ Bharat@100 🇮🇳
 India's growth story, day by day
 Independent · not affiliated with the Govt of India
 👇 Daily video on all platforms
-X: @Bharat_at_100 · YouTube: youtube.com/@bharatat100
+X: @Bharat_at_100_ · YouTube: youtube.com/@bharatat100
 ```
 
 (Instagram allows one clickable link - set it to the YouTube channel, since YouTube is where the fullest version of each video plus a Subscribe button lives. Swap to a future bharatat100.com link once that's built out.)
@@ -26,12 +28,12 @@ X: @Bharat_at_100 · YouTube: youtube.com/@bharatat100
 Bharat@100 🇮🇳
 Independent, not affiliated with the Govt of India
 Building toward India's 100th year of independence
-Full videos: YouTube @bharatat100 · X @Bharat_at_100
+Full videos: YouTube @bharatat100 · X @Bharat_at_100_
 ```
 
 **UPDATED 2026-09-14: same reason as Instagram's bio above** - added the disclaimer, replacing "On this day • sector growth • daily motivation" (already implied by the content itself).
 
-## X (Bharat_at_100) bio
+## X (Bharat_at_100_) bio
 
 ```
 India's growth story toward 2047 - daily, sourced, independent.
@@ -49,7 +51,7 @@ thought worth carrying into the next one. Independent citizen project,
 not affiliated with the Government of India - sourced every time.
 
 Follow on Instagram and Threads: @bharatat100
-Follow on X: @Bharat_at_100
+Follow on X: @Bharat_at_100_
 ```
 
 ---
@@ -71,7 +73,7 @@ Catch whichever you're missing: youtube.com/@bharatat100
 
 - [ ] Instagram: Settings -> Edit profile -> paste bio + link (RE-CHECK 2026-09-14: bio text above was updated to add the disclaimer - re-paste even if a bio already exists)
 - [ ] Threads: uses Instagram's bio if linked, or set separately in Threads settings (RE-CHECK 2026-09-14: same update as Instagram)
-- [ ] X: Settings -> Profile -> paste bio
+- [x] X: Settings -> Profile -> paste bio - DONE 2026-09-19 on the new @Bharat_at_100_ account (fallback for the suspended @Bharat_at_100), profile photo and YouTube link set alongside it.
 - [x] YouTube: Studio -> Customization -> Basic info -> Description - WAS missing the disclaimer entirely (found 2026-09-17). FIXED 2026-09-17: user pasted the drafted text with the disclaimer added, verified live via API (`channels.list`).
 - [ ] YouTube: pin the "New here?" comment manually on today's video (repeat per video, or just do it on your best-performing one each week - not worth automating for the effort involved)
 - [x] Facebook Page "Bharatat100": Page Settings -> About -> Description - VERIFIED 2026-09-17 via Graph API (`?fields=about`) - disclaimer text was already present, but the project name in the copy still read "Bharat Varsh". FIXED 2026-09-17: updated About to say "Bharat@100", disclaimer text unchanged, verified live via API.

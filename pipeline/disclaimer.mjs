@@ -18,10 +18,14 @@ export const DISCLAIMER = "Independent citizen project. Not affiliated with the 
 // WordPress existed — found via a full pipeline audit; the on-screen
 // video CTA (PlatformHandles.tsx) had already been updated separately
 // and correctly, these caption strings were the ones left behind).
+// X handle updated 2026-09-19: @Bharat_at_100 was suspended 2026-09-15
+// (appeal filed, unresolved) - @Bharat_at_100_ (trailing underscore) is
+// the fallback account, Buffer reconnected to it same day. See
+// x-migration-plan.md for the full migration record.
 export const CROSS_PLATFORM_CTA_FROM_INSTAGRAM =
-  "Also on YouTube, X, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100)";
+  "Also on YouTube, X, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100_)";
 export const CROSS_PLATFORM_CTA_FROM_YOUTUBE =
-  "Also on Instagram, Threads, Facebook, Bluesky and Mastodon: @bharatat100 · X: @Bharat_at_100";
+  "Also on Instagram, Threads, Facebook, Bluesky and Mastodon: @bharatat100 · X: @Bharat_at_100_";
 
 // Appends the disclaimer to a caption if it isn't already present
 // (case-insensitive substring check) - safe to call even on captions

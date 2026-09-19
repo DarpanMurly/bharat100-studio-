@@ -80,7 +80,7 @@ ${sourcesBlock}
 
 *Independent citizen project. Not affiliated with the Government of India.*
 
-Follow the daily version on Instagram, X, YouTube, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100)
+Follow the daily version on Instagram, X, YouTube, Threads, Facebook, Bluesky and Mastodon: @bharatat100 (X: @Bharat_at_100_)
 `;
 
   const outDir = path.join(ROOT, "public", "medium");

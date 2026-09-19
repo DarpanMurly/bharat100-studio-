@@ -14,14 +14,17 @@ import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-// X/Twitter account suspended 2026-09-15, appeal filed — paused here so
-// content doesn't silently pile up as "already scheduled" against a
-// suspended account. Flip back to true once the appeal resolves and
-// posting works again (test with a single manual post first). This same
-// flag is checked in retry-failed-buffer.mjs to keep both scripts in
-// sync — don't pause one without the other, or the retry script will
-// try to "fix" a gap this script is deliberately leaving.
-export const X_PUBLISHING_PAUSED = true;
+// X/Twitter: the original @Bharat_at_100 was suspended 2026-09-15
+// (appeal filed, still unresolved) — X publishing was paused here so
+// content didn't silently pile up as "already scheduled" against a
+// suspended account. RESUMED 2026-09-19: Buffer reconnected to a new
+// fallback account, @Bharat_at_100_ (see x-migration-plan.md), new
+// BUFFER_CHANNEL_TWITTER channel id set in .env and GitHub secrets.
+// Flipped back to false after one manual test post confirmed the new
+// channel actually publishes correctly. This same flag is checked in
+// retry-failed-buffer.mjs and check-platform-coverage.mjs — keep all
+// three in sync if this ever needs to change again.
+export const X_PUBLISHING_PAUSED = false;
 
 async function findQueueDir(postId) {
   for (const sub of ["approved", "pending"]) {
