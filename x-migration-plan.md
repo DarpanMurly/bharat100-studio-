@@ -10,34 +10,34 @@ replace it. If the appeal succeeds first, the new account becomes redundant
 and this plan is simply not executed (or the new account is kept dormant as
 a backup/handle-reservation).
 
-## Step 1 — Claim the new handle (you, manually — cannot be automated)
+**New handle confirmed 2026-09-19: `@Bharat_at_100_`** (trailing underscore,
+closest possible match to the original suspended handle for brand
+continuity). Every `NEW_HANDLE` placeholder below refers to this.
 
-X requires a live, logged-in browser session to check handle availability
-and complete signup (phone/email verification, CAPTCHA). Candidates, in
-priority order:
+## Step 1 — Claim the new handle ✅ DONE (2026-09-19)
 
-1. `@bharatat100` — try the exact original handle on a brand-new account
-   first. X sometimes releases a suspended account's handle after a period,
-   or the handle itself was never actually the violating asset.
-2. `@bharatat100hq` — safe fallback if the original is still locked.
-3. `@viksitbharat100` — distinct enough to avoid any association with the
-   suspended account, leans on the "Viksit Bharat 2047" framing already
-   used in disclaimers.
+`@Bharat_at_100_` claimed. Steps 2 and 3 below still need to happen (both
+require a human logged into the new X account / Buffer dashboard) before
+any code changes make sense — updating captions to point at an account
+with no bio, no photo, and no Buffer connection yet would just be broken
+in a different way.
 
-Once you've claimed one, tell me which — everything below assumes a
-placeholder `NEW_HANDLE`.
-
-## Step 2 — New account setup (you, manually)
+## Step 2 — New account setup (you, manually) — NOT YET DONE
 
 - Bio: reuse the drafted copy in `cross-link-bios.md`'s X section, updated
-  for the new handle.
+  for the new handle:
+  ```
+  India's growth story toward 2047 - daily, sourced, independent.
+  Not affiliated with the Government of India.
+  📺 youtube.com/@bharatat100 · 📸 @bharatat100
+  ```
 - Profile photo: same bio image already used everywhere
   (`out/Bharat@100 bio.jpeg`).
 - Link: same as other platforms — youtube.com/@bharatat100.
 - Pin a first post (once posting resumes) using the same "New here?" pinned
   copy pattern already used on YouTube.
 
-## Step 3 — Buffer reconnection (you, manually)
+## Step 3 — Buffer reconnection (you, manually) — NOT YET DONE
 
 Buffer's X channel is tied to the old, suspended account's OAuth
 connection. This needs to be:
