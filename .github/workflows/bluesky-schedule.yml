@@ -33,6 +33,10 @@ on:
         description: "Optional: <date>_<id> to publish directly via bluesky-publish.mjs, bypassing the slot runner's lookback window (for a gap found older than its normal catch-up range)"
         required: false
         type: string
+      delete_uri:
+        description: "Optional one-off cleanup: an at:// post URI to delete instead of publishing anything (e.g. removing an accidental duplicate). Takes priority over card_id if both are set."
+        required: false
+        type: string
 
 # The default GITHUB_TOKEN is read-only unless explicitly granted write
 # access — the final "git push" step (recording each post's URI/timestamp
@@ -69,7 +73,9 @@ jobs:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: |
-          if [ -n "${{ inputs.card_id }}" ]; then
+          if [ -n "${{ inputs.delete_uri }}" ]; then
+            node pipeline/bluesky-delete-post.mjs "${{ inputs.delete_uri }}"
+          elif [ -n "${{ inputs.card_id }}" ]; then
             node pipeline/bluesky-publish.mjs "${{ inputs.card_id }}"
           else
             node pipeline/bluesky-slot-runner.mjs
