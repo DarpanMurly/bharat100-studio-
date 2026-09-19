@@ -62,7 +62,7 @@ export const Banner: React.FC = () => {
               textTransform: "uppercase",
             }}
           >
-            New videos weekly · @bharatat100
+            New videos daily · @bharatat100
           </div>
         </div>
       </AbsoluteFill>
