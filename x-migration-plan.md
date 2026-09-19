@@ -22,7 +22,7 @@ any code changes make sense — updating captions to point at an account
 with no bio, no photo, and no Buffer connection yet would just be broken
 in a different way.
 
-## Step 2 — New account setup (you, manually) — NOT YET DONE
+## Step 2 — New account setup ✅ DONE (2026-09-19)
 
 - Bio: reuse the drafted copy in `cross-link-bios.md`'s X section, updated
   for the new handle:
@@ -37,41 +37,39 @@ in a different way.
 - Pin a first post (once posting resumes) using the same "New here?" pinned
   copy pattern already used on YouTube.
 
-## Step 3 — Buffer reconnection (you, manually) — NOT YET DONE
+## Step 3 — Buffer reconnection ✅ DONE (2026-09-19)
 
-Buffer's X channel is tied to the old, suspended account's OAuth
-connection. This needs to be:
-- Disconnected from the suspended account in Buffer's own dashboard.
-- Reconnected to `NEW_HANDLE` (Buffer's own "Connect a channel" flow,
-  X/Twitter OAuth — requires being logged into the new X account in the
-  same browser session).
-- The new channel ID this produces must replace `BUFFER_CHANNEL_TWITTER`
-  in both `.env` (local) and the GitHub Actions secret (`gh secret set
-  BUFFER_CHANNEL_TWITTER`).
+New channel id: `6aaeb5cbea19ca0bde89c618` (service: twitter, display
+name: Bharat_at_100_). Replaced the old channel id in both `.env` and
+the `BUFFER_CHANNEL_TWITTER` GitHub Actions secret.
 
-## Step 4 — Code/doc updates (me, once Steps 1-3 are done)
+## Step 4 — Code/doc updates ✅ DONE (2026-09-19)
 
-Every hardcoded reference to `@Bharat_at_100` needs updating to
-`NEW_HANDLE`:
-- `pipeline/disclaimer.mjs` — 2 occurrences, the "Also on X: @Bharat_at_100"
-  cross-platform CTA lines baked into every video's caption/outro.
-- `pipeline/substack-prepare.mjs` — 1 occurrence, the daily/weekly
-  cross-platform follow line.
-- `pipeline/medium-prepare.mjs` — 1 occurrence, same follow line (once
-  this script exists — see check-weekly-cadence.mjs work, 2026-09-19).
-- `cross-link-bios.md` — the X bio section itself, plus every other
-  platform's bio text that mentions "X: @Bharat_at_100" as a cross-link.
-- Flip `X_PUBLISHING_PAUSED` back to `false` in
-  `pipeline/publish-to-buffer.mjs` once the new Buffer channel is
-  confirmed working end-to-end on a single test post.
+Every hardcoded reference to `@Bharat_at_100` updated to `@Bharat_at_100_`:
+- `pipeline/disclaimer.mjs` — both cross-platform CTA lines.
+- `pipeline/substack-prepare.mjs` and `pipeline/medium-prepare.mjs` —
+  the follow lines.
+- `cross-link-bios.md` — bio section header, Instagram/Threads/YouTube
+  cross-link mentions, and the setup checklist entry.
+- `X_PUBLISHING_PAUSED` flipped back to `false` in
+  `pipeline/publish-to-buffer.mjs`.
 
-## Step 5 — Verification (me)
+## Step 5 — Verification ✅ DONE (2026-09-19)
 
-- Publish one test card to the new X account via the normal pipeline,
-  confirm it lands correctly (not scheduled into the past, correct
-  caption, correct handle mentioned).
-- Re-run `check-platform-coverage.mjs` to confirm X stops showing as an
-  intentionally-paused platform and starts recording real post IDs again.
+Ran `retry-failed-buffer.mjs` (which scans for missing Buffer platform
+posts across recent cards) rather than a single one-off test — this
+verified the whole automated path, not just manual posting. Result: 10
+backfilled X posts (the Sept 17-18 gap accumulated while paused) went
+out successfully on `@Bharat_at_100_`, confirmed via
+`buffer-list-channels.mjs` that they landed on the correct account.
+Re-ran `check-platform-coverage.mjs` — X is no longer treated as an
+intentionally-paused platform and is now flagged/tracked like any other.
+Remaining older gaps (Sept 16, and the rest of Sept 19) hit Buffer's
+10-post X queue cap during the backfill and will clear automatically
+via the existing scheduled `retry-buffer.yml` workflow — no action
+needed.
+
+**Migration complete.**
 
 ## Notes
 
