@@ -50,12 +50,30 @@ jobs:
           BUFFER_CHANNEL_THREADS: ${{ secrets.BUFFER_CHANNEL_THREADS }}
         run: node pipeline/sync-buffer-links.mjs
 
+      - name: Check recorded Mastodon statuses and re-post any that are missing
+        # Folded into the once-daily deploy run per explicit user request
+        # (2026-09-20) — was its own standalone every-6-hours workflow
+        # (mastodon-heal.yml, now removed), which the user felt was too
+        # frequent for what's fundamentally a rare-gap catch-up, not a
+        # time-sensitive publish. Runs BEFORE the archive-rebuild commit
+        # step below so any card.json fix it makes gets committed in the
+        # same pass, rather than left uncommitted through the rest of the
+        # job. See pipeline/heal-mastodon.mjs's own header for the
+        # detection logic (checks the account's full paginated status
+        # history AND scheduled_statuses, only re-posts a card whose
+        # status is genuinely missing from both).
+        env:
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          MASTODON_ANALYTICS_TOKEN: ${{ secrets.MASTODON_ANALYTICS_TOKEN }}
+        run: node pipeline/heal-mastodon.mjs
+
       - name: Rebuild homepage archive
         run: |
           git config user.name "bharat100-bot"
           git config user.email "actions@github.com"
           git add content-queue/
-          git diff --cached --quiet || git commit -m "Sync Buffer post links [skip ci]"
+          git diff --cached --quiet || git commit -m "Sync Buffer post links + Mastodon heal [skip ci]"
           node pipeline/deploy-homepage.mjs
 
       - name: Check cross-platform coverage (last 4 days)
