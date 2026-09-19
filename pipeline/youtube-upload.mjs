@@ -173,19 +173,39 @@ async function main() {
   // future channel/account doesn't have it, this fails loudly rather
   // than silently, which is correct: better to notice than to publish
   // videos nobody bothered to give a thumbnail.
+  // Retries once before giving up — a transient failure here (rate limit,
+  // the freshly-uploaded video not being fully processed yet) used to
+  // silently fall back to YouTube's auto-picked thumbnail with nothing
+  // recorded anywhere, so the gap only ever surfaced by someone noticing
+  // a bad thumbnail by eye (found 2026-09-19). card.thumbnailSetOk now
+  // records the real outcome either way, so check-platform-coverage.mjs
+  // (or any other daily check) can catch a failure without a human
+  // needing to look at the video first.
   if (card.thumbnailFile) {
     const thumbPath = path.join(queueDir, card.thumbnailFile);
-    try {
-      await youtube.thumbnails.set({
-        videoId,
-        media: { body: fs.createReadStream(thumbPath) },
-      });
-      console.log(`Custom thumbnail set.`);
-    } catch (err) {
-      console.error(`Thumbnail upload failed (video itself uploaded fine): ${err.message}`);
+    let setOk = false;
+    for (let attempt = 1; attempt <= 2 && !setOk; attempt++) {
+      try {
+        await youtube.thumbnails.set({
+          videoId,
+          media: { body: fs.createReadStream(thumbPath) },
+        });
+        console.log(`Custom thumbnail set.`);
+        setOk = true;
+      } catch (err) {
+        console.error(`Thumbnail upload attempt ${attempt} failed: ${err.message}`);
+        if (attempt === 1) {
+          await new Promise((r) => setTimeout(r, 5000));
+        }
+      }
+    }
+    card.thumbnailSetOk = setOk;
+    if (!setOk) {
+      console.error(`Thumbnail upload failed after retry (video itself uploaded fine) — YouTube will use its own auto-picked frame instead.`);
     }
   } else {
     console.log(`No thumbnailFile on this card — run extract-thumbnail.mjs before uploading to get a custom thumbnail.`);
+    card.thumbnailSetOk = false;
   }
 
   card.youtubeVideoId = videoId;

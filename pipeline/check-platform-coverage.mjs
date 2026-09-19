@@ -89,6 +89,15 @@ async function main() {
 
       if (missing.length > 0) gaps.push({ dir, date, missing });
       if (blocked.length > 0) knownBlockers.push({ dir, date, blocked });
+
+      // YouTube custom thumbnail check — youtube-upload.mjs now records
+      // whether thumbnails.set() actually succeeded (added 2026-09-19
+      // after the upload silently fell back to YouTube's own auto-picked
+      // frame with nothing surfaced anywhere). Only meaningful once a
+      // video has actually uploaded and the card intended a custom one.
+      if (card.youtubeVideoId && card.thumbnailFile && card.thumbnailSetOk === false) {
+        gaps.push({ dir, date, missing: ["YouTube custom thumbnail (upload failed, using auto-pick)"] });
+      }
     }
 
     // WordPress digest check — separate from per-card fields entirely, since
