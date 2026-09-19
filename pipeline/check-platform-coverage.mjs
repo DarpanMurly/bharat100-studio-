@@ -15,7 +15,10 @@ import { X_PUBLISHING_PAUSED } from "./publish-to-buffer.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const LOOKBACK_DAYS = 4;
+// Optional CLI arg overrides the default 4-day rolling window — used for
+// a one-off full-history audit (e.g. `node check-platform-coverage.mjs 30`)
+// without changing the fast daily-routine default.
+const LOOKBACK_DAYS = Number(process.argv[2]) || 4;
 
 const PLATFORM_FIELD = {
   YouTube: "youtubeVideoId",
@@ -91,6 +94,10 @@ async function main() {
     // WordPress digest check — separate from per-card fields entirely, since
     // it's one combined article per day with its own file, not attached to
     // any single pillar's card (see feedback_wordpress_digest_manual_gap).
+    // The digest pillar (along with Global Bharat/Diaspora Dividend) only
+    // launched 2026-09-08 — dates before that genuinely never had one, so
+    // skip them rather than flag pre-launch history as a false gap.
+    if (date < "2026-09-08") continue;
     const wpPath = path.join(ROOT, "public", "wordpress", `${date}.json`);
     try {
       await fs.access(wpPath);

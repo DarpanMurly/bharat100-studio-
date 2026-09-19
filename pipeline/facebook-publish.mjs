@@ -45,9 +45,16 @@ async function publishVideo({ pageId, pageAccessToken, videoUrl, caption, schedu
     access_token: pageAccessToken,
     file_url: videoUrl,
     description: caption,
-    published: "false",
-    scheduled_publish_time: String(scheduledUnix),
   });
+  // scheduledUnix is null for a past-due backfill — publish immediately
+  // instead of asking the Graph API to schedule into the past (which it
+  // rejects outright; scheduled_publish_time must be 10min-6mo in the
+  // future). Same "schedule if future, else publish now" pattern as
+  // wordpress-publish.mjs.
+  if (scheduledUnix) {
+    body.set("published", "false");
+    body.set("scheduled_publish_time", String(scheduledUnix));
+  }
   const res = await fetch(url, { method: "POST", body });
   const json = await res.json();
   if (json.error) throw new Error(`Facebook video publish failed: ${json.error.message}`);
@@ -60,9 +67,11 @@ async function publishPhoto({ pageId, pageAccessToken, imageUrl, caption, schedu
     access_token: pageAccessToken,
     url: imageUrl,
     caption,
-    published: "false",
-    scheduled_publish_time: String(scheduledUnix),
   });
+  if (scheduledUnix) {
+    body.set("published", "false");
+    body.set("scheduled_publish_time", String(scheduledUnix));
+  }
   const res = await fetch(url, { method: "POST", body });
   const json = await res.json();
   if (json.error) throw new Error(`Facebook photo publish failed: ${json.error.message}`);
@@ -104,20 +113,25 @@ async function main() {
   const contentType = card.type ?? "video";
   const slotHour = SLOT_HOURS_IST[contentType];
   const dueAtIso = nextSlotUtc(slotHour, card.date);
-  const scheduledUnix = Math.floor(new Date(dueAtIso).getTime() / 1000);
+  const isPastDue = new Date(dueAtIso).getTime() <= Date.now();
+  const scheduledUnix = isPastDue ? null : Math.floor(new Date(dueAtIso).getTime() / 1000);
 
   console.log(`\n=== Publishing "${card.title}" to Facebook Page "${pageName}" ===`);
-  console.log(`Scheduled for: ${dueAtIso} (UTC)`);
+  if (isPastDue) {
+    console.log(`Slot time ${dueAtIso} is already in the past — publishing immediately (backfill).`);
+  } else {
+    console.log(`Scheduled for: ${dueAtIso} (UTC)`);
+  }
 
   const caption = card.caption ?? "";
   const result = videoUrl
     ? await publishVideo({ pageId, pageAccessToken, videoUrl, caption, scheduledUnix })
     : await publishPhoto({ pageId, pageAccessToken, imageUrl, caption, scheduledUnix });
 
-  console.log(`Scheduled successfully:`, result);
+  console.log(isPastDue ? `Published immediately:` : `Scheduled successfully:`, result);
 
   card.facebookPostId = result.id ?? result.post_id ?? null;
-  card.facebookScheduledAt = dueAtIso;
+  card.facebookScheduledAt = isPastDue ? new Date().toISOString() : dueAtIso;
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 }
 
