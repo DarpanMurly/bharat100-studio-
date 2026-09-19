@@ -143,7 +143,19 @@ async function main() {
     }
 
     try {
-      const post = await queuePost("twitter", text, media, {});
+      // REAL BUG found 2026-09-19, mid-run: calling queuePost with no
+      // dueAt at all defaults to mode "addToQueue" — Buffer's own
+      // auto-append behavior, which appends to the END of whatever's
+      // already scheduled on the channel rather than posting ASAP. The
+      // first batch of this backfill got spread out 2-3 days into the
+      // future instead of going out immediately (exactly the same class
+      // of bug retryPlatform's own comments already document and avoid —
+      // missed here on the first draft of this script). Force dueAt a
+      // few minutes out, staggered per post in this batch so Buffer
+      // doesn't collapse them all onto the same instant, which fixes
+      // this the same way retryPlatform's own catch-up logic does.
+      const dueAt = new Date(Date.now() + (posted + 1) * 90 * 1000).toISOString();
+      const post = await queuePost("twitter", text, media, { dueAt });
       card.bufferPostIds = { ...(card.bufferPostIds ?? {}), X: post.id };
       await fs.writeFile(cardPath, JSON.stringify(card, null, 2), "utf-8");
       postedSet.add(dir);
