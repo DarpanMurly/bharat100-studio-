@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1994",
+      "headline": "September 21, 1994: India lost the industrialist who called himself \"Gandhi's coolie\" - and left behind a blueprint for honest business."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ramkrishna Bajaj died in Mumbai on September 21, 1994, at age 70",
+      "body": "Born in Wardha in 1923 into the family that built the Bajaj Group, he chose jail over comfort first: at 17 he joined individual Satyagraha, and during the Quit India Movement he spent years imprisoned alongside freedom fighters who shaped his entire worldview - Gandhi and Vinoba Bhave among his personal mentors."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "He ran an industrial empire on Gandhian terms - and industry named an award after his motto.",
+      "body": "As Bajaj Group chairman from 1991 and head of Bajaj Electricals for a decade, he simultaneously led FICCI, the Indian Merchants' Chamber and the Maharashtra Chamber of Commerce, founded the All India Student Congress and Vishwa Yuvak Kendra, and chaired trusts building schools in Wardha. His motto, \"Trust in Quality and Business Ethics,\" became so associated with him that in 1996 industry named India's answer to the Malcolm Baldrige Award after him - the IMC Ramkrishna Bajaj National Quality Award, still given today."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A business empire and a conscience were never a trade-off.",
+      "body": "A Viksit Bharat by 2047 needs industrialists who build institutions, not just balance sheets. Ramkrishna Bajaj proved seven decades ago that running a company and holding a conscience are the same job, not competing ones."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Ramkrishna Bajaj",
+      "url": "https://en.wikipedia.org/wiki/Ramkrishna_Bajaj"
+    },
+    {
+      "text": "BPIR.com - History of the IMC Ramkrishna Bajaj National Quality Award",
+      "url": "https://www.bpir.com/expert-opinion/history-of-the-imc-ramkrishna-bajaj-national-quality-award-imc-rbnqa/"
+    }
+  ]
+}

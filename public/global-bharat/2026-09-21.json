@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "2026: An Indian-origin engineer is about to run Adobe for the second time in a row."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Anil Chakravarthy named Adobe's next President and CEO",
+      "body": "Adobe's board has named Chakravarthy - a B.Tech graduate of IIT (BHU) Varanasi who moved to the US at 21 for MIT - as the company's next President and CEO. He succeeds Shantanu Narayen, himself Indian-origin, who becomes Executive Chair. The handoff, announced September 3, 2026, takes effect December 1, 2026."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The scale behind it",
+      "headline": "A $1 billion business unit, two major acquisitions, and a company guiding toward $26 billion in revenue.",
+      "body": "Chakravarthy joined Adobe in 2020, built its Customer Experience business past $1 billion in quarterly revenue, and led the acquisitions of Workfront and Semrush. He'll now steer a company with roughly 31,000 employees worldwide - with Narayen's own nearly two-decade run at the top making this the second consecutive Indian-origin CEO at Adobe."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "One IIT campus, two Adobe CEOs, one relay baton.",
+      "body": "As India's engineering pipeline keeps feeding the world's largest software companies, Viksit Bharat 2047 isn't just about what India builds at home - it's about the systems India-trained minds now run everywhere."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Adobe official newsroom, September 3, 2026 - Adobe Announces Anil Chakravarthy to Become President and CEO",
+      "url": "https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo"
+    },
+    {
+      "text": "CNBC, September 3, 2026 - Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
+      "url": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html"
+    }
+  ]
+}
