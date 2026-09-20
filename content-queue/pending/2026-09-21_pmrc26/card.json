@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-21_pmrc26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 203,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -31,5 +31,20 @@
     "Mastodon",
     "Bluesky",
     "Pinterest"
-  ]
+  ],
+  "approvedAt": "2026-09-20T12:24:21.821Z",
+  "scheduledAt": "2026-09-21T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aafd07c35dc00a60970ddd2",
+    "X": "6aafd07d35dc00a60970ddfc",
+    "Threads": "6aafd07e8d048c06b404c34b"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "b5ienr0R1ro",
+  "youtubeUrl": "https://youtube.com/watch?v=b5ienr0R1ro",
+  "youtubeScheduledAt": "2026-09-21T13:30:00.000Z",
+  "facebookPostId": "1820012519007945",
+  "facebookScheduledAt": "2026-09-21T13:30:00.000Z",
+  "mastodonStatusId": "281640",
+  "mastodonScheduledAt": "2026-09-21T13:30:00.000Z"
 }
