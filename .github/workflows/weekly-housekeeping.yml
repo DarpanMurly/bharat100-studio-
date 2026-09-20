@@ -10,16 +10,22 @@ name: Weekly housekeeping
 # keeps total external API call volume low, unlike folding this into
 # the existing daily deploy job.
 #
-# This workflow only DETECTS and reports — it changes nothing. See
-# pipeline/weekly-housekeeping.mjs's own header for the full list of
-# checks it runs and why each one matters.
+# This workflow only DETECTS and reports — it changes nothing in the
+# CONTENT sense (no post is made, no card is edited). The one exception
+# is content-queue/.housekeeping-state.json, a small marker file the
+# script itself maintains to make each run after the first INCREMENTAL
+# (only re-scanning back to the last run, not the full history every
+# single week forever) — see weekly-housekeeping.mjs's own header. That
+# marker must be committed back here, since a GitHub Actions runner is
+# thrown away after the job ends and would otherwise "forget" every run
+# ever happened, making every run a full-history run again.
 on:
   schedule:
     - cron: "0 3 * * 0"  # 08:30 IST Sunday — after the weekly recap's own Sunday cadence has had time to land
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   housekeeping:
@@ -35,10 +41,29 @@ jobs:
         run: npm install --omit=dev --no-audit --no-fund
 
       - name: Run full housekeeping suite
-        # Exits non-zero if ANY check found something, which fails this
-        # step and shows the whole run red in the Actions tab/gh run
-        # list — that's the entire point: a real finding must be
-        # noticed, not just logged. Every check inside is read-only, so
-        # a failure here means "something needs a human decision," never
-        # "something broke."
+        # continue-on-error so the state-file commit below still happens
+        # even when a real finding makes this step exit non-zero — the
+        # run should still be marked red for visibility (see the final
+        # step), but a genuine finding must never prevent next week's
+        # run from being properly incremental.
+        id: housekeeping
+        continue-on-error: true
         run: node pipeline/weekly-housekeeping.mjs
+
+      - name: Commit updated housekeeping state
+        run: |
+          git config user.name "bharat100-bot"
+          git config user.email "actions@github.com"
+          git add content-queue/.housekeeping-state.json
+          git diff --cached --quiet || git commit -m "Weekly housekeeping: record run date [skip ci]"
+          git pull --rebase origin main
+          git push
+
+      - name: Fail the run if housekeeping found something
+        # Deliberately last — the state has already been committed by
+        # this point regardless of findings. This only marks the run red
+        # in the Actions tab so a real finding is actually noticed.
+        if: steps.housekeeping.outcome == 'failure'
+        run: |
+          echo "Weekly housekeeping found one or more issues — see the 'Run full housekeeping suite' step's log above for details."
+          exit 1

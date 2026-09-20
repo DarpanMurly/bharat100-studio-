@@ -24,7 +24,11 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const EXPECTED_PILLARS = 5;
-const LOOKBACK_DAYS = 14;
+// Optional CLI arg overrides the default 14-day rolling window — used by
+// weekly-housekeeping.mjs for a narrower incremental scan on any run
+// after its first (added 2026-09-20, same pattern as
+// check-platform-coverage.mjs's own LOOKBACK_DAYS override).
+const LOOKBACK_DAYS = Number(process.argv[2]) || 14;
 // The 5-pillar structure (Global Bharat + Diaspora Dividend added to the
 // original 3) only existed from this date onward — every day before it
 // legitimately has fewer than 5 pillars by design, not as a real gap.

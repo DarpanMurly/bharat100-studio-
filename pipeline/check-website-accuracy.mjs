@@ -10,9 +10,14 @@
 // explicit ask that the daily website update be checked for accuracy,
 // not just assumed correct because the deploy step didn't error.
 //
-// Checks a bounded recent sample (not the whole archive, to stay fast):
-// the most recent N days' platform links must each appear, verbatim,
-// somewhere in the live page's HTML.
+// Checks a bounded recent sample by default (fast daily check, 3 days),
+// but accepts an optional CLI arg for a full-archive sweep — the entire
+// archiveData object is embedded directly in the page's own JS (not
+// server-side-paginated), so every entry's links ARE actually checkable
+// here, not just the most recent ones; the day-window only exists to
+// keep the routine daily check fast, same pattern as
+// check-platform-coverage.mjs's own LOOKBACK_DAYS override (added
+// 2026-09-20 for weekly-housekeeping.mjs's full-history sweep).
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -20,7 +25,9 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const SITE_URL = "https://bharatat100.com/";
-const CHECK_LAST_N_DAYS = 3;
+// "all" checks every entry in the archive regardless of date.
+const argRaw = process.argv[2];
+const CHECK_LAST_N_DAYS = argRaw === "all" ? Infinity : Number(argRaw) || 3;
 
 function lastNDates(n) {
   const dates = [];
@@ -37,11 +44,13 @@ async function main() {
   const archivePath = path.join(ROOT, "content-queue", "archive-data.json");
   const { entries } = JSON.parse(await fs.readFile(archivePath, "utf-8"));
 
-  const recentDates = new Set(lastNDates(CHECK_LAST_N_DAYS));
-  const recentEntries = entries.filter((e) => recentDates.has(e.date));
+  const checkingAll = !Number.isFinite(CHECK_LAST_N_DAYS);
+  const recentDates = checkingAll ? null : new Set(lastNDates(CHECK_LAST_N_DAYS));
+  const recentEntries = checkingAll ? entries : entries.filter((e) => recentDates.has(e.date));
+  const windowLabel = checkingAll ? "the full archive" : `the last ${CHECK_LAST_N_DAYS} days`;
 
   if (recentEntries.length === 0) {
-    console.log(`No archive entries in the last ${CHECK_LAST_N_DAYS} days to check against — nothing to verify.`);
+    console.log(`No archive entries in ${windowLabel} to check against — nothing to verify.`);
     return;
   }
 
@@ -70,7 +79,7 @@ async function main() {
   }
 
   if (mismatches.length === 0) {
-    console.log(`Live site at ${SITE_URL} matches archive data for all ${recentEntries.length} entr(y/ies) in the last ${CHECK_LAST_N_DAYS} days.`);
+    console.log(`Live site at ${SITE_URL} matches archive data for all ${recentEntries.length} entr(y/ies) in ${windowLabel}.`);
   } else {
     console.log(`Found ${mismatches.length} LINK MISMATCH(ES) between archive-data.json and the live site:\n`);
     for (const m of mismatches) {
