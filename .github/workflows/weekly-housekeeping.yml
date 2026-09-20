@@ -40,6 +40,17 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev --no-audit --no-fund
 
+      - name: Build archive data
+        # content-queue/archive-data.json is gitignored (a generated
+        # build artifact, normally produced locally by deploy-
+        # homepage.mjs) — a fresh CI checkout never has it. Without this
+        # step, check-website-accuracy.mjs crashes with ENOENT trying to
+        # read it (found 2026-09-20, first real run of this workflow:
+        # every other check came back genuinely clean, but this one
+        # never actually ran at all — it just crashed before doing any
+        # checking, which is a different thing from "found an issue").
+        run: node pipeline/build-archive-data.mjs
+
       - name: Run full housekeeping suite
         # continue-on-error so the state-file commit below still happens
         # even when a real finding makes this step exit non-zero — the
