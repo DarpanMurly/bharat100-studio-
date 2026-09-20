@@ -43,9 +43,9 @@
   "mastodonStatusId": "280757",
   "mastodonScheduledAt": "2026-09-14T17:00:00.000Z",
   "bufferPostIds": {
-    "X": "6aaf194e3916ba5b75318c54",
     "Threads": "6aa5f8fa66679b076f1c00b9",
-    "Instagram": "6aa6b65cf7b1958d5cea24c4"
+    "Instagram": "6aa6b65cf7b1958d5cea24c4",
+    "X": "6aaf2a79a490f1cf65d4a654"
   },
   "facebookFirstCommentId": "1367209202063405_1621854776143988",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mvim5nxw3t27",
