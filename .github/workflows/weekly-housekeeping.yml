@@ -1,0 +1,44 @@
+name: Weekly housekeeping
+
+# Runs the full suite of detection-only health checks once a week, per
+# an explicit user request (2026-09-20): the project is built for a
+# 20-year horizon, so drift of any kind needs to surface on a forced,
+# regular cadence rather than only when someone happens to notice or
+# ask. This keeps any repair "at most a few days old" (the user's own
+# stated goal) without repeating the Buffer API rate-limit incident
+# from 2026-09-19/20 (see pages-deploy.yml's own history) — weekly
+# keeps total external API call volume low, unlike folding this into
+# the existing daily deploy job.
+#
+# This workflow only DETECTS and reports — it changes nothing. See
+# pipeline/weekly-housekeeping.mjs's own header for the full list of
+# checks it runs and why each one matters.
+on:
+  schedule:
+    - cron: "0 3 * * 0"  # 08:30 IST Sunday — after the weekly recap's own Sunday cadence has had time to land
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  housekeeping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Run full housekeeping suite
+        # Exits non-zero if ANY check found something, which fails this
+        # step and shows the whole run red in the Actions tab/gh run
+        # list — that's the entire point: a real finding must be
+        # noticed, not just logged. Every check inside is read-only, so
+        # a failure here means "something needs a human decision," never
+        # "something broke."
+        run: node pipeline/weekly-housekeeping.mjs
