@@ -44,6 +44,18 @@ jobs:
         # link out to the actual live Instagram/Threads post, not just
         # YouTube (added 2026-09-17, see build-archive-data.mjs's
         # platformLinks and this script's own header for why).
+        #
+        # continue-on-error added 2026-09-20 after a real incident: a
+        # Buffer API rate limit (RATE_LIMIT_EXCEEDED, 24h window) made
+        # THIS step fail, which — with no continue-on-error — killed the
+        # entire job before it ever reached the homepage rebuild or
+        # deploy. The site sat stale for hours (stuck showing only part
+        # of Sept 19's content) even though nothing about the deploy
+        # itself was broken - only this optional link-freshness sync
+        # was. This step's job is a nice-to-have improvement to already-
+        # published data, never something the deploy should die over.
+        id: buffer-sync
+        continue-on-error: true
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_INSTAGRAM: ${{ secrets.BUFFER_CHANNEL_INSTAGRAM }}
@@ -51,6 +63,11 @@ jobs:
         run: node pipeline/sync-buffer-links.mjs
 
       - name: Check recorded Mastodon statuses and re-post any that are missing
+        # Also made non-fatal (2026-09-20, same incident as above) — a
+        # Mastodon/Buffer hiccup here must not block the homepage deploy
+        # either.
+        id: mastodon-heal
+        continue-on-error: true
         # Folded into the once-daily deploy run per explicit user request
         # (2026-09-20) — was its own standalone every-6-hours workflow
         # (mastodon-heal.yml, now removed), which the user felt was too
@@ -130,4 +147,19 @@ jobs:
         if: steps.accuracy.outcome == 'failure'
         run: |
           echo "Website accuracy check found a mismatch — see the 'Verify live site matches archive data' step's log above for details."
+          exit 1
+
+      - name: Fail the run if the Buffer link sync failed
+        # Same deliberately-last placement as the other fail-checks above
+        # — the deploy has already happened by this point regardless, so
+        # this only marks the run red in the Actions tab for visibility.
+        if: steps.buffer-sync.outcome == 'failure'
+        run: |
+          echo "Buffer link sync failed — see the 'Sync Instagram/Threads post links from Buffer' step's log above for details (commonly a Buffer API rate limit)."
+          exit 1
+
+      - name: Fail the run if the Mastodon heal failed
+        if: steps.mastodon-heal.outcome == 'failure'
+        run: |
+          echo "Mastodon self-heal failed — see the 'Check recorded Mastodon statuses and re-post any that are missing' step's log above for details."
           exit 1
