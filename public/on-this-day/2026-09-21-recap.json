@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Sep 14",
+      "headline": "5 stories.",
+      "listItems": [
+        "He grew up the son of a cobbler in rural Maharashtra. Today, his company has over 4,500 employees.",
+        "Sixteen Fortune 500 companies are run by Indian-origin CEOs. Together, they generate more revenue than most countries' entire economies.",
+        "She became the first Indian-origin, first woman of color to lead a 131-office global ad network.",
+        "After three years of debate, one language was chosen to speak for an entire country.",
+        "India just hit a climate target five years ahead of schedule. And it wasn't close."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Sep 15",
+      "headline": "5 stories.",
+      "listItems": [
+        "India's electronics exports jumped 57% in a single month.",
+        "Every satellite India launches needs a processor that can survive space. Until last year, none of them were built entirely in India.",
+        "Reshma Kewalramani was born in Bombay and moved to the US at age 11. In 2020, she became the first woman to lead a large public biotech company.",
+        "A ditch-digger's daily wage was ₹300. An Asian Games bronze medal doesn't ask what you used to do for money.",
+        "The UN General Assembly had never had a woman president. Then it did."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Sep 16",
+      "headline": "5 stories.",
+      "listItems": [
+        "Optical cameras can't see through clouds. Radar can't see color or texture. One Bengaluru startup just put both on a single satellite - a world first.",
+        "India's exports just crossed $860 billion in a single year.",
+        "In 1989, a young physicist solved a puzzle nobody else could explain. In 2026, that work made him the first Indian-origin scientist to win the Wolf Prize in Physics.",
+        "He lost his right arm at five. At the Commonwealth Games, he ran the 100m faster than anyone in the field ever had.",
+        "No musician had ever received India's highest civilian honor. Then one did."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Sep 17",
+      "headline": "5 stories.",
+      "listItems": [
+        "India's chip industry just had its busiest funding year yet.",
+        "A tractor took his leg at 17. Nine years later, he'd broken his own javelin world record for the second time.",
+        "Immigrants founded or co-founded 59% of America's billion-dollar startups. No country contributed more of them than India.",
+        "He spent his career as a government bureaucrat. He also became one of India's greatest living poets.",
+        "Six hyperspectral satellites are already in orbit, built by one Bengaluru company. It just raised $100 million to build a lot more."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Sep 18",
+      "headline": "5 stories.",
+      "listItems": [
+        "Most factory robots can only do one job, on one object, forever. One Bengaluru startup built a robot that can pick up almost anything, untrained.",
+        "India just had its best August for car sales ever recorded.",
+        "Robbers threw her off a moving train for her gold chain. Two years later, she stood on top of the world.",
+        "India's highest cinema honor went to a director who never chased a single award.",
+        "The Arthur M. Bueche Award has existed for over four decades. No Indian American had ever won it - until now."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Sep 19",
+      "headline": "5 stories.",
+      "listItems": [
+        "Every chip in an Indian car, phone or inverter used to come from Taiwan, China or Vietnam. In July, a Gujarat plant shipped its first batch out - to a customer in Japan.",
+        "If the global Indian diaspora were counted as its own economy, it would outrank about 170 of the world's roughly 195 countries. Not from remittances. From what it earns.",
+        "He started at P&G in 1989 as an assistant brand manager. In January 2026, he became its CEO.",
+        "A state education board told a blind teenager he couldn't study science. So he sued them - and won.",
+        "A Bombay lawyer never performed music in public. He's the reason Indian classical music has a written notation at all."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Sep 20",
+      "headline": "5 stories.",
+      "listItems": [
+        "The Indian diaspora doesn't just earn abroad. A new report says it's closing a billion-dollar philanthropy gap to become one of America's most generous immigrant communities.",
+        "She started on a factory floor. She now runs a $27.9 billion company - and is about to spin off another.",
+        "Doctors wanted to amputate his leg as a schoolboy. His family said no - and he became a Paralympic silver medalist.",
+        "He built India's first digital computer. Decades later, he built the machine that counts India's votes.",
+        "Every EV motor and wind turbine needs a rare earth magnet. Last year, India imported 93% of them from one country. Last month, 20 companies bid to change that."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}

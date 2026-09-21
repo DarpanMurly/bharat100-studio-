@@ -37,6 +37,18 @@ export function nextSlotUtc(hourIst, targetDate) {
   if (targetDate) {
     const [y, m, d] = targetDate.split("-").map(Number);
     const target = new Date(Date.UTC(y, m - 1, d, Math.floor(utcHour), (utcHour % 1) * 60, 0));
+    // If this exact date's slot has already elapsed (e.g. approval/publish
+    // happened a few minutes after the slot time), Buffer rejects a past
+    // dueAt outright. Nudge it a few minutes into the future rather than
+    // rolling to the NEXT DAY's slot — targetDate is an intentional pin
+    // (On This Day content names that literal calendar date), so silently
+    // moving it a full day would be wrong, not just late. This only
+    // triggers for a same-day miss; the >1-day-old case is separately
+    // refused by publish-to-buffer.mjs's staleness guard, which still
+    // applies after this nudge.
+    if (target <= now) {
+      return new Date(now.getTime() + 5 * 60 * 1000).toISOString();
+    }
     return target.toISOString();
   }
 

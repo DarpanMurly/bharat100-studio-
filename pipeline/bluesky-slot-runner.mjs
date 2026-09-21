@@ -33,12 +33,18 @@ const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-const PILLARS = ["global-bharat", "motivational-short", "on-this-day-short", "video", "diaspora-dividend"];
+const PILLARS = ["global-bharat", "motivational-short", "on-this-day-short", "video", "diaspora-dividend", "weekly-recap"];
 
 const SUFFIX_MATCH = {
   "global-bharat": "_global-bharat",
   "motivational-short": "_motivational-short",
   "on-this-day-short": "_on-this-day-short",
+  // Added 2026-09-21: weekly-recap was previously excluded outright (see
+  // matchesPillar's generic branch below) with no pillar entry to catch
+  // it instead, so all 3 weekly recaps to date (Sept 7, 14, 21) never
+  // posted to Bluesky at all — a silent 2-week gap, not a cron/timing
+  // bug like the others documented in this file's history.
+  "weekly-recap": "_weekly-recap",
 };
 
 // The folder date for a pillar is NOT always "today in UTC" — a slot
@@ -57,6 +63,9 @@ function matchesPillar(dir, pillarType, card) {
   if (SUFFIX_MATCH[pillarType]) return dir.endsWith(SUFFIX_MATCH[pillarType]);
   if (dir.endsWith("_global-bharat") || dir.endsWith("_motivational-short") ||
       dir.endsWith("_on-this-day-short") || dir.endsWith("_weekly-recap")) return false;
+  // (weekly-recap now has its own SUFFIX_MATCH entry above and never
+  // reaches this generic branch — kept in the exclusion list regardless
+  // so a future pillar addition can't accidentally re-absorb it here.)
   // "video" (Sector Futures) and "diaspora-dividend" both come from
   // daily-publish.mjs with a free-form scriptId — the only reliable way
   // to tell them apart is card.type ("diaspora-dividend") vs. no type at
@@ -153,7 +162,7 @@ async function tryPostPillar(pillarType, now) {
 
 async function main() {
   const now = new Date();
-  console.log(`Checking all 5 pillars (with ${LOOKBACK_DAYS}-day catch-up lookback) at ${now.toISOString()}...`);
+  console.log(`Checking all ${PILLARS.length} pillars (with ${LOOKBACK_DAYS}-day catch-up lookback) at ${now.toISOString()}...`);
   for (const pillarType of PILLARS) {
     await tryPostPillar(pillarType, now);
   }

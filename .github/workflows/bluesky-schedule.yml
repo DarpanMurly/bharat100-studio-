@@ -18,6 +18,13 @@ name: Bluesky scheduled posting
 #   Personal Growth       8:00 IST  -> 02:30 UTC
 #   Builder Story        13:00 IST  -> 07:30 UTC
 #   Sector Futures        19:00 IST  -> 13:30 UTC
+#   Weekly Recap          21:00 IST  -> 15:30 UTC (added 2026-09-21 — was
+#                                     previously excluded from the slot
+#                                     runner entirely with no firing of
+#                                     its own, so all 3 weekly recaps to
+#                                     date, Sept 7/14/21, never posted to
+#                                     Bluesky at all; not a timing bug,
+#                                     a missing pillar)
 #   Diaspora Dividend    22:30 IST  -> 17:00 UTC
 
 on:
@@ -26,6 +33,7 @@ on:
     - cron: "30 2 * * *"   # Personal Growth (motivational-short)
     - cron: "30 7 * * *"   # Builder Story (on-this-day-short)
     - cron: "30 13 * * *"  # Sector Futures
+    - cron: "30 15 * * *"  # Weekly Recap
     - cron: "0 17 * * *"   # Diaspora Dividend
   workflow_dispatch:       # manual trigger, also usable for a one-off card
     inputs:
@@ -59,7 +67,7 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev --no-audit --no-fund
 
-      - name: Check all 5 pillars and post whichever are due
+      - name: Check all 6 pillars and post whichever are due
         # No more wall-clock pillar-guessing (removed 2026-09-10) — GitHub
         # Actions schedule triggers are documented to fire 10-60+ minutes
         # late under normal load, and matching a narrow time window per
