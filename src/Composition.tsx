@@ -53,8 +53,10 @@ import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
 import pmrc26 from "./scripts/pmrc26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
+import ramanathan26 from "./scripts/ramanathan26.json";
 import renewables26 from "./scripts/renewables26.json";
 import repm26 from "./scripts/repm26.json";
+import sagarmanthan26 from "./scripts/sagarmanthan26.json";
 import semicon2 from "./scripts/semicon2.json";
 import semiconductors from "./scripts/semiconductors.json";
 import skills2030 from "./scripts/skills2030.json";
@@ -94,8 +96,10 @@ const scriptRegistry: Record<string, VideoScript> = {
   "pixxel26": pixxel26 as VideoScript,
   "pmrc26": pmrc26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
+  "ramanathan26": ramanathan26 as VideoScript,
   "renewables26": renewables26 as VideoScript,
   "repm26": repm26 as VideoScript,
+  "sagarmanthan26": sagarmanthan26 as VideoScript,
   "semicon2": semicon2 as VideoScript,
   "semiconductors": semiconductors as VideoScript,
   "skills2030": skills2030 as VideoScript,

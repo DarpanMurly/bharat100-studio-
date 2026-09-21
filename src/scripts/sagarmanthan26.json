@@ -1,0 +1,53 @@
+{
+  "id": "sagarmanthan26",
+  "title": "India just launched a ship built to survive the deepest, roughest oceans on Earth",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-22",
+  "sources": [
+    "Marine Insight, September 2026 - Indian Navy Launches Advanced Ocean Research Vessel 'ORV Sagar Manthan'",
+    "Maritime Gateway, September 2026 - GRSE launches 'Sagar Manthan' ocean research vessel for NCPOR"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just launched its first fully indigenous ocean research vessel.",
+      "sub": "Built to work in six kilometres of water, in the roughest seas on the planet."
+    },
+    {
+      "kind": "stat",
+      "text": "ORV Sagar Manthan was launched on September 9, 2026, at GRSE's Rishi Bankim Shipyard in Kolkata, for the National Centre for Polar and Ocean Research.",
+      "stat": "6km",
+      "statLabel": "maximum survey depth, per Marine Insight, September 2026",
+      "narration": "O R V Sagar Manthan was launched on September ninth, twenty twenty six, at G R S E's Rishi Bankim Shipyard in Kolkata, for the National Centre for Polar and Ocean Research."
+    },
+    {
+      "kind": "stat",
+      "text": "Built under the Deep Ocean Mission at a cost of roughly ₹840 crore - rated for a 30-year service life.",
+      "stat": "₹840Cr",
+      "statLabel": "build cost, per Maritime Gateway, September 2026",
+      "narration": "Built under the Deep Ocean Mission at a cost of roughly eight hundred forty crore rupees, rated for a thirty-year service life."
+    },
+    {
+      "kind": "point",
+      "text": "At 89.5 metres long and 5,900 tonnes, it's designed to operate even in the Southern Ocean's extreme conditions.",
+      "narration": "At eighty nine point five metres long and fifty nine hundred tonnes, it's designed to operate even in the Southern Ocean's extreme conditions."
+    },
+    {
+      "kind": "point",
+      "text": "Its job: mapping the Indian Ocean's mid-ocean ridges and evaluating deep-sea mineral resources nobody's fully charted yet."
+    },
+    {
+      "kind": "closer",
+      "text": "The next resource race isn't just on land or in orbit.",
+      "sub": "India just built a ship to compete for what's at the bottom of the ocean too.",
+      "narration": "The next resource race isn't just on land or in orbit. India just built a ship to compete for what's at the bottom of the ocean too."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just launched its first fully indigenous ocean research vessel - built to work in six kilometres of water, in the roughest seas on the planet.\n\nORV Sagar Manthan was launched on September 9, 2026, at GRSE's Rishi Bankim Shipyard in Kolkata, for the National Centre for Polar and Ocean Research. Built under the Deep Ocean Mission at a cost of roughly ₹840 crore and rated for a 30-year service life, the 89.5-metre, 5,900-tonne vessel is designed to operate even in the Southern Ocean's extreme conditions. Its job: mapping the Indian Ocean's mid-ocean ridges and evaluating deep-sea mineral resources nobody's fully charted yet.\n\nThe next resource race isn't just on land or in orbit. India just built a ship to compete for what's at the bottom of the ocean too.\n\nSources: Marine Insight, Maritime Gateway (2026)",
+  "hashtags": ["#Bharat100", "#DeepOceanMission", "#India2047", "#ViksitBharat", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

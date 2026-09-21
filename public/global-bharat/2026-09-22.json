@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "2026: An Indian-origin executive with zero gaming experience now runs Xbox."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Asha Sharma named CEO of Microsoft Gaming",
+      "body": "Microsoft CEO Satya Nadella announced on February 20, 2026 that Sharma would become Executive Vice President and CEO of Microsoft Gaming, succeeding Phil Spencer. She now leads Xbox, Bethesda and Activision Blizzard - a division reaching roughly 500 million monthly active users - despite having no prior professional background in video games."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she's actually walking into",
+      "headline": "A $23.5 billion business with a 3% margin, and a mandate to fix it.",
+      "body": "Sharma grew up in Wisconsin, started working at 17, and built her career across Cargill, Deloitte, Microsoft, Meta, Instacart and Porch Group in AI and product roles before returning to Microsoft in 2024. Her background in user growth - not games - was the stated reason for her selection, as Xbox revenue had fallen 7% and Game Pass growth had missed targets."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "The skill that gets you hired isn't always the skill in the job title.",
+      "body": "As India's talent increasingly runs businesses far outside their original field, Viksit Bharat 2047 benefits from a simple lesson: proven ability to grow and fix things travels across industries, even into ones you've never worked in before."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Microsoft Official Blog, February 20, 2026 - Asha Sharma named EVP and CEO, Microsoft Gaming",
+      "url": "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming/"
+    },
+    {
+      "text": "GeekWire, 2026 - Who is Asha Sharma? A closer look at Microsoft's surprise pick to lead the Xbox business",
+      "url": "https://www.geekwire.com/2026/who-is-asha-sharma-a-closer-look-at-microsofts-surprise-pick-to-lead-the-xbox-business/"
+    },
+    {
+      "text": "PC Gamer, 2026 - Xbox revenues dipped $1.7 billion last year, but Asha Sharma predicts a 'return to growth' by mid-2027",
+      "url": "https://www.pcgamer.com/gaming-industry/xbox-revenues-dipped-usd1-7-billion-last-year-but-asha-sharma-predicts-a-return-to-growth-by-mid-2027/"
+    }
+  ]
+}

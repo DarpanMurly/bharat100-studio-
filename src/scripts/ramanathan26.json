@@ -1,0 +1,51 @@
+{
+  "id": "ramanathan26",
+  "type": "diaspora-dividend",
+  "title": "He started in a refrigerator factory. In 2026, he won climate science's biggest prize.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-22",
+  "sources": [
+    "Royal Swedish Academy of Sciences / UC San Diego Today, 2026 - Distinguished UC San Diego Climate Scientist Awarded Crafoord Prize",
+    "American Bazaar, February 2026 - Scientist Veerabhadran Ramanathan wins Crafoord Prize"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He began his career as an engineer in a refrigerator factory.",
+      "sub": "In 2026, he won one of science's most prestigious prizes - for changing how the world understands climate change."
+    },
+    {
+      "kind": "stat",
+      "text": "Veerabhadran Ramanathan received the 2026 Crafoord Prize in Geosciences, sometimes called the 'Nobel of Geosciences.'",
+      "stat": "$900K",
+      "statLabel": "Crafoord Prize award, presented in Lund and Stockholm, May 2026",
+      "narration": "Veerabhadran Ramanathan received the twenty twenty six Crafoord Prize in Geosciences, sometimes called the Nobel of Geosciences."
+    },
+    {
+      "kind": "point",
+      "text": "Born in Madurai in 1944, he worked as an engineer at a refrigerator factory in Secunderabad before turning to atmospheric science.",
+      "narration": "Born in Madurai in 1944, he worked as an engineer at a refrigerator factory in Secunderabad before turning to atmospheric science."
+    },
+    {
+      "kind": "point",
+      "text": "He was first to show that CFCs - known only for depleting the ozone layer - were also powerful greenhouse gases.",
+      "narration": "He was first to show that CFCs, known only for depleting the ozone layer, were also powerful greenhouse gases."
+    },
+    {
+      "kind": "point",
+      "text": "He also identified vast 'brown clouds' of soot over South Asia, showing how they disrupt monsoon rainfall - now central to global climate policy."
+    },
+    {
+      "kind": "closer",
+      "text": "A refrigerator engineer's question became the science the world now builds climate policy on -",
+      "sub": "proof that where you start has nothing to do with how far the work travels."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He began his career as an engineer in a refrigerator factory. In 2026, he won one of science's most prestigious prizes - for changing how the world understands climate change.\n\nVeerabhadran Ramanathan, born in Madurai in 1944, worked as an engineer at a refrigerator factory in Secunderabad before turning to atmospheric science. He was first to show that CFCs - known only for depleting the ozone layer - were also powerful greenhouse gases, and identified vast 'brown clouds' of soot over South Asia that disrupt monsoon rainfall, now central to global climate policy. In 2026, the Royal Swedish Academy of Sciences awarded him the Crafoord Prize in Geosciences - sometimes called the 'Nobel of Geosciences' - worth roughly $900,000, presented in Lund and Stockholm in May 2026.\n\nA refrigerator engineer's question became the science the world now builds climate policy on - proof that where you start has nothing to do with how far the work travels.\n\nSources: Royal Swedish Academy of Sciences / UC San Diego Today, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#ClimateScience", "#India2047", "#IndianScientists"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

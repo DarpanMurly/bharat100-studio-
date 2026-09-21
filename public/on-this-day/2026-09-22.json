@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1991",
+      "headline": "September 22, 1991: India lost the widow who broke a taboo and reshaped who could act on screen."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Durga Khote died on September 22, 1991, at age 86",
+      "body": "Born into a respectable, English-educated family in 1905, she was widowed at 26 with two young sons to raise alone. In 1931 she took a minor role in the silent film Farebi Jaal - a profession her own class considered disreputable for a woman of her background."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually built",
+      "headline": "A 50-year, 200-film career - and permission for respectable women to follow her.",
+      "body": "She went on to act in roughly 200 films and countless stage productions across five decades, most famously as Jodhabai in Mughal-e-Azam (1960), earning a Filmfare nomination. In 2000, India Today named her among the '100 People Who Shaped India.' In 1983 she received the Dadasaheb Phalke Award, Indian cinema's highest honor, for lifetime contribution."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Necessity broke the taboo. Talent kept the door open.",
+      "body": "A Viksit Bharat by 2047 needs every field open on merit, not birth or circumstance. Durga Khote didn't wait for acting to become respectable - she walked in out of necessity and made it respectable by being undeniably good at it."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Durga Khote",
+      "url": "https://en.wikipedia.org/wiki/Durga_Khote"
+    },
+    {
+      "text": "The Quint - Durga Khote: The First Woman, Man Enough to Play a Woman On-Screen",
+      "url": "https://www.thequint.com/entertainment/celebrities/remembering-durga-khote-the-fearless-woman-who-dared-to-act"
+    }
+  ]
+}
