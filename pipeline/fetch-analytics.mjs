@@ -574,25 +574,20 @@ async function main() {
 
   // Substack/Medium have no analytics API for an individual creator
   // account (same constraint documented in substack-prepare.mjs /
-  // medium-prepare.mjs's own headers re: publishing) — this folds in
-  // whatever's been hand-entered into manual-analytics.json rather than
-  // silently omitting these two platforms from the dashboard entirely.
-  // Added 2026-09-19 per the user's explicit ask to have them represented
-  // in analytics, with the honest caveat that they're manual, not pulled.
-  let manualAnalytics = { substack: null, medium: null };
-  try {
-    const raw = await fs.readFile(path.join(ROOT, "content-queue", "manual-analytics.json"), "utf-8");
-    const parsed = JSON.parse(raw);
-    manualAnalytics = { substack: parsed.substack ?? null, medium: parsed.medium ?? null };
-  } catch {
-    // File missing or unreadable — dashboard just shows nothing for these
-    // two rather than failing the whole analytics fetch over it.
-  }
+  // medium-prepare.mjs's own headers re: publishing). A manual-entry
+  // field (manualAnalytics, reading content-queue/manual-analytics.json)
+  // was added 2026-09-19 to represent them anyway, but the dashboard
+  // never actually grew a UI to enter or show it, and the user
+  // explicitly doesn't want a manual-entry workflow (2026-09-21) — so
+  // these two platforms are simply left out of analytics entirely
+  // rather than faked or hand-maintained. If a real API/scraping path
+  // ever appears for either platform, add it the same way Facebook/
+  // Bluesky/Mastodon/WordPress metrics were added below, not via
+  // manual entry again.
 
   const summary = {
     fetchedAt: new Date().toISOString(),
     bufferCapacity,
-    manualAnalytics,
     buffer: bufferPosts.map((p) => ({
       id: p.id,
       platform: p.channel.service,
