@@ -72,5 +72,9 @@
   "mastodonStatusId": "117309823093342504",
   "mastodonScheduledAt": "2026-09-21T15:50:46.351Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mw23ah73oa2g",
-  "blueskyPostedAt": "2026-09-21T15:56:58.941Z"
+  "blueskyPostedAt": "2026-09-21T15:56:58.941Z",
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "JUqpsAzNSNM",
+  "youtubeUrl": "https://youtube.com/watch?v=JUqpsAzNSNM",
+  "youtubeScheduledAt": "2026-09-21T16:20:57.676Z"
 }
