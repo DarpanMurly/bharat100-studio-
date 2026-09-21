@@ -26,15 +26,46 @@ name: Bluesky scheduled posting
 #                                     Bluesky at all; not a timing bug,
 #                                     a missing pillar)
 #   Diaspora Dividend    22:30 IST  -> 17:00 UTC
-
+#
+# Extra half-hourly check-ins added 2026-09-21: GitHub's own cron
+# scheduler was found to delay a firing well past the documented
+# "10-60+ minutes late" — confirmed directly via run history that the
+# 13:30 UTC Sector Futures firing didn't actually run until 16:38 UTC,
+# a 3h08m gap, because the NEXT scheduled trigger (17:00, Diaspora
+# Dividend) was itself the first one to fire again after 12:00. Since
+# the slot runner already self-heals (every firing checks ALL pillars
+# and posts whatever's overdue, not just "its own" pillar), the fix
+# isn't more precise timing — it's simply checking in more often so a
+# delayed exact-slot firing gets caught by the NEXT check-in sooner.
+# These extra `:00` firings are redundant with the exact-slot ones
+# above on a good day (nothing to do, exits fast) and are the safety
+# net on a bad one.
 on:
   schedule:
-    - cron: "30 23 * * *"  # Global Bharat
-    - cron: "30 2 * * *"   # Personal Growth (motivational-short)
-    - cron: "30 7 * * *"   # Builder Story (on-this-day-short)
-    - cron: "30 13 * * *"  # Sector Futures
-    - cron: "30 15 * * *"  # Weekly Recap
-    - cron: "0 17 * * *"   # Diaspora Dividend
+    - cron: "30 23 * * *"  # Global Bharat (exact slot)
+    - cron: "0 0 * * *"    # extra check-in
+    - cron: "0 1 * * *"    # extra check-in
+    - cron: "30 2 * * *"   # Personal Growth (motivational-short) (exact slot)
+    - cron: "0 3 * * *"    # extra check-in
+    - cron: "0 4 * * *"    # extra check-in
+    - cron: "0 5 * * *"    # extra check-in
+    - cron: "0 6 * * *"    # extra check-in
+    - cron: "30 7 * * *"   # Builder Story (on-this-day-short) (exact slot)
+    - cron: "0 8 * * *"    # extra check-in
+    - cron: "0 9 * * *"    # extra check-in
+    - cron: "0 10 * * *"   # extra check-in
+    - cron: "0 11 * * *"   # extra check-in
+    - cron: "0 12 * * *"   # extra check-in
+    - cron: "30 13 * * *"  # Sector Futures (exact slot)
+    - cron: "0 14 * * *"   # extra check-in
+    - cron: "30 15 * * *"  # Weekly Recap (exact slot)
+    - cron: "0 16 * * *"   # extra check-in
+    - cron: "0 17 * * *"   # Diaspora Dividend (exact slot)
+    - cron: "0 18 * * *"   # extra check-in
+    - cron: "0 19 * * *"   # extra check-in
+    - cron: "0 20 * * *"   # extra check-in
+    - cron: "0 21 * * *"   # extra check-in
+    - cron: "0 22 * * *"   # extra check-in
   workflow_dispatch:       # manual trigger, also usable for a one-off card
     inputs:
       card_id:
