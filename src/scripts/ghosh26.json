@@ -1,0 +1,47 @@
+{
+  "id": "ghosh26",
+  "type": "diaspora-dividend",
+  "title": "He already holds India's highest literary honor. In 2026, America gave him one of its own.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-23",
+  "sources": [
+    "Guggenheim Foundation, April 14, 2026 - Announcing the 2026 Guggenheim Fellows",
+    "American Bazaar, April 16, 2026 - Four Indian Americans among 2026 class of Guggenheim Fellows"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He already holds India's highest literary honor.",
+      "sub": "In April 2026, America gave him one of its own."
+    },
+    {
+      "kind": "stat",
+      "text": "The Guggenheim Foundation named Amitav Ghosh to its 2026 Fellowship class on April 14, in general nonfiction.",
+      "stat": "223",
+      "statLabel": "Guggenheim Fellows named in 2026, across 55 disciplines",
+      "narration": "The Guggenheim Foundation named Amitav Ghosh to its twenty twenty six Fellowship class on April fourteenth, in general nonfiction."
+    },
+    {
+      "kind": "point",
+      "text": "Ghosh, based in Brooklyn, holds a PhD in Social Anthropology from Oxford and has spent decades writing on colonial history, migration and climate change.",
+      "narration": "Ghosh, based in Brooklyn, holds a PhD in Social Anthropology from Oxford and has spent decades writing on colonial history, migration and climate change."
+    },
+    {
+      "kind": "point",
+      "text": "He already won India's Jnanpith Award in 2018 - the country's highest literary honor - and was elected to the American Academy of Arts and Sciences in 2024."
+    },
+    {
+      "kind": "closer",
+      "text": "One writer, two countries' highest recognitions -",
+      "sub": "the same body of work, judged worthy by both.",
+      "narration": "One writer, two countries' highest recognitions. The same body of work, judged worthy by both."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He already holds India's highest literary honor. In April 2026, America gave him one of its own.\n\nThe Guggenheim Foundation named Amitav Ghosh to its 2026 Fellowship class on April 14, in general nonfiction - one of 223 Fellows named across 55 disciplines. Ghosh, based in Brooklyn, holds a PhD in Social Anthropology from Oxford and has spent decades writing on colonial history, migration and climate change. He already won India's Jnanpith Award in 2018 - the country's highest literary honor - and was elected to the American Academy of Arts and Sciences in 2024.\n\nOne writer, two countries' highest recognitions - the same body of work, judged worthy by both.\n\nSources: Guggenheim Foundation, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#IndianWriters"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

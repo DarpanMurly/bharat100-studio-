@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1908",
+      "headline": "September 23, 1908: India's \"National Poet\" was born to a farmer in rural Bihar."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ramdhari Singh Dinkar was born on September 23, 1908, in Simaria, Bihar",
+      "body": "His father was a farmer; his mother shaped his early discipline and values. He studied history, politics and Sanskrit at Patna University, and his fiery nationalist poetry - full of heroic sentiment - earned him the title 'Rashtrakavi,' India's national poet, before independence had even arrived."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "A Rajya Sabha seat from Nehru - and the nerve to publicly challenge him anyway.",
+      "body": "Dinkar's epic poem 'Rashmirathi,' retelling the Mahabharata's Karna, remains a landmark of Hindi literature. He won the Sahitya Akademi Award (1959), the Bharatiya Jnanpith (1972), and the Padma Bhushan - and served in the Rajya Sabha from 1952 to 1964, appointed by Nehru himself. Yet Dinkar still recited verses in Parliament criticizing Nehru's own government - respect and independence, at the same time."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A national poet who never stopped being a people's poet.",
+      "body": "A Viksit Bharat by 2047 needs voices that can be honored by power and still hold it accountable. Dinkar proved a farmer's son could become the nation's poetic conscience, and never trade his voice for his seat."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Ramdhari Singh Dinkar",
+      "url": "https://en.wikipedia.org/wiki/Ramdhari_Singh_Dinkar"
+    },
+    {
+      "text": "ThePrint, 2021 - Ramdhari Singh Dinkar, the 'Rashtrakavi' whose words spoke to every Indian",
+      "url": "https://theprint.in/feature/ramdhari-singh-dinkar-the-rashtrakavi-whose-words-spoke-to-every-indian/407491/"
+    }
+  ]
+}

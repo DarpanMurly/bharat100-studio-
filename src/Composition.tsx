@@ -27,6 +27,7 @@ import aaas26 from "./scripts/aaas26.json";
 import ashokkhade26 from "./scripts/ashokkhade26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
 import budget from "./scripts/budget.json";
+import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
@@ -43,6 +44,7 @@ import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
+import ghosh26 from "./scripts/ghosh26.json";
 import isrochip26 from "./scripts/isrochip26.json";
 import jainwolf26 from "./scripts/jainwolf26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
@@ -70,6 +72,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "ashokkhade26": ashokkhade26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
   "budget": budget as VideoScript,
+  "ceramat26": ceramat26 as VideoScript,
   "cgsemi26": cgsemi26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
@@ -86,6 +89,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "evgrowth26": evgrowth26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
+  "ghosh26": ghosh26 as VideoScript,
   "isrochip26": isrochip26 as VideoScript,
   "jainwolf26": jainwolf26 as VideoScript,
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
