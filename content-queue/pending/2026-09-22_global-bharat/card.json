@@ -52,5 +52,9 @@
   "facebookPostId": "2494397511087275",
   "facebookScheduledAt": "2026-09-22T03:11:16.854Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mw3kcuhyya2p",
-  "blueskyPostedAt": "2026-09-22T05:59:25.844Z"
+  "blueskyPostedAt": "2026-09-22T05:59:25.844Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DdkuYX4Cban/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DdkuYk_AO8j"
+  }
 }
