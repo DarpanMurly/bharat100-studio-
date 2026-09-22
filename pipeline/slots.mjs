@@ -46,8 +46,15 @@ export function nextSlotUtc(hourIst, targetDate) {
     // triggers for a same-day miss; the >1-day-old case is separately
     // refused by publish-to-buffer.mjs's staleness guard, which still
     // applies after this nudge.
+    //
+    // Nudge is 12 minutes, not 5: found 2026-09-22 that Facebook's Graph
+    // API hard-rejects any scheduled_publish_time under 10 minutes out
+    // ("(#100) The specified scheduled publish time is invalid.") — a
+    // 5-minute nudge landed inside that dead zone and failed Facebook
+    // specifically while Buffer (no such floor) succeeded fine. 12
+    // minutes clears Facebook's 10-minute floor with a small margin.
     if (target <= now) {
-      return new Date(now.getTime() + 5 * 60 * 1000).toISOString();
+      return new Date(now.getTime() + 12 * 60 * 1000).toISOString();
     }
     return target.toISOString();
   }
