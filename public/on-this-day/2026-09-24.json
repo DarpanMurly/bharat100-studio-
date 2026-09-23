@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1940",
+      "headline": "September 24, 1940: born to a swimmer who'd cross the English Channel before anyone in Asia."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Arati Saha was born on September 24, 1940, in Kolkata",
+      "body": "She lost her mother around age two and was raised by her grandmother in North Kolkata, learning to swim during routine baths at Champatala Ghat. Her father enrolled her at the Hatkhola Swimming Club at age 5 - she'd already won 22 medals before turning ten."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually did",
+      "headline": "16 hours, 20 minutes, 42 miles - the first Asian woman across the English Channel.",
+      "body": "She represented India at the 1952 Olympics as the contingent's youngest member. On September 29, 1959, she swam the English Channel in 16 hours 20 minutes, becoming the first Asian woman to complete the crossing. In 1960, she became the first Indian sportswoman ever awarded the Padma Shri."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A five-year-old at a swimming club became a first for an entire continent.",
+      "body": "A Viksit Bharat by 2047 needs the patience to let raw ability become world-class discipline over decades. Arati Saha proved a child from a modest Kolkata household could out-swim an ocean's worth of doubt."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Arati Saha",
+      "url": "https://en.wikipedia.org/wiki/Arati_Saha"
+    },
+    {
+      "text": "Feminism in India, 2019 - Arati Saha: The Woman Who Channeled Her Success Through The English Channel",
+      "url": "https://feminisminindia.com/2019/10/21/arati-saha-woman-channeled-success-english-channel/"
+    }
+  ]
+}

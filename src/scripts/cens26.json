@@ -1,0 +1,46 @@
+{
+  "id": "cens26",
+  "title": "India just made green hydrogen without the two metals it usually needs",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-24",
+  "sources": [
+    "Department of Science & Technology, September 2026 - India's solar leap to produce green hydrogen",
+    "POWER Magazine, September 2026 - India Scientists Develop Hydrogen Production Method Using Only Solar Power"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Making green hydrogen usually needs platinum or iridium.",
+      "sub": "Both are rare, expensive, and mostly imported. Indian scientists just found a way around both."
+    },
+    {
+      "kind": "stat",
+      "text": "Researchers at the Centre for Nano and Soft Matter Sciences in Bengaluru, an autonomous DST institute, built a device that splits water into hydrogen using only solar energy and organic materials.",
+      "stat": "0",
+      "statLabel": "precious metal catalysts required, per DST, September 2026",
+      "narration": "Researchers at the Centre for Nano and Soft Matter Sciences in Bengaluru, an autonomous DST institute, built a device that splits water into hydrogen using only solar energy and organic materials."
+    },
+    {
+      "kind": "point",
+      "text": "They combined a naturally occurring amino acid with a light-absorbing organic molecule - completely metal-free.",
+      "narration": "They combined a naturally occurring amino acid with a light-absorbing organic molecule, completely metal-free."
+    },
+    {
+      "kind": "point",
+      "text": "Standard electrolysis leans on iridium or platinum catalysts - both scarce and heavily import-dependent for India."
+    },
+    {
+      "kind": "closer",
+      "text": "A fuel of the future, built without the metals everyone else is competing for -",
+      "sub": "that's not just clean energy, that's supply chain independence.",
+      "narration": "A fuel of the future, built without the metals everyone else is competing for. That's not just clean energy, that's supply chain independence."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Making green hydrogen usually needs platinum or iridium. Both are rare, expensive, and mostly imported. Indian scientists just found a way around both.\n\nResearchers at the Centre for Nano and Soft Matter Sciences in Bengaluru, an autonomous DST institute, built a device that splits water into hydrogen using only solar energy and organic materials - combining a naturally occurring amino acid with a light-absorbing organic molecule, completely metal-free. Standard electrolysis leans on iridium or platinum catalysts, both scarce and heavily import-dependent for India.\n\nA fuel of the future, built without the metals everyone else is competing for - that's not just clean energy, that's supply chain independence.\n\nSources: Department of Science & Technology, POWER Magazine (2026)",
+  "hashtags": ["#Bharat100", "#GreenHydrogen", "#India2047", "#ViksitBharat", "#CleanEnergy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

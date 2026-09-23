@@ -1,0 +1,47 @@
+{
+  "id": "desai26",
+  "type": "diaspora-dividend",
+  "title": "Her research has been cited 27,000 times. In 2026, one of science's oldest honors caught up.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-24",
+  "sources": [
+    "Brown University, March 25, 2026 - Brown engineering dean elected AAAS Fellow",
+    "American Bazaar, April 6, 2026 - Indian American researcher Tejal Desai elected AAAS fellow"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Her research has been cited 27,000 times by peers worldwide.",
+      "sub": "In 2026, one of science's oldest honors finally caught up."
+    },
+    {
+      "kind": "stat",
+      "text": "Tejal Desai, Dean of Engineering at Brown University, was elected a Fellow of the American Association for the Advancement of Science in 2026.",
+      "stat": "300+",
+      "statLabel": "research papers published, cited over 27,000 times, per Brown University, 2026",
+      "narration": "Tejal Desai, Dean of Engineering at Brown University, was elected a Fellow of the American Association for the Advancement of Science in twenty twenty six."
+    },
+    {
+      "kind": "point",
+      "text": "The daughter of an Indian immigrant chemical engineer, she built her career applying micro and nanoscale technology to deliver medicine precisely inside the human body.",
+      "narration": "The daughter of an Indian immigrant chemical engineer, she built her career applying micro and nanoscale technology to deliver medicine precisely inside the human body."
+    },
+    {
+      "kind": "point",
+      "text": "She holds over 30 patents, and is a member of three separate US National Academies - Medicine, Engineering, and Inventors."
+    },
+    {
+      "kind": "closer",
+      "text": "A father's engineering career, one generation later -",
+      "sub": "became a daughter's seat in three national academies at once.",
+      "narration": "A father's engineering career, one generation later, became a daughter's seat in three national academies at once."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Her research has been cited 27,000 times by peers worldwide. In 2026, one of science's oldest honors finally caught up.\n\nTejal Desai, Dean of Engineering at Brown University, was elected a Fellow of the American Association for the Advancement of Science in 2026. The daughter of an Indian immigrant chemical engineer, she built her career applying micro and nanoscale technology to deliver medicine precisely inside the human body - over 300 research papers, 30+ patents, and membership in three separate US National Academies: Medicine, Engineering, and Inventors.\n\nA father's engineering career, one generation later, became a daughter's seat in three national academies at once.\n\nSources: Brown University, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#WomenInSTEM"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

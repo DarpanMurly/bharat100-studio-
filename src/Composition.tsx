@@ -27,10 +27,12 @@ import aaas26 from "./scripts/aaas26.json";
 import ashokkhade26 from "./scripts/ashokkhade26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
 import budget from "./scripts/budget.json";
+import cens26 from "./scripts/cens26.json";
 import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
+import desai26 from "./scripts/desai26.json";
 import diasporaFcnr26 from "./scripts/diaspora-fcnr26.json";
 import diasporaPhilanthropy26 from "./scripts/diaspora-philanthropy26.json";
 import diasporaRealestate26 from "./scripts/diaspora-realestate26.json";
@@ -72,10 +74,12 @@ const scriptRegistry: Record<string, VideoScript> = {
   "ashokkhade26": ashokkhade26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
   "budget": budget as VideoScript,
+  "cens26": cens26 as VideoScript,
   "ceramat26": ceramat26 as VideoScript,
   "cgsemi26": cgsemi26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
+  "desai26": desai26 as VideoScript,
   "diaspora-fcnr26": diasporaFcnr26 as VideoScript,
   "diaspora-philanthropy26": diasporaPhilanthropy26 as VideoScript,
   "diaspora-realestate26": diasporaRealestate26 as VideoScript,
