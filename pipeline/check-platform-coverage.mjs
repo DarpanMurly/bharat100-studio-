@@ -107,9 +107,18 @@ async function main() {
     // launched 2026-09-08 — dates before that genuinely never had one, so
     // skip them rather than flag pre-launch history as a false gap.
     if (date < "2026-09-08") continue;
+    // Same fix as check-missed-days.mjs (2026-09-23): the file existing
+    // only proves the digest was drafted, not that wordpress-publish.mjs
+    // was ever actually run — Sept 22's digest sat fully written and
+    // duplicate/staleness-checked but genuinely never published, and this
+    // check reported clean the whole time because fs.access only looks
+    // for the file. Require a real wordpressPostId instead.
     const wpPath = path.join(ROOT, "public", "wordpress", `${date}.json`);
     try {
-      await fs.access(wpPath);
+      const wp = JSON.parse(await fs.readFile(wpPath, "utf-8"));
+      if (!wp.wordpressPostId) {
+        gaps.push({ dir: `(WordPress digest)`, date, missing: ["WordPress article drafted but never published"] });
+      }
     } catch {
       gaps.push({ dir: `(WordPress digest)`, date, missing: ["WordPress article not written"] });
     }

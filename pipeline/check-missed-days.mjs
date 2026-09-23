@@ -61,9 +61,20 @@ async function main() {
       }
     }
 
+    // Checking the file EXISTS is not enough — drafting/checking a digest
+    // and actually publishing it are two separate steps, and a digest can
+    // sit fully written on disk, having passed check-duplicate.mjs and
+    // check-staleness.mjs, without ever being sent to WordPress (found
+    // 2026-09-23: the Sept 22 digest was drafted and checked but the
+    // wordpress-cover.mjs/wordpress-publish.mjs step was simply never run
+    // that session — this check reported "all good" the whole time
+    // because the file was present, masking a genuine unpublished gap
+    // until the user noticed the article wasn't live). Require a real
+    // wordpressPostId, written only after a successful publish.
     let wordpressMissing = false;
     try {
-      await fs.access(path.join(ROOT, "public", "wordpress", `${dateStr}.json`));
+      const wp = JSON.parse(await fs.readFile(path.join(ROOT, "public", "wordpress", `${dateStr}.json`), "utf-8"));
+      if (!wp.wordpressPostId) wordpressMissing = true;
     } catch {
       wordpressMissing = true;
     }
