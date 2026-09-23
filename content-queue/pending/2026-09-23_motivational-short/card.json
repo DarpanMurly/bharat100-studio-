@@ -40,5 +40,8 @@
   "mastodonScheduledAt": "2026-09-23T02:30:00.000Z",
   "facebookFirstCommentId": "2130610134202173_2339492110134874",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mw5suifbxq2d",
-  "blueskyPostedAt": "2026-09-23T03:37:46.582Z"
+  "blueskyPostedAt": "2026-09-23T03:37:46.582Z",
+  "bufferPostLinks": {
+    "Threads": "https://www.threads.com/@bharatat100/post/DdnPa-pAEhv"
+  }
 }
