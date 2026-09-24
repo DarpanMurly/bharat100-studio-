@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1920",
+      "headline": "September 25, 1920: the man India's own spaceport would later be named after was born."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Satish Dhawan was born on September 25, 1920, in Srinagar",
+      "body": "A rare mind even on paper - two bachelor's degrees, a master's in English literature, an aerospace master's from Minnesota, and an aeronautical engineering degree from Caltech. He's regarded as the father of experimental fluid dynamics research in India."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "He took ISRO's chair on one condition, then built the agency that still flies today.",
+      "body": "In 1972, Dhawan agreed to lead ISRO after founder Vikram Sarabhai's death - but only if headquarters moved from Ahmedabad to Bangalore and he stayed IISc's director too. Under his 12-year chairmanship: India's first satellite (Aryabhata, 1975), its first launch vehicle (SLV-3, 1980), INSAT, and the foundations of the PSLV. India's principal spaceport now carries his name."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He negotiated the conditions, then delivered results that outlasted the negotiation.",
+      "body": "A Viksit Bharat by 2047 needs leaders who know their own worth and use it to build institutions, not just careers. Dhawan set his terms once, then spent 12 years proving they were worth granting."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Satish Dhawan",
+      "url": "https://en.wikipedia.org/wiki/Satish_Dhawan"
+    },
+    {
+      "text": "Britannica - Satish Dhawan",
+      "url": "https://www.britannica.com/biography/Satish-Dhawan"
+    }
+  ]
+}

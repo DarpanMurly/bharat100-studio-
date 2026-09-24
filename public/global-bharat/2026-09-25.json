@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She moved to America at 20 with $200. Now she's building the world's longest-range electric boat."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sampriti Bhattacharyya founded Navier, an electric hydrofoil boat company",
+      "body": "Born in Kolkata, she moved to the US at 20 with just $200 and later earned a PhD in Mechanical Engineering from MIT in 2017, with career stops at NASA, Fermilab and TIFR. Her first venture, Hydroswarm, an ocean-robot startup, didn't succeed - she founded Navier in 2019 anyway."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually built",
+      "headline": "America's first electric hydrofoiling boat - ten times more efficient than gas-powered ones.",
+      "body": "Navier's N30 is the world's longest-range electric vessel, gliding four feet above the water on carbon foils that cut drag and wake while boosting speed. It runs roughly ten times more efficiently than a comparable gas-powered boat, in an industry Bhattacharyya sees as still running on legacy fleets."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "One failed startup didn't end the story. It funded the education for the one that worked.",
+      "body": "A Viksit Bharat by 2047 needs builders who treat failure as data, not verdict. Bhattacharyya's first company folded - her second is now reshaping an entire industry most people assumed couldn't change."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Robb Report - How Sampriti Bhattacharyya Launched a Top U.S. Boatbuilding Company",
+      "url": "https://robbreport.com/motors/marine/how-sampriti-bhattacharyya-launched-navier-1235366608/"
+    },
+    {
+      "text": "Wikipedia - Navier (company)",
+      "url": "https://en.wikipedia.org/wiki/Navier_(company)"
+    }
+  ]
+}

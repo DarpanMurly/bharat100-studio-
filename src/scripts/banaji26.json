@@ -1,0 +1,47 @@
+{
+  "id": "banaji26",
+  "type": "diaspora-dividend",
+  "title": "She coined a term 40 million people have since used to examine their own minds",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-25",
+  "sources": [
+    "Wikipedia - Mahzarin Banaji",
+    "American Bazaar, July 1, 2026 - Four Indian Americans make Carnegie's 2026 Great Immigrants list"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "In 1995, she coined a term that changed how psychology understands prejudice.",
+      "sub": "In 2026, the US named her one of its Great Immigrants for it."
+    },
+    {
+      "kind": "stat",
+      "text": "Mahzarin Banaji, born in Secunderabad, was named to Carnegie Corporation's 2026 Great Immigrants, Great Americans list.",
+      "stat": "40M+",
+      "statLabel": "people worldwide who have taken the Implicit Association Test, per Harvard Psychology, 2026",
+      "narration": "Mahzarin Banaji, born in Secunderabad, was named to Carnegie Corporation's twenty twenty six Great Immigrants, Great Americans list."
+    },
+    {
+      "kind": "point",
+      "text": "In 1995, she and Anthony Greenwald defined 'implicit bias' - automatic, unintentional associations people don't consciously realize they hold.",
+      "narration": "In 1995, she and Anthony Greenwald defined 'implicit bias' - automatic, unintentional associations people don't consciously realize they hold."
+    },
+    {
+      "kind": "point",
+      "text": "In 1998 they co-developed the Implicit Association Test to measure it - now taken by over 40 million people globally, on race, gender, class and more."
+    },
+    {
+      "kind": "closer",
+      "text": "A word she invented in a lab is now a word millions use to examine themselves -",
+      "sub": "that's not just an academic career, that's a permanent shift in how people think.",
+      "narration": "A word she invented in a lab is now a word millions use to examine themselves. That's not just an academic career, that's a permanent shift in how people think."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "In 1995, she coined a term that changed how psychology understands prejudice. In 2026, the US named her one of its Great Immigrants for it.\n\nMahzarin Banaji, born in Secunderabad, was named to Carnegie Corporation's 2026 Great Immigrants, Great Americans list. In 1995, she and Anthony Greenwald defined 'implicit bias' - automatic, unintentional associations people don't consciously realize they hold - and in 1998 co-developed the Implicit Association Test to measure it. The test has since been taken by over 40 million people worldwide, on race, gender, class and more. She's now the Richard Clarke Cabot Professor of Social Ethics at Harvard.\n\nA word she invented in a lab is now a word millions use to examine themselves - that's not just an academic career, that's a permanent shift in how people think.\n\nSources: Wikipedia, American Bazaar (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Psychology"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

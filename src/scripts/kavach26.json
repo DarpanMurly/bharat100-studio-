@@ -1,0 +1,46 @@
+{
+  "id": "kavach26",
+  "title": "India just rolled out a system that stops trains automatically before they collide",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-25",
+  "sources": [
+    "Business Standard, September 23, 2026 - Railways commissions Kavach 4.0 for the first time on South Central Railway",
+    "Deccan Chronicle, September 2026 - Indian Railways Deploys KAVACH 4.0 for First Time on South Central Railway"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Indian Railways just commissioned its most advanced anti-collision system yet.",
+      "sub": "It applies the brakes automatically - before a human even reacts."
+    },
+    {
+      "kind": "stat",
+      "text": "On September 23, 2026, Indian Railways commissioned KAVACH 4.0 for the first time, deployed over 108 route kilometres on South Central Railway's Malkajgiri-Kamareddi section.",
+      "stat": "108km",
+      "statLabel": "route kilometres of KAVACH 4.0 deployed, per Business Standard, September 2026",
+      "narration": "On September twenty third, twenty twenty six, Indian Railways commissioned KAVACH four point zero for the first time, deployed over one hundred eight route kilometres on South Central Railway."
+    },
+    {
+      "kind": "point",
+      "text": "KAVACH assists loco pilots in maintaining speed limits and automatically applies brakes when needed - built to Safety Integrity Level-4, the highest safety certification standard.",
+      "narration": "KAVACH assists loco pilots in maintaining speed limits and automatically applies brakes when needed, built to the highest safety certification standard."
+    },
+    {
+      "kind": "point",
+      "text": "This upgrade builds on lessons from KAVACH 3.2, already running across 1,465 route kilometres on the same railway zone."
+    },
+    {
+      "kind": "closer",
+      "text": "A signal missed used to mean a disaster.",
+      "sub": "Now the train itself catches the mistake first.",
+      "narration": "A signal missed used to mean a disaster. Now the train itself catches the mistake first."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Indian Railways just commissioned its most advanced anti-collision system yet. It applies the brakes automatically - before a human even reacts.\n\nOn September 23, 2026, Indian Railways commissioned KAVACH 4.0 for the first time, deployed over 108 route kilometres on South Central Railway's Malkajgiri-Kamareddi section. KAVACH assists loco pilots in maintaining speed limits and automatically applies brakes when needed, built to Safety Integrity Level-4, the highest safety certification standard - preventing signal-passing-at-danger incidents and reducing collision risk. This upgrade builds on lessons from KAVACH 3.2, already running across 1,465 route kilometres on the same railway zone.\n\nA signal missed used to mean a disaster. Now the train itself catches the mistake first.\n\nSources: Business Standard, Deccan Chronicle (2026)",
+  "hashtags": ["#Bharat100", "#IndianRailways", "#India2047", "#ViksitBharat", "#RailSafety"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
