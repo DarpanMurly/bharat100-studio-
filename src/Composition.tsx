@@ -43,6 +43,7 @@ import diasporaVc26 from "./scripts/diaspora-vc26.json";
 import diasporaceos26 from "./scripts/diasporaceos26.json";
 import diasporagiving26 from "./scripts/diasporagiving26.json";
 import diasporaincome26 from "./scripts/diasporaincome26.json";
+import droneudyami26 from "./scripts/droneudyami26.json";
 import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
@@ -65,6 +66,7 @@ import repm26 from "./scripts/repm26.json";
 import sagarmanthan26 from "./scripts/sagarmanthan26.json";
 import semicon2 from "./scripts/semicon2.json";
 import semiconductors from "./scripts/semiconductors.json";
+import shikharsingh26 from "./scripts/shikharsingh26.json";
 import skills2030 from "./scripts/skills2030.json";
 import solarmfg26 from "./scripts/solarmfg26.json";
 import spacetech26 from "./scripts/spacetech26.json";
@@ -92,6 +94,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "diasporaceos26": diasporaceos26 as VideoScript,
   "diasporagiving26": diasporagiving26 as VideoScript,
   "diasporaincome26": diasporaincome26 as VideoScript,
+  "droneudyami26": droneudyami26 as VideoScript,
   "electronics26": electronics26 as VideoScript,
   "evgrowth26": evgrowth26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
@@ -114,6 +117,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "sagarmanthan26": sagarmanthan26 as VideoScript,
   "semicon2": semicon2 as VideoScript,
   "semiconductors": semiconductors as VideoScript,
+  "shikharsingh26": shikharsingh26 as VideoScript,
   "skills2030": skills2030 as VideoScript,
   "solarmfg26": solarmfg26 as VideoScript,
   "spacetech26": spacetech26 as VideoScript,

@@ -1,0 +1,47 @@
+{
+  "id": "shikharsingh26",
+  "type": "diaspora-dividend",
+  "title": "He studied why India's own town councils don't work. It won him political science's top prize.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-26",
+  "sources": [
+    "Duke University Trinity College of Arts & Sciences, 2026 - Award-Winning Research Sheds Light on 'Who Knows How to Govern?'",
+    "Political Science Now, 2026 - Adam Auerbach, Shikhar Singh, and Tariq Thachil Receive the 2026 Heinz I. Eulau Award"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He wanted to know why India's small-town councils keep underperforming.",
+      "sub": "The answer won him one of political science's most prestigious awards."
+    },
+    {
+      "kind": "stat",
+      "text": "Shikhar Singh, Assistant Professor of Political Science at Duke University, received the 2026 Heinz I. Eulau Award alongside co-authors Adam Auerbach and Tariq Thachil.",
+      "stat": "2026",
+      "statLabel": "Heinz I. Eulau Award, American Political Science Review, per Duke University",
+      "narration": "Shikhar Singh, Assistant Professor of Political Science at Duke University, received the twenty twenty six Heinz I. Eulau Award alongside co-authors Adam Auerbach and Tariq Thachil."
+    },
+    {
+      "kind": "point",
+      "text": "Their research, based on fieldwork in India's small-town municipal councils, found elected officials often lack the basic procedural knowledge to actually govern.",
+      "narration": "Their research, based on fieldwork in India's small-town municipal councils, found elected officials often lack the basic procedural knowledge to actually govern."
+    },
+    {
+      "kind": "point",
+      "text": "Singh has also written 'Migrants and Machine Politics,' which won four separate major prizes, including APSA's own Best Book award."
+    },
+    {
+      "kind": "closer",
+      "text": "He didn't study governance from a distance -",
+      "sub": "he went into India's own town halls to find out what was actually missing.",
+      "narration": "He didn't study governance from a distance. He went into India's own town halls to find out what was actually missing."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He wanted to know why India's small-town councils keep underperforming. The answer won him one of political science's most prestigious awards.\n\nShikhar Singh, Assistant Professor of Political Science at Duke University, received the 2026 Heinz I. Eulau Award alongside co-authors Adam Auerbach and Tariq Thachil, for their American Political Science Review article on India's municipal governance. Their fieldwork in India's small-town councils found elected officials often lack the basic procedural knowledge to actually govern - a factor overlooked in most accountability research. Singh has also written 'Migrants and Machine Politics' (Princeton University Press, 2023), which has won four separate major prizes, including APSA's own Best Book award.\n\nHe didn't study governance from a distance - he went into India's own town halls to find out what was actually missing.\n\nSources: Duke University, Political Science Now (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#PoliticalScience"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

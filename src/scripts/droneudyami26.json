@@ -1,0 +1,46 @@
+{
+  "id": "droneudyami26",
+  "title": "India's plan: one trained drone entrepreneur for every village council in the country",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-26",
+  "sources": [
+    "The Tribune, 2026 - National Drone Summit 2026 to Launch India's First Drone Cooperative on July 4 in New Delhi",
+    "The Financial World, 2026 - National Drone Summit 2026 Unveils Landmark Cooperative-Led Drone Ecosystem to Empower Rural India"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Most Indian farmers can't afford their own drone.",
+      "sub": "So the government's plan skips ownership entirely - and shares it instead."
+    },
+    {
+      "kind": "stat",
+      "text": "India's '1 Panchayat - 1 Drone Udyami' national mission launched in 2026, aiming to create trained drone entrepreneurs across every agricultural panchayat in the country.",
+      "stat": "2 lakh",
+      "statLabel": "drone entrepreneurs targeted across 2 lakh panchayats over 5 years, per National Drone Summit 2026",
+      "narration": "India's '1 Panchayat - 1 Drone Udyami' national mission launched in twenty twenty six, aiming to create trained drone entrepreneurs across every agricultural panchayat in the country."
+    },
+    {
+      "kind": "point",
+      "text": "Each trained 'Drone Udyami' runs a shared service centre - spraying, seed broadcasting, crop monitoring and mapping - for hundreds of farmers across a panchayat, not just one field.",
+      "narration": "Each trained Drone Udyami runs a shared service centre for hundreds of farmers across a panchayat, not just one field."
+    },
+    {
+      "kind": "point",
+      "text": "It's built for India's reality: small, fragmented landholdings where buying a personal drone rarely makes financial sense."
+    },
+    {
+      "kind": "closer",
+      "text": "Nobody needs to own the technology.",
+      "sub": "They just need one trained neighbor who does.",
+      "narration": "Nobody needs to own the technology. They just need one trained neighbor who does."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Most Indian farmers can't afford their own drone. So the government's plan skips ownership entirely - and shares it instead.\n\nIndia's '1 Panchayat - 1 Drone Udyami' national mission, launched in 2026, aims to create trained drone entrepreneurs across every agricultural panchayat in the country - 2 lakh entrepreneurs across 2 lakh panchayats over five years. Each trained 'Drone Udyami' runs a shared service centre - spraying, seed broadcasting, crop monitoring and mapping - for hundreds of farmers across a panchayat, built for India's reality of small, fragmented landholdings where a personal drone rarely makes financial sense.\n\nNobody needs to own the technology. They just need one trained neighbor who does.\n\nSources: The Tribune, The Financial World (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#AgriTech", "#ViksitBharat"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

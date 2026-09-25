@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "An Indian fintech founder now runs the app 3 billion people use to talk to each other."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Kunal Shah, founder of CRED, was named global head of WhatsApp",
+      "body": "On June 22, 2026, Meta CEO Mark Zuckerberg announced Shah would succeed Will Cathcart, who had led WhatsApp since 2019 - making Shah the first Indian to lead the world's largest messaging platform, used by over 3 billion people."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built first",
+      "headline": "Two startups, one national acquisition record, before this.",
+      "body": "Shah co-founded FreeCharge in 2010, which Snapdeal acquired in 2015 in what was then India's largest startup acquisition. He founded CRED in 2018, scaling it to 17 million members and $325 million in annual revenue. His appointment came alongside a Meta-led $900 million investment in CRED itself."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "India isn't just WhatsApp's biggest market anymore. It's now leading it.",
+      "body": "A Viksit Bharat by 2047 needs proof that building for Indian users at scale is a credential the rest of the world takes seriously. Shah's own market experience is exactly why he's now running the platform for everyone else's, too."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Bloomberg, June 23, 2026 - Meta's Cox Sought Shah's WhatsApp Advice, Then Made Him Leader",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/meta-s-cox-sought-shah-s-whatsapp-advice-then-made-him-leader"
+    },
+    {
+      "text": "TechCrunch, June 22, 2026 - WhatsApp gets new chief as Meta taps India's CRED founder Kunal Shah and invests $900M in startup",
+      "url": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/"
+    }
+  ]
+}

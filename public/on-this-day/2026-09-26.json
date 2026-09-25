@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1820",
+      "headline": "September 26, 1820: born into scarcity, he became 'the Ocean of Learning' - then used it to fight his own caste."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ishwar Chandra Vidyasagar was born on September 26, 1820, in Birsingha, Bengal",
+      "body": "His family struggled with poverty throughout his childhood. He excelled at Sanskrit College, Calcutta - grammar, Vedanta, literature, astronomy and logic - graduating with honours in 1841, and earning the title 'Vidyasagar,' Ocean of Learning."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually did",
+      "headline": "An orthodox Brahman who legalized widow remarriage and opened doors to lower castes.",
+      "body": "As principal of Sanskrit College from 1851, he promoted English study and admitted students from lower castes - a break from tradition few of his standing risked. He led the campaign that passed the Hindu Widow Remarriage Act of 1856, opposed child marriage and polygamy, and pushed girls' education, all while refining the Bengali alphabet and writing textbooks still used today."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He used his own privilege to dismantle the system that gave it to him.",
+      "body": "A Viksit Bharat by 2047 needs reformers willing to spend their own standing on someone else's rights. Vidyasagar had every reason to protect the old order - he chose to rewrite it instead."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Britannica - Isvar Chandra Vidyasagar",
+      "url": "https://www.britannica.com/biography/Isvar-Chandra-Vidyasagar"
+    },
+    {
+      "text": "Wikipedia - Ishwar Chandra Vidyasagar",
+      "url": "https://en.wikipedia.org/wiki/Ishwar_Chandra_Vidyasagar"
+    }
+  ]
+}
