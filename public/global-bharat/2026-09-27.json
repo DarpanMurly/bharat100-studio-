@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He built an AI company from scratch. Jeff Bezos backed it. Forbes now values him at $2.1 billion."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Aravind Srinivas, co-founder and CEO of Perplexity, is worth $2.1 billion as of September 2026",
+      "body": "Born in Chennai, he holds a Bachelor's and Master's from IIT Madras and a PhD in Computer Science from UC Berkeley, with earlier research stints at OpenAI and Google DeepMind. He co-founded the AI search company Perplexity in August 2022."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "A company that went from a $520 million valuation to $20 billion in under two years.",
+      "body": "Perplexity's valuation climbed from $520 million in January 2024 to $9 billion by December 2024, then $20 billion by late 2025 - backed by investors including Jeff Bezos, Yann LeCun and Google's chief scientist Jeff Dean. The company built its identity around citing sources directly in AI-generated answers, a deliberate bet against black-box search."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "An IIT degree used to be the credential people left India with. It's now the credential investors bet billions on.",
+      "body": "A Viksit Bharat by 2047 needs its own technical education to be recognized as world-class capital, not just a launchpad abroad. Srinivas's IIT Madras training is exactly what the world's biggest investors are now backing at scale."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Forbes - Aravind Srinivas profile",
+      "url": "https://www.forbes.com/profile/aravind-srinivas/"
+    },
+    {
+      "text": "Wikipedia - Aravind Srinivas",
+      "url": "https://en.wikipedia.org/wiki/Aravind_Srinivas"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1932",
+      "headline": "September 27, 1932: born in a city that would soon become another country - he'd go on to define Bollywood romance."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Yash Chopra was born on September 27, 1932, in Lahore, British India",
+      "body": "He started as an assistant director before his own directorial debut in 1959. His 1965 film 'Waqt' became his breakthrough, winning him his first Filmfare Award and instant recognition in an industry he'd spend the next five decades reshaping."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "A production house that still makes Bollywood's biggest films - and a genre he helped invent.",
+      "body": "In 1970, he founded Yash Raj Films, now one of Bollywood's most influential studios. His films with Sridevi and later Shah Rukh Khan - 'Chandni,' 'Dil To Pagal Hai,' 'Veer-Zaara' - shifted Hindi cinema from violence toward romance as a genre in its own right. He won 6 National Film Awards, 8 Filmfare Awards, the Dadasaheb Phalke Award in 2001, the Padma Bhushan in 2005, and in 2006 became the first Indian given lifetime membership by the British Academy of Film and Television Arts."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A studio built from nothing outlived the man who built it - and is still making films today.",
+      "body": "A Viksit Bharat by 2047 needs institutions that survive their founders. Yash Chopra didn't just make movies - he built a company that keeps shaping Indian cinema more than a decade after his death."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Britannica - Yash Chopra",
+      "url": "https://www.britannica.com/biography/Yash-Chopra"
+    },
+    {
+      "text": "Wikipedia - Yash Chopra",
+      "url": "https://en.wikipedia.org/wiki/Yash_Chopra"
+    }
+  ]
+}

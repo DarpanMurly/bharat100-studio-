@@ -1,0 +1,47 @@
+{
+  "id": "anoushka26",
+  "type": "diaspora-dividend",
+  "title": "She's been nominated for a Grammy 13 times. She was the first Indian woman ever nominated for one.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-27",
+  "sources": [
+    "India.com, 2026 - Grammy Nominations 2026: Anoushka Shankar bags two nominations",
+    "Outlook India, 2026 - Anoushka Shankar On Not Attending Grammys 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She took up the sitar at age 8.",
+      "sub": "By 2026, she'd been nominated for a Grammy 13 times."
+    },
+    {
+      "kind": "stat",
+      "text": "Anoushka Shankar earned her 12th and 13th Grammy nominations at the 2026 ceremony, for Best Global Music Album and Best Global Music Performance.",
+      "stat": "13",
+      "statLabel": "career Grammy nominations as of 2026, per India.com",
+      "narration": "Anoushka Shankar earned her twelfth and thirteenth Grammy nominations at the twenty twenty six ceremony, for Best Global Music Album and Best Global Music Performance."
+    },
+    {
+      "kind": "point",
+      "text": "Born in London to sitar legend Ravi Shankar, she performed alongside her father as a teenager until his death in 2012.",
+      "narration": "Born in London to sitar legend Ravi Shankar, she performed alongside her father as a teenager until his death in 2012."
+    },
+    {
+      "kind": "point",
+      "text": "She was the first Indian woman ever nominated for a Grammy, and the first to perform live or present at the ceremony."
+    },
+    {
+      "kind": "closer",
+      "text": "Thirteen nominations, zero wins so far -",
+      "sub": "the instrument her father made famous, still finding new rooms to fill.",
+      "narration": "Thirteen nominations, zero wins so far. The instrument her father made famous, still finding new rooms to fill."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "She took up the sitar at age 8. By 2026, she'd been nominated for a Grammy 13 times.\n\nAnoushka Shankar earned her 12th and 13th Grammy nominations at the 2026 ceremony, for Best Global Music Album ('Chapter III: We Return to Light') and Best Global Music Performance ('Daybreak'). Born in London to sitar legend Ravi Shankar, she performed alongside her father as a teenager until his death in 2012. She was the first Indian woman ever nominated for a Grammy, and the first to perform live or present at the ceremony.\n\nThirteen nominations, zero wins so far - the instrument her father made famous, still finding new rooms to fill.\n\nSources: India.com, Outlook India (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#IndianMusic"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

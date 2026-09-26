@@ -1,0 +1,46 @@
+{
+  "id": "dfc26",
+  "title": "India just finished a 2,843-kilometre railway built to carry nothing but freight",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-27",
+  "sources": [
+    "Free Press Journal, September 2026 - Western Dedicated Freight Corridor Fully Operational, Boosting India's Logistics Network",
+    "Maritime Gateway, September 2026 - PM Modi Completes Western Freight Corridor"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just finished a railway built for one purpose only: cargo.",
+      "sub": "No passengers, no mixed traffic - just freight, moving faster than ever before."
+    },
+    {
+      "kind": "stat",
+      "text": "On September 8, 2026, Prime Minister Modi dedicated the final sections of the Western Dedicated Freight Corridor, making the full network operational.",
+      "stat": "2,843km",
+      "statLabel": "combined length of India's Eastern and Western Dedicated Freight Corridors, per Free Press Journal, September 2026",
+      "narration": "On September eighth, twenty twenty six, Prime Minister Modi dedicated the final sections of the Western Dedicated Freight Corridor, making the full network operational."
+    },
+    {
+      "kind": "point",
+      "text": "The Eastern corridor runs 1,337 km from Ludhiana to Sonnagar; the Western corridor runs 1,506 km from Dadri to Jawaharlal Nehru Port - together, 2,843 km of freight-only track.",
+      "narration": "The Eastern corridor runs from Ludhiana to Sonnagar; the Western corridor runs from Dadri to Jawaharlal Nehru Port - together, 2,843 kilometres of freight-only track."
+    },
+    {
+      "kind": "point",
+      "text": "Days after opening, the Western corridor set a new record: 431 trains interchanged in a single day, breaking its own record from two weeks earlier."
+    },
+    {
+      "kind": "closer",
+      "text": "Cargo used to wait behind passenger trains on the same tracks.",
+      "sub": "Now it has its own railway, built to move at industrial speed.",
+      "narration": "Cargo used to wait behind passenger trains on the same tracks. Now it has its own railway, built to move at industrial speed."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just finished a railway built for one purpose only: cargo. No passengers, no mixed traffic - just freight, moving faster than ever before.\n\nOn September 8, 2026, Prime Minister Modi dedicated the final sections of the Western Dedicated Freight Corridor, making the full network operational - 2,843 km combined across the Eastern corridor (Ludhiana to Sonnagar, 1,337 km) and Western corridor (Dadri to Jawaharlal Nehru Port, 1,506 km). Days after opening, the Western corridor set a new record: 431 trains interchanged in a single day, breaking its own record from two weeks earlier.\n\nCargo used to wait behind passenger trains on the same tracks. Now it has its own railway, built to move at industrial speed.\n\nSources: Free Press Journal, Maritime Gateway (2026)",
+  "hashtags": ["#Bharat100", "#IndianRailways", "#India2047", "#ViksitBharat", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
