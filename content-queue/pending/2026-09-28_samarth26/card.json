@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-28_samarth26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 179,
-  "status": "approved",
+  "status": "scheduled",
   "approvedAt": "2026-09-27T10:51:00.000Z",
   "platforms": [
     "Instagram",
@@ -33,7 +33,11 @@
     "Bluesky",
     "Pinterest"
   ],
-  "bufferPostIds": {},
+  "bufferPostIds": {
+    "Instagram": "6ab921491bf030e330a97541",
+    "X": "6ab9214e36a0dcfcb3d71d6f",
+    "Threads": "6ab9215470ec211d1d1a1ec3"
+  },
   "thumbnailSetOk": true,
   "youtubeVideoId": "cz5pV_A_qlY",
   "youtubeUrl": "https://youtube.com/watch?v=cz5pV_A_qlY",

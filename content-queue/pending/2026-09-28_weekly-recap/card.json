@@ -12,7 +12,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-28_weekly-recap/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 25,
-  "status": "approved",
+  "status": "scheduled",
   "approvedAt": "2026-09-27T10:51:00.000Z",
   "platforms": [
     "Instagram",
@@ -61,7 +61,11 @@
     "2026-09-27_motivational-short",
     "2026-09-27_on-this-day-short"
   ],
-  "bufferPostIds": {},
+  "bufferPostIds": {
+    "Instagram": "6ab9215c612c9e6ac9267f11",
+    "X": "6ab9252d1bf030e330aa2012",
+    "Threads": "6ab9253443493a0ede91afde"
+  },
   "thumbnailSetOk": true,
   "youtubeVideoId": "0i9zporvf7o",
   "youtubeUrl": "https://youtube.com/watch?v=0i9zporvf7o",

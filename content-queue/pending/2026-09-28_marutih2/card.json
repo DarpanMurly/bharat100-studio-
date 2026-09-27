@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-09-28_marutih2/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 171,
-  "status": "approved",
+  "status": "scheduled",
   "approvedAt": "2026-09-27T10:51:00.000Z",
   "platforms": [
     "Instagram",
@@ -33,7 +33,11 @@
     "Bluesky",
     "Pinterest"
   ],
-  "bufferPostIds": {},
+  "bufferPostIds": {
+    "Instagram": "6ab9211843493a0ede90da74",
+    "X": "6ab9211d70ec211d1d1a1a6a",
+    "Threads": "6ab9212343493a0ede90db56"
+  },
   "thumbnailSetOk": true,
   "youtubeVideoId": "MzwUX5edulc",
   "youtubeUrl": "https://youtube.com/watch?v=MzwUX5edulc",
