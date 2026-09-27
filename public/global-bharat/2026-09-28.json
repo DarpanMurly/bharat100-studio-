@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He spent years measuring how the Indian Ocean is warming. The world's largest Earth science society just gave him its top communications honor."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Roxy Mathew Koll, a climate scientist at the Indian Institute of Tropical Meteorology, Pune, won the American Geophysical Union's 2026 Climate Communications Prize",
+      "body": "The AGU is the world's largest Earth and space science society, and the prize - named for Pavel S. Molchanov - is one of only 43 AGU honors awarded globally in 2026. It comes with a $25,000 award and will be presented at AGU's annual meeting in San Francisco this December."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually did",
+      "headline": "Documented how a warming Indian Ocean is reshaping monsoons, cyclones and marine heatwaves across South Asia.",
+      "body": "Koll's research tracked the Indian Ocean's warming trend and its downstream effects - shifting monsoon patterns, intensifying cyclones, and more frequent marine heatwaves - work that directly informs how India and its neighbors plan for climate risk. A second Indian scientist, Neelima Satyam of IIT-Indore, was named in the same 2026 AGU cohort for the Devendra Lal Memorial Medal."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Climate risk is now a data problem India is helping solve, not just absorb.",
+      "body": "A Viksit Bharat by 2047 has to be built with clear eyes about a warming ocean on its doorstep. Recognition like this signals Indian climate science isn't just documenting the problem - it's setting the terms the rest of the world uses to talk about it."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Deccan Chronicle - Indian scientists among AGU 2026 awardees",
+      "url": "https://www.deccanchronicle.com/science/indian-scientists-roxy-koll-neelima-satyam-among-agu-2026-awardees-1990434"
+    },
+    {
+      "text": "ETV Bharat - Indian scientists among AGU 2026 awardees",
+      "url": "https://www.etvbharat.com/en/international/indian-scientists-among-american-geophysical-union-2026-awardees-enn26092502028"
+    }
+  ]
+}

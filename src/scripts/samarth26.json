@@ -1,0 +1,47 @@
+{
+  "id": "samarth26",
+  "type": "diaspora-dividend",
+  "title": "He left IIT Bombay for a PhD in America. In 2026, one of the world's oldest honor societies inducted him.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-28",
+  "sources": [
+    "Penn State News, 2026 - Physicist Nitin Samarth elected to American Academy of Arts and Sciences",
+    "American Academy of Arts and Sciences - 2026 New Members list"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He left IIT Bombay for a physics PhD in America.",
+      "sub": "In 2026, he was elected to a society founded in 1780."
+    },
+    {
+      "kind": "stat",
+      "text": "Nitin Samarth was elected to the American Academy of Arts and Sciences' 2026 class, in its Mathematical and Physical Sciences section.",
+      "stat": "1780",
+      "statLabel": "the year the American Academy of Arts and Sciences was founded, per its own 2026 new member announcement",
+      "narration": "Nitin Samarth was elected to the American Academy of Arts and Sciences' twenty twenty six class, in its Mathematical and Physical Sciences section."
+    },
+    {
+      "kind": "point",
+      "text": "He holds the Verne M. Willaman Professorship of Physics at Penn State, and has published roughly 300 papers on spin coherence in semiconductors and topological insulators, per Penn State's announcement.",
+      "narration": "He holds the Verne M. Willaman Professorship of Physics at Penn State, and has published roughly three hundred papers on spin coherence in semiconductors and topological insulators."
+    },
+    {
+      "kind": "point",
+      "text": "His path ran from a B.S. at IIT Bombay in 1980, to a PhD at Purdue, to leading Penn State's Physics Department for over a decade."
+    },
+    {
+      "kind": "closer",
+      "text": "One of America's oldest honor societies just recognized",
+      "sub": "a physics career that started with an IIT Bombay degree.",
+      "narration": "One of America's oldest honor societies just recognized a physics career that started with an IIT Bombay degree."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He left IIT Bombay for a physics PhD in America. In 2026, he was elected to a society founded in 1780.\n\nNitin Samarth was elected to the American Academy of Arts and Sciences' 2026 class, in its Mathematical and Physical Sciences section. He holds the Verne M. Willaman Professorship of Physics at Penn State, and has published roughly 300 papers on spin coherence in semiconductors and topological insulators, per Penn State's announcement. His path ran from a B.S. at IIT Bombay in 1980, to a PhD at Purdue, to leading Penn State's Physics Department for over a decade.\n\nOne of America's oldest honor societies just recognized a physics career that started with an IIT Bombay degree.\n\nSources: Penn State News, American Academy of Arts and Sciences (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#IndianScience"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

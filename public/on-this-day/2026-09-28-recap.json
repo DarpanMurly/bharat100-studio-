@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Sep 21",
+      "headline": "5 stories.",
+      "listItems": [
+        "Ten Indians. One 246-year-old American academy. Same year.",
+        "2026: An Indian-origin engineer is about to run Adobe for the second time in a row.",
+        "She lost her sight in childhood. Two decades later, she became the officer running the show.",
+        "September 21, 1994: India lost the industrialist who called himself \"Gandhi's coolie\" - and left behind a blueprint for honest business.",
+        "For decades, India's best researchers left and rarely came back. In June 2026, the government put ₹200 crore on the table to reverse that."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Sep 22",
+      "headline": "5 stories.",
+      "listItems": [
+        "2026: An Indian-origin executive with zero gaming experience now runs Xbox.",
+        "She was born without arms. At 17, she became the best archer on Earth.",
+        "September 22, 1991: India lost the widow who broke a taboo and reshaped who could act on screen.",
+        "He began his career as an engineer in a refrigerator factory. In 2026, he won one of science's most prestigious prizes - for changing how the world understands climate change.",
+        "India just launched its first fully indigenous ocean research vessel - built to work in six kilometres of water, in the roughest seas on the planet."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Sep 23",
+      "headline": "5 stories.",
+      "listItems": [
+        "Most bone grafts used in India are still imported. A Maharashtra company just got government backing to 3D-print them here instead.",
+        "He already holds India's highest literary honor. In April 2026, America gave him one of its own.",
+        "A US visa rejection couldn't stop him. NASA came looking for him instead.",
+        "Married at 16 to escape poverty. Today she's the state's first woman joint director.",
+        "September 23, 1908: India's \"National Poet\" was born to a farmer in rural Bihar."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Sep 24",
+      "headline": "5 stories.",
+      "listItems": [
+        "Making green hydrogen usually needs platinum or iridium. Both are rare, expensive and mostly imported. Indian scientists just found a way around both.",
+        "Her research has been cited 27,000 times by peers worldwide. In 2026, one of science's oldest honors finally caught up.",
+        "205 unicorns overseas have an Indian-origin founder. Together, they're worth $560 billion.",
+        "Her friends pooled ₹40,000 so she could travel to Delhi. She came back Kerala's first tribal woman IAS officer.",
+        "September 24, 1940: born to a swimmer who'd cross the English Channel before anyone in Asia."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Sep 25",
+      "headline": "5 stories.",
+      "listItems": [
+        "In 1995, she coined a term that changed how psychology understands prejudice. In 2026, the US named her one of its Great Immigrants for it.",
+        "She moved to America at 20 with $200. Now she's building the world's longest-range electric boat.",
+        "Indian Railways just commissioned its most advanced anti-collision system yet. It applies the brakes automatically - before a human even reacts.",
+        "She lost her father to cancer at one, dropped out after Class 10 and was married at 19. Now she earns ₹50 lakh a year - and trains 15,000 farmers for free.",
+        "September 25, 1920: the man India's own spaceport would later be named after was born."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Sep 26",
+      "headline": "5 stories.",
+      "listItems": [
+        "Most Indian farmers can't afford their own drone. So the government's plan skips ownership entirely - and shares it instead.",
+        "An Indian fintech founder now runs the app 3 billion people use to talk to each other.",
+        "A medical mistake took her sight as an infant. She spent her life giving 200 other blind people their independence back.",
+        "September 26, 1820: born into scarcity, he became 'the Ocean of Learning' - then used it to fight his own caste.",
+        "He wanted to know why India's small-town councils keep underperforming. The answer won him one of political science's most prestigious awards."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Sep 27",
+      "headline": "5 stories.",
+      "listItems": [
+        "She took up the sitar at age 8. By 2026, she'd been nominated for a Grammy 13 times.",
+        "India just finished a railway built for one purpose only: cargo. No passengers, no mixed traffic - just freight, moving faster than ever before.",
+        "He built an AI company from scratch. Jeff Bezos backed it. Forbes now values him at $2.1 billion.",
+        "He sold his own auto-rickshaw to afford a trip to the national championships. This year, he won India its first medal at the Commonwealth Games.",
+        "September 27, 1932: born in a city that would soon become another country - he'd go on to define Bollywood romance."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}

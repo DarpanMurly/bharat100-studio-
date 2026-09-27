@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1929",
+      "headline": "September 28, 1929: a voice was born in Indore that would become the soundtrack of a nation."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Lata Mangeshkar was born on September 28, 1929, in Indore, British India",
+      "body": "She began playback singing in the 1940s, and by the time of the 1962 war with China, her rendition of 'Ae Mere Watan Ke Logo' had become a de facto anthem - performed for the nation, with Jawaharlal Nehru reportedly moved to tears in the audience."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually built",
+      "headline": "Over 2,000 film songs across 8 decades - and a voice every generation of India grew up on.",
+      "body": "Known as the 'Swar Kokila' (Nightingale of India), she recorded playback vocals in Hindi and regional languages from the 1940s until shortly before her death in 2022, spanning nearly the entire arc of independent India's cultural life. She received the Bharat Ratna in 2001, India's highest civilian honor, along with the Padma Vibhushan and the Dadasaheb Phalke Award."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A voice that outlasted every era it sang through - proof culture can be the connective tissue of a growing nation.",
+      "body": "A Viksit Bharat by 2047 isn't only built in factories and labs - it's built in the shared culture that holds a billion people together across generations. Lata Mangeshkar's voice did that for over 80 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Lata Mangeshkar",
+      "url": "https://en.wikipedia.org/wiki/Lata_Mangeshkar"
+    },
+    {
+      "text": "Britannica - Lata Mangeshkar",
+      "url": "https://www.britannica.com/biography/Lata-Mangeshkar"
+    }
+  ]
+}

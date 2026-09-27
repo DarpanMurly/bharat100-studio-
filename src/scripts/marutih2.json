@@ -1,0 +1,46 @@
+{
+  "id": "marutih2",
+  "title": "Maruti Suzuki just started making its own hydrogen - from power it used to waste",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-28",
+  "sources": [
+    "Renewable Watch, September 2026 - Maruti Suzuki commissions green hydrogen plant in Haryana",
+    "Bioenergy Times, September 2026 - Maruti Suzuki commissions first green hydrogen plant at Manesar with 300 kW capacity"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Maruti Suzuki just started making its own hydrogen.",
+      "sub": "From solar power the factory used to simply waste."
+    },
+    {
+      "kind": "stat",
+      "text": "On September 24, 2026, Maruti Suzuki commissioned its first green hydrogen electrolyser plant, at its Manesar factory in Haryana.",
+      "stat": "300kW",
+      "statLabel": "capacity of Maruti Suzuki's new green hydrogen electrolyser at Manesar, per Renewable Watch, September 2026",
+      "narration": "On September twenty fourth, twenty twenty six, Maruti Suzuki commissioned its first green hydrogen electrolyser plant, at its Manesar factory in Haryana."
+    },
+    {
+      "kind": "point",
+      "text": "The plant uses surplus solar power generated on factory holidays - power that would otherwise go unused - to split water into hydrogen, which is then blended with natural gas as manufacturing fuel.",
+      "narration": "The plant uses surplus solar power generated on factory holidays, power that would otherwise go unused, to split water into hydrogen, which is then blended with natural gas as manufacturing fuel."
+    },
+    {
+      "kind": "point",
+      "text": "The pilot supports India's National Green Hydrogen Mission, and Maruti Suzuki plans to scale the approach to other plants in Haryana and Gujarat."
+    },
+    {
+      "kind": "closer",
+      "text": "Wasted power, turned into fuel -",
+      "sub": "one factory's pilot for how Indian manufacturing decarbonizes at scale.",
+      "narration": "Wasted power, turned into fuel. One factory's pilot for how Indian manufacturing decarbonizes at scale."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Maruti Suzuki just started making its own hydrogen. From solar power the factory used to simply waste.\n\nOn September 24, 2026, Maruti Suzuki commissioned its first green hydrogen electrolyser plant, at its Manesar factory in Haryana - a 300 kW facility that uses surplus solar power generated on factory holidays to split water into hydrogen, then blends it with natural gas as manufacturing fuel. The pilot supports India's National Green Hydrogen Mission, and the company plans to scale the approach to other plants in Haryana and Gujarat.\n\nWasted power, turned into fuel - one factory's pilot for how Indian manufacturing decarbonizes at scale.\n\nSources: Renewable Watch, Bioenergy Times (2026)",
+  "hashtags": ["#Bharat100", "#GreenHydrogen", "#India2047", "#ViksitBharat", "#Manufacturing"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
