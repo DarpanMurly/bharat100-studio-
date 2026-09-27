@@ -22,7 +22,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { uploadToCloudinary } from "./cloudinary-upload.mjs";
-import { queuePost } from "./buffer-publish.mjs";
+import { queuePostVerified } from "./buffer-publish.mjs";
 import { X_PUBLISHING_PAUSED } from "./publish-to-buffer.mjs";
 import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 
@@ -243,7 +243,7 @@ async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferId
   const dueAt = new Date(intendedDueAt) > new Date()
     ? intendedDueAt
     : new Date(Date.now() + 10 * 60 * 1000).toISOString();
-  const post = await queuePost(platformKey, text, media, { dueAt });
+  const post = await queuePostVerified(platformKey, text, media, { dueAt });
   card.bufferPostIds = { ...(card.bufferPostIds ?? {}), [platformLabel]: post.id };
 
   // Flip status back to "scheduled" once every Buffer platform this card

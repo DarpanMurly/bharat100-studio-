@@ -131,3 +131,49 @@ export async function queuePost(platform, text, media = {}, options = {}) {
   }
   return result.post;
 }
+
+const POST_EXISTS_QUERY = `
+  query Post($id: PostId!) {
+    post(input: { id: $id }) { id }
+  }
+`;
+
+// Confirmed 2026-09-27: createPost's mutation can return
+// PostActionSuccess with a real-looking id for a post that never
+// actually gets created on Buffer's side (found across 11 posts,
+// Instagram/Threads/X, Sep 22-26) — the mutation response alone is not
+// a reliable success signal. Always confirm with a follow-up read.
+//
+// CRITICAL: a rate limit is NOT "not found." A same-session incident
+// (2026-09-27) proved a rapid, unpaced sweep of many ids can itself
+// trip Buffer's RATE_LIMIT_EXCEEDED mid-sweep, and every subsequent
+// call in that sweep threw — if that throw is swallowed into "false"
+// here, it reads as a wave of ghosts that were never actually ghosts.
+// Re-throw rate-limit errors so the caller can stop and report instead
+// of silently mis-recording them as missing posts.
+export async function verifyPostExists(id) {
+  try {
+    const data = await graphql(POST_EXISTS_QUERY, { id });
+    return !!data?.post?.id;
+  } catch (err) {
+    if (String(err.message).includes("RATE_LIMIT_EXCEEDED")) throw err;
+    // A genuine GraphQL error for this id (e.g. "not found") means the
+    // post really isn't there.
+    return false;
+  }
+}
+
+/**
+ * Same as queuePost, but confirms the returned id actually resolves on
+ * Buffer before trusting it, retrying the mutation once on a ghost.
+ * Throws if the post is still a ghost after the retry.
+ */
+export async function queuePostVerified(platform, text, media = {}, options = {}) {
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const post = await queuePost(platform, text, media, options);
+    await new Promise((r) => setTimeout(r, 800));
+    if (await verifyPostExists(post.id)) return post;
+    console.error(`  ${platform}: queuePost returned a ghost id (${post.id})${attempt === 1 ? ", retrying once..." : ""}`);
+  }
+  throw new Error(`Buffer error: post was queued but never actually created (ghost id) on ${platform}, after retry`);
+}

@@ -8,7 +8,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { uploadToCloudinary } from "./cloudinary-upload.mjs";
-import { queuePost } from "./buffer-publish.mjs";
+import { queuePostVerified } from "./buffer-publish.mjs";
 import { SLOT_HOURS_IST, nextSlotUtc } from "./slots.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -157,7 +157,7 @@ async function main() {
 
     console.log(`  Scheduling on ${platformLabel}...`);
     try {
-      const post = await queuePost(platformKey, text, media, { dueAt });
+      const post = await queuePostVerified(platformKey, text, media, { dueAt });
       results[platformLabel] = post.id;
     } catch (err) {
       console.error(`  ${platformLabel} FAILED: ${err.message ?? err}`);

@@ -94,6 +94,7 @@ async function main() {
     { name: "Missed days (5-pillar batches + WordPress digest)", script: "check-missed-days.mjs", lookbackArg: true },
     { name: "Cross-platform coverage (all 8 platforms + WordPress)", script: "check-platform-coverage.mjs", lookbackArg: true },
     { name: "Weekly package cadence (Substack/Medium/WordPress weekly/recap video)", script: "check-weekly-cadence.mjs", lookbackArg: false },
+    { name: "Buffer ghost posts (recorded ids that don't actually exist)", script: "check-buffer-ghosts.mjs", lookbackArg: true },
     { name: "Website accuracy (live site vs. archive-data.json)", script: "check-website-accuracy.mjs", lookbackArg: true, fullArchiveArg: "all" },
   ];
 
