@@ -259,6 +259,20 @@ async function retryPlatform(dir, cardPath, card, platformLabel, erroredBufferId
   const allPresent = requiredBufferPlatforms.every((p) => card.bufferPostIds[p]);
   if (allPresent) {
     card.status = "scheduled";
+    // Real gap found 2026-09-28: this script never set card.scheduledAt,
+    // which publish-to-buffer.mjs only sets on a first-try, all-succeed
+    // run. When Buffer's daily quota exhaustion forced every Sept 28
+    // pillar through this retry path instead, scheduledAt stayed
+    // permanently unset — and bluesky-slot-runner.mjs reads
+    // card.scheduledAt first, falling back to a freshly-computed
+    // nextSlotUtc() only when it's missing. That fallback recomputes a
+    // NEW future slot every run instead of the real original slot, so
+    // Bluesky silently never posted for any of that day's 6 pillars.
+    // Only set it if still missing — never overwrite a real original
+    // slot time that publish-to-buffer.mjs already recorded.
+    if (!card.scheduledAt) {
+      card.scheduledAt = dueAt;
+    }
   }
 
   await fs.writeFile(cardPath, JSON.stringify(card, null, 2), "utf-8");
