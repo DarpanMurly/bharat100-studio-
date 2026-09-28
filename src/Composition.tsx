@@ -56,6 +56,8 @@ import jainwolf26 from "./scripts/jainwolf26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import kavach26 from "./scripts/kavach26.json";
 import kewalramani26 from "./scripts/kewalramani26.json";
+import kochhar26 from "./scripts/kochhar26.json";
+import lamresearch26 from "./scripts/lamresearch26.json";
 import marutih2 from "./scripts/marutih2.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
@@ -111,6 +113,8 @@ const scriptRegistry: Record<string, VideoScript> = {
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "kavach26": kavach26 as VideoScript,
   "kewalramani26": kewalramani26 as VideoScript,
+  "kochhar26": kochhar26 as VideoScript,
+  "lamresearch26": lamresearch26 as VideoScript,
   "marutih2": marutih2 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,

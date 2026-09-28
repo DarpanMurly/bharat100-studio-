@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1997",
+      "headline": "September 29, 1997: India launched its own rocket, carrying its own satellite, for the first time."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "PSLV-C1 lifted off from Sriharikota on September 29, 1997, carrying the IRS-1D satellite",
+      "body": "It was the first operational flight of the Polar Satellite Launch Vehicle - India's own launch vehicle, developed without relying on another country for its critical stages. A helium leak left IRS-1D in a lower, elliptical orbit than planned, not the intended outcome, but the satellite reached space under Indian power."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it actually proved",
+      "headline": "A satellite that should have struggled kept working for over 12 years.",
+      "body": "IRS-1D, India's fourth Indian Remote Sensing satellite, was designed for a shorter mission but stayed operational until January 2010 - more than a decade past its design life - carrying imaging payloads that became a mainstay of India's earth observation capability. PSLV itself went on to become one of the most reliable launch vehicles in the world."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A rocket that didn't go perfectly still built the foundation for everything that came after.",
+      "body": "A Viksit Bharat by 2047 needs the ability to put its own hardware into space on its own terms. PSLV-C1's imperfect first flight is exactly where that ability started - and PSLV has since launched satellites for dozens of countries."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - PSLV-C1",
+      "url": "https://en.wikipedia.org/wiki/PSLV-C1"
+    },
+    {
+      "text": "ISRO - PSLV-C1 / IRS-1D",
+      "url": "https://www.isro.gov.in/launcher/pslv-c1-irs-1d"
+    }
+  ]
+}

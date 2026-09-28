@@ -1,0 +1,47 @@
+{
+  "id": "kochhar26",
+  "type": "diaspora-dividend",
+  "title": "His father emigrated from Punjab to study at this college in 1946. In 2026, his son paid off its graduating class's loans.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-29",
+  "sources": [
+    "Fortune, May 2026 - NC State student loan debt paid off by Anil Kochhar",
+    "Indian Eagle TravelBeats, May 2026 - Anil Kochhar's gift for NC State University graduates"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "His father emigrated from Punjab to study at this college in 1946.",
+      "sub": "In 2026, his son paid off its entire graduating class's loans."
+    },
+    {
+      "kind": "stat",
+      "text": "At NC State's Wilson College of Textiles commencement on May 8, 2026, Anil Kochhar and his wife Marilyn surprised graduates by paying off the final-year loans of the whole 2025-26 class.",
+      "stat": "202",
+      "statLabel": "graduates whose final-year loans were paid off - 176 bachelor's and 26 master's recipients, per Fortune, May 2026",
+      "narration": "At N C State's Wilson College of Textiles commencement on May eighth, twenty twenty six, Anil Kochhar and his wife Marilyn surprised graduates by paying off the final-year loans of the whole twenty twenty five to twenty six class."
+    },
+    {
+      "kind": "point",
+      "text": "Kochhar's father, Prakash Chand Kochhar, emigrated from Punjab, India to Raleigh in 1946 to study textile manufacturing at the same college, earning degrees there in 1950 and 1952.",
+      "narration": "Kochhar's father, Prakash Chand Kochhar, emigrated from Punjab, India to Raleigh in nineteen forty-six to study textile manufacturing at the same college, earning degrees there in nineteen fifty and nineteen fifty-two."
+    },
+    {
+      "kind": "point",
+      "text": "Anil Kochhar is co-founder and former vice chairman of Outcomes Health Information Solutions, a healthcare technology company."
+    },
+    {
+      "kind": "closer",
+      "text": "Eighty years after his father arrived as a student,",
+      "sub": "his son paid the debt off for 202 more.",
+      "narration": "Eighty years after his father arrived as a student, his son paid the debt off for two hundred and two more."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "His father emigrated from Punjab to study at this college in 1946. In 2026, his son paid off its entire graduating class's loans.\n\nAt NC State's Wilson College of Textiles commencement on May 8, 2026, Anil Kochhar and his wife Marilyn surprised graduates by paying off the final-year loans of the whole 2025-26 class - 176 bachelor's and 26 master's recipients. Kochhar's father, Prakash Chand Kochhar, emigrated from Punjab, India to Raleigh in 1946 to study textile manufacturing at the same college, earning degrees there in 1950 and 1952. Anil Kochhar is co-founder and former vice chairman of Outcomes Health Information Solutions, a healthcare technology company.\n\nEighty years after his father arrived as a student, his son paid the debt off for 202 more.\n\nSources: Fortune, Indian Eagle TravelBeats (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Philanthropy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}

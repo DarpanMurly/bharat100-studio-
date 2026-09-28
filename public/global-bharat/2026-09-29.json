@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He's scored more ODI centuries than anyone in history. On September 27, he broke his own record again."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Virat Kohli scored an unbeaten 139 against West Indies on September 27, 2026, for his 55th ODI century",
+      "body": "Batting in the series opener at Thiruvananthapuram, Kohli made 139 not out off 88 balls, with his century arriving off just 74 balls - the third-fastest of his career. India chased down West Indies' total to win by 8 wickets."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The record behind it",
+      "headline": "He now has 55 ODI centuries. The next closest player, Sachin Tendulkar, has 49.",
+      "body": "In the same innings, Kohli passed 15,000 career ODI runs - becoming only the second batter after Tendulkar to reach the mark, and doing it in fewer innings than anyone before him. No other active player is within reach of either record."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "One player has now rewritten the record book twice in the same innings, in his 17th year of international cricket.",
+      "body": "A Viksit Bharat by 2047 is partly a story about sustained excellence, not just single breakthroughs. Kohli's record isn't one great innings - it's over a decade and a half of them, still adding up."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Sky Sports - Virat Kohli joins Sachin Tendulkar in passing 15,000 ODI runs as his 55th ton fires India to victory",
+      "url": "https://www.skysports.com/cricket/news/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15-000-odi-runs-as-his-55th-ton-fires-india-to-victory"
+    },
+    {
+      "text": "Outlook India - India vs West Indies 1st ODI 2026: Virat Kohli century",
+      "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-1st-odi-2026-virat-kohli-century"
+    }
+  ]
+}

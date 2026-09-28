@@ -1,0 +1,46 @@
+{
+  "id": "lamresearch26",
+  "title": "A US chip-equipment giant just committed 10,000 crore rupees to India - for silicon nobody's made here before",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-29",
+  "sources": [
+    "The Hans India, September 2026 - Lam Research to invest Rs 10,000 crore for silicon component manufacturing facility in India",
+    "Analytics India Magazine, September 2026 - Lam Research to invest Rs 10,000 cr in India for silicon manufacturing"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US chip-equipment giant just committed 10,000 crore rupees to India.",
+      "sub": "For a kind of silicon manufacturing nobody's done here before."
+    },
+    {
+      "kind": "stat",
+      "text": "On September 16, 2026, Lam Research announced it will build India's first silicon component manufacturing facility, backing a vertically integrated process from silicon ingots onward.",
+      "stat": "Rs 10,000cr",
+      "statLabel": "Lam Research's committed investment for its India silicon facility, per The Hans India, September 2026",
+      "narration": "On September sixteenth, twenty twenty six, Lam Research announced it will build India's first silicon component manufacturing facility, backing a vertically integrated process from silicon ingots onward."
+    },
+    {
+      "kind": "point",
+      "text": "The facility will support advanced semiconductor technologies, including leading-edge nodes, and builds on Lam Research's 25-year presence in India.",
+      "narration": "The facility will support advanced semiconductor technologies, including leading-edge nodes, and builds on Lam Research's twenty-five year presence in India."
+    },
+    {
+      "kind": "point",
+      "text": "Alongside the plant, Lam Research is partnering with the Indian Institute of Science and India's Semiconductor Mission to train up to 60,000 students through its Semiverse platform."
+    },
+    {
+      "kind": "closer",
+      "text": "India already assembles chips.",
+      "sub": "This is a bet on India making the raw silicon itself.",
+      "narration": "India already assembles chips. This is a bet on India making the raw silicon itself."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A US chip-equipment giant just committed 10,000 crore rupees to India. For a kind of silicon manufacturing nobody's done here before.\n\nOn September 16, 2026, Lam Research announced it will build India's first silicon component manufacturing facility, backing a vertically integrated process from silicon ingots onward, supporting advanced semiconductor technologies including leading-edge nodes. It builds on the company's 25-year presence in India. Alongside the plant, Lam Research is partnering with the Indian Institute of Science and India's Semiconductor Mission to train up to 60,000 students through its Semiverse platform.\n\nIndia already assembles chips. This is a bet on India making the raw silicon itself.\n\nSources: The Hans India, Analytics India Magazine (2026)",
+  "hashtags": ["#Bharat100", "#Semiconductors", "#India2047", "#ViksitBharat", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"]
+}
