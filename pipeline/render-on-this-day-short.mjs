@@ -220,7 +220,13 @@ async function main() {
     thumbnailFile: "thumbnail.jpg",
     thumbnailFrame,
     status: "pending",
-    platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
+    // Pinterest dropped from the default lineup 2026-09-29 per explicit
+    // user instruction, after Pinterest rejected the Standard-access
+    // request (demo video didn't clearly show the OAuth flow/integration)
+    // — the account has been stuck on Trial access since 2026-09-08,
+    // meaning every attempted pin failed anyway. Re-add only if the user
+    // brings Pinterest back into scope.
+    platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"],
   };
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 

@@ -105,7 +105,12 @@ async function main() {
     thumbnailFile: "thumbnail.jpg",
     thumbnailFrame,
     status: "pending",
-    platforms: script.platforms ?? ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
+    // Pinterest dropped from the fallback default 2026-09-29 per explicit
+    // user instruction — see render-on-this-day-short.mjs's identical
+    // comment for the reason. A script's own explicit script.platforms
+    // (if set) still wins either way — this only changes what's used when
+    // a script doesn't specify platforms itself.
+    platforms: script.platforms ?? ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"],
   };
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 

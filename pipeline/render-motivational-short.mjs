@@ -116,7 +116,9 @@ async function main() {
     thumbnailFile: "thumbnail.jpg",
     thumbnailFrame,
     status: "pending",
-    platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky", "Pinterest"],
+    // Pinterest dropped 2026-09-29 per explicit user instruction — see
+    // render-on-this-day-short.mjs's identical comment for the reason.
+    platforms: ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"],
   };
   await fs.writeFile(path.join(queueDir, "card.json"), JSON.stringify(card, null, 2), "utf-8");
 
