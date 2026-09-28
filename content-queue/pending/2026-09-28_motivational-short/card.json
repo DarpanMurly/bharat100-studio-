@@ -40,5 +40,9 @@
   "facebookFirstCommentId": "1623645816070004_2164013740819353",
   "scheduledAt": "2026-09-28T02:30:00.000Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mwls76c4sa2r",
-  "blueskyPostedAt": "2026-09-28T17:03:07.667Z"
+  "blueskyPostedAt": "2026-09-28T17:03:07.667Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/Dd0HYgnDJUr/",
+    "Threads": "https://www.threads.com/@bharatat100/post/Dd0HYe7lBTT"
+  }
 }
