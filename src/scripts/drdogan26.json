@@ -1,0 +1,46 @@
+{
+  "id": "drdogan26",
+  "title": "India just built a chip that runs 300 times faster than the silicon in most electronics",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-30",
+  "sources": [
+    "ANI/Ministry of Defence, September 2026 - DRDO implements indigenous advanced technology for next-generation radars, electronic warfare systems",
+    "Free Press Journal, September 2026 - India's DRDO achieves major breakthrough in homegrown chip tech for radars, electronic warfare"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just built a chip that runs 300 times faster than the silicon in most electronics.",
+      "sub": "It's smaller than a fingernail."
+    },
+    {
+      "kind": "stat",
+      "text": "DRDO's Solid State Physics Laboratory has indigenously developed Gallium Nitride semiconductor chips for next-generation radar and electronic warfare systems.",
+      "stat": "3.5x3mm",
+      "statLabel": "size of DRDO's indigenous GaN chip, delivering up to 30 watts at roughly 300 times the speed of comparable silicon chips, per Ministry of Defence, September 2026",
+      "narration": "DRDO's Solid State Physics Laboratory has indigenously developed Gallium Nitride semiconductor chips for next-generation radar and electronic warfare systems."
+    },
+    {
+      "kind": "point",
+      "text": "The lab fabricated X-band Monolithic Microwave Integrated Circuits and S-band GaN power amplifiers, built on indigenously grown 4-inch Silicon Carbide wafers - with some components delivering up to 150 watts.",
+      "narration": "The lab fabricated X-band Monolithic Microwave Integrated Circuits and S-band GaN power amplifiers, built on indigenously grown four-inch Silicon Carbide wafers, with some components delivering up to one hundred fifty watts."
+    },
+    {
+      "kind": "point",
+      "text": "Limited production capability has already been set up at GAETEC, Hyderabad, targeting strategic defense systems, space and aerospace, and 5G and satellite communications."
+    },
+    {
+      "kind": "closer",
+      "text": "This isn't a chip India assembled.",
+      "sub": "It's one India grew, from the wafer up.",
+      "narration": "This isn't a chip India assembled. It's one India grew, from the wafer up."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just built a chip that runs 300 times faster than the silicon in most electronics. It's smaller than a fingernail.\n\nDRDO's Solid State Physics Laboratory has indigenously developed Gallium Nitride semiconductor chips for next-generation radar and electronic warfare systems - a 3.5x3mm chip delivering up to 30 watts. The lab fabricated X-band Monolithic Microwave Integrated Circuits and S-band GaN power amplifiers, built on indigenously grown 4-inch Silicon Carbide wafers, with some components delivering up to 150 watts. Limited production capability has already been set up at GAETEC, Hyderabad, targeting strategic defense systems, space and aerospace, and 5G and satellite communications.\n\nThis isn't a chip India assembled. It's one India grew, from the wafer up.\n\nSources: Ministry of Defence via ANI, Free Press Journal (2026)",
+  "hashtags": ["#Bharat100", "#Semiconductors", "#India2047", "#DRDO", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

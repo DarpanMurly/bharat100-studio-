@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He led a database company for less than a year. Then Mark Zuckerberg created a role for him at Meta - reporting directly to him."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Chirantan 'CJ' Desai stepped down as President and CEO of MongoDB on September 28, 2026, to join Meta",
+      "body": "Meta named him Chief Enterprise Platform Officer, a newly created role heading a division focused on turning Meta's AI capabilities into products for developers and businesses. Desai reports directly to CEO Mark Zuckerberg."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built before this",
+      "headline": "He grew one company's revenue from $1.5 billion to over $10 billion - then did it again elsewhere.",
+      "body": "Before MongoDB, Desai spent nearly 8 years at ServiceNow, rising to President and COO and overseeing growth from $1.5 billion to over $10 billion in annualized revenue. He later led Product & Engineering at Cloudflare before taking the MongoDB CEO role in November 2025."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "One of the world's largest tech companies just built an entire new division around one executive's track record.",
+      "body": "A Viksit Bharat by 2047 needs its technical leaders trusted with exactly this kind of authority - not just running a team, but defining what a company's next division even looks like."
+    }
+  ],
+  "sources": [
+    {
+      "text": "CNBC - MongoDB's CEO steps down for senior role at Meta",
+      "url": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html"
+    },
+    {
+      "text": "ThePrint - Who is Chirantan 'CJ' Desai, Meta's new enterprise executive",
+      "url": "https://theprint.in/theprint-essential/who-is-chirantan-cj-desai-metas-new-enterprise-executive/3057045/"
+    }
+  ]
+}

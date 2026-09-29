@@ -1,0 +1,47 @@
+{
+  "id": "menon26",
+  "type": "diaspora-dividend",
+  "title": "His father is from Kerala. His mother is from Ukraine. In July 2026, he launched to the International Space Station.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-09-30",
+  "sources": [
+    "NASA.gov, July 2026 - NASA Astronaut Anil Menon, Crewmates Arrive at Space Station",
+    "Space.com, July 2026 - Soyuz MS-29 astronaut launch to International Space Station"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "His father is from Kerala. His mother is from Ukraine.",
+      "sub": "In July 2026, he launched to the International Space Station."
+    },
+    {
+      "kind": "stat",
+      "text": "NASA astronaut Anil Menon launched on his first spaceflight aboard Soyuz MS-29 on July 14, 2026, from Baikonur Cosmodrome, for an approximately 8-month mission.",
+      "stat": "8 months",
+      "statLabel": "length of Anil Menon's first ISS mission, per NASA's own July 2026 mission announcement",
+      "narration": "NASA astronaut Anil Menon launched on his first spaceflight aboard Soyuz M S twenty nine on July fourteenth, twenty twenty six, from Baikonur Cosmodrome, for an approximately eight-month mission."
+    },
+    {
+      "kind": "point",
+      "text": "Before becoming an astronaut, Menon spent years as a NASA flight surgeon and was SpaceX's first flight surgeon and medical director. He is also a colonel in the US Space Force and an emergency medicine physician.",
+      "narration": "Before becoming an astronaut, Menon spent years as a NASA flight surgeon and was SpaceX's first flight surgeon and medical director. He is also a colonel in the US Space Force and an emergency medicine physician."
+    },
+    {
+      "kind": "point",
+      "text": "He was born in Minneapolis to a father who immigrated from Ottapalam, in Kerala's Palakkad district, and a mother who immigrated from Ukraine."
+    },
+    {
+      "kind": "closer",
+      "text": "A flight surgeon who treated astronauts for years",
+      "sub": "is now one himself, 250 miles above Earth.",
+      "narration": "A flight surgeon who treated astronauts for years is now one himself, two hundred fifty miles above Earth."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "His father is from Kerala. His mother is from Ukraine. In July 2026, he launched to the International Space Station.\n\nNASA astronaut Anil Menon launched on his first spaceflight aboard Soyuz MS-29 on July 14, 2026, from Baikonur Cosmodrome, for an approximately 8-month mission. Before becoming an astronaut, Menon spent years as a NASA flight surgeon and was SpaceX's first flight surgeon and medical director - he's also a colonel in the US Space Force and an emergency medicine physician. He was born in Minneapolis to a father who immigrated from Ottapalam, in Kerala's Palakkad district, and a mother who immigrated from Ukraine.\n\nA flight surgeon who treated astronauts for years is now one himself, 250 miles above Earth.\n\nSources: NASA.gov, Space.com (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#NASA"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1989",
+      "headline": "September 30, 1989: India launched a submarine it had never built before - and built it anyway."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "INS Shalki was launched on September 30, 1989, at Mazagon Dock Limited, Bombay",
+      "body": "It was India's first indigenously built submarine - a Shishumar-class diesel-electric vessel, built under a technology transfer agreement with Germany's HDW, but fabricated entirely in India. Construction had begun in 1984."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What actually got built in India",
+      "headline": "The steel was imported. Every cut, weld and form was Indian work.",
+      "body": "Raw materials like HY-80 high-strength steel came from abroad, but all cutting, forming and welding on INS Shalki was done domestically - a genuine fabrication milestone, not just assembly. It was commissioned into active Indian Navy service on February 7, 1992, over two years after its launch."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Complex defense manufacturing didn't arrive in India recently - it started with a hull built in Bombay in the 1980s.",
+      "body": "A Viksit Bharat by 2047 needs the industrial base to build what it can't buy. INS Shalki is the quiet, unglamorous starting point for the indigenous defense manufacturing capability India leans on today."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - INS Shalki",
+      "url": "https://en.wikipedia.org/wiki/INS_Shalki"
+    },
+    {
+      "text": "Mazagon Dock Limited - Heritage",
+      "url": "https://mazagondock.in/English/heritage"
+    }
+  ]
+}
