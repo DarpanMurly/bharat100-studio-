@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-09-29",
+    "fetchedAt": "2026-09-29T18:22:29.914Z",
+    "instagram": {
+      "posts": 142,
+      "reach": 3232,
+      "engagement": 21,
+      "zeroReach": 32
+    },
+    "threads": {
+      "posts": 148,
+      "reach": 231,
+      "engagement": 4,
+      "zeroReach": 68
+    },
+    "twitter": {
+      "posts": 123,
+      "reach": 953,
+      "engagement": 0,
+      "zeroReach": 4
+    },
+    "youtube": {
+      "posts": 123,
+      "reach": 4349,
+      "engagement": 31,
+      "zeroReach": 1
+    },
+    "facebook": {
+      "posts": 104,
+      "reach": 0,
+      "engagement": 96,
+      "zeroReach": 104
+    },
+    "bluesky": {
+      "posts": 104,
+      "reach": 0,
+      "engagement": 5,
+      "zeroReach": 104
+    },
+    "mastodon": {
+      "posts": 104,
+      "reach": 0,
+      "engagement": 3,
+      "zeroReach": 104
+    },
+    "wordpress": {
+      "posts": 25,
+      "reach": 47,
+      "engagement": 7,
+      "zeroReach": 7
+    }
+  }
+]

@@ -679,6 +679,80 @@ async function main() {
   console.log(`\nSnapshot written to ${outPath}`);
   console.log(`Buffer queue: ${Object.entries(bufferCapacity).map(([p, c]) => `${p} ${c.scheduled}/${c.limit}`).join(", ")}`);
   console.log(`Next: push this into the Content Desk artifact's "analytics" collection.`);
+
+  await appendDailyRollup(summary);
+}
+
+// Real gap found 2026-09-29: analytics-snapshot.json only ever holds the
+// LATEST pull — every previous run's numbers are overwritten, so there
+// is no way to see whether reach/engagement is actually trending up or
+// down over time. A naive attempt to compare "this week's avg reach" to
+// "last week's avg reach" from a single snapshot is misleading anyway,
+// since older posts have had more time to accumulate views than newer
+// ones — that's a measurement artifact, not a real trend.
+//
+// The fix: append one compact ROLLUP row per day (small aggregate
+// numbers only, not full per-post arrays) to analytics-history.json,
+// rather than growing analytics-snapshot.json itself or trying to
+// store full history in the dashboard's db (which already hit its
+// 256KB per-document limit once from Buffer's growing post history
+// alone — see the trim done 2026-09-29). A history of small daily
+// rollups stays cheap indefinitely; per-post detail always comes from
+// the single latest snapshot, never from history.
+async function appendDailyRollup(summary) {
+  const historyPath = path.join(ROOT, "content-queue", "analytics-history.json");
+  let history = [];
+  try {
+    history = JSON.parse(await fs.readFile(historyPath, "utf-8"));
+  } catch {
+    // first run, no history yet
+  }
+
+  const platformRollup = (arr, metricsOf) => {
+    const live = (arr ?? []).filter((p) => p.status === "live");
+    let reach = 0;
+    let engagement = 0;
+    let zeroReach = 0;
+    for (const p of live) {
+      const m = metricsOf(p);
+      const r = m.Views ?? m.Impressions ?? 0;
+      const e = (m.Reactions ?? m.Likes ?? 0) + (m.Comments ?? 0) + (m.Reposts ?? m.Quotes ?? 0);
+      reach += r;
+      engagement += e;
+      if (r === 0) zeroReach++;
+    }
+    return { posts: live.length, reach, engagement, zeroReach };
+  };
+
+  const bufferMetrics = (p) => p.metrics ?? {};
+  const youtubeMetrics = (p) => ({
+    Views: Number(p.stats?.viewCount ?? 0),
+    Likes: Number(p.stats?.likeCount ?? 0),
+    Comments: Number(p.stats?.commentCount ?? 0),
+  });
+
+  const rollup = {
+    date: summary.fetchedAt.slice(0, 10),
+    fetchedAt: summary.fetchedAt,
+    instagram: platformRollup(summary.buffer.filter((p) => p.platform === "instagram"), bufferMetrics),
+    threads: platformRollup(summary.buffer.filter((p) => p.platform === "threads"), bufferMetrics),
+    twitter: platformRollup(summary.buffer.filter((p) => p.platform === "twitter"), bufferMetrics),
+    youtube: platformRollup(summary.youtube, youtubeMetrics),
+    facebook: platformRollup(summary.facebook, bufferMetrics),
+    bluesky: platformRollup(summary.bluesky, bufferMetrics),
+    mastodon: platformRollup(summary.mastodon, bufferMetrics),
+    wordpress: platformRollup(summary.wordpress, bufferMetrics),
+  };
+
+  // One rollup row per calendar date — replace today's if this is a
+  // same-day re-run, rather than appending a duplicate.
+  const existingIdx = history.findIndex((h) => h.date === rollup.date);
+  if (existingIdx >= 0) history[existingIdx] = rollup;
+  else history.push(rollup);
+  history.sort((a, b) => a.date.localeCompare(b.date));
+
+  await fs.writeFile(historyPath, JSON.stringify(history, null, 2), "utf-8");
+  console.log(`Daily rollup appended to ${historyPath} (${history.length} day(s) of history).`);
 }
 
 main().catch((err) => {
