@@ -36,6 +36,28 @@ const BUFFER_PLATFORMS = ["Instagram", "Threads", "X"];
 // same list, but still surface it (rather than silently exclude it) so a
 // status approval, once it lands, is noticed promptly.
 const KNOWN_EXTERNAL_BLOCKERS = new Set(["Pinterest"]);
+// A gap a human has already reviewed and decided to accept (e.g. a
+// cosmetic YouTube auto-pick thumbnail on one specific video) should
+// stop failing the nightly deploy workflow every single day it stays
+// inside the lookback window — otherwise the run's red/green status
+// stops meaning anything, which is exactly what happened 2026-09-30:
+// pages-deploy.yml showed 3 straight "failure" runs even though the
+// actual site deploy succeeded every time, because the SAME
+// already-known Sept 25 thumbnail gap kept re-triggering. Entries here
+// are `dir` + exact `missing` string pairs, reviewed and added by hand
+// — this is NOT a way to silently suppress new/different gaps, only to
+// stop re-alarming on one already-decided one.
+const ACKNOWLEDGED_GAPS_PATH = path.join(ROOT, "content-queue", "acknowledged-gaps.json");
+async function loadAcknowledgedGaps() {
+  try {
+    return JSON.parse(await fs.readFile(ACKNOWLEDGED_GAPS_PATH, "utf-8"));
+  } catch {
+    return [];
+  }
+}
+function isAcknowledged(acknowledged, dir, missingItem) {
+  return acknowledged.some((a) => a.dir === dir && a.missing === missingItem);
+}
 
 function lastNDates(n) {
   const dates = [];
@@ -52,9 +74,11 @@ async function main() {
   const pendingDir = path.join(ROOT, "content-queue", "pending");
   const allDirs = await fs.readdir(pendingDir);
   const dates = lastNDates(LOOKBACK_DAYS);
+  const acknowledged = await loadAcknowledgedGaps();
 
   const gaps = [];
   const knownBlockers = [];
+  const acknowledgedSkipped = [];
 
   for (const date of dates) {
     const dayDirs = allDirs.filter((d) => d.startsWith(date) && !d.endsWith("_weekly-recap"));
@@ -83,6 +107,7 @@ async function main() {
         }
         if (!hasId) {
           if (KNOWN_EXTERNAL_BLOCKERS.has(p)) blocked.push(p);
+          else if (isAcknowledged(acknowledged, dir, p)) acknowledgedSkipped.push({ dir, date, missing: [p] });
           else missing.push(p);
         }
       }
@@ -96,7 +121,12 @@ async function main() {
       // frame with nothing surfaced anywhere). Only meaningful once a
       // video has actually uploaded and the card intended a custom one.
       if (card.youtubeVideoId && card.thumbnailFile && card.thumbnailSetOk === false) {
-        gaps.push({ dir, date, missing: ["YouTube custom thumbnail (upload failed, using auto-pick)"] });
+        const thumbGap = "YouTube custom thumbnail (upload failed, using auto-pick)";
+        if (isAcknowledged(acknowledged, dir, thumbGap)) {
+          acknowledgedSkipped.push({ dir, date, missing: [thumbGap] });
+        } else {
+          gaps.push({ dir, date, missing: [thumbGap] });
+        }
       }
     }
 
@@ -114,13 +144,18 @@ async function main() {
     // check reported clean the whole time because fs.access only looks
     // for the file. Require a real wordpressPostId instead.
     const wpPath = path.join(ROOT, "public", "wordpress", `${date}.json`);
+    const wpDir = `(WordPress digest)`;
     try {
       const wp = JSON.parse(await fs.readFile(wpPath, "utf-8"));
       if (!wp.wordpressPostId) {
-        gaps.push({ dir: `(WordPress digest)`, date, missing: ["WordPress article drafted but never published"] });
+        const msg = "WordPress article drafted but never published";
+        if (isAcknowledged(acknowledged, wpDir, msg)) acknowledgedSkipped.push({ dir: wpDir, date, missing: [msg] });
+        else gaps.push({ dir: wpDir, date, missing: [msg] });
       }
     } catch {
-      gaps.push({ dir: `(WordPress digest)`, date, missing: ["WordPress article not written"] });
+      const msg = "WordPress article not written";
+      if (isAcknowledged(acknowledged, wpDir, msg)) acknowledgedSkipped.push({ dir: wpDir, date, missing: [msg] });
+      else gaps.push({ dir: wpDir, date, missing: [msg] });
     }
   }
 
@@ -138,6 +173,13 @@ async function main() {
     console.log(`\n${knownBlockers.length} entr(y/ies) blocked on a KNOWN external issue (not new, no action needed unless it changes):`);
     for (const b of knownBlockers) {
       console.log(`  ${b.date}  ${b.dir}: ${b.blocked.join(", ")}`);
+    }
+  }
+
+  if (acknowledgedSkipped.length > 0) {
+    console.log(`\n${acknowledgedSkipped.length} entr(y/ies) ACKNOWLEDGED and accepted (see content-queue/acknowledged-gaps.json — does not fail this check):`);
+    for (const a of acknowledgedSkipped) {
+      console.log(`  ${a.date}  ${a.dir}: ${a.missing.join(", ")}`);
     }
   }
 

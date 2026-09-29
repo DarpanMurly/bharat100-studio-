@@ -1,0 +1,8 @@
+[
+  {
+    "dir": "2026-09-25_global-bharat",
+    "missing": "YouTube custom thumbnail (upload failed, using auto-pick)",
+    "reason": "Cosmetic only — the video itself published fine, just using YouTube's auto-picked thumbnail frame instead of the custom one. Accepted 2026-09-30 after 4 straight days of the nightly pages-deploy.yml workflow showing red for this single already-known issue.",
+    "acknowledgedAt": "2026-09-30"
+  }
+]
