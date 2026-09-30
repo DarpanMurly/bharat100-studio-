@@ -1,0 +1,46 @@
+{
+  "id": "pfbr26",
+  "title": "India just switched on a reactor that makes more fuel than it burns",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-01",
+  "sources": [
+    "Department of Atomic Energy, April 2026 - Prototype Fast Breeder Reactor at Kalpakkam attains first criticality",
+    "Down To Earth, April 2026 - Kalpakkam: India's indigenously developed atomic reactor attains criticality"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just switched on a reactor that makes more fuel than it burns.",
+      "sub": "It's called a breeder reactor - and it's entirely homegrown."
+    },
+    {
+      "kind": "stat",
+      "text": "On April 6, 2026, India's Prototype Fast Breeder Reactor at Kalpakkam, Tamil Nadu, attained first criticality - becoming the country's first operational fast breeder reactor.",
+      "stat": "500MWe",
+      "statLabel": "capacity of India's indigenously designed Prototype Fast Breeder Reactor, per the Department of Atomic Energy, April 2026",
+      "narration": "On April sixth, twenty twenty six, India's Prototype Fast Breeder Reactor at Kalpakkam, Tamil Nadu, attained first criticality, becoming the country's first operational fast breeder reactor."
+    },
+    {
+      "kind": "point",
+      "text": "It was designed by DAE's Indira Gandhi Centre for Atomic Research and built by Bharatiya Nabhikiya Vidyut Nigam, using indigenously produced Uranium-Plutonium fuel with a liquid sodium coolant.",
+      "narration": "It was designed by D-A-E's Indira Gandhi Centre for Atomic Research and built by Bharatiya Nabhikiya Vidyut Nigam, using indigenously produced Uranium-Plutonium fuel with a liquid sodium coolant."
+    },
+    {
+      "kind": "point",
+      "text": "A breeder reactor uses a Uranium-238 blanket to generate new fuel as it runs - a core part of India's three-stage nuclear power programme, designed around its large thorium reserves."
+    },
+    {
+      "kind": "closer",
+      "text": "Most reactors just consume fuel.",
+      "sub": "This one was built to make its own.",
+      "narration": "Most reactors just consume fuel. This one was built to make its own."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just switched on a reactor that makes more fuel than it burns. It's called a breeder reactor - and it's entirely homegrown.\n\nOn April 6, 2026, India's Prototype Fast Breeder Reactor at Kalpakkam, Tamil Nadu, attained first criticality - becoming the country's first operational fast breeder reactor, with a 500 MWe capacity. It was designed by DAE's Indira Gandhi Centre for Atomic Research and built by Bharatiya Nabhikiya Vidyut Nigam, using indigenously produced Uranium-Plutonium fuel with a liquid sodium coolant and a Uranium-238 blanket to breed new fuel as it runs - a core part of India's three-stage nuclear power programme.\n\nMost reactors just consume fuel. This one was built to make its own.\n\nSources: Department of Atomic Energy, Down To Earth (2026)",
+  "hashtags": ["#Bharat100", "#NuclearEnergy", "#India2047", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

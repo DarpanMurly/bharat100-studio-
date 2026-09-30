@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "At 11 years old, she just broke a chess record that stood for over two decades."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Bodhana Sivanandan became the youngest Woman Grandmaster in chess history, at age 11",
+      "body": "Playing top board for England at the 46th Chess Olympiad in Samarkand, Uzbekistan, she secured her third and final WGM norm - breaking a record held jointly by Kateryna Lagno and future Women's World Champion Hou Yifan, both of whom earned the title at age 12."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually did",
+      "headline": "She played all 11 rounds on England's top board - and scored 8 points doing it.",
+      "body": "Born in India, based in Harrow, UK, she took up chess as a hobby during the COVID-19 pandemic. In July 2025, at age 10, she had already become the youngest player ever to earn a WGM norm - breaking a record previously held by Hou Yifan."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A record that stood for two decades just fell to an 11-year-old who started during a pandemic.",
+      "body": "A Viksit Bharat by 2047 is built partly on stories like this - proof that talent with Indian roots keeps setting the pace globally, in fields nobody would have predicted a generation ago."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ChessBase - Bodhana Sivanandan, youngest ever WGM at 11",
+      "url": "https://en.chessbase.com/post/bodhana-sivanandan-youngest-ever-wgm-at-11"
+    },
+    {
+      "text": "Gulf News - Indian-British chess prodigy Bodhana Sivanandan makes history at 11",
+      "url": "https://gulfnews.com/sport/indian-british-chess-prodigy-bodhana-sivanandan-makes-history-at-11-1.500691762"
+    }
+  ]
+}

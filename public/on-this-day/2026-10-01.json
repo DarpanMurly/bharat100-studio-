@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1966",
+      "headline": "October 1, 1966: India decided tourism was worth its own government company."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The India Tourism Development Corporation was incorporated on October 1, 1966",
+      "body": "ITDC was formed by merging several public-sector tourism bodies into one organization, unifying tourism planning, infrastructure and policy under a single central government company - an early, deliberate bet that tourism was worth professionalizing, not leaving to chance."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it actually built",
+      "headline": "A hotel brand, duty-free shops, and the exhibition halls millions of Indians have walked through.",
+      "body": "ITDC went on to operate the Ashok Group of Hotels, India's flagship government hospitality brand, along with duty-free retail, transport services, and convention infrastructure including Pragati Maidan - the venue behind decades of India's biggest trade fairs and exhibitions."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Tourism infrastructure doesn't build itself - someone has to decide it's worth a dedicated institution.",
+      "body": "A Viksit Bharat by 2047 needs tourism to be a real economic engine, not an afterthought. ITDC's 1966 founding is the quiet administrative decision that gave India's tourism industry its first real institutional backbone."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - India Tourism Development Corporation",
+      "url": "https://en.wikipedia.org/wiki/India_Tourism_Development_Corporation"
+    },
+    {
+      "text": "ITDC - At a Glance",
+      "url": "https://itdc.co.in/itdc-at-a-glance/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "suri26",
+  "type": "diaspora-dividend",
+  "title": "She fuses Indian ragas with jazz. In 2026, that earned her a Grammy nomination.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-01",
+  "sources": [
+    "Wikipedia - Charu Suri",
+    "IndiaWest, 2026 - Grammy noms: Anoushka Shankar, Shakti, Siddhant Bhatia, Charu Suri get nods"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She fuses Indian ragas with jazz.",
+      "sub": "In 2026, that earned her a Grammy nomination."
+    },
+    {
+      "kind": "stat",
+      "text": "Charu Suri, born in Madurai, Tamil Nadu, earned a 2026 Grammy nomination for Best Contemporary Instrumental Album for her album 'Shayan', which blends Indian ragas with a jazz trio format.",
+      "stat": "2026",
+      "statLabel": "the year Charu Suri's raga-jazz album 'Shayan' earned a Grammy nomination, per IndiaWest",
+      "narration": "Charu Suri, born in Madurai, Tamil Nadu, earned a twenty twenty six Grammy nomination for Best Contemporary Instrumental Album for her album Shayan, which blends Indian ragas with a jazz trio format."
+    },
+    {
+      "kind": "point",
+      "text": "She's widely reported as the first raga-jazz artist ever nominated for a Grammy, in a category built for exactly this kind of genre fusion.",
+      "narration": "She's widely reported as the first raga-jazz artist ever nominated for a Grammy, in a category built for exactly this kind of genre fusion."
+    },
+    {
+      "kind": "point",
+      "text": "She studied at Princeton and earned a Master's in Music from the Manhattan School of Music, building a career that moves fluidly between Indian classical tradition and American jazz."
+    },
+    {
+      "kind": "closer",
+      "text": "A raga written centuries ago,",
+      "sub": "reaching a Grammy stage built for something else entirely.",
+      "narration": "A raga written centuries ago, reaching a Grammy stage built for something else entirely."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "She fuses Indian ragas with jazz. In 2026, that earned her a Grammy nomination.\n\nCharu Suri, born in Madurai, Tamil Nadu, earned a 2026 Grammy nomination for Best Contemporary Instrumental Album for her album 'Shayan', which blends Indian ragas with a jazz trio format. She's widely reported as the first raga-jazz artist ever nominated for a Grammy. She studied at Princeton and earned a Master's in Music from the Manhattan School of Music, building a career that moves fluidly between Indian classical tradition and American jazz.\n\nA raga written centuries ago, reaching a Grammy stage built for something else entirely.\n\nSources: Wikipedia, IndiaWest (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Grammys"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
