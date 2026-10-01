@@ -1,0 +1,46 @@
+{
+  "id": "c295tata26",
+  "title": "India just rolled out its first privately assembled military aircraft",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-02",
+  "sources": [
+    "PIB, October 2024 - Tata-Airbus C-295 Final Assembly Line inauguration",
+    "Aerospace Global News, May 2026 - Tata-made Airbus C-295 India rollout"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just rolled out its first privately assembled military aircraft.",
+      "sub": "Built at a Tata-Airbus facility in Gujarat."
+    },
+    {
+      "kind": "stat",
+      "text": "Tata Advanced Systems reportedly rolled out the first India-assembled C-295 military transport aircraft from its Vadodara facility in May 2026, part of a Rs 21,935 crore deal for 56 aircraft.",
+      "stat": "40",
+      "statLabel": "C-295 aircraft to be assembled in India by Tata Advanced Systems, out of 56 total under the deal, per PIB, October 2024",
+      "narration": "Tata Advanced Systems reportedly rolled out the first India-assembled C-two-ninety-five military transport aircraft from its Vadodara facility in May twenty twenty six, part of a Rupees twenty-one thousand nine hundred thirty-five crore deal for fifty-six aircraft."
+    },
+    {
+      "kind": "point",
+      "text": "The Vadodara Final Assembly Line, inaugurated by Prime Minister Modi and Spain's Prime Minister in October 2024, is India's first private-sector final assembly line for a military aircraft.",
+      "narration": "The Vadodara Final Assembly Line, inaugurated by Prime Minister Modi and Spain's Prime Minister in October twenty twenty four, is India's first private-sector final assembly line for a military aircraft."
+    },
+    {
+      "kind": "point",
+      "text": "Over 13,000 of the aircraft's roughly 14,000 detailed parts are now reportedly made in India, sourced from 37 Indian suppliers across 21 locally certified manufacturing processes."
+    },
+    {
+      "kind": "closer",
+      "text": "16 of these aircraft flew in from Spain.",
+      "sub": "The next 40 are being built here.",
+      "narration": "Sixteen of these aircraft flew in from Spain. The next forty are being built here."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just rolled out its first privately assembled military aircraft. Built at a Tata-Airbus facility in Gujarat.\n\nTata Advanced Systems reportedly rolled out the first India-assembled C-295 military transport aircraft from its Vadodara facility in May 2026, part of a Rs 21,935 crore deal for 56 aircraft total - 16 delivered from Spain, 40 to be assembled in India. The Vadodara Final Assembly Line, inaugurated by Prime Minister Modi and Spain's Prime Minister in October 2024, is India's first private-sector final assembly line for a military aircraft. Over 13,000 of the aircraft's roughly 14,000 detailed parts are now reportedly made in India.\n\n16 of these aircraft flew in from Spain. The next 40 are being built here.\n\nSources: PIB, Aerospace Global News (2024-2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#DefenceManufacturing"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

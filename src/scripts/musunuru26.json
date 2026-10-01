@@ -1,0 +1,47 @@
+{
+  "id": "musunuru26",
+  "type": "diaspora-dividend",
+  "title": "His team built a gene therapy from scratch for one baby. It took six months.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-02",
+  "sources": [
+    "Children's Hospital of Philadelphia, 2025 - World's First Patient Treated with Personalized CRISPR Gene-Editing Therapy",
+    "Innovative Genomics Institute, 2025 - First patient treated with on-demand CRISPR therapy"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "His team built a gene therapy from scratch for one baby.",
+      "sub": "It took six months."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Kiran Musunuru, of Indian origin, co-led the team at Children's Hospital of Philadelphia that designed and delivered the world's first personalized CRISPR gene-editing therapy to a single patient, an infant known as Baby KJ.",
+      "stat": "6 months",
+      "statLabel": "time from diagnosis to first dose of the world's first personalized CRISPR therapy, per CHOP, 2025",
+      "narration": "Doctor Kiran Musunuru, of Indian origin, co-led the team at Children's Hospital of Philadelphia that designed and delivered the world's first personalized CRISPR gene-editing therapy to a single patient, an infant known as Baby KJ."
+    },
+    {
+      "kind": "point",
+      "text": "KJ had a rare, otherwise fatal metabolic disorder. He received his first infusion in early 2025, with follow-up doses weeks later - and within seven weeks could tolerate more dietary protein.",
+      "narration": "K-J had a rare, otherwise fatal metabolic disorder. He received his first infusion in early twenty twenty five, with follow-up doses weeks later, and within seven weeks could tolerate more dietary protein."
+    },
+    {
+      "kind": "point",
+      "text": "Musunuru and his co-lead, Dr. Rebecca Ahrens-Nicklas, were named to TIME's 2026 list of the 100 Most Influential People for the breakthrough."
+    },
+    {
+      "kind": "closer",
+      "text": "Most gene therapies take years to develop.",
+      "sub": "This one was built for one specific child, in months.",
+      "narration": "Most gene therapies take years to develop. This one was built for one specific child, in months."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "His team built a gene therapy from scratch for one baby. It took six months.\n\nDr. Kiran Musunuru, of Indian origin, co-led the team at Children's Hospital of Philadelphia that designed and delivered the world's first personalized CRISPR gene-editing therapy to a single patient, an infant known as Baby KJ, who had a rare, otherwise fatal metabolic disorder. KJ received his first infusion in early 2025, with follow-up doses weeks later - and within seven weeks could tolerate more dietary protein. Musunuru and his co-lead, Dr. Rebecca Ahrens-Nicklas, were named to TIME's 2026 list of the 100 Most Influential People for the breakthrough.\n\nMost gene therapies take years to develop. This one was built for one specific child, in months.\n\nSources: Children's Hospital of Philadelphia, Innovative Genomics Institute (2025)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#CRISPR"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1904",
+      "headline": "October 2, 1904: India's second Prime Minister was born on the same day as Gandhi."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Lal Bahadur Shastri was born on October 2, 1904, in Mughalsarai, British India",
+      "body": "He became India's second Prime Minister in 1964, succeeding Jawaharlal Nehru. During the 1965 war with Pakistan, he coined the slogan 'Jai Jawan Jai Kisan' - Hail the Soldier, Hail the Farmer - tying military resolve directly to agricultural self-sufficiency."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "A slogan that became policy - and helped set up the Green Revolution.",
+      "body": "Shastri championed early agricultural modernization that laid groundwork for the Green Revolution and the White Revolution in dairy, pushing food grain output higher in the years that followed. He led India through the 1965 war, including the capture of the strategic Haji Pir pass, before signing the Tashkent Declaration with Pakistan's Ayub Khan in January 1966."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Food security didn't happen by accident - someone had to decide a nation that couldn't feed itself couldn't call itself secure.",
+      "body": "A Viksit Bharat by 2047 is built on the same instinct Shastri had: that a soldier's resolve and a farmer's harvest are the same national strength. His slogan still frames how India thinks about self-reliance."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Lal Bahadur Shastri",
+      "url": "https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri"
+    },
+    {
+      "text": "PMO India - Shri Lal Bahadur Shastri",
+      "url": "https://www.pmindia.gov.in/en/former_pm/shri-lal-bahadur-shastri/"
+    }
+  ]
+}

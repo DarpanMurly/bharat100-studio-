@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He grew up in a small Gujarat village. In 2026, a US award named after the father of the Green Revolution went to him."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Karim Maredia was named the 2026 recipient of the Borlaug CAST Communication Award",
+      "body": "The award, given by the US Council for Agricultural Science and Technology and named for Nobel Peace Prize laureate Norman Borlaug, recognizes scientists who excel at communicating agricultural research to farmers, policymakers and the public. It will be formally conferred on December 10, 2026, at the Library of Congress in Washington, D.C."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "Over 130 publications and $55 million in research funding, built from a postdoc at a wheat institute in Mexico.",
+      "body": "Maredia joined Michigan State University in 1989 after a postdoctoral fellowship at CIMMYT, the International Maize and Wheat Improvement Center, and now serves as Professor, Associate Dean, and Director of MSU's World Agriculture Center. He has authored over 130 scholarly publications and secured more than $55 million in competitive research funding from the Gates Foundation, USAID, USDA, World Bank and others."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "He still serves as Foreign Secretary of India's own National Academy of Agricultural Sciences.",
+      "body": "A Viksit Bharat by 2047 needs its agricultural scientists recognized globally while staying connected to India's own institutions. Maredia's award - and his continued India role - shows that connection working both ways."
+    }
+  ],
+  "sources": [
+    {
+      "text": "American Bazaar - Indian-American scientist wins top agricultural prize",
+      "url": "https://americanbazaaronline.com/2026/09/07/indian-american-scientist-wins-top-agricultural-prize-487646/"
+    },
+    {
+      "text": "The Tribune - Indian-American scientist Karim Maredia to receive Borlaug CAST Communication Award",
+      "url": "https://www.tribuneindia.com/news/india/indian-american-scientist-karim-maredia-to-receive-borlaug-cast-communication-award"
+    }
+  ]
+}

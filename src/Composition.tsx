@@ -29,6 +29,7 @@ import ashokkhade26 from "./scripts/ashokkhade26.json";
 import banaji26 from "./scripts/banaji26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
 import budget from "./scripts/budget.json";
+import c295tata26 from "./scripts/c295tata26.json";
 import cens26 from "./scripts/cens26.json";
 import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
@@ -61,6 +62,7 @@ import kochhar26 from "./scripts/kochhar26.json";
 import lamresearch26 from "./scripts/lamresearch26.json";
 import marutih2 from "./scripts/marutih2.json";
 import menon26 from "./scripts/menon26.json";
+import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
 import pfbr26 from "./scripts/pfbr26.json";
@@ -90,6 +92,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "banaji26": banaji26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
   "budget": budget as VideoScript,
+  "c295tata26": c295tata26 as VideoScript,
   "cens26": cens26 as VideoScript,
   "ceramat26": ceramat26 as VideoScript,
   "cgsemi26": cgsemi26 as VideoScript,
@@ -122,6 +125,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "lamresearch26": lamresearch26 as VideoScript,
   "marutih2": marutih2 as VideoScript,
   "menon26": menon26 as VideoScript,
+  "musunuru26": musunuru26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,
   "pfbr26": pfbr26 as VideoScript,
