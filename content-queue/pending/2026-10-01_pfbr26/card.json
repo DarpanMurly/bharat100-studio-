@@ -45,5 +45,7 @@
   "facebookScheduledAt": "2026-10-01T13:30:00.000Z",
   "mastodonStatusId": "283209",
   "mastodonScheduledAt": "2026-10-01T13:30:00.000Z",
-  "facebookFirstCommentId": "1434078962231114_1008182312311541"
+  "facebookFirstCommentId": "1434078962231114_1008182312311541",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mwt3oeoa3u2k",
+  "blueskyPostedAt": "2026-10-01T14:41:19.534Z"
 }
