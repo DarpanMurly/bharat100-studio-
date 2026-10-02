@@ -1,0 +1,46 @@
+{
+  "id": "h2vessel26",
+  "title": "India just put a passenger boat on the Ganga that runs on hydrogen",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-03",
+  "sources": [
+    "PIB, December 2025 - India's first indigenous hydrogen fuel cell passenger vessel flagged off at Varanasi",
+    "Marine Insight, December 2025 - India launches its first indigenous hydrogen fuel cell passenger vessel"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just put a passenger boat on the Ganga that runs on hydrogen.",
+      "sub": "Built entirely in India, for India's own waterways."
+    },
+    {
+      "kind": "stat",
+      "text": "India's first indigenous hydrogen fuel cell-powered passenger vessel entered commercial service on the Ganga at Varanasi, built by Cochin Shipyard for the Inland Waterways Authority of India.",
+      "stat": "50",
+      "statLabel": "passenger capacity of India's first indigenous hydrogen fuel cell vessel, per PIB, December 2025",
+      "narration": "India's first indigenous hydrogen fuel cell-powered passenger vessel entered commercial service on the Ganga at Varanasi, built by Cochin Shipyard for the Inland Waterways Authority of India."
+    },
+    {
+      "kind": "point",
+      "text": "The 24-metre catamaran runs on a hybrid system combining hydrogen fuel cells, batteries and solar panels, operating up to 8 hours per hydrogen fill with only water as its emission.",
+      "narration": "The twenty-four metre catamaran runs on a hybrid system combining hydrogen fuel cells, batteries and solar panels, operating up to eight hours per hydrogen fill, with only water as its emission."
+    },
+    {
+      "kind": "point",
+      "text": "It's positioned as part of India's National Green Hydrogen Mission, aimed at making inland waterway transport cleaner."
+    },
+    {
+      "kind": "closer",
+      "text": "A river that's carried boats for centuries",
+      "sub": "just carried one that leaves nothing behind but water.",
+      "narration": "A river that's carried boats for centuries just carried one that leaves nothing behind but water."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just put a passenger boat on the Ganga that runs on hydrogen. Built entirely in India, for India's own waterways.\n\nIndia's first indigenous hydrogen fuel cell-powered passenger vessel entered commercial service on the Ganga at Varanasi, built by Cochin Shipyard for the Inland Waterways Authority of India. The 24-metre catamaran, carrying up to 50 passengers, runs on a hybrid system combining hydrogen fuel cells, batteries and solar panels, operating up to 8 hours per hydrogen fill with only water as its emission. It's positioned as part of India's National Green Hydrogen Mission.\n\nA river that's carried boats for centuries just carried one that leaves nothing behind but water.\n\nSources: PIB, Marine Insight (2025)",
+  "hashtags": ["#Bharat100", "#GreenHydrogen", "#India2047", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

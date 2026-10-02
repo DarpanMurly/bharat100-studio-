@@ -1,0 +1,47 @@
+{
+  "id": "tandon26",
+  "type": "diaspora-dividend",
+  "title": "She gave a US engineering school $100 million. They renamed it after her family.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-03",
+  "sources": [
+    "NYU Engineering, 2015 - NYU School of Engineering Gets $100 Million Gift",
+    "American Bazaar, 2022 - NYU investing $1 billion in Tandon School of Engineering"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She gave a US engineering school $100 million.",
+      "sub": "They renamed it after her family."
+    },
+    {
+      "kind": "stat",
+      "text": "In October 2015, Indian-American business leader Chandrika Tandon and her husband Ranjan Tandon donated $100 million to NYU's School of Engineering, one of the largest gifts by an Indian-American in US history.",
+      "stat": "$100M",
+      "statLabel": "gift from Chandrika and Ranjan Tandon to NYU's School of Engineering, per NYU Engineering, October 2015",
+      "narration": "In October twenty fifteen, Indian-American business leader Chandrika Tandon and her husband Ranjan Tandon donated one hundred million dollars to N-Y-U's School of Engineering, one of the largest gifts by an Indian-American in US history."
+    },
+    {
+      "kind": "point",
+      "text": "The school was renamed the NYU Tandon School of Engineering in recognition. Chandrika Tandon was previously a partner at McKinsey & Company before founding Tandon Capital Associates.",
+      "narration": "The school was renamed the N-Y-U Tandon School of Engineering in recognition. Chandrika Tandon was previously a partner at McKinsey and Company before founding Tandon Capital Associates."
+    },
+    {
+      "kind": "point",
+      "text": "Decades after building her business career, Tandon also won a 2025 Grammy for Best New Age, Ambient, or Chant Album, at age 70."
+    },
+    {
+      "kind": "closer",
+      "text": "An engineering school now carries her name.",
+      "sub": "Not because she studied there - because she decided it mattered.",
+      "narration": "An engineering school now carries her name. Not because she studied there, because she decided it mattered."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "She gave a US engineering school $100 million. They renamed it after her family.\n\nIn October 2015, Indian-American business leader Chandrika Tandon and her husband Ranjan Tandon donated $100 million to NYU's School of Engineering, one of the largest gifts by an Indian-American in US history. The school was renamed the NYU Tandon School of Engineering in recognition. Chandrika Tandon was previously a partner at McKinsey & Company before founding Tandon Capital Associates. Decades after building her business career, she also won a 2025 Grammy for Best New Age, Ambient, or Chant Album, at age 70.\n\nAn engineering school now carries her name. Not because she studied there - because she decided it mattered.\n\nSources: NYU Engineering, American Bazaar (2015-2022)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Philanthropy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

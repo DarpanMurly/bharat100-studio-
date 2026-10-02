@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1978",
+      "headline": "October 3, 1978: a Kolkata doctor achieved the world's second-ever IVF birth - alone, with homemade equipment."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Subhash Mukhopadhyay achieved India's first IVF birth on October 3, 1978, in Kolkata",
+      "body": "The baby, Kanupriya Agarwal, was the world's second IVF baby ever born, just 67 days after the UK's Louise Brown. Mukhopadhyay became only the second physician in the world - and the first in Asia - to achieve a live birth through in-vitro fertilization."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What happened next",
+      "headline": "Instead of recognition, he was dismissed and isolated - and never got to see himself vindicated.",
+      "body": "A state government committee dismissed his claim and barred him from presenting his work internationally. Professionally isolated, Mukhopadhyay died in 1981. It took until 2002 - 21 years after his death - for India's Council of Medical Research to formally recognize his pioneering achievement."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A breakthrough that was real all along doesn't stop being real just because nobody believed it yet.",
+      "body": "A Viksit Bharat by 2047 needs the institutions that recognize breakthroughs in time - not decades later. Mukhopadhyay's work now stands as one of India's earliest, least-celebrated contributions to reproductive medicine."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Subhash Mukhopadhyay (physician)",
+      "url": "https://en.wikipedia.org/wiki/Subhash_Mukhopadhyay_(physician)"
+    },
+    {
+      "text": "ThePrint - Subhas Mukherjee pioneered IVF in India but the government refuted his work",
+      "url": "https://theprint.in/theprint-profile/subhas-mukherjee-pioneered-ivf-in-india-but-the-government-refuted-his-work/1632147/"
+    }
+  ]
+}
