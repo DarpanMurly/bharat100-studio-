@@ -108,7 +108,12 @@ export function buildLongCaption(card, maxChars) {
     if (!addedAny && nextSentences[0]) {
       const remaining = maxChars - hashtagBlock.length - text.length - 2; // 2 = " " + ellipsis room
       if (remaining > 20) {
-        text = `${text} ${nextSentences[0].slice(0, remaining - 1).trimEnd()}…`;
+        const sliced = nextSentences[0].slice(0, remaining - 1).trimEnd();
+        // Snap back to the last whole word so the post never ends mid-word
+        // (a real bug: "...Norman Borlaug, recog…" instead of "...recognizes").
+        const lastSpace = sliced.lastIndexOf(" ");
+        const wholeWords = lastSpace > 0 ? sliced.slice(0, lastSpace) : sliced;
+        text = `${text} ${wholeWords.trimEnd()}…`;
       }
     }
   }
