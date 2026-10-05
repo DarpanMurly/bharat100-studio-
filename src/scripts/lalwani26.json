@@ -1,0 +1,47 @@
+{
+  "id": "lalwani26",
+  "type": "diaspora-dividend",
+  "title": "After 40 years building his career in US medicine, he's coming back to build India's newest medical school",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-06",
+  "sources": [
+    "IIT Kanpur official announcement, April 2026 - IIT Kanpur Appoints Prof. Anil K. Lalwani as Inaugural Dean of Gangwal School of Medical Sciences & Technology",
+    "BioSpectrum India - IIT Kanpur appoints Prof. Anil K. Lalwani as Inaugural Dean of Gangwal School of Medical Sciences & Technology"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "After 40 years building his career in US medicine,",
+      "sub": "he's coming back to build India's newest medical school."
+    },
+    {
+      "kind": "stat",
+      "text": "Prof. Anil K. Lalwani, a Professor of Otolaryngology and Vice Chair for Research at Columbia University, was appointed inaugural Dean of IIT Kanpur's new Gangwal School of Medical Sciences and Technology in April 2026.",
+      "stat": "275+",
+      "statLabel": "peer-reviewed papers authored by Prof. Anil K. Lalwani over his career, per Columbia University faculty records",
+      "narration": "Professor Anil K. Lalwani, a Professor of Otolaryngology and Vice Chair for Research at Columbia University, was appointed inaugural Dean of I-I-T Kanpur's new Gangwal School of Medical Sciences and Technology in April twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "He trained at University of Michigan, Duke and UCSF, later chaired NYU's Otolaryngology department - taking it from unranked to #22 nationally - and pioneered gene-transfer technology for inner-ear disease.",
+      "narration": "He trained at University of Michigan, Duke and U-C-S-F, later chaired N-Y-U's Otolaryngology department - taking it from unranked to number twenty-two nationally - and pioneered gene-transfer technology for inner-ear disease."
+    },
+    {
+      "kind": "point",
+      "text": "The school he's now building, funded by fellow diaspora figure Rakesh Gangwal's Rs 400 crore gift, aims to fuse engineering and medicine from the ground up."
+    },
+    {
+      "kind": "closer",
+      "text": "One diaspora figure funded the building.",
+      "sub": "Another is now building what happens inside it.",
+      "narration": "One diaspora figure funded the building. Another is now building what happens inside it."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "After 40 years building his career in US medicine, he's coming back to build India's newest medical school.\n\nProf. Anil K. Lalwani, a Professor of Otolaryngology and Vice Chair for Research at Columbia University, was appointed inaugural Dean of IIT Kanpur's new Gangwal School of Medical Sciences and Technology in April 2026. He trained at University of Michigan, Duke and UCSF, chaired NYU's Otolaryngology department, and has authored over 275 peer-reviewed papers pioneering gene-transfer technology for inner-ear disease. The school he's now building, funded by fellow diaspora figure Rakesh Gangwal's Rs 400 crore gift, aims to fuse engineering and medicine from the ground up.\n\nOne diaspora figure funded the building. Another is now building what happens inside it.\n\nSources: IIT Kanpur, BioSpectrum India (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "His food initiative fed 30 million people during COVID. In 2026, TIME named him one of the 100 most influential people alive."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What he actually built",
+      "headline": "Chef Vikas Khanna's Feed India initiative delivered over 30 million meals across 135 cities during the pandemic.",
+      "body": "Long before the recognition, Khanna - an 8-Michelin-star chef - redirected his career toward large-scale food relief, running the effort alongside his culinary and filmmaking work rather than as a side project."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What happened in 2026",
+      "headline": "TIME named him to its 2026 TIME100 list - the first Indian culinary figure ever included.",
+      "body": "He joins the list alongside fellow honorees Sundar Pichai and Ranbir Kapoor, recognized for a body of work that spans his humanitarian food-relief work, his directorial debut 'The Last Color,' and his Cannes-premiered documentary 'Kitchens of Gratitude.'"
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs its most visible global figures to still show up for the basics.",
+      "body": "Khanna's recognition came from a decade of feeding people, not just cooking for them - a reminder that global influence and grassroots relief work aren't opposites."
+    }
+  ],
+  "sources": [
+    {
+      "text": "India Currents - Chef Vikas Khanna Named To 2026 TIME100 List",
+      "url": "https://indiacurrents.com/chef-vikas-khanna-named-to-2026-time100-list/"
+    },
+    {
+      "text": "The Tribune - Vikas Khanna makes it to the TIME 100 list",
+      "url": "https://www.tribuneindia.com/news/lifestyle/vikas-khanna-makes-it-to-the-time-100-list/"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She leads Teach For India's US arm. In 2026, a new award named her its first-ever winner."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Neha Gupta won the inaugural Deepak Raj Rising Star Award",
+      "body": "The award, created by the India Philanthropy Alliance in memory of philanthropist Deepak Raj, honors an emerging Indian-American leader under 40 with sustained commitment to philanthropy and community development. It was announced September 17, 2026, and Gupta delivered the closing keynote at the Indiaspora-India Philanthropy Alliance Philanthropy Summit in Dallas on September 29."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually does",
+      "headline": "She has led Teach For India US since September 2024, after 15+ years across education, tech and finance.",
+      "body": "The award carries a $10,000 grant - which Gupta is directing straight back into Teach For India US, rather than keeping it as personal recognition."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs leaders who turn recognition back into the work.",
+      "body": "Gupta's choice to redirect the award's grant into her own organization's mission is a small, concrete example of diaspora leadership built on follow-through, not just titles."
+    }
+  ],
+  "sources": [
+    {
+      "text": "American Bazaar - Neha Gupta wins inaugural Deepak Raj Rising Star Award",
+      "url": "https://americanbazaaronline.com/2026/09/17/neha-gupta-deepak-raj-rising-star-award-488354/"
+    },
+    {
+      "text": "India West - Teach For India U.S. Exec Neha Gupta Wins Deepak Raj Award",
+      "url": "https://indiawest.com/teach-for-india-exec-neha-gupta-wins-ipas-deepak-raj-award/"
+    }
+  ]
+}

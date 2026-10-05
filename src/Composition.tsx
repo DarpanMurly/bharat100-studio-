@@ -35,6 +35,7 @@ import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
+import dehradunexpressway26 from "./scripts/dehradunexpressway26.json";
 import desai26 from "./scripts/desai26.json";
 import dfc26 from "./scripts/dfc26.json";
 import diasporaFcnr26 from "./scripts/diaspora-fcnr26.json";
@@ -52,15 +53,19 @@ import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
+import gangwal26 from "./scripts/gangwal26.json";
 import ghosh26 from "./scripts/ghosh26.json";
 import h2vessel26 from "./scripts/h2vessel26.json";
+import ironlady26 from "./scripts/ironlady26.json";
 import isrochip26 from "./scripts/isrochip26.json";
 import jainwolf26 from "./scripts/jainwolf26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import kavach26 from "./scripts/kavach26.json";
 import kewalramani26 from "./scripts/kewalramani26.json";
 import kochhar26 from "./scripts/kochhar26.json";
+import lalwani26 from "./scripts/lalwani26.json";
 import lamresearch26 from "./scripts/lamresearch26.json";
+import lngtrain26 from "./scripts/lngtrain26.json";
 import marutih2 from "./scripts/marutih2.json";
 import menon26 from "./scripts/menon26.json";
 import musunuru26 from "./scripts/musunuru26.json";
@@ -71,6 +76,7 @@ import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
 import pmrc26 from "./scripts/pmrc26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
+import punemetro26 from "./scripts/punemetro26.json";
 import ramanathan26 from "./scripts/ramanathan26.json";
 import renewables26 from "./scripts/renewables26.json";
 import repm26 from "./scripts/repm26.json";
@@ -100,6 +106,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "cgsemi26": cgsemi26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
+  "dehradunexpressway26": dehradunexpressway26 as VideoScript,
   "desai26": desai26 as VideoScript,
   "dfc26": dfc26 as VideoScript,
   "diaspora-fcnr26": diasporaFcnr26 as VideoScript,
@@ -117,15 +124,19 @@ const scriptRegistry: Record<string, VideoScript> = {
   "evgrowth26": evgrowth26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
+  "gangwal26": gangwal26 as VideoScript,
   "ghosh26": ghosh26 as VideoScript,
   "h2vessel26": h2vessel26 as VideoScript,
+  "ironlady26": ironlady26 as VideoScript,
   "isrochip26": isrochip26 as VideoScript,
   "jainwolf26": jainwolf26 as VideoScript,
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "kavach26": kavach26 as VideoScript,
   "kewalramani26": kewalramani26 as VideoScript,
   "kochhar26": kochhar26 as VideoScript,
+  "lalwani26": lalwani26 as VideoScript,
   "lamresearch26": lamresearch26 as VideoScript,
+  "lngtrain26": lngtrain26 as VideoScript,
   "marutih2": marutih2 as VideoScript,
   "menon26": menon26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,
@@ -136,6 +147,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "pixxel26": pixxel26 as VideoScript,
   "pmrc26": pmrc26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
+  "punemetro26": punemetro26 as VideoScript,
   "ramanathan26": ramanathan26 as VideoScript,
   "renewables26": renewables26 as VideoScript,
   "repm26": repm26 as VideoScript,

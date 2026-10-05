@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She leads a global fight against violence toward women. In 2026, she became only the second South Asian in the National Women's Hall of Fame."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Mona Sinha was inducted into the National Women's Hall of Fame on September 24, 2026",
+      "body": "The ceremony, held at the George Eastman Museum in Rochester, NY, recognized more than 40 years of her leadership in gender equality, philanthropy and advocacy. She is only the second South Asian ever inducted, after Indra Nooyi - joining a roster that includes Michelle Obama, Rosa Parks and Janet Yellen."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she actually runs",
+      "headline": "As CEO of Equality Now, her work secured 17 legal changes across nine countries in 2025 alone.",
+      "body": "Those legal reforms against discrimination and violence toward women and girls are estimated to have benefited 69 million women and girls - concrete policy change, not symbolic advocacy."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs its diaspora shaping global rules, not just global companies.",
+      "body": "Sinha's induction marks an Indian-origin leader influencing international law on women's rights at the highest level - a different kind of global Indian success story than the ones usually celebrated."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Equality Now - Mona Sinha, CEO of Equality Now, inducted into National Women's Hall of Fame",
+      "url": "https://equalitynow.org/news/press-releases/mona-sinha-ceo-of-equality-now-inducted-into-national-womens-hall-of-fame/"
+    },
+    {
+      "text": "India Weekly - Equality Now CEO Sharmila Mona Sinha Becomes 2nd Indian-Origin Woman in National Women's Hall of Fame",
+      "url": "https://www.indiaweekly.biz/sharmila-mona-sinha-national-womens-hall-of-fame/"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1864",
+      "headline": "October 5, 1864: a cyclone killed 60,000 people in Calcutta - and accidentally built India's weather-warning system."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "A storm surge roughly 40 feet high tore up the Hooghly River and devastated Calcutta",
+      "body": "The Great Calcutta Cyclone of October 5, 1864, wrecked hundreds of ships, flattened warehouses across the port, and killed an estimated 60,000 people - one of the deadliest cyclones ever recorded. There had been no warning system of any kind."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it led to",
+      "headline": "The catastrophe forced British India to start taking weather seriously - as an institution, not an afterthought.",
+      "body": "The scale of the disaster exposed how unprepared the region was, and became one of the direct pressures that led to organized meteorological observation in India - culminating in the founding of the India Meteorological Department on January 15, 1875."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "India's disaster-preparedness institutions trace back to a tragedy nobody saw coming.",
+      "body": "A Viksit Bharat by 2047 depends on the kind of forecasting and warning infrastructure that didn't exist in 1864 - built precisely because that absence once cost tens of thousands of lives."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - 1864 Calcutta cyclone",
+      "url": "https://en.wikipedia.org/wiki/1864_Calcutta_cyclone"
+    },
+    {
+      "text": "The Tribune - The Calcutta Cyclone of 1864: From catastrophe to India's cyclone-warning system",
+      "url": "https://www.tribuneindia.com/news/exam-mentor/the-calcutta-cyclone-of-1864-from-catastrophe-to-indias-cyclone-warning-system"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1949",
+      "headline": "October 6, 1949: Nehru laid the foundation stone for a military academy unlike any other in the world."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Jawaharlal Nehru laid the foundation stone of the National Defence Academy at Khadakwasla",
+      "body": "The academy was designed as the world's first tri-service military academy - training Army, Navy and Air Force cadets together from day one, instead of separately. The original paperwork called it the 'National War Academy'; Nehru objected to the name at the ceremony itself and had it changed to 'National Defence Academy.'"
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it became",
+      "headline": "It would take over five years before the first cadets walked through its gates.",
+      "body": "The NDA was formally commissioned on December 7, 1954, and inaugurated on January 16, 1955 - becoming the training ground for generations of India's military leadership, built around a tri-service model many countries still don't use."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needed its defense institutions built for integration, not separation, from the start.",
+      "body": "Nehru's small edit to the academy's name - from 'war' to 'defence' - still frames how India's military has trained its officers for over 75 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - National Defence Academy (India)",
+      "url": "https://en.wikipedia.org/wiki/National_Defence_Academy_(India)"
+    },
+    {
+      "text": "The Week - Khadakwasla: The cradle of India's military leadership",
+      "url": "https://www.theweek.in/theweek/cover/2025/05/31/khadakwasla-the-cradle-of-officers.html"
+    }
+  ]
+}

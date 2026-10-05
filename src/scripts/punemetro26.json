@@ -1,0 +1,46 @@
+{
+  "id": "punemetro26",
+  "title": "India's first privately-financed metro line is about to open in Pune",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-06",
+  "sources": [
+    "Indian Infrastructure, October 2026 - CMRS grants approval to 17 stations under Hinjewadi-Shivajinagar Metro Project in Maharashtra",
+    "ETV Bharat - Hinjawadi To Shivajinagar Metro Ready To Ply In 12 Days As It Gets CMRC Approval For Passenger Service"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's first privately-financed metro line is about to open in Pune.",
+      "sub": "Built by a Tata-Siemens consortium, not the usual public-sector model."
+    },
+    {
+      "kind": "stat",
+      "text": "Pune Metro Line 3, the Hinjewadi-Shivajinagar corridor, is India's first metro built entirely on a Design-Build-Finance-Operate-Transfer public-private partnership model, costing roughly Rs 8,313 crore.",
+      "stat": "23.2 km",
+      "statLabel": "length of the Hinjewadi-Shivajinagar corridor, India's first PPP-model metro line, per Indian Infrastructure, October 2026",
+      "narration": "Pune Metro Line three, the Hinjewadi-Shivajinagar corridor, is India's first metro built entirely on a Design-Build-Finance-Operate-Transfer public-private partnership model, costing roughly eight thousand three hundred and thirteen crore rupees."
+    },
+    {
+      "kind": "point",
+      "text": "On October 1, 2026, India's Commissioner of Metro Rail Safety cleared 17 of its 23 stations for passenger operations - connecting Hinjewadi's IT corridor directly to the city center.",
+      "narration": "On October first, twenty twenty-six, India's Commissioner of Metro Rail Safety cleared seventeen of its twenty-three stations for passenger operations - connecting Hinjewadi's I-T corridor directly to the city center."
+    },
+    {
+      "kind": "point",
+      "text": "It's a new delivery model for Indian mass transit - private capital and execution, rather than the standard fully public-financed metro build."
+    },
+    {
+      "kind": "closer",
+      "text": "Not a government project with private contractors.",
+      "sub": "A private project the government cleared to run.",
+      "narration": "Not a government project with private contractors. A private project the government cleared to run."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's first privately-financed metro line is about to open in Pune. Built by a Tata-Siemens consortium, not the usual public-sector model.\n\nPune Metro Line 3, the Hinjewadi-Shivajinagar corridor, is India's first metro built entirely on a Design-Build-Finance-Operate-Transfer public-private partnership model, costing roughly Rs 8,313 crore. On October 1, 2026, India's Commissioner of Metro Rail Safety cleared 17 of its 23 stations for passenger operations - connecting Hinjewadi's IT corridor directly to the city center.\n\nNot a government project with private contractors. A private project the government cleared to run.\n\nSources: Indian Infrastructure, ETV Bharat (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

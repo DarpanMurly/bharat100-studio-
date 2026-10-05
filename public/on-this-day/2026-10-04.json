@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1977",
+      "headline": "October 4, 1977: India's External Affairs Minister became the first person to address the UN General Assembly in Hindi."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Atal Bihari Vajpayee addressed the UN General Assembly's 32nd session entirely in Hindi",
+      "body": "As India's External Affairs Minister, Vajpayee broke with decades of English-only precedent at the UN podium, speaking on nuclear disarmament and economic cooperation among developing nations - and invoking the ancient Indian idea of Vasudhaiva Kutumbakam, 'the world is one family.'"
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it stood out",
+      "headline": "It remains one of the only times Hindi has ever been spoken from the UN's main podium.",
+      "body": "Decades before 'India's voice at the UN' became a familiar phrase in diplomacy, Vajpayee used the moment to assert that India's own language belonged on the world's biggest diplomatic stage - not just its ideas in someone else's words."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat speaks to the world in its own voice, literally.",
+      "body": "Vajpayee's 1977 speech stands as an early marker of India choosing self-assurance over convention on the global stage - the same instinct a developed India will need by 2047."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "WION News - India's vision: When Atal Bihari Vajpayee made iconic speech in Hindi at UNGA",
+      "url": "https://www.wionews.com/india-news/indias-vision-when-atal-bihari-vajpayee-made-iconic-speech-in-hindi-at-unga-414355/amp"
+    },
+    {
+      "text": "GNT TV - Atal Bihari Vajpayee gave a speech in Hindi for the first time in UN on 4 October 1977 United Nations General Assembly",
+      "url": "https://www.gnttv.com/india/story/atal-bihari-vajpayee-gave-a-speech-in-hindi-for-the-first-time-in-un-on-4-october-1977-united-nations-general-assembly-688670-2023-10-04"
+    }
+  ]
+}

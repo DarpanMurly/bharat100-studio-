@@ -1,0 +1,47 @@
+{
+  "id": "ironlady26",
+  "type": "diaspora-dividend",
+  "title": "She sold her tech company to a Fortune 200 firm. Then she built a foundation named after her mother.",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-05",
+  "sources": [
+    "TriCity Voice - Global nonprofit founder started as Fremont business owner",
+    "Iron Lady Foundation - official site"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She sold her tech company to a Fortune 200 firm.",
+      "sub": "Then she built a foundation named after her mother."
+    },
+    {
+      "kind": "stat",
+      "text": "Rashi Mehta co-founded Rahi Systems in 2013, literally starting in her Fremont garage. It grew to operate in over 25 countries before being acquired by Wesco, a Fortune 200 company, after 12 years.",
+      "stat": "25+",
+      "statLabel": "countries Rahi Systems operated in before its acquisition by Wesco, per TriCity Voice",
+      "narration": "Rashi Mehta co-founded Rahi Systems in twenty thirteen, literally starting in her Fremont garage. It grew to operate in over twenty five countries before being acquired by Wesco, a Fortune two hundred company, after twelve years."
+    },
+    {
+      "kind": "point",
+      "text": "In 2024, she founded the Iron Lady Foundation, named for her mother Dr. Leela Mehta - one of Rajasthan's first practicing gynecologists, who gave free checkups to village women decades ago.",
+      "narration": "In twenty twenty-four, she founded the Iron Lady Foundation, named for her mother Dr. Leela Mehta - one of Rajasthan's first practicing gynecologists, who gave free checkups to village women decades ago."
+    },
+    {
+      "kind": "point",
+      "text": "The self-funded foundation now runs water systems, science labs and girls' school sponsorships across rural Rajasthan - starting with Dhol Ki Pati school in January 2024."
+    },
+    {
+      "kind": "closer",
+      "text": "One generation gave free checkups in a village with no doctors.",
+      "sub": "The next is funding the schools, water and healthcare that village still needed.",
+      "narration": "One generation gave free checkups in a village with no doctors. The next is funding the schools, water and healthcare that village still needed."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "She sold her tech company to a Fortune 200 firm. Then she built a foundation named after her mother.\n\nRashi Mehta co-founded Rahi Systems in 2013, literally starting in her Fremont garage. It grew to operate in over 25 countries before being acquired by Wesco, a Fortune 200 company, after 12 years. In 2024, she founded the Iron Lady Foundation, named for her mother Dr. Leela Mehta - one of Rajasthan's first practicing gynecologists, who gave free checkups to village women decades ago. The self-funded foundation now runs water systems, science labs and girls' school sponsorships across rural Rajasthan.\n\nOne generation gave free checkups in a village with no doctors. The next is funding the schools, water and healthcare that village still needed.\n\nSources: TriCity Voice, Iron Lady Foundation (2023-2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Philanthropy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

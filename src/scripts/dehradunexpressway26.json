@@ -1,0 +1,46 @@
+{
+  "id": "dehradunexpressway26",
+  "title": "India built a highway with its own wildlife crossing - and the animals are actually using it",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-04",
+  "sources": [
+    "Down To Earth, April 2026 - As the Delhi-Dehradun Expressway is opened tomorrow, new study documents 18 wildlife species using key underpass near Haridwar",
+    "Wikipedia - Delhi-Dehradun Expressway"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India built a highway with its own wildlife crossing.",
+      "sub": "And camera traps show the animals are actually using it."
+    },
+    {
+      "kind": "stat",
+      "text": "The Delhi-Dehradun Expressway, opened in April 2026, cuts travel time between the two cities from over 6 hours to about 2.5 hours - and includes a 12 km elevated wildlife corridor through the Rajaji National Park region, widely reported as Asia's longest.",
+      "stat": "12 km",
+      "statLabel": "length of the elevated wildlife corridor built into the Delhi-Dehradun Expressway, per Down To Earth, April 2026",
+      "narration": "The Delhi-Dehradun Expressway, opened in April twenty twenty-six, cuts travel time between the two cities from over six hours to about two and a half hours - and includes a twelve kilometre elevated wildlife corridor through the Rajaji National Park region, widely reported as Asia's longest."
+    },
+    {
+      "kind": "point",
+      "text": "A follow-up camera-trap study documented 18 wildlife species - including elephants and golden jackals - already using the underpass to cross safely beneath the highway.",
+      "narration": "A follow-up camera-trap study documented eighteen wildlife species - including elephants and golden jackals - already using the underpass to cross safely beneath the highway."
+    },
+    {
+      "kind": "point",
+      "text": "It's a rare case where an infrastructure project's ecological mitigation claim was independently verified in the field, not just announced."
+    },
+    {
+      "kind": "closer",
+      "text": "A highway built to move people faster",
+      "sub": "also quietly let a forest keep moving the way it always has.",
+      "narration": "A highway built to move people faster also quietly let a forest keep moving the way it always has."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India built a highway with its own wildlife crossing. And camera traps show the animals are actually using it.\n\nThe Delhi-Dehradun Expressway, opened in April 2026, cuts travel time between the two cities from over 6 hours to about 2.5 hours - and includes a 12 km elevated wildlife corridor through the Rajaji National Park region, widely reported as Asia's longest. A follow-up camera-trap study documented 18 wildlife species - including elephants and golden jackals - already using the underpass to cross safely beneath the highway.\n\nA highway built to move people faster also quietly let a forest keep moving the way it always has.\n\nSources: Down To Earth, Wikipedia (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

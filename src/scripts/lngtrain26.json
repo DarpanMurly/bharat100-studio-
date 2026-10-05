@@ -1,0 +1,46 @@
+{
+  "id": "lngtrain26",
+  "title": "India just ran its first train that burns less diesel by mixing in natural gas",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-05",
+  "sources": [
+    "Indian Infrastructure, October 2026 - Centre launches India's first LNG powered train in Gujarat",
+    "Adda247 Current Affairs - India's First LNG-Powered Train Flagged Off from Sabarmati"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just ran its first train that burns less diesel by mixing in natural gas.",
+      "sub": "No new engine needed - the old ones were converted."
+    },
+    {
+      "kind": "stat",
+      "text": "India's first diesel-LNG dual-fuel train was flagged off on September 27, 2026, running between Sabarmati, Ahmedabad and Mahesana Junction in Gujarat.",
+      "stat": "40%",
+      "statLabel": "of diesel usage that LNG can substitute in the converted dual-fuel power cars, per Indian Infrastructure, October 2026",
+      "narration": "India's first diesel-L-N-G dual-fuel train was flagged off on September twenty-seventh, twenty twenty-six, running between Sabarmati, Ahmedabad and Mahesana Junction in Gujarat."
+    },
+    {
+      "kind": "point",
+      "text": "Two existing Driving Power Cars were retrofitted for dual-fuel use, each carrying a 2,200-litre LNG tank - and completed over 2,000 km of field trials before entering commercial service.",
+      "narration": "Two existing Driving Power Cars were retrofitted for dual-fuel use, each carrying a two thousand two hundred litre L-N-G tank - and completed over two thousand kilometres of field trials before entering commercial service."
+    },
+    {
+      "kind": "point",
+      "text": "A full tank gives roughly 1,600 km of range, cutting diesel consumption and emissions on routes that aren't yet electrified."
+    },
+    {
+      "kind": "closer",
+      "text": "Not a new train. Not a new route.",
+      "sub": "Just an old engine, rebuilt to burn cleaner.",
+      "narration": "Not a new train. Not a new route. Just an old engine, rebuilt to burn cleaner."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just ran its first train that burns less diesel by mixing in natural gas. No new engine needed - the old ones were converted.\n\nIndia's first diesel-LNG dual-fuel train was flagged off on September 27, 2026, running between Sabarmati, Ahmedabad and Mahesana Junction in Gujarat. Two existing Driving Power Cars were retrofitted for dual-fuel use, each carrying a 2,200-litre LNG tank, and completed over 2,000 km of field trials before entering commercial service. LNG can substitute roughly 40% of diesel usage, with a full tank giving about 1,600 km of range.\n\nNot a new train. Not a new route. Just an old engine, rebuilt to burn cleaner.\n\nSources: Indian Infrastructure, Adda247 (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#CleanEnergy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
