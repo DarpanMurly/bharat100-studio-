@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He operated on a patient 10,000 km away. The round trip took under 150 milliseconds."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Mohit Bhandari performed the world's longest-distance robotic telesurgery between Australia and India",
+      "body": "On May 2, 2026, he remotely performed a live robotic gastrojejunostomy on a patient in Indore while operating from Perth, Australia - roughly 10,000 km away - using SS Innovations' SSI Mantra telesurgery system, during the Royal Australasian College of Surgeons' Annual Scientific Congress."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What made it work",
+      "headline": "A three-minute procedure, with latency low enough to trust a scalpel to.",
+      "body": "The demonstration recorded round-trip latency under 150 milliseconds - fast enough for precise surgical control across continents - and completed the procedure in about three minutes, a landmark for how close long-distance robotic telesurgery is to real clinical use."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs specialist surgery to reach patients, not just patients to reach specialists.",
+      "body": "Telesurgery at this latency means a surgeon's expertise can travel instantly, even when the surgeon can't - a real path toward closing India's rural-urban specialist gap."
+    }
+  ],
+  "sources": [
+    {
+      "text": "GlobeNewswire - SS Innovations Demonstrates Long-Distance Telesurgery Capabilities at Royal Australian College of Surgeons Annual Scientific Congress",
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3290009/0/en/ss-innovations-demonstrates-long-distance-telesurgery-capabilities-at-royal-australian-college-of-surgeons-annual-scientific-congress.html"
+    },
+    {
+      "text": "MassDevice - SS Innovations demonstrates long-distance telerobotic surgery capabilities over 4,500 miles",
+      "url": "https://www.massdevice.com/ss-innovations-showcases-long-distance-telerobotic-surgery/"
+    }
+  ]
+}

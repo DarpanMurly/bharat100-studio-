@@ -1,0 +1,46 @@
+{
+  "id": "indoremetro26",
+  "title": "A Tier-2 city just expanded its metro network - no fanfare, just 11 new stations",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-07",
+  "sources": [
+    "GKToday - Indore Metro Priority Corridor-2 Inaugurated",
+    "Swarajya Mag - Indore Metro Priority Corridor-2 Inaugurated, Network Expands To 16 Operational Stations Covering Around 17 Km"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Tier-2 city just expanded its metro network.",
+      "sub": "No fanfare, just 11 new stations."
+    },
+    {
+      "kind": "stat",
+      "text": "On September 6, 2026, Indore inaugurated Priority Corridor-2 of its metro - an 11 km stretch with 11 new stations running from Super Corridor-3 to Malviya Nagar Chauraha, built at a cost of roughly Rs 2,850 crore.",
+      "stat": "17 km",
+      "statLabel": "total Indore Metro network after Priority Corridor-2's opening, per Swarajya Mag, September 2026",
+      "narration": "On September sixth, twenty twenty-six, Indore inaugurated Priority Corridor two of its metro - an eleven kilometre stretch with eleven new stations, built at a cost of roughly two thousand eight hundred and fifty crore rupees."
+    },
+    {
+      "kind": "point",
+      "text": "The expansion pushed Indore Metro's total operational network to roughly 17 km across 16 stations - modern urban rail reaching a Tier-2 city, not just India's traditional metro capitals.",
+      "narration": "The expansion pushed Indore Metro's total operational network to roughly seventeen kilometres across sixteen stations - modern urban rail reaching a Tier-2 city, not just India's traditional metro capitals."
+    },
+    {
+      "kind": "point",
+      "text": "Regular passenger service on the extended route began the same day, inaugurated by Union Minister Manohar Lal alongside Madhya Pradesh's Chief Minister."
+    },
+    {
+      "kind": "closer",
+      "text": "Metro rail used to mean Delhi, Mumbai, Bengaluru.",
+      "sub": "Indore just added itself to that list, one corridor at a time.",
+      "narration": "Metro rail used to mean Delhi, Mumbai, Bengaluru. Indore just added itself to that list, one corridor at a time."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A Tier-2 city just expanded its metro network. No fanfare, just 11 new stations.\n\nOn September 6, 2026, Indore inaugurated Priority Corridor-2 of its metro - an 11 km stretch with 11 new stations running from Super Corridor-3 to Malviya Nagar Chauraha, built at a cost of roughly Rs 2,850 crore. The expansion pushed Indore Metro's total operational network to roughly 17 km across 16 stations.\n\nMetro rail used to mean Delhi, Mumbai, Bengaluru. Indore just added itself to that list, one corridor at a time.\n\nSources: GKToday, Swarajya Mag (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

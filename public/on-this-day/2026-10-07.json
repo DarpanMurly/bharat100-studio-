@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1914",
+      "headline": "October 7, 1914: she was born in a small town in Uttar Pradesh. The world would later call her the Queen of Ghazals."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Begum Akhtar was born in Faizabad, United Provinces, on October 7, 1914",
+      "body": "She became one of Hindustani classical music's greatest voices in ghazal, dadra and thumri - genres built on emotional restraint and precise phrasing, not vocal spectacle. Her recordings turned Urdu poetry into something millions of people could feel without reading a word of it."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she earned",
+      "headline": "India gave her its highest honors - most of them after decades of singing, some after she was gone.",
+      "body": "She received the Sangeet Natak Akademi Award in 1972 and the Padma Shri, before being posthumously conferred the Padma Bhushan - recognition that took a lifetime of performance to arrive, in a genre many considered too intimate for the national stage."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still needs art forms that take patience to master and patience to honor.",
+      "body": "Begum Akhtar's ghazals remain a reminder that not every cultural achievement arrives with headlines - some take decades, and get recognized anyway."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Begum Akhtar",
+      "url": "https://en.wikipedia.org/wiki/Begum_Akhtar"
+    },
+    {
+      "text": "The Better India - Begum Akhtar, The Queen of Ghazals Who Turned Her Pain Into Soul-Stirring Music",
+      "url": "https://thebetterindia.com/199268/begum-akhtar-queen-of-ghazals-padma-bhushan-music-legend-india/"
+    }
+  ]
+}

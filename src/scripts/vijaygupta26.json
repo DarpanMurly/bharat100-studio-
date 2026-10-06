@@ -1,0 +1,47 @@
+{
+  "id": "vijaygupta26",
+  "type": "diaspora-dividend",
+  "title": "He plays violin for the LA Philharmonic. He also plays it inside homeless shelters and jails",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-07",
+  "sources": [
+    "LA Phil official artist bio - Vijay Gupta",
+    "NEA - We Need Darkness to See the Stars: Vijay Gupta on Street Symphony"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He plays violin for the LA Philharmonic.",
+      "sub": "He also plays it inside homeless shelters and jails."
+    },
+    {
+      "kind": "stat",
+      "text": "Vijay Gupta, an Indian-American violinist, joined the Los Angeles Philharmonic in 2007 at age 19 - after passing a Juilliard audition at age six and making his solo debut with the Israel Philharmonic at 11.",
+      "stat": "2011",
+      "statLabel": "year Vijay Gupta founded Street Symphony while still a full-time LA Phil violinist, per the NEA",
+      "narration": "Vijay Gupta, an Indian-American violinist, joined the Los Angeles Philharmonic in two thousand seven at age nineteen - after passing a Juilliard audition at age six and making his solo debut with the Israel Philharmonic at eleven."
+    },
+    {
+      "kind": "point",
+      "text": "In 2011, while still a full-time orchestra violinist, he founded Street Symphony - bringing live classical music and teaching artistry directly into LA's homeless shelters, clinics, county jails and state hospitals.",
+      "narration": "In twenty eleven, while still a full-time orchestra violinist, he founded Street Symphony - bringing live classical music and teaching artistry directly into L-A's homeless shelters, clinics, county jails and state hospitals."
+    },
+    {
+      "kind": "point",
+      "text": "Street Symphony has since presented thousands of performances and lessons for some of LA's most marginalized communities - work that later earned Gupta a 2018 MacArthur Fellowship."
+    },
+    {
+      "kind": "closer",
+      "text": "Classical music is usually kept behind concert-hall doors.",
+      "sub": "He decided the people who needed it most should never have to knock.",
+      "narration": "Classical music is usually kept behind concert-hall doors. He decided the people who needed it most should never have to knock."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He plays violin for the LA Philharmonic. He also plays it inside homeless shelters and jails.\n\nVijay Gupta, an Indian-American violinist, joined the Los Angeles Philharmonic in 2007 at age 19. In 2011, while still a full-time orchestra violinist, he founded Street Symphony - bringing live classical music and teaching artistry directly into LA's homeless shelters, clinics, county jails and state hospitals. Street Symphony has since presented thousands of performances and lessons for some of LA's most marginalized communities, work that later earned Gupta a 2018 MacArthur Fellowship.\n\nClassical music is usually kept behind concert-hall doors. He decided the people who needed it most should never have to knock.\n\nSources: LA Phil, NEA (2007-2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Arts"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
