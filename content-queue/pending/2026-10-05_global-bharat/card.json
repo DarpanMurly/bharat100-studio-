@@ -46,5 +46,9 @@
   "youtubeUrl": "https://youtube.com/watch?v=2zvYf39nqBA",
   "youtubeScheduledAt": "2026-10-05T20:09:42.997Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mx5wkdnkq42q",
-  "blueskyPostedAt": "2026-10-05T22:08:52.651Z"
+  "blueskyPostedAt": "2026-10-05T22:08:52.651Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DeH_eJ9jFb0/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DeH_d9xAC38"
+  }
 }
