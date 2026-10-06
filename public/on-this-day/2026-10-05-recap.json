@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Sep 28",
+      "headline": "5 stories.",
+      "listItems": [
+        "He spent years measuring how the Indian Ocean is warming. The world's largest Earth science society just gave him its top communications honor.",
+        "Maruti Suzuki just started making its own hydrogen. From solar power the factory used to simply waste.",
+        "He slept on a railway platform to afford weekend engineering classes. He now runs a district as an IAS officer.",
+        "September 28, 1929: a voice was born in Indore that would become the soundtrack of a nation.",
+        "He left IIT Bombay for a physics PhD in America. In 2026, he was elected to a society founded in 1780."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Sep 29",
+      "headline": "5 stories.",
+      "listItems": [
+        "He's scored more ODI centuries than anyone in history. On September 27, he broke his own record again.",
+        "His father emigrated from Punjab to study at this college in 1946. In 2026, his son paid off its entire graduating class's loans.",
+        "A US chip-equipment giant just committed 10,000 crore rupees to India. For a kind of silicon manufacturing nobody's done here before.",
+        "His father drove an autorickshaw. His mother worked the fields. At 21, he became one of India's youngest IAS officers.",
+        "September 29, 1997: India launched its own rocket, carrying its own satellite, for the first time."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Sep 30",
+      "headline": "5 stories.",
+      "listItems": [
+        "India just built a chip that runs 300 times faster than the silicon in most electronics. It's smaller than a fingernail.",
+        "He led a database company for less than a year. Then Mark Zuckerberg created a role for him at Meta - reporting directly to him.",
+        "His father is from Kerala. His mother is from Ukraine. In July 2026, he launched to the International Space Station.",
+        "She lost her sight completely right before her board exams. She just became the first blind woman to argue a case before India's Supreme Court.",
+        "September 30, 1989: India launched a submarine it had never built before - and built it anyway."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Oct 1",
+      "headline": "5 stories.",
+      "listItems": [
+        "At 11 years old, she just broke a chess record that stood for over two decades.",
+        "His village had no electricity until he was seven. He now leads Australia's national academy of science.",
+        "October 1, 1966: India decided tourism was worth its own government company.",
+        "India just switched on a reactor that makes more fuel than it burns. It's called a breeder reactor - and it's entirely homegrown.",
+        "She fuses Indian ragas with jazz. In 2026, that earned her a Grammy nomination."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Oct 2",
+      "headline": "5 stories.",
+      "listItems": [
+        "India just rolled out its first privately assembled military aircraft. Built at a Tata-Airbus facility in Gujarat.",
+        "He grew up in a small Gujarat village. In 2026, a US award named after the father of the Green Revolution went to him.",
+        "He's been blind since birth. He's also saved lives from drowning, 13 times over.",
+        "His team built a gene therapy from scratch for one baby. It took six months.",
+        "October 2, 1904: India's second Prime Minister was born on the same day as Gandhi."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Oct 3",
+      "headline": "5 stories.",
+      "listItems": [
+        "He mapped the genetics behind heart disease. In 2026, the American Heart Association gave him its top research honor.",
+        "India just put a passenger boat on the Ganga that runs on hydrogen. Built entirely in India, for India's own waterways.",
+        "His wife left him. Villagers thought he was mentally ill. He kept building anyway - and changed how millions of women live.",
+        "October 3, 1978: a Kolkata doctor achieved the world's second-ever IVF birth - alone, with homemade equipment.",
+        "She gave a US engineering school $100 million. They renamed it after her family."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Oct 4",
+      "headline": "5 stories.",
+      "listItems": [
+        "India built a highway with its own wildlife crossing. And camera traps show the animals are actually using it.",
+        "An IndiGo co-founder is building a 500-bed hospital inside his old engineering college. He's already put in Rs 400 crore of his own money.",
+        "She leads Teach For India's US arm. In 2026, a new award named her its first-ever winner.",
+        "She was born blind. Her grandmother, who raised her, is deaf and mute. There was no one in her world who could describe it to her - so she ran through it instead.",
+        "October 4, 1977: India's External Affairs Minister became the first person to address the UN General Assembly in Hindi."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}
