@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-08_inssurya26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 231,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,19 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "scheduledAt": "2026-10-08T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6ac6855de59f0d0f6167905a",
+    "X": "6ac6855f20b8d89a06787d12",
+    "Threads": "6ac685615dd7df060c6f4fb8"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "3QjQ2Rv6cbQ",
+  "youtubeUrl": "https://youtube.com/watch?v=3QjQ2Rv6cbQ",
+  "youtubeScheduledAt": "2026-10-08T13:30:00.000Z",
+  "facebookPostId": "2162088931011912",
+  "facebookScheduledAt": "2026-10-08T13:30:00.000Z",
+  "mastodonStatusId": "284340",
+  "mastodonScheduledAt": "2026-10-08T13:30:00.000Z"
 }
