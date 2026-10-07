@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1932",
+      "headline": "October 8, 1932: India's air force began with 5 pilots and 4 biplanes."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Indian Air Force Act, 1932 came into force, officially establishing the force",
+      "body": "It started as an auxiliary of the Royal Air Force, with five Cranwell-trained pilots and four Westland Wapiti biplanes based at Karachi. The first squadron wasn't raised until April 1933 - the institution existed on paper for months before it had a real unit to fly."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it became",
+      "headline": "From 5 pilots to one of the world's largest air forces.",
+      "body": "It was called the Royal Indian Air Force from 1945 until India became a republic in 1950, when it took its current name. October 8 has been observed as Indian Air Force Day every year since."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat's biggest institutions all started as small, uncertain commitments.",
+      "body": "Five pilots and four borrowed-design biplanes in 1932 grew into a force defending a nation's entire airspace - a reminder that scale is built, not inherited."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Indian Air Force",
+      "url": "https://en.wikipedia.org/wiki/Indian_Air_Force"
+    },
+    {
+      "text": "MapsOfIndia - 8th October 1932: The Indian Air Force comes into being",
+      "url": "https://www.mapsofindia.com/on-this-day/8th-october-1932-the-indian-air-force-comes-into-being"
+    }
+  ]
+}

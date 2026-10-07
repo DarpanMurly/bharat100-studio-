@@ -1,0 +1,47 @@
+{
+  "id": "jaysehgal26",
+  "type": "diaspora-dividend",
+  "title": "His uncle built India's hybrid seed industry, then sold it all to fund rural development",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-08",
+  "sources": [
+    "American Bazaar, May 2026 - From villages to vision: Jay Sehgal on transforming rural India through philanthropy",
+    "Indiaspora - Suri and Edda Sehgal, philanthropy leader profile"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "His uncle built India's hybrid seed industry.",
+      "sub": "Then he sold it all to fund rural development."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Suri Sehgal, a Harvard-trained crop scientist, built Proagro Group and Hytech Seed India into major hybrid seed companies before selling them in 1998 and founding the S M Sehgal Foundation in 1999 with his wife Edda.",
+      "stat": "3,000+",
+      "statLabel": "villages reached by the S M Sehgal Foundation's rural development work, per American Bazaar, May 2026",
+      "narration": "Doctor Suri Sehgal, a Harvard-trained crop scientist, built Proagro Group and Hytech Seed India into major hybrid seed companies before selling them in nineteen ninety-eight and founding the S-M Sehgal Foundation in nineteen ninety-nine with his wife Edda."
+    },
+    {
+      "kind": "point",
+      "text": "His nephew, Jay Sehgal, became Chairperson of the foundation in April 2025, carrying the work forward across more than 3,000 villages in 13 states.",
+      "narration": "His nephew, Jay Sehgal, became Chairperson of the foundation in April twenty twenty-five, carrying the work forward across more than three thousand villages in thirteen states."
+    },
+    {
+      "kind": "point",
+      "text": "The foundation's focus spans rural water security, sustainable agriculture, women's empowerment and rural school development - the same communities Suri Sehgal's seed business once served commercially."
+    },
+    {
+      "kind": "closer",
+      "text": "He built a seed business that fed India's farms.",
+      "sub": "His family then spent the proceeds making sure those farms had water, schools and a future.",
+      "narration": "He built a seed business that fed India's farms. His family then spent the proceeds making sure those farms had water, schools and a future."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "His uncle built India's hybrid seed industry. Then he sold it all to fund rural development.\n\nDr. Suri Sehgal, a Harvard-trained crop scientist, built Proagro Group and Hytech Seed India into major hybrid seed companies before selling them in 1998 and founding the S M Sehgal Foundation in 1999 with his wife Edda. His nephew, Jay Sehgal, became Chairperson of the foundation in April 2025, carrying the work forward across more than 3,000 villages in 13 states - focused on rural water security, sustainable agriculture, women's empowerment and school development.\n\nHe built a seed business that fed India's farms. His family then spent the proceeds making sure those farms had water, schools and a future.\n\nSources: American Bazaar, Indiaspora (1999-2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Philanthropy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

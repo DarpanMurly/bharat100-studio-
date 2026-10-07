@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "A sarod maestro and his two sons recorded an album with the Dalai Lama. It won a Grammy."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ustad Amjad Ali Khan, with sons Amaan and Ayaan Ali Bangash, won the 68th Grammy Award for Best Audio Book, Narration and Storytelling Recording",
+      "body": "The winning album, 'Meditations: The Reflections of His Holiness the Dalai Lama,' paired the Dalai Lama's spoken reflections with the Khan family's sarod - a classical Indian stringed instrument - across a genre category built for words, not usually music."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What happened next",
+      "headline": "The Dalai Lama didn't receive his own Grammy statuette until months after the ceremony.",
+      "body": "Amjad Ali Khan personally presented the Dalai Lama with his Grammy at his Dharamshala residence in June 2026 - closing the loop on a collaboration that crossed three generations of one Indian musical family and a Tibetan spiritual leader."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat's culture travels furthest when it's shared, not just performed.",
+      "body": "A sarod lineage built over three generations found a global audience by collaborating outward, not performing in isolation - a model for how Indian classical art keeps finding new rooms to fill."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Rayfield Allied - Grammy Win for 'Meditations', a collaboration between Amjad Ali Khan and sons, and His Holiness the Dalai Lama",
+      "url": "https://www.rayfieldallied.com/news/2026/grammy-win-for-meditations-a-collaboration-between-amjad-ali-khan-and-sons-and-his-holiness-the-dalai-lama"
+    },
+    {
+      "text": "ANI News - Dalai Lama receives his Grammy Award for audiobook 'Meditations' at Dharamshala residence",
+      "url": "https://www.aninews.in/news/entertainment/bollywood/dalai-lama-recieves-his-grammy-award-for-audiobook-meditations-at-dharamshala-residence20260603110202/"
+    }
+  ]
+}
