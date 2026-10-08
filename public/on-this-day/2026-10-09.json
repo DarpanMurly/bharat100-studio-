@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1949",
+      "headline": "October 9, 1949: India created an army of citizens who kept their day jobs."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "C. Rajagopalachari formally launched India's Territorial Army",
+      "body": "As India's first Indian Governor-General, Rajagopalachari launched the Territorial Army under the Territorial Army Act of 1948 - a volunteer 'second line of defence' made up of ordinary citizens with regular civilian careers, who train for military service and can be mobilized in national emergencies."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it became",
+      "headline": "77 years later, it's still built on the same idea: a soldier who isn't a full-time soldier.",
+      "body": "October 9 is observed every year as Territorial Army Day. The force remains one of the few institutions where a civilian career and military readiness are meant to coexist, not compete."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat doesn't need every citizen in uniform - just enough who are willing to be.",
+      "body": "The Territorial Army's citizen-soldier model is a quiet reminder that national defence doesn't always require a standing army at full size - sometimes it requires a standing offer."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Territorial Army (India)",
+      "url": "https://en.wikipedia.org/wiki/Territorial_Army_(India)"
+    },
+    {
+      "text": "Press Information Bureau - Indian Army Celebrates 73rd Raising Day of Territorial Army on 09 October 2022",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1866316"
+    }
+  ]
+}

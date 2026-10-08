@@ -70,7 +70,9 @@ import lalwani26 from "./scripts/lalwani26.json";
 import lamresearch26 from "./scripts/lamresearch26.json";
 import lngtrain26 from "./scripts/lngtrain26.json";
 import marutih2 from "./scripts/marutih2.json";
+import meghadesai26 from "./scripts/meghadesai26.json";
 import menon26 from "./scripts/menon26.json";
+import micronsanand26 from "./scripts/micronsanand26.json";
 import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
@@ -145,7 +147,9 @@ const scriptRegistry: Record<string, VideoScript> = {
   "lamresearch26": lamresearch26 as VideoScript,
   "lngtrain26": lngtrain26 as VideoScript,
   "marutih2": marutih2 as VideoScript,
+  "meghadesai26": meghadesai26 as VideoScript,
   "menon26": menon26 as VideoScript,
+  "micronsanand26": micronsanand26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,

@@ -1,0 +1,47 @@
+{
+  "id": "meghadesai26",
+  "type": "diaspora-dividend",
+  "title": "Her nonprofit trains rural women to make and sell their own sanitary pads",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-09",
+  "sources": [
+    "Forbes, September 2025 - How The Desai Foundation Cultivates Dignity Across Rural India",
+    "Ms. Magazine, September 2023 - Empowering Women in India Through Menstrual Equity: The Ms. Q&A With Megha Desai"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Her nonprofit trains rural women to make and sell their own sanitary pads.",
+      "sub": "Not as charity - as a paid job."
+    },
+    {
+      "kind": "stat",
+      "text": "Megha Desai is President of The Desai Foundation, a diaspora-founded nonprofit running the Asani Sanitary Napkin Program across 8 Indian states - training local women to manufacture and distribute retail-quality, low-cost pads themselves.",
+      "stat": "250",
+      "statLabel": "paid local women distributors in the Asani Sanitary Napkin Program, per Forbes, September 2025",
+      "narration": "Megha Desai is President of The Desai Foundation, a diaspora-founded nonprofit running the Asani Sanitary Napkin Program across eight Indian states - training local women to manufacture and distribute retail-quality, low-cost pads themselves."
+    },
+    {
+      "kind": "point",
+      "text": "Roughly 250 women work as paid door-to-door distributors, retrained quarterly, pairing menstrual hygiene education with real local employment rather than one-time donations.",
+      "narration": "Roughly two hundred and fifty women work as paid door-to-door distributors, retrained quarterly, pairing menstrual hygiene education with real local employment rather than one-time donations."
+    },
+    {
+      "kind": "point",
+      "text": "The Foundation's work has reached millions of lives across Gujarat, Rajasthan, Maharashtra and five other states, and was recognized at the Clinton Global Initiative in 2022."
+    },
+    {
+      "kind": "closer",
+      "text": "Most menstrual health programs hand out free pads.",
+      "sub": "This one hands out jobs - and lets the pads follow.",
+      "narration": "Most menstrual health programs hand out free pads. This one hands out jobs - and lets the pads follow."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Her nonprofit trains rural women to make and sell their own sanitary pads. Not as charity - as a paid job.\n\nMegha Desai is President of The Desai Foundation, a diaspora-founded nonprofit running the Asani Sanitary Napkin Program across 8 Indian states - training local women to manufacture and distribute retail-quality, low-cost pads themselves. Roughly 250 women work as paid door-to-door distributors, retrained quarterly. The Foundation's work has reached millions of lives and was recognized at the Clinton Global Initiative in 2022.\n\nMost menstrual health programs hand out free pads. This one hands out jobs - and lets the pads follow.\n\nSources: Forbes, Ms. Magazine (2022-2025)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Philanthropy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

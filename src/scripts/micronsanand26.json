@@ -1,0 +1,46 @@
+{
+  "id": "micronsanand26",
+  "title": "India just started testing the memory chips going into your next laptop",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-09",
+  "sources": [
+    "Micron Technology investor relations, February 2026 - Micron Celebrates Opening of India's First Semiconductor Assembly and Test Facility",
+    "Computer Weekly - Micron opens $2.75bn chip assembly plant in India"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just started testing the memory chips going into your next laptop.",
+      "sub": "At a $2.75 billion facility built entirely for that one job."
+    },
+    {
+      "kind": "stat",
+      "text": "Micron Technology's Sanand, Gujarat facility - India's first commercial semiconductor assembly and test plant - was inaugurated on February 28, 2026, with over 500,000 square feet of cleanroom space.",
+      "stat": "$2.75B",
+      "statLabel": "combined investment in Micron's Sanand assembly-and-test facility, per Computer Weekly, February 2026",
+      "narration": "Micron Technology's Sanand, Gujarat facility - India's first commercial semiconductor assembly and test plant - was inaugurated on February twenty-eighth, twenty twenty-six, with over five hundred thousand square feet of cleanroom space."
+    },
+    {
+      "kind": "point",
+      "text": "To mark the opening, Micron shipped its first batch of made-in-India memory modules to Dell for India-made laptops - a real first customer, not just a ceremony.",
+      "narration": "To mark the opening, Micron shipped its first batch of made-in-India memory modules to Dell for India-made laptops - a real first customer, not just a ceremony."
+    },
+    {
+      "kind": "point",
+      "text": "Production is expected to scale from tens of millions of chips assembled and tested in 2026 to hundreds of millions in 2027, serving global customers including Dell, Asus and Qualcomm."
+    },
+    {
+      "kind": "closer",
+      "text": "India has designed chips for years.",
+      "sub": "Now it's the place where the world's memory chips actually get finished.",
+      "narration": "India has designed chips for years. Now it's the place where the world's memory chips actually get finished."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just started testing the memory chips going into your next laptop. At a $2.75 billion facility built entirely for that one job.\n\nMicron Technology's Sanand, Gujarat facility - India's first commercial semiconductor assembly and test plant - was inaugurated on February 28, 2026, with over 500,000 square feet of cleanroom space. To mark the opening, Micron shipped its first batch of made-in-India memory modules to Dell for India-made laptops. Production is expected to scale from tens of millions of chips in 2026 to hundreds of millions in 2027, serving global customers including Dell, Asus and Qualcomm.\n\nIndia has designed chips for years. Now it's the place where the world's memory chips actually get finished.\n\nSources: Micron Technology, Computer Weekly (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Semiconductors"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
