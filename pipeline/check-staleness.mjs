@@ -116,8 +116,16 @@ async function main() {
 
   console.log(`\n=== Staleness check: ${path.basename(candidatePath)} (publishing ${publishDate.toISOString().slice(0, 10)}) ===`);
 
-  if (EXEMPT_PILLARS.has(json.pillar)) {
-    console.log(`Pillar "${json.pillar}" is exempt (old dates are the point of this format) — skipping.`);
+  // src/scripts/*.json cards set json.pillar directly; public/on-this-day/
+  // and public/wordpress/*-recap.json files never do (checked: no
+  // public/*.json file in this repo sets it), so the exemption also
+  // infers from the path itself — otherwise every On This Day piece
+  // silently skipped this check only by accident (empty rawMatches), not
+  // because the exemption actually matched.
+  const pathPillar = candidatePath.includes(`${path.sep}on-this-day${path.sep}`) ? "On This Day" : null;
+  const effectivePillar = json.pillar ?? pathPillar;
+  if (EXEMPT_PILLARS.has(effectivePillar)) {
+    console.log(`Pillar "${effectivePillar}" is exempt (old dates are the point of this format) — skipping.`);
     return;
   }
 
@@ -134,6 +142,19 @@ async function main() {
     const eff = effectiveDataYear(year, m[0]);
     if (!distances.has(eff)) distances.set(eff, new Set());
     distances.get(eff).add(m[0]);
+  }
+
+  // Every raw match was outside the 2015-2030 "current data" window (e.g.
+  // a genuinely historical year like 2014 in an On This Day piece) — not
+  // the same as finding no year references at all (rawMatches.length === 0
+  // above already handles that case). Math.max() on an empty Map.keys()
+  // silently returns -Infinity, which would otherwise print a nonsensical
+  // "Infinity years behind" result instead of correctly treating this as
+  // nothing-to-flag (found 2026-10-10, a Kailash Satyarthi/2014 Nobel Prize
+  // piece: four genuine "2014" matches, all older than the 2015 floor).
+  if (distances.size === 0) {
+    console.log("Only pre-2015 year references found (e.g. a historical date) — nothing to check.");
+    return;
   }
 
   const newestYear = Math.max(...distances.keys());
