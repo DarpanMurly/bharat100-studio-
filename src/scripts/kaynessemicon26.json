@@ -1,0 +1,46 @@
+{
+  "id": "kaynessemicon26",
+  "title": "India just shipped its first chip export to a US power semiconductor company",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-10",
+  "sources": [
+    "ANI News, April 2026 - PM Modi Inaugurates Kaynes Semicon OSAT Facility at Sanand, Gujarat",
+    "Alpha and Omega Semiconductor investor relations - Announces Commencement of Production of Intelligent Power Module (IPM5) Products at Kaynes Semicon"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just shipped its first chip export to a US power semiconductor company.",
+      "sub": "Not a design. Not a prototype - a packaged, commercial product."
+    },
+    {
+      "kind": "stat",
+      "text": "Kaynes Semicon's Rs 3,300 crore OSAT facility at Sanand, Gujarat, was inaugurated by PM Modi on March 31, 2026, with capacity for roughly 6.3 million chips a day.",
+      "stat": "6.3M",
+      "statLabel": "chips per day capacity at Kaynes Semicon's Sanand facility, per ANI News, April 2026",
+      "narration": "Kaynes Semicon's thirty-three hundred crore rupee OSAT facility at Sanand, Gujarat, was inaugurated by PM Modi on March thirty-first, twenty twenty-six, with capacity for roughly six point three million chips a day."
+    },
+    {
+      "kind": "point",
+      "text": "The plant's first commercial shipment went to Alpha and Omega Semiconductor, a California-based power semiconductor company - Intelligent Power Modules for EV and industrial power systems.",
+      "narration": "The plant's first commercial shipment went to Alpha and Omega Semiconductor, a California-based power semiconductor company - Intelligent Power Modules for EV and industrial power systems."
+    },
+    {
+      "kind": "point",
+      "text": "PM Modi called it 'a bridge between Sanand and Silicon Valley' - the second operational semiconductor plant to open at the same industrial site within a month of the first."
+    },
+    {
+      "kind": "closer",
+      "text": "One chip plant at Sanand would have been a milestone.",
+      "sub": "A second one, shipping exports within weeks, is a pattern.",
+      "narration": "One chip plant at Sanand would have been a milestone. A second one, shipping exports within weeks, is a pattern."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just shipped its first chip export to a US power semiconductor company. Not a design. Not a prototype - a packaged, commercial product.\n\nKaynes Semicon's Rs 3,300 crore OSAT facility at Sanand, Gujarat, was inaugurated by PM Modi on March 31, 2026, with capacity for roughly 6.3 million chips a day. The plant's first commercial shipment went to Alpha and Omega Semiconductor, a California-based power semiconductor company - Intelligent Power Modules for EV and industrial power systems.\n\nOne chip plant at Sanand would have been a milestone. A second one, shipping exports within weeks, is a pattern.\n\nSources: ANI News, Alpha and Omega Semiconductor (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Semiconductors"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

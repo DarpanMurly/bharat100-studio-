@@ -1,0 +1,47 @@
+{
+  "id": "sanjeevarora26",
+  "type": "diaspora-dividend",
+  "title": "His free video-call training model raised one state's hepatitis-C diagnosis 100x",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-10",
+  "sources": [
+    "ECHO India - Combating Hepatitis C in India",
+    "Project ECHO (UNM) - It Started with Hepatitis C: 20 Years of the ECHO Ripple Effect"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "His free video-call training model raised one state's hepatitis-C diagnosis 100x.",
+      "sub": "By training village doctors, not flying in specialists."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Sanjeev Arora, born in Punjab, founded Project ECHO in 2003 in New Mexico after seeing rural hepatitis-C patients wait 8 months to see one of the state's few specialists - using videoconferencing to let specialists mentor local doctors instead.",
+      "stat": "150,000",
+      "statLabel": "hepatitis-C patients diagnosed in Punjab after ECHO India's program, up from roughly 1,500, per ECHO India",
+      "narration": "Doctor Sanjeev Arora, born in Punjab, founded Project ECHO in two thousand three in New Mexico after seeing rural hepatitis-C patients wait eight months to see one of the state's few specialists - using videoconferencing to let specialists mentor local doctors instead."
+    },
+    {
+      "kind": "point",
+      "text": "The model returned to his home country as ECHO India in 2008. In Punjab, a partnership with PGIMER Chandigarh raised hepatitis-C diagnosis from roughly 1,500 to 150,000 patients.",
+      "narration": "The model returned to his home country as ECHO India in two thousand eight. In Punjab, a partnership with P-G-I-M-E-R Chandigarh raised hepatitis-C diagnosis from roughly fifteen hundred to one hundred fifty thousand patients."
+    },
+    {
+      "kind": "point",
+      "text": "The entire model is free and open-source, and has since expanded into tuberculosis treatment and mental-health training for counselors in underserved districts like rural Chhattisgarh."
+    },
+    {
+      "kind": "closer",
+      "text": "He didn't send more specialists to rural India.",
+      "sub": "He taught rural India's own doctors to be the specialists it needed.",
+      "narration": "He didn't send more specialists to rural India. He taught rural India's own doctors to be the specialists it needed."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "His free video-call training model raised one state's hepatitis-C diagnosis 100x. By training village doctors, not flying in specialists.\n\nDr. Sanjeev Arora, born in Punjab, founded Project ECHO in 2003 in New Mexico after seeing rural hepatitis-C patients wait 8 months to see one of the state's few specialists - using videoconferencing to let specialists mentor local doctors instead. The model returned to his home country as ECHO India in 2008. In Punjab, a partnership with PGIMER Chandigarh raised hepatitis-C diagnosis from roughly 1,500 to 150,000 patients. The entire model is free and open-source, and has since expanded into tuberculosis treatment and mental-health training in underserved districts.\n\nHe didn't send more specialists to rural India. He taught rural India's own doctors to be the specialists it needed.\n\nSources: ECHO India, Project ECHO (2003-2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2014",
+      "headline": "October 10, 2014: India got its first Nobel Peace Prize - shared with a 17-year-old from Pakistan."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Norwegian Nobel Committee named Kailash Satyarthi and Malala Yousafzai joint winners of the 2014 Nobel Peace Prize",
+      "body": "Satyarthi, founder of Bachpan Bachao Andolan, had spent decades fighting child labour and campaigning for every child's right to education. The prize recognized him as the first Indian-born person ever to win it."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it was shared",
+      "headline": "An Indian Hindu man and a Pakistani Muslim teenager, honored together, for the same cause.",
+      "body": "The Nobel Committee deliberately paired an Indian and a Pakistani laureate for their shared struggle against the suppression of children and for universal education - a message as pointed as the prize itself."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat measures itself by how it treats its most powerless citizens, not just its most powerful institutions.",
+      "body": "Satyarthi's prize wasn't for an invention or an institution - it was for decades spent insisting that childhood itself shouldn't be optional."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Nobel Prize official site - The Nobel Peace Prize 2014, Press release",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/press-release/"
+    },
+    {
+      "text": "TIME - India's Kailash Satyarthi wins his country's first Nobel Peace Prize",
+      "url": "https://time.com/3490586/kailash-satyarthi-nobel-prize/"
+    }
+  ]
+}

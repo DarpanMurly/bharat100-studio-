@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He invented the DNA sequencing method that made a $200 human genome possible. It just won him a Wolf Prize."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Shankar Balasubramanian won the 2026 Wolf Prize in Chemistry, shared with David Klenerman and Pascal Mayer",
+      "body": "The Chennai-born chemist, now at the University of Cambridge, was recognized for inventing the Solexa/Illumina next-generation DNA sequencing method - the technology behind most of the world's genomic sequencing today."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it actually changed",
+      "headline": "A roughly million-fold drop in the cost and time of sequencing a genome.",
+      "body": "Their method helped make genome sequencing cheap and fast enough for everyday precision medicine - work that started in a lab, not a hospital, but ended up reshaping how diseases get diagnosed and treated worldwide."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs scientists building the tools other scientists will use for decades.",
+      "body": "Balasubramanian's invention didn't just win him a prize - it became invisible infrastructure underneath a huge share of modern genomic medicine."
+    }
+  ],
+  "sources": [
+    {
+      "text": "NewsBytes - Balasubramanian, Klenerman and Mayer awarded 2026 Wolf Prize in Chemistry",
+      "url": "https://www.newsbytesapp.com/news/science/balasubramanian-klenerman-and-mayer-awarded-2026-wolf-prize-in-chemistry/tldr"
+    },
+    {
+      "text": "New India Abroad - India-born scientist Shankar Balasubramanian wins 2026 Wolf Chemistry Prize",
+      "url": "https://www.newindiaabroad.com/english/people/shankar-balasubramanian-wins-2026-wolf-prize-in-chemistry"
+    }
+  ]
+}
