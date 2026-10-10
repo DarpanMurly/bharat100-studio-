@@ -47,10 +47,11 @@
   "facebookScheduledAt": "2026-09-25T22:30:00.000Z",
   "mastodonStatusId": "282357",
   "mastodonScheduledAt": "2026-09-25T22:30:00.000Z",
-  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mweukz2iiw2r",
-  "blueskyPostedAt": "2026-09-25T22:56:54.129Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxk2ygze3h2j",
+  "blueskyPostedAt": "2026-10-10T18:00:18.666Z",
   "bufferPostLinks": {
     "Instagram": "https://www.instagram.com/reel/DduiUy0DRR7/",
     "Threads": "https://www.threads.com/@bharatat100/post/Ddw2hagimtb"
-  }
+  },
+  "blueskyDanglingConnectorFixedAt": "2026-10-10T18:00:18.666Z"
 }

@@ -45,10 +45,11 @@
   "youtubeVideoId": "2zvYf39nqBA",
   "youtubeUrl": "https://youtube.com/watch?v=2zvYf39nqBA",
   "youtubeScheduledAt": "2026-10-05T20:09:42.997Z",
-  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mx5wkdnkq42q",
-  "blueskyPostedAt": "2026-10-05T22:08:52.651Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxk2zmqsdn2o",
+  "blueskyPostedAt": "2026-10-10T18:00:58.230Z",
   "bufferPostLinks": {
     "Instagram": "https://www.instagram.com/reel/DeH_eJ9jFb0/",
     "Threads": "https://www.threads.com/@bharatat100/post/DeH_d9xAC38"
-  }
+  },
+  "blueskyDanglingConnectorFixedAt": "2026-10-10T18:00:58.230Z"
 }

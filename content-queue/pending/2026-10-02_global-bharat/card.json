@@ -51,6 +51,7 @@
     "Instagram": "https://www.instagram.com/reel/Dd9_IL4lylv/",
     "Threads": "https://www.threads.com/@bharatat100/post/Dd9_HsPDNZ0"
   },
-  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mwtxl5gheq2o",
-  "blueskyPostedAt": "2026-10-01T23:00:36.050Z"
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxk2zbmtms2n",
+  "blueskyPostedAt": "2026-10-10T18:00:46.564Z",
+  "blueskyDanglingConnectorFixedAt": "2026-10-10T18:00:46.564Z"
 }

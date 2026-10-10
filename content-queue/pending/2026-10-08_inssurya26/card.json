@@ -45,10 +45,11 @@
   "mastodonStatusId": "284340",
   "mastodonScheduledAt": "2026-10-08T13:30:00.000Z",
   "facebookFirstCommentId": "2162088931011912_1655285362630381",
-  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxepcdcjro2q",
-  "blueskyPostedAt": "2026-10-08T14:47:45.836Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxk3225fs62i",
+  "blueskyPostedAt": "2026-10-10T18:01:12.276Z",
   "bufferPostLinks": {
     "Instagram": "https://www.instagram.com/reel/DePC9jdEtwY/",
     "Threads": "https://www.threads.com/@bharatat100/post/DePC7KZiPpX"
-  }
+  },
+  "blueskyDanglingConnectorFixedAt": "2026-10-10T18:01:12.276Z"
 }

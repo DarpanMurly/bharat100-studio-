@@ -43,8 +43,9 @@
     "Instagram": "https://www.instagram.com/reel/DdI4OpTD7U1/",
     "Threads": "https://www.threads.com/@bharatat100/post/DdI4OlZCWZl"
   },
-  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mvuwwflxxs2c",
-  "blueskyPostedAt": "2026-09-19T14:56:28.048Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mxk2x2mde524",
+  "blueskyPostedAt": "2026-10-10T17:59:32.100Z",
   "mastodonStatusId": "117298281337052823",
-  "mastodonScheduledAt": "2026-09-19T14:55:33.169Z"
+  "mastodonScheduledAt": "2026-09-19T14:55:33.169Z",
+  "blueskyDanglingConnectorFixedAt": "2026-10-10T17:59:32.100Z"
 }
