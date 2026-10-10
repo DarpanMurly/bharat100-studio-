@@ -1,0 +1,47 @@
+{
+  "id": "latadesai26",
+  "type": "diaspora-dividend",
+  "title": "She gave up a pediatrics career in the US to build a hospital for one of India's most overlooked regions",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-11",
+  "sources": [
+    "Wikipedia - Lata Desai",
+    "DNA India - Padma Awards 2022: Meet the doctors who won the prestigious award in the field of medicine"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "She gave up a pediatrics career in the US.",
+      "sub": "To build a hospital for one of India's most overlooked regions."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Lata Desai trained in medicine in Gujarat, moved to the US in 1972 to specialize in pediatrics, then returned to India with her husband Dr. Anil Desai to found SEWA Rural in 1980 in Jhagadia, Bharuch district.",
+      "stat": "1980",
+      "statLabel": "year Dr. Lata Desai co-founded SEWA Rural in tribal Gujarat, per Wikipedia",
+      "narration": "Doctor Lata Desai trained in medicine in Gujarat, moved to the US in nineteen seventy-two to specialize in pediatrics, then returned to India with her husband Doctor Anil Desai to found SEWA Rural in nineteen eighty in Jhagadia, Bharuch district."
+    },
+    {
+      "kind": "point",
+      "text": "For over four decades, SEWA Rural has provided health, education and women's empowerment services to tribal Adivasi communities in South Gujarat - one of the country's most underserved rural regions.",
+      "narration": "For over four decades, SEWA Rural has provided health, education and women's empowerment services to tribal Adivasi communities in South Gujarat - one of the country's most underserved rural regions."
+    },
+    {
+      "kind": "point",
+      "text": "She received the Padma Shri in 2022 - not for a single breakthrough, but for four decades of sustained grassroots health work."
+    },
+    {
+      "kind": "closer",
+      "text": "A settled medical career in America was already hers.",
+      "sub": "She chose a harder one in a village most of India had never heard of.",
+      "narration": "A settled medical career in America was already hers. She chose a harder one in a village most of India had never heard of."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "She gave up a pediatrics career in the US. To build a hospital for one of India's most overlooked regions.\n\nDr. Lata Desai trained in medicine in Gujarat, moved to the US in 1972 to specialize in pediatrics, then returned to India with her husband Dr. Anil Desai to found SEWA Rural in 1980 in Jhagadia, Bharuch district. For over four decades, SEWA Rural has provided health, education and women's empowerment services to tribal Adivasi communities in South Gujarat. She received the Padma Shri in 2022 for four decades of sustained grassroots health work.\n\nA settled medical career in America was already hers. She chose a harder one in a village most of India had never heard of.\n\nSources: Wikipedia, DNA India (1980-2022)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

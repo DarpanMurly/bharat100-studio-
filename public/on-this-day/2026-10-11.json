@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1902",
+      "headline": "October 11, 1902: a boy was born in a river-island village who would spend his life arguing for power to stay close to the people."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Jayaprakash Narayan was born in Sitab Diara, a village on the Ganga",
+      "body": "He went on to become one of India's most prominent freedom-struggle leaders, drawn early to the Sarvodaya philosophy of Gandhi and Vinoba Bhave - the idea that real progress means uplift reaching everyone, not just those already close to power."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he stood for",
+      "headline": "He spent decades arguing that democracy means more than casting a vote.",
+      "body": "Known to many simply as 'JP,' he championed grassroots self-governance and civil liberties as the real measure of a free society - work that earned him the honorific 'Lok Nayak,' people's leader, and a posthumous Bharat Ratna in 1999."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still needs the idea JP spent his life defending: power closest to the people it serves.",
+      "body": "His Sarvodaya-rooted vision of grassroots democracy remains a live question for any nation still working out how development reaches its furthest corners."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Jayaprakash Narayan",
+      "url": "https://en.wikipedia.org/wiki/Jayaprakash_Narayan"
+    },
+    {
+      "text": "Encyclopaedia Britannica - Jayaprakash Narayan",
+      "url": "https://www.britannica.com/biography/Jayaprakash-Narayan"
+    }
+  ]
+}

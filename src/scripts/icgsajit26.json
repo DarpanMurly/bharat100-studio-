@@ -1,0 +1,46 @@
+{
+  "id": "icgsajit26",
+  "title": "India's Coast Guard just commissioned a patrol ship with a feature no Indian vessel of its class had before",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-11",
+  "sources": [
+    "GKToday - Indian Coast Guard Commissions Indigenous ICGS Ajit",
+    "Indian Defence News - Coast Guard Strengthens Coastal Vigilance With Indigenous Fast Patrol Vessel ICGS Ajit"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's Coast Guard just commissioned a patrol ship with a feature no Indian vessel of its class had before.",
+      "sub": "Twin engines driving controllable pitch propellers."
+    },
+    {
+      "kind": "stat",
+      "text": "ICGS Ajit, an indigenous Fast Patrol Vessel, was commissioned on October 9, 2026, at Goa Shipyard Limited - built with more than 65% indigenous content.",
+      "stat": "27 knots",
+      "statLabel": "top speed of ICGS Ajit, India's new indigenous Fast Patrol Vessel, per GKToday, October 2026",
+      "narration": "I-C-G-S Ajit, an indigenous Fast Patrol Vessel, was commissioned on October ninth, twenty twenty-six, at Goa Shipyard Limited - built with more than sixty-five percent indigenous content."
+    },
+    {
+      "kind": "point",
+      "text": "At 51.43 metres and 330 tonnes, it carries a 30mm naval gun and two stabilized machine guns, with a 1,500 nautical mile range - and will be stationed at Okha, Gujarat for coastal surveillance and anti-smuggling operations.",
+      "narration": "At fifty-one point four three metres and three hundred and thirty tonnes, it carries a thirty millimetre naval gun and two stabilized machine guns, with a fifteen hundred nautical mile range - and will be stationed at Okha, Gujarat for coastal surveillance and anti-smuggling operations."
+    },
+    {
+      "kind": "point",
+      "text": "Its sister vessel, ICGS Aparajit, launched alongside it in the same program a year earlier - part of a sustained indigenous patrol-vessel production line, not a one-off build."
+    },
+    {
+      "kind": "closer",
+      "text": "A coastline needs more than ships.",
+      "sub": "It needs a shipyard that keeps building them, one after another.",
+      "narration": "A coastline needs more than ships. It needs a shipyard that keeps building them, one after another."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's Coast Guard just commissioned a patrol ship with a feature no Indian vessel of its class had before. Twin engines driving controllable pitch propellers.\n\nICGS Ajit, an indigenous Fast Patrol Vessel, was commissioned on October 9, 2026, at Goa Shipyard Limited - built with more than 65% indigenous content. At 51.43 metres and 330 tonnes, it carries a 30mm naval gun and two stabilized machine guns, with a 1,500 nautical mile range, and will be stationed at Okha, Gujarat. Its sister vessel, ICGS Aparajit, launched alongside it a year earlier - part of a sustained production line, not a one-off build.\n\nA coastline needs more than ships. It needs a shipyard that keeps building them, one after another.\n\nSources: GKToday, Indian Defence News (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Defence"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

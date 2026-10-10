@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He found the genetic switch behind the most common prostate cancer mutation. It just won him medicine's Harrington Prize."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Arul M. Chinnaiyan won the 2026 International Harrington Prize for Innovation in Medicine, shared with Dr. Charles Sawyers",
+      "body": "A second-generation Indian-American and Howard Hughes Medical Institute Investigator at the University of Michigan, Chinnaiyan discovered the TMPRSS2-ERG gene fusion - the most common genetic alteration found in prostate cancer."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it actually changed",
+      "headline": "His work helped identify which prostate cancer mutations respond to specific drugs, not just which patients have cancer.",
+      "body": "His research into mutations that respond to PARP inhibitors like olaparib turned a one-size-fits-all disease into one doctors could increasingly treat based on a patient's specific genetics - precision medicine instead of guesswork."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs its scientists finding the genetic mechanisms that let medicine stop guessing.",
+      "body": "Chinnaiyan's discovery didn't just explain prostate cancer - it became the first University of Michigan work to win this particular prize, built on exactly the kind of mechanism-first science precision medicine depends on."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Michigan Medicine - International Harrington Prize Jointly Awarded to Drs. Arul Chinnaiyan and Charles Sawyers",
+      "url": "https://www.michiganmedicine.org/news-release/chinnaiyan-receives-international-harrington-prize"
+    },
+    {
+      "text": "BioPatrika - Arul Chinnaiyan Wins 2026 Harrington Prize for Breakthrough Prostate Cancer Research",
+      "url": "https://biopatrika.com/science-society/arul-chinnaiyan-wins-2026-harrington-prize-prostate-cancer/"
+    }
+  ]
+}
