@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-11_icgsajit26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 269,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,19 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "scheduledAt": "2026-10-11T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aca730bbba9419ccb0cf575",
+    "X": "6aca730dd9cab260a7d06dd0",
+    "Threads": "6aca730fbba9419ccb0cf7cd"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "fxmuGEx-ORU",
+  "youtubeUrl": "https://youtube.com/watch?v=fxmuGEx-ORU",
+  "youtubeScheduledAt": "2026-10-11T13:30:00.000Z",
+  "facebookPostId": "2352828528862236",
+  "facebookScheduledAt": "2026-10-11T13:30:00.000Z",
+  "mastodonStatusId": "285037",
+  "mastodonScheduledAt": "2026-10-11T13:30:00.000Z"
 }

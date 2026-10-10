@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-11_global-bharat/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 20,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -30,5 +30,19 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "scheduledAt": "2026-10-10T22:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aca727fed92ed8fa5d78091",
+    "X": "6aca7281bba9419ccb0cde95",
+    "Threads": "6aca7283ed92ed8fa5d780f2"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "7EwPHDCLAl0",
+  "youtubeUrl": "https://youtube.com/watch?v=7EwPHDCLAl0",
+  "youtubeScheduledAt": "2026-10-10T22:30:00.000Z",
+  "facebookPostId": "1394512892752380",
+  "facebookScheduledAt": "2026-10-10T22:30:00.000Z",
+  "mastodonStatusId": "285034",
+  "mastodonScheduledAt": "2026-10-10T22:30:00.000Z"
 }
