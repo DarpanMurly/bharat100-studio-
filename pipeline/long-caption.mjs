@@ -109,11 +109,46 @@ export function buildLongCaption(card, maxChars) {
       const remaining = maxChars - hashtagBlock.length - text.length - 2; // 2 = " " + ellipsis room
       if (remaining > 20) {
         const sliced = nextSentences[0].slice(0, remaining - 1).trimEnd();
-        // Snap back to the last whole word so the post never ends mid-word
-        // (a real bug: "...Norman Borlaug, recog…" instead of "...recognizes").
-        const lastSpace = sliced.lastIndexOf(" ");
-        const wholeWords = lastSpace > 0 ? sliced.slice(0, lastSpace) : sliced;
-        text = `${text} ${wholeWords.trimEnd()}…`;
+        // A bare word-boundary cut never splits a WORD, but it routinely
+        // lands right after a comma-clause's connector (a preposition,
+        // conjunction, auxiliary verb, article...) with no object yet -
+        // "...was inaugurated by PM Modi on March 31, 2026, with…" or
+        // "...assembly and test plant - was…" (real cases, Kaynes Semicon
+        // and Micron Sanand pieces) both read as more broken than a
+        // mid-word cut even though neither is technically one. Preferring
+        // the last comma/dash boundary inside the available budget avoids
+        // this almost every time, since this project's sentences are
+        // comma-heavy and a clause boundary is usually only a few words
+        // back - only fall through to the bare word-boundary cut if no
+        // comma/dash exists past the halfway point of the slice.
+        const lastClauseBreak = Math.max(sliced.lastIndexOf(","), sliced.lastIndexOf(" - "));
+        let finalText;
+        if (lastClauseBreak > sliced.length / 2) {
+          finalText = sliced.slice(0, lastClauseBreak);
+        } else {
+          const lastSpace = sliced.lastIndexOf(" ");
+          finalText = lastSpace > 0 ? sliced.slice(0, lastSpace) : sliced;
+        }
+        // No comma/dash was available to snap to (plain prose with no
+        // punctuation near the cutoff, e.g. "...postgraduate degree in
+        // International Relations from..." truncated to "...degree in…") -
+        // the word-boundary cut above can still land on a short trailing
+        // function word with nothing after it. Walk back one more word at
+        // a time while the last word is a short (<=4 letters, i.e. likely
+        // a preposition/conjunction/article rather than a real content
+        // word) connector, so the cut ends on the noun/verb before it.
+        const SHORT_CONNECTORS = new Set([
+          "with", "and", "or", "but", "to", "of", "in", "on", "at", "for",
+          "from", "by", "as", "a", "an", "the", "was", "is", "are", "were",
+        ]);
+        let trimmed = finalText;
+        for (let guard = 0; guard < 5; guard++) {
+          const words = trimmed.trim().split(/\s+/);
+          const last = words[words.length - 1]?.toLowerCase().replace(/[^a-z]/g, "") ?? "";
+          if (words.length <= 1 || !SHORT_CONNECTORS.has(last)) break;
+          trimmed = words.slice(0, -1).join(" ");
+        }
+        text = `${text} ${trimmed.trimEnd()}…`;
       }
     }
   }
