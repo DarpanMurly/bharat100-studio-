@@ -26,6 +26,7 @@ type Manifest = {
 import aaas26 from "./scripts/aaas26.json";
 import anoushka26 from "./scripts/anoushka26.json";
 import ashokkhade26 from "./scripts/ashokkhade26.json";
+import avinashgupta26 from "./scripts/avinashgupta26.json";
 import banaji26 from "./scripts/banaji26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
 import budget from "./scripts/budget.json";
@@ -99,6 +100,7 @@ import solarmfg26 from "./scripts/solarmfg26.json";
 import spacetech26 from "./scripts/spacetech26.json";
 import suri26 from "./scripts/suri26.json";
 import tandon26 from "./scripts/tandon26.json";
+import tehripsp26 from "./scripts/tehripsp26.json";
 import vijaygupta26 from "./scripts/vijaygupta26.json";
 // REGISTRY-IMPORTS-END
 
@@ -107,6 +109,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "aaas26": aaas26 as VideoScript,
   "anoushka26": anoushka26 as VideoScript,
   "ashokkhade26": ashokkhade26 as VideoScript,
+  "avinashgupta26": avinashgupta26 as VideoScript,
   "banaji26": banaji26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
   "budget": budget as VideoScript,
@@ -180,6 +183,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "spacetech26": spacetech26 as VideoScript,
   "suri26": suri26 as VideoScript,
   "tandon26": tandon26 as VideoScript,
+  "tehripsp26": tehripsp26 as VideoScript,
   "vijaygupta26": vijaygupta26 as VideoScript,
 };
 // REGISTRY-ENTRIES-END

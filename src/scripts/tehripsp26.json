@@ -1,0 +1,46 @@
+{
+  "id": "tehripsp26",
+  "title": "India just finished a 1,000 MW battery that isn't a battery at all",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-12",
+  "sources": [
+    "Renewable Watch, April 2026 - THDC commissions fourth 250 MW unit of 1 GW Tehri PSP",
+    "Electrical Mirror - NTPC Group capacity rises to 89,378 MW following Tehri PSP unit commissioning"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just finished a 1,000 MW battery that isn't a battery at all.",
+      "sub": "It stores energy by pumping water uphill."
+    },
+    {
+      "kind": "stat",
+      "text": "THDC India completed the 1,000 MW Tehri Pumped Storage Project in Uttarakhand on April 12, 2026, using the existing Tehri and Koteshwar reservoirs as a closed-loop system.",
+      "stat": "1,000 MW",
+      "statLabel": "total capacity of the Tehri Pumped Storage Project, India's largest fully operational pumped hydro storage asset, per Renewable Watch, April 2026",
+      "narration": "T-H-D-C India completed the one thousand megawatt Tehri Pumped Storage Project in Uttarakhand on April twelfth, twenty twenty-six, using the existing Tehri and Koteshwar reservoirs as a closed-loop system."
+    },
+    {
+      "kind": "point",
+      "text": "The plant pumps water uphill when power is cheap and plentiful, then releases it downhill to generate electricity during peak demand - storage without a single battery cell.",
+      "narration": "The plant pumps water uphill when power is cheap and plentiful, then releases it downhill to generate electricity during peak demand - storage without a single battery cell."
+    },
+    {
+      "kind": "point",
+      "text": "Built at a cost of roughly Rs 8,339 crore across four 250 MW units commissioned in stages, it brings the full Tehri hydro complex to 2,400 MW total - exactly the kind of storage India's growing solar and wind capacity needs to firm up."
+    },
+    {
+      "kind": "closer",
+      "text": "Everyone's racing to build lithium-ion storage.",
+      "sub": "This one just moves water instead - and it's already finished.",
+      "narration": "Everyone's racing to build lithium-ion storage. This one just moves water instead - and it's already finished."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just finished a 1,000 MW battery that isn't a battery at all. It stores energy by pumping water uphill.\n\nTHDC India completed the 1,000 MW Tehri Pumped Storage Project in Uttarakhand on April 12, 2026, using the existing Tehri and Koteshwar reservoirs as a closed-loop system. The plant pumps water uphill when power is cheap, then releases it downhill to generate electricity during peak demand. Built at a cost of roughly Rs 8,339 crore across four 250 MW units, it brings the full Tehri hydro complex to 2,400 MW total.\n\nEveryone's racing to build lithium-ion storage. This one just moves water instead - and it's already finished.\n\nSources: Renewable Watch, Electrical Mirror (2026)",
+  "hashtags": ["#Bharat100", "#CleanEnergy", "#India2047", "#MakeInIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

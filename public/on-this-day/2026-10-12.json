@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2014",
+      "headline": "October 12, 2014: a cyclone with 185 km/h winds hit India's coast. It killed 116 people - not tens of thousands."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Very Severe Cyclonic Storm Hudhud made landfall near Visakhapatnam at peak intensity",
+      "body": "With sustained winds near 185 km/h and gusts to 260 km/h, Hudhud was the first cyclone to cross the Visakhapatnam coast in October since 1985 - and by every historical measure, a storm of this strength should have killed far more people than it did."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What actually kept the toll low",
+      "headline": "India moved roughly 400,000 people off the coast before the storm ever arrived.",
+      "body": "IMD forecasting and coordinated evacuation drills - built up since the 1999 Odisha super-cyclone killed nearly 10,000 people with far less warning - let authorities move almost half a million people out of Hudhud's path in time."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat measures disaster response in evacuations completed, not just damage counted.",
+      "body": "Fifteen decades after a cyclone with no warning system killed tens of thousands in Calcutta, a cyclone nearly as strong killed 116 - because the warning system finally existed."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Cyclone Hudhud",
+      "url": "https://en.wikipedia.org/wiki/Cyclone_Hudhud"
+    },
+    {
+      "text": "India Meteorological Department (RSMC New Delhi) - Cyclone Hudhud report",
+      "url": "https://rsmcnewdelhi.imd.gov.in/uploads/report/26/26_fac6af_hud.pdf"
+    }
+  ]
+}

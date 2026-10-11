@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He holds 65 US patents and won nine R&D 100 Awards. In 2026, he was named Researcher of the Year."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. M. Parans Paranthaman was named R&D World's 2026 Researcher of the Year",
+      "body": "A Corporate Fellow at Oak Ridge National Laboratory, Paranthaman earned his B.Sc. and M.Sc. in Chemistry from Madurai Kamaraj University and his Ph.D. from IIT Madras, before joining ORNL in the US in 1993."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he actually built",
+      "headline": "Technologies that moved from the lab into real industry - lithium-ion batteries, superconductor wires, direct lithium extraction.",
+      "body": "Over a 500-plus-publication career, he has won nine individual R&D 100 Awards since 1999 for innovations spanning battery electrodes, high-temperature superconductor wires, 3D-printed permanent magnets, and extracting lithium directly from oilfield brine."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs scientists who get discoveries out of the lab and into production, not just published.",
+      "body": "Paranthaman's career-long focus on deployable technology - not just novel findings - is exactly the kind of applied science that turns research funding into real industrial capacity."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Oak Ridge National Laboratory - Paranthaman named R&D World Researcher of the Year",
+      "url": "https://www.ornl.gov/news/paranthaman-named-rd-world-researcher-year"
+    },
+    {
+      "text": "R&D World - R&D 100 Researcher of the Year: Parans Paranthaman on superconducting tape, oilfield lithium, and getting discoveries into production",
+      "url": "https://www.rdworldonline.com/rd-100-researcher-of-the-year-parans-paranthaman-on-superconducting-tape-oilfield-lithium-and-getting-discoveries-into-production/"
+    }
+  ]
+}

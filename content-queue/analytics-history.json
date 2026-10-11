@@ -50,5 +50,57 @@
       "engagement": 7,
       "zeroReach": 7
     }
+  },
+  {
+    "date": "2026-10-10",
+    "fetchedAt": "2026-10-10T18:12:14.663Z",
+    "instagram": {
+      "posts": 211,
+      "reach": 5084,
+      "engagement": 34,
+      "zeroReach": 43
+    },
+    "threads": {
+      "posts": 215,
+      "reach": 448,
+      "engagement": 7,
+      "zeroReach": 79
+    },
+    "twitter": {
+      "posts": 179,
+      "reach": 1647,
+      "engagement": 0,
+      "zeroReach": 6
+    },
+    "youtube": {
+      "posts": 179,
+      "reach": 6225,
+      "engagement": 36,
+      "zeroReach": 0
+    },
+    "facebook": {
+      "posts": 160,
+      "reach": 0,
+      "engagement": 145,
+      "zeroReach": 160
+    },
+    "bluesky": {
+      "posts": 160,
+      "reach": 0,
+      "engagement": 6,
+      "zeroReach": 160
+    },
+    "mastodon": {
+      "posts": 160,
+      "reach": 0,
+      "engagement": 4,
+      "zeroReach": 160
+    },
+    "wordpress": {
+      "posts": 37,
+      "reach": 126,
+      "engagement": 71,
+      "zeroReach": 8
+    }
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "id": "avinashgupta26",
+  "type": "diaspora-dividend",
+  "title": "A US cardiologist still runs free medical camps in the Jharkhand village he grew up in",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-12",
+  "sources": [
+    "The Indian Panorama - Dr. Avinash Gupta: From a Jharkhand Village to the Frontlines of American Medicine",
+    "NJB Magazine - Toms River Doctor Named President of Federation of Indian Associations"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US cardiologist still runs free medical camps in the Jharkhand village he grew up in.",
+      "sub": "He's held over 150 of them."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Avinash Gupta, born in Karum village in Ranchi, Jharkhand, arrived in the US in 1986 and has practiced cardiology in Lakewood, New Jersey since 1994 - now Chief of Cardiology at Monmouth Medical Center Southern Campus.",
+      "stat": "150+",
+      "statLabel": "free medical camps held in rural Bihar and Jharkhand through Dr. Avinash Gupta's PRAN-BJANA initiative, per The Indian Panorama",
+      "narration": "Doctor Avinash Gupta, born in Karum village in Ranchi, Jharkhand, arrived in the US in nineteen eighty-six and has practiced cardiology in Lakewood, New Jersey since nineteen ninety-four - now Chief of Cardiology at Monmouth Medical Center Southern Campus."
+    },
+    {
+      "kind": "point",
+      "text": "Through PRAN-BJANA, he has led over 150 free medical camps in rural Bihar and Jharkhand, and during COVID-19 organized vaccination drives and telemedicine for Indian-Americans in New Jersey.",
+      "narration": "Through PRAN-BJANA, he has led over one hundred fifty free medical camps in rural Bihar and Jharkhand, and during COVID-nineteen organized vaccination drives and telemedicine for Indian-Americans in New Jersey."
+    },
+    {
+      "kind": "point",
+      "text": "He later served as President of the Federation of Indian Associations and Regional Director of the American Association of Physicians of Indian Origin - diaspora leadership built on decades of direct medical service, not a title alone."
+    },
+    {
+      "kind": "closer",
+      "text": "He built a cardiology practice in New Jersey.",
+      "sub": "He never stopped practicing medicine in the village he left.",
+      "narration": "He built a cardiology practice in New Jersey. He never stopped practicing medicine in the village he left."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A US cardiologist still runs free medical camps in the Jharkhand village he grew up in. He's held over 150 of them.\n\nDr. Avinash Gupta, born in Karum village in Ranchi, Jharkhand, arrived in the US in 1986 and has practiced cardiology in Lakewood, New Jersey since 1994. Through PRAN-BJANA, he has led over 150 free medical camps in rural Bihar and Jharkhand, and during COVID-19 organized vaccination drives and telemedicine for Indian-Americans in New Jersey. He later served as President of the Federation of Indian Associations and Regional Director of the American Association of Physicians of Indian Origin.\n\nHe built a cardiology practice in New Jersey. He never stopped practicing medicine in the village he left.\n\nSources: The Indian Panorama, NJB Magazine (1986-2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
