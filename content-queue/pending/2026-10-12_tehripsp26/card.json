@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-12_tehripsp26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 228,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,19 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "scheduledAt": "2026-10-12T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6acbb01cd9cab260a701c1da",
+    "X": "6acbb01ef91f772d45d1ed34",
+    "Threads": "6acbb020bba9419ccb3f1164"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "sfqPiLw5Cg0",
+  "youtubeUrl": "https://youtube.com/watch?v=sfqPiLw5Cg0",
+  "youtubeScheduledAt": "2026-10-12T13:30:00.000Z",
+  "facebookPostId": "1096118810127493",
+  "facebookScheduledAt": "2026-10-12T13:30:00.000Z",
+  "mastodonStatusId": "285223",
+  "mastodonScheduledAt": "2026-10-12T13:30:00.000Z"
 }
