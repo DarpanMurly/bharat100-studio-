@@ -58,7 +58,19 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({
       <Background theme="teal" />
       <Audio src={staticFile(audioFile)} />
 
-      <AbsoluteFill style={{ padding: "0 90px", justifyContent: "center", alignItems: "flex-start" }}>
+      {/* justifyContent switched from "center" to "flex-start" 2026-10-12
+          after a real bug: "thought" is a punchy, deliberately long,
+          often multi-sentence hook (many recent pieces run 150-170 chars,
+          wrapping to 5-6 lines at this font size) - vertically centering a
+          flex column with unbounded content height pushed the block's top
+          edge above frame 0 on every video long enough to need more than
+          ~3 lines, clipping the opening words off-canvas invisibly (no
+          error, no warning - confirmed by inspecting a rendered thumbnail,
+          where "Polio left her leg permanently" was missing and the video
+          opened mid-sentence on "impaired. Her first husband..."). Top-
+          anchoring with a fixed top padding means overflow grows downward
+          into the empty space below instead of upward off the top. */}
+      <AbsoluteFill style={{ padding: "160px 90px 0", justifyContent: "flex-start", alignItems: "flex-start" }}>
         <div
           style={{
             fontFamily: FONT_MONO,
@@ -77,8 +89,11 @@ export const MotivationalShort: React.FC<MotivationalShortProps> = ({
           style={{
             fontFamily: FONT_DISPLAY,
             fontWeight: 600,
-            // Increased 2026-09-08 for mobile readability.
-            fontSize: 82,
+            // Increased 2026-09-08 for mobile readability. Scales down for
+            // longer thoughts (2026-10-12) so a 5-6 line hook still fits
+            // comfortably above the support text instead of just running
+            // the frame taller than top-anchoring alone can absorb.
+            fontSize: thought.length > 140 ? 62 : thought.length > 100 ? 72 : 82,
             lineHeight: 1.2,
             color: INK,
             maxWidth: 860,
