@@ -56,6 +56,7 @@ import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
 import gangwal26 from "./scripts/gangwal26.json";
 import ghosh26 from "./scripts/ghosh26.json";
+import grseraichak26 from "./scripts/grseraichak26.json";
 import h2vessel26 from "./scripts/h2vessel26.json";
 import icgsajit26 from "./scripts/icgsajit26.json";
 import indoremetro26 from "./scripts/indoremetro26.json";
@@ -101,6 +102,7 @@ import spacetech26 from "./scripts/spacetech26.json";
 import suri26 from "./scripts/suri26.json";
 import tandon26 from "./scripts/tandon26.json";
 import tehripsp26 from "./scripts/tehripsp26.json";
+import thakorpatel26 from "./scripts/thakorpatel26.json";
 import vijaygupta26 from "./scripts/vijaygupta26.json";
 // REGISTRY-IMPORTS-END
 
@@ -139,6 +141,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "galaxeye26": galaxeye26 as VideoScript,
   "gangwal26": gangwal26 as VideoScript,
   "ghosh26": ghosh26 as VideoScript,
+  "grseraichak26": grseraichak26 as VideoScript,
   "h2vessel26": h2vessel26 as VideoScript,
   "icgsajit26": icgsajit26 as VideoScript,
   "indoremetro26": indoremetro26 as VideoScript,
@@ -184,6 +187,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "suri26": suri26 as VideoScript,
   "tandon26": tandon26 as VideoScript,
   "tehripsp26": tehripsp26 as VideoScript,
+  "thakorpatel26": thakorpatel26 as VideoScript,
   "vijaygupta26": vijaygupta26 as VideoScript,
 };
 // REGISTRY-ENTRIES-END

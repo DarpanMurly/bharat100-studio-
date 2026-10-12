@@ -1,0 +1,46 @@
+{
+  "id": "grseraichak26",
+  "title": "India just laid the foundation for a shipyard that can build 200-metre warships",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-13",
+  "sources": [
+    "Maritime Gateway - GRSE & YIL embark on major expansion of shipbuilding and defence manufacturing capabilities in West Bengal",
+    "Eastern Mirror Nagaland - Rajnath Singh lays foundation for 5 expansion projects of GRSE, Yantra India"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just laid the foundation for a shipyard that can build 200-metre warships.",
+      "sub": "Five projects, one state, over Rs 3,400 crore."
+    },
+    {
+      "kind": "stat",
+      "text": "Defence Minister Rajnath Singh laid foundation stones for five brownfield expansion projects by GRSE and Yantra India Limited in West Bengal, anchored by a new 32-acre shipbuilding hub at Raichak on the Hooghly.",
+      "stat": "200m",
+      "statLabel": "maximum warship length the planned Raichak shipbuilding hub is designed to build, per Maritime Gateway",
+      "narration": "Defence Minister Rajnath Singh laid foundation stones for five brownfield expansion projects by G-R-S-E and Yantra India Limited in West Bengal, anchored by a new thirty-two acre shipbuilding hub at Raichak on the Hooghly."
+    },
+    {
+      "kind": "point",
+      "text": "The Raichak hub alone will carry over Rs 2,500 crore of investment, with a 200-metre dry dock, slipway and block fabrication facilities designed to let GRSE build warships up to 200 metres and commercial vessels up to 60,000 DWT.",
+      "narration": "The Raichak hub alone will carry over twenty-five hundred crore rupees of investment, with a two hundred metre dry dock, slipway and block fabrication facilities designed to let G-R-S-E build warships up to two hundred metres and commercial vessels up to sixty thousand DWT."
+    },
+    {
+      "kind": "point",
+      "text": "Three more projects round out the expansion - a restored dry dock at Shalimar, a facility for medium vessels and electric ferries at Kidderpore, and two Yantra India projects at the Ishapore Metal and Steel Factory."
+    },
+    {
+      "kind": "closer",
+      "text": "One shipyard upgrade is routine maintenance.",
+      "sub": "Five at once, anchored by a hub built for 200-metre ships, is a statement.",
+      "narration": "One shipyard upgrade is routine maintenance. Five at once, anchored by a hub built for two hundred metre ships, is a statement."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just laid the foundation for a shipyard that can build 200-metre warships. Five projects, one state, over Rs 3,400 crore.\n\nDefence Minister Rajnath Singh laid foundation stones for five brownfield expansion projects by GRSE and Yantra India Limited in West Bengal, anchored by a new 32-acre shipbuilding hub at Raichak on the Hooghly. The Raichak hub alone carries over Rs 2,500 crore of investment, with a 200-metre dry dock designed to let GRSE build warships up to 200 metres and commercial vessels up to 60,000 DWT. Three more projects round out the expansion across Shalimar, Kidderpore and the Ishapore Metal and Steel Factory.\n\nOne shipyard upgrade is routine maintenance. Five at once, anchored by a hub built for 200-metre ships, is a statement.\n\nSources: Maritime Gateway, Eastern Mirror Nagaland (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Defence"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

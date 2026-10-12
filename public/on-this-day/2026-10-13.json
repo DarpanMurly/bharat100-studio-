@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1999",
+      "headline": "October 13, 1999: a coalition government was sworn in - and this time, it lasted the full five years."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "A 70-member coalition ministry was sworn in at Rashtrapati Bhavan",
+      "body": "Formed after the 1999 general election, the government brought together more than a dozen regional and national parties under one coalition - a scale of coordination India's parliamentary system had rarely managed to sustain before."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "It became the first coalition government to complete a full five-year term.",
+      "body": "Through 2004, the arrangement proved that a multi-party coalition could govern with the same stability once assumed to require a single dominant party - a quiet but real shift in how Indian democracy was expected to function."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs political stability that doesn't depend on any one party winning outright.",
+      "body": "A full-term coalition government showed that India's democracy could coordinate across difference and still govern - a capability any developed democracy eventually needs."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Third Vajpayee ministry",
+      "url": "https://en.wikipedia.org/wiki/Third_Vajpayee_ministry"
+    },
+    {
+      "text": "The Tribune (India) - archival coverage of the October 13, 1999 swearing-in ceremony",
+      "url": "https://www.tribuneindia.com/1999/99oct14/head.htm"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Oct 5",
+      "headline": "5 stories.",
+      "listItems": [
+        "She leads a global fight against violence toward women. In 2026, she became only the second South Asian in the National Women's Hall of Fame.",
+        "She sold her tech company to a Fortune 200 firm. Then she built a foundation named after her mother.",
+        "India just ran its first train that burns less diesel by mixing in natural gas. No new engine needed - the old ones were converted.",
+        "A childhood tumor. Three spinal surgeries at 29. Paralyzed from the waist down. She took up competitive sport at 30 anyway.",
+        "October 5, 1864: a cyclone killed 60,000 people in Calcutta - and accidentally built India's weather-warning system."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Oct 6",
+      "headline": "5 stories.",
+      "listItems": [
+        "His food initiative fed 30 million people during COVID. In 2026, TIME named him one of the 100 most influential people alive.",
+        "After 40 years building his career in US medicine, he's coming back to build India's newest medical school.",
+        "She never learned to read. She spent her childhood planting trees for a day's wage. She kept planting for 35 years before anyone noticed.",
+        "October 6, 1949: Nehru laid the foundation stone for a military academy unlike any other in the world.",
+        "India's first privately-financed metro line is about to open in Pune. Built by a Tata-Siemens consortium, not the usual public-sector model."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Oct 7",
+      "headline": "5 stories.",
+      "listItems": [
+        "He operated on a patient 10,000 km away. The round trip took under 150 milliseconds.",
+        "A Tier-2 city just expanded its metro network. No fanfare, just 11 new stations.",
+        "He lost his sight in Class 8, reading a paragraph aloud. His father left soon after. He never learned Braille - he cracked UPSC anyway.",
+        "October 7, 1914: she was born in a small town in Uttar Pradesh. The world would later call her the Queen of Ghazals.",
+        "He plays violin for the LA Philharmonic. He also plays it inside homeless shelters and jails."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Oct 8",
+      "headline": "5 stories.",
+      "listItems": [
+        "A sarod maestro and his two sons recorded an album with the Dalai Lama. It won a Grammy.",
+        "India just launched a ship whose only job is keeping other warships at sea longer. It's the first of its kind ever built in India.",
+        "His uncle built India's hybrid seed industry. Then he sold it all to fund rural development.",
+        "A mortar shell landed 1.5 metres from him in the Kargil War. Gangrene took his leg. He taught himself to run on a blade instead.",
+        "October 8, 1932: India's air force began with 5 pilots and 4 biplanes."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Oct 9",
+      "headline": "5 stories.",
+      "listItems": [
+        "A couple gave their US university $20 million. It became a college named for them - built entirely around AI.",
+        "Her nonprofit trains rural women to make and sell their own sanitary pads. Not as charity - as a paid job.",
+        "India just started testing the memory chips going into your next laptop. At a $2.75 billion facility built entirely for that one job.",
+        "He failed his 12th-grade board exam. He drove a tempo to fund his UPSC studies. He failed the exam itself three more times.",
+        "October 9, 1949: India created an army of citizens who kept their day jobs."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Oct 10",
+      "headline": "5 stories.",
+      "listItems": [
+        "He invented the DNA sequencing method that made a $200 human genome possible. It just won him a Wolf Prize.",
+        "India just shipped its first chip export to a US power semiconductor company. Not a design. Not a prototype - a packaged, commercial product.",
+        "Polio left her unable to walk at 14. She couldn't go to school anymore - so she built a movement to teach others to read instead.",
+        "October 10, 2014: India got its first Nobel Peace Prize - shared with a 17-year-old from Pakistan.",
+        "His free video-call training model raised one state's hepatitis-C diagnosis 100x. By training village doctors, not flying in specialists."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Oct 11",
+      "headline": "5 stories.",
+      "listItems": [
+        "He found the genetic switch behind the most common prostate cancer mutation. It just won him medicine's Harrington Prize.",
+        "India's Coast Guard just commissioned a patrol ship with a feature no Indian vessel of its class had before. Twin engines driving controllable pitch propellers.",
+        "She gave up a pediatrics career in the US. To build a hospital for one of India's most overlooked regions.",
+        "He lost his hand to a falling metal sheet in 2015 and thought his javelin career was over. Then a disqualification at the Rio Paralympics nearly broke him again.",
+        "October 11, 1902: a boy was born in a river-island village who would spend his life arguing for power to stay close to the people."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}

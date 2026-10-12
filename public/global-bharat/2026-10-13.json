@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He led the US government's global development agency. Now he leads a 110-year-old philanthropy. In 2026, TIME named him to its Philanthropy 100."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Rajiv J. Shah was named to the TIME100 Philanthropy 2026 list",
+      "body": "Shah is President of the Rockefeller Foundation - its 13th, and the first Indian-American to lead the institution since its founding over a century ago. TIME recognized his work directing the foundation's initiatives on global health, climate resilience, food security and economic opportunity."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What came before",
+      "headline": "He ran USAID - the US government's entire global development and humanitarian response agency.",
+      "body": "Born in Detroit to Gujarati immigrant parents, Shah served as the 16th Administrator of USAID from 2010 to 2015 before taking the Rockefeller Foundation presidency in 2017 - institutional leadership, not a single donation."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its diaspora runs the institutions that set global development priorities, not just funds them.",
+      "body": "Shah's path from a government development agency to one of philanthropy's oldest institutions shows diaspora influence operating at the level of policy and strategy, not just individual gifts."
+    }
+  ],
+  "sources": [
+    {
+      "text": "American Bazaar - 3 Indian Americans in 2026 TIME100 Philanthropy list",
+      "url": "https://americanbazaaronline.com/2026/05/20/3-indian-americans-in-2026-time100-philanthropy-list-481148/"
+    },
+    {
+      "text": "The Global Indian - Three Indian Americans named to TIME100 Philanthropy 2026 list",
+      "url": "https://www.globalindian.com/story/cover-story/three-indian-americans-named-to-time100-philanthropy-2026-list/"
+    }
+  ]
+}

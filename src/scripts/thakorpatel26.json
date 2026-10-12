@@ -1,0 +1,47 @@
+{
+  "id": "thakorpatel26",
+  "type": "diaspora-dividend",
+  "title": "A 23-year Navy doctor took military medic training and rebuilt it for Indian villages",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-13",
+  "sources": [
+    "NewsGram - India Calling: NRI Doctors respond to rural India's distress",
+    "Fair Observer - India's rural healthcare inequality"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A 23-year Navy doctor took military medic training.",
+      "sub": "And rebuilt it for Indian villages."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Thakor G. Patel, a nephrologist and former US Navy Medical Corps captain, adapted the Navy's Independent Duty Corpsman training - used to prepare sailors to deliver care aboard ships with no doctor present - into a civilian program for rural Gujarat.",
+      "stat": "2+ months",
+      "statLabel": "training period for local villagers to become 'sevaks' under Dr. Thakor Patel's Sevak Project, per NewsGram",
+      "narration": "Doctor Thakor G. Patel, a nephrologist and former US Navy Medical Corps captain, adapted the Navy's Independent Duty Corpsman training - used to prepare sailors to deliver care aboard ships with no doctor present - into a civilian program for rural Gujarat."
+    },
+    {
+      "kind": "point",
+      "text": "Under his Sevak Project, local villagers with at least a 12th-grade education train for roughly two months to become community health workers - screening, monitoring chronic disease, distributing medication and making referrals.",
+      "narration": "Under his Sevak Project, local villagers with at least a twelfth-grade education train for roughly two months to become community health workers - screening, monitoring chronic disease, distributing medication and making referrals."
+    },
+    {
+      "kind": "point",
+      "text": "What started as a single pilot village in the late 2000s has since scaled to dozens of villages across Gujarat, each with its own trained sevak providing care between visits from a real doctor."
+    },
+    {
+      "kind": "closer",
+      "text": "The Navy trained sailors to practice medicine without a doctor on board.",
+      "sub": "He trained villagers to do the same, without a hospital nearby.",
+      "narration": "The Navy trained sailors to practice medicine without a doctor on board. He trained villagers to do the same, without a hospital nearby."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A 23-year Navy doctor took military medic training. And rebuilt it for Indian villages.\n\nDr. Thakor G. Patel, a nephrologist and former US Navy Medical Corps captain, adapted the Navy's Independent Duty Corpsman training - used to prepare sailors to deliver care aboard ships with no doctor present - into a civilian program for rural Gujarat. Under his Sevak Project, local villagers train for roughly two months to become community health workers - screening, monitoring chronic disease, distributing medication and making referrals. What started as a single pilot village has since scaled to dozens of villages across Gujarat.\n\nThe Navy trained sailors to practice medicine without a doctor on board. He trained villagers to do the same, without a hospital nearby.\n\nSources: NewsGram, Fair Observer",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
