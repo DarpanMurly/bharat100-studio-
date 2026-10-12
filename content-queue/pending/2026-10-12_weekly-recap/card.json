@@ -12,7 +12,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-12_weekly-recap/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 25,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -58,5 +58,20 @@
     "2026-10-11_latadesai26",
     "2026-10-11_motivational-short",
     "2026-10-11_on-this-day-short"
-  ]
+  ],
+  "approvedAt": "2026-10-12T18:52:16.756Z",
+  "scheduledAt": "2026-10-12T19:04:17.100Z",
+  "bufferPostIds": {
+    "Instagram": "6acd2c66fc09a06c324e0adb",
+    "X": "6acd2c68c5e6eb637a18510a",
+    "Threads": "6acd2c6aebe016d7f5fb2795"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "TEEfHD1JJTM",
+  "youtubeUrl": "https://youtube.com/watch?v=TEEfHD1JJTM",
+  "youtubeScheduledAt": "2026-10-12T19:04:29.762Z",
+  "facebookPostId": "1440710974637022",
+  "facebookScheduledAt": "2026-10-12T19:04:43.434Z",
+  "mastodonStatusId": "285547",
+  "mastodonScheduledAt": "2026-10-12T19:04:49.072Z"
 }
