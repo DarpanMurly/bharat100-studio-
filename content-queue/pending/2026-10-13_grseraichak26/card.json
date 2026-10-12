@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-13_grseraichak26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 230,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-12T18:47:54.855Z",
+  "scheduledAt": "2026-10-13T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6acd2b60fc09a06c324debe2",
+    "X": "6acd2b627501053a100163b5",
+    "Threads": "6acd2b64ebe016d7f5fb07e6"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "BhfaFcFnJ2E",
+  "youtubeUrl": "https://youtube.com/watch?v=BhfaFcFnJ2E",
+  "youtubeScheduledAt": "2026-10-13T13:30:00.000Z",
+  "facebookPostId": "1093990680283654",
+  "facebookScheduledAt": "2026-10-13T13:30:00.000Z",
+  "mastodonStatusId": "285545",
+  "mastodonScheduledAt": "2026-10-13T13:30:00.000Z"
 }
