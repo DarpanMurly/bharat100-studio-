@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "A comic-style investigation into a scam that traps Indians by phone just won a Pulitzer Prize."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Anand RK and Suparna Sharma won the 2026 Pulitzer Prize for Illustrated Reporting and Commentary",
+      "body": "Mumbai-based illustrator Anand RK and Delhi-based journalist Suparna Sharma, working with Bloomberg's Natalie Obiko Pearson, won for 'trAPPed' - a graphic investigation into India's 'digital arrest' scam phenomenon, published by Bloomberg."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What the work covered",
+      "headline": "The story followed a neurologist held under fake 'digital arrest' by a phone scam.",
+      "body": "Using illustration alongside reporting, the project traced how scammers impersonate law enforcement over video calls to psychologically trap victims - a growing global problem the Pulitzer board cited for using visuals and words together to make it visible."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when Indian storytellers win the world's top journalism prize for exposing a uniquely Indian problem.",
+      "body": "An Indian illustrator and an Indian journalist took a scam that preys on Indians specifically and turned it into internationally recognized, prize-winning work."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Bloomberg Media - Bloomberg News Wins 2026 Pulitzer Prize for Illustrated Reporting and Commentary",
+      "url": "https://www.bloombergmedia.com/?p=16702"
+    },
+    {
+      "text": "Scroll.in - Indian illustrator Anand RK, journalist Suparna Sharma win Pulitzer Prize for illustrated reporting",
+      "url": "https://scroll.in/latest/1092612/indian-illustrator-anand-rk-journalist-suparna-sharma-win-pulitzer-prize-for-illustrated-reporting"
+    }
+  ]
+}

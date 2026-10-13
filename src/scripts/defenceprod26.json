@@ -1,0 +1,46 @@
+{
+  "id": "defenceprod26",
+  "title": "India's defence production just hit a record Rs 1.78 lakh crore",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-14",
+  "sources": [
+    "Business Today - India's defence production surges to all-time high to Rs 1.78 lakh crore",
+    "Janes - India's defence production value rises to INR1.78 trillion"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's defence production just hit a record Rs 1.78 lakh crore.",
+      "sub": "And the private sector's share just grew too."
+    },
+    {
+      "kind": "stat",
+      "text": "India's defence production reached an all-time high of Rs 1.78 lakh crore in FY 2025-26, a 15.6 percent jump over the previous year's Rs 1.54 lakh crore, according to the government's own figures.",
+      "stat": "15.6%",
+      "statLabel": "year-on-year growth in India's FY 2025-26 defence production, per Business Today and Janes",
+      "narration": "India's defence production reached an all-time high of one point seven eight lakh crore rupees in F-Y twenty twenty-five to twenty-six, a fifteen point six percent jump over the previous year's one point five four lakh crore."
+    },
+    {
+      "kind": "point",
+      "text": "Public sector units still supply the majority, but the private sector's share rose to 24 percent of total output - about Rs 42,000 crore - up from 22 percent the year before.",
+      "narration": "Public sector units still supply the majority, but the private sector's share rose to twenty-four percent of total output - about forty-two thousand crore rupees - up from twenty-two percent the year before."
+    },
+    {
+      "kind": "point",
+      "text": "This production record sits alongside a separate record for defence exports, which hit Rs 38,424 crore in the same financial year - the output and the overseas demand both climbing together."
+    },
+    {
+      "kind": "closer",
+      "text": "A decade ago, India imported most of its defence equipment.",
+      "sub": "Now it manufactures Rs 1.78 lakh crore worth a year - and more of that is coming from private companies, not just government factories.",
+      "narration": "A decade ago, India imported most of its defence equipment. Now it manufactures one point seven eight lakh crore rupees worth a year - and more of that is coming from private companies, not just government factories."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's defence production just hit a record Rs 1.78 lakh crore. And the private sector's share just grew too.\n\nIndia's defence production reached an all-time high of Rs 1.78 lakh crore in FY 2025-26, a 15.6% jump over the previous year. Public sector units still supply the majority, but the private sector's share rose to 24% of total output - about Rs 42,000 crore - up from 22% the year before. This sits alongside a separate record for defence exports, which hit Rs 38,424 crore in the same financial year.\n\nA decade ago, India imported most of its defence equipment. Now it manufactures Rs 1.78 lakh crore worth a year - and more of that is coming from private companies, not just government factories.\n\nSources: Business Today, Janes (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Defence"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

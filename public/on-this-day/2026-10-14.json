@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2010",
+      "headline": "October 14, 2010: India finished 2nd on a Commonwealth Games medal table for the first time ever."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Delhi Commonwealth Games closed with India in 2nd place overall",
+      "body": "India finished with 38 gold medals and 101 medals in total, moving ahead of England for the first time in the event's history - achieved on home soil, at a Games India itself had built the venues for."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How it happened",
+      "headline": "The gold that clinched 2nd place came on the very last day.",
+      "body": "Saina Nehwal saved a match point in the women's badminton singles final to beat Malaysia's Wong Mew Choo, pushing India's gold count past England's at the closing bell."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs the capacity to host the world, not just compete in it.",
+      "body": "Finishing 2nd at a Games it organized showed India could build the venues, run the logistics and still perform - hosting capability and athletic capability arriving together."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - 2010 Commonwealth Games medal table",
+      "url": "https://en.wikipedia.org/wiki/2010_Commonwealth_Games_medal_table"
+    },
+    {
+      "text": "Al Jazeera - Commonwealth Games end in New Delhi",
+      "url": "https://www.aljazeera.com/sports/2010/10/14/commonwealth-games-end-in-new-delhi"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gavini26",
+  "type": "diaspora-dividend",
+  "title": "A US doctor just gave her entire life's savings to the hospital that trained her",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-14",
+  "sources": [
+    "Eastern Eye - Indian-origin doctor donates her entire wealth to alma mater",
+    "The Quint - US-based NRI doctor Uma Devi Gavini donates life savings to alma mater Guntur Medical College"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US doctor just gave her entire life's savings to the hospital that trained her.",
+      "sub": "Roughly Rs 20 crore, to a government hospital in Andhra Pradesh."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Uma Devi Gavini, an immunologist who graduated from Guntur Medical College in 1965 before moving to the US, pledged her savings at the college's North America alumni reunion in Dallas in September 2026.",
+      "stat": "Rs 20cr",
+      "statLabel": "approximate value of Dr. Uma Devi Gavini's pledge to Guntur Medical College's government hospital, per Eastern Eye and The Quint",
+      "narration": "Doctor Uma Devi Gavini, an immunologist who graduated from Guntur Medical College in nineteen sixty-five before moving to the US, pledged her savings at the college's North America alumni reunion in Dallas in September twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "The gift will fund a new mother-and-child care block at the hospital where she trained - to be named after her late husband, Dr. Kanuri Ramachandra Rao, not after herself.",
+      "narration": "The gift will fund a new mother-and-child care block at the hospital where she trained - to be named after her late husband, Doctor Kanuri Ramachandra Rao, not after herself."
+    },
+    {
+      "kind": "point",
+      "text": "She spent decades building a career in American medicine after leaving Guntur six decades ago. The donation routes nearly all of it back to the government hospital that first trained her."
+    },
+    {
+      "kind": "closer",
+      "text": "Most people build a career and keep what they earn.",
+      "sub": "She built one, then sent almost all of it back to where she started.",
+      "narration": "Most people build a career and keep what they earn. She built one, then sent almost all of it back to where she started."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A US doctor just gave her entire life's savings to the hospital that trained her. Roughly Rs 20 crore, to a government hospital in Andhra Pradesh.\n\nDr. Uma Devi Gavini, an immunologist who graduated from Guntur Medical College in 1965 before moving to the US, pledged her savings at the college's North America alumni reunion in Dallas in September 2026. The gift will fund a new mother-and-child care block at the hospital where she trained - named after her late husband, not after herself.\n\nMost people build a career and keep what they earn. She built one, then sent almost all of it back to where she started.\n\nSources: Eastern Eye, The Quint",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Medicine"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
