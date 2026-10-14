@@ -1,0 +1,47 @@
+{
+  "id": "garg26",
+  "type": "diaspora-dividend",
+  "title": "A US couple just gave their old engineering college a record $4 million",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-15",
+  "sources": [
+    "Careers360 - BITS Pilani alumnus donates USD 4 million endowment fund scholarships",
+    "American Bazaar - Indian American couple gifts record $4M to BITS Pilani"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US couple just gave their old engineering college a record $4 million.",
+      "sub": "The largest individual gift the school has ever received."
+    },
+    {
+      "kind": "stat",
+      "text": "Chand P. Garg, a 1968 mechanical engineering graduate of BITS Pilani now based in the US, and his wife Manju Garg pledged $4 million to the institute's endowment fund in early 2026.",
+      "stat": "$4M",
+      "statLabel": "record gift from Chand and Manju Garg to BITS Pilani's endowment, the largest ever from an individual alumnus, per Careers360",
+      "narration": "Chand P. Garg, a nineteen sixty-eight mechanical engineering graduate of BITS Pilani now based in the US, and his wife Manju Garg pledged four million dollars to the institute's endowment fund in early twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "The gift is expected to fund scholarships for roughly 16 students a year, prioritizing merit, financial need and women students - and pushed the endowment past $34 million toward a $100 million goal.",
+      "narration": "The gift is expected to fund scholarships for roughly sixteen students a year, prioritizing merit, financial need and women students - and pushed the endowment past thirty-four million dollars toward a one hundred million dollar goal."
+    },
+    {
+      "kind": "point",
+      "text": "Garg has called BITS Pilani \"the starting point of my journey\" - nearly six decades after he graduated, he's funding the same starting point for students who couldn't otherwise afford it."
+    },
+    {
+      "kind": "closer",
+      "text": "Most alumni write a check and move on.",
+      "sub": "He wrote the biggest one his college has ever received.",
+      "narration": "Most alumni write a check and move on. He wrote the biggest one his college has ever received."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A US couple just gave their old engineering college a record $4 million. The largest individual gift the school has ever received.\n\nChand P. Garg, a 1968 mechanical engineering graduate of BITS Pilani now based in the US, and his wife Manju Garg pledged $4 million to the institute's endowment fund in early 2026. The gift is expected to fund scholarships for roughly 16 students a year, prioritizing merit, financial need and women students - pushing the endowment past $34 million toward a $100 million goal.\n\nMost alumni write a check and move on. He wrote the biggest one his college has ever received.\n\nSources: Careers360, American Bazaar",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

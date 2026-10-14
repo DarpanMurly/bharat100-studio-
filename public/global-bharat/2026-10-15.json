@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He went from an IIT engineering degree to running one of the world's biggest cybersecurity companies. Carnegie just named him one of America's great immigrants."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Nikesh Arora was named to Carnegie Corporation's 2026 Great Immigrants, Great Americans list",
+      "body": "Arora, chairman and CEO of Palo Alto Networks since 2018, was one of four Indian Americans honoured in a class of 25 naturalized citizens, recognized ahead of the US's 250th Independence Day."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How he got there",
+      "headline": "Born in Ghaziabad, he came to the US for graduate study after an electrical engineering degree from IIT (BHU).",
+      "body": "He later became senior vice president and chief business officer at Google before taking over as chairman and CEO of Palo Alto Networks, growing it into one of the world's largest cybersecurity companies."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its engineers end up running the companies that secure the world's networks.",
+      "body": "Arora's path from an Indian engineering degree to leading a global cybersecurity giant shows Indian technical training translating directly into leadership of critical infrastructure abroad."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Carnegie Corporation of New York - Nikesh Arora, Great Immigrants 2026",
+      "url": "https://carnegie.org/?p=44399"
+    },
+    {
+      "text": "Outlook India - Four Indian Americans Named to Carnegie's 2026 Great Immigrants, Great Americans List",
+      "url": "https://www.outlookindia.com/international/four-indian-americans-named-to-carnegies-2026-great-immigrants-great-americans-list"
+    }
+  ]
+}

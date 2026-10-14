@@ -1,0 +1,46 @@
+{
+  "id": "mumbaimetro26",
+  "title": "Mumbai Metro just crossed 300 million passenger journeys",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-15",
+  "sources": [
+    "Free Press Journal - MMRDA Metro Network Crosses 300 Million Passenger Journeys",
+    "Swarajya - Mumbai Metro crosses 300 million passenger journeys, sets fastest growth record"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Mumbai Metro just crossed 300 million passenger journeys.",
+      "sub": "And the last 50 million came faster than ever before."
+    },
+    {
+      "kind": "stat",
+      "text": "Mumbai's metro network hit 300 million cumulative passenger journeys on August 3, 2026, across Metro Lines 2A, 7, 2B Phase 1 and 9 Phase 1, according to the MMRDA.",
+      "stat": "179 days",
+      "statLabel": "time taken for the network's last 50 million journeys - the fastest growth in its history, per MMRDA via Free Press Journal and Swarajya",
+      "narration": "Mumbai's metro network hit three hundred million cumulative passenger journeys on August third, twenty twenty-six, across Metro Lines two-A, seven, two-B Phase one and nine Phase one, according to the M-M-R-D-A."
+    },
+    {
+      "kind": "point",
+      "text": "Average daily ridership additions have climbed to nearly 2.79 lakh journeys, up from 2.70 lakh at the previous 50-million milestone - credited largely to new lines opened in April 2026 that added nine stations.",
+      "narration": "Average daily ridership additions have climbed to nearly two point seven nine lakh journeys, up from two point seven lakh at the previous fifty-million milestone - credited largely to new lines opened in April twenty twenty-six that added nine stations."
+    },
+    {
+      "kind": "point",
+      "text": "The network went from zero to 5 million journeys by September 2022, then kept compressing the time between milestones - 50 million in 2023, 100 million in 2024, and now 300 million just four years after opening its first expansion lines."
+    },
+    {
+      "kind": "closer",
+      "text": "A new transit system usually gets slower to adopt as it ages.",
+      "sub": "Mumbai Metro's growth is accelerating instead.",
+      "narration": "A new transit system usually gets slower to adopt as it ages. Mumbai Metro's growth is accelerating instead."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Mumbai Metro just crossed 300 million passenger journeys. And the last 50 million came faster than ever before.\n\nMumbai's metro network hit 300 million cumulative passenger journeys on August 3, 2026, across four lines, according to the MMRDA. The last 50 million journeys came in just 179 days - the fastest growth in the network's history. Average daily ridership additions have climbed to nearly 2.79 lakh journeys, credited largely to new lines opened in April 2026 that added nine stations.\n\nA new transit system usually gets slower to adopt as it ages. Mumbai Metro's growth is accelerating instead.\n\nSources: Free Press Journal, Swarajya (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

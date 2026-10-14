@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1931",
+      "headline": "October 15, 1931: a fisherman's son was born in Rameswaram. He would go on to run India's missile program and its presidency."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. APJ Abdul Kalam was born in Rameswaram, Tamil Nadu",
+      "body": "He joined DRDO in 1958 and moved to ISRO in 1969, where he served as Project Director for India's first satellite launch vehicle, SLV-III - before returning to DRDO to lead the development of missiles like Agni and Prithvi."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What came after",
+      "headline": "He played a central role in India's 1998 Pokhran-II nuclear tests, then became the country's 11th President.",
+      "body": "He served as President from 2002 to 2007, elected with backing from both the ruling and opposition parties. He received the Bharat Ratna, India's highest civilian honour, in 1997."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs scientists who can also lead institutions.",
+      "body": "Kalam's path - from a fisherman's son to missile scientist to President - showed that India's highest offices could be reached through technical achievement, not just political careers."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - A. P. J. Abdul Kalam",
+      "url": "https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+    },
+    {
+      "text": "PressReader (A to Z India) - Dr. APJ Abdul Kalam: Career scientist and Science administrator",
+      "url": "https://www.pressreader.com/india/a-to-z-india/20211001/281483574509835"
+    }
+  ]
+}
