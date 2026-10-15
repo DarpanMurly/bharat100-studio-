@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2014",
+      "headline": "October 16, 2014: India launched the third satellite of a navigation system it was building entirely on its own."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "ISRO launched IRNSS-1C aboard a PSLV-C26 rocket from Sriharikota",
+      "body": "The 1,425 kg satellite was the third of seven planned for the Indian Regional Navigation Satellite System - what would later be called NavIC - reaching its intended orbit about 20 minutes after liftoff."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "It was ISRO's 28th PSLV flight, and the seventh in the rocket's most powerful XL configuration.",
+      "body": "The President of India issued a formal note of congratulations, calling it a step toward India having its own satellite-based navigation system - independent of the GPS systems built and controlled by other countries."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs navigation infrastructure it doesn't have to borrow from anyone else.",
+      "body": "Building a satellite constellation one launch at a time, rather than relying on a foreign system, gave India a navigation capability under its own control - for its military, its ships, and eventually its phones."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "President of India - press release congratulating ISRO on the successful launch of PSLV-C26",
+      "url": "https://presidentofindia.gov.in/pranab-mukherjee/press_releases/president-india-congratulated-isro-successful-launch-pslv-c26"
+    },
+    {
+      "text": "Deccan Herald - ISRO successfully launches IRNSS-1C",
+      "url": "https://www.deccanherald.com/india/isro-successfully-launches-irnss-1c.html"
+    }
+  ]
+}

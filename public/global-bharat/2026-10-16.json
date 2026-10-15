@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He's spent more than four decades teaching at Harvard Medical School. Carnegie just named him one of America's great immigrants."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Sanjiv Chopra was named to Carnegie Corporation's 2026 Great Immigrants, Great Americans list",
+      "body": "Chopra, a professor of medicine at Harvard Medical School and former faculty dean for continuing medical education, was honoured in a class of 25 naturalized citizens recognized ahead of the US's 250th Independence Day."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How he got there",
+      "headline": "He trained in medicine in India before moving to the US in 1972 for residency and fellowship.",
+      "body": "Over more than four decades on faculty, he also held posts at Brigham and Women's Hospital and Beth Israel Deaconess Medical Center, received the 2012 Ellis Island Medal of Honor, and became a Master of the American College of Physicians."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its medical graduates end up training the next generation of doctors at the world's top institutions.",
+      "body": "Chopra's four decades at Harvard Medical School show Indian medical training producing not just practicing doctors abroad, but educators shaping how medicine itself gets taught."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Carnegie Corporation of New York - Sanjiv Chopra, Great Immigrants 2026",
+      "url": "https://carnegie.org/?p=44405"
+    },
+    {
+      "text": "ABC News (AP) - The full list of the 2026 class of 'Great Immigrants, Great Americans'",
+      "url": "https://abcnews.com/Business/wireStory/full-list-2026-class-great-immigrants-great-americans-134338554"
+    }
+  ]
+}

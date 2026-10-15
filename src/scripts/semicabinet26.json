@@ -1,0 +1,46 @@
+{
+  "id": "semicabinet26",
+  "title": "India's Cabinet just approved its last two semiconductor plants - and the program is now complete",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-16",
+  "sources": [
+    "PM India (official press release) - Cabinet approves two more semiconductor manufacturing units with cumulative investment of more than Rs 3,900 crore",
+    "The Tribune - Cabinet approves two more semiconductor manufacturing units in Gujarat with cumulative investment of over Rs 3,900 crore"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's Cabinet just approved its last two semiconductor plants.",
+      "sub": "That completes a 12-project program worth Rs 1.64 lakh crore."
+    },
+    {
+      "kind": "stat",
+      "text": "The Union Cabinet approved two new semiconductor units in Gujarat - Crystal Matrix in Dholera and Suchi Semicon in Surat - with combined investment of about Rs 3,900 crore, completing the India Semiconductor Mission's first phase.",
+      "stat": "12",
+      "statLabel": "total semiconductor projects now approved under the India Semiconductor Mission, cumulative investment near Rs 1.64 lakh crore, per PM India and The Tribune",
+      "narration": "The Union Cabinet approved two new semiconductor units in Gujarat - Crystal Matrix in Dholera and Suchi Semicon in Surat - with combined investment of about thirty-nine hundred crore rupees, completing the India Semiconductor Mission's first phase."
+    },
+    {
+      "kind": "point",
+      "text": "Crystal Matrix will make GaN-based Mini and Micro-LED display modules for TVs, smartphones and XR glasses. Suchi Semicon will package and test discrete chips at a proposed capacity of over 1,033 million chips a year.",
+      "narration": "Crystal Matrix will make G-A-N-based Mini and Micro-L-E-D display modules for TVs, smartphones and X-R glasses. Suchi Semicon will package and test discrete chips at a proposed capacity of over one billion chips a year."
+    },
+    {
+      "kind": "point",
+      "text": "Together, the 12 approved projects span Gujarat, Assam, Andhra Pradesh, Uttar Pradesh and Odisha - a spread across five states for an industry India had almost no domestic manufacturing in before 2024."
+    },
+    {
+      "kind": "closer",
+      "text": "Phase one of a semiconductor mission usually means one or two flagship plants.",
+      "sub": "India's phase one means twelve, spread across five states.",
+      "narration": "Phase one of a semiconductor mission usually means one or two flagship plants. India's phase one means twelve, spread across five states."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's Cabinet just approved its last two semiconductor plants. That completes a 12-project program worth Rs 1.64 lakh crore.\n\nThe Union Cabinet approved two new semiconductor units in Gujarat - Crystal Matrix in Dholera (GaN-based display modules) and Suchi Semicon in Surat (discrete chip packaging, 1,033+ million chips/year capacity) - with combined investment of about Rs 3,900 crore. This completes the India Semiconductor Mission's first phase: 12 approved projects spanning Gujarat, Assam, Andhra Pradesh, Uttar Pradesh and Odisha.\n\nPhase one of a semiconductor mission usually means one or two flagship plants. India's phase one means twelve, spread across five states.\n\nSources: PM India, The Tribune (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Semiconductors"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
