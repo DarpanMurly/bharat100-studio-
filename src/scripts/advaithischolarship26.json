@@ -1,0 +1,47 @@
+{
+  "id": "advaithischolarship26",
+  "type": "diaspora-dividend",
+  "title": "A Fortune 500 CEO just funded a scholarship named after her mother",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-16",
+  "sources": [
+    "Careers360 - BITS Pilani Convocation 2026: USD 1 million endowment from alumna Revathi Advaithi for women's scholarships",
+    "American Bazaar - CEO Revathi Advaithi pledges $1M for women's scholarships"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Fortune 500 CEO just funded a scholarship named after her mother.",
+      "sub": "For women from economically weaker backgrounds, at her old engineering college."
+    },
+    {
+      "kind": "stat",
+      "text": "Revathi Advaithi, CEO of Flex and a BITS Pilani alumna, and her husband Jeevan Mulgund endowed a $1 million permanent scholarship fund at the institute during her address as chief guest at BITS Pilani's July 2026 convocation.",
+      "stat": "$1M",
+      "statLabel": "permanent scholarship endowment from Revathi Advaithi and Jeevan Mulgund for women at BITS Pilani, per Careers360 and American Bazaar",
+      "narration": "Revathi Advaithi, CEO of Flex and a BITS Pilani alumna, and her husband Jeevan Mulgund endowed a one million dollar permanent scholarship fund at the institute during her address as chief guest at BITS Pilani's July twenty twenty-six convocation."
+    },
+    {
+      "kind": "point",
+      "text": "The fund is named the Visalam Swamy and Sucheta Mulgund Scholarship - after both of their mothers - and will support women from economically weaker backgrounds every year going forward.",
+      "narration": "The fund is named the Visalam Swamy and Sucheta Mulgund Scholarship - after both of their mothers - and will support women from economically weaker backgrounds every year going forward."
+    },
+    {
+      "kind": "point",
+      "text": "Advaithi graduated in mechanical engineering as the only woman in her class, before going on to lead Flex as CEO since 2019 and appearing repeatedly on Fortune's Most Powerful Women in Business list."
+    },
+    {
+      "kind": "closer",
+      "text": "She was the only woman in her engineering class.",
+      "sub": "Now she's funding a future where that's never true again.",
+      "narration": "She was the only woman in her engineering class. Now she's funding a future where that's never true again."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A Fortune 500 CEO just funded a scholarship named after her mother. For women from economically weaker backgrounds, at her old engineering college.\n\nRevathi Advaithi, CEO of Flex and a BITS Pilani alumna, and her husband Jeevan Mulgund endowed a $1 million permanent scholarship fund during her address as chief guest at BITS Pilani's July 2026 convocation. The fund is named the Visalam Swamy and Sucheta Mulgund Scholarship, after both of their mothers, and will support women from economically weaker backgrounds every year going forward.\n\nShe was the only woman in her engineering class. Now she's funding a future where that's never true again.\n\nSources: Careers360, American Bazaar",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
