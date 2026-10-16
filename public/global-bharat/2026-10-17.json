@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He spent three years on one investigation - from Silicon Valley to China to the US border. It just won a Pulitzer."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Aniruddha Ghosal was part of the Associated Press team that won the 2026 Pulitzer Prize for International Reporting",
+      "body": "The prize, announced May 4, 2026, honoured an investigation into state-of-the-art mass surveillance tools - tracing their path from Silicon Valley, through development in China, to eventual use by US Border Patrol."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The scale of the work",
+      "headline": "The investigation spanned three years, thousands of pages of documents, and numerous interviews.",
+      "body": "Ghosal, an AP reporter based in Hanoi covering business and climate in Southeast Asia, shared the prize with three other AP journalists and a contributor - one of the most prestigious honours in journalism."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its journalists hold global power to account, not just report on India.",
+      "body": "Ghosal's Pulitzer came from investigating surveillance technology's path across three continents - Indian-origin reporting talent working at the highest level of international accountability journalism."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Pulitzer Prizes - 2026 Pulitzer Prize Announcement",
+      "url": "https://www.pulitzer.org/news/2026-pulitzer-prize-announcement"
+    },
+    {
+      "text": "NPR - Here are the 2026 Pulitzer Prize winners",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5803483/here-are-the-2026-pulitzer-prize-winners"
+    }
+  ]
+}

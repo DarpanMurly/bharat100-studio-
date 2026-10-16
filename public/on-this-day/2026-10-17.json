@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2003",
+      "headline": "October 17, 2003: India launched its heaviest remote-sensing satellite - built to watch its own land from space."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "ISRO's PSLV-C5 launched RESOURCESAT-1 from Sriharikota",
+      "body": "At 1,360 kg, it was India's heaviest and most advanced remote-sensing satellite at the time, placed into a polar sun-synchronous orbit roughly 817 kilometres above Earth."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it did",
+      "headline": "It carried three imaging sensors built to track India's land, water and crops in far more detail than before.",
+      "body": "Its LISS-3, LISS-4 and AWiFS sensors extended and upgraded the data India's earlier IRS satellites had been providing - designed for a 5-year mission life, used for agriculture, water resources and land-use planning."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs to see its own land clearly, on its own terms.",
+      "body": "A satellite built to monitor India's crops, water and land use gave planners and farmers data that didn't depend on any other country's satellite program."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ISRO - RESOURCESAT-1 (IRS-P6) mission page",
+      "url": "https://www.isro.gov.in/ISRO_EN/RESOURCESAT_1.html"
+    },
+    {
+      "text": "Universe Today - India launches remote sensing satellite",
+      "url": "https://universetoday.com/8955/india-launches-remote-sensing-satellite/amp"
+    }
+  ]
+}

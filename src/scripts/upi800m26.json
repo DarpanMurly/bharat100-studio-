@@ -1,0 +1,46 @@
+{
+  "id": "upi800m26",
+  "title": "India's digital payments system just crossed 800 million transactions a day",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-17",
+  "sources": [
+    "StartupTalky - UPI Daily Transactions Cross 800 Million for the First Time: 24.07 Billion Transactions in September 2026",
+    "Angel One - UPI daily transactions crossed 800 million for first time in September 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's digital payments system just crossed 800 million transactions a day.",
+      "sub": "For the first time ever."
+    },
+    {
+      "kind": "stat",
+      "text": "UPI processed 24.07 billion transactions worth Rs 29.37 lakh crore in September 2026, averaging roughly 802 million transactions a day - the first month the system has ever crossed 800 million daily.",
+      "stat": "802M",
+      "statLabel": "average daily UPI transactions in September 2026, first time crossing 800 million, per StartupTalky and Angel One citing NPCI data",
+      "narration": "U-P-I processed twenty-four point zero seven billion transactions worth twenty-nine point three seven lakh crore rupees in September twenty twenty-six, averaging roughly eight hundred and two million transactions a day - the first month the system has ever crossed eight hundred million daily."
+    },
+    {
+      "kind": "point",
+      "text": "Average daily transaction value also hit a record Rs 97,913 crore. Year-on-year, transaction volume rose about 23 percent and value rose about 18 percent compared to September 2025.",
+      "narration": "Average daily transaction value also hit a record ninety-seven thousand nine hundred and thirteen crore rupees. Year-on-year, transaction volume rose about twenty-three percent and value rose about eighteen percent compared to September twenty twenty-five."
+    },
+    {
+      "kind": "point",
+      "text": "The monthly total was slightly down from August's record 24.51 billion transactions - but that's because September has 30 days against August's 31, not because growth slowed."
+    },
+    {
+      "kind": "closer",
+      "text": "800 million transactions in a single day isn't a projection.",
+      "sub": "It's what India's phones did, on average, every single day last month.",
+      "narration": "Eight hundred million transactions in a single day isn't a projection. It's what India's phones did, on average, every single day last month."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's digital payments system just crossed 800 million transactions a day. For the first time ever.\n\nUPI processed 24.07 billion transactions worth Rs 29.37 lakh crore in September 2026, averaging roughly 802 million transactions a day - the first month ever above 800 million. Average daily value also hit a record Rs 97,913 crore. Year-on-year, volume rose about 23% and value rose about 18% compared to September 2025.\n\n800 million transactions in a single day isn't a projection. It's what India's phones did, on average, every single day last month.\n\nSources: StartupTalky, Angel One, citing NPCI data (2026)",
+  "hashtags": ["#Bharat100", "#DigitalIndia", "#India2047", "#UPI"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

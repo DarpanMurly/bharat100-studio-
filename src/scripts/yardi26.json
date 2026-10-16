@@ -1,0 +1,47 @@
+{
+  "id": "yardi26",
+  "type": "diaspora-dividend",
+  "title": "A software billionaire just gave his old engineering college Rs 75 crore - for the second time",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-17",
+  "sources": [
+    "Careers360 - IIT Delhi gets Rs 75 crore from alumnus Anant Yardi for AI research, campus expansion",
+    "Free Press Journal - IIT Delhi receives Rs 75 crore donation from alumnus Anant Yardi"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A software billionaire just gave his old engineering college Rs 75 crore.",
+      "sub": "For the second time."
+    },
+    {
+      "kind": "stat",
+      "text": "Anant Yardi, a 1968 graduate of IIT Delhi who moved to the US and founded Yardi Systems, pledged a fresh Rs 75 crore gift in March 2026 - matching a previous Rs 75 crore pledge he made to the same institute years earlier.",
+      "stat": "Rs 150cr",
+      "statLabel": "combined total Anant Yardi has now pledged to IIT Delhi across two gifts, per Careers360 and Free Press Journal",
+      "narration": "Anant Yardi, a nineteen sixty-eight graduate of I-I-T Delhi who moved to the US and founded Yardi Systems, pledged a fresh seventy-five crore rupee gift in March twenty twenty-six - matching a previous seventy-five crore rupee pledge he made to the same institute years earlier."
+    },
+    {
+      "kind": "point",
+      "text": "Most of the new gift goes to the Yardi School of Artificial Intelligence, which he originally endowed in 2020 and which now has more than 40 faculty members. The rest funds IIT Delhi's campus infrastructure renewal program.",
+      "narration": "Most of the new gift goes to the Yardi School of Artificial Intelligence, which he originally endowed in twenty twenty and which now has more than forty faculty members. The rest funds I-I-T Delhi's campus infrastructure renewal program."
+    },
+    {
+      "kind": "point",
+      "text": "He spent 14 years at Burroughs Corporation working on systems development before founding Yardi Systems in 1984, which now provides property management software used across the real estate industry."
+    },
+    {
+      "kind": "closer",
+      "text": "He left IIT Delhi in 1968 to build a career in American software.",
+      "sub": "He's come back twice since, each time with another Rs 75 crore.",
+      "narration": "He left I-I-T Delhi in nineteen sixty-eight to build a career in American software. He's come back twice since, each time with another seventy-five crore rupees."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A software billionaire just gave his old engineering college Rs 75 crore. For the second time.\n\nAnant Yardi, a 1968 graduate of IIT Delhi who moved to the US and founded Yardi Systems, pledged a fresh Rs 75 crore gift in March 2026 - matching a previous Rs 75 crore pledge to the same institute years earlier. Most of the new gift goes to the Yardi School of Artificial Intelligence, which he originally endowed in 2020 and which now has more than 40 faculty members. The rest funds IIT Delhi's campus infrastructure renewal program.\n\nHe left IIT Delhi in 1968 to build a career in American software. He's come back twice since, each time with another Rs 75 crore.\n\nSources: Careers360, Free Press Journal (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
