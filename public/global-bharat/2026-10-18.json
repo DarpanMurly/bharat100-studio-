@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She arrived in the US at 21 with little money, working as a stadium food server to pay for school. Forbes just named her one of the world's top innovators at 53."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Yamini Rangan, CEO of HubSpot, was named to Forbes' 2026 '50 Over 50' Innovation list",
+      "body": "The sixth annual list, produced by Forbes with Mika Brzezinski's Know Your Value initiative, honours 200 women across four categories - Rangan featured among the Innovation honourees."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How she got there",
+      "headline": "She completed her engineering degree at Bharathiar University before earning an MBA at UC Berkeley.",
+      "body": "After working customer-facing roles at SAP, Workday and Dropbox, she became HubSpot's CEO in 2021, guiding the software company past $3 billion in annual revenue."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its engineering graduates end up leading billion-dollar global software companies.",
+      "body": "Rangan's path from an Indian engineering degree to a stadium food-service job to a Fortune-recognized CEO shows Indian technical training compounding into leadership decades later."
+    }
+  ],
+  "sources": [
+    {
+      "text": "American Bazaar - Seven Indian American women on Forbes 50 Over 50 list",
+      "url": "https://americanbazaaronline.com/2026/08/14/seven-indian-american-women-on-forbes-50-over-50-list-486402/"
+    },
+    {
+      "text": "Forbes Australia - Forbes 2026 50 Over 50: Meet the women who define innovation, drive and hope",
+      "url": "https://www.forbes.com.au/news/entrepreneurs/forbes-2025-50-over-50-meet-the-women-who-define-innovation-drive-and-hope/"
+    }
+  ]
+}

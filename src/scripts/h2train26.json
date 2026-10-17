@@ -1,0 +1,46 @@
+{
+  "id": "h2train26",
+  "title": "India just ran its first homemade hydrogen train",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-18",
+  "sources": [
+    "Deccan Herald - India's first hydrogen-powered train set for inaugural run on July 17",
+    "Angel One - India to Launch First Hydrogen Powered Train on July 17, 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just ran its first homemade hydrogen train.",
+      "sub": "Built entirely in-house, running real passengers every day."
+    },
+    {
+      "kind": "stat",
+      "text": "India's first domestically built hydrogen-powered passenger train was flagged off on July 17, 2026 on the Jind-Sonipat route in Haryana, with regular commercial service starting two days later.",
+      "stat": "1,200kW",
+      "statLabel": "output of the train's fuel cell power system, running on a 10-coach train with 2 hydrogen power cars, per Deccan Herald and Angel One",
+      "narration": "India's first domestically built hydrogen-powered passenger train was flagged off on July seventeenth, twenty twenty-six on the Jind-Sonipat route in Haryana, with regular commercial service starting two days later."
+    },
+    {
+      "kind": "point",
+      "text": "The train runs the 89-kilometre route twice a day round trip - 356 kilometres of daily coverage - at up to 75 km/h, backed by a roughly 3,000 kg hydrogen storage and refuelling facility built at Jind just to support it.",
+      "narration": "The train runs the eighty-nine kilometre route twice a day round trip - three hundred fifty-six kilometres of daily coverage - at up to seventy-five kilometres per hour, backed by a roughly three thousand kilogram hydrogen storage and refuelling facility built at Jind just to support it."
+    },
+    {
+      "kind": "point",
+      "text": "Unlike diesel trains, a hydrogen fuel cell train's only emission is water vapour - a zero-carbon alternative on routes where full electrification isn't yet in place."
+    },
+    {
+      "kind": "closer",
+      "text": "Most countries with hydrogen trains imported the technology.",
+      "sub": "India built its own, then put it straight into daily passenger service.",
+      "narration": "Most countries with hydrogen trains imported the technology. India built its own, then put it straight into daily passenger service."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just ran its first homemade hydrogen train. Built entirely in-house, running real passengers every day.\n\nIndia's first domestically built hydrogen-powered passenger train was flagged off on July 17, 2026 on the Jind-Sonipat route in Haryana, with regular commercial service starting two days later. The 10-coach train runs on a 1,200 kW fuel cell system, covering 356 km daily at up to 75 km/h, backed by a dedicated hydrogen refuelling facility built at Jind.\n\nMost countries with hydrogen trains imported the technology. India built its own, then put it straight into daily passenger service.\n\nSources: Deccan Herald, Angel One (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Railways"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

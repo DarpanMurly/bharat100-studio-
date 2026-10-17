@@ -27,6 +27,7 @@ import aaas26 from "./scripts/aaas26.json";
 import advaithischolarship26 from "./scripts/advaithischolarship26.json";
 import anoushka26 from "./scripts/anoushka26.json";
 import ashokkhade26 from "./scripts/ashokkhade26.json";
+import atlsaathi26 from "./scripts/atlsaathi26.json";
 import avinashgupta26 from "./scripts/avinashgupta26.json";
 import banaji26 from "./scripts/banaji26.json";
 import batteryStorage26 from "./scripts/battery-storage26.json";
@@ -61,6 +62,7 @@ import garg26 from "./scripts/garg26.json";
 import gavini26 from "./scripts/gavini26.json";
 import ghosh26 from "./scripts/ghosh26.json";
 import grseraichak26 from "./scripts/grseraichak26.json";
+import h2train26 from "./scripts/h2train26.json";
 import h2vessel26 from "./scripts/h2vessel26.json";
 import icgsajit26 from "./scripts/icgsajit26.json";
 import indoremetro26 from "./scripts/indoremetro26.json";
@@ -120,6 +122,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "advaithischolarship26": advaithischolarship26 as VideoScript,
   "anoushka26": anoushka26 as VideoScript,
   "ashokkhade26": ashokkhade26 as VideoScript,
+  "atlsaathi26": atlsaathi26 as VideoScript,
   "avinashgupta26": avinashgupta26 as VideoScript,
   "banaji26": banaji26 as VideoScript,
   "battery-storage26": batteryStorage26 as VideoScript,
@@ -154,6 +157,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "gavini26": gavini26 as VideoScript,
   "ghosh26": ghosh26 as VideoScript,
   "grseraichak26": grseraichak26 as VideoScript,
+  "h2train26": h2train26 as VideoScript,
   "h2vessel26": h2vessel26 as VideoScript,
   "icgsajit26": icgsajit26 as VideoScript,
   "indoremetro26": indoremetro26 as VideoScript,

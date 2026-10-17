@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1861",
+      "headline": "October 18, 1861: Delhi's first-ever police complaint was written down - in Urdu and Persian."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sabzi Mandi Police Station registered Delhi's first First Information Report",
+      "body": "A resident named Maiuddin reported the theft of household items - women's clothing, a hookah, cooking pots, a bowl - valued at about 45 annas, roughly Rs 2.80 at the time."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "It came just months after the Police Act of 1861 created the modern Indian police force.",
+      "body": "Written partly in Urdu and partly in Persian - the official languages of court and police records at the time - a copy still survives today, preserved at the Delhi Police Museum."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs institutions that keep records, not just laws.",
+      "body": "A theft worth less than three rupees became the starting point for a record-keeping system that, over 165 years later, still structures how every crime in India gets reported and tracked."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Deccan Herald - Delhi's first FIR was filed on this day 162 years ago",
+      "url": "https://www.deccanherald.com/india/delhi/delhis-first-fir-was-filed-on-this-day-162-years-ago-which-was-police-station-what-was-matter-2732492"
+    },
+    {
+      "text": "The Tribune - 163 years ago, first FIR in Delhi was on 45-anna theft",
+      "url": "https://www.tribuneindia.com/news/delhi/163-years-ago-first-fir-in-delhi-was-on-45-anna-theft/amp"
+    }
+  ]
+}
