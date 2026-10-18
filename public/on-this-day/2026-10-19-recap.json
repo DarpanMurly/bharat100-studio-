@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Oct 12",
+      "headline": "5 stories.",
+      "listItems": [
+        "A US cardiologist still runs free medical camps in the Jharkhand village he grew up in. He's held over 150 of them.",
+        "He holds 65 US patents and won nine R&D 100 Awards. In 2026, he was named Researcher of the Year.",
+        "Polio left her leg permanently impaired. Her first husband stripped her and threw her and her two daughters out of their home. She didn't find her sport until she was 34.",
+        "October 12, 2014: a cyclone with 185 km/h winds hit India's coast. It killed 116 people - not tens of thousands.",
+        "India just finished a 1,000 MW battery that isn't a battery at all. It stores energy by pumping water uphill."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Oct 13",
+      "headline": "5 stories.",
+      "listItems": [
+        "He led the US government's global development agency. Now he leads a 110-year-old philanthropy. In 2026, TIME named him to its Philanthropy 100.",
+        "India just laid the foundation for a shipyard that can build 200-metre warships. Five projects, one state, over Rs 3,400 crore.",
+        "Polio took the use of his leg. It didn't take his jump.",
+        "October 13, 1999: a coalition government was sworn in - and this time, it lasted the full five years.",
+        "A 23-year Navy doctor took military medic training. And rebuilt it for Indian villages."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Oct 14",
+      "headline": "5 stories.",
+      "listItems": [
+        "India's defence production just hit a record Rs 1.78 lakh crore. And the private sector's share just grew too.",
+        "A US doctor just gave her entire life's savings to the hospital that trained her. Roughly Rs 20 crore, to a government hospital in Andhra Pradesh.",
+        "A comic-style investigation into a scam that traps Indians by phone just won a Pulitzer Prize.",
+        "An electric wire took his arm at 8. He won Paralympic gold at 23. And again at 35.",
+        "October 14, 2010: India finished 2nd on a Commonwealth Games medal table for the first time ever."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Oct 15",
+      "headline": "5 stories.",
+      "listItems": [
+        "A US couple just gave their old engineering college a record $4 million. The largest individual gift the school has ever received.",
+        "He went from an IIT engineering degree to running one of the world's biggest cybersecurity companies. Carnegie just named him one of America's great immigrants.",
+        "Born blind in poverty, he captained India to two cricket World Cups.",
+        "Mumbai Metro just crossed 300 million passenger journeys. And the last 50 million came faster than ever before.",
+        "October 15, 1931: a fisherman's son was born in Rameswaram. He would go on to run India's missile program and its presidency."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Oct 16",
+      "headline": "5 stories.",
+      "listItems": [
+        "A Fortune 500 CEO just funded a scholarship named after her mother. For women from economically weaker backgrounds, at her old engineering college.",
+        "He's spent more than four decades teaching at Harvard Medical School. Carnegie just named him one of America's great immigrants.",
+        "Nine bullets hit him in the 1965 war. He still won India's first Paralympic gold.",
+        "October 16, 2014: India launched the third satellite of a navigation system it was building entirely on its own.",
+        "India's Cabinet just approved its last two semiconductor plants. That completes a 12-project program worth Rs 1.64 lakh crore."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Oct 17",
+      "headline": "5 stories.",
+      "listItems": [
+        "He spent three years on one investigation - from Silicon Valley to China to the US border. It just won a Pulitzer.",
+        "Lost an eye as a child. Cracked UPSC anyway.",
+        "October 17, 2003: India launched its heaviest remote-sensing satellite - built to watch its own land from space.",
+        "India's digital payments system just crossed 800 million transactions a day. For the first time ever.",
+        "A software billionaire just gave his old engineering college Rs 75 crore. For the second time."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Oct 18",
+      "headline": "5 stories.",
+      "listItems": [
+        "An India-born CEO just built an AI tool for 10,000 Indian school labs. To help every teacher run hands-on science experiments.",
+        "She arrived in the US at 21 with little money, working as a stadium food server to pay for school. Forbes just named her one of the world's top innovators at 53.",
+        "India just ran its first homemade hydrogen train. Built entirely in-house, running real passengers every day.",
+        "He dug a pit of mud to practice high jump. He won Paralympic gold anyway.",
+        "October 18, 1861: Delhi's first-ever police complaint was written down - in Urdu and Persian."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}
