@@ -1,0 +1,47 @@
+{
+  "id": "nori26",
+  "type": "diaspora-dividend",
+  "title": "He spent decades treating cancer in New York. India just gave him its third-highest civilian honour",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-19",
+  "sources": [
+    "Medical Dialogues - Renowned oncologist Dr Dattatreyudu Nori awarded Padma Bhushan",
+    "GAPIO - World-renowned radiation oncologist Dr Dattatreyudu Nori"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He spent decades treating cancer in New York.",
+      "sub": "India just gave him its third-highest civilian honour."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Dattatreyudu Nori, born in Mantada village, Andhra Pradesh, spent his career as Professor and Chairman of Oncology and Director of the Cancer Center at Cornell Medical Center in New York, becoming a leading authority in brachytherapy.",
+      "stat": "Padma Bhushan",
+      "statLabel": "India's third-highest civilian honour, conferred on Dr. Dattatreyudu Nori by President Droupadi Murmu in 2026",
+      "narration": "Doctor Dattatreyudu Nori, born in Mantada village, Andhra Pradesh, spent his career as Professor and Chairman of Oncology and Director of the Cancer Center at Cornell Medical Center in New York, becoming a leading authority in brachytherapy."
+    },
+    {
+      "kind": "point",
+      "text": "While still practicing in the US, he became a founding member and Chief Scientific Advisor of the Basavatarakam Indo-American Cancer Hospital in Hyderabad - a 500-bed, not-for-profit cancer center inaugurated by Prime Minister Atal Bihari Vajpayee.",
+      "narration": "While still practicing in the US, he became a founding member and Chief Scientific Advisor of the Basavatarakam Indo-American Cancer Hospital in Hyderabad - a five hundred bed, not-for-profit cancer center inaugurated by Prime Minister Atal Bihari Vajpayee."
+    },
+    {
+      "kind": "point",
+      "text": "He now also advises the governments of Andhra Pradesh and Telangana on cancer care, and serves as Senior Advisor to Memorial Sloan Kettering's Chennai unit - decades of US practice feeding directly back into Indian cancer infrastructure."
+    },
+    {
+      "kind": "closer",
+      "text": "He built his career at one of America's top cancer centers.",
+      "sub": "He built a 500-bed hospital back home at the same time.",
+      "narration": "He built his career at one of America's top cancer centers. He built a five hundred bed hospital back home at the same time."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He spent decades treating cancer in New York. India just gave him its third-highest civilian honour.\n\nDr. Dattatreyudu Nori, born in Mantada village, Andhra Pradesh, spent his career as Professor and Chairman of Oncology at Cornell Medical Center in New York. While still practicing in the US, he became a founding member and Chief Scientific Advisor of the Basavatarakam Indo-American Cancer Hospital in Hyderabad - a 500-bed, not-for-profit center inaugurated by PM Vajpayee. He now also advises the governments of Andhra Pradesh and Telangana on cancer care.\n\nHe built his career at one of America's top cancer centers. He built a 500-bed hospital back home at the same time.\n\nSources: Medical Dialogues, GAPIO (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Healthcare"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He joined an American tech giant as an engineer in 1990. In 2026, TIME named him one of the 100 most influential people in AI."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Arvind Krishna, chairman and CEO of IBM, was named to TIME's 2026 TIME100 AI list",
+      "body": "The fourth edition of the list, published in August 2026, named roughly ten Indians and people of Indian origin among its 100 honorees across science, business, leadership and advocacy."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How he got there",
+      "headline": "He joined IBM's Thomas J. Watson Research Center in 1990, decades before becoming its chief executive.",
+      "body": "After earning his bachelor's at IIT Kanpur and a PhD in electrical engineering from the University of Illinois at Urbana-Champaign, he rose through IBM's cloud and cognitive software division before becoming CEO in 2020 and chairman in 2021, overseeing the Red Hat acquisition and the company's push into AI and quantum computing."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its engineering graduates rise to lead the companies setting the pace in artificial intelligence.",
+      "body": "Krishna's 36-year path from an IIT Kanpur graduate to IBM's chairman and CEO shows Indian technical training compounding into leadership of one of AI's most consequential legacy companies."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Business Today - From Sarvam AI co-founder to IBM CEO, meet the 10 Indians and people of Indian origin on TIME100 AI 2026",
+      "url": "https://www.businesstoday.in/technology/news/story/from-sarvams-vivek-raghavan-to-ibms-arvind-krishna-10-indians-named-among-times-most-influential-ai-leaders-in-2026-552285-2026-08-31"
+    },
+    {
+      "text": "YourStory - From Sarvam AI co-founder to IBM CEO, meet the 10 Indians and people of Indian origin on TIME100 AI 2026",
+      "url": "https://yourstory.com/2026/08/10-indians-and-indian-origin-names-on-time100-ai-2026"
+    }
+  ]
+}

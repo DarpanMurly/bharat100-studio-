@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1910",
+      "headline": "October 19, 1910: a boy was born in Lahore who would spend his career proving what crushes a dying star."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Subrahmanyan Chandrasekhar was born in Lahore, British India",
+      "body": "He moved to the US to pursue astrophysics, spending nearly six decades on the faculty at the University of Chicago until his death in 1995 - his uncle, C.V. Raman, had already won India's first Nobel Prize in Physics in 1930."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he discovered",
+      "headline": "He showed that a white dwarf star's mass can't exceed about 1.44 times the Sun's - the 'Chandrasekhar limit.'",
+      "body": "His theoretical work on how stars are structured and how they evolve, developed decades earlier, won him the 1983 Nobel Prize in Physics, shared with William A. Fowler."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs theoretical scientists, not just engineers.",
+      "body": "Chandrasekhar's Nobel came from pure astrophysical theory - proof that Indian scientific talent could reshape fundamental physics itself, not only build applied technology."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Encyclopaedia Britannica - Subrahmanyan Chandrasekhar",
+      "url": "https://britannica.com/print/article/105462"
+    },
+    {
+      "text": "New World Encyclopedia - Subrahmanyan Chandrasekhar",
+      "url": "https://www.newworldencyclopedia.org/entry/Subrahmanyan_Chandrasekhar"
+    }
+  ]
+}

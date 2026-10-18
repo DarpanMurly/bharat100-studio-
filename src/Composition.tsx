@@ -55,6 +55,7 @@ import drdogan26 from "./scripts/drdogan26.json";
 import droneudyami26 from "./scripts/droneudyami26.json";
 import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
+import evsept26 from "./scripts/evsept26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
 import gangwal26 from "./scripts/gangwal26.json";
@@ -87,6 +88,7 @@ import micronsanand26 from "./scripts/micronsanand26.json";
 import mumbaimetro26 from "./scripts/mumbaimetro26.json";
 import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
+import nori26 from "./scripts/nori26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
 import pfbr26 from "./scripts/pfbr26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
@@ -150,6 +152,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "droneudyami26": droneudyami26 as VideoScript,
   "electronics26": electronics26 as VideoScript,
   "evgrowth26": evgrowth26 as VideoScript,
+  "evsept26": evsept26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
   "gangwal26": gangwal26 as VideoScript,
@@ -182,6 +185,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "mumbaimetro26": mumbaimetro26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
+  "nori26": nori26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,
   "pfbr26": pfbr26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,

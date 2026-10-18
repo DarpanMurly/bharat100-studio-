@@ -1,0 +1,46 @@
+{
+  "id": "evsept26",
+  "title": "India just crossed 3 lakh EV registrations for the fourth month running",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-19",
+  "sources": [
+    "NewsBytes - Record EVs registered in India last month",
+    "Finology Ticker - India EV Sales September 2026: 3.33 Lakh Registrations, Market Share & Key Trends"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just crossed 3 lakh EV registrations for the fourth month running.",
+      "sub": "Not a one-off spike - a sustained trend."
+    },
+    {
+      "kind": "stat",
+      "text": "India registered 3,33,571 electric vehicles in September 2026, according to government Vahan data, up from 3,02,746 in August - the fourth consecutive month above the 3 lakh mark.",
+      "stat": "3.34L",
+      "statLabel": "EVs registered in India in September 2026, per Vahan data via NewsBytes and Finology",
+      "narration": "India registered three lakh thirty-three thousand five hundred seventy-one electric vehicles in September twenty twenty-six, according to government Vahan data, up from three lakh two thousand seven hundred forty-six in August - the fourth consecutive month above the three lakh mark."
+    },
+    {
+      "kind": "point",
+      "text": "Earlier in the year, Q1 2026 alone saw nearly 7 lakh EV units registered, a jump of more than 35% year-on-year, while FADA's retail sales data separately showed EV penetration crossing 12% of total vehicle sales for the first time in June 2026.",
+      "narration": "Earlier in the year, Q-one twenty twenty-six alone saw nearly seven lakh E-V units registered, a jump of more than thirty-five percent year-on-year, while FADA's retail sales data separately showed E-V penetration crossing twelve percent of total vehicle sales for the first time in June twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "2025's full-year total was already a record 2.27 million units - meaning 2026's running pace, four straight months above 3 lakh, is tracking to beat that record by a wide margin."
+    },
+    {
+      "kind": "closer",
+      "text": "One record month can be a fluke.",
+      "sub": "Four in a row is a market that's actually shifted.",
+      "narration": "One record month can be a fluke. Four in a row is a market that's actually shifted."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just crossed 3 lakh EV registrations for the fourth month running. Not a one-off spike - a sustained trend.\n\nIndia registered 3,33,571 electric vehicles in September 2026, per government Vahan data, up from 3,02,746 in August - the fourth consecutive month above 3 lakh. Q1 2026 alone saw nearly 7 lakh EV units registered, up more than 35% year-on-year, while EV penetration crossed 12% of total vehicle sales for the first time in June 2026. 2025's full-year total was already a record 2.27 million units.\n\nOne record month can be a fluke. Four in a row is a market that's actually shifted.\n\nSources: NewsBytes, Finology Ticker, citing Vahan data (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#ElectricVehicles"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
