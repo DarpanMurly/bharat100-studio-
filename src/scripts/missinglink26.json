@@ -1,0 +1,46 @@
+{
+  "id": "missinglink26",
+  "title": "India just built the widest underground road tunnel on Earth",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-20",
+  "sources": [
+    "NBM&CW - Navayuga Engineering Achieves Guinness Record for Widest Tunnel on Mumbai-Pune Expressway Missing Link",
+    "News On Air - Maharashtra CM Devendra Fadnavis inaugurates 13.3 km Missing Link on Mumbai-Pune Expressway"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just built the widest underground road tunnel on Earth.",
+      "sub": "Guinness World Records made it official."
+    },
+    {
+      "kind": "stat",
+      "text": "The Mumbai-Pune Expressway's new 13.3-kilometre 'Missing Link' bypass, inaugurated by Maharashtra CM Devendra Fadnavis on May 1, 2026, includes twin tunnels certified by Guinness World Records as the widest underground road tunnel in the world.",
+      "stat": "22.33m",
+      "statLabel": "Guinness-certified width of the Missing Link's twin tunnels through the Sahyadris, per NBM&CW and News On Air",
+      "narration": "The Mumbai-Pune Expressway's new thirteen point three kilometre 'Missing Link' bypass, inaugurated by Maharashtra C-M Devendra Fadnavis on May first, twenty twenty-six, includes twin tunnels certified by Guinness World Records as the widest underground road tunnel in the world."
+    },
+    {
+      "kind": "point",
+      "text": "Built by Navayuga Engineering Company - its second Guinness World Record on an Indian infrastructure project - the tunnels cut straight through the Sahyadri mountains, bypassing the notorious Khandala Ghat traffic bottleneck entirely.",
+      "narration": "Built by Navayuga Engineering Company - its second Guinness World Record on an Indian infrastructure project - the tunnels cut straight through the Sahyadri mountains, bypassing the notorious Khandala Ghat traffic bottleneck entirely."
+    },
+    {
+      "kind": "point",
+      "text": "The bypass opened first to light vehicles and buses, with heavy trucks still routed through the old ghat road pending a safety review - a staged rollout for one of India's most heavily used expressway corridors."
+    },
+    {
+      "kind": "closer",
+      "text": "Most highway upgrades widen a road.",
+      "sub": "This one carved a world-record tunnel straight through a mountain range instead.",
+      "narration": "Most highway upgrades widen a road. This one carved a world-record tunnel straight through a mountain range instead."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just built the widest underground road tunnel on Earth. Guinness World Records made it official.\n\nThe Mumbai-Pune Expressway's new 13.3 km 'Missing Link' bypass, inaugurated May 1, 2026, includes twin tunnels certified by Guinness World Records as the widest underground road tunnel in the world at 22.33 metres. Built by Navayuga Engineering Company, the tunnels cut through the Sahyadri mountains, bypassing the Khandala Ghat bottleneck entirely. The bypass opened first to light vehicles and buses, with heavy trucks still on the old route pending a safety review.\n\nMost highway upgrades widen a road. This one carved a world-record tunnel straight through a mountain range instead.\n\nSources: NBM&CW, News On Air (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

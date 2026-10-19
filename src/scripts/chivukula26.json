@@ -1,0 +1,47 @@
+{
+  "id": "chivukula26",
+  "type": "diaspora-dividend",
+  "title": "A metal injection molding entrepreneur just gave his old college its largest-ever single gift",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-20",
+  "sources": [
+    "IIT Madras (institute press release) - IIT Madras gets largest single donation Rs 228 crore",
+    "WION - IIT Madras gets historic Rs 228 crore donation from alumnus"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A metal injection molding entrepreneur just gave his old college its largest-ever single gift.",
+      "sub": "Rs 228 crore - the biggest donation IIT Madras has ever received."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Krishna Chivukula, a 1970 IIT Madras graduate who went on to found Indo-MIM - now the world's largest metal injection molding company by capacity and sales - donated Rs 228 crore to his alma mater.",
+      "stat": "Rs 228cr",
+      "statLabel": "Dr. Krishna Chivukula's donation to IIT Madras, the largest single gift in the institute's history, per IIT Madras and WION",
+      "narration": "Doctor Krishna Chivukula, a nineteen seventy I-I-T Madras graduate who went on to found Indo-MIM - now the world's largest metal injection molding company by capacity and sales - donated two hundred twenty-eight crore rupees to his alma mater."
+    },
+    {
+      "kind": "point",
+      "text": "The gift funds fellowships for top BTech students, support for sportspersons, foreign student fellowships, and grants for faculty pursuing high-risk research - IIT Madras named an academic building the Krishna Chivukula Block in his honour.",
+      "narration": "The gift funds fellowships for top B-Tech students, support for sportspersons, foreign student fellowships, and grants for faculty pursuing high-risk research - I-I-T Madras named an academic building the Krishna Chivukula Block in his honour."
+    },
+    {
+      "kind": "point",
+      "text": "Chivukula introduced metal injection molding technology to India in 1997, building Indo-MIM into a company with a projected turnover of nearly Rs 1,000 crore - decades of business success built abroad, redirected straight back into the institution that trained him."
+    },
+    {
+      "kind": "closer",
+      "text": "Most alumni gifts fund a scholarship or two.",
+      "sub": "This one got an entire building named after the donor.",
+      "narration": "Most alumni gifts fund a scholarship or two. This one got an entire building named after the donor."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A metal injection molding entrepreneur just gave his old college its largest-ever single gift. Rs 228 crore - the biggest donation IIT Madras has ever received.\n\nDr. Krishna Chivukula, a 1970 IIT Madras graduate who founded Indo-MIM - now the world's largest metal injection molding company by capacity and sales - donated Rs 228 crore to his alma mater. The gift funds fellowships for top BTech students, sportspersons, foreign students, and high-risk faculty research. IIT Madras named an academic building the Krishna Chivukula Block in his honour.\n\nMost alumni gifts fund a scholarship or two. This one got an entire building named after the donor.\n\nSources: IIT Madras, WION",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "His mother was born in Odisha and studied at Delhi University before Harvard. In 2026, her son became mayor of America's largest city."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Zohran Mamdani was sworn in as the 112th Mayor of New York City on January 1, 2026",
+      "body": "He won the election with 50.4% of the vote against Andrew Cuomo's 41.6%, becoming the first person of South Asian heritage to lead America's largest city."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His Indian connection",
+      "headline": "His mother, filmmaker Mira Nair, was born in Rourkela, Odisha, in 1957.",
+      "body": "She studied at Delhi University before earning a scholarship to Harvard, going on to direct acclaimed films including Salaam Bombay! and Monsoon Wedding - Mamdani himself was born in Kampala, Uganda, and moved to New York at age seven."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its diaspora's children end up leading the world's major cities.",
+      "body": "Mamdani's path - an India-born mother's education and career feeding into her son's rise to lead New York City - shows the diaspora's influence compounding across generations, not fading with distance."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Zohran Mamdani",
+      "url": "https://en.wikipedia.org/wiki/Zohran_Mamdani"
+    },
+    {
+      "text": "WHRO Public Media - Zohran Mamdani sworn in as New York City mayor, capping historic rise",
+      "url": "https://www.whro.org/2026-01-01/zohran-mamdani-sworn-in-as-new-york-city-mayor-capping-historic-rise"
+    }
+  ]
+}

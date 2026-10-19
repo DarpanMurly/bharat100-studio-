@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1962",
+      "headline": "October 20, 1962: a border conflict began that would reshape how India builds its defenses for the next six decades."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Large-scale fighting broke out along India's northern frontier, in Ladakh and the northeast",
+      "body": "The conflict exposed gaps in India's border infrastructure, high-altitude logistics and military preparedness - lessons that shaped defense policy for generations afterward."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What came after",
+      "headline": "India rebuilt its approach to border roads, high-altitude supply chains and domestic defense production from the ground up.",
+      "body": "The Border Roads Organisation's mandate expanded, defense R&D investment grew, and the push toward domestic weapons manufacturing that India still pursues today traces directly back to the gaps this conflict exposed."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs the infrastructure and industrial base to defend itself without depending on others.",
+      "body": "The decades of investment in border roads, high-altitude logistics and domestic defense manufacturing that followed 1962 are the direct ancestors of the self-reliant defense sector India is still building today."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Encyclopaedia Britannica - Sino-Indian War",
+      "url": "https://www.britannica.com/print/article/546167"
+    },
+    {
+      "text": "Naval War College Review - The Sino-Indian Border War",
+      "url": "https://digital-commons.usnwc.edu/nwc-review/vol20/iss5/6"
+    }
+  ]
+}
