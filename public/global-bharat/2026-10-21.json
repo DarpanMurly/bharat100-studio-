@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "In a 93-year-old scientific society's history, only three Indians had ever been inducted as Fellows. In 2026, the third one was a woman."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Prof. Kuljeet Kaur Marhas was elected a 2026 Fellow of The Meteoritical Society",
+      "body": "She became the first Indian woman to receive the honour since the society's founding in 1933, and only the third Indian scientist overall, following Devendra Lal and J.N. Goswami."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Her work",
+      "headline": "She studies isotopes and pre-solar grains in extraterrestrial material brought back by Stardust, Hayabusa and Apollo.",
+      "body": "Based at the Physical Research Laboratory in Ahmedabad, her research examines Calcium-Aluminium-rich Inclusions - some of the oldest solid material in the solar system - to understand how planets formed."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs its scientists recognized at the frontier of planetary science, not just space launches.",
+      "body": "A 93-year-old international society inducting an Indian woman for the first time shows Indian fundamental research earning recognition on the same terms as the field's oldest institutions."
+    }
+  ],
+  "sources": [
+    {
+      "text": "YourStory Tamil - Physicist Kuljeet Kaur Marhas becomes first Indian woman Fellow at the Meteoritical Society",
+      "url": "https://yourstory.com/tamil/physicist-kuljeet-kaur-marhas-first-indian-woman-becomes-fellow-at-the-meteoritical-society"
+    },
+    {
+      "text": "Kerala Kaumudi - Kuljeet Kaur Marhas, first Indian woman Fellow, Meteoritical Society",
+      "url": "https://keralakaumudi.com/news/news-360/national/kuljeet-kaur-marhas-first-indian-woman-fellow-meteoritical-society-1744586"
+    }
+  ]
+}

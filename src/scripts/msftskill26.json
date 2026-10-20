@@ -1,0 +1,47 @@
+{
+  "id": "msftskill26",
+  "type": "diaspora-dividend",
+  "title": "An India-born CEO's company just trained 5.6 million Indians in AI skills",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-21",
+  "sources": [
+    "Nasdaq (Reuters) - Microsoft announces $17.5 billion investment in India's technology ecosystem",
+    "Benzatine - India AI Impact Summit 2026: Microsoft plans to skill 20 million Indians with AI by 2030"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "An India-born CEO's company just trained 5.6 million Indians in AI skills.",
+      "sub": "Already well past the goal it set a year earlier."
+    },
+    {
+      "kind": "stat",
+      "text": "Satya Nadella's Microsoft has trained 5.6 million people in India through its ADVANTA(I)GE India program since January 2025 - enabling more than 125,000 individuals to secure jobs or start businesses.",
+      "stat": "5.6M",
+      "statLabel": "Indians trained in AI skills through Microsoft's ADVANTA(I)GE India program, per Nasdaq/Reuters and Benzatine",
+      "narration": "Satya Nadella's Microsoft has trained five point six million people in India through its ADVANTAGE India program since January twenty twenty-five - enabling more than one hundred twenty-five thousand individuals to secure jobs or start businesses."
+    },
+    {
+      "kind": "point",
+      "text": "That number already blew past Microsoft's original goal of training 10 million Indians by 2030 - so the company doubled it, now targeting 20 million people with AI skills by the same deadline.",
+      "narration": "That number already blew past Microsoft's original goal of training ten million Indians by twenty thirty - so the company doubled it, now targeting twenty million people with AI skills by the same deadline."
+    },
+    {
+      "kind": "point",
+      "text": "The skilling push sits inside a broader $17.5 billion investment commitment in India's technology ecosystem, spanning AI infrastructure, cloud capacity and workforce training through 2029."
+    },
+    {
+      "kind": "closer",
+      "text": "A training target set for 2030 usually takes years to approach.",
+      "sub": "This one was already beaten before the halfway mark.",
+      "narration": "A training target set for twenty thirty usually takes years to approach. This one was already beaten before the halfway mark."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "An India-born CEO's company just trained 5.6 million Indians in AI skills. Already well past the goal it set a year earlier.\n\nSatya Nadella's Microsoft has trained 5.6 million people in India through its ADVANTA(I)GE India program since January 2025 - enabling more than 125,000 individuals to secure jobs or start businesses. That blew past the original goal of training 10 million by 2030, so Microsoft doubled it to 20 million. The push sits inside a broader $17.5 billion investment in India's AI infrastructure, cloud capacity and workforce training through 2029.\n\nA training target set for 2030 usually takes years to approach. This one was already beaten before the halfway mark.\n\nSources: Nasdaq/Reuters, Benzatine (2026)",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#AI"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

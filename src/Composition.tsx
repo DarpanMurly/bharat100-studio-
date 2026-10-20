@@ -59,6 +59,7 @@ import evgrowth26 from "./scripts/evgrowth26.json";
 import evsept26 from "./scripts/evsept26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
+import gangaexp26 from "./scripts/gangaexp26.json";
 import gangwal26 from "./scripts/gangwal26.json";
 import garg26 from "./scripts/garg26.json";
 import gavini26 from "./scripts/gavini26.json";
@@ -87,6 +88,7 @@ import meghadesai26 from "./scripts/meghadesai26.json";
 import menon26 from "./scripts/menon26.json";
 import micronsanand26 from "./scripts/micronsanand26.json";
 import missinglink26 from "./scripts/missinglink26.json";
+import msftskill26 from "./scripts/msftskill26.json";
 import mumbaimetro26 from "./scripts/mumbaimetro26.json";
 import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
@@ -158,6 +160,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "evsept26": evsept26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
+  "gangaexp26": gangaexp26 as VideoScript,
   "gangwal26": gangwal26 as VideoScript,
   "garg26": garg26 as VideoScript,
   "gavini26": gavini26 as VideoScript,
@@ -186,6 +189,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "menon26": menon26 as VideoScript,
   "micronsanand26": micronsanand26 as VideoScript,
   "missinglink26": missinglink26 as VideoScript,
+  "msftskill26": msftskill26 as VideoScript,
   "mumbaimetro26": mumbaimetro26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1943",
+      "headline": "October 21, 1943: a provisional government was announced in Singapore, with eleven ministers and no territory to govern yet."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Provisional Government of Azad Hind was announced, with 11 ministers and 8 INA representatives",
+      "body": "Formed as part of India's freedom movement, it operated as a government-in-exile structure during the final years of British colonial rule."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How it's remembered",
+      "headline": "On its 75th anniversary in 2018, the tricolour was hoisted at Red Fort - the first time that had happened outside Independence Day.",
+      "body": "The commemoration marked the only time in India's modern history that the national flag was raised at that site on a date other than August 15, underscoring the formation's place in the institutional memory of the freedom movement."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat traces its institutions back to the full range of efforts that built toward independence.",
+      "body": "A government structured with ministers and representatives before a single day of formal independence showed that institutional planning for self-rule was underway years before 1947 arrived."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Drishti IAS - Azad Hind Formation Anniversary",
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/azad-hind-formation-anniversary"
+    },
+    {
+      "text": "The Tribune - Govt to mark 75 yrs of Bose's Azad Hind govt",
+      "url": "https://m.tribuneindia.com/article/govt-to-mark-75-yrs-of-bose-s-azad-hind-govt/670863"
+    }
+  ]
+}
