@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "Her parents emigrated from India in 1960. In 2026, Forbes named her one of the world's top innovators at 59."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Maya Ajmera, CEO of the Society for Science, was named to Forbes' 2026 '50 Over 50' Innovation list",
+      "body": "Produced with Mika Brzezinski's Know Your Value initiative, the sixth annual list honours 200 women across four categories - Ajmera featured among the Innovation honourees."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Her path there",
+      "headline": "Before leading the organization that publishes Science News, she spent nearly two decades building a nonprofit for children.",
+      "body": "From 1993 to 2011, she founded and led the Global Fund for Children, directing private philanthropic capital to community-based organizations supporting vulnerable children and youth worldwide, before becoming President and CEO of the Society for Science & the Public."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when the children of its diaspora end up leading the institutions that shape global science journalism and youth STEM.",
+      "body": "Ajmera's path - from a neuroscience degree to running a century-old science publication - shows a second-generation Indian American reaching the top of a field entirely removed from her parents' own careers."
+    }
+  ],
+  "sources": [
+    {
+      "text": "American Bazaar - Seven Indian American women on Forbes 50 Over 50 list",
+      "url": "https://americanbazaaronline.com/2026/08/14/seven-indian-american-women-on-forbes-50-over-50-list-486402/"
+    },
+    {
+      "text": "Forbes Portugal - 50 Over 50: As mulheres de maior relevo no mundo em inovacao",
+      "url": "https://www.forbespt.com/?p=193358"
+    }
+  ]
+}

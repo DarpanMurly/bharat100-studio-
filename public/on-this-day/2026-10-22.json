@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2008",
+      "headline": "October 22, 2008: India sent its first spacecraft to the Moon."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "ISRO launched Chandrayaan-1 aboard PSLV-C11 from Sriharikota",
+      "body": "The 1,380 kg spacecraft carried 11 scientific instruments - from India, the US, UK, Germany, Sweden and Bulgaria - into a transfer orbit before reaching the Moon on November 8, 2008."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it achieved",
+      "headline": "Its Moon Impact Probe struck the lunar south pole, and the orbiter made over 3,400 orbits around the Moon.",
+      "body": "The mission concluded when communication was lost in August 2009 - but it had already made India one of the handful of countries to successfully send a spacecraft to the Moon."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs the scientific ambition to leave its own planet, not just orbit it.",
+      "body": "Chandrayaan-1 proved India's space program could design, build and fly an interplanetary mission - groundwork that led directly to Chandrayaan-2, Chandrayaan-3's lunar landing, and India's growing space ambitions since."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ISRO - Chandrayaan-1 mission page",
+      "url": "https://www.isro.gov.in/ISRO_EN/Chandrayaan_1.html"
+    },
+    {
+      "text": "NASA NSSDC - Chandrayaan-1 press release archive",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/text/chandrayaan1_pr_20081022.txt"
+    }
+  ]
+}

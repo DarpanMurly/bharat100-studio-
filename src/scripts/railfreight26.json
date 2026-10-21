@@ -1,0 +1,46 @@
+{
+  "id": "railfreight26",
+  "title": "Indian Railways just moved 135 million tonnes of freight in a single month",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-22",
+  "sources": [
+    "Deccan Chronicle - Indian Railways freight loading grows 6.14% in September",
+    "PSU Connect - Indian Railways records 6.14% growth in freight loading in September 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Indian Railways just moved 135 million tonnes of freight in a single month.",
+      "sub": "Up more than 6% from the same month last year."
+    },
+    {
+      "kind": "stat",
+      "text": "Indian Railways loaded 135.35 million tonnes of freight in September 2026, up 6.14% from 127.52 million tonnes in September 2025, according to the Ministry of Railways.",
+      "stat": "135.35MT",
+      "statLabel": "freight loaded by Indian Railways in September 2026, per Deccan Chronicle and PSU Connect citing Ministry of Railways data",
+      "narration": "Indian Railways loaded one hundred thirty-five point three five million tonnes of freight in September twenty twenty-six, up six point one four percent from one hundred twenty-seven point five two million tonnes in September twenty twenty-five."
+    },
+    {
+      "kind": "point",
+      "text": "Foodgrain loading jumped 25 percent and clinker loading rose 20 percent. Daily coal rake supply to power houses climbed to 443 rakes, up from 397 - an 11.6 percent increase in keeping the country's power plants fed.",
+      "narration": "Foodgrain loading jumped twenty-five percent and clinker loading rose twenty percent. Daily coal rake supply to power houses climbed to four hundred forty-three rakes, up from three hundred ninety-seven - an eleven point six percent increase in keeping the country's power plants fed."
+    },
+    {
+      "kind": "point",
+      "text": "Freight revenue rose 9.3 percent year-on-year, an increase of Rs 1,266 crore - and the cumulative loading for April through September 2026 reached 833.7 million tonnes, up 4.1 percent over the same period last year."
+    },
+    {
+      "kind": "closer",
+      "text": "A single month's freight numbers can be noise.",
+      "sub": "Six straight months of growth across food, cement and coal is a trend.",
+      "narration": "A single month's freight numbers can be noise. Six straight months of growth across food, cement and coal is a trend."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Indian Railways just moved 135 million tonnes of freight in a single month. Up more than 6% from the same month last year.\n\nIndian Railways loaded 135.35 million tonnes of freight in September 2026, up 6.14% year-on-year. Foodgrain loading jumped 25%, clinker loading rose 20%, and daily coal rake supply to power houses climbed to 443 rakes, an 11.6% increase. Freight revenue rose 9.3% year-on-year - up Rs 1,266 crore - with April-September cumulative loading reaching 833.7 million tonnes, up 4.1%.\n\nA single month's freight numbers can be noise. Six straight months of growth across food, cement and coal is a trend.\n\nSources: Deccan Chronicle, PSU Connect, citing Ministry of Railways data (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Railways"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

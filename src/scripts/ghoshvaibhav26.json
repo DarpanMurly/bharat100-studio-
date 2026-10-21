@@ -1,0 +1,47 @@
+{
+  "id": "ghoshvaibhav26",
+  "type": "diaspora-dividend",
+  "title": "A US statistics professor just won a fellowship to spend his summers teaching at IIT Bombay",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-22",
+  "sources": [
+    "NC State University (Department of Statistics) - Sujit Ghosh awarded VAIBHAV Fellowship",
+    "Indian Statistical Institute - Sujit Ghosh awarded VAIBHAV Fellowship"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US statistics professor just won a fellowship to spend his summers teaching at IIT Bombay.",
+      "sub": "Chosen from 217 applicants worldwide."
+    },
+    {
+      "kind": "stat",
+      "text": "Sujit Ghosh, a Professor of Statistics at North Carolina State University and an Indian Statistical Institute alumnus, was awarded India's VAIBHAV Fellowship to collaborate with Indian institutions.",
+      "stat": "1 of 17",
+      "statLabel": "researchers selected worldwide for this VAIBHAV Fellowship round, out of 217 applicants, per NC State and ISI",
+      "narration": "Sujit Ghosh, a Professor of Statistics at North Carolina State University and an Indian Statistical Institute alumnus, was awarded India's VAIBHAV Fellowship to collaborate with Indian institutions."
+    },
+    {
+      "kind": "point",
+      "text": "Over the next three years, he'll spend one to two months a year at IIT Bombay, hosted by a fellow researcher there, working on statistics, biostatistics and climate science.",
+      "narration": "Over the next three years, he'll spend one to two months a year at I-I-T Bombay, hosted by a fellow researcher there, working on statistics, biostatistics and climate science."
+    },
+    {
+      "kind": "point",
+      "text": "He's already helped set up a formal partnership between NC State and IIT Bombay, and was invited to give a plenary talk at a conference there - decades of US academic career now feeding directly back into Indian research institutions."
+    },
+    {
+      "kind": "closer",
+      "text": "Most sabbaticals are a one-time trip.",
+      "sub": "This one is a three-year standing invitation to keep coming back.",
+      "narration": "Most sabbaticals are a one-time trip. This one is a three-year standing invitation to keep coming back."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A US statistics professor just won a fellowship to spend his summers teaching at IIT Bombay. Chosen from 217 applicants worldwide.\n\nSujit Ghosh, a Professor of Statistics at North Carolina State University and an Indian Statistical Institute alumnus, was awarded India's VAIBHAV Fellowship. Over the next three years, he'll spend one to two months a year at IIT Bombay working on statistics, biostatistics and climate science. He's already helped set up a formal partnership between NC State and IIT Bombay.\n\nMost sabbaticals are a one-time trip. This one is a three-year standing invitation to keep coming back.\n\nSources: NC State University, Indian Statistical Institute",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
