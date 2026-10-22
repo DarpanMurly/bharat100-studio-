@@ -1,0 +1,47 @@
+{
+  "id": "shivangi26",
+  "type": "diaspora-dividend",
+  "title": "A US doctor gave his family fortune to build a 300-bed cancer hospital in his hometown",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-23",
+  "sources": [
+    "Deccan Herald - Words of compassion can better lives of cancer patients: President Murmu",
+    "The Global Indian - Indian American Dr. Sampat Shivangi builds cancer hospital in Karnataka"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A US doctor gave his family fortune to build a 300-bed cancer hospital in his hometown.",
+      "sub": "In a rural part of Karnataka where patients once traveled hours for treatment."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Sampat Shivangi, a physician based in Jackson, Mississippi, funded the construction of a 300-bed cancer hospital in Belagavi, Karnataka, run by the KLE Society, inaugurated by President Droupadi Murmu in January 2025.",
+      "stat": "300 beds",
+      "statLabel": "capacity of the Dr. Sampat Shivangi Cancer Hospital in Belagavi, Karnataka, funded by his family and inaugurated by the President of India, per Deccan Herald and The Global Indian",
+      "narration": "Doctor Sampat Shivangi, a physician based in Jackson, Mississippi, funded the construction of a three hundred bed cancer hospital in Belagavi, Karnataka, run by the K-L-E Society, inaugurated by President Droupadi Murmu in January twenty twenty-five."
+    },
+    {
+      "kind": "point",
+      "text": "The hospital offers a full range of oncology specialities, radiation equipment, a palliative care unit and a chemotherapy daycare centre - serving a rural region where cancer patients previously had to travel long distances for treatment.",
+      "narration": "The hospital offers a full range of oncology specialities, radiation equipment, a palliative care unit and a chemotherapy daycare centre - serving a rural region where cancer patients previously had to travel long distances for treatment."
+    },
+    {
+      "kind": "point",
+      "text": "Beyond the hospital, his foundation also funded schools, community halls and other healthcare facilities across India - decades of giving built up over a career practiced entirely in the United States."
+    },
+    {
+      "kind": "closer",
+      "text": "He spent his career treating patients in Mississippi.",
+      "sub": "He spent his savings building a hospital for patients he'd never meet, half a world away.",
+      "narration": "He spent his career treating patients in Mississippi. He spent his savings building a hospital for patients he'd never meet, half a world away."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A US doctor gave his family fortune to build a 300-bed cancer hospital in his hometown. In a rural part of Karnataka where patients once traveled hours for treatment.\n\nDr. Sampat Shivangi, a physician based in Jackson, Mississippi, funded a 300-bed cancer hospital in Belagavi, Karnataka, run by the KLE Society and inaugurated by President Droupadi Murmu in January 2025. The hospital offers oncology specialities, radiation equipment, a palliative care unit and a chemotherapy daycare centre. His foundation also funded schools, community halls and other healthcare facilities across India.\n\nHe spent his career treating patients in Mississippi. He spent his savings building a hospital for patients he'd never meet, half a world away.\n\nSources: Deccan Herald, The Global Indian",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Healthcare"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

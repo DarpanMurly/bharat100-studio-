@@ -1,0 +1,46 @@
+{
+  "id": "parassemi26",
+  "title": "A defence company just signed up to build chip-packaging tech India has never made before",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-23",
+  "sources": [
+    "The Week - Paras Defence to set up semicon unit worth Rs 6,200 crore in Madhya Pradesh",
+    "Angel One - Paras Defence and Space Technologies shares in focus as its subsidiary signs MoU for OSAT facility in Madhya Pradesh"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A defence company just signed up to build chip-packaging tech India has never made before.",
+      "sub": "A Rs 6,200 crore facility, on 50 acres in Madhya Pradesh."
+    },
+    {
+      "kind": "stat",
+      "text": "Paras Semiconductors, a subsidiary of Paras Defence and Space Technologies, signed an MoU with the Madhya Pradesh government on July 22, 2026 to build a greenfield chip-packaging facility on the Indore-Ujjain corridor.",
+      "stat": "Rs 6,200cr",
+      "statLabel": "planned investment in Paras Semiconductors' OSAT facility in Madhya Pradesh, per The Week and Angel One",
+      "narration": "Paras Semiconductors, a subsidiary of Paras Defence and Space Technologies, signed an M-O-U with the Madhya Pradesh government on July twenty-second, twenty twenty-six to build a greenfield chip-packaging facility on the Indore-Ujjain corridor."
+    },
+    {
+      "kind": "point",
+      "text": "The 50-acre facility is designed for advanced techniques India has barely attempted commercially - 3D heterogeneous integration, hybrid bonding, ultra-high-density fan-out packaging, chiplet integration and flip-chip assembly.",
+      "narration": "The fifty-acre facility is designed for advanced techniques India has barely attempted commercially - three-D heterogeneous integration, hybrid bonding, ultra-high-density fan-out packaging, chiplet integration and flip-chip assembly."
+    },
+    {
+      "kind": "point",
+      "text": "The project sits inside the India Semiconductor Mission's second phase, with reports pointing to more than 2,500 direct jobs once the facility is operational - a defence company diversifying straight into the chip-packaging frontier."
+    },
+    {
+      "kind": "closer",
+      "text": "Most semiconductor deals so far have been about basic assembly and testing.",
+      "sub": "This one is aimed at packaging techniques India has never built at commercial scale.",
+      "narration": "Most semiconductor deals so far have been about basic assembly and testing. This one is aimed at packaging techniques India has never built at commercial scale."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A defence company just signed up to build chip-packaging tech India has never made before. A Rs 6,200 crore facility, on 50 acres in Madhya Pradesh.\n\nParas Semiconductors, a subsidiary of Paras Defence and Space Technologies, signed an MoU with the Madhya Pradesh government on July 22, 2026 for a greenfield facility on the Indore-Ujjain corridor. It's designed for advanced techniques India has barely attempted commercially - 3D heterogeneous integration, hybrid bonding, chiplet integration and flip-chip assembly. The project sits inside the India Semiconductor Mission's second phase, with reports pointing to over 2,500 direct jobs.\n\nMost semiconductor deals so far have been about basic assembly and testing. This one is aimed at packaging techniques India has never built at commercial scale.\n\nSources: The Week, Angel One (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Semiconductors"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

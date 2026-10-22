@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "A speculative story set in Mumbai just won one of the world's biggest short-story prizes."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sharon Aruparayil won the Asia regional prize in the 2026 Commonwealth Short Story Prize",
+      "body": "Her story 'Mehendi Nights,' a speculative tale set in Mumbai and published by Granta, was named the Asia region's winning entry when regional results were announced in May 2026."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The competition",
+      "headline": "The prize draws entries from across the entire Commonwealth - more than 50 countries.",
+      "body": "Regional winners receive £2,500 each, with one of the five eventually named overall winner - Aruparayil's win put an Indian voice and an Indian setting at the center of one of the literary world's most internationally diverse competitions."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs its stories told on the same stage as the rest of the world's literature.",
+      "body": "A speculative story set in Mumbai beating out entries from across the Commonwealth shows Indian fiction competing - and winning - on purely literary terms, not as a regional curiosity."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Scroll.in - Three Indian writers make the Asian shortlist for the 2026 Commonwealth Short Story Prize",
+      "url": "https://scroll.in/article/1092074/three-indian-writers-make-the-asian-shortlist-for-the-2026-commonwealth-short-story-prize"
+    },
+    {
+      "text": "The Lagos Review - Commonwealth Short Story Prize 2026 announces regional winners",
+      "url": "https://thelagosreview.ng/commonwealth-short-story-prize-2026-announces-regional-winners/"
+    }
+  ]
+}

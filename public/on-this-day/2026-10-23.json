@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2022",
+      "headline": "October 23, 2022: India's heaviest rocket flew its first paying customer."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "ISRO's LVM3 carried 36 OneWeb satellites into orbit from Sriharikota",
+      "body": "It was the first fully commercial launch of LVM3 - India's heaviest-lift rocket, normally reserved for government missions - arranged through NewSpace India Limited, ISRO's commercial arm."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "All 36 satellites separated successfully, bringing OneWeb's constellation to 462 satellites.",
+      "body": "The mission marked India's entry into the global commercial launch services market - a rocket built for the country's own missions now earning revenue by flying someone else's payload."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs a space program that earns revenue, not just one that explores.",
+      "body": "Turning India's heaviest rocket into a commercial product - available to any customer, not just the government - showed a path for the space program to fund itself."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ISRO - Joint press release by ISRO, NSIL and OneWeb",
+      "url": "https://www.isro.gov.in/press_lvm3oneweb.html"
+    },
+    {
+      "text": "Al Jazeera - India launches into orbit 36 internet satellites",
+      "url": "https://www.aljazeera.com/amp/news/2022/10/23/india-launches-into-orbit-36-internet-satellites"
+    }
+  ]
+}

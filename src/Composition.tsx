@@ -95,6 +95,7 @@ import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
 import nori26 from "./scripts/nori26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
+import parassemi26 from "./scripts/parassemi26.json";
 import pfbr26 from "./scripts/pfbr26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
@@ -112,6 +113,7 @@ import semicabinet26 from "./scripts/semicabinet26.json";
 import semicon2 from "./scripts/semicon2.json";
 import semiconductors from "./scripts/semiconductors.json";
 import shikharsingh26 from "./scripts/shikharsingh26.json";
+import shivangi26 from "./scripts/shivangi26.json";
 import skills2030 from "./scripts/skills2030.json";
 import solarmfg26 from "./scripts/solarmfg26.json";
 import spacetech26 from "./scripts/spacetech26.json";
@@ -198,6 +200,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "nfapunicorns26": nfapunicorns26 as VideoScript,
   "nori26": nori26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,
+  "parassemi26": parassemi26 as VideoScript,
   "pfbr26": pfbr26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "pixxel26": pixxel26 as VideoScript,
@@ -215,6 +218,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "semicon2": semicon2 as VideoScript,
   "semiconductors": semiconductors as VideoScript,
   "shikharsingh26": shikharsingh26 as VideoScript,
+  "shivangi26": shivangi26 as VideoScript,
   "skills2030": skills2030 as VideoScript,
   "solarmfg26": solarmfg26 as VideoScript,
   "spacetech26": spacetech26 as VideoScript,
