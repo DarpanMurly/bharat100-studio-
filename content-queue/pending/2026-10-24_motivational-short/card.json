@@ -12,7 +12,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-24_motivational-short/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 25,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -21,5 +21,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-23T17:47:50.176Z",
+  "scheduledAt": "2026-10-24T02:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6adb9dd23d5b27036b45e4f6",
+    "X": "6adb9dd43d5b27036b45e590",
+    "Threads": "6adb9dd63d5b27036b45e5f9"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "WltO8F_GpZ4",
+  "youtubeUrl": "https://youtube.com/watch?v=WltO8F_GpZ4",
+  "youtubeScheduledAt": "2026-10-24T02:30:00.000Z",
+  "facebookPostId": "1144210364725285",
+  "facebookScheduledAt": "2026-10-24T02:30:00.000Z",
+  "mastodonStatusId": "287901",
+  "mastodonScheduledAt": "2026-10-24T02:30:00.000Z"
 }
