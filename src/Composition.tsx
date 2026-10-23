@@ -103,6 +103,7 @@ import pmrc26 from "./scripts/pmrc26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
 import punemetro26 from "./scripts/punemetro26.json";
 import railfreight26 from "./scripts/railfreight26.json";
+import rajasood26 from "./scripts/rajasood26.json";
 import ramanathan26 from "./scripts/ramanathan26.json";
 import renewables26 from "./scripts/renewables26.json";
 import repm26 from "./scripts/repm26.json";
@@ -115,6 +116,7 @@ import semiconductors from "./scripts/semiconductors.json";
 import shikharsingh26 from "./scripts/shikharsingh26.json";
 import shivangi26 from "./scripts/shivangi26.json";
 import skills2030 from "./scripts/skills2030.json";
+import solardef26 from "./scripts/solardef26.json";
 import solarmfg26 from "./scripts/solarmfg26.json";
 import spacetech26 from "./scripts/spacetech26.json";
 import suri26 from "./scripts/suri26.json";
@@ -208,6 +210,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "portslogistics26": portslogistics26 as VideoScript,
   "punemetro26": punemetro26 as VideoScript,
   "railfreight26": railfreight26 as VideoScript,
+  "rajasood26": rajasood26 as VideoScript,
   "ramanathan26": ramanathan26 as VideoScript,
   "renewables26": renewables26 as VideoScript,
   "repm26": repm26 as VideoScript,
@@ -220,6 +223,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "shikharsingh26": shikharsingh26 as VideoScript,
   "shivangi26": shivangi26 as VideoScript,
   "skills2030": skills2030 as VideoScript,
+  "solardef26": solardef26 as VideoScript,
   "solarmfg26": solarmfg26 as VideoScript,
   "spacetech26": spacetech26 as VideoScript,
   "suri26": suri26 as VideoScript,

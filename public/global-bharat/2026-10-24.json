@@ -1,0 +1,38 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She trained in Kerala and Bangalore before building a career in Australian child psychiatry. In 2026, the King honoured her for it."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Professor Valsamma Eapen was named an Officer of the Order of Australia in the 2026 King's Birthday Honours",
+      "body": "The Governor-General's official list, issued June 8, 2026, recognized her work in psychiatry, child and adolescent mental health, neurodevelopmental research and tertiary education - one of ten Indian-origin Australians honoured that year."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Her path there",
+      "headline": "Born in Kerala, she trained at India's National Institute of Mental Health and Neurosciences before moving to the UK, then Australia.",
+      "body": "She now holds the chair of infant, child and adolescent psychiatry at UNSW Sydney, where her research into neurodevelopmental conditions like Tourette Syndrome and autism has produced a quality-of-life scale adopted by teams in 32 countries."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its medical graduates end up shaping psychiatric care standards used across dozens of countries.",
+      "body": "Eapen's path from Kerala's medical colleges to an Officer of the Order of Australia shows Indian psychiatric training compounding into research that's now used far beyond either country."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Governor-General of the Commonwealth of Australia - 2026 King's Birthday Honours List",
+      "url": "https://www.gg.gov.au/sites/default/files/2026-06/KB26%20-%20Honours%20List%20-%20Order%20of%20Australia.pdf"
+    },
+    {
+      "text": "IANS - 10 Indian-origin Australians recognised in 2026 King's Birthday Honours List",
+      "url": "https://ianslive.in/10-indian-origin-australians-recognised-in-2026-kings-birthday-honours-list--20260608152916"
+    }
+  ]
+}

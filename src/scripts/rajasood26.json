@@ -1,0 +1,47 @@
+{
+  "id": "rajasood26",
+  "type": "diaspora-dividend",
+  "title": "An NRI in Saudi Arabia just gave his hometown a free ambulance, in his mother's memory",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-24",
+  "sources": [
+    "The Tribune (India) - NRI donates ambulance (single-sourced; independent confirmation not found as of draft time)"
+  ],
+  "sourceCaveat": "Single-source story (one Tribune report, undated in search results); no independent second outlet found. Flagged clearly in the digest.",
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "An NRI in Saudi Arabia just gave his hometown a free ambulance.",
+      "sub": "In memory of his mother."
+    },
+    {
+      "kind": "stat",
+      "text": "Raja Sood, an NRI based in Riyadh, donated an ambulance to the Palampur Sani Sewa Sadan in Himachal Pradesh, in memory of his late mother Chanchala Devi Sood, who had recently died after battling cancer.",
+      "stat": "1 ambulance",
+      "statLabel": "donated by NRI Raja Sood to Palampur's Sani Sewa Sadan - per a single Tribune report, not independently confirmed",
+      "narration": "Raja Sood, an N-R-I based in Riyadh, donated an ambulance to the Palampur Sani Sewa Sadan in Himachal Pradesh, in memory of his late mother Chanchala Devi Sood, who had recently died after battling cancer."
+    },
+    {
+      "kind": "point",
+      "text": "The Palampur Municipal Corporation's commissioner flagged off the vehicle, which comes equipped with a basic life-support system, with officials saying it will serve the poor free of cost.",
+      "narration": "The Palampur Municipal Corporation's commissioner flagged off the vehicle, which comes equipped with a basic life-support system, with officials saying it will serve the poor free of cost."
+    },
+    {
+      "kind": "point",
+      "text": "Sood himself could not attend the handover ceremony - a gift sent home from thousands of kilometres away, timed to turn personal grief into something that keeps helping strangers long after."
+    },
+    {
+      "kind": "closer",
+      "text": "He couldn't be there in person for the ceremony.",
+      "sub": "The ambulance will be there for his hometown, long after he's gone back to Riyadh.",
+      "narration": "He couldn't be there in person for the ceremony. The ambulance will be there for his hometown, long after he's gone back to Riyadh."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "An NRI in Saudi Arabia just gave his hometown a free ambulance. In memory of his mother.\n\nRaja Sood, an NRI based in Riyadh, donated an ambulance to the Palampur Sani Sewa Sadan in Himachal Pradesh, in memory of his late mother Chanchala Devi Sood. The Palampur Municipal Corporation's commissioner flagged off the vehicle, equipped with a basic life-support system, which will serve the poor free of cost. Sood himself could not attend the handover ceremony.\n\nHe couldn't be there in person for the ceremony. The ambulance will be there for his hometown, long after he's gone back to Riyadh.\n\nSource: single Tribune report - independent confirmation not found; treat specifics as preliminary.",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Healthcare"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

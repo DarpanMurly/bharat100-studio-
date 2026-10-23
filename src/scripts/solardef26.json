@@ -1,0 +1,46 @@
+{
+  "id": "solardef26",
+  "title": "An Indian defence company just won a Rs 1,076 crore order from overseas clients",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-24",
+  "sources": [
+    "NSE exchange filing (Solar Industries India Ltd) - Press release, order disclosure",
+    "HDFC Sky - Solar Industries wins Rs 1,076 crore export defence orders"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "An Indian defence company just won a Rs 1,076 crore order from overseas clients.",
+      "sub": "To be delivered over the next three years."
+    },
+    {
+      "kind": "stat",
+      "text": "Solar Industries India and its subsidiary secured export orders worth Rs 1,076 crore for defence products from international clients, disclosed via a stock exchange filing in May 2026.",
+      "stat": "Rs 1,076cr",
+      "statLabel": "value of Solar Industries' defence export order, to be executed over 3 years, per NSE filing and HDFC Sky",
+      "narration": "Solar Industries India and its subsidiary secured export orders worth one thousand seventy-six crore rupees for defence products from international clients, disclosed via a stock exchange filing in May twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "This isn't a one-off - the company landed a Rs 1,400 crore export order in November 2025 and an Rs 830 crore order in January 2026, making this the third major defence export win within roughly six months.",
+      "narration": "This isn't a one-off - the company landed a one thousand four hundred crore rupee export order in November twenty twenty-five and an eight hundred thirty crore rupee order in January twenty twenty-six, making this the third major defence export win within roughly six months."
+    },
+    {
+      "kind": "point",
+      "text": "The company disclosed the order under exchange regulations requiring no related-party transaction and no promoter interest in the awarding entities - a purely commercial export win on its own merits."
+    },
+    {
+      "kind": "closer",
+      "text": "One large export order could be a lucky break.",
+      "sub": "Three in six months from the same company is a pattern of sustained overseas demand.",
+      "narration": "One large export order could be a lucky break. Three in six months from the same company is a pattern of sustained overseas demand."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "An Indian defence company just won a Rs 1,076 crore order from overseas clients. To be delivered over the next three years.\n\nSolar Industries India and its subsidiary secured export orders worth Rs 1,076 crore for defence products, disclosed via a stock exchange filing in May 2026. This is the third major defence export win within roughly six months - following a Rs 1,400 crore order in November 2025 and an Rs 830 crore order in January 2026.\n\nOne large export order could be a lucky break. Three in six months from the same company is a pattern of sustained overseas demand.\n\nSources: NSE filing, HDFC Sky (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Defence"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

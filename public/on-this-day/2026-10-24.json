@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1945",
+      "headline": "October 24, 1945: the United Nations Charter took effect - and India had already signed it, two years before its own independence."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "October 24 marks UN Day, observed since the UN Charter entered into force in 1945",
+      "body": "India was a founding member of the United Nations, having signed the Charter at the San Francisco Conference in June 1945 - while still under British rule, more than two years before independence in August 1947."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "India entered the world's premier international body before it had full control of its own government.",
+      "body": "India's UN membership traces back even further - to its signing of the 1942 Declaration by United Nations in Washington - giving the country an institutional seat at the global table years before it could set its own domestic policy."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat builds on an international standing that predates its own sovereignty.",
+      "body": "Having a seat at the UN's founding gave India a permanent voice in global institutions from day one - a head start few other newly independent nations had."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - India and the United Nations",
+      "url": "https://en.wikipedia.org/wiki/India_and_the_United_Nations"
+    },
+    {
+      "text": "IANS - UN Charter symbolises hope for its 1.4 billion citizens: India",
+      "url": "https://ianslive.in/un-charter-symbolises-hope-for-its-14-billion-citzens-india--20260617072103"
+    }
+  ]
+}
