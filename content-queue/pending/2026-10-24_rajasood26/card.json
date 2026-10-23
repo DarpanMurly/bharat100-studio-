@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-24_rajasood26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 191,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-23T17:45:28.812Z",
+  "scheduledAt": "2026-10-24T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6adb9d430b5343d07042e5e9",
+    "X": "6adb9d458b3d437ddc7c02c9",
+    "Threads": "6adb9d488b3d437ddc7c0399"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "0PMgEa_aJl8",
+  "youtubeUrl": "https://youtube.com/watch?v=0PMgEa_aJl8",
+  "youtubeScheduledAt": "2026-10-24T17:00:00.000Z",
+  "facebookPostId": "1860627568446999",
+  "facebookScheduledAt": "2026-10-24T17:00:00.000Z",
+  "mastodonStatusId": "287899",
+  "mastodonScheduledAt": "2026-10-24T17:00:00.000Z"
 }
