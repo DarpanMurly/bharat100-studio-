@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-25_dixit26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 249,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -30,5 +30,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-24T18:48:33.339Z",
+  "scheduledAt": "2026-10-25T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6adcfd8b0b5343d0709a3bb4",
+    "X": "6adcfd8c8b3d437ddcd38229",
+    "Threads": "6adcfd8ee4be8a4d8672ff46"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "NCYeIF-Zhh4",
+  "youtubeUrl": "https://youtube.com/watch?v=NCYeIF-Zhh4",
+  "youtubeScheduledAt": "2026-10-25T17:00:00.000Z",
+  "facebookPostId": "2188191405130266",
+  "facebookScheduledAt": "2026-10-25T17:00:00.000Z",
+  "mastodonStatusId": "288119",
+  "mastodonScheduledAt": "2026-10-25T17:00:00.000Z"
 }
