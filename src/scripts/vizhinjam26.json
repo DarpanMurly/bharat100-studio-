@@ -1,0 +1,46 @@
+{
+  "id": "vizhinjam26",
+  "title": "A Kerala port just became one of the fastest in the world to hit 1,000 ships",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-25",
+  "sources": [
+    "Business Today - Vizhinjam welcomes 1000th vessel, joins world's fastest-growing ports club",
+    "The Week - Vizhinjam port 1000 vessel milestone"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Kerala port just became one of the fastest in the world to hit 1,000 ships.",
+      "sub": "In under two years."
+    },
+    {
+      "kind": "stat",
+      "text": "Vizhinjam International Seaport received its 1,000th commercial vessel in June 2026 - less than two years after its first commercial call in July 2024, making it one of the fastest ports globally to reach that mark.",
+      "stat": "1,000 ships",
+      "statLabel": "received by Vizhinjam port in under 2 years - per Business Today and The Week",
+      "narration": "Vizhinjam International Seaport received its one thousandth commercial vessel in June twenty twenty-six - less than two years after its first commercial call in July twenty twenty-four, making it one of the fastest ports globally to reach that mark."
+    },
+    {
+      "kind": "point",
+      "text": "By May 2026, the deep-water transshipment port had already handled 2 million shipping containers - reportedly the fastest any Indian port has reached that volume - and 67 ultra-large container vessels, a record for any Indian port.",
+      "narration": "By May twenty twenty-six, the deep-water transshipment port had already handled 2 million shipping containers - reportedly the fastest any Indian port has reached that volume - and 67 ultra-large container vessels, a record for any Indian port."
+    },
+    {
+      "kind": "point",
+      "text": "A Phase II expansion is already underway, targeting enough annual capacity to handle 57 lakh containers a year."
+    },
+    {
+      "kind": "closer",
+      "text": "Most ports take a decade to build this kind of traffic.",
+      "sub": "Vizhinjam did it before its second birthday.",
+      "narration": "Most ports take a decade to build this kind of traffic. Vizhinjam did it before its second birthday."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A Kerala port just became one of the fastest in the world to hit 1,000 ships. In under two years.\n\nVizhinjam International Seaport received its 1,000th commercial vessel in June 2026 - less than two years after its first commercial call. By May 2026 it had already handled 2 million containers and 67 ultra-large vessels, both Indian port records. A Phase II expansion targeting 57 lakh TEU annual capacity is already underway.\n\nMost ports take a decade to build this kind of traffic. Vizhinjam did it before its second birthday.\n\nSources: Business Today, The Week (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

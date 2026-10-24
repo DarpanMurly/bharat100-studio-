@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1980",
+      "headline": "October 25, 1980: Hindi cinema's most literary lyricist died at 58 - mid-conversation, playing cards with friends."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sahir Ludhianvi died of a heart attack in Mumbai on October 25, 1980",
+      "body": "Born Abdul Hayee in Ludhiana in 1921, he wrote some of Hindi film's most enduring lyrics - \"Kabhi Kabhie,\" \"Tumsa Nahin Dekha,\" \"Jo Waada Kiya Wo Nibhana Padega,\" \"Aye Meri Zohra Jabeen\" - across a career that reshaped what a film song could say."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "He brought the weight of Urdu progressive poetry into mainstream Bollywood songwriting.",
+      "body": "Before Sahir, film lyrics rarely carried the social conscience of his verse - his songs questioned poverty, war and injustice as often as they sang of love. India honoured him with the Padma Shri in 1971, nine years before his death."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat remembers that its cultural exports were never just entertainment.",
+      "body": "Sahir's lyrics travelled further than most policy ever does - decades on, his lines are still quoted, still sung, still shaping how India hears itself."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Sahir Ludhianvi",
+      "url": "https://en.wikipedia.org/wiki/Sahir_Ludhianvi"
+    },
+    {
+      "text": "Janata Weekly - Sahir Ludhianvi: The Magician whose songs live on",
+      "url": "https://janataweekly.org/sahir-ludhianvi-the-magician-whose-songs-live-on-reverberating-with-love-and-life/"
+    }
+  ]
+}

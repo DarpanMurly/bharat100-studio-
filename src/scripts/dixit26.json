@@ -1,0 +1,47 @@
+{
+  "id": "dixit26",
+  "type": "diaspora-dividend",
+  "title": "He spent half of every year in the US, and half running free surgery camps across India",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-25",
+  "sources": [
+    "Wikipedia - Sharad Kumar Dixit",
+    "World of Children Award - Sharadkumar Dicksheet honoree page"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "He spent half of every year in the US, and half running free surgery camps across India.",
+      "sub": "For over 40 years."
+    },
+    {
+      "kind": "stat",
+      "text": "Dr. Sharad Kumar Dixit, who emigrated from Maharashtra to the US in 1959, founded \"The India Project\" in 1968 - splitting his year between his American medical practice and free surgical camps for India's poor.",
+      "stat": "65,000+",
+      "statLabel": "cleft lip, cleft palate and eye surgeries Dixit personally performed across his India Project camps",
+      "narration": "Doctor Sharad Kumar Dixit, who emigrated from Maharashtra to the US in nineteen fifty-nine, founded The India Project in nineteen sixty-eight - splitting his year between his American medical practice and free surgical camps for India's poor."
+    },
+    {
+      "kind": "point",
+      "text": "He kept running the camps after a 1978 car accident left him wheelchair-bound, and later through laryngeal cancer and two heart attacks - personally performing cleft lip, cleft palate and eye corrections on patients who could never have afforded them.",
+      "narration": "He kept running the camps after a nineteen seventy-eight car accident left him wheelchair-bound, and later through laryngeal cancer and two heart attacks - personally performing cleft lip, cleft palate and eye corrections on patients who could never have afforded them."
+    },
+    {
+      "kind": "point",
+      "text": "India awarded him the Padma Shri in 2001. He was nominated for the Nobel Peace Prize eight times, and reportedly lived on his Social Security check until his death in 2011."
+    },
+    {
+      "kind": "closer",
+      "text": "A wheelchair couldn't stop the camps.",
+      "sub": "Neither could cancer, two heart attacks, or forty years of plane tickets.",
+      "narration": "A wheelchair couldn't stop the camps. Neither could cancer, two heart attacks, or forty years of plane tickets."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "He spent half of every year in the US, and half running free surgery camps across India. For over 40 years.\n\nDr. Sharad Kumar Dixit emigrated from Maharashtra to the US in 1959 and founded \"The India Project\" in 1968, personally performing over 65,000 free cleft lip, cleft palate and eye surgeries across India. He kept running the camps after a 1978 car accident left him wheelchair-bound, and later through laryngeal cancer and two heart attacks. India awarded him the Padma Shri in 2001; he was nominated for the Nobel Peace Prize eight times.\n\nA wheelchair couldn't stop the camps. Neither could cancer, two heart attacks, or forty years of plane tickets.\n\nSources: Wikipedia, World of Children Award",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Healthcare"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

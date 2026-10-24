@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He left Chandigarh at 19 for a Canadian university. In 2026, he became Canada's Ambassador to the UAE."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Angad Singh Dhillon was named Canada's Ambassador to the United Arab Emirates on September 25, 2026",
+      "body": "Foreign Affairs Minister Anita Anand announced the appointment, with Dhillon succeeding Radha Krishna Panday as Canada's top diplomat in Abu Dhabi."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His path there",
+      "headline": "Born in Chandigarh, schooled in Mohali and Pune, he moved to Canada in 2010 to study international relations.",
+      "body": "He built his career inside Canada's federal government and the Prime Minister's Office - starting as a 2015 campaign organizer, rising to Chief of Staff for two cabinet ministers, then directing investment-file operations in the PMO."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when India-born professionals end up running another country's diplomacy in the Gulf.",
+      "body": "Dhillon's rise from a Punjab classroom to a Canadian ambassadorship is one more thread in a growing web of Indian-origin officials now shaping how the world's governments deal with each other."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Free Press Journal - Who Is Angad Singh Dhillon? Indian-Origin Canadian Adviser Named Ambassador To UAE",
+      "url": "https://www.freepressjournal.in/world/who-is-angad-singh-dhillon-indian-origin-canadian-adviser-named-ambassador-to-uae"
+    },
+    {
+      "text": "Outlook India - Who Is Angad Singh Dhillon? Indian-Origin Man Appointed As Canada's Ambassador To UAE",
+      "url": "https://www.outlookindia.com/international/who-is-angad-singh-dhillon-indian-origin-canadian-official-named-uae-ambassador"
+    }
+  ]
+}

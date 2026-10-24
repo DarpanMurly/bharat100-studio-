@@ -52,6 +52,7 @@ import diasporaVc26 from "./scripts/diaspora-vc26.json";
 import diasporaceos26 from "./scripts/diasporaceos26.json";
 import diasporagiving26 from "./scripts/diasporagiving26.json";
 import diasporaincome26 from "./scripts/diasporaincome26.json";
+import dixit26 from "./scripts/dixit26.json";
 import drdogan26 from "./scripts/drdogan26.json";
 import droneudyami26 from "./scripts/droneudyami26.json";
 import electronics26 from "./scripts/electronics26.json";
@@ -125,6 +126,7 @@ import tehripsp26 from "./scripts/tehripsp26.json";
 import thakorpatel26 from "./scripts/thakorpatel26.json";
 import upi800m26 from "./scripts/upi800m26.json";
 import vijaygupta26 from "./scripts/vijaygupta26.json";
+import vizhinjam26 from "./scripts/vizhinjam26.json";
 import yardi26 from "./scripts/yardi26.json";
 // REGISTRY-IMPORTS-END
 
@@ -159,6 +161,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "diasporaceos26": diasporaceos26 as VideoScript,
   "diasporagiving26": diasporagiving26 as VideoScript,
   "diasporaincome26": diasporaincome26 as VideoScript,
+  "dixit26": dixit26 as VideoScript,
   "drdogan26": drdogan26 as VideoScript,
   "droneudyami26": droneudyami26 as VideoScript,
   "electronics26": electronics26 as VideoScript,
@@ -232,6 +235,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "thakorpatel26": thakorpatel26 as VideoScript,
   "upi800m26": upi800m26 as VideoScript,
   "vijaygupta26": vijaygupta26 as VideoScript,
+  "vizhinjam26": vizhinjam26 as VideoScript,
   "yardi26": yardi26 as VideoScript,
 };
 // REGISTRY-ENTRIES-END
