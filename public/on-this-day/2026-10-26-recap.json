@@ -1,0 +1,104 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Oct 19",
+      "headline": "5 stories.",
+      "listItems": [
+        "India just crossed 3 lakh EV registrations for the fourth month running. Not a one-off spike - a sustained trend.",
+        "He joined an American tech giant as an engineer in 1990. In 2026, TIME named him one of the 100 most influential people in AI.",
+        "Blinded by acid at 3. Topped her blind school at 18.",
+        "He spent decades treating cancer in New York. India just gave him its third-highest civilian honour.",
+        "October 19, 1910: a boy was born in Lahore who would spend his career proving what crushes a dying star."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Oct 20",
+      "headline": "5 stories.",
+      "listItems": [
+        "A metal injection molding entrepreneur just gave his old college its largest-ever single gift. Rs 228 crore - the biggest donation IIT Madras has ever received.",
+        "His mother was born in Odisha and studied at Delhi University before Harvard. In 2026, her son became mayor of America's largest city.",
+        "India just built the widest underground road tunnel on Earth. Guinness World Records made it official.",
+        "Born without sight. Scored over 93% anyway.",
+        "October 20, 1962: a border conflict began that would reshape how India builds its defenses for the next six decades."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Oct 21",
+      "headline": "5 stories.",
+      "listItems": [
+        "India just cut a 10-hour drive down to 6. With a 594-kilometre expressway through 12 districts.",
+        "In a 93-year-old scientific society's history, only three Indians had ever been inducted as Fellows. In 2026, the third one was a woman.",
+        "Lost his leg to a landmine. Won India gold anyway.",
+        "An India-born CEO's company just trained 5.6 million Indians in AI skills. Already well past the goal it set a year earlier.",
+        "October 21, 1943: a provisional government was announced in Singapore, with eleven ministers and no territory to govern yet."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Oct 22",
+      "headline": "5 stories.",
+      "listItems": [
+        "A US statistics professor just won a fellowship to spend his summers teaching at IIT Bombay. Chosen from 217 applicants worldwide.",
+        "Her parents emigrated from India in 1960. In 2026, Forbes named her one of the world's top innovators at 59.",
+        "Polio couldn't stop him. He threw a world-record javelin anyway.",
+        "October 22, 2008: India sent its first spacecraft to the Moon.",
+        "Indian Railways just moved 135 million tonnes of freight in a single month. Up more than 6% from the same month last year."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Oct 23",
+      "headline": "5 stories.",
+      "listItems": [
+        "A speculative story set in Mumbai just won one of the world's biggest short-story prizes.",
+        "Lost his sight at 4. Captained India to three World Cups.",
+        "October 23, 2022: India's heaviest rocket flew its first paying customer.",
+        "A defence company just signed up to build chip-packaging tech India has never made before. A Rs 6,200 crore facility, on 50 acres in Madhya Pradesh.",
+        "A US doctor gave his family fortune to build a 300-bed cancer hospital in his hometown. In a rural part of Karnataka where patients once traveled hours for treatment."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Oct 24",
+      "headline": "5 stories.",
+      "listItems": [
+        "She trained in Kerala and Bangalore before building a career in Australian child psychiatry. In 2026, the King honoured her for it.",
+        "Paralyzed at 11. Paralympic gold medalist twice over.",
+        "October 24, 1945: the United Nations Charter took effect - and India had already signed it, two years before its own independence.",
+        "An NRI in Saudi Arabia just gave his hometown a free ambulance. In memory of his mother.",
+        "An Indian defence company just won a Rs 1,076 crore order from overseas clients. To be delivered over the next three years."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Oct 25",
+      "headline": "5 stories.",
+      "listItems": [
+        "He spent half of every year in the US and half running free surgery camps across India. For over 40 years.",
+        "He left Chandigarh at 19 for a Canadian university. In 2026, he became Canada's Ambassador to the UAE.",
+        "Failed Class 6. Left school to work the coffee plantations. Built a company worth thousands of crores anyway.",
+        "October 25, 1980: Hindi cinema's most literary lyricist died at 58 - mid-conversation, playing cards with friends.",
+        "A Kerala port just became one of the fastest in the world to hit 1,000 ships. In under two years."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}
