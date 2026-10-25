@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-26_solar164gw26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 202,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-25T18:09:27.793Z",
+  "scheduledAt": "2026-10-26T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6ade45ebe4be8a4d86bd7fdf",
+    "X": "6ade45ed8b3d437ddc1eb576",
+    "Threads": "6ade45ef8b3d437ddc1eb620"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "v3GGLaASQgc",
+  "youtubeUrl": "https://youtube.com/watch?v=v3GGLaASQgc",
+  "youtubeScheduledAt": "2026-10-26T13:30:00.000Z",
+  "facebookPostId": "1834336951033795",
+  "facebookScheduledAt": "2026-10-26T13:30:00.000Z",
+  "mastodonStatusId": "288326",
+  "mastodonScheduledAt": "2026-10-26T13:30:00.000Z"
 }
