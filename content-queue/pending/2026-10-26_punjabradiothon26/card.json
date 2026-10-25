@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-26_punjabradiothon26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 244,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -30,5 +30,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-25T18:08:08.444Z",
+  "scheduledAt": "2026-10-26T17:00:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6ade459c8b3d437ddc1e9e3c",
+    "X": "6ade459ee4be8a4d86bd6df9",
+    "Threads": "6ade45a0bd33ce99c384b989"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "50vcZht3CJ0",
+  "youtubeUrl": "https://youtube.com/watch?v=50vcZht3CJ0",
+  "youtubeScheduledAt": "2026-10-26T17:00:00.000Z",
+  "facebookPostId": "3500458986802434",
+  "facebookScheduledAt": "2026-10-26T17:00:00.000Z",
+  "mastodonStatusId": "288325",
+  "mastodonScheduledAt": "2026-10-26T17:00:00.000Z"
 }
