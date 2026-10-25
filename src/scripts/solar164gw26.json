@@ -1,0 +1,46 @@
+{
+  "id": "solar164gw26",
+  "title": "India just crossed 164 gigawatts of solar power",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-26",
+  "sources": [
+    "SolarQuarter - India's solar capacity surpasses 164 GW",
+    "BioEnergy Times - India's solar capacity surges to 162.15 GW"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just crossed 164 gigawatts of solar power.",
+      "sub": "That's the world's third-largest installed solar capacity."
+    },
+    {
+      "kind": "stat",
+      "text": "India's installed solar capacity crossed 164.59 GW by July 2026, per Ministry of New and Renewable Energy data - split across ground-mounted, rooftop and hybrid installations.",
+      "stat": "164.59 GW",
+      "statLabel": "India's installed solar capacity as of July 2026 - per MNRE data and SolarQuarter",
+      "narration": "India's installed solar capacity crossed one hundred sixty-four point five nine gigawatts by July twenty twenty-six, per Ministry of New and Renewable Energy data - split across ground-mounted, rooftop and hybrid installations."
+    },
+    {
+      "kind": "point",
+      "text": "A separate government reply to Parliament put capacity at 162.15 GW as of June 30, 2026, citing IRENA's own 2026 global renewable energy statistics - which places India as the world's third-largest country by installed solar capacity.",
+      "narration": "A separate government reply to Parliament put capacity at one hundred sixty-two point one five gigawatts as of June thirtieth, twenty twenty-six, citing IRENA's own twenty twenty-six global renewable energy statistics - which places India as the world's third-largest country by installed solar capacity."
+    },
+    {
+      "kind": "point",
+      "text": "That's a nearly 57-fold increase in solar capacity since 2014 - from a program that started with a fraction of a gigawatt."
+    },
+    {
+      "kind": "closer",
+      "text": "A decade ago, India's solar capacity barely registered globally.",
+      "sub": "Now it's the third-largest in the world, and still climbing.",
+      "narration": "A decade ago, India's solar capacity barely registered globally. Now it's the third-largest in the world, and still climbing."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just crossed 164 gigawatts of solar power. That's the world's third-largest installed solar capacity.\n\nIndia's installed solar capacity crossed 164.59 GW by July 2026, per MNRE data. A separate government reply to Parliament citing IRENA's 2026 statistics places India third globally - a nearly 57-fold increase since 2014.\n\nA decade ago, India's solar capacity barely registered globally. Now it's the third-largest in the world, and still climbing.\n\nSources: SolarQuarter, BioEnergy Times (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#CleanEnergy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

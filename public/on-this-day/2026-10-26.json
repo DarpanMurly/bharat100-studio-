@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1890",
+      "headline": "October 26, 1890: a journalist was born who gave Bhagat Singh his first writing job - and died trying to stop a riot."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ganesh Shankar Vidyarthi was born in Allahabad on October 26, 1890",
+      "body": "He founded the Hindi newspaper Pratap in 1913, campaigning for peasants and mill workers under British rule - work that got him prosecuted and jailed five separate times."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How he died",
+      "headline": "On March 25, 1931, he was killed trying to rescue Hindus and Muslims trapped in Kanpur's communal riots.",
+      "body": "Nehru said of his death that \"he taught in his death what we will find difficult to teach while living for many years.\" India later issued a commemorative stamp in his honour and named an annual journalism award after him."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat remembers that a free press was built by people who risked everything for it.",
+      "body": "Vidyarthi's five prison terms and the way he died are a reminder that institutional freedoms India now takes for granted were paid for, one newspaper and one life at a time."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Ganesh Shankar Vidyarthi",
+      "url": "https://en.wikipedia.org/wiki/Ganesh_Shankar_Vidyarthi"
+    },
+    {
+      "text": "The Wire - The Editor Who Lived and Died for Communal Harmony",
+      "url": "https://thewire.in/history/editor-lived-died-communal-harmony"
+    }
+  ]
+}

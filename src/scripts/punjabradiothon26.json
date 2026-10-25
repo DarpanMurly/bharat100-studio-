@@ -1,0 +1,47 @@
+{
+  "id": "punjabradiothon26",
+  "type": "diaspora-dividend",
+  "title": "Punjab flooded. Canadian radio stations raised 2 million dollars for it in 2 days",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-26",
+  "sources": [
+    "Tribune India - Punjab floods: Radio network in Canada raises $2 million in just 2 days",
+    "CTV News Edmonton - Radiothon for Punjab flood relief an outpouring of support"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Punjab flooded. Canadian radio stations raised 2 million dollars for it in 2 days.",
+      "sub": "Not from one donor - from an entire diaspora calling in."
+    },
+    {
+      "kind": "stat",
+      "text": "When floods hit over 1,400 villages across Punjab in September 2025, the Red FM radio network ran emergency radiothons across Surrey, Calgary and Toronto, raising roughly 2 million Canadian dollars in just two days.",
+      "stat": "$2M CAD",
+      "statLabel": "raised by Canadian Punjabi radio stations in 2 days for Punjab flood relief - per Tribune India",
+      "narration": "When floods hit over one thousand four hundred villages across Punjab in September twenty twenty-five, the Red F-M radio network ran emergency radiothons across Surrey, Calgary and Toronto, raising roughly 2 million Canadian dollars in just two days."
+    },
+    {
+      "kind": "point",
+      "text": "The funds were routed through a Surrey-based nonprofit with an on-ground presence in India, for emergency aid and long-term rebuilding - while a separate Edmonton radio station ran its own parallel relief drive the same week.",
+      "narration": "The funds were routed through a Surrey-based nonprofit with an on-ground presence in India, for emergency aid and long-term rebuilding - while a separate Edmonton radio station ran its own parallel relief drive the same week."
+    },
+    {
+      "kind": "point",
+      "text": "Red FM's president pointed to the network's 19-year history of responding to disasters back home - this wasn't the diaspora's first radiothon, and it won't be the last."
+    },
+    {
+      "kind": "closer",
+      "text": "No single billionaire wrote this check.",
+      "sub": "Thousands of callers did, two days, one cause.",
+      "narration": "No single billionaire wrote this check. Thousands of callers did, two days, one cause."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Punjab flooded. Canadian radio stations raised 2 million dollars for it in 2 days. Not from one donor - from an entire diaspora calling in.\n\nWhen floods hit over 1,400 villages across Punjab in September 2025, the Red FM radio network ran emergency radiothons across Surrey, Calgary and Toronto, raising roughly $2 million CAD in two days - routed through a Surrey-based nonprofit with on-ground presence in India. A separate Edmonton station ran its own parallel relief drive the same week.\n\nNo single billionaire wrote this check. Thousands of callers did, two days, one cause.\n\nSources: Tribune India, CTV News Edmonton",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#DisasterRelief"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "Only one Indian woman had ever been elected a Fellow of the Royal Society. In 2026, a second one joined her."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Soumya Swaminathan was elected a Fellow of the Royal Society in May 2026, formally inducted July 10",
+      "body": "The former WHO Chief Scientist and physician-researcher became only the second Indian woman ever elected FRS, after vaccine scientist Gagandeep Kang in 2019."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "A family first",
+      "headline": "She and her late father, agricultural scientist M.S. Swaminathan, are reported as the first father-daughter pair from India both elected Fellows.",
+      "body": "She now chairs the M.S. Swaminathan Research Foundation and serves as Principal Advisor to India's National Tuberculosis Elimination Programme, building on decades of work on TB, HIV and global health policy at the WHO."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its public health scientists earn recognition from the world's oldest scientific institutions.",
+      "body": "Swaminathan's induction extends a family's scientific legacy into one of science's most selective societies - proof that India's health research can set the global standard, not just follow it."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The South First - Former WHO Chief Scientist Dr Soumya Swaminathan elected Fellow of Royal Society",
+      "url": "https://thesouthfirst.com/beyond-south/former-who-chief-scientist-dr-soumya-swaminathan-elected-fellow-of-royal-society/"
+    },
+    {
+      "text": "GKToday - Soumya Swaminathan inducted as Fellow of the Royal Society",
+      "url": "https://www.gktoday.in/soumya-swaminathan-inducted-as-fellow-of-the-royal-society/"
+    }
+  ]
+}
