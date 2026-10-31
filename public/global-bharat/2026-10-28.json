@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She won a top Venice Film Festival prize in 2025. In 2026, she won another one - for a different film."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Anuparna Roy's \"Lovers in the Blue Night\" won the NETPAC Award for Best Asian Film at the 83rd Venice International Film Festival",
+      "body": "The Bengal-born filmmaker's second feature, set in Mumbai and following four people navigating love and belonging, premiered in Venice's Orizzonti section on September 11, 2026, with the award reported days later."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Back to back",
+      "headline": "A year earlier, her debut film \"Songs of Forgotten Trees\" won Venice's Orizzonti Best Director award - making her the first Indian filmmaker to win that prize.",
+      "body": "Two different films, two consecutive years, two of Venice's most selective sections - a rare run for any filmmaker, let alone one still early in her career."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its independent filmmakers keep winning at the world's oldest film festival, not just once.",
+      "body": "Roy's consecutive Venice wins signal that Indian independent cinema's international reputation isn't a one-off - it's becoming a pattern festivals now expect."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Outlook India - Anuparna Roy's Lovers In The Blue Night Wins NETPAC Award at Venice Film Festival 2026",
+      "url": "https://www.outlookindia.com/art-entertainment/anuparna-roys-lovers-in-the-blue-night-wins-netpac-award-for-best-asian-film-at-venice-film-festival-2026"
+    },
+    {
+      "text": "ThePrint - Anuparna Roy's Lovers in the Blue Night wins NETPAC award at Venice Film Festival",
+      "url": "https://theprint.in/feature/anuparna-roys-lovers-in-the-blue-night-wins-netpac-award-at-venice-film-festival/3042094/"
+    }
+  ]
+}

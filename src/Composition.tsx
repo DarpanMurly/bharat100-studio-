@@ -131,6 +131,8 @@ import thakorpatel26 from "./scripts/thakorpatel26.json";
 import upi800m26 from "./scripts/upi800m26.json";
 import vijaygupta26 from "./scripts/vijaygupta26.json";
 import vizhinjam26 from "./scripts/vizhinjam26.json";
+import vosap26 from "./scripts/vosap26.json";
+import windenergy26 from "./scripts/windenergy26.json";
 import yardi26 from "./scripts/yardi26.json";
 // REGISTRY-IMPORTS-END
 
@@ -244,6 +246,8 @@ const scriptRegistry: Record<string, VideoScript> = {
   "upi800m26": upi800m26 as VideoScript,
   "vijaygupta26": vijaygupta26 as VideoScript,
   "vizhinjam26": vizhinjam26 as VideoScript,
+  "vosap26": vosap26 as VideoScript,
+  "windenergy26": windenergy26 as VideoScript,
   "yardi26": yardi26 as VideoScript,
 };
 // REGISTRY-ENTRIES-END

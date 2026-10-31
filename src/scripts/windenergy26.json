@@ -1,0 +1,46 @@
+{
+  "id": "windenergy26",
+  "title": "India just had its best year ever for wind power",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-28",
+  "sources": [
+    "IANS Live - India adds highest-ever 6.05 GW wind energy in FY26, 46 pc jump from FY25",
+    "Swarajya Mag - India Adds Record 6.1 GW Wind Capacity in FY26"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just had its best year ever for wind power.",
+      "sub": "A record that stood for nearly a decade just fell."
+    },
+    {
+      "kind": "stat",
+      "text": "India added 6.05 to 6.1 GW of wind power capacity in FY2025-26, a 46% jump over the previous year and the highest-ever annual wind capacity addition on record.",
+      "stat": "6.1 GW",
+      "statLabel": "record wind capacity added in FY26, up 46% year-on-year - per IANS and Swarajya Mag",
+      "narration": "India added six point one gigawatts of wind power capacity in F-Y twenty twenty-five to twenty twenty-six, a forty-six percent jump over the previous year and the highest-ever annual wind capacity addition on record."
+    },
+    {
+      "kind": "point",
+      "text": "That beats the previous record of 5.5 GW, set back in FY2016-17 - nearly a decade ago - and brings India's total installed wind capacity to 59.2 GW as of September 2026.",
+      "narration": "That beats the previous record of five point five gigawatts, set back in F-Y twenty sixteen to seventeen - nearly a decade ago - and brings India's total installed wind capacity to fifty-nine point two gigawatts as of September twenty twenty-six."
+    },
+    {
+      "kind": "point",
+      "text": "The government is targeting 100 GW of wind capacity by 2030, and 156 GW by 2036 - with officials saying they expect FY27 to beat this year's record too."
+    },
+    {
+      "kind": "closer",
+      "text": "A record that held for nine years just got broken by 46%.",
+      "sub": "And officials say next year's record is already expected to beat this one.",
+      "narration": "A record that held for nine years just got broken by forty-six percent. And officials say next year's record is already expected to beat this one."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just had its best year ever for wind power. A record that stood for nearly a decade just fell.\n\nIndia added 6.05-6.1 GW of wind capacity in FY26, a 46% jump over FY25 and the highest-ever annual addition on record - beating the previous 5.5 GW record set in FY17. Total installed wind capacity now stands at 59.2 GW. The government targets 100 GW by 2030, and officials expect FY27 to beat this year's record too.\n\nA record that held for nine years just got broken by 46%. And officials say next year's record is already expected to beat this one.\n\nSources: IANS, Swarajya Mag (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#CleanEnergy"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

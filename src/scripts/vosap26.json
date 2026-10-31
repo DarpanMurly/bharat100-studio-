@@ -1,0 +1,47 @@
+{
+  "id": "vosap26",
+  "type": "diaspora-dividend",
+  "title": "A diaspora group's first DC-area gala raised $214,000 for disabled Indians in one night",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-28",
+  "sources": [
+    "VOSAP - Washington D.C. Metro Area's First VOSAP Fundraiser Sets a Powerful Precedent",
+    "IANS - US-based fundraiser raises $200,000 to empower one lakh Indians with disabilities"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A diaspora group's first DC-area gala raised $214,000 for disabled Indians.",
+      "sub": "In one night."
+    },
+    {
+      "kind": "stat",
+      "text": "VOSAP - Voice of Specially Abled People - held its first-ever Washington D.C. metro-area fundraiser in March 2026, a sold-out gala in Fairfax, Virginia with 160 attendees.",
+      "stat": "$214,000",
+      "statLabel": "raised at VOSAP's first DC-area gala for disability programs in India - half from donors, half matched",
+      "narration": "VOSAP - Voice of Specially Abled People - held its first-ever Washington D-C metro-area fundraiser in March twenty twenty-six, a sold-out gala in Fairfax, Virginia with one hundred sixty attendees."
+    },
+    {
+      "kind": "point",
+      "text": "Donors gave $107,000 - and a chief patron couple matched it dollar for dollar, doubling the total - funding India's Assistive Technology Program and Project HITARTH, which provides healthcare access for people with intellectual disabilities.",
+      "narration": "Donors gave one hundred seven thousand dollars - and a chief patron couple matched it dollar for dollar, doubling the total - funding India's Assistive Technology Program and Project HITARTH, which provides healthcare access for people with intellectual disabilities."
+    },
+    {
+      "kind": "point",
+      "text": "VOSAP's stated 2026 goal is to reach 100,000 people with disabilities across India - one sold-out gala at a time."
+    },
+    {
+      "kind": "closer",
+      "text": "One night, one gala, 160 people in a room in Virginia.",
+      "sub": "A hundred thousand people in India are the reason they showed up.",
+      "narration": "One night, one gala, one hundred sixty people in a room in Virginia. A hundred thousand people in India are the reason they showed up."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "A diaspora group's first DC-area gala raised $214,000 for disabled Indians in one night.\n\nVOSAP (Voice of Specially Abled People) held its first-ever Washington D.C. metro-area fundraiser in March 2026 - a sold-out Fairfax, Virginia gala with 160 attendees. Donors gave $107,000, matched dollar for dollar by a chief patron couple, funding India's Assistive Technology Program and Project HITARTH for healthcare access for people with intellectual disabilities. VOSAP's 2026 goal: reach 100,000 people with disabilities across India.\n\nOne night, one gala, 160 people in a room in Virginia. A hundred thousand people in India are the reason they showed up.\n\nSources: VOSAP, IANS",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Disability"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
