@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-28_windenergy26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 165,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-31T19:01:31.065Z",
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "p7PCp1d2nDk",
+  "youtubeUrl": "https://youtube.com/watch?v=p7PCp1d2nDk",
+  "youtubeScheduledAt": "2026-10-31T19:13:39.103Z",
+  "facebookPostId": "1746887129705948",
+  "facebookScheduledAt": "2026-10-31T19:14:03.174Z",
+  "mastodonStatusId": "289583",
+  "mastodonScheduledAt": "2026-10-31T19:14:08.691Z",
+  "scheduledAt": "2026-10-31T19:14:19.715Z",
+  "bufferPostIds": {
+    "Instagram": "6ae63b5337c1acd2a0c62b43",
+    "X": "6ae63b551ee172cd6dba6a5b",
+    "Threads": "6ae63b57f0984eef33270ec4"
+  }
 }

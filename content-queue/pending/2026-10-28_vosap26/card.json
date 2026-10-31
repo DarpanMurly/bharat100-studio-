@@ -21,7 +21,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-28_vosap26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 255,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -30,5 +30,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-31T19:00:05.565Z",
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "F0xuHBEJLmY",
+  "youtubeUrl": "https://youtube.com/watch?v=F0xuHBEJLmY",
+  "youtubeScheduledAt": "2026-10-31T19:12:15.674Z",
+  "facebookPostId": "957614770761227",
+  "facebookScheduledAt": "2026-10-31T19:12:43.253Z",
+  "mastodonStatusId": "289581",
+  "mastodonScheduledAt": "2026-10-31T19:12:49.720Z",
+  "scheduledAt": "2026-10-31T19:12:59.476Z",
+  "bufferPostIds": {
+    "Instagram": "6ae63afb1ee172cd6dba4dbc",
+    "X": "6ae63afdf0984eef3326f3e6",
+    "Threads": "6ae63aff1ee172cd6dba4eb0"
+  }
 }
