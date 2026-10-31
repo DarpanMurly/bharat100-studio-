@@ -46,5 +46,9 @@
     "Threads": "6ae642aaf0984eef33292c0d"
   },
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mz74udgojd2c",
-  "blueskyPostedAt": "2026-10-31T20:24:53.370Z"
+  "blueskyPostedAt": "2026-10-31T20:24:53.370Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DfK8KsCjjdc/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DfK8KuljXAJ"
+  }
 }

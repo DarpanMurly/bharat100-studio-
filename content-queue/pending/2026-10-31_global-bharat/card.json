@@ -47,5 +47,9 @@
   "mastodonStatusId": "289604",
   "mastodonScheduledAt": "2026-10-31T20:45:23.167Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mz77l4ziwe2g",
-  "blueskyPostedAt": "2026-10-31T21:13:25.882Z"
+  "blueskyPostedAt": "2026-10-31T21:13:25.882Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DfLC45Gk7Vv/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DfLC47eErqf"
+  }
 }
