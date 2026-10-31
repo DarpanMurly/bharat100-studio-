@@ -60,6 +60,7 @@ import droneudyami26 from "./scripts/droneudyami26.json";
 import electronics26 from "./scripts/electronics26.json";
 import evgrowth26 from "./scripts/evgrowth26.json";
 import evsept26 from "./scripts/evsept26.json";
+import exports1trillion26 from "./scripts/exports1trillion26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
 import gangaexp26 from "./scripts/gangaexp26.json";
@@ -177,6 +178,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "electronics26": electronics26 as VideoScript,
   "evgrowth26": evgrowth26 as VideoScript,
   "evsept26": evsept26 as VideoScript,
+  "exports1trillion26": exports1trillion26 as VideoScript,
   "exportsrecord26": exportsrecord26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
   "gangaexp26": gangaexp26 as VideoScript,

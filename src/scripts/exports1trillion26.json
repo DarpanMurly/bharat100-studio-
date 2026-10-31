@@ -1,0 +1,46 @@
+{
+  "id": "exports1trillion26",
+  "title": "India's commerce minister says a $1 trillion export target is within reach",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-31",
+  "sources": [
+    "Free Press Journal - India on track to achieve $1 trillion exports target in FY27, says Piyush Goyal",
+    "Maritime Gateway - India's $1 trillion exports target 'within reach' for FY27"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's commerce minister says a $1 trillion export target is within reach.",
+      "sub": "And the first half of the year backs him up."
+    },
+    {
+      "kind": "stat",
+      "text": "At the curtain-raiser for the 31st CII Partnership Summit on October 8, 2026, Commerce Minister Piyush Goyal said India remains on course for $1 trillion in combined goods and services exports in FY27 - roughly 16% above FY26's record of $863.11 billion.",
+      "stat": "$1 trillion",
+      "statLabel": "India's targeted combined goods and services exports for FY27, per Piyush Goyal",
+      "narration": "At the curtain-raiser for the thirty-first C-I-I Partnership Summit on October eighth, twenty twenty-six, Commerce Minister Piyush Goyal said India remains on course for one trillion dollars in combined goods and services exports in F-Y twenty twenty-seven - roughly sixteen percent above F-Y twenty twenty-six's record of eight hundred sixty-three point one one billion dollars."
+    },
+    {
+      "kind": "point",
+      "text": "April through August exports already reached an estimated $399.27 billion, up 15.55% year-on-year - with August alone up 25.41% to $82.68 billion.",
+      "narration": "April through August exports already reached an estimated three hundred ninety-nine point two seven billion dollars, up fifteen point five five percent year-on-year - with August alone up twenty-five point four one percent to eighty-two point six eight billion dollars."
+    },
+    {
+      "kind": "point",
+      "text": "\"I am confident looking at the first half numbers that we will get there,\" Goyal said - with roughly $600.7 billion needed across the remaining seven months of the fiscal year to hit the full target."
+    },
+    {
+      "kind": "closer",
+      "text": "A trillion-dollar target used to sound aspirational.",
+      "sub": "Halfway through the year, the math says it's just arithmetic now.",
+      "narration": "A trillion-dollar target used to sound aspirational. Halfway through the year, the math says it's just arithmetic now."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's commerce minister says a $1 trillion export target is within reach. And the first half of the year backs him up.\n\nAt the 31st CII Partnership Summit curtain-raiser on October 8, 2026, Piyush Goyal said India remains on course for $1 trillion in combined exports in FY27 - 16% above FY26's record $863.11 billion. April-August exports already hit $399.27 billion, up 15.55% YoY, with August alone up 25.41%.\n\nA trillion-dollar target used to sound aspirational. Halfway through the year, the math says it's just arithmetic now.\n\nSources: Free Press Journal, Maritime Gateway (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Trade"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

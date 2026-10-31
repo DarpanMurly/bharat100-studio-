@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He was born in Bihar, moved to Delhi at 12, then Wales as a teenager. In 2026, he became Britain's first AI minister."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Kanishka Narayan was appointed the UK's first-ever dedicated Minister for Artificial Intelligence on July 20, 2026",
+      "body": "Under new Prime Minister Andy Burnham, the newly created role spans both the Cabinet Office and the Department for Business, Innovation, Science and Trade - a sign of how central AI policy has become to UK governance."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His path there",
+      "headline": "Born in Muzaffarpur, Bihar, he moved to Delhi at 12, then to Cardiff, Wales as a teenager - later becoming Wales' first MP of colour.",
+      "body": "Educated at Oxford and Stanford, with a career spanning Silicon Valley, the UK civil service and finance, he was promoted into the AI minister role after first serving as Parliamentary Under-Secretary for AI and Online Safety."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when someone who started in a Bihar town ends up shaping how a G7 nation regulates artificial intelligence.",
+      "body": "Narayan's path - Muzaffarpur to Delhi to Cardiff to Whitehall - is a reminder that India's talent pipeline now reaches directly into the rooms where the next technology's rules get written."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "GOV.UK - Kanishka Narayan official biography",
+      "url": "https://www.gov.uk/government/people/kanishka-narayan"
+    },
+    {
+      "text": "Business Today - All about Kanishka Narayan, the Indian-origin MP named UK's first AI Minister",
+      "url": "https://www.businesstoday.in/world/uk/story/all-about-kanishka-narayan-the-indian-origin-mp-named-uks-first-ai-minister-under-andy-burnham-544227-2026-07-21"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1875",
+      "headline": "October 31, 1875: a boy was born in Gujarat who would later talk over 500 separate kingdoms into joining one country."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sardar Vallabhbhai Patel, independent India's first Deputy Prime Minister and Home Minister, was born October 31, 1875",
+      "body": "He is credited with the political integration of more than 500 princely states into the Indian Union after independence - a negotiation that determined the literal shape of the country on a map."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why the date is marked",
+      "headline": "India has observed October 31 as Rashtriya Ekta Diwas - National Unity Day - since 2014.",
+      "body": "2026 marks his 151st birth anniversary and closes a two-year nationwide commemorative programme that began with his 150th anniversary in 2025, centred at the Statue of Unity in Gujarat."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is still the country Patel's negotiations assembled piece by piece.",
+      "body": "Nearly 80 years on, the map he helped draw through persuasion rather than conquest is the same one the country is still building on."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "News on Air - PM Modi to participate in Rashtriya Ekta Diwas celebrations in Gujarat",
+      "url": "https://newsonair.gov.in/pm-modi-to-participate-in-rashtriya-ekta-diwas-celebrations-in-gujarat-on-oct-31/"
+    },
+    {
+      "text": "National Today - Rashtriya Ekta Diwas / National Unity Day",
+      "url": "https://nationaltoday.com"
+    }
+  ]
+}
