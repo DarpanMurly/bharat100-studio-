@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1909",
+      "headline": "October 30, 1909: a boy was born in Bombay who would found both India's top physics institute and its nuclear program."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Homi Jehangir Bhabha was born into a wealthy Parsi family in Bombay on October 30, 1909",
+      "body": "Educated at Cambridge, he started in mechanical engineering before pivoting to physics - a switch that would reshape India's entire scientific infrastructure decades later."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "He founded the Tata Institute of Fundamental Research in 1945, then the Atomic Energy Commission of India.",
+      "body": "Widely credited as the principal architect of India's nuclear energy program, Bhabha died in the 1966 Air India Flight 101 crash near Mont Blanc - but the institutions he built outlasted him by decades."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still runs on institutions one man's career pivot made possible.",
+      "body": "TIFR and India's nuclear program both trace back to a single engineering student who changed his mind about physics - proof that foundational infrastructure often starts as one person's redirected curiosity."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Homi J. Bhabha",
+      "url": "https://en.wikipedia.org/wiki/Homi_J._Bhabha"
+    },
+    {
+      "text": "Encyclopaedia Britannica - Homi Bhabha",
+      "url": "https://www.britannica.com/biography/Homi-Bhabha"
+    }
+  ]
+}

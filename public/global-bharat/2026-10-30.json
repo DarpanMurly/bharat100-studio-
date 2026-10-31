@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "Her parents sold curtains from a market stall in Leicester. In 2026, their daughter became Britain's Ambassador to the Vatican."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Tammy Sandhu presented her credentials to Pope Leo XIV on August 28, 2026, as the UK's Ambassador to the Holy See",
+      "body": "She became the first woman from an ethnic minority background - and the first woman of Indian origin - to hold the post, confirmed by an official Vatican Press Office record of the credentials ceremony."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Her path there",
+      "headline": "Born and raised in Leicester, England, to parents who migrated from Punjab in the 1960s, she joined the UK Foreign Office in 2005.",
+      "body": "Her parents worked market stalls selling household goods before starting a family business. She went on to serve as HM Consul General in San Francisco and in postings including Chennai, Rabat and Brussels."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when the children of its emigrants end up representing other nations at the world's oldest diplomatic institutions.",
+      "body": "Sandhu's own words capture it best: \"I only wish my parents were able to see where I am today.\""
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Eastern Eye - Tammy Sandhu's historic Vatican ambassador role",
+      "url": "https://www.easterneye.biz/tammy-sandhus-historic-vatican-ambassador-role/"
+    },
+    {
+      "text": "Catholic Connect - Tammy Sandhu becomes first woman from ethnic minority background to serve as British Ambassador to Holy See",
+      "url": "https://catholicconnect.in"
+    }
+  ]
+}

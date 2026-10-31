@@ -112,6 +112,7 @@ import rajasood26 from "./scripts/rajasood26.json";
 import ramanathan26 from "./scripts/ramanathan26.json";
 import renewables26 from "./scripts/renewables26.json";
 import repm26 from "./scripts/repm26.json";
+import rewachurhat26 from "./scripts/rewachurhat26.json";
 import sagarmanthan26 from "./scripts/sagarmanthan26.json";
 import samarth26 from "./scripts/samarth26.json";
 import sanjeevarora26 from "./scripts/sanjeevarora26.json";
@@ -228,6 +229,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "ramanathan26": ramanathan26 as VideoScript,
   "renewables26": renewables26 as VideoScript,
   "repm26": repm26 as VideoScript,
+  "rewachurhat26": rewachurhat26 as VideoScript,
   "sagarmanthan26": sagarmanthan26 as VideoScript,
   "samarth26": samarth26 as VideoScript,
   "sanjeevarora26": sanjeevarora26 as VideoScript,
