@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-29_coffeeexports26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 175,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-31T19:32:50.216Z",
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "JUybREloeEk",
+  "youtubeUrl": "https://youtube.com/watch?v=JUybREloeEk",
+  "youtubeScheduledAt": "2026-10-31T19:44:59.871Z",
+  "facebookPostId": "2285222359003892",
+  "facebookScheduledAt": "2026-10-31T19:45:24.471Z",
+  "mastodonStatusId": "289593",
+  "mastodonScheduledAt": "2026-10-31T19:45:37.343Z",
+  "scheduledAt": "2026-10-31T19:45:46.960Z",
+  "bufferPostIds": {
+    "Instagram": "6ae642a61ee172cd6dbc9ca5",
+    "X": "6ae642a81ee172cd6dbc9d0f",
+    "Threads": "6ae642aaf0984eef33292c0d"
+  }
 }
