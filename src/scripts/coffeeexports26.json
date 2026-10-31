@@ -1,0 +1,46 @@
+{
+  "id": "coffeeexports26",
+  "title": "India's coffee exports just had their best year ever",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-29",
+  "sources": [
+    "India Sea Trade News - Coffee Exports Brew Record $2.13 Billion for India in FY26",
+    "Sahi.com - Indian Coffee Exports Rise 17.08% YoY In April-August FY27"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's coffee exports just had their best year ever.",
+      "sub": "Over $2.1 billion in a single fiscal year."
+    },
+    {
+      "kind": "stat",
+      "text": "India's coffee exports reached a record high of over $2.1 billion in FY2025-26, on export volume of about 4.05 lakh tonnes - driven primarily by robust Robusta and instant coffee demand.",
+      "stat": "$2.1B+",
+      "statLabel": "India's record coffee export revenue in FY26 - per India Sea Trade News and Sahi.com",
+      "narration": "India's coffee exports reached a record high of over two point one billion dollars in F-Y twenty twenty-five to twenty twenty-six, on export volume of about four point zero five lakh tonnes - driven primarily by robust Robusta and instant coffee demand."
+    },
+    {
+      "kind": "point",
+      "text": "This beat the Coffee Board's own earlier projections for the year, and continued into FY27 with exports already up over 17% year-on-year in the first five months.",
+      "narration": "This beat the Coffee Board's own earlier projections for the year, and continued into F-Y twenty twenty-seven with exports already up over seventeen percent year-on-year in the first five months."
+    },
+    {
+      "kind": "point",
+      "text": "By February 2026 alone, exports had already crossed $1.86 billion - surpassing the entire prior full year's record before the fiscal year even closed."
+    },
+    {
+      "kind": "closer",
+      "text": "The old annual record fell before the year was even over.",
+      "sub": "And the new fiscal year is already ahead of pace to beat it again.",
+      "narration": "The old annual record fell before the year was even over. And the new fiscal year is already ahead of pace to beat it again."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's coffee exports just had their best year ever. Over $2.1 billion in a single fiscal year.\n\nIndia's coffee exports reached a record high of over $2.1 billion in FY26, on volume of about 4.05 lakh tonnes - beating the Coffee Board's own projections. By February 2026, exports had already crossed $1.86 billion, surpassing the entire prior year's record before the fiscal year even closed. FY27 is already running 17%+ ahead year-on-year.\n\nThe old annual record fell before the year was even over. And the new fiscal year is already ahead of pace to beat it again.\n\nSources: India Sea Trade News, Sahi.com (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Agriculture"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

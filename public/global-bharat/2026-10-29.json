@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He moved to the US at 12. In 2026, he became mayor of New Jersey's largest township."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Pulkit Desai was sworn in as mayor of Parsippany-Troy Hills, New Jersey, on January 3, 2026",
+      "body": "Born in India and raised in the United States from age 12, Desai became the first Indian-American mayor of Morris County's largest municipality, narrowly defeating the Republican incumbent."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His path there",
+      "headline": "A six-year Marine Corps veteran who served in Desert Shield and Desert Storm, he spent nearly three decades in cybersecurity at a Fortune 500 company before entering local politics.",
+      "body": "He won the mayoral race by a margin narrow enough that the incumbent legally contested it - and lost that challenge too."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its emigrants end up running American townships, not just American companies.",
+      "body": "Desai's path - India to the Marines to cybersecurity to the mayor's office - is local government increasingly shaped by people who started somewhere else entirely."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Parsippany Township - Mayor Pulkit Desai official bio",
+      "url": "https://www.parsippany.net/Officials/Bio/mayor-pulkit-desai"
+    },
+    {
+      "text": "Global Indian - Indian-origin mayors taking charge of America's cities in 2026",
+      "url": "https://www.globalindian.com"
+    }
+  ]
+}

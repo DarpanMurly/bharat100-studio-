@@ -37,6 +37,7 @@ import cens26 from "./scripts/cens26.json";
 import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
 import chivukula26 from "./scripts/chivukula26.json";
+import coffeeexports26 from "./scripts/coffeeexports26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
 import defenceprod26 from "./scripts/defenceprod26.json";
@@ -152,6 +153,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "ceramat26": ceramat26 as VideoScript,
   "cgsemi26": cgsemi26 as VideoScript,
   "chivukula26": chivukula26 as VideoScript,
+  "coffeeexports26": coffeeexports26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
   "defenceprod26": defenceprod26 as VideoScript,
