@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-10-30_rewachurhat26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 219,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-10-31T20:01:43.824Z",
+  "scheduledAt": "2026-10-31T20:13:44.711Z",
+  "bufferPostIds": {
+    "Instagram": "6ae6493cf0984eef332acecf",
+    "X": "6ae6493e21c807e9d5816735",
+    "Threads": "6ae64940f0984eef332ad1b1"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "wfQY6GQmM0g",
+  "youtubeUrl": "https://youtube.com/watch?v=wfQY6GQmM0g",
+  "youtubeScheduledAt": "2026-10-31T20:14:20.265Z",
+  "facebookPostId": "2034145290586398",
+  "facebookScheduledAt": "2026-10-31T20:14:45.156Z",
+  "mastodonStatusId": "289599",
+  "mastodonScheduledAt": "2026-10-31T20:14:52.741Z"
 }
