@@ -1,0 +1,47 @@
+{
+  "id": "motwanijgu26",
+  "type": "diaspora-dividend",
+  "title": "Her husband mentored Google's founders. She just gave India its first institute for American Studies, in his memory",
+  "pillar": "Diaspora Dividend",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-27",
+  "sources": [
+    "O.P. Jindal Global University - Motwani Jadeja Institute for American Studies announcement",
+    "American Bazaar - Asha Jadeja Motwani establishes Motwani Jadeja Institute"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Her husband mentored Google's founders.",
+      "sub": "She just gave India its first institute for American Studies, in his memory."
+    },
+    {
+      "kind": "stat",
+      "text": "Asha Jadeja Motwani, a Silicon Valley venture capitalist and widow of Stanford professor Rajeev Motwani - who mentored Google founders Larry Page and Sergey Brin - established a $5 million endowment with O.P. Jindal Global University in 2025.",
+      "stat": "$5 million",
+      "statLabel": "endowed by Asha Jadeja Motwani to create India's first dedicated institute for American Studies",
+      "narration": "Asha Jadeja Motwani, a Silicon Valley venture capitalist and widow of Stanford professor Rajeev Motwani - who mentored Google founders Larry Page and Sergey Brin - established a five million dollar endowment with O.P. Jindal Global University in twenty twenty-five."
+    },
+    {
+      "kind": "point",
+      "text": "The gift created the Motwani Jadeja Institute for American Studies - described as India's first dedicated institute for the subject - with an annual memorial lecture, a fellowship in Rajeev Motwani's name, and a full Master's program.",
+      "narration": "The gift created the Motwani Jadeja Institute for American Studies - described as India's first dedicated institute for the subject - with an annual memorial lecture, a fellowship in Rajeev Motwani's name, and a full Master's program."
+    },
+    {
+      "kind": "point",
+      "text": "Rajeev Motwani died in 2009, having shaped some of Silicon Valley's biggest companies from a Stanford classroom. His widow turned that legacy into a standing institution back in India."
+    },
+    {
+      "kind": "closer",
+      "text": "He taught the people who built Google.",
+      "sub": "She built something that will keep teaching, long after both of them are gone.",
+      "narration": "He taught the people who built Google. She built something that will keep teaching, long after both of them are gone."
+    }
+  ],
+  "outroCta": "Follow for the next diaspora story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next diaspora story.",
+  "caption": "Her husband mentored Google's founders. She just gave India its first institute for American Studies, in his memory.\n\nAsha Jadeja Motwani, a Silicon Valley venture capitalist and widow of Stanford professor Rajeev Motwani - who mentored Larry Page and Sergey Brin - established a $5 million endowment with O.P. Jindal Global University in 2025, creating the Motwani Jadeja Institute for American Studies, India's first dedicated institute for the subject.\n\nHe taught the people who built Google. She built something that will keep teaching, long after both of them are gone.\n\nSources: O.P. Jindal Global University, American Bazaar",
+  "hashtags": ["#Bharat100", "#IndianDiaspora", "#India2047", "#Education"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

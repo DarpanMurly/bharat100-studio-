@@ -41,6 +41,7 @@ import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
 import defenceprod26 from "./scripts/defenceprod26.json";
 import dehradunexpressway26 from "./scripts/dehradunexpressway26.json";
+import delhiairport26 from "./scripts/delhiairport26.json";
 import desai26 from "./scripts/desai26.json";
 import dfc26 from "./scripts/dfc26.json";
 import diasporaFcnr26 from "./scripts/diaspora-fcnr26.json";
@@ -90,6 +91,7 @@ import meghadesai26 from "./scripts/meghadesai26.json";
 import menon26 from "./scripts/menon26.json";
 import micronsanand26 from "./scripts/micronsanand26.json";
 import missinglink26 from "./scripts/missinglink26.json";
+import motwanijgu26 from "./scripts/motwanijgu26.json";
 import msftskill26 from "./scripts/msftskill26.json";
 import mumbaimetro26 from "./scripts/mumbaimetro26.json";
 import musunuru26 from "./scripts/musunuru26.json";
@@ -152,6 +154,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "defence26": defence26 as VideoScript,
   "defenceprod26": defenceprod26 as VideoScript,
   "dehradunexpressway26": dehradunexpressway26 as VideoScript,
+  "delhiairport26": delhiairport26 as VideoScript,
   "desai26": desai26 as VideoScript,
   "dfc26": dfc26 as VideoScript,
   "diaspora-fcnr26": diasporaFcnr26 as VideoScript,
@@ -201,6 +204,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "menon26": menon26 as VideoScript,
   "micronsanand26": micronsanand26 as VideoScript,
   "missinglink26": missinglink26 as VideoScript,
+  "motwanijgu26": motwanijgu26 as VideoScript,
   "msftskill26": msftskill26 as VideoScript,
   "mumbaimetro26": mumbaimetro26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,

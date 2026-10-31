@@ -1,0 +1,46 @@
+{
+  "id": "delhiairport26",
+  "title": "Delhi's airport just had its busiest first half of a fiscal year ever",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-10-27",
+  "sources": [
+    "Swarajya Mag - Delhi Airport Handles Record 3.85 Crore Passengers In First Half Of FY27",
+    "The Pioneer - Delhi Airport Records Highest-Ever H1 Passenger Traffic At 38.5 Million"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Delhi's airport just had its busiest first half of a fiscal year ever.",
+      "sub": "38.5 million passengers in six months."
+    },
+    {
+      "kind": "stat",
+      "text": "Indira Gandhi International Airport handled 38.5 million passengers between April and September 2026 - its highest-ever first-half total, up 5% from the same period a year earlier.",
+      "stat": "38.5 million",
+      "statLabel": "passengers through Delhi airport in H1 FY27, a record - per Swarajya Mag and The Pioneer",
+      "narration": "Indira Gandhi International Airport handled thirty-eight point five million passengers between April and September twenty twenty-six - its highest-ever first-half total, up five percent from the same period a year earlier."
+    },
+    {
+      "kind": "point",
+      "text": "That's 28.1 million domestic and 10.4 million international travellers - averaging 6.5 million passengers a month - while air traffic movements rose nearly 7% and cargo volumes grew over 12%.",
+      "narration": "That's twenty-eight point one million domestic and ten point four million international travellers - averaging six point five million passengers a month - while air traffic movements rose nearly seven percent and cargo volumes grew over twelve percent."
+    },
+    {
+      "kind": "point",
+      "text": "The airport's operator is targeting capacity for 125 million passengers a year as part of its long-term expansion plan."
+    },
+    {
+      "kind": "closer",
+      "text": "This record came despite known headwinds across Indian aviation this year.",
+      "sub": "One hub still posted its best half-year ever.",
+      "narration": "This record came despite known headwinds across Indian aviation this year. One hub still posted its best half-year ever."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Delhi's airport just had its busiest first half of a fiscal year ever. 38.5 million passengers in six months.\n\nIndira Gandhi International Airport handled 38.5 million passengers between April and September 2026 - its highest-ever first-half total, up 5% year-on-year. That's 28.1 million domestic and 10.4 million international travellers, with air traffic movements up nearly 7% and cargo up over 12%.\n\nThis record came despite known headwinds across Indian aviation this year. One hub still posted its best half-year ever.\n\nSources: Swarajya Mag, The Pioneer (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Infrastructure"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

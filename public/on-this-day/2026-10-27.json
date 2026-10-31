@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1904",
+      "headline": "October 27, 1904: a revolutionary was born who would die 63 days into a hunger strike, demanding dignity for political prisoners."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Jatindra Nath Das was born in Calcutta on October 27, 1904",
+      "body": "Arrested in the Lahore Conspiracy Case alongside Bhagat Singh, he launched a hunger strike in Lahore Jail on July 13, 1929, demanding Indian political prisoners get the same treatment as European prisoners - better food, reading material, and no humiliating searches."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "He died 63 days into the strike, on September 13, 1929, at age 24.",
+      "body": "His death triggered mass protests and funeral processions across India, and is credited with influencing how political detainees were treated in prisons for years afterward."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat remembers that dignity in its institutions was fought for, not handed down.",
+      "body": "Das never lived to see independence - but the standard he died demanding became part of how a free India would later treat anyone in its custody."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Jatindra Nath Das",
+      "url": "https://en.wikipedia.org/wiki/Jatindra_Nath_Das"
+    },
+    {
+      "text": "Sabrang India - Remembering the independence activist, Jatindra Nath Das",
+      "url": "https://sabrangindia.in/remembering-independence-activist-jatindra-nath-das/"
+    }
+  ]
+}

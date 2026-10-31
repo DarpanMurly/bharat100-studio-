@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He worked at Princeton, UCL and King's College London before coming home. In 2026, the world's math community gave him its top young-mathematician honour."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Professor Mahesh Kakde won the 2026 ICTP/IMU Ramanujan Prize for Young Mathematicians",
+      "body": "The $10,000 international honour, announced September 30, 2026, is jointly awarded by the Abdus Salam International Centre for Theoretical Physics and the International Mathematical Union to a mathematician from a developing country - making Kakde the fifth Indian ever to win it."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His path there",
+      "headline": "A number theorist working on the Gross-Stark and Brumer-Stark conjectures, he held posts at Princeton, UCL and King's College London before joining IISc Bengaluru in 2019.",
+      "body": "His research sits in noncommutative Iwasawa theory - a corner of pure mathematics far from headlines, recognised by one of the field's most selective international prizes."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its universities can draw talent back from Princeton and Cambridge, not just send it out.",
+      "body": "Kakde's career arc - India to the world's top math departments, and back to IISc - is the kind of return migration that strengthens India's research base from the inside."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "IISc - Prof Mahesh Kakde wins Ramanujan Prize 2026",
+      "url": "https://www.iisc.ac.in/events/prof-mahesh-kakde-wins-ramanujan-prize-2026/"
+    },
+    {
+      "text": "ThePrint - From IISc to Cambridge, Mahesh Kakde becomes 5th Indian to win Ramanujan Prize for Mathematics",
+      "url": "https://theprint.in/feature/from-iisc-to-cambridge-mahesh-kakde-becomes-5th-indian-to-win-ramanujan-prize-for-mathematics/3064404/"
+    }
+  ]
+}
