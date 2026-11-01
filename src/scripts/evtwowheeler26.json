@@ -1,0 +1,46 @@
+{
+  "id": "evtwowheeler26",
+  "title": "India just registered a record number of electric two-wheelers in a single month",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-01",
+  "sources": [
+    "Autocar India - Indian e-two-wheeler sales crosses a record 2.23 lakh units in October",
+    "NewsBytes - India posts 223,886 October electric 2-wheeler registrations, EV share dips"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India just registered a record number of electric two-wheelers in a single month.",
+      "sub": "223,886 of them, in October alone."
+    },
+    {
+      "kind": "stat",
+      "text": "VAHAN registration data shows 223,886 electric two-wheelers registered in October 2026 - up 48% year-on-year and about 7% above September's prior high.",
+      "stat": "223,886",
+      "statLabel": "electric two-wheelers registered in October 2026, a new record, per VAHAN data via Autocar India and NewsBytes",
+      "narration": "VAHAN registration data shows two hundred twenty-three thousand eight hundred eighty-six electric two-wheelers registered in October twenty twenty-six - up forty-eight percent year-on-year and about seven percent above September's prior high."
+    },
+    {
+      "kind": "point",
+      "text": "TVS led the market with its best-ever month, followed by Bajaj Auto, Ather Energy, Hero MotoCorp and Ola Electric.",
+      "narration": "T-V-S led the market with its best-ever month, followed by Bajaj Auto, Ather Energy, Hero MotoCorp and Ola Electric."
+    },
+    {
+      "kind": "point",
+      "text": "Electric two-wheelers made up about 9.6% of all two-wheeler sales in October - a slight dip in share even as absolute volume hit a record, because conventional scooter sales grew even faster this festive season."
+    },
+    {
+      "kind": "closer",
+      "text": "A record month, with an honest asterisk.",
+      "sub": "More electric scooters sold than ever before - just not yet fast enough to outrun the festive-season surge in everything else.",
+      "narration": "A record month, with an honest asterisk. More electric scooters sold than ever before - just not yet fast enough to outrun the festive-season surge in everything else."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India just registered a record number of electric two-wheelers in a single month. 223,886 of them, in October alone.\n\nVAHAN registration data shows 223,886 electric two-wheelers registered in October 2026 - up 48% year-on-year and about 7% above September's prior high. TVS led the market with its best-ever month, followed by Bajaj Auto, Ather Energy, Hero MotoCorp and Ola Electric. EVs made up about 9.6% of all two-wheeler sales - a slight dip in share even as absolute volume hit a record, because conventional scooter sales grew even faster this festive season.\n\nA record month, with an honest asterisk.\n\nSources: Autocar India, NewsBytes, citing VAHAN data (2026)",
+  "hashtags": ["#Bharat100", "#ElectricVehicles", "#India2047", "#GreenMobility"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

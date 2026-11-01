@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1956",
+      "headline": "On November 1, a state was born. Seventeen years later, on the same date, it got its modern name."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Karnataka Rajyotsava marks November 1, 1956 - the day Mysore State was formed under the States Reorganisation Act",
+      "body": "Kannada-speaking regions from Bombay, Madras, Hyderabad, and Coorg were merged into a single state, consolidating India's linguistic map through negotiation rather than conflict."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The second November 1",
+      "headline": "On November 1, 1973 - exactly 17 years later - Mysore State was renamed Karnataka.",
+      "body": "Chief Minister D. Devaraj Urs moved the renaming resolution. Today, Rajyotsava is marked with flag-hoisting and the Rajyotsava Awards honoring contributions to the state."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is still built the way Karnataka was - states joined by agreement, not by force.",
+      "body": "The linguistic reorganization of the 1950s laid the administrative groundwork for the diverse, unified country still being built today."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The News Minute - The making of Karnataka: How and why November 1 is celebrated as Rajyotsava",
+      "url": "https://www.thenewsminute.com/karnataka/making-karnataka-how-and-why-november-1-celebrated-rajyotsava-90922"
+    },
+    {
+      "text": "Deccan Herald - United by a new name",
+      "url": "https://www.deccanherald.com/specials/united-by-a-new-name-2741727"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He built drug-delivery technology now in clinical trials. In 2026, America's medical academy took notice."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Ashutosh Chilkoti was elected to the US National Academy of Medicine's 2026 class",
+      "body": "The Duke University biomedical engineering professor was recognized for developing the first artificial polypeptides to enter clinical trials for sustained protein-drug delivery, announced October 19, 2026."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "His path there",
+      "headline": "Born in India, he earned his B.Tech in Chemical Engineering from IIT Delhi in 1985 before joining Duke's faculty in 1996.",
+      "body": "Now the Alan L. Kaganov Distinguished Professor of Biomedical Engineering, his work spans protein purification and PEGylation technology used in treatments worldwide."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when an India-trained engineer's lab work becomes medicine already reaching patients.",
+      "body": "Chilkoti's election is a reminder that India's engineering pipeline feeds directly into the institutions that set the terms of global medicine."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ASCO Post - National Academy of Medicine Elects 100 New Members for 2026",
+      "url": "https://ascopost.com/news/october-2026/national-academy-of-medicine-elects-100-new-members-for-2026/"
+    },
+    {
+      "text": "American Bazaar - 2026 NAM class includes five Indian Americans",
+      "url": "https://americanbazaaronline.com/?p=490601"
+    }
+  ]
+}
