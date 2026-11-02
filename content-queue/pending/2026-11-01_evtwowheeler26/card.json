@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-01_evtwowheeler26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 216,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-11-02T18:07:05.157Z",
+  "scheduledAt": "2026-11-02T18:19:05.693Z",
+  "bufferPostIds": {
+    "Instagram": "6ae8d1542b877a9bf8486cb8",
+    "X": "6ae8d156af5d3b08ec2518ee",
+    "Threads": "6ae8d15957030f5f9aad1802"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "emoEjbHwZ6E",
+  "youtubeUrl": "https://youtube.com/watch?v=emoEjbHwZ6E",
+  "youtubeScheduledAt": "2026-11-02T18:19:25.806Z",
+  "facebookPostId": "1905575093636839",
+  "facebookScheduledAt": "2026-11-02T18:19:45.845Z",
+  "mastodonStatusId": "290011",
+  "mastodonScheduledAt": "2026-11-02T18:19:55.250Z"
 }
