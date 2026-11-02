@@ -129,6 +129,7 @@ import solar164gw26 from "./scripts/solar164gw26.json";
 import solardef26 from "./scripts/solardef26.json";
 import solarmfg26 from "./scripts/solarmfg26.json";
 import spacetech26 from "./scripts/spacetech26.json";
+import steeloutput26 from "./scripts/steeloutput26.json";
 import suri26 from "./scripts/suri26.json";
 import tandon26 from "./scripts/tandon26.json";
 import tehripsp26 from "./scripts/tehripsp26.json";
@@ -249,6 +250,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "solardef26": solardef26 as VideoScript,
   "solarmfg26": solarmfg26 as VideoScript,
   "spacetech26": spacetech26 as VideoScript,
+  "steeloutput26": steeloutput26 as VideoScript,
   "suri26": suri26 as VideoScript,
   "tandon26": tandon26 as VideoScript,
   "tehripsp26": tehripsp26 as VideoScript,

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1933",
+      "headline": "He measured a country's progress by what its people could actually do - not just its GDP."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Amartya Sen was born November 3, 1933, in Santiniketan, Bengal.",
+      "body": "In 1998, he became the first Asian to win the Nobel Memorial Prize in Economic Sciences, awarded for his contributions to welfare economics."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The idea he's known for",
+      "headline": "His 'capability approach' measures development by what people can actually be and do - health, education, freedom - not just income.",
+      "body": "That framework now underpins the Human Development Index and shapes how governments and economists worldwide think about growth that actually reaches people."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat built on Sen's framework is growth measured by capability, not just GDP.",
+      "body": "His insight - that development means expanding what people can actually do with their lives - is a quieter, harder standard than any single growth number."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Nobel Prize official site - Amartya Sen, Facts",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/facts/"
+    },
+    {
+      "text": "Wikipedia - Amartya Sen",
+      "url": "https://en.wikipedia.org/wiki/Amartya_Sen"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "steeloutput26",
+  "title": "India's crude steel output just hit a new high for September - and demand is growing even faster",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-03",
+  "sources": [
+    "SteelOrbis - India's crude steel output up 3.4% in Sept 2026, remains net finished steel importer in H1 FY 2026-27",
+    "New Kerala - India's raw steel output rises 3.4 pc YoY"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's crude steel output just hit a new high for September.",
+      "sub": "And demand is growing even faster than supply."
+    },
+    {
+      "kind": "stat",
+      "text": "India's crude steel output rose 3.4% year-on-year to 14.1 million tonnes in September 2026, per Ministry of Steel data.",
+      "stat": "14.1M tonnes",
+      "statLabel": "India's crude steel output, September 2026, up 3.4% year-on-year, per Ministry of Steel data via SteelOrbis and New Kerala",
+      "narration": "India's crude steel output rose three point four percent year-on-year to fourteen point one million tonnes in September twenty twenty-six, per Ministry of Steel data."
+    },
+    {
+      "kind": "point",
+      "text": "For the first half of FY27 - April through September - crude steel output reached 85.1 million tonnes, up 2.9%, while finished steel consumption grew even faster, up 7.5% to 84.9 million tonnes.",
+      "narration": "For the first half of F-Y twenty-seven - April through September - crude steel output reached eighty-five point one million tonnes, up two point nine percent, while finished steel consumption grew even faster, up seven point five percent to eighty-four point nine million tonnes."
+    },
+    {
+      "kind": "point",
+      "text": "That faster-growing demand means India remained a net importer of finished steel this period - imports rose 23.8% even as exports grew 26.2%, both moving up, but imports still ahead."
+    },
+    {
+      "kind": "closer",
+      "text": "Production is climbing. Demand is climbing faster.",
+      "sub": "That gap is the real story - India's economy is absorbing more steel than it's making, even as output hits new highs.",
+      "narration": "Production is climbing. Demand is climbing faster. That gap is the real story - India's economy is absorbing more steel than it's making, even as output hits new highs."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's crude steel output just hit a new high for September. And demand is growing even faster than supply.\n\nIndia's crude steel output rose 3.4% year-on-year to 14.1 million tonnes in September 2026, per Ministry of Steel data. For H1 FY27 (April-September), crude steel output reached 85.1 million tonnes, up 2.9%, while finished steel consumption grew even faster - up 7.5% to 84.9 million tonnes. That faster demand growth means India remained a net importer of finished steel this period, even as both imports and exports rose.\n\nProduction is climbing. Demand is climbing faster. That gap is the real story.\n\nSources: SteelOrbis, New Kerala, citing Ministry of Steel data (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#SteelIndustry"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

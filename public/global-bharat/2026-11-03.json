@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She came to Canada from India at age four. In 2026, she was named one of its Top 25 immigrants."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Supinder Wraich was named a Top 25 Canadian Immigrant Award winner for 2026, in the Arts & Culture category",
+      "body": "Born in India, she moved to Toronto's Rexdale neighbourhood at age four. The 18th annual awards, presented by Western Union, are chosen through a judged process plus over 50,000 public votes."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she's built",
+      "headline": "She created, wrote, and starred in CBC Gem's 'The 410' - and won a 2025 Canadian Screen Award for her role in 'Allegiance.'",
+      "body": "She's built a career on both sides of the camera, bringing Punjabi and South Asian stories to mainstream Canadian television rather than only acting in others' projects."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when its stories get told by people who write, star in, and produce them themselves.",
+      "body": "Wraich's path - from India to Rexdale to Canadian primetime - is a reminder that cultural representation and creative ownership are part of what global Indian success looks like too."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The Global Indian - Six Indian-born achievers among Canada's Top 25 immigrants of 2026",
+      "url": "https://www.globalindian.com/story/cover-story/six-indian-born-achievers-among-canadas-top-25-immigrants-of-2026/"
+    },
+    {
+      "text": "BusinessWire - 18th Annual Top 25 Canadian Immigrant Awards Presented by Western Union",
+      "url": "https://secure.businesswire.com/news/home/20260804629024/en/18th-Annual-Top-25-Canadian-Immigrant-Awards-Presented-by-Western-Union"
+    }
+  ]
+}
