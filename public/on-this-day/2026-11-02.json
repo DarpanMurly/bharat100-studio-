@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2012",
+      "headline": "He was still working on mathematics at his desk the day he died."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Shreeram Shankar Abhyankar, born in Ujjain, India, died November 2, 2012, while working at Purdue University.",
+      "body": "He earned his PhD at Harvard under Oscar Zariski, then spent his career at Purdue, becoming the Marshall Distinguished Professor of Mathematics in 1967."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he built",
+      "headline": "Abhyankar's Conjecture, Abhyankar's Lemma, and the Abhyankar-Moh Theorem - foundational work in algebraic geometry.",
+      "body": "He supervised 28 PhD students and received multiple honorary doctorates internationally, putting an Indian-born mathematician at the center of 20th-century algebraic geometry."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is built partly by people whose names never trend, doing work that outlasts them.",
+      "body": "Abhyankar's theorems are still cited in mathematics departments worldwide - a quieter but lasting form of Indian intellectual export."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Purdue University Department of Mathematics - Tribute to Shreeram S. Abhyankar",
+      "url": "https://math.purdue.edu/news/2012/tribute-to-shreeram-s-abhyankar.html"
+    },
+    {
+      "text": "MacTutor History of Mathematics Archive, University of St Andrews - Abhyankar biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abhyankar/"
+    }
+  ]
+}

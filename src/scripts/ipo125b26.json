@@ -1,0 +1,46 @@
+{
+  "id": "ipo125b26",
+  "title": "Indian companies just raised a record $12.5 billion through IPOs, despite a falling market",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-02",
+  "sources": [
+    "Siasat / PTI - IPOs in India hit record USD 12.5 billion in Jan-Sep 2026: Report",
+    "Free Press Journal - India's IPO Boom Hits Record $12.5 Billion, Bigger Issues Defy Market Slump"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Indian companies just raised a record $12.5 billion through IPOs.",
+      "sub": "While the stock market was falling."
+    },
+    {
+      "kind": "stat",
+      "text": "Indian companies raised $12.5 billion through IPOs between January and September 2026 - the highest January-to-September total since LSEG began tracking this data in 1980.",
+      "stat": "$12.5B",
+      "statLabel": "raised through Indian IPOs, Jan-Sep 2026, a record since 1980, per LSEG data via Siasat/PTI and Free Press Journal",
+      "narration": "Indian companies raised twelve point five billion dollars through I-P-Os between January and September twenty twenty-six - the highest January to September total since L-S-E-G began tracking this data in nineteen eighty."
+    },
+    {
+      "kind": "point",
+      "text": "This happened even as the Nifty 50 fell nearly 14% and foreign investors sold roughly 2.7 to 3 lakh crore rupees of Indian equities - domestic investors kept buying and absorbing the new supply.",
+      "narration": "This happened even as the Nifty fifty fell nearly fourteen percent and foreign investors sold roughly two point seven to three lakh crore rupees of Indian equities - domestic investors kept buying and absorbing the new supply."
+    },
+    {
+      "kind": "point",
+      "text": "Deal count actually fell to 220 issues, down from 268 a year earlier - fewer IPOs, but much bigger ones, led by NSE's own Rs 22,561 crore listing, India's second-largest IPO ever."
+    },
+    {
+      "kind": "closer",
+      "text": "Fewer companies went public this year.",
+      "sub": "But the ones that did raised more money than any January-to-September period on record.",
+      "narration": "Fewer companies went public this year. But the ones that did raised more money than any January to September period on record."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Indian companies just raised a record $12.5 billion through IPOs. While the stock market was falling.\n\nIndian companies raised $12.5 billion through IPOs between January and September 2026 - the highest Jan-Sep total since LSEG began tracking this data in 1980. This happened even as the Nifty 50 fell nearly 14% and foreign investors sold roughly Rs 2.7-3 lakh crore of Indian equities - domestic investors kept buying. Deal count fell to 220 issues, down from 268 a year earlier - fewer IPOs, but much bigger ones, led by NSE's own Rs 22,561 crore listing, India's second-largest IPO ever.\n\nFewer companies went public this year. But the ones that did raised more money than any January-to-September period on record.\n\nSources: Siasat/PTI, Free Press Journal, citing LSEG data (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#India2047", "#CapitalMarkets"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -76,6 +76,7 @@ import h2vessel26 from "./scripts/h2vessel26.json";
 import icgsajit26 from "./scripts/icgsajit26.json";
 import indoremetro26 from "./scripts/indoremetro26.json";
 import inssurya26 from "./scripts/inssurya26.json";
+import ipo125b26 from "./scripts/ipo125b26.json";
 import ironlady26 from "./scripts/ironlady26.json";
 import isrochip26 from "./scripts/isrochip26.json";
 import jainwolf26 from "./scripts/jainwolf26.json";
@@ -195,6 +196,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "icgsajit26": icgsajit26 as VideoScript,
   "indoremetro26": indoremetro26 as VideoScript,
   "inssurya26": inssurya26 as VideoScript,
+  "ipo125b26": ipo125b26 as VideoScript,
   "ironlady26": ironlady26 as VideoScript,
   "isrochip26": isrochip26 as VideoScript,
   "jainwolf26": jainwolf26 as VideoScript,

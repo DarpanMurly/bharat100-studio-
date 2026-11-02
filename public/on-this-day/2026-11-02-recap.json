@@ -1,0 +1,100 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Oct 26",
+      "headline": "5 stories.",
+      "listItems": [
+        "Only one Indian woman had ever been elected a Fellow of the Royal Society. In 2026, a second one joined her.",
+        "19 years as an investment banker. At 49, she quit to sell lipstick online. She's now India's richest self-made woman.",
+        "October 26, 1890: a journalist was born who gave Bhagat Singh his first writing job - and died trying to stop a riot.",
+        "Punjab flooded. Canadian radio stations raised 2 million dollars for it in 2 days. Not from one donor - from an entire diaspora calling in.",
+        "India just crossed 164 gigawatts of solar power. That's the world's third-largest installed solar capacity."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Oct 27",
+      "headline": "5 stories.",
+      "listItems": [
+        "Delhi's airport just had its busiest first half of a fiscal year ever. 38.5 million passengers in six months.",
+        "He worked at Princeton, UCL and King's College London before coming home. In 2026, the world's math community gave him its top young-mathematician honour.",
+        "A duty cut wiped out his factory. His bank reportedly took his house. He rebuilt into a company worth over Rs 12,000 crore.",
+        "Her husband mentored Google's founders. She just gave India its first institute for American Studies, in his memory.",
+        "October 27, 1904: a revolutionary was born who would die 63 days into a hunger strike, demanding dignity for political prisoners."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Oct 28",
+      "headline": "5 stories.",
+      "listItems": [
+        "She won a top Venice Film Festival prize in 2025. In 2026, she won another one - for a different film.",
+        "A Mizoram farmer started growing strawberries in 2024. In 2026, the UN picked her as one of 100 agricultural heroes from 131 countries.",
+        "October 28, 1627: a Mughal emperor died travelling home from Kashmir - leaving behind an empire run partly by his wife.",
+        "A diaspora group's first DC-area gala raised $214,000 for disabled Indians in one night.",
+        "India just had its best year ever for wind power. A record that stood for nearly a decade just fell."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Oct 29",
+      "headline": "4 stories.",
+      "listItems": [
+        "India's coffee exports just had their best year ever. Over $2.1 billion in a single fiscal year.",
+        "He moved to the US at 12. In 2026, he became mayor of New Jersey's largest township.",
+        "A cotton farmer spent five years quietly switching her whole farm away from chemicals. In 2026, the textile industry gave her its top sustainability honour.",
+        "October 29, 2018: India rolled out a train with no engine, built in just 18 months. It's now the country's fastest."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Oct 30",
+      "headline": "4 stories.",
+      "listItems": [
+        "Her parents sold curtains from a market stall in Leicester. In 2026, their daughter became Britain's Ambassador to the Vatican.",
+        "He gave private tuitions in Prayagraj to support his family. In 2026, Forbes put him on its billionaires list.",
+        "October 30, 1909: a boy was born in Bombay who would found both India's top physics institute and its nuclear program.",
+        "A Madhya Pradesh district just got its first railway line since Independence. Nearly 80 years without one."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Oct 31",
+      "headline": "4 stories.",
+      "listItems": [
+        "India's commerce minister says a $1 trillion export target is within reach. And the first half of the year backs him up.",
+        "He was born in Bihar, moved to Delhi at 12, then Wales as a teenager. In 2026, he became Britain's first AI minister.",
+        "She used to work the fields in rural Gujarat. In 2026, the Prime Minister praised her on national radio for installing solar panels instead.",
+        "October 31, 1875: a boy was born in Gujarat who would later talk over 500 separate kingdoms into joining one country."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Nov 1",
+      "headline": "4 stories.",
+      "listItems": [
+        "India just registered a record number of electric two-wheelers in a single month. 223,886 of them, in October alone.",
+        "He built drug-delivery technology now in clinical trials. In 2026, America's medical academy took notice.",
+        "She runs a bamboo and wood craft unit in Manipur that employs more than 50 artists - and the Prime Minister noticed.",
+        "On November 1, a state was born. Seventeen years later, on the same date, it got its modern name."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}

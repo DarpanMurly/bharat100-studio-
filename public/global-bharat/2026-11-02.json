@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2025",
+      "headline": "He went to school in Delhi. Now he runs one of America's biggest phone companies."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Srini Gopalan became CEO of T-Mobile US, succeeding Mike Sievert",
+      "body": "Born and raised in Delhi, he attended Delhi Public School and St. Stephen's College before earning his MBA from IIM Ahmedabad - then built a career spanning Hindustan Unilever, Vodafone, Bharti Airtel, and CEO of Deutsche Telekom Germany before taking the top job at T-Mobile."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The bigger picture",
+      "headline": "He's the second Indian-origin CEO to lead a major US telecom, after a career built across four continents.",
+      "body": "From COO to CEO at T-Mobile, Gopalan's path runs through Indian, European and American corporate cultures - a career built on moving between markets, not staying in one."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when a Delhi education becomes the foundation for running a Fortune 50 company.",
+      "body": "Gopalan's path is a reminder that India's management training pipeline - IIM included - is already producing leaders for companies far beyond India's borders."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The Tribune - Indian-American Executive Named T-Mobile CEO",
+      "url": "https://www.tribuneindia.com/news/world/indian-american-executive-named-t-mobile-ceo/amp"
+    },
+    {
+      "text": "NewsGram - T-Mobile appoints Indian-origin Srini Gopalan as new CEO",
+      "url": "https://www.newsgram.com/indian-diaspora/2025/09/23/t-mobile-appoints-indian-origin-srini-gopalan-as-new-ceo"
+    }
+  ]
+}
