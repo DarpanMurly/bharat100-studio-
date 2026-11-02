@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-02_ipo125b26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 244,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-11-02T18:38:21.741Z",
+  "scheduledAt": "2026-11-02T18:50:22.164Z",
+  "bufferPostIds": {
+    "Instagram": "6ae8d8a54e55e026087af460",
+    "X": "6ae8d8a74e55e026087af4ef",
+    "Threads": "6ae8d8a94e55e026087af57d"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "nUTKEOJEfX4",
+  "youtubeUrl": "https://youtube.com/watch?v=nUTKEOJEfX4",
+  "youtubeScheduledAt": "2026-11-02T18:50:37.659Z",
+  "facebookPostId": "1115691881008599",
+  "facebookScheduledAt": "2026-11-02T18:50:53.531Z",
+  "mastodonStatusId": "290021",
+  "mastodonScheduledAt": "2026-11-02T18:51:00.415Z"
 }
