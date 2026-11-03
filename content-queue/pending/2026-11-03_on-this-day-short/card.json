@@ -48,5 +48,9 @@
   "mastodonScheduledAt": "2026-11-03T07:30:00.000Z",
   "facebookFirstCommentId": "1696303815448958_2521046461720392",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mzfdvhc6ko2k",
-  "blueskyPostedAt": "2026-11-03T07:46:45.609Z"
+  "blueskyPostedAt": "2026-11-03T07:46:45.609Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DfRWV28lAmv/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DfRWW7miQDP"
+  }
 }
