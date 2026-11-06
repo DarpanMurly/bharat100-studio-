@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1888",
+      "headline": "He noticed why the sea looks blue - and became the first Asian ever to win a Nobel Prize in science."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Chandrasekhara Venkata Raman was born November 7, 1888, in Tiruchirappalli, Madras Presidency.",
+      "body": "In 1930, he won the Nobel Prize in Physics for discovering what's now called the Raman Effect - how light scatters when it passes through a transparent material, revealing that material's molecular structure."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "He was the first Asian, and the first non-white person, to win a Nobel Prize in any science.",
+      "body": "The discovery came from pure curiosity about something as ordinary as the color of the sea - and it's still used today in chemistry, materials science, and medical diagnostics through Raman spectroscopy."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still runs on the same curiosity Raman brought to an ordinary question nearly a century ago.",
+      "body": "His Nobel wasn't the result of vast resources - it came from careful observation and a refusal to accept 'that's just how it is' as an answer."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - C. V. Raman",
+      "url": "https://en.wikipedia.org/wiki/C._V._Raman"
+    },
+    {
+      "text": "Britannica - Venkata Raman",
+      "url": "https://britannica.com/biography/Venkata-Raman"
+    }
+  ]
+}

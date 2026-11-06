@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She was born in Mumbai, trained as an engineer. In 2026, she became dean of a top US nursing school."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Kavita Radhakrishnan became permanent Dean of UT Austin's School of Nursing on September 1, 2026",
+      "body": "Mumbai-born, she earned her bachelor's in electronics engineering from the University of Mumbai before moving to the US, later earning a PhD in Nursing Science and joining UT Austin's faculty in 2012."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she's built",
+      "headline": "She holds over $10 million in NIH and federal research funding, focused on digital health for chronic disease management.",
+      "body": "In 2025, she was inducted into the Sigma Theta Tau International Nurse Researcher Hall of Fame - and much of her research specifically targets culturally-tailored health interventions for South Asian communities."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when an engineering degree from Mumbai becomes the foundation for leading American healthcare research.",
+      "body": "Radhakrishnan's path - engineering to nursing science to dean - is a reminder that Indian STEM training opens doors far beyond the field someone first trained in."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The Week (PTI) - Mumbai-born engineer-scientist named interim dean of UT Austin School of Nursing",
+      "url": "https://www.theweek.in/wire-updates/international/2026/03/17/mumbai-born-engineer-scientist-named-interim-dean-of-ut-austin-school-of-nursing.html"
+    },
+    {
+      "text": "American Bazaar - Kavita Radhakrishnan becomes Dean of Texas nursing school",
+      "url": "https://americanbazaaronline.com/2026/09/09/kavita-radhakrishnan-becomes-dean-of-texas-nursing-school-487767/"
+    }
+  ]
+}

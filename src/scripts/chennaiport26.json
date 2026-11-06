@@ -1,0 +1,47 @@
+{
+  "id": "chennaiport26",
+  "title": "A Chennai port terminal just set its highest container record in a decade",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-07",
+  "sources": [
+    "India Shipping News - Chennai Container Terminal hits decade-high monthly container record, October 2026",
+    "DT Next - Chennai Port's daily container handling hits five-year high"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Chennai port terminal just set its highest container record in a decade.",
+      "sub": "And broke its own record from the month before."
+    },
+    {
+      "kind": "stat",
+      "text": "Chennai Container Terminal, operated by DP World, reportedly handled 93,804 TEUs across 36 vessels in October 2026 - its highest monthly throughput in a decade.",
+      "stat": "93,804 TEUs",
+      "statLabel": "Chennai Container Terminal's reported October 2026 monthly throughput, its highest in a decade, per India Shipping News",
+      "narration": "Chennai Container Terminal, operated by D-P World, reportedly handled ninety-three thousand eight hundred four T-E-Us across thirty-six vessels in October twenty twenty-six - its highest monthly throughput in a decade."
+    },
+    {
+      "kind": "point",
+      "text": "That beat the terminal's own prior record of 89,743 TEUs, set just one month earlier in September 2026 - two consecutive monthly records in a row.",
+      "narration": "That beat the terminal's own prior record of eighty-nine thousand seven hundred forty-three T-E-Us, set just one month earlier in September twenty twenty-six - two consecutive monthly records in a row."
+    },
+    {
+      "kind": "point",
+      "text": "Chennai Port separately handled 9,929 TEUs in a single day on October 25, 2026 - its highest daily throughput in 5 years.",
+      "narration": "Chennai Port separately handled nine thousand nine hundred twenty-nine T-E-Us in a single day on October twenty-fifth, twenty twenty-six - its highest daily throughput in five years."
+    },
+    {
+      "kind": "closer",
+      "text": "Two records, one month apart, at the same terminal.",
+      "sub": "That's not a lucky spike - it's a port handling more cargo, faster, than it has in ten years.",
+      "narration": "Two records, one month apart, at the same terminal. That's not a lucky spike - it's a port handling more cargo, faster, than it has in ten years."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A Chennai port terminal just set its highest container record in a decade. And broke its own record from the month before.\n\nChennai Container Terminal, operated by DP World, reportedly handled 93,804 TEUs across 36 vessels in October 2026 - its highest monthly throughput in a decade, beating its own prior record of 89,743 TEUs set just one month earlier. Chennai Port separately handled 9,929 TEUs in a single day on October 25, 2026 - its highest daily throughput in 5 years.\n\nTwo records, one month apart, at the same terminal. That's a port handling more cargo, faster, than it has in ten years.\n\nSources: India Shipping News, DT Next (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#PortsOfIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
