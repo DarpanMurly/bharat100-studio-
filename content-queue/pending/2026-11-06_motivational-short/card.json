@@ -39,5 +39,9 @@
   "scheduledAt": "2026-11-06T19:54:49.774Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mzo6cjffhr2s",
   "blueskyPostedAt": "2026-11-06T20:00:39.255Z",
-  "facebookFirstCommentId": "2794647517618602_1101446212687735"
+  "facebookFirstCommentId": "2794647517618602_1101446212687735",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DfaaCgskc3K/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DfaZ-BQK8mh"
+  }
 }

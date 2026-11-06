@@ -47,5 +47,9 @@
   "mastodonScheduledAt": "2026-11-06T19:37:46.032Z",
   "scheduledAt": "2026-11-06T19:54:28.622Z",
   "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3mzo6chkgyh2g",
-  "blueskyPostedAt": "2026-11-06T20:00:37.322Z"
+  "blueskyPostedAt": "2026-11-06T20:00:37.322Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DfaaAwQDsnH/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DfaZ6U_hTIx"
+  }
 }
