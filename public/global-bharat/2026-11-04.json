@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He was born in India. In October 2026, he was elected mayor of a Canadian mountain town."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Harshan Ramadass was elected Mayor of Fernie, British Columbia, on October 17, 2026",
+      "body": "He won with 54.5% of the vote - 1,524 votes to fellow councillor Kyle Hamilton's 1,194 - in BC's 2026 municipal elections, after previously serving as a Fernie city councillor."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "The bigger picture",
+      "headline": "He's one of at least two Indo-Canadian leaders elected mayor in British Columbia's 2026 local elections.",
+      "body": "From city councillor to mayor, his path shows how deeply Indian-origin leaders are now embedded in municipal government in small-town Canada, not just its major cities."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when India-born leaders run town councils as readily as tech companies.",
+      "body": "Ramadass's win is a reminder that Indian-origin political representation abroad now reaches well beyond national capitals and major metros."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "My East Kootenay Now - Ramadass elected as Fernie's mayor",
+      "url": "https://www.myeastkootenaynow.com/58909/news/elections/2026-municipal-election/ramadass-elected-as-fernies-mayor/"
+    },
+    {
+      "text": "Deccan Chronicle - India-born Harshan Ramadass wins Fernie mayoral race",
+      "url": "https://www.deccanchronicle.com/amp/nation/world/two-indo-canadian-leaders-elected-mayors-in-british-columbia-1997158"
+    }
+  ]
+}

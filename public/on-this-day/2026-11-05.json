@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1817",
+      "headline": "A battle near Pune decided the fate of an empire that had ruled for over a century."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "The Battle of Khadki was fought November 5, 1817, near Pune.",
+      "body": "East India Company forces defeated the army of Peshwa Baji Rao II in a decisive early battle of the Third Anglo-Maratha War."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "The defeat led directly to the fall of the Peshwa and British annexation of Pune.",
+      "body": "It marked the effective end of over a century of Maratha Empire rule in the region - one of the pivotal military turning points of early 19th-century Indian history."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Understanding how power actually shifted in India's past is part of building clearly toward its future.",
+      "body": "Khadki is a reminder that the map of modern India was shaped by battles, treaties and negotiations long before 1947 - history worth knowing on its own terms."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Battle of Khadki",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Khadki"
+    },
+    {
+      "text": "FIBIS - Battle of Kirkee",
+      "url": "https://wiki.fibis.org/w/Battle_of_Kirkee"
+    }
+  ]
+}

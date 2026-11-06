@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1929",
+      "headline": "She multiplied two 13-digit numbers in 28 seconds. No calculator, no paper."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she was",
+      "headline": "Shakuntala Devi, the 'Human Computer,' was born November 4, 1929, in Bangalore.",
+      "body": "In June 1980, Imperial College London's Computer Department verified her multiplying two randomly generated 13-digit numbers correctly in 28 seconds - a feat that entered the 1982 Guinness Book of World Records."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it stuck",
+      "headline": "Her mental arithmetic feats made her a global phenomenon decades before anyone talked about Indian talent in STEM.",
+      "body": "Google marked her 84th birth anniversary with a Doodle in 2013 - recognition that outlasted her lifetime and crossed into how the world remembers Indian mathematical talent."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still runs on the same raw mathematical talent Devi showed the world decades ago.",
+      "body": "Her career is a reminder that India's claim to mathematical excellence isn't a recent story - it's one the world has been watching for generations."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Shakuntala Devi",
+      "url": "https://en.wikipedia.org/wiki/Shakuntala_Devi"
+    },
+    {
+      "text": "NBC News - 'Human Computer' Shakuntala Devi Dies at 83",
+      "url": "https://www.nbcnews.com/news/amp/wbna51677659"
+    }
+  ]
+}

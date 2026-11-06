@@ -1,0 +1,48 @@
+{
+  "id": "gstoct26",
+  "title": "India's GST collections just posted their fastest growth of the fiscal year",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-05",
+  "sources": [
+    "News on Air - India's gross GST collections rise 23% to Rs 2.31 lakh crore in October",
+    "Angel One / IBEF - India's net GST collections surge 25.6% to Rs 2.03 trillion in October 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's GST collections just posted their fastest growth of the fiscal year.",
+      "sub": "25.6% higher than last October.",
+      "narration": "India's G-S-T collections just posted their fastest growth of the fiscal year. Twenty-five point six percent higher than last October."
+    },
+    {
+      "kind": "stat",
+      "text": "India's net GST collections rose 25.6% year-on-year to Rs 2.03 lakh crore in October 2026 - the fastest net growth of FY27 so far.",
+      "stat": "25.6%",
+      "statLabel": "year-on-year growth in net GST collections, October 2026, the fastest of FY27, per News on Air and Angel One/IBEF citing government data",
+      "narration": "India's net G-S-T collections rose twenty-five point six percent year-on-year to two point oh three lakh crore rupees in October twenty twenty-six - the fastest net growth of F-Y twenty-seven so far."
+    },
+    {
+      "kind": "point",
+      "text": "Gross collections rose about 23% to Rs 2.31 lakh crore. Import-linked GST was the biggest driver, up 42.2% gross, while domestic GST grew a steadier 15.8%.",
+      "narration": "Gross collections rose about twenty-three percent to two point three one lakh crore rupees. Import-linked G-S-T was the biggest driver, up forty-two point two percent gross, while domestic G-S-T grew a steadier fifteen point eight percent."
+    },
+    {
+      "kind": "point",
+      "text": "April through October, cumulative gross GST collections reached Rs 14.78 lakh crore - up 13.2% from the same period last year.",
+      "narration": "April through October, cumulative gross G-S-T collections reached fourteen point seven eight lakh crore rupees - up thirteen point two percent from the same period last year."
+    },
+    {
+      "kind": "closer",
+      "text": "A tax collection number sounds dry.",
+      "sub": "But this one is tracking actual spending and imports moving faster than they have all year - a real-time read on the economy, not a forecast.",
+      "narration": "A tax collection number sounds dry. But this one is tracking actual spending and imports moving faster than they have all year - a real-time read on the economy, not a forecast."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's GST collections just posted their fastest growth of the fiscal year. 25.6% higher than last October.\n\nIndia's net GST collections rose 25.6% year-on-year to Rs 2.03 lakh crore in October 2026 - the fastest net growth of FY27 so far. Gross collections rose about 23% to Rs 2.31 lakh crore, with import-linked GST up 42.2% and domestic GST up a steadier 15.8%. April-October cumulative gross collections reached Rs 14.78 lakh crore, up 13.2% year-on-year.\n\nA tax collection number sounds dry. But this one is a real-time read on the economy, not a forecast.\n\nSources: News on Air, Angel One/IBEF, citing government data (2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#India2047", "#GST"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

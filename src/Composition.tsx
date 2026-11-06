@@ -68,9 +68,11 @@ import gangaexp26 from "./scripts/gangaexp26.json";
 import gangwal26 from "./scripts/gangwal26.json";
 import garg26 from "./scripts/garg26.json";
 import gavini26 from "./scripts/gavini26.json";
+import gdpq1fy27 from "./scripts/gdpq1fy27.json";
 import ghosh26 from "./scripts/ghosh26.json";
 import ghoshvaibhav26 from "./scripts/ghoshvaibhav26.json";
 import grseraichak26 from "./scripts/grseraichak26.json";
+import gstoct26 from "./scripts/gstoct26.json";
 import h2train26 from "./scripts/h2train26.json";
 import h2vessel26 from "./scripts/h2vessel26.json";
 import icgsajit26 from "./scripts/icgsajit26.json";
@@ -189,9 +191,11 @@ const scriptRegistry: Record<string, VideoScript> = {
   "gangwal26": gangwal26 as VideoScript,
   "garg26": garg26 as VideoScript,
   "gavini26": gavini26 as VideoScript,
+  "gdpq1fy27": gdpq1fy27 as VideoScript,
   "ghosh26": ghosh26 as VideoScript,
   "ghoshvaibhav26": ghoshvaibhav26 as VideoScript,
   "grseraichak26": grseraichak26 as VideoScript,
+  "gstoct26": gstoct26 as VideoScript,
   "h2train26": h2train26 as VideoScript,
   "h2vessel26": h2vessel26 as VideoScript,
   "icgsajit26": icgsajit26 as VideoScript,
