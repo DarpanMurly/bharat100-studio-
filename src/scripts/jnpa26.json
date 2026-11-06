@@ -1,0 +1,47 @@
+{
+  "id": "jnpa26",
+  "title": "A Navi Mumbai port just moved more containers in a single month than ever before",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-06",
+  "sources": [
+    "Maritime Gateway - JNPA container throughput hits record 834,697 TEUs in September 2026",
+    "India Shipping News - JNPA sets new all-time high with record container throughput"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Navi Mumbai port just moved more containers in a single month than ever before.",
+      "sub": "Breaking its own record from just one month earlier."
+    },
+    {
+      "kind": "stat",
+      "text": "Jawaharlal Nehru Port Authority handled 834,697 TEUs in September 2026 - its highest-ever monthly container volume, up 28.63% year-on-year.",
+      "stat": "834,697 TEUs",
+      "statLabel": "JNPA's September 2026 container throughput, an all-time monthly record, up 28.63% year-on-year, per Maritime Gateway and India Shipping News",
+      "narration": "Jawaharlal Nehru Port Authority handled eight hundred thirty-four thousand six hundred ninety-seven TEUs in September twenty twenty-six - its highest-ever monthly container volume, up twenty-eight point six three percent year-on-year."
+    },
+    {
+      "kind": "point",
+      "text": "That edges past the previous record of 831,956 TEUs, set just one month earlier in August 2026. Total cargo handled was 9.90 million tonnes, up 18.39% year-on-year.",
+      "narration": "That edges past the previous record of eight hundred thirty-one thousand nine hundred fifty-six TEUs, set just one month earlier in August twenty twenty-six. Total cargo handled was nine point nine million tonnes, up eighteen point three nine percent year-on-year."
+    },
+    {
+      "kind": "point",
+      "text": "For the first half of FY27 - April through September - JNPA handled 4.66 million TEUs, up 17.61% year-on-year, and climbed from 28th to 21st in Alphaliner's global container port ranking.",
+      "narration": "For the first half of F-Y twenty-seven - April through September - J-N-P-A handled four point six six million T-E-Us, up seventeen point six one percent year-on-year, and climbed from twenty-eighth to twenty-first in Alphaliner's global container port ranking."
+    },
+    {
+      "kind": "closer",
+      "text": "A port doesn't make headlines the way a rocket launch does.",
+      "sub": "But every record it breaks is cargo that moved faster, cheaper, and on time - the kind of growth that shows up in prices, not photos.",
+      "narration": "A port doesn't make headlines the way a rocket launch does. But every record it breaks is cargo that moved faster, cheaper, and on time - the kind of growth that shows up in prices, not photos."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A Navi Mumbai port just moved more containers in a single month than ever before. Breaking its own record from just one month earlier.\n\nJawaharlal Nehru Port Authority handled 834,697 TEUs in September 2026 - its highest-ever monthly container volume, up 28.63% year-on-year, edging past August's record of 831,956 TEUs. Total cargo handled was 9.90 million tonnes, up 18.39%. For H1 FY27, JNPA handled 4.66 million TEUs, up 17.61%, and climbed from 28th to 21st in Alphaliner's global container port ranking.\n\nA port doesn't make headlines the way a rocket launch does. But every record it breaks shows up in prices, not photos.\n\nSources: Maritime Gateway, India Shipping News (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#PortsOfIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

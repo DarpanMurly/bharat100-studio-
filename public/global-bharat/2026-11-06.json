@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She grew up in a Telangana village. In September 2026, she became mayor of an Australian city."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sandhya 'Sandy' Reddy was elected Mayor of Strathfield Council, Sydney, on September 29, 2026",
+      "body": "Born in Telangana, India, she moved to Australia in 1991 after completing her education at Stanley College and Osmania University in Hyderabad. She now works as a migration and education consultant."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How she got there",
+      "headline": "She built her political career step by step - elected councillor in 2021, Deputy Mayor in 2023, and now mayor.",
+      "body": "Among the first Indian-origin mayors elected in Australia, her path shows how local government representation for Indian-origin leaders abroad is being built from the ground up, not handed down."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when Indian-origin leaders run city councils, not just corporate boardrooms.",
+      "body": "Reddy's path from a Telangana village to a Sydney mayor's office is a reminder that Indian-origin success abroad increasingly shows up in municipal government, close to where people actually live."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Telangana Today - Telangana native Sandy Reddy elected Strathfield Mayor in Australia",
+      "url": "https://telanganatoday.com/telangana-native-sandy-reddy-elected-strathfield-mayor-in-australia"
+    },
+    {
+      "text": "NewKerala - Telangana CM congratulates Sandhya Reddy becoming mayor Strathfield",
+      "url": "https://www.newkerala.com/news/a/telangana-cm-congratulates-sandhya-reddy-becoming-mayor-strathfield-183.htm"
+    }
+  ]
+}

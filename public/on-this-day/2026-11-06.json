@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1913",
+      "headline": "He led over 2,000 miners and laborers across a border - and got arrested for it. Twice."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 6, 1913, Mohandas Gandhi led roughly 2,221 Indian miners and laborers across the Natal-Transvaal border at Volksrust, South Africa.",
+      "body": "The non-violent march protested a discriminatory £3 tax on former indentured Indians and a law invalidating Hindu and Muslim marriages. Gandhi was arrested that day, released on bail, rejoined the march, and was arrested again."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it led to",
+      "headline": "The satyagraha campaign led directly to the Indian Relief Act of 1914, which scrapped the tax.",
+      "body": "It was one of the defining early demonstrations of organized, non-violent mass resistance - a method Gandhi would later bring home to India's own independence movement."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still draws on the idea that organized, disciplined resistance can change unjust laws without violence.",
+      "body": "The Volksrust march is a reminder that India's influence on global movements for justice predates its own independence by decades."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "South African History Online - Mohandas K. Gandhi arrested as he leads march of Indian miners",
+      "url": "https://sahistory.org.za/dated-event/mohandas-k-gandhi-arrested-he-leads-march-indian-miners-south-africa"
+    },
+    {
+      "text": "Byju's - This Day in History, November 6",
+      "url": "https://byjus.com/free-ias-prep/this-day-in-history-nov6"
+    }
+  ]
+}

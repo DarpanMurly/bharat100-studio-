@@ -83,6 +83,7 @@ import ironlady26 from "./scripts/ironlady26.json";
 import isrochip26 from "./scripts/isrochip26.json";
 import jainwolf26 from "./scripts/jainwolf26.json";
 import jaysehgal26 from "./scripts/jaysehgal26.json";
+import jnpa26 from "./scripts/jnpa26.json";
 import kalpanasaroj26 from "./scripts/kalpanasaroj26.json";
 import kavach26 from "./scripts/kavach26.json";
 import kaynessemicon26 from "./scripts/kaynessemicon26.json";
@@ -206,6 +207,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "isrochip26": isrochip26 as VideoScript,
   "jainwolf26": jainwolf26 as VideoScript,
   "jaysehgal26": jaysehgal26 as VideoScript,
+  "jnpa26": jnpa26 as VideoScript,
   "kalpanasaroj26": kalpanasaroj26 as VideoScript,
   "kavach26": kavach26 as VideoScript,
   "kaynessemicon26": kaynessemicon26 as VideoScript,
