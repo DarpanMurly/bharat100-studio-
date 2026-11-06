@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-07_chennaiport26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 211,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-11-06T19:42:56.937Z",
+  "scheduledAt": "2026-11-07T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6aee2dca229bf05daf0736a6",
+    "X": "6aee2dcc229bf05daf073701",
+    "Threads": "6aee2dcea7751de7c9a3dd7e"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "QIXOautoOmg",
+  "youtubeUrl": "https://youtube.com/watch?v=QIXOautoOmg",
+  "youtubeScheduledAt": "2026-11-07T13:30:00.000Z",
+  "facebookPostId": "1655546766224491",
+  "facebookScheduledAt": "2026-11-07T13:30:00.000Z",
+  "mastodonStatusId": "291302",
+  "mastodonScheduledAt": "2026-11-07T13:30:00.000Z"
 }
