@@ -110,6 +110,7 @@ import parassemi26 from "./scripts/parassemi26.json";
 import pfbr26 from "./scripts/pfbr26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
+import pmioct26 from "./scripts/pmioct26.json";
 import pmrc26 from "./scripts/pmrc26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
 import punemetro26 from "./scripts/punemetro26.json";
@@ -235,6 +236,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "pfbr26": pfbr26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "pixxel26": pixxel26 as VideoScript,
+  "pmioct26": pmioct26 as VideoScript,
   "pmrc26": pmrc26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
   "punemetro26": punemetro26 as VideoScript,

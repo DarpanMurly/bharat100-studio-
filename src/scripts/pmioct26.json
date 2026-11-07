@@ -1,0 +1,46 @@
+{
+  "id": "pmioct26",
+  "title": "India's factories just kept expanding - and export orders hit a 6-month high",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-08",
+  "sources": [
+    "Trading Economics - India Manufacturing PMI, October 2026",
+    "Current Affairs Adda247 - India Manufacturing PMI October 2026: Index falls to 54.7, export orders reach six-month high"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's factories just kept expanding.",
+      "sub": "And export orders just hit a 6-month high."
+    },
+    {
+      "kind": "stat",
+      "text": "India's Manufacturing PMI stood at 54.7 in October 2026, comfortably above the 50-mark that separates expansion from contraction.",
+      "stat": "54.7",
+      "statLabel": "India's Manufacturing PMI, October 2026, firmly in expansion territory, per S&P Global/HSBC data via Trading Economics and Adda247",
+      "narration": "India's Manufacturing P-M-I stood at fifty-four point seven in October twenty twenty-six, comfortably above the fifty mark that separates expansion from contraction."
+    },
+    {
+      "kind": "point",
+      "text": "The headline number eased slightly from September - but new export orders grew at their fastest pace in six months, the strongest signal of external demand in the entire dataset.",
+      "narration": "The headline number eased slightly from September - but new export orders grew at their fastest pace in six months, the strongest signal of external demand in the entire dataset."
+    },
+    {
+      "kind": "point",
+      "text": "A slowing headline number with accelerating export orders means factories are producing more for overseas buyers even as the overall pace of growth settles."
+    },
+    {
+      "kind": "closer",
+      "text": "A single number can hide what's actually happening underneath it.",
+      "sub": "This month, the number eased - but the part that matters for exports just got stronger.",
+      "narration": "A single number can hide what's actually happening underneath it. This month, the number eased - but the part that matters for exports just got stronger."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's factories just kept expanding - for yet another month. And export orders just hit a 6-month high.\n\nIndia's Manufacturing PMI stood at 54.7 in October 2026, comfortably above the 50-mark that separates expansion from contraction. The headline number eased slightly from September, but new export orders grew at their fastest pace in six months - the strongest signal of external demand in the dataset.\n\nA single number can hide what's actually happening underneath it. This month, the number eased - but the part that matters for exports just got stronger.\n\nSources: Trading Economics, Current Affairs Adda247, citing S&P Global/HSBC data (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#Manufacturing"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

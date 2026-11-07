@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He was born in a Punjab village. In 2026, he became the first Australian to win horticulture's top global honor."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Prof. Zora Singh won the American Society for Horticultural Science's 2026 Outstanding International Horticulturist Award",
+      "body": "Born in village Aitiana, Ludhiana, Punjab, on August 10, 1956, he earned his BSc, MSc and PhD at Punjab Agricultural University before a postdoc in the UK and a move to Australia in the 1990s."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he's known for",
+      "headline": "Now Foundation Professor of Horticultural Science at Edith Cowan University, he's spent over three decades researching fruit shelf life and quality.",
+      "body": "The ASHS award is described as the field's highest global honor - and he's the first Australian ever to receive it, after a career built entirely on a Punjab Agricultural University education."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when an agricultural science degree from Ludhiana becomes the foundation for a field-defining global career.",
+      "body": "Singh's path - from a Punjab village to Australia's top horticulture chair - shows how far an Indian agricultural science education can carry someone who takes it seriously."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "National Academy of Agricultural Sciences - Prof. Zora Singh biographical profile",
+      "url": "https://naas.org.in/detail.php?id=906"
+    },
+    {
+      "text": "Indian Link - The shelf life scientist: Prof Zora Singh wins world honour in horticulture",
+      "url": "https://www.indianlink.com.au/the-shelf-life-scientist-prof-zora-singh-wins-world-honour-in-horticulture/"
+    }
+  ]
+}

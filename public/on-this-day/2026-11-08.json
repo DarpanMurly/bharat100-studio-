@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1917",
+      "headline": "She built India's first tissue culture lab. Then, after retiring, she trained rural women as health workers."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who she was",
+      "headline": "Dr. Kamal Ranadive was born November 8, 1917, in Pune.",
+      "body": "A cell biologist, she founded India's first tissue culture research laboratory at the Indian Cancer Research Centre in Mumbai in the 1960s, and was among the first to propose links between heredity and breast cancer."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she did after retiring",
+      "headline": "In 1989, after her formal retirement, she began training rural women in Maharashtra as community health workers.",
+      "body": "A career that started in a cancer research lab ended by putting basic healthcare knowledge directly into the hands of rural women - work recognized with a Padma Bhushan."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat needs both frontier research and the grassroots health workers who carry its benefits to every village.",
+      "body": "Ranadive's career is a reminder that scientific achievement and rural upliftment aren't separate goals - the same person built both."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The News Minute - Cancer research pioneer Dr. Kamal Ranadive honoured with Google Doodle on 104th birth anniversary",
+      "url": "https://www.thenewsminute.com/news/cancer-research-pioneer-dr-kamal-ranadive-honoured-google-doodle-104th-b-day-157359"
+    },
+    {
+      "text": "Deccan Herald - Google Doodle celebrates cancer research pioneer Kamal Ranadive's birthday",
+      "url": "https://www.deccanherald.com/india/google-doodle-celebrates-cancer-research-pioneer-kamal-ranadives-birthday-1048344.html"
+    }
+  ]
+}
