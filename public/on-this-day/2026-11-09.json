@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2000",
+      "headline": "On this day, India got its 27th state - and it took seven more years to get its own name back."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Uttarakhand was carved out of Uttar Pradesh on November 9, 2000.",
+      "body": "Formed under the Uttar Pradesh Reorganisation Act, 2000, the new state capped decades of a grassroots hill-state movement rooted in the distinct geography and economy of the Garhwal and Kumaon regions, versus the UP plains."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why the name changed",
+      "headline": "It was first named Uttaranchal - and renamed Uttarakhand on January 1, 2007.",
+      "body": "The rename followed sustained public demand to restore the region's historic name. Dehradun became the state capital, and November 9 is now marked every year as Uttarakhand Diwas."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is built state by state, each shaped to fit the people it actually serves.",
+      "body": "Uttarakhand's creation was a bet that a hill region with its own needs would develop faster as its own state than as a distant corner of a much larger one - a bet the state's growth since has largely paid off."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "India TV News - Uttarakhand Foundation Day: What was name of state when it was founded, why was it being changed",
+      "url": "https://www.indiatvnews.com/news/india/uttarakhand-foundation-day-what-was-name-of-state-when-it-was-founded-why-was-it-being-changed-uttaranchal-history-2025-11-09-1016541"
+    },
+    {
+      "text": "Free Press Journal - Uttarakhand Foundation Day: Know History, Significance of Day That Marks Foundation of 27th Indian State",
+      "url": "https://www.freepressjournal.in/lifestyle/uttarakhand-diwas-2023-know-history-significance-of-day-that-marks-foundation-of-27th-indian-state"
+    }
+  ]
+}

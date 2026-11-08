@@ -127,6 +127,7 @@ import sanjeevarora26 from "./scripts/sanjeevarora26.json";
 import semicabinet26 from "./scripts/semicabinet26.json";
 import semicon2 from "./scripts/semicon2.json";
 import semiconductors from "./scripts/semiconductors.json";
+import servicespmioct26 from "./scripts/servicespmioct26.json";
 import shikharsingh26 from "./scripts/shikharsingh26.json";
 import shivangi26 from "./scripts/shivangi26.json";
 import skills2030 from "./scripts/skills2030.json";
@@ -253,6 +254,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "semicabinet26": semicabinet26 as VideoScript,
   "semicon2": semicon2 as VideoScript,
   "semiconductors": semiconductors as VideoScript,
+  "servicespmioct26": servicespmioct26 as VideoScript,
   "shikharsingh26": shikharsingh26 as VideoScript,
   "shivangi26": shivangi26 as VideoScript,
   "skills2030": skills2030 as VideoScript,
