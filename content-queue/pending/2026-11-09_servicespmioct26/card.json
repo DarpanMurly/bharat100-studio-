@@ -40,5 +40,9 @@
   "facebookPostId": "1439042555100555",
   "facebookScheduledAt": "2026-11-09T13:30:00.000Z",
   "mastodonStatusId": "291733",
-  "mastodonScheduledAt": "2026-11-09T13:30:00.000Z"
+  "mastodonScheduledAt": "2026-11-09T13:30:00.000Z",
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "pL0kaUsLH40",
+  "youtubeUrl": "https://youtube.com/watch?v=pL0kaUsLH40",
+  "youtubeScheduledAt": "2026-11-09T13:30:00.000Z"
 }
