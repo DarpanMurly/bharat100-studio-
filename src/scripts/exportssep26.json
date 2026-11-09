@@ -1,0 +1,46 @@
+{
+  "id": "exportssep26",
+  "title": "India's exports just jumped 23% in a single month",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-10",
+  "sources": [
+    "Business Today - India exports rise to $44.4 billion in September, trade deficit narrows to $30.21 billion",
+    "Deccan Herald - India's trade deficit widens to $30.21 billion in September, citing Commerce Ministry data"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's exports just jumped 23% in a single month.",
+      "sub": "Against the same month last year."
+    },
+    {
+      "kind": "stat",
+      "text": "India's merchandise exports rose 23.04% year-on-year to 44.40 billion dollars in September 2026, up from 36.08 billion dollars in September 2025, per Commerce Ministry data.",
+      "stat": "+23.04%",
+      "statLabel": "year-on-year growth in India's merchandise exports, September 2026, to $44.40 billion, per Commerce Ministry data via Business Today and Deccan Herald",
+      "narration": "India's merchandise exports rose twenty three point oh four percent year on year to forty four point four billion dollars in September twenty twenty-six, up from thirty six point oh eight billion dollars in September twenty twenty-five, per Commerce Ministry data."
+    },
+    {
+      "kind": "point",
+      "text": "The Commerce Secretary credited engineering goods, electronics, petroleum products, and chemicals - with oil exports up 32% and non-oil exports up 22%.",
+      "narration": "The Commerce Secretary credited engineering goods, electronics, petroleum products, and chemicals - with oil exports up thirty two percent and non-oil exports up twenty two percent."
+    },
+    {
+      "kind": "point",
+      "text": "Cumulative exports for April to September this fiscal year reached 259.89 billion dollars, up 18.51% year-on-year - a broad, multi-sector acceleration, not a one-month spike."
+    },
+    {
+      "kind": "closer",
+      "text": "A single strong month can be a fluke.",
+      "sub": "Six straight months of double-digit growth is a trend.",
+      "narration": "A single strong month can be a fluke. Six straight months of double digit growth is a trend."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's exports just jumped 23% in a single month - against the same month last year.\n\nIndia's merchandise exports rose 23.04% year-on-year to $44.40 billion in September 2026, up from $36.08 billion in September 2025, per Commerce Ministry data. The Commerce Secretary credited engineering goods, electronics, petroleum products, and chemicals, with oil exports up 32% and non-oil exports up 22%. Cumulative exports for April-September this fiscal year reached $259.89 billion, up 18.51% year-on-year.\n\nA single strong month can be a fluke. Six straight months of double-digit growth is a trend.\n\nSources: Business Today, Deccan Herald, citing Commerce Ministry data (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#ExportsGrowth"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
