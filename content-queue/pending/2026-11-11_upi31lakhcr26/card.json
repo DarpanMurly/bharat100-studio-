@@ -20,7 +20,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-11_upi31lakhcr26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 277,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -29,5 +29,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-11-10T20:25:12.459Z",
+  "scheduledAt": "2026-11-11T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6af37db041bc75bbeb604123",
+    "X": "6af37db2ead9c53d41bb803b",
+    "Threads": "6af37db4e4acfdf0c706a2b0"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "NTTkCHTCaNg",
+  "youtubeUrl": "https://youtube.com/watch?v=NTTkCHTCaNg",
+  "youtubeScheduledAt": "2026-11-11T13:30:00.000Z",
+  "facebookPostId": "2531269813950659",
+  "facebookScheduledAt": "2026-11-11T13:30:00.000Z",
+  "mastodonStatusId": "292149",
+  "mastodonScheduledAt": "2026-11-11T13:30:00.000Z"
 }
