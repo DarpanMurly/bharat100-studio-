@@ -1,0 +1,46 @@
+{
+  "id": "upi31lakhcr26",
+  "title": "A month after crossing 800 million transactions a day, UPI just broke its own record again",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-11",
+  "sources": [
+    "Entrepreneur India - UPI Hits Record 25.47 Bn Transactions in October, Daily Value Crosses INR 1 L.Cr",
+    "Outlook Money - UPI average daily transaction value crosses Rs 1 lakh crore for first time ever in October"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A month after crossing 800 million transactions a day, UPI just broke its own record again.",
+      "sub": "This time, the average day crossed Rs 1 lakh crore."
+    },
+    {
+      "kind": "stat",
+      "text": "UPI processed a record 25.47 billion transactions worth Rs 31.53 lakh crore in October 2026 - and for the first time ever, the average daily transaction value crossed Rs 1 lakh crore.",
+      "stat": "Rs 31.53L Cr",
+      "statLabel": "total UPI transaction value, October 2026, an all-time monthly record, per Entrepreneur India and Outlook Money citing NPCI data",
+      "narration": "U-P-I processed a record twenty-five point four seven billion transactions worth thirty-one point five three lakh crore rupees in October twenty twenty-six - and for the first time ever, the average daily transaction value crossed one lakh crore rupees."
+    },
+    {
+      "kind": "point",
+      "text": "That's up from September's 24.07 billion transactions - a 5.8% rise in volume and a 7.4% rise in value in just one month, driven by festive-season spending.",
+      "narration": "That's up from September's twenty-four point zero seven billion transactions - a five point eight percent rise in volume and a seven point four percent rise in value in just one month, driven by festive season spending."
+    },
+    {
+      "kind": "point",
+      "text": "Year-on-year, volume grew roughly 23% and value grew roughly 16% compared to October 2025 - back-to-back monthly records, not a one-time festive blip."
+    },
+    {
+      "kind": "closer",
+      "text": "Every record UPI sets gets treated as a ceiling.",
+      "sub": "Every month, it turns out to be a floor.",
+      "narration": "Every record U-P-I sets gets treated as a ceiling. Every month, it turns out to be a floor."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A month after crossing 800 million transactions a day, UPI just broke its own record again. This time, the average day crossed Rs 1 lakh crore.\n\nUPI processed a record 25.47 billion transactions worth Rs 31.53 lakh crore in October 2026 - and for the first time ever, the average daily transaction value crossed Rs 1 lakh crore. That's up from September's 24.07 billion transactions, a 5.8% rise in volume and 7.4% rise in value in just one month. Year-on-year, volume grew roughly 23% and value grew roughly 16% compared to October 2025.\n\nEvery record UPI sets gets treated as a ceiling. Every month, it turns out to be a floor.\n\nSources: Entrepreneur India, Outlook Money, citing NPCI data (2026)",
+  "hashtags": ["#Bharat100", "#DigitalIndia", "#India2047", "#UPI"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

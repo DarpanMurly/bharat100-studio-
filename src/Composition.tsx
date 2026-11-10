@@ -141,6 +141,7 @@ import suri26 from "./scripts/suri26.json";
 import tandon26 from "./scripts/tandon26.json";
 import tehripsp26 from "./scripts/tehripsp26.json";
 import thakorpatel26 from "./scripts/thakorpatel26.json";
+import upi31lakhcr26 from "./scripts/upi31lakhcr26.json";
 import upi800m26 from "./scripts/upi800m26.json";
 import vijaygupta26 from "./scripts/vijaygupta26.json";
 import vizhinjam26 from "./scripts/vizhinjam26.json";
@@ -269,6 +270,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "tandon26": tandon26 as VideoScript,
   "tehripsp26": tehripsp26 as VideoScript,
   "thakorpatel26": thakorpatel26 as VideoScript,
+  "upi31lakhcr26": upi31lakhcr26 as VideoScript,
   "upi800m26": upi800m26 as VideoScript,
   "vijaygupta26": vijaygupta26 as VideoScript,
   "vizhinjam26": vizhinjam26 as VideoScript,
