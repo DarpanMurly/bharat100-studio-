@@ -1,0 +1,84 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Nov 9",
+      "headline": "4 stories.",
+      "listItems": [
+        "She was born in Kerala. On November 3, 2026, she was elected the first South Asian woman to lead Los Angeles.",
+        "She started making ice cream at home during the 2020 lockdown. By 2026, her business crossed Rs 30 lakh a year.",
+        "On this day, India got its 27th state - and it took seven more years to get its own name back.",
+        "India's services sector just hit a 4-month high. And input costs just hit a 6-year low."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Nov 10",
+      "headline": "3 stories.",
+      "listItems": [
+        "India's exports just jumped 23% in a single month - against the same month last year.",
+        "His parents immigrated from India to Georgia. On November 3, 2026, he became the first Sikh ever elected to its state legislature.",
+        "He passed the toughest exam of the British Raj - then got dismissed on a technicality. It made him a founder of Indian politics."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Nov 11",
+      "headline": "2 stories.",
+      "listItems": [
+        "He became Congress president at 35 - then spent over a decade building the system that still educates India today.",
+        "A month after crossing 800 million transactions a day, UPI just broke its own record again. This time, the average day crossed Rs 1 lakh crore."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Nov 12",
+      "headline": "2 stories.",
+      "listItems": [
+        "A Gujarat port just broke its own fastest-ever record. By breaking it even faster than before.",
+        "He founded a university that still runs today. Decades later, India gave him its highest civilian honor - after he was gone."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Nov 13",
+      "headline": "1 story.",
+      "listItems": [
+        "A 12-year-old inherited a small chiefdom. By the time he was done, he ruled an empire that stretched from Kabul to Tibet."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Nov 14",
+      "headline": "2 stories.",
+      "listItems": [
+        "He was born and educated in India. Now he runs one of the world's biggest beer companies.",
+        "He spent his life reading the story written in stone - fossilized plants that proved India's past stretched back hundreds of millions of years."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Nov 15",
+      "headline": "1 story.",
+      "listItems": [
+        "He led a tribal uprising against colonial exploitation. India now marks his birthday as a national day of pride."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}
