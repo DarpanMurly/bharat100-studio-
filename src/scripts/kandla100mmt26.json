@@ -1,0 +1,46 @@
+{
+  "id": "kandla100mmt26",
+  "title": "A Gujarat port just broke its own fastest-ever record - by breaking it even faster",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-12",
+  "sources": [
+    "Maritime Gateway - Deendayal Port Crosses 100 Million Tonnes of Cargo Throughput 51 Days Ahead of Schedule",
+    "Maritime Gateway - Deendayal Port Kandla Sets New National Record With 9.63 Lakh Tonnes Handled in a Day"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A Gujarat port just broke its own fastest-ever record.",
+      "sub": "By breaking it even faster than before."
+    },
+    {
+      "kind": "stat",
+      "text": "Deendayal Port in Kandla, Gujarat, crossed 100 million tonnes of cargo for the financial year on October 6, 2026 - 51 days faster than it reached the same milestone the year before, which was itself the fastest ever at the time.",
+      "stat": "51 days faster",
+      "statLabel": "Deendayal Port Kandla's improvement in reaching 100 million tonnes of cargo this financial year, per Maritime Gateway",
+      "narration": "Deendayal Port in Kandla, Gujarat, crossed one hundred million tonnes of cargo for the financial year on October sixth, twenty twenty-six - fifty-one days faster than it reached the same milestone the year before, which was itself the fastest ever at the time."
+    },
+    {
+      "kind": "point",
+      "text": "Weeks earlier, the same port set a new all-India record, moving 9,63,951 metric tonnes of cargo in a single 24-hour period - surpassing its own previous national record of 9,03,904 tonnes, set less than a month before.",
+      "narration": "Weeks earlier, the same port set a new all India record, moving nine lakh sixty-three thousand nine hundred fifty-one metric tonnes of cargo in a single twenty-four hour period - surpassing its own previous national record of nine lakh three thousand nine hundred four tonnes, set less than a month before."
+    },
+    {
+      "kind": "point",
+      "text": "One port, breaking its own national cargo record twice in a month, then beating its own fastest-ever annual pace on top of it - not a single lucky number, but a pattern of a port getting faster every time it's measured."
+    },
+    {
+      "kind": "closer",
+      "text": "A port that sets one record is having a good month.",
+      "sub": "A port that keeps breaking its own records is building a different kind of capacity entirely.",
+      "narration": "A port that sets one record is having a good month. A port that keeps breaking its own records is building a different kind of capacity entirely."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "A Gujarat port just broke its own fastest-ever record. By breaking it even faster than before.\n\nDeendayal Port in Kandla, Gujarat, crossed 100 million tonnes of cargo for the financial year on October 6, 2026 - 51 days faster than it reached the same milestone the year before, which was itself the fastest ever at the time. Weeks earlier, the same port set a new all-India record, moving 9,63,951 metric tonnes of cargo in a single 24-hour period, surpassing its own previous national record of 9,03,904 tonnes set less than a month before.\n\nA port that sets one record is having a good month. A port that keeps breaking its own records is building a different kind of capacity entirely.\n\nSources: Maritime Gateway (2026)",
+  "hashtags": ["#Bharat100", "#MakeInIndia", "#India2047", "#PortsOfIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
