@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1875",
+      "headline": "He led a tribal uprising against colonial exploitation. India now marks his birthday as a national day of pride."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Birsa Munda was born on November 15, 1875, in Ulihatu village, present-day Jharkhand.",
+      "body": "He led the Ulgulan - the \"Great Tumult\" - a tribal uprising between 1899 and 1900 against British colonial exploitation and the exploitative land practices imposed on tribal communities."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What outlived him",
+      "headline": "His movement directly led to a law that still protects tribal land today.",
+      "body": "The uprising forced the colonial government to pass the Chotanagpur Tenancy Act of 1908, protecting tribal land rights. In 2021, the Indian government instituted his birthday as Janjatiya Gaurav Divas - Tribal Pride Day - honoring tribal freedom fighters nationwide."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat has to remember the fights that protected the people furthest from power.",
+      "body": "Birsa Munda didn't just resist colonial rule - he won a legal protection for tribal land that has outlasted him by more than a century."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "PIB (Ministry of Tribal Affairs) - Janjatiya Gaurav Divas",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1772251"
+    },
+    {
+      "text": "Drishti IAS - Janjatiya Gaurav Divas",
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/janjatiya-gaurav-divas-2"
+    }
+  ]
+}
