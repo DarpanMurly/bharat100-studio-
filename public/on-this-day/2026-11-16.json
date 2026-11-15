@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1915",
+      "headline": "He was executed at 19 for plotting an armed uprising against British rule. Bhagat Singh later carried his photo."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "Who he was",
+      "headline": "Kartar Singh Sarabha was hanged at Lahore Central Jail on November 16, 1915, at age 19.",
+      "body": "A Ghadar Party revolutionary, Sarabha was arrested in March 1915 and convicted in the First Lahore Conspiracy Case for plotting an armed uprising against British colonial rule in Punjab."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What outlived him",
+      "headline": "His conviction didn't end his influence - it spread it.",
+      "body": "Bhagat Singh, then a teenager, is said to have carried Sarabha's photograph and considered him a personal hero, carrying his example forward into the next generation of India's independence movement."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still draws on the example of people who gave everything at an age most are just getting started.",
+      "body": "Sarabha didn't live to see independence - but the movement he died for outlived him by over three decades, carried forward by the people he inspired."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Wikipedia - Kartar Singh Sarabha",
+      "url": "https://en.wikipedia.org/wiki/Kartar_Singh_Sarabha"
+    },
+    {
+      "text": "Scroll.in - The 1915 Ghadar plan to free India from the British was a failure - but it sparked a revolution",
+      "url": "https://scroll.in/article/877029/the-1915-ghadar-plan-to-free-india-from-the-british-was-a-failure-but-it-sparked-a-revolution"
+    }
+  ]
+}

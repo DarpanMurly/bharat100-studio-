@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "She grew up in India, studied at Osmania University - and just won Harvard's highest honor for alumni."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Dr. Anjana Rao was named a 2026 Harvard Centennial Medalist, the Graduate School of Arts and Sciences' highest honor.",
+      "body": "Born in Washington, DC, Rao grew up in India and earned her bachelor's and master's degrees at Osmania University in Hyderabad, before going to Harvard for her PhD in biophysics in 1978."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What she's known for",
+      "headline": "She co-discovered how genes switch on inside immune cells.",
+      "body": "Now a professor at the La Jolla Institute for Immunology and UC San Diego, Rao's work on gene activation mechanisms in T cells has shaped modern immunology and epigenetics."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits every time an Indian university education becomes the foundation for discoveries that shape science worldwide.",
+      "body": "Rao's path - educated in Hyderabad, now honored by Harvard - is one more case of an Indian degree carrying someone to the top of global science."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Harvard GSAS - 2026 Centennial Medalists",
+      "url": "https://gsas.harvard.edu/news/2026-centennial-medalists"
+    },
+    {
+      "text": "New India Abroad - Anjana Rao awarded Harvard's 2026 Centennial Medal",
+      "url": "https://www.newindiaabroad.com/news/anjana-rao-awarded-harvards-2026-centennial-medal"
+    }
+  ]
+}
