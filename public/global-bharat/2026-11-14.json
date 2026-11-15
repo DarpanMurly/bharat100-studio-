@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He was born and educated in India. Now he runs one of the world's biggest beer companies."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Rahul Goyal became President and CEO of Molson Coors Beverage Company, one of the world's largest brewers.",
+      "body": "Born and educated in India, Goyal earned a mechanical engineering degree from Mysore University before moving to the United States to build his career, eventually rising to lead a company that owns brands like Coors, Miller, and Blue Moon."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "How he got here",
+      "headline": "Decades of operations and leadership roles across major global companies led to the top job.",
+      "body": "His appointment put him at the helm of one of the largest beverage companies on earth - built on an engineering foundation he started in an Indian classroom."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits every time an Indian engineering education becomes the foundation for leading a global company.",
+      "body": "Goyal's path - an Indian university degree to the top of a multinational brewer - is one more data point in how far that foundation can carry someone."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "NRI Pulse - Molson Coors Appoints Rahul Goyal As President And CEO",
+      "url": "https://nripulse.com/molson-coors-appoints-rahul-goyal-as-president-and-ceo"
+    },
+    {
+      "text": "Canadian Grocer - Molson Coors Beverage Company Board Names Rahul Goyal President & CEO",
+      "url": "https://canadiangrocer.com/molson-coors-beverage-company-board-names-rahul-goyal-president-ceo"
+    }
+  ]
+}
