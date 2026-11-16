@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1928",
+      "headline": "He was beaten by police for leading a protest. His death radicalized the generation that followed him."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Lala Lajpat Rai died on November 17, 1928, from injuries sustained in a police lathi-charge.",
+      "body": "Known as \"Punjab Kesari\" - the Lion of Punjab - Rai was leading a protest against the Simon Commission in Lahore on October 30, 1928, when police charged the demonstrators. He died 18 days later from his injuries."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it set in motion",
+      "headline": "His death pushed a new generation of revolutionaries toward direct action.",
+      "body": "Bhagat Singh, Rajguru, and Sukhdev - then young revolutionaries - held the police officer they blamed for Rai's death responsible, an episode that marked a turning point in their path toward the independence movement's more militant wing."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still carries forward the resolve of people who paid for their protest with their lives.",
+      "body": "Lajpat Rai didn't live to see independence - but the anger his death provoked became part of the momentum that eventually got the country there."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The Quint - Lala Lajpat Rai: Biography, History & Facts",
+      "url": "https://www.thequint.com/news/india/lala-lajpat-rai-death-anniversary-interesting-facts-quotes-by-freedom-fighter"
+    },
+    {
+      "text": "Free Press Journal - Lala Lajpat Rai Death Anniversary: Know All About The Contribution Of Punjab Kesari",
+      "url": "https://www.freepressjournal.in/india/lala-lajpat-rai-death-anniversary-know-all-about-the-contribution-of-punjab-kesari"
+    }
+  ]
+}
