@@ -27,11 +27,22 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-20_pliimpact26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 224,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
     "X",
     "Threads"
-  ]
+  ],
+  "approvedAt": "2026-11-20T21:19:46.914Z",
+  "scheduledAt": "2026-11-20T21:31:48.369Z",
+  "bufferPostIds": {
+    "Instagram": "6b00b97c20a2d09a0aafb040",
+    "X": "6b00b97e5e993799d82cad53",
+    "Threads": "6b00b97f20a2d09a0aafb265"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "IOG4HpFHPiI",
+  "youtubeUrl": "https://youtube.com/watch?v=IOG4HpFHPiI",
+  "youtubeScheduledAt": "2026-11-20T21:32:04.020Z"
 }
