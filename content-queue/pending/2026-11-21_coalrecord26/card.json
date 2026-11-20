@@ -25,11 +25,22 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-21_coalrecord26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 142,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
     "X",
     "Threads"
-  ]
+  ],
+  "approvedAt": "2026-11-20T21:21:34.813Z",
+  "scheduledAt": "2026-11-21T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6b00b9e9d9cbb430a1f96a09",
+    "X": "6b00b9eb9ffbc8503cd7f9a5",
+    "Threads": "6b00b9ed5102766245d3bbe5"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "_p9pPb4mmlQ",
+  "youtubeUrl": "https://youtube.com/watch?v=_p9pPb4mmlQ",
+  "youtubeScheduledAt": "2026-11-21T13:30:00.000Z"
 }
