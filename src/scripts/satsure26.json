@@ -1,0 +1,50 @@
+{
+  "id": "satsure26",
+  "title": "He left ISRO to point satellites at Indian farms instead",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-21",
+  "sources": [
+    "Business Standard, November 20, 2026 - Indian space startup SatSure raises Rs 60 crore from govt-backed space fund",
+    "The Ken - Why private banks are funding the next generation of satellites"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Prateep Basu spent years building satellites for ISRO.",
+      "sub": "Then he started a company to point them at crop fields and flood zones instead."
+    },
+    {
+      "kind": "point",
+      "text": "In 2017, Basu co-founded SatSure in Bengaluru, using satellite data to help banks, insurers, and governments make decisions about agriculture, infrastructure, and disaster response.",
+      "narration": "In twenty seventeen, Basu co founded SatSure in Bengaluru, using satellite data to help banks, insurers, and governments make decisions about agriculture, infrastructure, and disaster response."
+    },
+    {
+      "kind": "point",
+      "text": "One of its earliest wins was a crop-insurance contract with the Andhra Pradesh government - applied for from Switzerland, just before the deadline."
+    },
+    {
+      "kind": "stat",
+      "text": "SatSure just raised 60 crore rupees from a government-backed space fund, as part of an ongoing round.",
+      "stat": "Rs 60Cr",
+      "statLabel": "raised from Antariksh Venture Capital Fund, Nov 2026",
+      "narration": "SatSure just raised sixty crore rupees from a government backed space fund, valuing the company at around eight hundred seventy crore rupees."
+    },
+    {
+      "kind": "point",
+      "text": "The company is now valued at roughly 870 crore rupees, with private banks also lining up to invest in what satellite data can tell them about risk on the ground."
+    },
+    {
+      "kind": "closer",
+      "text": "He didn't leave space behind -",
+      "sub": "he just pointed it at problems closer to home.",
+      "narration": "He didn't leave space behind. He just pointed it at problems closer to home."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "Prateep Basu spent years building satellites for ISRO. Then he started a company to point them at crop fields and flood zones instead.\n\nIn 2017, Basu co-founded SatSure in Bengaluru, using satellite data to help banks, insurers, and governments make decisions about agriculture, infrastructure, and disaster response. One of its earliest wins was a crop-insurance contract with the Andhra Pradesh government, applied for from Switzerland just before the deadline.\n\nSatSure just raised Rs 60 crore from a government-backed space fund as part of an ongoing round, valuing the company at roughly Rs 870 crore - with private banks also lining up to invest in what satellite data can tell them about risk on the ground.\n\nHe didn't leave space behind. He just pointed it at problems closer to home.\n\nSources: Business Standard, The Ken",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#SpaceTech", "#BuilderStory", "#India2047", "#StartupIndia", "#ISRO"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1962",
+      "headline": "120 men held a mountain pass until their last round of ammunition ran out."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 18, 1962, Charlie Company of the 13th Kumaon Regiment defended Rezang La pass in Ladakh until they had nothing left to fight with.",
+      "body": "Under Major Shaitan Singh, roughly 120 men held the position against a much larger Chinese force for nearly 18 hours during the Sino-Indian War. Official Indian Army history records only 14 survivors."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it's remembered for",
+      "headline": "It became one of the most storied last-stand battles in Indian military history.",
+      "body": "Major Shaitan Singh was posthumously awarded the Param Vir Chakra, India's highest military decoration for gallantry. The battle is still studied and commemorated as an example of holding a position at any cost."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still draws on the resolve of soldiers who held their ground when the odds offered no other outcome.",
+      "body": "Rezang La wasn't a battle India won on paper - but the stand itself became part of what the country points to when it talks about what it's capable of defending."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "The Tribune - Saga of last man, last round at Rezang La",
+      "url": "https://tribuneindia.com/news/saga-of-last-man-last-round-at-rezang-la"
+    },
+    {
+      "text": "Wikipedia - Battle of Rezang La",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Rezang_La"
+    }
+  ]
+}

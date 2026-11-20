@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1963",
+      "headline": "India's first rocket parts arrived at the launch site by bicycle and bullock cart."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 21, 1963, India launched its first sounding rocket from Thumba, near Thiruvananthapuram, Kerala.",
+      "body": "The US-supplied Nike-Apache rocket carried a French payload, and a local church, St. Mary Magdalene, was converted into an early assembly facility and control room. Vikram Sarabhai and a young Abdul Kalam were both central to the launch."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What it started",
+      "headline": "That one rocket became the starting point for ISRO.",
+      "body": "The Thumba Equatorial Rocket Launching Station built around that first launch grew into the infrastructure base for India's entire space program, from early sounding rockets to Chandrayaan and Gaganyaan decades later."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still runs on the same instinct that moved rocket parts by bullock cart - start with what you have.",
+      "body": "India's space program didn't begin with a launch pad. It began with a fishing village, a church, and two scientists willing to improvise their way to orbit."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ISRO - Diamond Jubilee of the First Sounding Rocket Launch",
+      "url": "https://www.isro.gov.in/ISRO_EN/diamond_jubilee_first_sounding_rocket_launch.html"
+    },
+    {
+      "text": "The Better India - The story of India's first rocket launch from Thumba",
+      "url": "https://www.thebetterindia.com/74283/first-rocket-india-thumba-vikram-sarabhai-abdul-kalam/"
+    }
+  ]
+}

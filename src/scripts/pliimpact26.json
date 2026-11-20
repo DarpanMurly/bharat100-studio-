@@ -1,0 +1,54 @@
+{
+  "id": "pliimpact26",
+  "title": "India's PLI schemes hit 76% of their investment target. Jobs are a different story.",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-20",
+  "sources": [
+    "NITI Aayog, November 2026 - Impact Assessment of PLI Schemes (with IIM Ahmedabad)",
+    "ThePrint, November 2026 - PLI schemes drive Rs 22.6 lakh cr in output on Rs 2.4 lakh cr investment, job creation lags",
+    "Free Press Journal, November 2026 - PLI Schemes Achieve 28% Of Jobs Target, 76% Of Investment Goal"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "India's Production Linked Incentive schemes promised investment, output, and jobs.",
+      "sub": "A new government assessment shows which of those three actually showed up."
+    },
+    {
+      "kind": "stat",
+      "text": "Investment under the PLI schemes has reached 76% of its full-tenure target.",
+      "stat": "Rs 2.4L Cr",
+      "statLabel": "PLI investment achieved, 76% of target",
+      "narration": "Investment under the PLI schemes has reached two point four lakh crore rupees, seventy six percent of the full tenure target."
+    },
+    {
+      "kind": "stat",
+      "text": "Production and sales under the schemes reached Rs 22.6 lakh crore - 64% of target.",
+      "stat": "Rs 22.6L Cr",
+      "statLabel": "PLI production/sales achieved, 64% of target",
+      "narration": "Production and sales under the schemes reached twenty two point six lakh crore rupees, sixty four percent of target."
+    },
+    {
+      "kind": "point",
+      "text": "Jobs are the weak link: the schemes have created 8.49 lakh jobs against a target of 30.2 lakh - just 28%.",
+      "narration": "Jobs are the weak link. The schemes have created eight point four nine lakh jobs against a target of thirty point two lakh, just twenty eight percent."
+    },
+    {
+      "kind": "point",
+      "text": "NITI Aayog's own report flags specific underperformers - bulk drugs exports, medical device employment, and IT hardware investment among them."
+    },
+    {
+      "kind": "closer",
+      "text": "A scheme that moved money and output faster than jobs -",
+      "sub": "that's not a failure, but it's not the full promise either.",
+      "narration": "A scheme that moved money and output faster than jobs. That's not a failure, but it's not the full promise either."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "India's Production Linked Incentive schemes promised investment, output, and jobs. A new government assessment shows which of those three actually showed up.\n\nInvestment reached Rs 2.4 lakh crore - 76% of target. Production and sales hit Rs 22.6 lakh crore - 64% of target.\n\nJobs are the weak link: 8.49 lakh created against a target of 30.2 lakh - just 28%. NITI Aayog's own report flags underperformers including bulk drugs exports, medical device employment, and IT hardware investment.\n\nA scheme that moved money and output faster than jobs. That's not a failure, but it's not the full promise either.\n\nSources: NITI Aayog (with IIM Ahmedabad), ThePrint, Free Press Journal (November 2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#PLIScheme", "#MakeInIndia", "#Manufacturing", "#India2047", "#EconomicPolicy", "#NITIAayog", "#Jobs", "#IndiaGrowth"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

@@ -38,6 +38,7 @@ import ceramat26 from "./scripts/ceramat26.json";
 import cgsemi26 from "./scripts/cgsemi26.json";
 import chennaiport26 from "./scripts/chennaiport26.json";
 import chivukula26 from "./scripts/chivukula26.json";
+import coalrecord26 from "./scripts/coalrecord26.json";
 import coffeeexports26 from "./scripts/coffeeexports26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
@@ -112,6 +113,7 @@ import parassemi26 from "./scripts/parassemi26.json";
 import pfbr26 from "./scripts/pfbr26.json";
 import pharmaexports26 from "./scripts/pharmaexports26.json";
 import pixxel26 from "./scripts/pixxel26.json";
+import pliimpact26 from "./scripts/pliimpact26.json";
 import pmioct26 from "./scripts/pmioct26.json";
 import pmrc26 from "./scripts/pmrc26.json";
 import portslogistics26 from "./scripts/portslogistics26.json";
@@ -126,6 +128,7 @@ import rewachurhat26 from "./scripts/rewachurhat26.json";
 import sagarmanthan26 from "./scripts/sagarmanthan26.json";
 import samarth26 from "./scripts/samarth26.json";
 import sanjeevarora26 from "./scripts/sanjeevarora26.json";
+import satsure26 from "./scripts/satsure26.json";
 import semicabinet26 from "./scripts/semicabinet26.json";
 import semicon2 from "./scripts/semicon2.json";
 import semiconductors from "./scripts/semiconductors.json";
@@ -168,6 +171,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "cgsemi26": cgsemi26 as VideoScript,
   "chennaiport26": chennaiport26 as VideoScript,
   "chivukula26": chivukula26 as VideoScript,
+  "coalrecord26": coalrecord26 as VideoScript,
   "coffeeexports26": coffeeexports26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
@@ -242,6 +246,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "pfbr26": pfbr26 as VideoScript,
   "pharmaexports26": pharmaexports26 as VideoScript,
   "pixxel26": pixxel26 as VideoScript,
+  "pliimpact26": pliimpact26 as VideoScript,
   "pmioct26": pmioct26 as VideoScript,
   "pmrc26": pmrc26 as VideoScript,
   "portslogistics26": portslogistics26 as VideoScript,
@@ -256,6 +261,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "sagarmanthan26": sagarmanthan26 as VideoScript,
   "samarth26": samarth26 as VideoScript,
   "sanjeevarora26": sanjeevarora26 as VideoScript,
+  "satsure26": satsure26 as VideoScript,
   "semicabinet26": semicabinet26 as VideoScript,
   "semicon2": semicon2 as VideoScript,
   "semiconductors": semiconductors as VideoScript,

@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2016",
+      "headline": "She'd lost her first Super Series final the year before. This time, she didn't let it slip."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 20, 2016, PV Sindhu beat China's Sun Yu to win the China Open, her first Super Series Premier title.",
+      "body": "Sindhu won 21-11, 17-21, 21-11 in Fuzhou - the top tier of the BWF Super Series circuit at the time, and a bigger title than the Denmark Open final she'd lost the year before."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it mattered",
+      "headline": "It was proof she could finish what her near-misses had started.",
+      "body": "Sindhu had already won Olympic silver at Rio 2016 just months earlier. The China Open title showed that result wasn't a one-off - it was the start of a run that would eventually include a World Championship gold."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat keeps producing athletes who turn a near-miss into the next title.",
+      "body": "Sindhu's China Open win is one data point in a longer pattern - Indian badminton's rise from occasional upsets to a program that expects to win at the top level."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "BWF Badminton - 'Great Wall' Breached: Thaihot China Open 2016 Finals",
+      "url": "https://bwfbadminton.com"
+    },
+    {
+      "text": "Business Standard - Sindhu wins China Open final",
+      "url": "https://www.business-standard.com"
+    }
+  ]
+}

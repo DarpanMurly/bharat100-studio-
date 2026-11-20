@@ -1,0 +1,54 @@
+{
+  "id": "coalrecord26",
+  "title": "India's coal supply just hit an all-time monthly high",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-21",
+  "sources": [
+    "Construction World, November 2026 - Coal India October supplies rise 19% to record 70.3 Mn T",
+    "NewKerala, November 10, 2026 - Coal India's monthly coal supply hits record 70.3",
+    "Indian Masterminds, November 2026 - Coal India record production and supply, October 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Coal still powers most of India's grid.",
+      "sub": "Last month, Coal India moved more of it in a single month than ever before."
+    },
+    {
+      "kind": "stat",
+      "text": "Coal India supplied 70.3 million tonnes of coal in October 2026 - its highest-ever monthly supply.",
+      "stat": "70.3 MT",
+      "statLabel": "Coal India supply, October 2026 (record)",
+      "narration": "Coal India supplied seventy point three million tonnes of coal in October twenty twenty six, its highest ever monthly supply."
+    },
+    {
+      "kind": "point",
+      "text": "That beat the previous record of 69.4 million tonnes, set just seven months earlier, in March 2026.",
+      "narration": "That beat the previous record of sixty nine point four million tonnes, set just seven months earlier, in March twenty twenty six."
+    },
+    {
+      "kind": "stat",
+      "text": "Production also hit a record - 67.2 million tonnes, up 19% year-on-year.",
+      "stat": "67.2 MT",
+      "statLabel": "Coal India production, October 2026, up 19% YoY",
+      "narration": "Production also hit a record, sixty seven point two million tonnes, up nineteen percent year on year."
+    },
+    {
+      "kind": "point",
+      "text": "Supply to the power sector alone reached an all-time monthly high of 57.1 million tonnes - keeping the grid running through peak demand."
+    },
+    {
+      "kind": "closer",
+      "text": "India's energy transition is real -",
+      "sub": "but coal is still the backbone keeping the lights on while it happens.",
+      "narration": "India's energy transition is real. But coal is still the backbone keeping the lights on while it happens."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Coal still powers most of India's grid. Last month, Coal India moved more of it in a single month than ever before.\n\nCoal India supplied 70.3 million tonnes of coal in October 2026 - its highest-ever monthly supply, beating the previous record of 69.4 million tonnes set just seven months earlier in March 2026.\n\nProduction also hit a record: 67.2 million tonnes, up 19% year-on-year. Supply to the power sector alone reached an all-time monthly high of 57.1 million tonnes, keeping the grid running through peak demand.\n\nIndia's energy transition is real. But coal is still the backbone keeping the lights on while it happens.\n\nSources: Construction World, NewKerala, Indian Masterminds (November 2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#CoalIndia", "#EnergySecurity", "#India2047", "#Infrastructure", "#PowerSector", "#IndiaGrowth"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}
