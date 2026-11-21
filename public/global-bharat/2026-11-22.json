@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He grew up in India, taught at Harvard - and just became one of Asia's top economists."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Karthik Muralidharan was named Chief Economist and Director General at the Asian Development Bank on November 18, 2026.",
+      "body": "Muralidharan grew up in India before earning degrees at Harvard and Cambridge. He currently holds the Tata Chancellor's Professorship in Economics at UC San Diego, and will take charge of ADB's economic research and forecasting for Asia-Pacific starting July 2027."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he's known for",
+      "headline": "He's spent years working directly with Indian state governments on real policy, not just theory.",
+      "body": "Muralidharan founded the Centre for Effective Governance of Indian States, which partners with Indian state governments to test and improve public service delivery - the kind of applied research he'll now bring to the entire Asia-Pacific region."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when the people shaping its policy conversations also sit at the tables that set the region's economic agenda.",
+      "body": "Muralidharan's new role puts someone with hands-on India policy experience in charge of the research that shapes how Asia's biggest development bank sees the region's growth."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Business Standard - ADB names Karthik Muralidharan chief economist, succeeding Albert Park",
+      "url": "https://www.business-standard.com"
+    },
+    {
+      "text": "American Bazaar - ADB appoints Karthik Muralidharan as Chief Economist",
+      "url": "https://americanbazaaronline.com/2026/11/19/adb-appoints-karthik-muralidharan-as-chief-economist-492640/"
+    }
+  ]
+}

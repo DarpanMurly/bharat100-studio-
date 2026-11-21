@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1968",
+      "headline": "A state spent a year asking to be renamed. Parliament finally said yes on this day."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 22, 1968, the Lok Sabha passed the Madras State (Alteration of Name) Bill, renaming Madras State to Tamil Nadu.",
+      "body": "The change began with the state assembly's unanimous resolution in July 1967. Parliament's debate and passage of the bill in November 1968 cleared the way for the new name to formally take effect in January 1969."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why the name mattered",
+      "headline": "\"Tamil Nadu\" - land of the Tamils - replaced a name tied to the colonial-era Madras Presidency.",
+      "body": "The renaming reflected a broader wave of linguistic-identity state naming in post-independence India, aligning the state's official name with its language and culture rather than its colonial administrative history."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is still a country of states that fought, through Parliament rather than against it, to be called what they actually are.",
+      "body": "Tamil Nadu's renaming is one small, specific example of a democracy processing identity through its own institutions instead of outside them."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "DTNext - Tamil Nadu got its name 50 yrs ago this day",
+      "url": "https://www.dtnext.in/news/tamilnadu/tamil-nadu-got-its-name-50-yrs-ago-this-day"
+    },
+    {
+      "text": "Lok Sabha Parliamentary Debates, 22 November 1968 (eparlib.sansad.in)",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/870713/1/04_VI_22-11-1968_p118_p134_PII.pdf"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "lenskart26",
+  "title": "A year after taking his company public, he's giving away 100,000 pairs of glasses",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-22",
+  "sources": [
+    "YourStory, November 2026 - 'What we have done is not enough': Lenskart CEO a year after IPO",
+    "People Matters, November 2026 - 'What we have done is not enough' says Lenskart CEO as he eyes 10 Cr eyewear units a year",
+    "LapaasVoice, November 2026 - Lenskart makes blue light lenses standard in India to gift glasses to 1 lakh children"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "A year after taking Lenskart public, Peyush Bansal said one thing out loud.",
+      "sub": "\"What we have done is not enough.\""
+    },
+    {
+      "kind": "point",
+      "text": "Bansal co-founded Lenskart in 2010, built it into India's largest eyewear retailer, and took it public in 2025.",
+      "narration": "Bansal co founded Lenskart in twenty ten, built it into India's largest eyewear retailer, and took it public in twenty twenty five."
+    },
+    {
+      "kind": "stat",
+      "text": "This November, Lenskart made blue-light filtering lenses a standard, no-extra-charge feature across its India stores.",
+      "stat": "100,000",
+      "statLabel": "free glasses pledged for children aged 5-12, Nov 2026",
+      "narration": "This November, Lenskart made blue light filtering lenses a standard feature at no extra charge, and pledged free glasses for the first one hundred thousand eligible children, ages five to twelve."
+    },
+    {
+      "kind": "point",
+      "text": "Children get the frame and prescription lenses for just a 199 rupee fitting fee, with free eye tests for ages 8 to 12 - timed to India's Children's Day."
+    },
+    {
+      "kind": "closer",
+      "text": "He built India's largest eyewear retailer -",
+      "sub": "then used that scale to put glasses on kids who couldn't afford them.",
+      "narration": "He built India's largest eyewear retailer. Then used that scale to put glasses on kids who couldn't afford them."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "A year after taking Lenskart public, Peyush Bansal said one thing out loud: \"What we have done is not enough.\"\n\nBansal co-founded Lenskart in 2010, built it into India's largest eyewear retailer, and took it public in 2025. This November, Lenskart made blue-light filtering lenses a standard, no-extra-charge feature across its India stores, and pledged free glasses for the first 100,000 eligible children aged 5-12 - just a Rs 199 fitting fee, with free eye tests for ages 8-12, timed to India's Children's Day.\n\nHe built India's largest eyewear retailer. Then used that scale to put glasses on kids who couldn't afford them.\n\nSources: YourStory, People Matters, LapaasVoice (November 2026)",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#Lenskart", "#BuilderStory", "#India2047", "#SocialImpact", "#StartupIndia"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}
