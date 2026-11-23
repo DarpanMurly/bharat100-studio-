@@ -1,0 +1,46 @@
+{
+  "id": "nidhipant26",
+  "title": "Farmers were losing a third of their harvest to spoilage. She built a machine to stop that.",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-23",
+  "sources": [
+    "India CSR / Schwab Foundation - 2026 Social Entrepreneur of the Year India awardees",
+    "Eco-Business - Linking smallholders to markets: Earthshot Prize winner S4S Technologies"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Smallholder farmers across India lose huge amounts of produce to spoilage before it ever reaches a market.",
+      "sub": "Nidhi Pant built a machine small enough to fix that on the farm itself."
+    },
+    {
+      "kind": "point",
+      "text": "Pant co-founded S4S Technologies, building low-cost, solar-powered dehydration units that let farmers and rural women process surplus produce into shelf-stable products instead of losing it.",
+      "narration": "Pant co founded S4S Technologies, building low cost, solar powered dehydration units that let farmers and rural women process surplus produce into shelf stable products instead of losing it."
+    },
+    {
+      "kind": "point",
+      "text": "The model has turned rural women into micro-entrepreneurs, with reported income increases of up to 15% for the smallholder farmers it works with."
+    },
+    {
+      "kind": "stat",
+      "text": "In 2026, Pant won the Social Entrepreneur of the Year India award from the Jubilant Bhartia and Schwab Foundations.",
+      "stat": "2026",
+      "statLabel": "Social Entrepreneur of the Year India, Jubilant Bhartia + Schwab Foundation",
+      "narration": "In twenty twenty six, Pant won the Social Entrepreneur of the Year India award from the Jubilant Bhartia and Schwab Foundations. S4S Technologies had already won the Earthshot Prize for the same work."
+    },
+    {
+      "kind": "closer",
+      "text": "She didn't build a bigger farm -",
+      "sub": "she built the machine that keeps what was already grown from going to waste.",
+      "narration": "She didn't build a bigger farm. She built the machine that keeps what was already grown from going to waste."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "Smallholder farmers across India lose huge amounts of produce to spoilage before it ever reaches a market. Nidhi Pant built a machine small enough to fix that on the farm itself.\n\nPant co-founded S4S Technologies, building low-cost, solar-powered dehydration units that let farmers and rural women process surplus produce into shelf-stable products instead of losing it. The model has turned rural women into micro-entrepreneurs, with reported income increases of up to 15% for the smallholder farmers it works with.\n\nIn 2026, Pant won the Social Entrepreneur of the Year India award from the Jubilant Bhartia and Schwab Foundations - S4S Technologies had already won the Earthshot Prize for the same work.\n\nShe didn't build a bigger farm. She built the machine that keeps what was already grown from going to waste.\n\nSources: India CSR / Schwab Foundation, Eco-Business",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#BuilderStory", "#WomenEntrepreneurs", "#India2047", "#RuralIndia", "#SocialImpact"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

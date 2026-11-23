@@ -1,0 +1,46 @@
+{
+  "id": "funyamin26",
+  "title": "He dropped out of school in 6th grade to sell samosas. Last week, a Union Minister gave him an award named after JRD Tata",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-24",
+  "sources": [
+    "UNI India, November 17, 2026 - JRD Tata Awards 2026, Nitin Gadkari honours winners",
+    "India CSR - Union Minister Nitin Gadkari Honours Winners at JRD Tata Awards 2026"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "J. Haja Funyamin dropped out of school in 6th grade and sold samosas on a Chennai street.",
+      "sub": "On November 17, 2026, a Union Minister gave him an award named after JRD Tata."
+    },
+    {
+      "kind": "point",
+      "text": "Funyamin grew up in his family's small samosa business in Pudupet, Chennai. In 2008, he took a loan, bought a freezer, and started Hafa Foods from a rented unit in Red Hills.",
+      "narration": "Funyamin grew up in his family's small samosa business in Pudupet, Chennai. In two thousand eight, he took a loan, bought a freezer, and started Hafa Foods from a rented unit in Red Hills."
+    },
+    {
+      "kind": "stat",
+      "text": "Hafa Foods now reports Rs 15.58 crore in turnover, exporting frozen samosas to five countries.",
+      "stat": "Rs 15.58Cr",
+      "statLabel": "Hafa Foods turnover, exports to UAE, US, Canada, Singapore, Sri Lanka",
+      "narration": "Hafa Foods now reports fifteen point five eight crore rupees in turnover, exporting frozen samosas to the UAE, the US, Canada, Singapore, and Sri Lanka."
+    },
+    {
+      "kind": "point",
+      "text": "On November 17, 2026, Union Minister Nitin Gadkari named him Entrepreneur of the Year at the JRD Tata Awards, instituted in tribute to the legendary industrialist."
+    },
+    {
+      "kind": "closer",
+      "text": "He didn't leave the samosa business behind to build something bigger -",
+      "sub": "he built something bigger out of the samosa business.",
+      "narration": "He didn't leave the samosa business behind to build something bigger. He built something bigger out of the samosa business."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "J. Haja Funyamin dropped out of school in 6th grade and sold samosas on a Chennai street. On November 17, 2026, a Union Minister gave him an award named after JRD Tata.\n\nFunyamin grew up in his family's small samosa business in Pudupet, Chennai. In 2008, he took a loan, bought a freezer, and started Hafa Foods from a rented unit in Red Hills. The company now reports Rs 15.58 crore in turnover, exporting frozen samosas to the UAE, the US, Canada, Singapore, and Sri Lanka.\n\nOn November 17, 2026, Union Minister Nitin Gadkari named him Entrepreneur of the Year at the JRD Tata Awards, instituted in tribute to the legendary industrialist.\n\nHe didn't leave the samosa business behind to build something bigger. He built something bigger out of the samosa business.\n\nSources: UNI India, India CSR",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#BuilderStory", "#JRDTataAwards", "#India2047", "#StartupIndia", "#Entrepreneurship"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

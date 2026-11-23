@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1675",
+      "headline": "He was executed for refusing to abandon his faith. Every November 24, Sikhs mark the day he chose it anyway."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Guru Tegh Bahadur, the ninth Sikh Guru, was executed in Delhi in November 1675 on the orders of Mughal emperor Aurangzeb.",
+      "body": "His martyrdom is commemorated every year on November 24 as Shaheedi Divas - the fixed date set by the Nanakshahi calendar - after he refused to convert and chose execution over abandoning his faith."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why it's still marked",
+      "headline": "He died defending the right of others to practice their own faith, not just his own.",
+      "body": "Guru Tegh Bahadur's stand is remembered as a defense of religious freedom broadly, not only for Sikhs - a sacrifice made on behalf of people outside his own community who were facing the same pressure to convert."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still draws on the example of someone who paid the ultimate price for someone else's right to believe freely.",
+      "body": "Shaheedi Divas is marked across India every year as a reminder that religious freedom in India has always had defenders willing to risk everything for it."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Tribune India - 350 years of the Guru Tegh Bahadur's martyrdom",
+      "url": "https://www.tribuneindia.com/news/spectrum/350-years-of-the-guru-tegh-bahadurs-martyrdom"
+    },
+    {
+      "text": "SikhiWiki - Martyrdom of Guru Tegh Bahadur",
+      "url": "https://www.sikhiwiki.org/index.php/Martyrdom_of_Guru_Tegh_Bahadar"
+    }
+  ]
+}

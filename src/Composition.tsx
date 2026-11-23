@@ -67,6 +67,7 @@ import exports1trillion26 from "./scripts/exports1trillion26.json";
 import exportsrecord26 from "./scripts/exportsrecord26.json";
 import exportssep26 from "./scripts/exportssep26.json";
 import fpirecord26 from "./scripts/fpirecord26.json";
+import funyamin26 from "./scripts/funyamin26.json";
 import galaxeye26 from "./scripts/galaxeye26.json";
 import gangaexp26 from "./scripts/gangaexp26.json";
 import gangwal26 from "./scripts/gangwal26.json";
@@ -94,6 +95,7 @@ import kavach26 from "./scripts/kavach26.json";
 import kaynessemicon26 from "./scripts/kaynessemicon26.json";
 import kewalramani26 from "./scripts/kewalramani26.json";
 import kochhar26 from "./scripts/kochhar26.json";
+import lakhpatimilestone26 from "./scripts/lakhpatimilestone26.json";
 import lalwani26 from "./scripts/lalwani26.json";
 import lamresearch26 from "./scripts/lamresearch26.json";
 import latadesai26 from "./scripts/latadesai26.json";
@@ -109,6 +111,7 @@ import msftskill26 from "./scripts/msftskill26.json";
 import mumbaimetro26 from "./scripts/mumbaimetro26.json";
 import musunuru26 from "./scripts/musunuru26.json";
 import nfapunicorns26 from "./scripts/nfapunicorns26.json";
+import nidhipant26 from "./scripts/nidhipant26.json";
 import nori26 from "./scripts/nori26.json";
 import panchanathan26 from "./scripts/panchanathan26.json";
 import parassemi26 from "./scripts/parassemi26.json";
@@ -202,6 +205,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "exportsrecord26": exportsrecord26 as VideoScript,
   "exportssep26": exportssep26 as VideoScript,
   "fpirecord26": fpirecord26 as VideoScript,
+  "funyamin26": funyamin26 as VideoScript,
   "galaxeye26": galaxeye26 as VideoScript,
   "gangaexp26": gangaexp26 as VideoScript,
   "gangwal26": gangwal26 as VideoScript,
@@ -229,6 +233,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "kaynessemicon26": kaynessemicon26 as VideoScript,
   "kewalramani26": kewalramani26 as VideoScript,
   "kochhar26": kochhar26 as VideoScript,
+  "lakhpatimilestone26": lakhpatimilestone26 as VideoScript,
   "lalwani26": lalwani26 as VideoScript,
   "lamresearch26": lamresearch26 as VideoScript,
   "latadesai26": latadesai26 as VideoScript,
@@ -244,6 +249,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "mumbaimetro26": mumbaimetro26 as VideoScript,
   "musunuru26": musunuru26 as VideoScript,
   "nfapunicorns26": nfapunicorns26 as VideoScript,
+  "nidhipant26": nidhipant26 as VideoScript,
   "nori26": nori26 as VideoScript,
   "panchanathan26": panchanathan26 as VideoScript,
   "parassemi26": parassemi26 as VideoScript,

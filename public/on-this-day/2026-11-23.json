@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1937",
+      "headline": "Some historians say he beat Marconi to radio waves. He never patented it."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Jagadish Chandra Bose, the physicist and biologist who pioneered radio wave research, died on November 23, 1937, in Giridih, Bihar.",
+      "body": "Bose demonstrated wireless signal transmission using microwaves as early as 1895, and was among the first to use a semiconductor junction to detect radio waves - work that predates Guglielmo Marconi's famous demonstrations, though Bose never patented it."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What else he built",
+      "headline": "He also invented a device to measure how plants respond to stimuli - and founded Asia's first interdisciplinary research institute.",
+      "body": "His crescograph could detect and record subtle plant movements invisible to the naked eye. In 1917, he founded the Bose Institute in Kolkata, often called the first interdisciplinary research centre in Asia."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat still draws on the example of a scientist who built the future and let the credit sort itself out.",
+      "body": "Bose's refusal to patent his radio work meant less personal gain, but it set a precedent for Indian science as something built in the open, for everyone to build on."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Britannica - Jagadish Chandra Bose",
+      "url": "https://britannica.com/biography/Jagadish-Chandra-Bose"
+    },
+    {
+      "text": "MapsOfIndia - 23rd November 1937: Jagadish Chandra Bose passed away",
+      "url": "https://www.mapsofindia.com/on-this-day/23rd-november-1937-jagadish-chandra-bose-indian-physicist-passed-away"
+    }
+  ]
+}

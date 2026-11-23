@@ -1,0 +1,83 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "Weekly Recap",
+      "headline": "This week in India's growth story."
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Monday, Nov 16",
+      "headline": "2 stories.",
+      "listItems": [
+        "She grew up in India, studied at Osmania University - and just won Harvard's highest honor for alumni.",
+        "He was executed at 19 for plotting an armed uprising against British rule. Bhagat Singh later carried his photo."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Tuesday, Nov 17",
+      "headline": "1 story.",
+      "listItems": [
+        "He was beaten by police for leading a protest. His death radicalized the generation that followed him."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Wednesday, Nov 18",
+      "headline": "1 story.",
+      "listItems": [
+        "120 men held a mountain pass until their last round of ammunition ran out."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Thursday, Nov 19",
+      "headline": "1 story.",
+      "listItems": [
+        "She grew up in a small Haryana town dreaming of flight. On this day, she left the atmosphere."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Friday, Nov 20",
+      "headline": "2 stories.",
+      "listItems": [
+        "She'd lost her first Super Series final the year before. This time, she didn't let it slip.",
+        "India's Production Linked Incentive schemes promised investment, output and jobs. A new government assessment shows which of those three actually showed up."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Saturday, Nov 21",
+      "headline": "3 stories.",
+      "listItems": [
+        "Coal still powers most of India's grid. Last month, Coal India moved more of it in a single month than ever before.",
+        "India's first rocket parts arrived at the launch site by bicycle and bullock cart.",
+        "Prateep Basu spent years building satellites for ISRO. Then he started a company to point them at crop fields and flood zones instead."
+      ]
+    },
+    {
+      "kind": "recap-list",
+      "eyebrow": "Sunday, Nov 22",
+      "headline": "4 stories.",
+      "listItems": [
+        "Foreign investors had been cautious on Indian stocks for months. In November, that changed - fast.",
+        "He grew up in India, taught at Harvard - and just became one of Asia's top economists.",
+        "A year after taking Lenskart public, Peyush Bansal said one thing out loud: \"What we have done is not enough.\"",
+        "A state spent a year asking to be renamed. Parliament finally said yes on this day."
+      ]
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "Every week adds another piece.",
+      "body": "None of these stories are the whole picture on their own - the picture is what they add up to, one week at a time, for the next 20 years."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for next week's stories."
+    }
+  ]
+}
