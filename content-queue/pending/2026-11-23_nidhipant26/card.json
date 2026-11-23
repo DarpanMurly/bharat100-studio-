@@ -23,7 +23,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-23_nidhipant26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 1087,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -32,5 +32,20 @@
     "Facebook",
     "Mastodon",
     "Bluesky"
-  ]
+  ],
+  "approvedAt": "2026-11-23T19:58:05.385Z",
+  "scheduledAt": "2026-11-23T20:10:05.616Z",
+  "bufferPostIds": {
+    "Instagram": "6b049ad3ac07df385d4f1655",
+    "X": "6b049ad5ac07df385d4f16ac",
+    "Threads": "6b049ad7d73c10ed4ca38ed3"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "v6JzV-eyfzg",
+  "youtubeUrl": "https://youtube.com/watch?v=v6JzV-eyfzg",
+  "youtubeScheduledAt": "2026-11-23T20:10:18.017Z",
+  "facebookPostId": "1180103128006229",
+  "facebookScheduledAt": "2026-11-23T20:10:30.788Z",
+  "mastodonStatusId": "295470",
+  "mastodonScheduledAt": "2026-11-23T20:10:37.280Z"
 }
