@@ -45,5 +45,7 @@
   "thumbnailSetOk": true,
   "youtubeVideoId": "i6hGAMBNIfM",
   "youtubeUrl": "https://youtube.com/watch?v=i6hGAMBNIfM",
-  "youtubeScheduledAt": "2026-11-23T20:09:13.632Z"
+  "youtubeScheduledAt": "2026-11-23T20:09:13.632Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3n2yyn2z3w72f",
+  "blueskyPostedAt": "2026-11-23T20:43:39.535Z"
 }

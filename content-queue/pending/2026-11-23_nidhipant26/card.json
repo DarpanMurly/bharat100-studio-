@@ -47,5 +47,7 @@
   "facebookPostId": "1180103128006229",
   "facebookScheduledAt": "2026-11-23T20:10:30.788Z",
   "mastodonStatusId": "295470",
-  "mastodonScheduledAt": "2026-11-23T20:10:37.280Z"
+  "mastodonScheduledAt": "2026-11-23T20:10:37.280Z",
+  "blueskyPostUri": "at://did:plc:qpuxotrsnxru3ntu2qtpdunj/app.bsky.feed.post/3n2yyn3medx2j",
+  "blueskyPostedAt": "2026-11-23T20:43:40.169Z"
 }
