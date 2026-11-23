@@ -12,7 +12,7 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-23_weekly-recap/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 25,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
@@ -37,5 +37,20 @@
     "2026-11-22_global-bharat",
     "2026-11-22_lenskart26",
     "2026-11-22_on-this-day-short"
-  ]
+  ],
+  "approvedAt": "2026-11-23T19:58:51.696Z",
+  "scheduledAt": "2026-11-23T20:10:51.900Z",
+  "bufferPostIds": {
+    "Instagram": "6b049b01f7265001e0cd8cca",
+    "X": "6b049b03ac07df385d4f2257",
+    "Threads": "6b049b04f813b76df1dc37f2"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "re7YLdtG4wU",
+  "youtubeUrl": "https://youtube.com/watch?v=re7YLdtG4wU",
+  "youtubeScheduledAt": "2026-11-23T20:11:02.832Z",
+  "facebookPostId": "1106371505766972",
+  "facebookScheduledAt": "2026-11-23T20:11:15.814Z",
+  "mastodonStatusId": "295471",
+  "mastodonScheduledAt": "2026-11-23T20:11:22.107Z"
 }
