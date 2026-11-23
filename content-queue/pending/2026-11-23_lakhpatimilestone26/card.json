@@ -23,11 +23,22 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-23_lakhpatimilestone26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 240,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
     "X",
     "Threads"
-  ]
+  ],
+  "approvedAt": "2026-11-23T19:57:31.245Z",
+  "scheduledAt": "2026-11-23T20:09:31.439Z",
+  "bufferPostIds": {
+    "Instagram": "6b049ab1f7265001e0cd6cf4",
+    "X": "6b049ab3f7265001e0cd6d6b",
+    "Threads": "6b049ab4a083c79d702ce48a"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "PA2cN617_YE",
+  "youtubeUrl": "https://youtube.com/watch?v=PA2cN617_YE",
+  "youtubeScheduledAt": "2026-11-23T20:09:43.123Z"
 }
