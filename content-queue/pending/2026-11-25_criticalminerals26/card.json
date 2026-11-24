@@ -23,11 +23,22 @@
   "videoPath": "bharat100-studio/content-queue/pending/2026-11-25_criticalminerals26/video.mp4",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailFrame": 172,
-  "status": "pending",
+  "status": "scheduled",
   "platforms": [
     "Instagram",
     "YouTube",
     "X",
     "Threads"
-  ]
+  ],
+  "approvedAt": "2026-11-24T14:47:42.376Z",
+  "scheduledAt": "2026-11-25T13:30:00.000Z",
+  "bufferPostIds": {
+    "Instagram": "6b05a3966e1cb68514e0d8ff",
+    "X": "6b05a3998adeac2bd9040e3d",
+    "Threads": "6b05a39b8adeac2bd9040f9d"
+  },
+  "thumbnailSetOk": true,
+  "youtubeVideoId": "b8J2Y3WRmpU",
+  "youtubeUrl": "https://youtube.com/watch?v=b8J2Y3WRmpU",
+  "youtubeScheduledAt": "2026-11-25T13:30:00.000Z"
 }
