@@ -1,0 +1,46 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "1949",
+      "headline": "The day before the Constitution was adopted, its own architect warned the country not to trust it blindly."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "On November 25, 1949, Dr. B.R. Ambedkar delivered his closing speech to the Constituent Assembly, a day before the Constitution was formally adopted.",
+      "body": "In the speech, Ambedkar warned that a good constitution alone couldn't guarantee good governance - if things went wrong, he said, it wouldn't be because the Constitution was bad, but because the people entrusted to run it failed to live up to it."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "Why the warning mattered",
+      "headline": "He placed the responsibility on citizens and institutions, not just on the document itself.",
+      "body": "Ambedkar's closing argument was that a constitution is only as good as the people who operate it - a caution aimed at every future generation, not just the one adopting it the next day."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat is still the responsibility Ambedkar described - a document that works only if the people running it choose to make it work.",
+      "body": "Nearly 80 years later, that warning is still the standard the country is measured against, not just the text of the Constitution itself."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Supreme Court of India - Dr. B.R. Ambedkar's Closing Speech, 25 Nov 1949",
+      "url": "https://main.sci.gov.in/AMB/pdf/Closing%20speech%2025%20Nov%201949.pdf"
+    },
+    {
+      "text": "ThePrint - Ambedkar's 1949 Constituent Assembly speech",
+      "url": "https://theprint.in/opinion/great-speeches/india-lost-independence-once-can-constitution-prevent-another-loss-ambedkar-asked/1859360"
+    }
+  ]
+}

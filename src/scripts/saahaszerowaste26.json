@@ -1,0 +1,46 @@
+{
+  "id": "saahaszerowaste26",
+  "title": "A former journalist turned Bengaluru's trash problem into a business that recovers 96% of what it handles",
+  "pillar": "Personal Growth",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-25",
+  "sources": [
+    "YourStory, 2026 - Wilma Rodrigues on waste as a resource, not a liability",
+    "Oko-Institut - Waste Management in India: A Woman Fights for the Circular Economy"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Wilma Rodrigues was a Mumbai journalist with no background in waste management.",
+      "sub": "She moved to Bengaluru in 2000 and built one of India's biggest circular-economy businesses anyway."
+    },
+    {
+      "kind": "point",
+      "text": "In 2001, Rodrigues started Saahas, a nonprofit helping implement India's first municipal solid waste rules on the ground in Bengaluru.",
+      "narration": "In two thousand one, Rodrigues started Saahas, a nonprofit helping implement India's first municipal solid waste rules on the ground in Bengaluru."
+    },
+    {
+      "kind": "point",
+      "text": "In 2013, she spun that work into Saahas Zero Waste, a for-profit circular-economy business managing waste for companies and institutions."
+    },
+    {
+      "kind": "stat",
+      "text": "In the last financial year, Saahas Zero Waste recovered over 96% of the waste it handled as a resource instead of sending it to a landfill.",
+      "stat": "96%",
+      "statLabel": "waste resource-recovered by Saahas Zero Waste, FY2024-25",
+      "narration": "In the last financial year, Saahas Zero Waste recovered over ninety six percent of the waste it handled as a resource instead of sending it to a landfill."
+    },
+    {
+      "kind": "closer",
+      "text": "She didn't wait for someone else to fix the waste problem -",
+      "sub": "she built the company that treats trash like a resource instead.",
+      "narration": "She didn't wait for someone else to fix the waste problem. She built the company that treats trash like a resource instead."
+    }
+  ],
+  "outroCta": "Follow for the next builder story",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next builder story.",
+  "caption": "Wilma Rodrigues was a Mumbai journalist with no background in waste management. She moved to Bengaluru in 2000 and built one of India's biggest circular-economy businesses anyway.\n\nIn 2001, Rodrigues started Saahas, a nonprofit helping implement India's first municipal solid waste rules on the ground in Bengaluru. In 2013, she spun that work into Saahas Zero Waste, a for-profit circular-economy business managing waste for companies and institutions.\n\nIn the last financial year, Saahas Zero Waste recovered over 96% of the waste it handled as a resource instead of sending it to a landfill.\n\nShe didn't wait for someone else to fix the waste problem. She built the company that treats trash like a resource instead.\n\nSources: YourStory, Oko-Institut",
+  "hashtags": ["#Bharat100", "#PersonalGrowth", "#BuilderStory", "#CircularEconomy", "#India2047", "#WasteManagement", "#WomenEntrepreneurs"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads", "Facebook", "Mastodon", "Bluesky"]
+}

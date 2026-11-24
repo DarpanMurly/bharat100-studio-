@@ -1,0 +1,46 @@
+{
+  "id": "criticalminerals26",
+  "title": "India just approved funding to build its own lithium and nickel processing plants",
+  "pillar": "Sector Futures",
+  "voice": "en-IN-PrabhatNeural",
+  "musicVolume": 0.08,
+  "publishDate": "2026-11-25",
+  "sources": [
+    "PMIndia, November 4, 2026 - Cabinet approves Capex Support Scheme to Promote Critical Mineral Processing",
+    "Inc42, November 2026 - Cabinet clears Rs 2,814 Cr scheme to boost lithium, nickel processing"
+  ],
+  "scenes": [
+    {
+      "kind": "hook",
+      "text": "Every EV battery needs processed lithium and nickel.",
+      "sub": "India barely processes any of it domestically - that's starting to change."
+    },
+    {
+      "kind": "stat",
+      "text": "The Union Cabinet approved a 2,814 crore rupee scheme to build domestic lithium and nickel processing plants.",
+      "stat": "Rs 2,814Cr",
+      "statLabel": "Capex Support Scheme for critical mineral processing, 5-year outlay",
+      "narration": "The Union Cabinet approved a two thousand eight hundred fourteen crore rupee scheme to build domestic lithium and nickel processing plants, over five years."
+    },
+    {
+      "kind": "point",
+      "text": "The scheme funds four new plants - two for lithium, two for nickel - with the government covering 30% of the capital cost through a competitive bidding process.",
+      "narration": "The scheme funds four new plants, two for lithium, two for nickel, with the government covering thirty percent of the capital cost through a competitive bidding process."
+    },
+    {
+      "kind": "point",
+      "text": "The goal is cutting India's reliance on imported refined critical minerals - the raw material bottleneck behind EVs, batteries, and renewable energy."
+    },
+    {
+      "kind": "closer",
+      "text": "You can build all the EV factories you want -",
+      "sub": "but someone still has to process the minerals that go inside the battery.",
+      "narration": "You can build all the EV factories you want. But someone still has to process the minerals that go inside the battery."
+    }
+  ],
+  "outroCta": "Follow for the next sector breakdown",
+  "outroNarration": "Follow Bhaarat, at, one hundred, for the next sector breakdown.",
+  "caption": "Every EV battery needs processed lithium and nickel. India barely processes any of it domestically - that's starting to change.\n\nThe Union Cabinet approved a Rs 2,814 crore scheme to build domestic lithium and nickel processing plants over five years. The scheme funds four new plants - two for lithium, two for nickel - with the government covering 30% of the capital cost through competitive bidding.\n\nThe goal is cutting India's reliance on imported refined critical minerals - the raw material bottleneck behind EVs, batteries, and renewable energy.\n\nYou can build all the EV factories you want. But someone still has to process the minerals that go inside the battery.\n\nSources: PMIndia, Inc42 (November 2026)",
+  "hashtags": ["#Bharat100", "#IndiaEconomy", "#CriticalMinerals", "#EVIndia", "#India2047", "#MakeInIndia", "#IndiaGrowth"],
+  "platforms": ["Instagram", "YouTube", "X", "Threads"]
+}

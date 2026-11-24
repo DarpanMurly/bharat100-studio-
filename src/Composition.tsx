@@ -40,6 +40,7 @@ import chennaiport26 from "./scripts/chennaiport26.json";
 import chivukula26 from "./scripts/chivukula26.json";
 import coalrecord26 from "./scripts/coalrecord26.json";
 import coffeeexports26 from "./scripts/coffeeexports26.json";
+import criticalminerals26 from "./scripts/criticalminerals26.json";
 import cynlr26 from "./scripts/cynlr26.json";
 import defence26 from "./scripts/defence26.json";
 import defenceprod26 from "./scripts/defenceprod26.json";
@@ -130,6 +131,7 @@ import ramanathan26 from "./scripts/ramanathan26.json";
 import renewables26 from "./scripts/renewables26.json";
 import repm26 from "./scripts/repm26.json";
 import rewachurhat26 from "./scripts/rewachurhat26.json";
+import saahaszerowaste26 from "./scripts/saahaszerowaste26.json";
 import sagarmanthan26 from "./scripts/sagarmanthan26.json";
 import samarth26 from "./scripts/samarth26.json";
 import sanjeevarora26 from "./scripts/sanjeevarora26.json";
@@ -178,6 +180,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "chivukula26": chivukula26 as VideoScript,
   "coalrecord26": coalrecord26 as VideoScript,
   "coffeeexports26": coffeeexports26 as VideoScript,
+  "criticalminerals26": criticalminerals26 as VideoScript,
   "cynlr26": cynlr26 as VideoScript,
   "defence26": defence26 as VideoScript,
   "defenceprod26": defenceprod26 as VideoScript,
@@ -268,6 +271,7 @@ const scriptRegistry: Record<string, VideoScript> = {
   "renewables26": renewables26 as VideoScript,
   "repm26": repm26 as VideoScript,
   "rewachurhat26": rewachurhat26 as VideoScript,
+  "saahaszerowaste26": saahaszerowaste26 as VideoScript,
   "sagarmanthan26": sagarmanthan26 as VideoScript,
   "samarth26": samarth26 as VideoScript,
   "sanjeevarora26": sanjeevarora26 as VideoScript,

@@ -1,0 +1,42 @@
+{
+  "theme": "heritage",
+  "slides": [
+    {
+      "kind": "cover",
+      "year": "2026",
+      "headline": "He was sent back to Kerala at age 4 for school. He just won a global award named after a US President."
+    },
+    {
+      "kind": "context",
+      "eyebrow": "What happened",
+      "headline": "Sunny Varkey won the 2026 Eisenhower Global Transformation Award at a New York gala on November 9, 2026.",
+      "body": "Born in Ranni, Kerala, Varkey's family moved to Dubai when he was very young, but he was sent back to Kerala around age 4 for schooling at a Catholic boarding school, returning to Dubai around 1970."
+    },
+    {
+      "kind": "detail",
+      "eyebrow": "What he's known for",
+      "headline": "He built the world's largest network of private K-12 schools - and a $1 million prize for teachers.",
+      "body": "Varkey founded GEMS Education, now the largest private K-12 school operator globally, and the Varkey Foundation, which created the Global Teacher Prize - the world's largest teaching award."
+    },
+    {
+      "kind": "closer",
+      "eyebrow": "Why it matters for Viksit Bharat 2047",
+      "headline": "A Viksit Bharat benefits when a Kerala schoolboy's education becomes the foundation for a global push to value teachers everywhere.",
+      "body": "Varkey's path - sent home to Kerala for his own schooling, now funding recognition for teachers worldwide - is a reminder that investment in education compounds far beyond where it starts."
+    },
+    {
+      "kind": "cta",
+      "headline": "Follow for tomorrow's story."
+    }
+  ],
+  "sources": [
+    {
+      "text": "ANI via The Print - Sunny Varkey honoured with 2026 Eisenhower Global Transformation Award",
+      "url": "https://theprint.in/ani-press-releases/sunny-varkey-founder-of-the-usd-1-million-global-teacher-prize-honoured-with-2026-eisenhower-global-transformation-award/3096996/"
+    },
+    {
+      "text": "Billionaires.Africa - Indian billionaire Sunny Varkey wins Eisenhower Global Award",
+      "url": "https://www.billionaires.africa/2026/11/18/indian-billionaire-sunny-varkey-founder-of-gems-schools-wins-eisenhower-global-award/"
+    }
+  ]
+}
