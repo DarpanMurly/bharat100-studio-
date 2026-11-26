@@ -40,5 +40,9 @@
   "thumbnailSetOk": true,
   "youtubeVideoId": "b8J2Y3WRmpU",
   "youtubeUrl": "https://youtube.com/watch?v=b8J2Y3WRmpU",
-  "youtubeScheduledAt": "2026-11-25T13:30:00.000Z"
+  "youtubeScheduledAt": "2026-11-25T13:30:00.000Z",
+  "bufferPostLinks": {
+    "Instagram": "https://www.instagram.com/reel/DgKpG_hB7Xt/",
+    "Threads": "https://www.threads.com/@bharatat100/post/DgKpF7QAmGB"
+  }
 }
